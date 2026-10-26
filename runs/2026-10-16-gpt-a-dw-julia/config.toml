@@ -1,0 +1,134 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+raw_location = "~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-julia"
+
+[[cases]]
+name = "roy02_flat"
+N = 2.0
+delta3 = 0.02
+raman = "roy"
+shock = 1.0
+n = 8192
+window = 256.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = false
+
+[[cases]]
+name = "roy02_damp"
+N = 2.0
+delta3 = 0.02
+raman = "roy"
+shock = 1.0
+n = 8192
+window = 256.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = true
+
+[[cases]]
+name = "roy01_flat"
+N = 2.0
+delta3 = 0.01
+raman = "roy"
+shock = 1.0
+n = 16384
+window = 384.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = false
+
+[[cases]]
+name = "roy01_damp"
+N = 2.0
+delta3 = 0.01
+raman = "roy"
+shock = 1.0
+n = 16384
+window = 384.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = true
+
+[[cases]]
+name = "core01_flat"
+N = 2.0
+delta3 = 0.01
+raman = "none"
+shock = 0.0
+n = 16384
+window = 320.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = false
+
+[[cases]]
+name = "core01_damp"
+N = 2.0
+delta3 = 0.01
+raman = "none"
+shock = 0.0
+n = 16384
+window = 320.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = true
+
+[[cases]]
+name = "alias_core01_flat"
+N = 2.0
+delta3 = 0.01
+raman = "none"
+shock = 0.0
+n = 4096
+window = 192.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = false
+
+[[cases]]
+name = "alias_core01_damp"
+N = 2.0
+delta3 = 0.01
+raman = "none"
+shock = 0.0
+n = 4096
+window = 192.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = true
+
+[[cases]]
+name = "alias_roy02_flat"
+N = 2.0
+delta3 = 0.02
+raman = "roy"
+shock = 1.0
+n = 2048
+window = 160.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = false
+
+[[cases]]
+name = "alias_roy02_damp"
+N = 2.0
+delta3 = 0.02
+raman = "roy"
+shock = 1.0
+n = 2048
+window = 160.0
+zmax = 4.0
+h = 0.00025
+shape = "sech"
+damping = true

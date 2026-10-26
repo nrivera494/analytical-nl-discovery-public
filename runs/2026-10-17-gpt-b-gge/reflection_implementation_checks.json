@@ -1,0 +1,20 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "M": 9,
+  "groups": [
+    0,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "isometry_error": 2.220446049250313e-16,
+  "rhs_error": 1.5700924586837752e-16,
+  "invariant_error": 2.220446049250313e-16
+}

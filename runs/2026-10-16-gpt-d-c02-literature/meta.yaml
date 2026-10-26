@@ -1,0 +1,11 @@
+run_id: 2026-10-16-gpt-d-c02-literature
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+claim: C-20261016-claude-interactive.6-02
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-d-c02-literature
+wall_time_s: null
+status: complete
+note: Read-only literature work; no solver execution or fabricated elapsed time.

@@ -1,0 +1,63 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "definition": "s=4 epsilon_cutoff delta; a=a_cutoff/(1-s)^(1/4)",
+  "cases": [
+    {
+      "q": 0.001,
+      "exact_s": 0.02738102327005848,
+      "closed_s": 0.027627019114594212,
+      "exact_eta_over_Ncut": 0.9920764219684898,
+      "closed_eta_over_Ncut": 0.9920922447210179,
+      "exact_alpha_distance_from_cutoff": 0.006940717465529816,
+      "closed_alpha_distance_from_cutoff": 0.007003955733658454,
+      "length_from_cutoff_ratio": 1.0091112004548093,
+      "omitted_delta_dlog_a_at_closed_point": 0.007102989196963829
+    },
+    {
+      "q": 0.003,
+      "exact_s": 0.06804576378799104,
+      "closed_s": 0.06967366177552473,
+      "exact_eta_over_Ncut": 0.9794845119754454,
+      "closed_eta_over_Ncut": 0.9795725710290579,
+      "exact_alpha_distance_from_cutoff": 0.017617892069735262,
+      "closed_alpha_distance_from_cutoff": 0.01805496326741594,
+      "length_from_cutoff_ratio": 1.0248083707148767,
+      "omitted_delta_dlog_a_at_closed_point": 0.01872290907846828
+    },
+    {
+      "q": 0.01,
+      "exact_s": 0.17183895423771928,
+      "closed_s": 0.18380479400538355,
+      "exact_eta_over_Ncut": 0.9435100851340429,
+      "closed_eta_over_Ncut": 0.943948298140119,
+      "exact_alpha_distance_from_cutoff": 0.04713691094914868,
+      "closed_alpha_distance_from_cutoff": 0.050775432398669725,
+      "length_from_cutoff_ratio": 1.077190494163826,
+      "omitted_delta_dlog_a_at_closed_point": 0.05629927517811098
+    },
+    {
+      "q": 0.03,
+      "exact_s": 0.3521646606497125,
+      "closed_s": 0.4171318427802327,
+      "exact_eta_over_Ncut": 0.8643390664726815,
+      "closed_eta_over_Ncut": 0.8648032630804006,
+      "exact_alpha_distance_from_cutoff": 0.1085296802152904,
+      "closed_alpha_distance_from_cutoff": 0.13494856590675383,
+      "length_from_cutoff_ratio": 1.2434254449018578,
+      "omitted_delta_dlog_a_at_closed_point": 0.17891346336790676
+    },
+    {
+      "q": 0.1,
+      "exact_s": 0.5787351944744443,
+      "closed_s": 0.8788898309344879,
+      "exact_eta_over_Ncut": 0.6909524641299389,
+      "closed_eta_over_Ncut": 0.6697414907005954,
+      "exact_alpha_distance_from_cutoff": 0.21612341282124778,
+      "closed_alpha_distance_from_cutoff": 0.5277636648708939,
+      "length_from_cutoff_ratio": 2.441955075489201,
+      "omitted_delta_dlog_a_at_closed_point": 1.814236239855033
+    }
+  ]
+}

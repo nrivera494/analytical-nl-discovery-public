@@ -1,0 +1,3506 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-18-gpt-b-condensate-squeezing",
+  "complete": true,
+  "missing_production_files": [],
+  "freeze_commit": "9db4bb6a67b640d79365810a984c3af5c6a9da92",
+  "ensembles": [
+    {
+      "name": "weak-disorder",
+      "z": 5,
+      "members": 12,
+      "mean": -7.49541507295701,
+      "sd": 1.3842086163906344,
+      "se": 0.39958660864386614,
+      "mean_95CI": [
+        -8.374899268750031,
+        -6.615930877163987
+      ],
+      "sd_95CI_normal_assumption": [
+        0.9805666716328918,
+        2.3502173817138194
+      ],
+      "f0_mean": 0.8029714690020008,
+      "f0_min": 0.7706302327710505,
+      "f0_max": 0.8235373324199111,
+      "max_approximation_error_dB": 0.053881701066537835,
+      "dt": 0.0025
+    },
+    {
+      "name": "weak-disorder",
+      "z": 10,
+      "members": 12,
+      "mean": -9.487072981254641,
+      "sd": 1.6511825497373347,
+      "se": 0.47665534478603144,
+      "mean_95CI": [
+        -10.536184321602917,
+        -8.437961640906366
+      ],
+      "sd_95CI_normal_assumption": [
+        1.1696897114223201,
+        2.803506554448496
+      ],
+      "f0_mean": 0.8295384147576224,
+      "f0_min": 0.8039100295740956,
+      "f0_max": 0.8552713171669011,
+      "max_approximation_error_dB": 0.01715247537006538,
+      "dt": 0.0025
+    },
+    {
+      "name": "weak-disorder",
+      "z": 20,
+      "members": 12,
+      "mean": -9.54704286951514,
+      "sd": 2.906485866140519,
+      "se": 0.8390301986060357,
+      "mean_95CI": [
+        -11.393735885508473,
+        -7.700349853521806
+      ],
+      "sd_95CI_normal_assumption": [
+        2.0589404936236564,
+        4.934858460945505
+      ],
+      "f0_mean": 0.8414727777809938,
+      "f0_min": 0.7983961789770581,
+      "f0_max": 0.8781739934853798,
+      "max_approximation_error_dB": 0.005109123029321855,
+      "dt": 0.0025
+    },
+    {
+      "name": "weak-disorder",
+      "z": 50,
+      "members": 12,
+      "mean": -8.849693500529732,
+      "sd": 4.297927481960329,
+      "se": 1.2407047943336433,
+      "mean_95CI": [
+        -11.580466340901848,
+        -6.118920660157615
+      ],
+      "sd_95CI_normal_assumption": [
+        3.044630986978366,
+        7.297356593392332
+      ],
+      "f0_mean": 0.8636447379551376,
+      "f0_min": 0.824496270714928,
+      "f0_max": 0.8931310666260589,
+      "max_approximation_error_dB": 0.0019952207554580917,
+      "dt": 0.0025
+    },
+    {
+      "name": "weak-launch",
+      "z": 5,
+      "members": 12,
+      "mean": -8.068442868376165,
+      "sd": 1.236162213971819,
+      "se": 0.35684929349933675,
+      "mean_95CI": [
+        -8.85386286775429,
+        -7.28302286899804
+      ],
+      "sd_95CI_normal_assumption": [
+        0.8756913180567992,
+        2.0988526494437907
+      ],
+      "f0_mean": 0.8007199858453631,
+      "f0_min": 0.7639554237495252,
+      "f0_max": 0.8156375707492068,
+      "max_approximation_error_dB": 0.05283229485630359,
+      "dt": 0.02
+    },
+    {
+      "name": "weak-launch",
+      "z": 10,
+      "members": 12,
+      "mean": -9.890498667072139,
+      "sd": 1.3419957367266926,
+      "se": 0.38740079992524307,
+      "mean_95CI": [
+        -10.743162078711862,
+        -9.037835255432416
+      ],
+      "sd_95CI_normal_assumption": [
+        0.950663272375023,
+        2.2785450612675837
+      ],
+      "f0_mean": 0.8315329533107972,
+      "f0_min": 0.8094739281375044,
+      "f0_max": 0.849464596740791,
+      "max_approximation_error_dB": 0.01482823408344281,
+      "dt": 0.02
+    },
+    {
+      "name": "weak-launch",
+      "z": 20,
+      "members": 12,
+      "mean": -9.893230171655588,
+      "sd": 1.2633232924545013,
+      "se": 0.36469002148606533,
+      "mean_95CI": [
+        -10.69590749697675,
+        -9.090552846334427
+      ],
+      "sd_95CI_normal_assumption": [
+        0.8949320943461209,
+        2.1449688475372133
+      ],
+      "f0_mean": 0.8456534920285012,
+      "f0_min": 0.8310727049817566,
+      "f0_max": 0.8700972693751271,
+      "max_approximation_error_dB": 0.0040887670901622155,
+      "dt": 0.02
+    },
+    {
+      "name": "weak-launch",
+      "z": 50,
+      "members": 12,
+      "mean": -9.543304866213282,
+      "sd": 1.4824355980181583,
+      "se": 0.42794229578603377,
+      "mean_95CI": [
+        -10.485199508610169,
+        -8.601410223816394
+      ],
+      "sd_95CI_normal_assumption": [
+        1.0501501891016667,
+        2.516994814566572
+      ],
+      "f0_mean": 0.8611588341167344,
+      "f0_min": 0.8324674209422965,
+      "f0_max": 0.8731429964019474,
+      "max_approximation_error_dB": 0.0008344591797288606,
+      "dt": 0.02
+    },
+    {
+      "name": "held-out-E.45",
+      "z": 5,
+      "members": 12,
+      "mean": -5.258877904736071,
+      "sd": 1.8005832739315806,
+      "se": 0.5197836189513679,
+      "mean_95CI": [
+        -6.402913936502242,
+        -4.1148418729699
+      ],
+      "sd_95CI_normal_assumption": [
+        1.2755244599768347,
+        3.057170759889953
+      ],
+      "f0_mean": 0.7072651801180072,
+      "f0_min": 0.6468670632891871,
+      "f0_max": 0.7459950389053278,
+      "max_approximation_error_dB": 0.061709729771446536,
+      "dt": 0.02
+    },
+    {
+      "name": "held-out-E.45",
+      "z": 10,
+      "members": 12,
+      "mean": -7.62537043099141,
+      "sd": 2.0789339385306014,
+      "se": 0.6001365345190458,
+      "mean_95CI": [
+        -8.946262037491438,
+        -6.304478824491381
+      ],
+      "sd_95CI_normal_assumption": [
+        1.47270672101807,
+        3.5297762345314982
+      ],
+      "f0_mean": 0.7575926023894956,
+      "f0_min": 0.7008797125373483,
+      "f0_max": 0.7905360641202092,
+      "max_approximation_error_dB": 0.021900993291697687,
+      "dt": 0.02
+    },
+    {
+      "name": "held-out-E.45",
+      "z": 20,
+      "members": 12,
+      "mean": -6.627339832144688,
+      "sd": 2.473207952245477,
+      "se": 0.7139536384954247,
+      "mean_95CI": [
+        -8.198741195460345,
+        -5.055938468829032
+      ],
+      "sd_95CI_normal_assumption": [
+        1.7520085204446905,
+        4.199205415377799
+      ],
+      "f0_mean": 0.773881229237956,
+      "f0_min": 0.7157117576073025,
+      "f0_max": 0.8306975274987851,
+      "max_approximation_error_dB": 0.006325400478980433,
+      "dt": 0.02
+    },
+    {
+      "name": "held-out-E.45",
+      "z": 50,
+      "members": 12,
+      "mean": -5.29054341116041,
+      "sd": 4.523865222509529,
+      "se": 1.3059274019967315,
+      "mean_95CI": [
+        -8.164870243100896,
+        -2.4162165792199244
+      ],
+      "sd_95CI_normal_assumption": [
+        3.2046841867801956,
+        7.680971316445048
+      ],
+      "f0_mean": 0.7998446174492037,
+      "f0_min": 0.7621603382539215,
+      "f0_max": 0.8425948798854934,
+      "max_approximation_error_dB": 0.002315256342109995,
+      "dt": 0.02
+    },
+    {
+      "name": "sigma1-fine",
+      "z": 5,
+      "members": 12,
+      "mean": -6.8393449668271495,
+      "sd": 0.765087237790406,
+      "se": 0.22086166134591909,
+      "mean_95CI": [
+        -7.325458205880783,
+        -6.353231727773516
+      ],
+      "sd_95CI_normal_assumption": [
+        0.541984089237329,
+        1.2990248026855098
+      ],
+      "f0_mean": 0.7774322382659551,
+      "f0_min": 0.7500449699424633,
+      "f0_max": 0.7922937819422325,
+      "max_approximation_error_dB": 0.04945030462971346,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma1-fine",
+      "z": 10,
+      "members": 12,
+      "mean": -6.854358518065698,
+      "sd": 1.633179925549172,
+      "se": 0.4714584348254537,
+      "mean_95CI": [
+        -7.892031536712456,
+        -5.8166854994189405
+      ],
+      "sd_95CI_normal_assumption": [
+        1.1569367397446297,
+        2.772940294578068
+      ],
+      "f0_mean": 0.7773208554441999,
+      "f0_min": 0.7403821276360895,
+      "f0_max": 0.8061047602293063,
+      "max_approximation_error_dB": 0.012802685243259958,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma1-fine",
+      "z": 20,
+      "members": 12,
+      "mean": -7.677580369758107,
+      "sd": 2.6844741847995417,
+      "se": 0.7749409466133084,
+      "mean_95CI": [
+        -9.38321389319463,
+        -5.971946846321583
+      ],
+      "sd_95CI_normal_assumption": [
+        1.9016684951269296,
+        4.5579097075187125
+      ],
+      "f0_mean": 0.7825641473909356,
+      "f0_min": 0.7430534170363406,
+      "f0_max": 0.838327223646253,
+      "max_approximation_error_dB": 0.004383671214790114,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma1-fine",
+      "z": 50,
+      "members": 12,
+      "mean": -8.008721419431113,
+      "sd": 3.1675082930100755,
+      "se": 0.9143808828148696,
+      "mean_95CI": [
+        -10.021260173170187,
+        -5.996182665692039
+      ],
+      "sd_95CI_normal_assumption": [
+        2.243847515084351,
+        5.378042701660297
+      ],
+      "f0_mean": 0.8108054115541119,
+      "f0_min": 0.7467852905807376,
+      "f0_max": 0.853170647198945,
+      "max_approximation_error_dB": 0.0010080644705062918,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma2-fine",
+      "z": 5,
+      "members": 12,
+      "mean": -7.115252151093904,
+      "sd": 0.40405074828200704,
+      "se": 0.11663940414344325,
+      "mean_95CI": [
+        -7.371973748694541,
+        -6.858530553493268
+      ],
+      "sd_95CI_normal_assumption": [
+        0.2862275907852438,
+        0.6860288835529554
+      ],
+      "f0_mean": 0.7772756046044439,
+      "f0_min": 0.7697296175059427,
+      "f0_max": 0.7859474193552585,
+      "max_approximation_error_dB": 0.04709447872483151,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma2-fine",
+      "z": 10,
+      "members": 12,
+      "mean": -7.350797093616269,
+      "sd": 0.8975447519780904,
+      "se": 0.25909885208214317,
+      "mean_95CI": [
+        -7.921069822043593,
+        -6.7805243651889455
+      ],
+      "sd_95CI_normal_assumption": [
+        0.6358163499831544,
+        1.5239215043071448
+      ],
+      "f0_mean": 0.7795018312304888,
+      "f0_min": 0.7600933273740776,
+      "f0_max": 0.7998937772051602,
+      "max_approximation_error_dB": 0.012974209482277517,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma2-fine",
+      "z": 20,
+      "members": 12,
+      "mean": -7.745637600673288,
+      "sd": 0.7403567166159908,
+      "se": 0.2137225748172949,
+      "mean_95CI": [
+        -8.216037816220872,
+        -7.275237385125704
+      ],
+      "sd_95CI_normal_assumption": [
+        0.5244651079590766,
+        1.2570353944166122
+      ],
+      "f0_mean": 0.7840145733123016,
+      "f0_min": 0.7629471754328796,
+      "f0_max": 0.8046043270364144,
+      "max_approximation_error_dB": 0.0034183910236542424,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma2-fine",
+      "z": 50,
+      "members": 12,
+      "mean": -7.798726529498087,
+      "sd": 1.6282049496454802,
+      "se": 0.47002228298684956,
+      "mean_95CI": [
+        -8.83323859926045,
+        -6.764214459735723
+      ],
+      "sd_95CI_normal_assumption": [
+        1.153412490938798,
+        2.7644933923524833
+      ],
+      "f0_mean": 0.7822567486491714,
+      "f0_min": 0.7348307189601142,
+      "f0_max": 0.8184292794710334,
+      "max_approximation_error_dB": 0.0006490231856744469,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma3-fine",
+      "z": 5,
+      "members": 12,
+      "mean": -7.061222729731832,
+      "sd": 0.43951155147966836,
+      "se": 0.1268760562793683,
+      "mean_95CI": [
+        -7.340475046772571,
+        -6.781970412691093
+      ],
+      "sd_95CI_normal_assumption": [
+        0.3113478518161482,
+        0.7462370017931017
+      ],
+      "f0_mean": 0.7759637001486447,
+      "f0_min": 0.7612395333914096,
+      "f0_max": 0.7849936054423986,
+      "max_approximation_error_dB": 0.04788667745348173,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma3-fine",
+      "z": 10,
+      "members": 12,
+      "mean": -6.965132016080904,
+      "sd": 0.7186001089326379,
+      "se": 0.20744198316597645,
+      "mean_95CI": [
+        -7.421708742607395,
+        -6.508555289554414
+      ],
+      "sd_95CI_normal_assumption": [
+        0.5090528325769768,
+        1.220095328490802
+      ],
+      "f0_mean": 0.7747676178457411,
+      "f0_min": 0.7586738617746734,
+      "f0_max": 0.7864138978414227,
+      "max_approximation_error_dB": 0.012444368662662244,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma3-fine",
+      "z": 20,
+      "members": 12,
+      "mean": -6.866593323737849,
+      "sd": 1.2576575896781261,
+      "se": 0.363054473974521,
+      "mean_95CI": [
+        -7.665670833257491,
+        -6.067515814218207
+      ],
+      "sd_95CI_normal_assumption": [
+        0.8909185379731098,
+        2.135349175338248
+      ],
+      "f0_mean": 0.774801319426979,
+      "f0_min": 0.7467750891893477,
+      "f0_max": 0.7957149441009305,
+      "max_approximation_error_dB": 0.0036228892386627664,
+      "dt": 0.0025
+    },
+    {
+      "name": "sigma3-fine",
+      "z": 50,
+      "members": 12,
+      "mean": -6.877057214519961,
+      "sd": 2.830073460679939,
+      "se": 0.8169718371749893,
+      "mean_95CI": [
+        -8.675200104347816,
+        -5.078914324692106
+      ],
+      "sd_95CI_normal_assumption": [
+        2.00481031612966,
+        4.805119517432573
+      ],
+      "f0_mean": 0.7790582213798475,
+      "f0_min": 0.7407992390561503,
+      "f0_max": 0.810022875021419,
+      "max_approximation_error_dB": 0.000770596171819367,
+      "dt": 0.0025
+    }
+  ],
+  "resolution": [
+    {
+      "sigma": 0.3,
+      "z": 10,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": -0.003950509457609108,
+      "max_individual_difference_dB": 0.11218319411385025,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 0.3,
+      "z": 10,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": -0.00034114904114009487,
+      "max_individual_difference_dB": 0.07220955602136137,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 0.3,
+      "z": 10,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": 0.003203762082060635,
+      "max_individual_difference_dB": 0.04230370712685705,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 0.3,
+      "z": 20,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": -0.02353804809477082,
+      "max_individual_difference_dB": 0.21761697483508513,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 0.3,
+      "z": 20,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.016910354270363248,
+      "max_individual_difference_dB": 0.2455455627850487,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 0.3,
+      "z": 20,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": -0.008125098032088015,
+      "max_individual_difference_dB": 0.14034148697684223,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 0.3,
+      "z": 50,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": 0.08493319105338366,
+      "max_individual_difference_dB": 0.5483099085166323,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 0.3,
+      "z": 50,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.21083761988194225,
+      "max_individual_difference_dB": 2.2456432316061647,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 0.3,
+      "z": 50,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": 0.147474714274991,
+      "max_individual_difference_dB": 1.2879429992813893,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 1,
+      "z": 10,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": 0.07877995667982833,
+      "max_individual_difference_dB": 0.783525333998643,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 1,
+      "z": 10,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.030013834732212974,
+      "max_individual_difference_dB": 0.57788577275244,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 1,
+      "z": 10,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": 0.021545546856799103,
+      "max_individual_difference_dB": 0.3766929236981067,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 1,
+      "z": 20,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": 0.0868522155782614,
+      "max_individual_difference_dB": 2.1834092558656533,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 1,
+      "z": 20,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.01989331395848955,
+      "max_individual_difference_dB": 1.3798829252395723,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 1,
+      "z": 20,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": -0.015473108338479738,
+      "max_individual_difference_dB": 0.5533840685432398,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 1,
+      "z": 50,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": 0.35495834991499525,
+      "max_individual_difference_dB": 6.381641881907978,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 1,
+      "z": 50,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.26180415294647436,
+      "max_individual_difference_dB": 1.76072568570918,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 1,
+      "z": 50,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": -0.32672146912251143,
+      "max_individual_difference_dB": 1.6327938618774294,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 10,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": -0.1118084446590275,
+      "max_individual_difference_dB": 1.2952365573184013,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 10,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.15535793737018455,
+      "max_individual_difference_dB": 1.2092075964796507,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 10,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": -0.09893509467031276,
+      "max_individual_difference_dB": 0.5631690503756612,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 2,
+      "z": 20,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": 0.22129789984538784,
+      "max_individual_difference_dB": 3.116011497118059,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 20,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.31495200812398155,
+      "max_individual_difference_dB": 2.9501634104211583,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 20,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": -0.4398257424265779,
+      "max_individual_difference_dB": 2.6501462860878924,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 50,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": -0.7607461531894254,
+      "max_individual_difference_dB": 5.994510480115839,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 50,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 1.8662691581591833,
+      "max_individual_difference_dB": 8.532961005909144,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 2,
+      "z": 50,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": 0.01664021183297759,
+      "max_individual_difference_dB": 3.637327143230478,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 10,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": -0.1389337046747491,
+      "max_individual_difference_dB": 2.1162925565056554,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 10,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.27218349329750846,
+      "max_individual_difference_dB": 1.123281466405385,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 10,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": -0.02004989513741003,
+      "max_individual_difference_dB": 0.9894400498561247,
+      "mean_gate": true,
+      "individual_gate": true
+    },
+    {
+      "sigma": 3,
+      "z": 20,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": 0.31397743353491253,
+      "max_individual_difference_dB": 3.0061647896506223,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 20,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 0.2583870539155598,
+      "max_individual_difference_dB": 1.8079831115468625,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 20,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": 0.021884482176717384,
+      "max_individual_difference_dB": 2.6335427881679907,
+      "mean_gate": true,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 50,
+      "coarse": 0.02,
+      "fine": 0.01,
+      "paired_mean_difference_dB": -0.8843427290390622,
+      "max_individual_difference_dB": 4.223888052214081,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 50,
+      "coarse": 0.01,
+      "fine": 0.005,
+      "paired_mean_difference_dB": 1.584888018938792,
+      "max_individual_difference_dB": 6.368426768902067,
+      "mean_gate": false,
+      "individual_gate": false
+    },
+    {
+      "sigma": 3,
+      "z": 50,
+      "coarse": 0.005,
+      "fine": 0.0025,
+      "paired_mean_difference_dB": -0.565329871872957,
+      "max_individual_difference_dB": 6.191753164054264,
+      "mean_gate": false,
+      "individual_gate": false
+    }
+  ],
+  "algebra": {
+    "max_identity_residual": 2.167980455802885e-13,
+    "max_approximation_error_dB": 0.061709729771446536,
+    "max_VX_over_VP": 0.022638703739500762,
+    "states": 1177
+  },
+  "curvature_scaling": [
+    {
+      "z": 5,
+      "power_mean": -0.9999859310922,
+      "power_SE": 7.22696467003244e-07,
+      "coefficient_mean": 954.8234519453625,
+      "coefficient_SE": 47.058202715115414,
+      "max_held_out_relative_error": 0.00011368957978741268,
+      "mean_sagitta_ratio": 0.9804592520117436,
+      "passed": true
+    },
+    {
+      "z": 10,
+      "power_mean": -0.9999279393545604,
+      "power_SE": 4.055946039620362e-06,
+      "coefficient_mean": 14825.682132159785,
+      "coefficient_SE": 611.900747105334,
+      "max_held_out_relative_error": 0.0005882934350824875,
+      "mean_sagitta_ratio": 0.9281200795110917,
+      "passed": true
+    },
+    {
+      "z": 20,
+      "power_mean": -0.9997129497725461,
+      "power_SE": 1.285889039030948e-05,
+      "coefficient_mean": 219814.7961964313,
+      "coefficient_SE": 7533.418377108984,
+      "max_held_out_relative_error": 0.0022534366315387633,
+      "mean_sagitta_ratio": 0.9099571273464155,
+      "passed": true
+    }
+  ],
+  "SPM_reference": [
+    {
+      "sigma": 0.3,
+      "z": 5,
+      "mean": 0.8025246647093494,
+      "min": 0.7728355628347774,
+      "max": 0.8341160155106329,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    },
+    {
+      "sigma": 0.3,
+      "z": 10,
+      "mean": 0.8224058579981101,
+      "min": 0.7797835102863789,
+      "max": 0.8478894302520195,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    },
+    {
+      "sigma": 0.3,
+      "z": 20,
+      "mean": 0.8632393217366703,
+      "min": 0.7877172190858378,
+      "max": 0.9043946142788437,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    },
+    {
+      "sigma": 0.3,
+      "z": 50,
+      "mean": 0.8892515028907839,
+      "min": 0.7917813617658315,
+      "max": 0.9652592937534599,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    },
+    {
+      "sigma": 3,
+      "z": 5,
+      "mean": 0.8140696834240572,
+      "min": 0.807078099807308,
+      "max": 0.8214646156130265,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    },
+    {
+      "sigma": 3,
+      "z": 10,
+      "mean": 0.8066547177091704,
+      "min": 0.7924682423652892,
+      "max": 0.8198850770813317,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    },
+    {
+      "sigma": 3,
+      "z": 20,
+      "mean": 0.8012951258620243,
+      "min": 0.7838716104845715,
+      "max": 0.826566730192458,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    },
+    {
+      "sigma": 3,
+      "z": 50,
+      "mean": 0.8034708739521573,
+      "min": 0.7651534841112417,
+      "max": 0.8296188032976433,
+      "interpretation": "Reference ratio, not an additive causal fraction of phase variance"
+    }
+  ],
+  "SPM_exact_reference_diagnostic": [
+    {
+      "sigma": 0.3,
+      "disorder": 7601,
+      "z": 5,
+      "n0": 8156375707.492068,
+      "Phi": 3.9588571361936746,
+      "linear": 0.015461987811188639,
+      "exact": 0.015462054604765825,
+      "difference_dB": 1.876086031009368e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7601,
+      "z": 10,
+      "n0": 8438972377.500409,
+      "Phi": 8.110664630862992,
+      "linear": 0.0037717666116903704,
+      "exact": 0.003772819305489861,
+      "difference_dB": 0.0012119395716024641,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7601,
+      "z": 20,
+      "n0": 8700972693.75127,
+      "Phi": 16.731228069929603,
+      "linear": 0.0008914760876541986,
+      "exact": 0.0009096010121143864,
+      "difference_dB": 0.08741236471061437,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7601,
+      "z": 50,
+      "n0": 8635514803.037882,
+      "Phi": 42.850461757735765,
+      "linear": 0.00013611649542249929,
+      "exact": 0.0009177034913242649,
+      "difference_dB": 8.287916251115487,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7601,
+      "z": 100,
+      "n0": 8832287122.454716,
+      "Phi": 86.2932908608667,
+      "linear": 3.3570420898400015e-05,
+      "exact": 0.012592904769292576,
+      "difference_dB": 25.74169132759467,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7602,
+      "z": 5,
+      "n0": 8135322833.911778,
+      "Phi": 3.994064140010277,
+      "linear": 0.015198724533042926,
+      "exact": 0.015198793796737315,
+      "difference_dB": 1.9791642161555706e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7602,
+      "z": 10,
+      "n0": 8216277675.383592,
+      "Phi": 8.066415017275109,
+      "linear": 0.003812946135995474,
+      "exact": 0.003814004257020662,
+      "difference_dB": 0.0012050324223795024,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7602,
+      "z": 20,
+      "n0": 8393820802.644471,
+      "Phi": 16.426713901731578,
+      "linear": 0.0009247727055360494,
+      "exact": 0.0009422340016024235,
+      "difference_dB": 0.08123769044017501,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7602,
+      "z": 50,
+      "n0": 8538094282.531546,
+      "Phi": 41.91503225379511,
+      "linear": 0.00014225804195069423,
+      "exact": 0.0008659945208165386,
+      "difference_dB": 7.844383174823707,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7602,
+      "z": 100,
+      "n0": 8320783272.114108,
+      "Phi": 83.78719041704622,
+      "linear": 3.560851180464277e-05,
+      "exact": 0.011884675920204217,
+      "difference_dB": 25.23433520098212,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7603,
+      "z": 5,
+      "n0": 8089448195.466234,
+      "Phi": 3.9365190833759374,
+      "linear": 0.015632548218185,
+      "exact": 0.015632614129052657,
+      "difference_dB": 1.8310940338497785e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7603,
+      "z": 10,
+      "n0": 8441150523.143537,
+      "Phi": 8.084640795423539,
+      "linear": 0.0037959037992555864,
+      "exact": 0.003796942950689764,
+      "difference_dB": 0.0011887444891366308,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7603,
+      "z": 20,
+      "n0": 8780696062.508234,
+      "Phi": 16.767388547747764,
+      "linear": 0.0008876419395894699,
+      "exact": 0.0009057575890979333,
+      "difference_dB": 0.0877416782891198,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7603,
+      "z": 50,
+      "n0": 8932288455.584839,
+      "Phi": 43.42541960084065,
+      "linear": 0.000132536907788804,
+      "exact": 0.0009295143238551133,
+      "difference_dB": 8.459192527828836,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7603,
+      "z": 100,
+      "n0": 8596679738.489874,
+      "Phi": 87.36099250503527,
+      "linear": 3.275491214185178e-05,
+      "exact": 0.013586791910500195,
+      "difference_dB": 26.178404851187192,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7604,
+      "z": 5,
+      "n0": 7908141968.307101,
+      "Phi": 3.8737162151531304,
+      "linear": 0.016127320176035895,
+      "exact": 0.01612738359737192,
+      "difference_dB": 1.707877180631296e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7604,
+      "z": 10,
+      "n0": 8252940363.040579,
+      "Phi": 7.948505233178172,
+      "linear": 0.003926017871889718,
+      "exact": 0.003927011804964425,
+      "difference_dB": 0.0010993455259788835,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7604,
+      "z": 20,
+      "n0": 8352199899.047743,
+      "Phi": 16.195140961670617,
+      "linear": 0.0009513576433634197,
+      "exact": 0.0009679402120030166,
+      "difference_dB": 0.07504720793676517,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7604,
+      "z": 50,
+      "n0": 8849417684.908709,
+      "Phi": 42.03755415780357,
+      "linear": 0.00014143023909551114,
+      "exact": 0.0008479018981616765,
+      "difference_dB": 7.7780333192926445,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7604,
+      "z": 100,
+      "n0": 8789054763.970663,
+      "Phi": 85.81535050380839,
+      "linear": 3.394537121136843e-05,
+      "exact": 0.012377793480173978,
+      "difference_dB": 25.61862670055945,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7605,
+      "z": 5,
+      "n0": 7707316113.219055,
+      "Phi": 3.8409317597795467,
+      "linear": 0.016394885306249763,
+      "exact": 0.016394948312311575,
+      "difference_dB": 1.669004197458426e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7605,
+      "z": 10,
+      "n0": 8039517351.650431,
+      "Phi": 7.791278736598204,
+      "linear": 0.00408476687570173,
+      "exact": 0.0040857098503961275,
+      "difference_dB": 0.0010024597631160608,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7605,
+      "z": 20,
+      "n0": 8563632427.374053,
+      "Phi": 16.180898650845567,
+      "linear": 0.0009530299462001713,
+      "exact": 0.0009691464687952448,
+      "difference_dB": 0.07282870396781543,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7605,
+      "z": 50,
+      "n0": 8828149431.18163,
+      "Phi": 42.28086236696409,
+      "linear": 0.00013980763573472432,
+      "exact": 0.0008645112379810433,
+      "difference_dB": 7.912397516531984,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7605,
+      "z": 100,
+      "n0": 8910860282.849686,
+      "Phi": 86.59707155141129,
+      "linear": 3.333532103876027e-05,
+      "exact": 0.012658124947866304,
+      "difference_dB": 25.79464736270698,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7606,
+      "z": 5,
+      "n0": 8066320546.922745,
+      "Phi": 3.934594762611948,
+      "linear": 0.015647371728959296,
+      "exact": 0.01564743770590519,
+      "difference_dB": 1.8311933545312886e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7606,
+      "z": 10,
+      "n0": 8496503478.005686,
+      "Phi": 8.105112496895456,
+      "linear": 0.003776896924261452,
+      "exact": 0.003777939666695021,
+      "difference_dB": 0.0011988539589671396,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7606,
+      "z": 20,
+      "n0": 8732582147.747484,
+      "Phi": 16.76638711254081,
+      "linear": 0.0008877477901244581,
+      "exact": 0.0009059589135620772,
+      "difference_dB": 0.08818902409524401,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7606,
+      "z": 50,
+      "n0": 8658803079.125996,
+      "Phi": 42.452786168045286,
+      "linear": 0.00013867786595750143,
+      "exact": 0.0008896403558730992,
+      "difference_dB": 8.072073252537491,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7606,
+      "z": 100,
+      "n0": 8383369994.373024,
+      "Phi": 84.7007121661374,
+      "linear": 3.484461085569051e-05,
+      "exact": 0.012316733275060074,
+      "difference_dB": 25.48359917978434,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7607,
+      "z": 5,
+      "n0": 8124735741.689505,
+      "Phi": 3.984362609896335,
+      "linear": 0.015270600143688246,
+      "exact": 0.015270668857892324,
+      "difference_dB": 1.9542213297505974e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7607,
+      "z": 10,
+      "n0": 8151395779.775218,
+      "Phi": 8.056215910514606,
+      "linear": 0.0038225329937686923,
+      "exact": 0.0038235942227167223,
+      "difference_dB": 0.0012055407033538048,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7607,
+      "z": 20,
+      "n0": 7950241525.206607,
+      "Phi": 16.11711332246621,
+      "linear": 0.0009605738174528899,
+      "exact": 0.0009776625685126597,
+      "difference_dB": 0.076582429791766,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7607,
+      "z": 50,
+      "n0": 8539440854.448931,
+      "Phi": 41.23411632979208,
+      "linear": 0.0001469937733588678,
+      "exact": 0.0008247506146814095,
+      "difference_dB": 7.49023709426242,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7607,
+      "z": 100,
+      "n0": 8478049771.750582,
+      "Phi": 84.01876768095114,
+      "linear": 3.541250382823769e-05,
+      "exact": 0.011793766913484919,
+      "difference_dB": 25.224959058552617,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7608,
+      "z": 5,
+      "n0": 8073043797.657372,
+      "Phi": 3.935335138021744,
+      "linear": 0.015641665968229697,
+      "exact": 0.015641731937455418,
+      "difference_dB": 1.8316469836376607e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7608,
+      "z": 10,
+      "n0": 8244833780.49308,
+      "Phi": 8.032991990661877,
+      "linear": 0.003844497802252474,
+      "exact": 0.003845535114139471,
+      "difference_dB": 0.0011716434407130175,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7608,
+      "z": 20,
+      "n0": 8016818655.607734,
+      "Phi": 16.133385401280904,
+      "linear": 0.0009586408411159957,
+      "exact": 0.000975655989477688,
+      "difference_dB": 0.07640787633747204,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7608,
+      "z": 50,
+      "n0": 8416758377.600179,
+      "Phi": 40.69669994664749,
+      "linear": 0.00015090045177344318,
+      "exact": 0.0008034002189848841,
+      "difference_dB": 7.262414057820111,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7608,
+      "z": 100,
+      "n0": 8446739331.055444,
+      "Phi": 83.26643287743394,
+      "linear": 3.6055271568277515e-05,
+      "exact": 0.011420975320328087,
+      "difference_dB": 25.007344220498517,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7609,
+      "z": 5,
+      "n0": 7999337404.688592,
+      "Phi": 3.9000440169620174,
+      "linear": 0.01591711481511596,
+      "exact": 0.015917179149055136,
+      "difference_dB": 1.7553318326485196e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7609,
+      "z": 10,
+      "n0": 8129706887.016616,
+      "Phi": 7.950305445235612,
+      "linear": 0.00392425401084226,
+      "exact": 0.003925263912591761,
+      "difference_dB": 0.0011175075049728114,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7609,
+      "z": 20,
+      "n0": 8344807239.337636,
+      "Phi": 16.202052307869852,
+      "linear": 0.0009505477121219049,
+      "exact": 0.0009671732274848895,
+      "difference_dB": 0.075303453502896,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7609,
+      "z": 50,
+      "n0": 8642447234.527327,
+      "Phi": 41.64386637609415,
+      "linear": 0.00014411617713260582,
+      "exact": 0.0008407992795394509,
+      "difference_dB": 7.659795975016227,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7609,
+      "z": 100,
+      "n0": 8897523100.568762,
+      "Phi": 85.44682424974154,
+      "linear": 3.423879063370541e-05,
+      "exact": 0.012019521893655726,
+      "difference_dB": 25.453687765356413,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7610,
+      "z": 5,
+      "n0": 7772361240.597605,
+      "Phi": 3.8483496621061537,
+      "linear": 0.016333771682400595,
+      "exact": 0.01633383462073188,
+      "difference_dB": 1.6734479854140644e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7610,
+      "z": 10,
+      "n0": 8295220391.302718,
+      "Phi": 7.880606302481393,
+      "linear": 0.0039934215670509214,
+      "exact": 0.003994377515891688,
+      "difference_dB": 0.0010394936181992844,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7610,
+      "z": 20,
+      "n0": 8054501459.41745,
+      "Phi": 16.05084032136016,
+      "linear": 0.0009685071202364473,
+      "exact": 0.0009850998567309686,
+      "difference_dB": 0.07377438010224684,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7610,
+      "z": 50,
+      "n0": 8256876770.434153,
+      "Phi": 40.38810677273473,
+      "linear": 0.00015321452058471267,
+      "exact": 0.0007984134709853708,
+      "difference_dB": 7.1692792924562365,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7610,
+      "z": 100,
+      "n0": 8333655259.90324,
+      "Phi": 82.26520911606099,
+      "linear": 3.69381815887774e-05,
+      "exact": 0.011031330186351123,
+      "difference_dB": 24.75152371985572,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7611,
+      "z": 5,
+      "n0": 8235310313.370248,
+      "Phi": 3.9684686524789208,
+      "linear": 0.015389449013134961,
+      "exact": 0.015389515780276565,
+      "difference_dB": 1.8841830039304397e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7611,
+      "z": 10,
+      "n0": 8288652447.834998,
+      "Phi": 8.135081206966492,
+      "linear": 0.0037493283690203266,
+      "exact": 0.0037504129520785677,
+      "difference_dB": 0.001256119165919901,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7611,
+      "z": 20,
+      "n0": 8288677646.428913,
+      "Phi": 16.42862884774148,
+      "linear": 0.0009245575305209142,
+      "exact": 0.0009422485462586195,
+      "difference_dB": 0.08231535797452215,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7611,
+      "z": 50,
+      "n0": 8637692024.936768,
+      "Phi": 42.0231985927258,
+      "linear": 0.00014152685635231802,
+      "exact": 0.0008643277443808207,
+      "difference_dB": 7.858395937409402,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7611,
+      "z": 100,
+      "n0": 8907135556.324444,
+      "Phi": 85.69374916353465,
+      "linear": 3.4041771477955434e-05,
+      "exact": 0.012145365976465062,
+      "difference_dB": 25.523984539662337,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7612,
+      "z": 5,
+      "n0": 8083956632.626299,
+      "Phi": 3.9407979008145704,
+      "linear": 0.01559966207382297,
+      "exact": 0.015599728302766187,
+      "difference_dB": 1.843809397203192e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7612,
+      "z": 10,
+      "n0": 8549422210.776817,
+      "Phi": 8.1160108409299,
+      "linear": 0.003766836425683728,
+      "exact": 0.003767878227026428,
+      "difference_dB": 0.0012009707019088804,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7612,
+      "z": 20,
+      "n0": 8741286321.283445,
+      "Phi": 16.761172713571842,
+      "linear": 0.0008882992519236872,
+      "exact": 0.0009064696895678902,
+      "difference_dB": 0.08793990413579425,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7612,
+      "z": 50,
+      "n0": 8893953539.369308,
+      "Phi": 43.32183510295204,
+      "linear": 0.00013317130019761358,
+      "exact": 0.0009259776335030462,
+      "difference_dB": 8.421898567230821,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 0.3,
+      "disorder": 7612,
+      "z": 100,
+      "n0": 8822856720.47377,
+      "Phi": 87.51512254913536,
+      "linear": 3.263964655195053e-05,
+      "exact": 0.013332651554721787,
+      "difference_dB": 26.111710818675917,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7601,
+      "z": 5,
+      "n0": 7653093558.739601,
+      "Phi": 3.852459061935183,
+      "linear": 0.016300061113472743,
+      "exact": 0.01630012529232401,
+      "difference_dB": 1.7099608335551943e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7601,
+      "z": 10,
+      "n0": 7637015773.30142,
+      "Phi": 7.663638661401499,
+      "linear": 0.004220812492390208,
+      "exact": 0.004221742560544178,
+      "difference_dB": 0.0009568749416841312,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7601,
+      "z": 20,
+      "n0": 7668435707.508308,
+      "Phi": 15.339924688104066,
+      "linear": 0.0010601619678985601,
+      "exact": 0.001074710816540249,
+      "difference_dB": 0.05919399550918956,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7601,
+      "z": 50,
+      "n0": 7699189258.986593,
+      "Phi": 38.51009100713109,
+      "linear": 0.00016851731627905362,
+      "exact": 0.000740516138260913,
+      "difference_dB": 6.428899934958593,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7601,
+      "z": 100,
+      "n0": 7872560688.895959,
+      "Phi": 77.92505226657464,
+      "linear": 4.116707836948424e-05,
+      "exact": 0.009411330967599973,
+      "difference_dB": 23.591010003083028,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7602,
+      "z": 5,
+      "n0": 7736253353.041559,
+      "Phi": 3.881475761349733,
+      "linear": 0.016064940555015478,
+      "exact": 0.016065005880505044,
+      "difference_dB": 1.765984870432919e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7602,
+      "z": 10,
+      "n0": 7755163170.246542,
+      "Phi": 7.747048747076555,
+      "linear": 0.004131157201641746,
+      "exact": 0.00413211304523442,
+      "difference_dB": 0.0010047295739108821,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7602,
+      "z": 20,
+      "n0": 7771290613.866698,
+      "Phi": 15.537760050787929,
+      "linear": 0.0010333920850514526,
+      "exact": 0.0010485006120651516,
+      "difference_dB": 0.06303557444555569,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7602,
+      "z": 50,
+      "n0": 7911200167.875299,
+      "Phi": 39.29549741522279,
+      "linear": 0.00016185042145503686,
+      "exact": 0.0007653132039699094,
+      "difference_dB": 6.747253716552089,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7602,
+      "z": 100,
+      "n0": 8149756291.63355,
+      "Phi": 79.51456840346248,
+      "linear": 3.9537777579297606e-05,
+      "exact": 0.009852317354153489,
+      "difference_dB": 23.965261385565718,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7603,
+      "z": 5,
+      "n0": 7644911214.000595,
+      "Phi": 3.8688758979666944,
+      "linear": 0.01616641410736825,
+      "exact": 0.01616647940142465,
+      "difference_dB": 1.754055719641937e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7603,
+      "z": 10,
+      "n0": 7575676145.356137,
+      "Phi": 7.6758386562871985,
+      "linear": 0.004207518360186518,
+      "exact": 0.00420846185807659,
+      "difference_dB": 0.0009737568730802473,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7603,
+      "z": 20,
+      "n0": 7599787494.664997,
+      "Phi": 15.265034786655647,
+      "linear": 0.001070567440338688,
+      "exact": 0.0010849641640178302,
+      "difference_dB": 0.058013629785915004,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7603,
+      "z": 50,
+      "n0": 7459167994.784761,
+      "Phi": 37.84473316798065,
+      "linear": 0.00017449281056766051,
+      "exact": 0.0007251629138885954,
+      "difference_dB": 6.186580474915662,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7603,
+      "z": 100,
+      "n0": 7486772821.417444,
+      "Phi": 75.48103723796106,
+      "linear": 4.387591422018239e-05,
+      "exact": 0.008717883856500233,
+      "difference_dB": 22.981849001151538,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7604,
+      "z": 5,
+      "n0": 7813485430.013798,
+      "Phi": 3.8890985035646786,
+      "linear": 0.016004008767862406,
+      "exact": 0.01600407393189747,
+      "difference_dB": 1.76832715108356e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7604,
+      "z": 10,
+      "n0": 7858561822.472658,
+      "Phi": 7.8125002308117315,
+      "linear": 0.004062785034423236,
+      "exact": 0.004063760129461453,
+      "difference_dB": 0.001042210159228417,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7604,
+      "z": 20,
+      "n0": 7825291711.21741,
+      "Phi": 15.64118859071134,
+      "linear": 0.0010197982590529097,
+      "exact": 0.0010352045835293239,
+      "difference_dB": 0.06511920008352189,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7604,
+      "z": 50,
+      "n0": 7652900286.743593,
+      "Phi": 38.628351265113416,
+      "linear": 0.0001674874130990315,
+      "exact": 0.000750043111105245,
+      "difference_dB": 6.511040517675135,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7604,
+      "z": 100,
+      "n0": 7652213440.924085,
+      "Phi": 76.9653443394522,
+      "linear": 4.2200045570842336e-05,
+      "exact": 0.00921605195772084,
+      "difference_dB": 23.39231994579787,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7605,
+      "z": 5,
+      "n0": 7691258142.77783,
+      "Phi": 3.863044438220001,
+      "linear": 0.016213700298737907,
+      "exact": 0.016213764828378486,
+      "difference_dB": 1.7284648499896543e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7605,
+      "z": 10,
+      "n0": 7734346364.348909,
+      "Phi": 7.727891984769578,
+      "linear": 0.004151494569319196,
+      "exact": 0.00415244367259513,
+      "difference_dB": 0.0009927586291736947,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7605,
+      "z": 20,
+      "n0": 7858819362.733783,
+      "Phi": 15.509774143934413,
+      "linear": 0.001037117029940428,
+      "exact": 0.001051950319499896,
+      "difference_dB": 0.06167464222532456,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7605,
+      "z": 50,
+      "n0": 7907438222.618989,
+      "Phi": 39.31500456843798,
+      "linear": 0.00016168990069910253,
+      "exact": 0.0007666388521032595,
+      "difference_dB": 6.759079305486903,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7605,
+      "z": 100,
+      "n0": 7955746480.039594,
+      "Phi": 78.54731886749225,
+      "linear": 4.0517448062490124e-05,
+      "exact": 0.00961239965434091,
+      "difference_dB": 23.751897350608502,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7606,
+      "z": 5,
+      "n0": 7744057613.052709,
+      "Phi": 3.8757164339132473,
+      "linear": 0.016111205910728475,
+      "exact": 0.016111270803064525,
+      "difference_dB": 1.7492375719711404e-05,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7606,
+      "z": 10,
+      "n0": 7673771887.396316,
+      "Phi": 7.720297249999495,
+      "linear": 0.004159598833793966,
+      "exact": 0.004160551726814804,
+      "difference_dB": 0.0009947805141000397,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7606,
+      "z": 20,
+      "n0": 7608321650.478179,
+      "Phi": 15.352676175050933,
+      "linear": 0.0010584053421489603,
+      "exact": 0.0010731177814836687,
+      "difference_dB": 0.05995367932261078,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7606,
+      "z": 50,
+      "n0": 7510296230.669929,
+      "Phi": 38.12354882223291,
+      "linear": 0.00017195072011219332,
+      "exact": 0.0007351584333584167,
+      "difference_dB": 6.309769446560845,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    },
+    {
+      "sigma": 3,
+      "disorder": 7606,
+      "z": 100,
+      "n0": 7700999285.89669,
+      "Phi": 76.18195994009915,
+      "linear": 4.3072324737211016e-05,
+      "exact": 0.00879335487562706,
+      "difference_dB": 23.099562879259587,
+      "note": "Derived oracle diagnostic at measured f0 and integrated self phase, not a separate physical trajectory"
+    }
+  ],
+  "diagonal_mechanism": [
+    {
+      "n": 10000.0,
+      "z": 5,
+      "exact": 0.2963341219994407,
+      "analytic_twa": 0.2965022876024903,
+      "tangent": 0.20077352718509656,
+      "exact_fixed": 0.29634402240809643,
+      "excess": 0.09557049522299987,
+      "conditional_phase": 15.289062499999995,
+      "SPM_VP": 61.06250000000001,
+      "full_VP": 75.3515625
+    },
+    {
+      "n": 10000.0,
+      "z": 10,
+      "exact": 1.633924335372665,
+      "analytic_twa": 1.6346201443754602,
+      "tangent": 0.19436477249485273,
+      "exact_fixed": 1.6340842602332781,
+      "excess": 1.4397194877384254,
+      "conditional_phase": 58.15624999999998,
+      "SPM_VP": 241.25000000000003,
+      "full_VP": 298.40625
+    },
+    {
+      "n": 10000.0,
+      "z": 20,
+      "exact": 22.265009857178477,
+      "analytic_twa": 22.27437356517341,
+      "tangent": 0.1927302170872368,
+      "exact_fixed": 22.267422469602998,
+      "excess": 22.07469225251576,
+      "conditional_phase": 229.62499999999991,
+      "SPM_VP": 962.0000000000001,
+      "full_VP": 1190.625
+    },
+    {
+      "n": 10000.0,
+      "z": 50,
+      "exact": 705.564631813277,
+      "analytic_twa": 705.82770374898,
+      "tangent": 0.19227015941936176,
+      "exact_fixed": 705.6243333836645,
+      "excess": 705.4320632242452,
+      "conditional_phase": 1429.9062499999995,
+      "SPM_VP": 6007.250000000001,
+      "full_VP": 7436.15625
+    },
+    {
+      "n": 1000000.0,
+      "z": 5,
+      "exact": 0.201731428147563,
+      "analytic_twa": 0.20173272169672338,
+      "tangent": 0.20077352718509656,
+      "exact_fixed": 0.20173142914306919,
+      "excess": 0.0009579019579726289,
+      "conditional_phase": 15.289062499999995,
+      "SPM_VP": 61.06250000000001,
+      "full_VP": 75.3515625
+    },
+    {
+      "n": 1000000.0,
+      "z": 10,
+      "exact": 0.20889804876279686,
+      "analytic_twa": 0.20889882263028145,
+      "tangent": 0.19436477249485273,
+      "exact_fixed": 0.20889806510641298,
+      "excess": 0.01453329261156025,
+      "conditional_phase": 58.15624999999998,
+      "SPM_VP": 241.25000000000003,
+      "full_VP": 298.40625
+    },
+    {
+      "n": 1000000.0,
+      "z": 20,
+      "exact": 0.421978748165428,
+      "analytic_twa": 0.4219780242560244,
+      "tangent": 0.1927302170872368,
+      "exact_fixed": 0.42197901124405746,
+      "excess": 0.22924879415682065,
+      "conditional_phase": 229.62499999999991,
+      "SPM_VP": 962.0000000000001,
+      "full_VP": 1190.625
+    },
+    {
+      "n": 1000000.0,
+      "z": 50,
+      "exact": 9.094013748906907,
+      "analytic_twa": 9.094034423033694,
+      "tangent": 0.19227015941936176,
+      "exact_fixed": 9.094023997708216,
+      "excess": 8.901753838288855,
+      "conditional_phase": 1429.9062499999995,
+      "SPM_VP": 6007.250000000001,
+      "full_VP": 7436.15625
+    },
+    {
+      "n": 10000000000.0,
+      "z": 5,
+      "exact": 0.20077362297751383,
+      "analytic_twa": 0.20077362310647515,
+      "tangent": 0.20077352718509656,
+      "exact_fixed": 0.20077362297751378,
+      "excess": 9.579241722068588e-08,
+      "conditional_phase": 15.289062499999995,
+      "SPM_VP": 61.06250000000001,
+      "full_VP": 75.3515625
+    },
+    {
+      "n": 10000000000.0,
+      "z": 10,
+      "exact": 0.19436622596231226,
+      "analytic_twa": 0.1943662260333496,
+      "tangent": 0.19436477249485273,
+      "exact_fixed": 0.1943662259623123,
+      "excess": 1.4534674595556574e-06,
+      "conditional_phase": 58.15624999999998,
+      "SPM_VP": 241.25000000000003,
+      "full_VP": 298.40625
+    },
+    {
+      "n": 10000000000.0,
+      "z": 20,
+      "exact": 0.19275315074501675,
+      "analytic_twa": 0.19275315057086434,
+      "tangent": 0.1927302170872368,
+      "exact_fixed": 0.1927531507450192,
+      "excess": 2.2933657782386874e-05,
+      "conditional_phase": 229.62499999999991,
+      "SPM_VP": 962.0000000000001,
+      "full_VP": 1190.625
+    },
+    {
+      "n": 10000000000.0,
+      "z": 50,
+      "exact": 0.1931624709916862,
+      "analytic_twa": 0.19316246909526158,
+      "tangent": 0.19227015941936176,
+      "exact_fixed": 0.1931624709917894,
+      "excess": 0.0008923115724276398,
+      "conditional_phase": 1429.9062499999995,
+      "SPM_VP": 6007.250000000001,
+      "full_VP": 7436.15625
+    }
+  ],
+  "extracted_stage": [
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 10000000000.0,
+      "z": 10,
+      "n0": 8438972377.500409,
+      "nu": 5.679858462991185,
+      "prediction": 0.004703539096721933,
+      "Gaussian_input_ratio": 0.0001630807086125648,
+      "crossfit": [
+        {
+          "Phi": 41.374425434303475,
+          "train": 0.0045220786830336875,
+          "test": 0.004594131609867644
+        },
+        {
+          "Phi": 41.1573460811974,
+          "train": 0.004576007572271719,
+          "test": 0.004431428196668068
+        },
+        {
+          "Phi": 41.20059279286165,
+          "train": 0.0045429438936449,
+          "test": 0.004531125234809648
+        },
+        {
+          "Phi": 41.422461649586815,
+          "train": 0.004511415507332716,
+          "test": 0.004625616132507528
+        }
+      ],
+      "mean": 0.004545575293463222,
+      "se": 4.2819987232927384e-05,
+      "raw_tag": "K5_E0.3_s0.3_l4201_d7601_h0.02_z100"
+    },
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 10000000000.0,
+      "z": 20,
+      "n0": 8700972693.75127,
+      "nu": 8.973730109601748,
+      "prediction": 0.008567339918336197,
+      "Gaussian_input_ratio": 0.0038925723263170137,
+      "crossfit": [
+        {
+          "Phi": 42.95338071780632,
+          "train": 0.00844236567951634,
+          "test": 0.008493971824143631
+        },
+        {
+          "Phi": 42.99867187139517,
+          "train": 0.008446634873341297,
+          "test": 0.008480151766327243
+        },
+        {
+          "Phi": 42.72989775849299,
+          "train": 0.008506212428880746,
+          "test": 0.00830552844169686
+        },
+        {
+          "Phi": 43.43030992403785,
+          "train": 0.008411556915575505,
+          "test": 0.00859223012274813
+        }
+      ],
+      "mean": 0.008467970538728966,
+      "se": 5.961845929032111e-05,
+      "raw_tag": "K5_E0.3_s0.3_l4201_d7601_h0.02_z100"
+    },
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 10000000000.0,
+      "z": 50,
+      "n0": 8635514803.037882,
+      "nu": 37.42799617196702,
+      "prediction": 0.057663892164285725,
+      "Gaussian_input_ratio": 0.0455470507345422,
+      "crossfit": [
+        {
+          "Phi": 44.27935829369005,
+          "train": 0.05637018120709606,
+          "test": 0.053152184662719745
+        },
+        {
+          "Phi": 44.580363747963624,
+          "train": 0.05492608045717423,
+          "test": 0.057476989606042875
+        },
+        {
+          "Phi": 44.3208746156138,
+          "train": 0.05569230780908922,
+          "test": 0.05518613790299452
+        },
+        {
+          "Phi": 45.07649284089629,
+          "train": 0.055180567278732,
+          "test": 0.05675246060200004
+        }
+      ],
+      "mean": 0.0556419431934393,
+      "se": 0.0009577447578910726,
+      "raw_tag": "K5_E0.3_s0.3_l4201_d7601_h0.02_z100"
+    },
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 100000000.0,
+      "z": 10,
+      "n0": 84389723.77500409,
+      "nu": 5.679858462991185,
+      "prediction": 0.021831894549805657,
+      "Gaussian_input_ratio": 0.016308070861256484,
+      "crossfit": [
+        {
+          "Phi": 14.532854937683917,
+          "train": 0.021052681983822583,
+          "test": 0.02138090593472261
+        },
+        {
+          "Phi": 14.464178295236689,
+          "train": 0.02129915726193591,
+          "test": 0.02063811657555829
+        },
+        {
+          "Phi": 14.4815595300832,
+          "train": 0.02118712431039713,
+          "test": 0.02097695406427018
+        },
+        {
+          "Phi": 14.597235209747515,
+          "train": 0.020964756888800125,
+          "test": 0.021645608166945475
+        }
+      ],
+      "mean": 0.021160396185374138,
+      "se": 0.0002218261742976964,
+      "raw_tag": "K5_E0.3_s0.3_l4201_d7601_h0.02_z100"
+    },
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 100000000.0,
+      "z": 20,
+      "n0": 87009726.93751271,
+      "nu": 8.973730109601748,
+      "prediction": 0.03976606929871431,
+      "Gaussian_input_ratio": 0.38925723263170137,
+      "crossfit": [
+        {
+          "Phi": 10.03524792764762,
+          "train": 0.03917462034939009,
+          "test": 0.03925898684208117
+        },
+        {
+          "Phi": 10.087175745810256,
+          "train": 0.03915350503038115,
+          "test": 0.03931696756191732
+        },
+        {
+          "Phi": 9.998114643456047,
+          "train": 0.039459425719371534,
+          "test": 0.03841081822912239
+        },
+        {
+          "Phi": 10.294882130662497,
+          "train": 0.03892863058683746,
+          "test": 0.040025019000529766
+        }
+      ],
+      "mean": 0.03925294790841266,
+      "se": 0.00033032952648064773,
+      "raw_tag": "K5_E0.3_s0.3_l4201_d7601_h0.02_z100"
+    },
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 100000000.0,
+      "z": 50,
+      "n0": 86355148.03037882,
+      "nu": 37.42799617196702,
+      "prediction": 0.26765207797240004,
+      "Gaussian_input_ratio": 4.554705073454219,
+      "crossfit": [
+        {
+          "Phi": 0.36799029704605607,
+          "train": 0.25939788150330023,
+          "test": 0.24926998731497707
+        },
+        {
+          "Phi": 0.6165942454408645,
+          "train": 0.2552816735352497,
+          "test": 0.26154725224748476
+        },
+        {
+          "Phi": 0.4656225205823331,
+          "train": 0.2568131046248408,
+          "test": 0.25695765793599185
+        },
+        {
+          "Phi": 0.8244115923094912,
+          "train": 0.25545145942736186,
+          "test": 0.26121626347915783
+        }
+      ],
+      "mean": 0.2572477902444029,
+      "se": 0.0028572082771481998,
+      "raw_tag": "K5_E0.3_s0.3_l4201_d7601_h0.02_z100"
+    },
+    {
+      "E": 0.6,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 10000000000.0,
+      "z": 10,
+      "n0": 7055264953.441498,
+      "nu": 10.74124398812877,
+      "prediction": 0.011676327337352296,
+      "Gaussian_input_ratio": 2.7386076470301776e-05,
+      "crossfit": [
+        {
+          "Phi": 42.56780827478438,
+          "train": 0.011258294657279285,
+          "test": 0.011270256285756366
+        },
+        {
+          "Phi": 42.4144456854444,
+          "train": 0.011334864192107117,
+          "test": 0.011040052385158578
+        },
+        {
+          "Phi": 42.441306137242734,
+          "train": 0.011201669731628115,
+          "test": 0.011440350586473661
+        },
+        {
+          "Phi": 42.76680200593587,
+          "train": 0.011232840273061684,
+          "test": 0.011351270847886785
+        }
+      ],
+      "mean": 0.011275482526318848,
+      "se": 8.581958396468412e-05,
+      "raw_tag": "K5_E0.6_s0.3_l4201_d7601_h0.02_z300"
+    },
+    {
+      "E": 0.6,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 10000000000.0,
+      "z": 20,
+      "n0": 7334307889.902591,
+      "nu": 13.292600622367242,
+      "prediction": 0.015314335533953765,
+      "Gaussian_input_ratio": 0.0008716732609673227,
+      "crossfit": [
+        {
+          "Phi": 48.86457017791264,
+          "train": 0.015431380140347147,
+          "test": 0.01358836416174826
+        },
+        {
+          "Phi": 49.51385238911248,
+          "train": 0.014944048698111662,
+          "test": 0.015022016829764694
+        },
+        {
+          "Phi": 49.932347417374864,
+          "train": 0.01456396950568862,
+          "test": 0.016177280079390233
+        },
+        {
+          "Phi": 49.89320311576435,
+          "train": 0.014883119096737663,
+          "test": 0.015213296281380191
+        }
+      ],
+      "mean": 0.015000239338070844,
+      "se": 0.0005342193635326241,
+      "raw_tag": "K5_E0.6_s0.3_l4201_d7601_h0.02_z300"
+    },
+    {
+      "E": 0.6,
+      "sigma": 0.3,
+      "launch": 4201,
+      "disorder": 7601,
+      "n": 10000000000.0,
+      "z": 50,
+      "n0": 7655796596.4715395,
+      "nu": 38.669184136763455,
+      "prediction": 0.0626942645408667,
+      "Gaussian_input_ratio": 0.024392516141678488,
+      "crossfit": [
+        {
+          "Phi": 64.44427945885323,
+          "train": 0.06531481416329969,
+          "test": 0.0648482701932204
+        },
+        {
+          "Phi": 64.54680359679934,
+          "train": 0.06591768515623095,
+          "test": 0.06306178623066533
+        },
+        {
+          "Phi": 64.61816513848606,
+          "train": 0.06467838286233167,
+          "test": 0.06676098569813924
+        },
+        {
+          "Phi": 64.55807180748776,
+          "train": 0.06478248487655816,
+          "test": 0.06644695601115204
+        }
+      ],
+      "mean": 0.06527949953329425,
+      "se": 0.0008496061303488922,
+      "raw_tag": "K5_E0.6_s0.3_l4201_d7601_h0.02_z300"
+    },
+    {
+      "E": 0.3,
+      "sigma": 3,
+      "launch": 4202,
+      "disorder": 7602,
+      "n": 10000000000.0,
+      "z": 10,
+      "n0": 7683210045.198105,
+      "nu": 8.063403107215066,
+      "prediction": 0.007743099774645312,
+      "Gaussian_input_ratio": 6.549888025270138e-05,
+      "crossfit": [
+        {
+          "Phi": 47.628635427677985,
+          "train": 0.00788244197413762,
+          "test": 0.006883850101128942
+        },
+        {
+          "Phi": 47.91985532030373,
+          "train": 0.007623197434023943,
+          "test": 0.007657237068856217
+        },
+        {
+          "Phi": 47.75462941037977,
+          "train": 0.007612947593682941,
+          "test": 0.007690093871407913
+        },
+        {
+          "Phi": 48.77831738044855,
+          "train": 0.007389416723606426,
+          "test": 0.008382599198877882
+        }
+      ],
+      "mean": 0.007653445060067739,
+      "se": 0.0003062269955538523,
+      "raw_tag": "K5_E0.3_s3_l4202_d7602_h0.02_z100"
+    },
+    {
+      "E": 0.3,
+      "sigma": 3,
+      "launch": 4202,
+      "disorder": 7602,
+      "n": 10000000000.0,
+      "z": 20,
+      "n0": 7713700235.8166895,
+      "nu": 15.875048372853385,
+      "prediction": 0.019081115153039344,
+      "Gaussian_input_ratio": 0.0010730648871721835,
+      "crossfit": [
+        {
+          "Phi": 53.42566705807405,
+          "train": 0.019306426767686152,
+          "test": 0.016838699590580937
+        },
+        {
+          "Phi": 53.891563956416185,
+          "train": 0.018570675863039225,
+          "test": 0.01903221250873499
+        },
+        {
+          "Phi": 53.627620055814205,
+          "train": 0.018657788766553753,
+          "test": 0.018776562068114344
+        },
+        {
+          "Phi": 54.768572672944735,
+          "train": 0.018165838903802915,
+          "test": 0.020292873049585436
+        }
+      ],
+      "mean": 0.018735086804253925,
+      "se": 0.00071373351306715,
+      "raw_tag": "K5_E0.3_s3_l4202_d7602_h0.02_z100"
+    },
+    {
+      "E": 0.3,
+      "sigma": 3,
+      "launch": 4202,
+      "disorder": 7602,
+      "n": 10000000000.0,
+      "z": 50,
+      "n0": 7765876156.032193,
+      "nu": 48.092280430610955,
+      "prediction": 0.08345293263857063,
+      "Gaussian_input_ratio": 0.02830971418386034,
+      "crossfit": [
+        {
+          "Phi": 53.958175031491464,
+          "train": 0.08440577032163402,
+          "test": 0.07481812024606338
+        },
+        {
+          "Phi": 54.7743511846603,
+          "train": 0.08135618037992597,
+          "test": 0.08389101300412874
+        },
+        {
+          "Phi": 54.19287853232617,
+          "train": 0.08174125451827367,
+          "test": 0.08276337571555603
+        },
+        {
+          "Phi": 55.523283537695725,
+          "train": 0.08026781760319758,
+          "test": 0.08729885142055427
+        }
+      ],
+      "mean": 0.0821928400965756,
+      "se": 0.0026405041600454865,
+      "raw_tag": "K5_E0.3_s3_l4202_d7602_h0.02_z100"
+    }
+  ],
+  "loss": [
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.01_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7601,
+      "dt": 0.01,
+      "z": 10,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9791483623609768,
+      "lambda_mean": 0.2421494580360289,
+      "lambda_SE": 0.0038134656330139523,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.31793451223242597,
+      "detected_dB": -4.9766232625772915
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.01_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7601,
+      "dt": 0.01,
+      "z": 20,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9587315155141827,
+      "lambda_mean": 0.2069029067629422,
+      "lambda_SE": 0.0027955568128737885,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.286212616086648,
+      "detected_dB": -5.433112267046319
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.01_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7601,
+      "dt": 0.01,
+      "z": 50,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9,
+      "lambda_mean": 0.19423345904701414,
+      "lambda_SE": 0.0036227196585258492,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.27481011314231274,
+      "detected_dB": -5.609672890757885
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7601,
+      "dt": 0.02,
+      "z": 10,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9791483623609768,
+      "lambda_mean": 0.23492469218499643,
+      "lambda_SE": 0.003315335379721713,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.3114322229664968,
+      "detected_dB": -5.0663645428381665
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7601,
+      "dt": 0.02,
+      "z": 20,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9587315155141827,
+      "lambda_mean": 0.22793391423987713,
+      "lambda_SE": 0.0023562612795641727,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.30514052281588944,
+      "detected_dB": -5.155001140006178
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7601,
+      "dt": 0.02,
+      "z": 50,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9,
+      "lambda_mean": 0.22606018042822468,
+      "lambda_SE": 0.007762946988944089,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.30345416238540224,
+      "detected_dB": -5.17906901051702
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7602_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7602,
+      "dt": 0.02,
+      "z": 10,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9791483623609768,
+      "lambda_mean": 0.1961175903580868,
+      "lambda_SE": 0.0034286951376345815,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.27650583132227813,
+      "detected_dB": -5.582957052837569
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7602_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7602,
+      "dt": 0.02,
+      "z": 20,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9587315155141827,
+      "lambda_mean": 0.18900558504731793,
+      "lambda_SE": 0.003867431034615316,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.2701050265425861,
+      "detected_dB": -5.684673336970522
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7602_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7602,
+      "dt": 0.02,
+      "z": 50,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9,
+      "lambda_mean": 0.16229658958134147,
+      "lambda_SE": 0.004137598710434947,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.24606693062320734,
+      "detected_dB": -6.08946747991123
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7603_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7603,
+      "dt": 0.02,
+      "z": 10,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9791483623609768,
+      "lambda_mean": 0.25867909473975204,
+      "lambda_SE": 0.0017173807055265403,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.3328111852657768,
+      "detected_dB": -4.7780208617465885
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7603_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7603,
+      "dt": 0.02,
+      "z": 20,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9587315155141827,
+      "lambda_mean": 0.18470194944065554,
+      "lambda_SE": 0.0028298446643717505,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.26623175449659,
+      "detected_dB": -5.747401457803121
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7603_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7603,
+      "dt": 0.02,
+      "z": 50,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9,
+      "lambda_mean": 0.21087552600577536,
+      "lambda_SE": 0.005088669514301677,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.2897879734051978,
+      "detected_dB": -5.379196423021794
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7604_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7604,
+      "dt": 0.02,
+      "z": 10,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9791483623609768,
+      "lambda_mean": 0.1686323011335661,
+      "lambda_SE": 0.0026209897403627965,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.2517690710202095,
+      "detected_dB": -5.989976225612601
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7604_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7604,
+      "dt": 0.02,
+      "z": 20,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9587315155141827,
+      "lambda_mean": 0.18793207339536544,
+      "lambda_SE": 0.0028609282485784877,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.26913886605582893,
+      "detected_dB": -5.700235817057387
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7604_h0.02_z50_n1e+10_p9_loss0.00210721_w1.json",
+      "disorder": 7604,
+      "dt": 0.02,
+      "z": 50,
+      "alpha": 0.0021072103131565254,
+      "transmission": 0.9,
+      "lambda_mean": 0.22085160084855798,
+      "lambda_SE": 0.003970453226031725,
+      "detector_efficiency": 0.9,
+      "detected_mean": 0.2987664407637022,
+      "detected_dB": -5.246681866747883
+    }
+  ],
+  "nonlinear_ensembles": [
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "held_out": false,
+      "z": 5,
+      "members": 6,
+      "mean": -7.3498355086150395,
+      "sd": 1.5422058236131506,
+      "se": 0.6296028910334827,
+      "mean_95CI": [
+        -8.96828126396982,
+        -5.73138975326026
+      ],
+      "sd_95CI_normal_assumption": [
+        0.9626572162297335,
+        3.7824355762142607
+      ],
+      "tangent_mean_dB": -7.319265592323706,
+      "formula_mean_dB": -7.2681724592203105,
+      "mean_difference_dB": -0.030569916291334803,
+      "max_individual_difference_dB": 0.07856373457720789,
+      "max_sampling_SE_dB": 0.12286804127492376,
+      "passed": true,
+      "f0_range": [
+        0.770735643264811,
+        0.8155604691981504
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 7.675981771123669e-07
+    },
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "held_out": false,
+      "z": 10,
+      "members": 6,
+      "mean": -9.191574683612602,
+      "sd": 2.0636224420509044,
+      "se": 0.842470334130144,
+      "mean_95CI": [
+        -11.357213621590006,
+        -7.025935745635198
+      ],
+      "sd_95CI_normal_assumption": [
+        1.288129641969398,
+        5.061269268456245
+      ],
+      "tangent_mean_dB": -9.188914215050792,
+      "formula_mean_dB": -9.1744283928281,
+      "mean_difference_dB": -0.002660468561808127,
+      "max_individual_difference_dB": 0.07362492838334589,
+      "max_sampling_SE_dB": 0.14632304501872745,
+      "passed": true,
+      "f0_range": [
+        0.8046465959716996,
+        0.8495189888043128
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 2.371000901231599e-05
+    },
+    {
+      "E": 0.3,
+      "sigma": 0.3,
+      "held_out": false,
+      "z": 20,
+      "members": 6,
+      "mean": -11.036348972756967,
+      "sd": 2.3753726817953043,
+      "se": 0.9697418365574947,
+      "mean_95CI": [
+        -13.529149723068262,
+        -8.543548222445672
+      ],
+      "sd_95CI_normal_assumption": [
+        1.4827266363240086,
+        5.825872267386646
+      ],
+      "tangent_mean_dB": -11.06482449827035,
+      "formula_mean_dB": -11.061527111186924,
+      "mean_difference_dB": 0.028475525513382987,
+      "max_individual_difference_dB": 0.15303156836461618,
+      "max_sampling_SE_dB": 0.11620376726190729,
+      "passed": true,
+      "f0_range": [
+        0.8355017574518243,
+        0.8779199025833674
+      ],
+      "outside_original_f0_bounds": 3,
+      "max_own_curvature_ratio": 0.0006238708635996725
+    },
+    {
+      "E": 0.3,
+      "sigma": 3,
+      "held_out": false,
+      "z": 5,
+      "members": 6,
+      "mean": -7.033892675203525,
+      "sd": 0.39035503187086723,
+      "se": 0.15936177443524832,
+      "mean_95CI": [
+        -7.4435451578615455,
+        -6.624240192545504
+      ],
+      "sd_95CI_normal_assumption": [
+        0.2436627346158555,
+        0.9573902116667052
+      ],
+      "tangent_mean_dB": -7.0341266093343435,
+      "formula_mean_dB": -6.987884758816732,
+      "mean_difference_dB": 0.0002339341308184769,
+      "max_individual_difference_dB": 0.020375304252105764,
+      "max_sampling_SE_dB": 0.05224516665996703,
+      "passed": true,
+      "f0_range": [
+        0.770749001031734,
+        0.7852828757345129
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 5.338126644121677e-07
+    },
+    {
+      "E": 0.3,
+      "sigma": 3,
+      "held_out": false,
+      "z": 10,
+      "members": 6,
+      "mean": -6.9623228372676005,
+      "sd": 0.36573412237381997,
+      "se": 0.14931033022341328,
+      "mean_95CI": [
+        -7.346137260012767,
+        -6.578508414522434
+      ],
+      "sd_95CI_normal_assumption": [
+        0.22829416588490442,
+        0.8970046246234655
+      ],
+      "tangent_mean_dB": -6.9759731090032995,
+      "formula_mean_dB": -6.964164658780564,
+      "mean_difference_dB": 0.013650271735697661,
+      "max_individual_difference_dB": 0.02742006302568356,
+      "max_sampling_SE_dB": 0.050012331667144985,
+      "passed": true,
+      "f0_range": [
+        0.766110579817545,
+        0.7820418743697205
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 7.698237576706624e-06
+    },
+    {
+      "E": 0.3,
+      "sigma": 3,
+      "held_out": false,
+      "z": 20,
+      "members": 6,
+      "mean": -6.969562908801815,
+      "sd": 0.8803784577792078,
+      "se": 0.3594130003495738,
+      "mean_95CI": [
+        -7.8934634389919776,
+        -6.045662378611652
+      ],
+      "sd_95CI_normal_assumption": [
+        0.5495392783622033,
+        2.1592285207658612
+      ],
+      "tangent_mean_dB": -6.9885616266266775,
+      "formula_mean_dB": -6.985612918247017,
+      "mean_difference_dB": 0.018998717824863693,
+      "max_individual_difference_dB": 0.044063626489764474,
+      "max_sampling_SE_dB": 0.0650971803453443,
+      "passed": true,
+      "f0_range": [
+        0.7674187080549292,
+        0.780661714928249
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 0.0001721306533979976
+    },
+    {
+      "E": 0.45,
+      "sigma": 0.3,
+      "held_out": true,
+      "z": 5,
+      "members": 6,
+      "mean": -5.829743528155042,
+      "sd": 1.5521391646299891,
+      "se": 0.6336581605222016,
+      "mean_95CI": [
+        -7.458613685596133,
+        -4.200873370713951
+      ],
+      "sd_95CI_normal_assumption": [
+        0.9688576871816116,
+        3.8067982273451793
+      ],
+      "tangent_mean_dB": -5.947698710875116,
+      "formula_mean_dB": -5.884208464286536,
+      "mean_difference_dB": 0.11795518272007517,
+      "max_individual_difference_dB": 0.17312675079940654,
+      "max_sampling_SE_dB": 0.1208885735362749,
+      "passed": true,
+      "f0_range": [
+        0.6956260958658586,
+        0.7355933233286512
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 4.6298973193951875e-07
+    },
+    {
+      "E": 0.45,
+      "sigma": 0.3,
+      "held_out": true,
+      "z": 10,
+      "members": 6,
+      "mean": -8.349076122226359,
+      "sd": 2.8354306237014195,
+      "se": 1.1575597048549895,
+      "mean_95CI": [
+        -11.324678073191128,
+        -5.37347417126159
+      ],
+      "sd_95CI_normal_assumption": [
+        1.769898485164604,
+        6.954216811248323
+      ],
+      "tangent_mean_dB": -8.445036527407396,
+      "formula_mean_dB": -8.429412118166569,
+      "mean_difference_dB": 0.0959604051810361,
+      "max_individual_difference_dB": 0.17537810376740737,
+      "max_sampling_SE_dB": 0.10489004060058604,
+      "passed": true,
+      "f0_range": [
+        0.6924324872373754,
+        0.8076730514287974
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 1.6976287149240222e-05
+    },
+    {
+      "E": 0.45,
+      "sigma": 0.3,
+      "held_out": true,
+      "z": 20,
+      "members": 6,
+      "mean": -6.535189054525837,
+      "sd": 1.6749526909525794,
+      "se": 0.6837965726892377,
+      "mean_95CI": [
+        -8.292944103551157,
+        -4.777434005500516
+      ],
+      "sd_95CI_normal_assumption": [
+        1.0455188730978167,
+        4.108012399986909
+      ],
+      "tangent_mean_dB": -6.519912779257335,
+      "formula_mean_dB": -6.5161344390993685,
+      "mean_difference_dB": -0.015276275268501246,
+      "max_individual_difference_dB": 0.13028343754498994,
+      "max_sampling_SE_dB": 0.07767087179764011,
+      "passed": true,
+      "f0_range": [
+        0.6643316718309934,
+        0.8075549248019472
+      ],
+      "outside_original_f0_bounds": 0,
+      "max_own_curvature_ratio": 0.00012276537529155342
+    }
+  ],
+  "original_ensemble_predictions": [
+    {
+      "case": "E.45",
+      "z": 10,
+      "members": 12,
+      "dt": 0.02,
+      "mean_dB": -7.62537043099141,
+      "sd_dB": 2.0789339385306014,
+      "mean_pass": true,
+      "spread_pass": true,
+      "note": "sigma2 continuum resolution is unresolved; this scores the literal finite-sample prediction."
+    },
+    {
+      "case": "E.45",
+      "z": 20,
+      "members": 12,
+      "dt": 0.02,
+      "mean_dB": -6.627339832144688,
+      "sd_dB": 2.473207952245477,
+      "mean_pass": true,
+      "spread_pass": true,
+      "note": "sigma2 continuum resolution is unresolved; this scores the literal finite-sample prediction."
+    },
+    {
+      "case": "sigma2",
+      "z": 20,
+      "members": 6,
+      "dt": 0.000625,
+      "mean_dB": -7.2961694741457634,
+      "sd_dB": 1.1736814427236328,
+      "mean_pass": true,
+      "spread_pass": true,
+      "note": "sigma2 continuum resolution is unresolved; this scores the literal finite-sample prediction."
+    },
+    {
+      "case": "sigma2",
+      "z": 50,
+      "members": 6,
+      "dt": 0.0025,
+      "mean_dB": -6.941053551195878,
+      "sd_dB": 1.6157927111142971,
+      "mean_pass": true,
+      "spread_pass": false,
+      "note": "sigma2 continuum resolution is unresolved; this scores the literal finite-sample prediction."
+    }
+  ],
+  "nonlinear_ensemble_convergence": [
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p9_loss0_w1.json",
+      "reference": "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "z": 5,
+      "change_dB": -0.07242525235772192,
+      "refined_dt": 0.01,
+      "reference_dt": 0.01,
+      "shots": 2048,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p9_loss0_w1.json",
+      "reference": "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "z": 10,
+      "change_dB": -0.09020125871517068,
+      "refined_dt": 0.01,
+      "reference_dt": 0.01,
+      "shots": 2048,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p9_loss0_w1.json",
+      "reference": "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "z": 20,
+      "change_dB": -0.11390458124178643,
+      "refined_dt": 0.01,
+      "reference_dt": 0.01,
+      "shots": 2048,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p9_loss0_w1.json",
+      "reference": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "z": 5,
+      "change_dB": -0.053563769801518064,
+      "refined_dt": 0.005,
+      "reference_dt": 0.005,
+      "shots": 2048,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p9_loss0_w1.json",
+      "reference": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "z": 10,
+      "change_dB": -0.05123514876508534,
+      "refined_dt": 0.005,
+      "reference_dt": 0.005,
+      "shots": 2048,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p9_loss0_w1.json",
+      "reference": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "z": 20,
+      "change_dB": -0.06498470930648442,
+      "refined_dt": 0.005,
+      "reference_dt": 0.005,
+      "shots": 2048,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.0025_z20_n1e+10_p8_loss0_w1.json",
+      "reference": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "z": 5,
+      "change_dB": 0.13975377247997886,
+      "refined_dt": 0.0025,
+      "reference_dt": 0.005,
+      "shots": 1024,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.0025_z20_n1e+10_p8_loss0_w1.json",
+      "reference": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "z": 10,
+      "change_dB": 0.28415359902360326,
+      "refined_dt": 0.0025,
+      "reference_dt": 0.005,
+      "shots": 1024,
+      "reference_shots": 1024
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.0025_z20_n1e+10_p8_loss0_w1.json",
+      "reference": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "z": 20,
+      "change_dB": -0.970080785214247,
+      "refined_dt": 0.0025,
+      "reference_dt": 0.005,
+      "shots": 1024,
+      "reference_shots": 1024
+    }
+  ],
+  "loss_ensemble": [
+    {
+      "z": 10,
+      "members": 4,
+      "mean": -5.354329670758732,
+      "sd": 0.5389411782304009,
+      "se": 0.26947058911520044,
+      "mean_95CI": [
+        -6.2119053514711755,
+        -4.4967539900462885
+      ],
+      "sd_95CI_normal_assumption": [
+        0.30530454370102017,
+        2.0094676619223555
+      ]
+    },
+    {
+      "z": 20,
+      "members": 4,
+      "mean": -5.571827937959302,
+      "sd": 0.27916142752576717,
+      "se": 0.13958071376288358,
+      "mean_95CI": [
+        -6.016036064762932,
+        -5.127619811155673
+      ],
+      "sd_95CI_normal_assumption": [
+        0.15814203050790768,
+        1.0408665801173833
+      ]
+    },
+    {
+      "z": 50,
+      "members": 4,
+      "mean": -5.473603695049482,
+      "sd": 0.41890537160092384,
+      "se": 0.20945268580046192,
+      "mean_95CI": [
+        -6.140175621107027,
+        -4.807031768991936
+      ],
+      "sd_95CI_normal_assumption": [
+        0.23730551402745284,
+        1.561908482112233
+      ]
+    }
+  ],
+  "final_resolution": [
+    {
+      "sigma": 2,
+      "z": 10,
+      "coarse": 0.0025,
+      "fine": 0.00125,
+      "paired_mean_difference_dB": 0.08720690015405504,
+      "max_individual_difference_dB": 0.45094939908503007,
+      "mean_gate": true,
+      "individual_gate": true,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -7.263590193462215,
+        "sd": 0.9759233504764885,
+        "se": 0.28172480455302107,
+        "mean_95CI": [
+          -7.883662307510684,
+          -6.643518079413746
+        ],
+        "sd_95CI_normal_assumption": [
+          0.6913393690908001,
+          1.6569988037575907
+        ]
+      }
+    },
+    {
+      "sigma": 2,
+      "z": 10,
+      "coarse": 0.00125,
+      "fine": 0.000625,
+      "paired_mean_difference_dB": -0.07603442843967963,
+      "max_individual_difference_dB": 0.5722309135070492,
+      "mean_gate": true,
+      "individual_gate": true,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -7.339624621901894,
+        "sd": 1.0155137520793023,
+        "se": 0.29315356906437606,
+        "mean_95CI": [
+          -7.984851277037937,
+          -6.694397966765851
+        ],
+        "sd_95CI_normal_assumption": [
+          0.7193850176069231,
+          1.7242184763518735
+        ]
+      }
+    },
+    {
+      "sigma": 2,
+      "z": 20,
+      "coarse": 0.0025,
+      "fine": 0.00125,
+      "paired_mean_difference_dB": 0.30291793672817313,
+      "max_individual_difference_dB": 1.5552440477509988,
+      "mean_gate": false,
+      "individual_gate": false,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -7.442719663945115,
+        "sd": 0.9330710401856426,
+        "se": 0.2693544081121124,
+        "mean_95CI": [
+          -8.035564719002801,
+          -6.849874608887429
+        ],
+        "sd_95CI_normal_assumption": [
+          0.6609830002775197,
+          1.5842408081060753
+        ]
+      }
+    },
+    {
+      "sigma": 2,
+      "z": 20,
+      "coarse": 0.00125,
+      "fine": 0.000625,
+      "paired_mean_difference_dB": 0.12306602035648927,
+      "max_individual_difference_dB": 1.324959474912918,
+      "mean_gate": true,
+      "individual_gate": false,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -7.319653643588627,
+        "sd": 0.9781583948393561,
+        "se": 0.28237000628529724,
+        "mean_95CI": [
+          -7.941145837075095,
+          -6.698161450102158
+        ],
+        "sd_95CI_normal_assumption": [
+          0.6929226636794175,
+          1.6607936364499416
+        ]
+      }
+    },
+    {
+      "sigma": 3,
+      "z": 10,
+      "coarse": 0.0025,
+      "fine": 0.00125,
+      "paired_mean_difference_dB": -0.04923428618964728,
+      "max_individual_difference_dB": 0.3329937588344198,
+      "mean_gate": true,
+      "individual_gate": true,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -7.014366302270552,
+        "sd": 0.6964296435302862,
+        "se": 0.20104192108192295,
+        "mean_95CI": [
+          -7.456856587126431,
+          -6.571876017414672
+        ],
+        "sd_95CI_normal_assumption": [
+          0.49334738239359116,
+          1.1824525826414385
+        ]
+      }
+    },
+    {
+      "sigma": 3,
+      "z": 10,
+      "coarse": 0.00125,
+      "fine": 0.000625,
+      "paired_mean_difference_dB": -0.062498942750683906,
+      "max_individual_difference_dB": 0.4493201385444944,
+      "mean_gate": true,
+      "individual_gate": true,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -7.076865245021236,
+        "sd": 0.657989134542606,
+        "se": 0.18994510197601125,
+        "mean_95CI": [
+          -7.494931595700879,
+          -6.658798894341593
+        ],
+        "sd_95CI_normal_assumption": [
+          0.46611631223004113,
+          1.117185287441134
+        ]
+      }
+    },
+    {
+      "sigma": 3,
+      "z": 20,
+      "coarse": 0.0025,
+      "fine": 0.00125,
+      "paired_mean_difference_dB": -0.30559202134867486,
+      "max_individual_difference_dB": 1.5762960406722333,
+      "mean_gate": false,
+      "individual_gate": false,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -7.172185345086523,
+        "sd": 1.245768174375813,
+        "se": 0.3596222954118722,
+        "mean_95CI": [
+          -7.96370868052302,
+          -6.380662009650026
+        ],
+        "sd_95CI_normal_assumption": [
+          0.8824961338263637,
+          2.1151623984528594
+        ]
+      }
+    },
+    {
+      "sigma": 3,
+      "z": 20,
+      "coarse": 0.00125,
+      "fine": 0.000625,
+      "paired_mean_difference_dB": 0.37794929854575293,
+      "max_individual_difference_dB": 1.147290431776327,
+      "mean_gate": false,
+      "individual_gate": false,
+      "fine_ensemble": {
+        "members": 12,
+        "mean": -6.79423604654077,
+        "sd": 0.8611231910372902,
+        "se": 0.2485848530754045,
+        "mean_95CI": [
+          -7.341367619181136,
+          -6.2471044739004045
+        ],
+        "sd_95CI_normal_assumption": [
+          0.610015492825857,
+          1.4620821366145649
+        ]
+      }
+    }
+  ],
+  "final_resolution_nonlinear": [
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.00125_z20_n1e+10_p8_loss0_w1.json",
+      "z": 10,
+      "dt": 0.00125,
+      "twa_dB": -6.608550962220384,
+      "linear_dB": -6.632427500630449,
+      "error_dB": 0.023876538410064676,
+      "sampling_SE_dB": 0.046303210764401366
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.00125_z20_n1e+10_p8_loss0_w1.json",
+      "z": 20,
+      "dt": 0.00125,
+      "twa_dB": -7.379605294373337,
+      "linear_dB": -7.41732967428494,
+      "error_dB": 0.037724379911603684,
+      "sampling_SE_dB": 0.04419131145879773
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.000625_z20_n1e+10_p8_loss0_w1.json",
+      "z": 10,
+      "dt": 0.000625,
+      "twa_dB": -7.070742957924847,
+      "linear_dB": -7.081747639174943,
+      "error_dB": 0.011004681250096043,
+      "sampling_SE_dB": 0.03744187876968573
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.000625_z20_n1e+10_p8_loss0_w1.json",
+      "z": 20,
+      "dt": 0.000625,
+      "twa_dB": -7.112229118349015,
+      "linear_dB": -7.130032757166962,
+      "error_dB": 0.017803638817946787,
+      "sampling_SE_dB": 0.026667079742575702
+    }
+  ],
+  "weak_signoff_domain": [
+    {
+      "z": 10,
+      "inside_original_bounds": 12,
+      "outside": 0,
+      "mean_and_SD_dB": {
+        "members": 12,
+        "mean": -9.487072981254641,
+        "sd": 1.6511825497373347,
+        "se": 0.47665534478603144,
+        "mean_95CI": [
+          -10.536184321602917,
+          -8.437961640906366
+        ],
+        "sd_95CI_normal_assumption": [
+          1.1696897114223201,
+          2.803506554448496
+        ]
+      },
+      "max_curvature_ratio": 2.3599346171793388e-05
+    },
+    {
+      "z": 20,
+      "inside_original_bounds": 8,
+      "outside": 4,
+      "mean_and_SD_dB": {
+        "members": 8,
+        "mean": -7.951540313920234,
+        "sd": 1.9778196543819506,
+        "se": 0.6992648447887555,
+        "mean_95CI": [
+          -9.60503892419399,
+          -6.298041703646479
+        ],
+        "sd_95CI_normal_assumption": [
+          1.3076832265278828,
+          4.025401143160061
+        ]
+      },
+      "max_curvature_ratio": 0.0006325614704511777
+    }
+  ],
+  "component_files": [
+    "bridge_checks.json",
+    "budget_checkpoint.json",
+    "diagonal_mechanism.json",
+    "ensemble_summary.json",
+    "extracted_stage.json",
+    "final_resolution.json",
+    "nonlinear_ensemble.json",
+    "refinement_summary.json",
+    "scaling_summary.json",
+    "spm_reference.json",
+    "tangent_convergence.json"
+  ]
+}

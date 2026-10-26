@@ -1,0 +1,51 @@
+run_id: 2026-10-10-gpt-b-soliton-solver
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+date: '2026-10-10'
+task: T-20261010-claude-interactive-06
+serves: explorations/2026-10-10-gpt-b-soliton-filtered-fano.md
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+hardware: Apple M5 laptop, macOS; at most two Julia threads and one Julia process
+wall_time_s: 6253.787706412049
+raw_location: ~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver
+description: 'Physical fundamental solitons: fixed-step native RK4IP/discrete adjoints
+  and an independently checked batched scalar pullback.'
+wall_time_note: Sum of available evaluator timings, not session elapsed time; some
+  symbolic/shooting checks did not record a timer.
+evidence_status: proposer checks only; not independent verification
+evaluator_sha256_note: Final evaluator files at registration, not a claim that every
+  earlier run used these exact working-tree bytes. Frozen predictions retain their
+  committed versions. Saved masks and distance curves are rechecked after search arithmetic
+  changes.
+evaluator_sha256:
+  scripts/soliton_batch_adjoint.py: d3741ec49da69f506860d7d9cf564ba28ab988e0e020e81e97e3385bc0ebb8e1
+  scripts/soliton_collect_results.py: 29e646d401639eb8ea230885fba47de0f6584c047548e297322305fda7c15527
+  scripts/soliton_continuum_sweep.py: dcd74c282b5c2e42d7c4d49be823747d2c7e55791bea74de83b910689b0b72b5
+  scripts/soliton_dc_check.py: 15d3a2acbf7db4093c47007ec2a5844c3b0dbc61312ee8e4de1168d499522879
+  scripts/soliton_fano_theory.py: a8c8710335597c723cc4c546a6799854d63d4095586a9b8ac25957b3293825f1
+  scripts/soliton_figures.py: 6a5cfd2b8f32559f013621c437a3e5eccf9f20f30478750690f572cf18c56aaa
+  scripts/soliton_frozen_raman.py: f7908afceebe4b0684d19d294a4f2ce1f076dbec8986a9f6bbeee6f817f5d5ea
+  scripts/soliton_gaussian_scattering.py: ac120a83722ca1eae98a97773705afa1513ecc69c12e98a40f610321bf71c358
+  scripts/soliton_inherited_amplitude.py: c3c78f671d03e42392aac9494bfcc8356facc555d3473c96f7f6d6ec96fd7ab4
+  scripts/soliton_jost_covariance_check.py: 1a9a78f0d25281fa0b7f5bea07582c7ee72146d482f880ec336d966a3b94b2d2
+  scripts/soliton_jost_filter.py: 99ac3e2a8b2805f297ccbc96ac76b03d97b04ed6c0b261f850aab27bfce1960a
+  scripts/soliton_launch_perturbation.py: c86e3c7b453be38362e69a131bc89a02dfe75511be5fb89915518f8f6b4bd3da
+  scripts/soliton_log_growth.py: 340ce24891813144cc643a3c9890cc5e4df0a61a69b3251aa4f06a5f67901b91
+  scripts/soliton_manakov_readout.py: aac954656546af5a887f632b0d4a1bb115a11111fdcbc250b484cda364ddfea6
+  scripts/soliton_material_jost_check.py: a3bcfb07b4f05cd17b5bd806ce59307fa4e59882fcb48b022f7fc648dd0fb32d
+  scripts/soliton_material_lower_bound.py: b16d368eba3196ec2f103ae3f509f6e86e0c37e89c42d617c639bda973ed974c
+  scripts/soliton_mean_fit.py: 3f76a15c471cc1c1ba2a1871fdb2cdae5b9bf61d9965589425aa0cbb17d205bc
+  scripts/soliton_odd_perturbations.py: e6c9588485b96b368e0d3ece4b75ebbca2c588ba5f8b2d258a98d6ca2440655f
+  scripts/soliton_quadratic_source.py: 91c0fe66be105b4ca2bff3b73e940297be11270c932668e634233f13eb35357a
+  scripts/soliton_readout_check.py: 4b8b41e50675e07d4b2c6b43613d70075b910019b07bc64c5cb44d4a4b636202
+  scripts/soliton_score_table.py: f82f0a5cff3891640401ec898c3718063f7f4367e5c67d554054cc4b0df3d21a
+  scripts/soliton_search_integrity.py: ec1a01a298b91b18e155ed2ff12ca8766065176df4ca8a0ba577c315989a2be2
+  scripts/soliton_short_distance.py: 9500179ae52b5c87d8339c10cb900cfa87d3705370352454dc6a47aac6207714
+  scripts/soliton_ssfs_response.py: b14f547162bea12baeb008b9250d7ab321b552b89333455fa85c30f3b08caff8
+  scripts/soliton_symbolic_checks.py: de9df0b878c4007c746012b0d91e8548d2f52b31a030a23df567c070e41db235
+  scripts/soliton_thermal_asymptote.py: db625ec198e882d729d4452be4c74ed5d46cab68935e376e6847898545dda7c2
+  scripts/soliton_thermal_optimum.py: 398f5b0af169d70ddcfe5a31482cbad3779e5c0715644f3e8ed5a1137c92f6eb
+  scripts/soliton_union_filters.py: 070251bde4c80d49b6fe4863c6f1d0ccfb4757c06fac4fb4f92148b9b41455a0
+  scripts/soliton_native_check.jl: 9971a7abbccf98aa6b0fb4640eefb9001f7703a340199b42049771a9fb40f109

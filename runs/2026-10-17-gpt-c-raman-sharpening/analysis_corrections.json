@@ -1,0 +1,25 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-raman-sharpening",
+  "corrections": [
+    {
+      "issue": "The initial summary treated a missing previous valid checkpoint as zero plateau change.",
+      "resolution": "A preferred peak now requires all three bracket samples to have previous valid checkpoints and the latest uncontaminated peak to pass the 0.5% plateau criterion.",
+      "effect": "All ten frozen BW calibration peak locations and shares are unchanged. As-like N=4 no longer has an accepted plateau and requires a length extension. The earliest-checkpoint sensitivity diagnostic inside frozen training_fit.json was permissive and is superseded by final diagnostics; coefficients and heldout predictions remain frozen.",
+      "raw_simulations_changed": false,
+      "subsequent_resolution": "The frozen-policy As-like N=4 length extension completed at zN=8. All three bracket samples now have valid prior checkpoints and pass the plateau criterion; its preferred peak is included in the final tables. The original frozen BW coefficients remain unchanged."
+    },
+    {
+      "issue": "The first time-domain HC kernel check used an integer temporary array at dt=3 fs and stopped with a casting error.",
+      "resolution": "Use explicit floating-point arrays; rerun completed. Initial failure log is retained as raw overlap_and_kernel.log; successful retry is kernel_validation_retry.log.",
+      "raw_simulations_changed": false
+    },
+    {
+      "issue": "Checked whether the tiny-frequency HC first-moment estimate suffered cancellation, because it differed slightly from a prior discretized-kernel moment.",
+      "resolution": "Independent time-domain adaptive quadrature confirms the tiny-frequency estimate (2.463955525 fs) to the reported quadrature precision. No cancellation discrepancy was found; the earlier 2.464016493 fs reference is a discretized-kernel approximation. The original overlap output and raw log are preserved; overlap maxima are unchanged.",
+      "raw_simulations_changed": false
+    }
+  ]
+}

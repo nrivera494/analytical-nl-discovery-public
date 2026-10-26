@@ -1,0 +1,31 @@
+run_id: 2026-10-05-claude-interactive-raman-stochastic
+agent: claude-interactive
+model: claude-opus-5-5
+family: claude
+date: 2026-10-05
+task: T-20261004-gpt-b-02
+serves: "Raman Langevin spectrum correction in soliton_jitter.ipynb and squeezing_spectral_filter.ipynb (T-20261004-gpt-b-02), its stochastic check, and the review of squeezing_spectral_filter.ipynb (T-20261006-claude-interactive-01); P-20261004-claude-interactive-02, P-20261004-root-03"
+description: "Adjoint contraction of Raman noise with the legacy and the symmetrized (coth) spectrum at 300 K and 0 K for both notebooks; Monte Carlo with stochastic_solve_raman (Raman noise only, paired random streams); deterministic single-kick test of the adjoint kernel; noise-sampler covariance; grid, step and adjoint-mode convergence of the squeezing notebook; input-sensitivity spectra with and without the notebook's excess pump noise. Scalar single-mode GNLSE, Agarwal Raman response, 1550 nm."
+solver_commit: d79f150c4dabac6f461f0302eb06b1ec7900bd4e
+solver_commit_original_history: 2f632d9
+solver_tree: ccc8227a27f7fca29031771d4ba65d80cf65eb9e
+solver_dirty: true
+solver_usage: >-
+  Stages 1-3 (adjoint values, Monte Carlo, notebook re-execution, round-1 convergence) ran on the
+  original's 9c12887 with the helper, scripts and notebook edits uncommitted; those files were then
+  committed unchanged as 2f632d9 (local, parent 9c12887), and replayed with an identical tree as
+  d79f150 in the agents' copy. One later edit added tau1/tau2 keywords to raman_langevin_spectrum_coth
+  with the same defaults; its output is bitwise identical (checked with ==). Stages 4-6 (round-2
+  convergence, kick test, sensitivity spectra, jitter adjoint modes) ran on a clean 2f632d9 tree, with
+  scripts kept outside the solver in the raw-data folder.
+software: "Julia 1.12.5, PulsePropagation (solver tree above), FFTW, PyPlot; notebooks executed by a plain-Julia cell runner (~/agent-work/nbexec/nbexec.jl), not IJulia"
+hardware: "Apple M5 (macOS), 10 cores, 32 GB; up to 8 single-threaded Julia processes"
+wall_time_s: "not recorded as a total; per-stage times in config.md"
+convergence: >-
+  Squeezing setup: discrete adjoint converged at dz = 1 mm (0.5 mm reproduces 6 digits); continuous adjoint
+  error shrinks about as dz^2 (vacuum Fano 0.2159, 0.2235, 0.2259 at dz = 1, 0.5, 0.25 mm vs 0.2268).
+  Grid: 2^12 to 2^15 points at a 50 ps window change the total Fano factor non-monotonically
+  (0.2855, 0.3371, 0.2973, 0.2937); the mean photon number converges as dt^2. Jitter setup: continuous vs
+  discrete adjoint agree to 1e-5; notebook step L/201 vs 0.025 L_D changes the Raman variance by 0.2-0.5%.
+  Monte Carlo stopped early (time limit) at 189-192 jitter and 85-88 squeezing seeds.
+raw_location: "Apple M5 laptop (PI): ~/analytical-nl-discovery-data/2026-10-05-claude-interactive-raman-stochastic/ (2.0 MB: adjoint_*.txt, mc_*.csv, summary_partial.txt, convergence/ with scripts and logs)"

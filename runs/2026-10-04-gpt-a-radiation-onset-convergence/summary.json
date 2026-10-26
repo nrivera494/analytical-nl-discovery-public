@@ -1,0 +1,196 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-radiation-onset-convergence",
+  "cases": [
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "doublewindow",
+      "parameters": {
+        "delta": 0.85,
+        "Omega": -0.22249999999999992,
+        "B0": 0.5698109949536228,
+        "k": 0.6670832032063165,
+        "Gamma": 0.023493630558220485,
+        "outgoing_amplitude": [
+          -0.6931287143475657,
+          0.6223586315998338
+        ],
+        "channel": "open"
+      },
+      "nt": 32768,
+      "window_tau": 4096.0,
+      "dzeta": 0.02,
+      "elapsed_seconds": 46.907331705093384,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "energy": 0.0,
+          "ground_energy": 0.0,
+          "continuum_energy": 0.0,
+          "edge_energy": 0.0
+        },
+        {
+          "zeta": 50.0,
+          "energy": 1.3228748052999353,
+          "ground_energy": 0.21097321261369323,
+          "continuum_energy": 1.1119015926862421,
+          "edge_energy": 1.4141327383825467e-27
+        },
+        {
+          "zeta": 100.0,
+          "energy": 2.295557709550134,
+          "ground_energy": 0.01028311843952823,
+          "continuum_energy": 2.2852745911106056,
+          "edge_energy": 1.576095112853335e-26
+        },
+        {
+          "zeta": 150.0,
+          "energy": 3.650906326745381,
+          "ground_energy": 0.19090818888471545,
+          "continuum_energy": 3.4599981378606657,
+          "edge_energy": 7.798178347427177e-19
+        },
+        {
+          "zeta": 200.0,
+          "energy": 4.6741509576481475,
+          "ground_energy": 0.039152051413803284,
+          "continuum_energy": 4.634998906234344,
+          "edge_energy": 1.2147930735724043e-14
+        },
+        {
+          "zeta": 250.0,
+          "energy": 5.964398886357973,
+          "ground_energy": 0.15464245754405842,
+          "continuum_energy": 5.809756428813914,
+          "edge_energy": 4.006769648552619e-12
+        },
+        {
+          "zeta": 300.0,
+          "energy": 7.065347505099826,
+          "ground_energy": 0.08104694077305463,
+          "continuum_energy": 6.984300564326771,
+          "edge_energy": 1.9162626179227785e-10
+        },
+        {
+          "zeta": 350.0,
+          "energy": 8.268064746835895,
+          "ground_energy": 0.10916042369868842,
+          "continuum_energy": 8.158904323137207,
+          "edge_energy": 3.0375714881475428e-09
+        },
+        {
+          "zeta": 400.0,
+          "energy": 9.461551430664453,
+          "ground_energy": 0.1278992637623678,
+          "continuum_energy": 9.333652166902086,
+          "edge_energy": 2.4134234946177503e-08
+        }
+      ],
+      "measured_slope": 0.02349290883131756,
+      "slope_relative_error": 3.0720109484017044e-05
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "halfstep",
+      "parameters": {
+        "delta": 0.85,
+        "Omega": -0.22249999999999992,
+        "B0": 0.5698109949536228,
+        "k": 0.6670832032063165,
+        "Gamma": 0.023493630558220485,
+        "outgoing_amplitude": [
+          -0.6931287143475657,
+          0.6223586315998338
+        ],
+        "channel": "open"
+      },
+      "nt": 16384,
+      "window_tau": 2048.0,
+      "dzeta": 0.01,
+      "elapsed_seconds": 43.345168113708496,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "energy": 0.0,
+          "ground_energy": 0.0,
+          "continuum_energy": 0.0,
+          "edge_energy": 0.0
+        },
+        {
+          "zeta": 50.0,
+          "energy": 1.322874803789349,
+          "ground_energy": 0.21097321243837144,
+          "continuum_energy": 1.1119015913509775,
+          "edge_energy": 8.069510937466352e-27
+        },
+        {
+          "zeta": 100.0,
+          "energy": 2.2955577069178057,
+          "ground_energy": 0.010283118546704663,
+          "continuum_energy": 2.285274588371101,
+          "edge_energy": 1.215308145622208e-14
+        },
+        {
+          "zeta": 150.0,
+          "energy": 3.650906322113995,
+          "ground_energy": 0.1909081883975936,
+          "continuum_energy": 3.459998133716401,
+          "edge_energy": 1.917335433254017e-10
+        },
+        {
+          "zeta": 200.0,
+          "energy": 4.67415095248928,
+          "ground_energy": 0.0391520517902083,
+          "continuum_energy": 4.634998900699072,
+          "edge_energy": 2.415591479853548e-08
+        },
+        {
+          "zeta": 250.0,
+          "energy": 5.964398878511215,
+          "ground_energy": 0.15464245664969004,
+          "continuum_energy": 5.8097564218615245,
+          "edge_energy": 4.4088739044640646e-07
+        },
+        {
+          "zeta": 300.0,
+          "energy": 7.065347497416627,
+          "ground_energy": 0.08104694143573639,
+          "continuum_energy": 6.984300555980891,
+          "edge_energy": 3.077744870272512e-06
+        },
+        {
+          "zeta": 350.0,
+          "energy": 8.268064735460513,
+          "ground_energy": 0.10916042246535024,
+          "continuum_energy": 8.158904312995162,
+          "edge_energy": 1.2422040509599434e-05
+        },
+        {
+          "zeta": 400.0,
+          "energy": 9.461551424251066,
+          "ground_energy": 0.12789926455734874,
+          "continuum_energy": 9.333652159693717,
+          "edge_energy": 3.575524926325517e-05
+        }
+      ],
+      "measured_slope": 0.023492908818245856,
+      "slope_relative_error": 3.072066587750388e-05
+    }
+  ],
+  "slope_changes": [
+    {
+      "label": "doublewindow",
+      "difference": -1.4882040044739142e-11
+    },
+    {
+      "label": "halfstep",
+      "difference": -2.79537434866306e-11
+    }
+  ]
+}

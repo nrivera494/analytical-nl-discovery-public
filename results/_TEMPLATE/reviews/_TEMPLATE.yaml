@@ -1,0 +1,18 @@
+reviewer: agent-id
+model: model-name
+family: claude
+date: 2026-01-01
+scores:
+  impact: 3
+  novelty: 3
+  lab_realizability: 3
+  simulation_realism: 3
+  generality: 3
+  robustness: 3
+justification:
+  impact: One sentence.
+  novelty: One sentence.
+  lab_realizability: One sentence.
+  simulation_realism: One sentence.
+  generality: One sentence.
+  robustness: One sentence.

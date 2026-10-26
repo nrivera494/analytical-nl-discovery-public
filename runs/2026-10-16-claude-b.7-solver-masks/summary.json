@@ -1,0 +1,198 @@
+{
+ "run_id": "2026-10-16-claude-b.7-solver-masks",
+ "definition": "N = 3, delta3 = 0.05, xi = 2, laser exp(-tau^2/2), model M0. eta_B: band w >= 10/3 energy / laser energy; eta_G: same after the gate g = 1 - 0.5[tanh(tau+15) - tanh(tau-15)]. Primary grid = claude-b's: TW = 70, Nt = 1024, mask applied on the exact bins. *_fracedge: band sums with the bin straddling w_z weighted by its fraction above w_z. Window checks W140/W280 use the TW = 70 masked input zero-padded in time (identical field); W140interp applies the mask linearly interpolated in w on 2pi/140 bins (a different input field).",
+ "masks": {
+  "TL": {
+   "primary_TW70_Nt1024_n8000": {
+    "eta_B": 0.16429435057201966,
+    "eta_G": 0.13033039169624597,
+    "eta_B_fracedge": 0.16460179365348154,
+    "eta_G_fracedge": 0.13033039169624672,
+    "E_in_over_E_laser": 1.0,
+    "input_peak_power_ratio": 1.0,
+    "E_rel_drift": 2.6817859044570014e-10,
+    "P_abs_drift": 3.5652358656333375e-05,
+    "H_rel_drift": 3.507977429006992e-05,
+    "output_edge_power_ratio": 0.008385589052635267
+   },
+   "claude-b_step_h0.001_n2000": {
+    "eta_B": 0.16429434724557737,
+    "eta_G": 0.13033042701392114
+   },
+   "relchange_n2000_vs_n8000": {
+    "eta_B": -2.02468452004112e-08,
+    "eta_G": 2.7098572119577113e-07
+   },
+   "relchange_n4000_vs_n8000": {
+    "eta_B": 1.5449281853818775e-09,
+    "eta_G": 1.940316618487259e-08
+   },
+   "relchange_Nt1024_vs_Nt2048_TW70": {
+    "eta_B": 3.395217440527176e-11,
+    "eta_G": 6.459572876593711e-10
+   },
+   "window": {
+    "TW140": {
+     "eta_B": 0.16452380651630225,
+     "eta_G": 0.13033039172980523,
+     "eta_B_fracedge": 0.1646200046174511,
+     "eta_G_fracedge": 0.13033039172980548
+    },
+    "TW280": {
+     "eta_B": 0.16463393157851605,
+     "eta_G": 0.13033039172972494,
+     "eta_B_fracedge": 0.1646237968567183,
+     "eta_G_fracedge": 0.1303303917297249
+    },
+    "relchange_TW70_vs_TW140": {
+     "eta_B": -0.001394667125330873,
+     "eta_G": -2.5749380405670763e-10,
+     "eta_B_fracedge": -0.00011062424649954661,
+     "eta_G_fracedge": -2.5748991827612144e-10
+    },
+    "relchange_TW140_vs_TW280": {
+     "eta_B": -0.000668908657880718,
+     "eta_G": 6.161737786669619e-13,
+     "eta_B_fracedge": -2.303579032680858e-05,
+     "eta_G_fracedge": 6.181721801112872e-13
+    }
+   }
+  },
+  "phase": {
+   "primary_TW70_Nt1024_n8000": {
+    "eta_B": 0.22945043753628175,
+    "eta_G": 0.032146953587110644,
+    "eta_B_fracedge": 0.2298806646106816,
+    "eta_G_fracedge": 0.032146953595930894,
+    "E_in_over_E_laser": 0.9999999999999998,
+    "input_peak_power_ratio": 0.36054661054713133,
+    "E_rel_drift": 6.274725183885721e-10,
+    "P_abs_drift": 4.562035056088956e-05,
+    "H_rel_drift": 0.00015674535454368588,
+    "output_edge_power_ratio": 2.0855014153437674e-10
+   },
+   "claude-b_step_h0.001_n2000": {
+    "eta_B": 0.2294504208184522,
+    "eta_G": 0.03214712011311121
+   },
+   "relchange_n2000_vs_n8000": {
+    "eta_B": -7.286030789810383e-08,
+    "eta_G": 5.180148722860878e-06
+   },
+   "relchange_n4000_vs_n8000": {
+    "eta_B": -1.2327894260977246e-10,
+    "eta_G": 2.786118415976091e-07
+   },
+   "relchange_Nt1024_vs_Nt2048_TW70": {
+    "eta_B": -1.0985878873270849e-10,
+    "eta_G": 4.109813200869894e-08
+   },
+   "window": {
+    "TW140": {
+     "eta_B": 0.22975265265030279,
+     "eta_G": 0.03214695386196206,
+     "eta_B_fracedge": 0.2298872695338741,
+     "eta_G_fracedge": 0.0321469538647219
+    },
+    "TW280": {
+     "eta_B": 0.22990210254244464,
+     "eta_G": 0.03214695386444534,
+     "eta_B_fracedge": 0.22988861982283476,
+     "eta_G_fracedge": 0.03214695386416305
+    },
+    "relchange_TW70_vs_TW140": {
+     "eta_B": -0.0013153933612293223,
+     "eta_G": -8.549843388827583e-09,
+     "eta_B_fracedge": -2.873113942269967e-05,
+     "eta_G_fracedge": -8.361321079952688e-09
+    },
+    "relchange_TW140_vs_TW280": {
+     "eta_B": -0.0006500588315161426,
+     "eta_G": -7.724765271888145e-11,
+     "eta_B_fracedge": -5.873665959277297e-06,
+     "eta_G_fracedge": 1.7384094164185626e-11
+    }
+   },
+   "mask_linear_interp_TW140": {
+    "eta_B": 0.2299551987191718,
+    "eta_G": 0.03305847254435133,
+    "eta_B_fracedge": 0.23009824676365634,
+    "eta_G_fracedge": 0.0330584725451346,
+    "E_in_over_E_laser": 1.0000000000000002,
+    "input_edge_power_ratio": 3.112334992474641e-06
+   },
+   "relchange_interp_vs_zeropad_TW140": {
+    "eta_B": 0.0008815831570716526,
+    "eta_G": 0.028354745096636602
+   }
+  },
+  "passive": {
+   "primary_TW70_Nt1024_n8000": {
+    "eta_B": 0.24594767471409373,
+    "eta_G": 2.7509886601977107e-05,
+    "eta_B_fracedge": 0.24664508661867696,
+    "eta_G_fracedge": 2.7509893590403675e-05,
+    "E_in_over_E_laser": 0.9991648201060719,
+    "input_peak_power_ratio": 0.3220018800334832,
+    "E_rel_drift": 6.785578765544642e-10,
+    "P_abs_drift": 4.460127116262622e-05,
+    "H_rel_drift": 0.0001840840289653034,
+    "output_edge_power_ratio": 2.4495583262586493e-07
+   },
+   "claude-b_step_h0.001_n2000": {
+    "eta_B": 0.2459476328503428,
+    "eta_G": 2.7509819909079585e-05
+   },
+   "relchange_n2000_vs_n8000": {
+    "eta_B": -1.7021405462891437e-07,
+    "eta_G": -2.424324697769542e-06
+   },
+   "relchange_n4000_vs_n8000": {
+    "eta_B": -2.9184584748875864e-09,
+    "eta_G": -2.1247432546722678e-07
+   },
+   "relchange_Nt1024_vs_Nt2048_TW70": {
+    "eta_B": 3.6193803509831923e-10,
+    "eta_G": 5.965518927730784e-07
+   },
+   "window": {
+    "TW140": {
+     "eta_B": 0.2464517876166459,
+     "eta_G": 2.752274402732995e-05,
+     "eta_B_fracedge": 0.24667000429934918,
+     "eta_G_fracedge": 2.7522746213936483e-05
+    },
+    "TW280": {
+     "eta_B": 0.24669768426883787,
+     "eta_G": 2.752316910078605e-05,
+     "eta_B_fracedge": 0.2466751764790666,
+     "eta_G_fracedge": 2.7523167876885408e-05
+    },
+    "relchange_TW70_vs_TW140": {
+     "eta_B": -0.0020454828403854153,
+     "eta_G": -0.00046715637583494285,
+     "eta_B_fracedge": -0.00010101625750158494,
+     "eta_G_fracedge": -0.0004669818713911589
+    },
+    "relchange_TW140_vs_TW280": {
+     "eta_B": -0.000996752980964355,
+     "eta_G": -1.5444204646164472e-05,
+     "eta_B_fracedge": -2.0967572786356747e-05,
+     "eta_G_fracedge": -1.5320291283704712e-05
+    }
+   },
+   "mask_linear_interp_TW140": {
+    "eta_B": 0.2462568612548398,
+    "eta_G": 3.09553896211813e-05,
+    "eta_B_fracedge": 0.24649283340337583,
+    "eta_G_fracedge": 3.095539434234115e-05,
+    "E_in_over_E_laser": 0.9991505002290253,
+    "input_edge_power_ratio": 4.33549673621781e-06
+   },
+   "relchange_interp_vs_zeropad_TW140": {
+    "eta_B": -0.0007909310120700619,
+    "eta_G": 0.12472032550398127
+   }
+  }
+ }
+}

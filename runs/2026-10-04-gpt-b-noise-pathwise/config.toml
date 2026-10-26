@@ -1,0 +1,23 @@
+agent = "gpt-b"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261004-claude-interactive-08"
+raw_location = "~/analytical-nl-discovery-data/2026-10-04-gpt-b-noise-pathwise"
+
+# Follow-up fixed after the first Monte Carlo fits, before these trajectories.
+# Different physical parameters, grid, step and seed; no coefficient calibration.
+[stochastic]
+n = 384
+window = 48.0
+h = 0.01
+t0_ps = 0.35
+gamma_W_m = 0.002
+beta2_ps2_m = -0.03
+temperature_K = 77
+alpha_G = 0.2
+ntraj = 1024
+seed = 20261004082
+sources = ["gain", "raman"]
+zmax = 6.0
+save_every = 0.2
+shadow = true

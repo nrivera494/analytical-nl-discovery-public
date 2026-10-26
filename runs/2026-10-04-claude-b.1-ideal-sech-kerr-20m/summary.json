@@ -1,0 +1,298 @@
+{
+ "run_id": "2026-10-04-claude-b.1-ideal-sech-kerr-20m",
+ "task": "T-20261004-claude-interactive-06",
+ "problem": "P-20261004-root-03",
+ "agent": "claude-b.1",
+ "case": "1: pure-Kerr ideal-sech soliton, coherent input-copy readout, 20 m (zeta = 10.909910042)",
+ "raw_location": "~/analytical-nl-discovery-data/2026-10-04-claude-b.1-ideal-sech-kerr-20m",
+ "zeta": 10.909910042412898,
+ "LD_m_analytic_script": 1.8331956837635561,
+ "analytic_recomputed": {
+  "default_dx0.04_nx16384": {
+   "Q_optical": [
+    [
+     1.0,
+     21.953888175093653
+    ],
+    [
+     21.953888175093653,
+     484.0133164539275
+    ]
+   ],
+   "readout": [
+    {
+     "phase_offset_rad": 0.0,
+     "F": 0.012687341922535941,
+     "theta_rad": -0.048021219799190364,
+     "power_ratio": 1.0188102739406295,
+     "output_mW_exact_sech": 38.11952266137889
+    },
+    {
+     "phase_offset_rad": 3.141592653589793,
+     "F": 4.295819315870825,
+     "theta_rad": 0.04906105592929552,
+     "power_ratio": 0.976113961744665,
+     "output_mW_exact_sech": 36.52200928529546
+    }
+   ]
+  },
+  "fine_dx0.02_nx32768": {
+   "Q_optical": [
+    [
+     1.0,
+     21.953888175062453
+    ],
+    [
+     21.953888175062453,
+     484.01331645323984
+    ]
+   ],
+   "readout": [
+    {
+     "phase_offset_rad": 0.0,
+     "F": 0.01268734192393636,
+     "theta_rad": -0.048021219799190364,
+     "power_ratio": 1.0188102739406295,
+     "output_mW_exact_sech": 38.11952266137889
+    },
+    {
+     "phase_offset_rad": 3.141592653589793,
+     "F": 4.295819315866139,
+     "theta_rad": 0.04906105592929552,
+     "power_ratio": 0.976113961744665,
+     "output_mW_exact_sech": 36.52200928529546
+    }
+   ]
+  }
+ },
+ "grids": {
+  "nominal": {
+   "nt": 8192,
+   "window_ps": 40.0,
+   "dz_m": 0.005,
+   "dt_ps": 0.0048828125,
+   "phase_offsets_rad": [
+    0.0,
+    3.141592653589793
+   ],
+   "F_total": [
+    0.012687341911357897,
+    4.295819315491556
+   ],
+   "F_signal": [
+    0.007687341911357993,
+    4.290819315491556
+   ],
+   "F_reference_vacuum": [
+    0.0050000000000000044,
+    0.0050000000000000044
+   ],
+   "output_power_mw": [
+    38.11952266170737,
+    36.52200928496216
+   ],
+   "Q_optical": [
+    [
+     1.0000000000041132,
+     21.953888173567172
+    ],
+    [
+     21.953888173567172,
+     484.01331638509856
+    ]
+   ],
+   "exact_soliton_mean_relative_field_error": 9.17711205812676e-11,
+   "photon_drift": -6.517009154549669e-14,
+   "input_power_mw": 37.41572266830153,
+   "forward_plus_4_adjoints_seconds": 58.71160101890564
+  },
+  "window2x": {
+   "nt": 16384,
+   "window_ps": 80.0,
+   "dz_m": 0.005,
+   "dt_ps": 0.0048828125,
+   "phase_offsets_rad": [
+    0.0,
+    3.141592653589793
+   ],
+   "F_total": [
+    0.012687341911359895,
+    4.295819315491515
+   ],
+   "F_signal": [
+    0.007687341911359838,
+    4.2908193154915155
+   ],
+   "F_reference_vacuum": [
+    0.0050000000000000044,
+    0.0050000000000000044
+   ],
+   "output_power_mw": [
+    38.11952266170742,
+    36.522009284962294
+   ],
+   "Q_optical": [
+    [
+     1.0000000000040847,
+     21.953888173566927
+    ],
+    [
+     21.953888173566927,
+     484.0133163851023
+    ]
+   ],
+   "exact_soliton_mean_relative_field_error": 9.175773328715334e-11,
+   "photon_drift": -6.228351168147128e-14,
+   "input_power_mw": 37.41572266830152,
+   "forward_plus_4_adjoints_seconds": 150.76804900169373
+  },
+  "fine": {
+   "nt": 16384,
+   "window_ps": 40.0,
+   "dz_m": 0.0025,
+   "dt_ps": 0.00244140625,
+   "phase_offsets_rad": [
+    0.0,
+    3.141592653589793
+   ],
+   "F_total": [
+    0.012687341922369977,
+    4.295819315846814
+   ],
+   "F_signal": [
+    0.007687341922369939,
+    4.290819315846814
+   ],
+   "F_reference_vacuum": [
+    0.0050000000000000044,
+    0.0050000000000000044
+   ],
+   "output_power_mw": [
+    38.11952266140335,
+    36.52200928528715
+   ],
+   "Q_optical": [
+    [
+     1.0000000000002047,
+     21.953888174992137
+    ],
+    [
+     21.953888174992137,
+     484.013316449613
+    ]
+   ],
+   "exact_soliton_mean_relative_field_error": 4.525978972193472e-12,
+   "photon_drift": 2.1671553440683056e-13,
+   "input_power_mw": 37.41572266830153,
+   "forward_plus_4_adjoints_seconds": 318.4991090297699
+  }
+ },
+ "comparison_nominal": {
+  "F_offset0": {
+   "this_run": 0.012687341911357897,
+   "archive_solver": 0.012687341911357897,
+   "rel_diff_vs_archive_solver": 0.0,
+   "analytic_recomputed": 0.012687341922535941,
+   "archive_analytic": 0.012687341922535945,
+   "rel_diff_analytic_recomputed_vs_archive_analytic": -2.7345735404127436e-16,
+   "abs_diff_this_run_vs_analytic": -1.1178044601045656e-11,
+   "rel_diff_this_run_vs_analytic": -8.810391230325881e-10
+  },
+  "Pout_mW_offset0": {
+   "this_run": 38.11952266170737,
+   "archive_solver": 38.11952266170737,
+   "rel_diff_vs_archive_solver": 0.0,
+   "analytic_recomputed_exact_sech": 38.11952266137889,
+   "rel_diff_this_run_vs_analytic": 8.617209340732394e-12
+  },
+  "F_offsetpi": {
+   "this_run": 4.295819315491556,
+   "archive_solver": 4.295819315491556,
+   "rel_diff_vs_archive_solver": 0.0,
+   "analytic_recomputed": 4.295819315870825,
+   "archive_analytic": 4.295819315870825,
+   "rel_diff_analytic_recomputed_vs_archive_analytic": 0.0,
+   "abs_diff_this_run_vs_analytic": -3.792690606019278e-10,
+   "rel_diff_this_run_vs_analytic": -8.828794525894635e-11
+  },
+  "Pout_mW_offsetpi": {
+   "this_run": 36.52200928496216,
+   "archive_solver": 36.52200928496216,
+   "rel_diff_vs_archive_solver": 0.0,
+   "analytic_recomputed_exact_sech": 36.52200928529546,
+   "rel_diff_this_run_vs_analytic": -9.126041885777135e-12
+  },
+  "Q_optical": {
+   "this_run": [
+    [
+     1.0000000000041132,
+     21.953888173567172
+    ],
+    [
+     21.953888173567172,
+     484.01331638509856
+    ]
+   ],
+   "max_abs_diff_vs_archive_solver": 0.0,
+   "max_abs_diff_vs_analytic_recomputed": 6.882891057102825e-08
+  },
+  "exact_soliton_mean_relative_field_error": {
+   "this_run": 9.17711205812676e-11,
+   "archive": 9.17711205812676e-11
+  },
+  "photon_drift": {
+   "this_run": -6.517009154549669e-14,
+   "archive": -6.517009154549669e-14
+  }
+ },
+ "convergence_vs_nominal": {
+  "window2x": {
+   "F_offset0_rel_change": 1.575114360665478e-13,
+   "F_offsetpi_rel_change": -9.510690349305513e-15,
+   "F_offset0_abs_change": 1.9984014443252818e-15,
+   "F_offsetpi_abs_change": -4.085620730620576e-14,
+   "Pout_offset0_rel_change": 1.3047905123211543e-15,
+   "Q_max_abs_change": 3.751665644813329e-12,
+   "F_offset0_abs_diff_vs_analytic": -1.117604619960133e-11
+  },
+  "fine": {
+   "F_offset0_rel_change": 8.679580178093746e-10,
+   "F_offsetpi_rel_change": 8.269855389928187e-11,
+   "F_offset0_abs_change": 1.1012080136652003e-11,
+   "F_offsetpi_abs_change": 3.552580452037546e-10,
+   "Pout_offset0_rel_change": -7.975438807240746e-12,
+   "Q_max_abs_change": 6.451443823607406e-08,
+   "F_offset0_abs_diff_vs_analytic": -1.659644643936531e-13
+  }
+ },
+ "error_vs_analytic_by_grid": {
+  "Q_YY": {
+   "nominal_minus_analytic": -6.882891057102825e-08,
+   "fine_minus_analytic": -4.314472334954189e-09,
+   "ratio": 15.953030921858737,
+   "exponent_log2_ratio": 3.995758643048266,
+   "analytic_quadrature_change_dx0.04_to_0.02": -6.876348379591946e-10
+  },
+  "Q_XY": {
+   "nominal_minus_analytic": -1.526480275515496e-09,
+   "fine_minus_analytic": -1.0151524065804551e-10,
+   "ratio": 15.036956673899349,
+   "exponent_log2_ratio": 3.910440704738775,
+   "analytic_quadrature_change_dx0.04_to_0.02": -3.1199931527226e-11
+  },
+  "F_offsetpi": {
+   "nominal_minus_analytic": -3.792690606019278e-10,
+   "fine_minus_analytic": -2.4011015398173186e-11,
+   "ratio": 15.795627728046163,
+   "exponent_log2_ratio": 3.9814533667074468,
+   "analytic_quadrature_change_dx0.04_to_0.02": -4.686029342337861e-12
+  },
+  "F_offset0": {
+   "nominal_minus_analytic": -1.1178044601045656e-11,
+   "fine_minus_analytic": -1.659644643936531e-13,
+   "ratio": 67.3520361234217,
+   "exponent_log2_ratio": 6.073649655434046,
+   "analytic_quadrature_change_dx0.04_to_0.02": 1.4004179760274127e-12
+  }
+ }
+}

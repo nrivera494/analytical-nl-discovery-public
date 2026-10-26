@@ -1,0 +1,29 @@
+{
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "cases": [
+    {
+      "run_id": "2026-10-16-gpt-d-c02-heldout6-step",
+      "expected": "Retention and rate bounds continue to hold; identity mismatch decreases with temporal refinement; numerical parameter changes are reported, not fitted away."
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-heldout6-fine",
+      "expected": "Retention and rate bounds continue to hold; identity mismatch decreases with temporal refinement; numerical parameter changes are reported, not fitted away."
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-heldout6-wide",
+      "expected": "Retention and rate bounds continue to hold; identity mismatch decreases with temporal refinement; numerical parameter changes are reported, not fitted away."
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-core-step",
+      "expected": "Retention and rate bounds continue to hold; identity mismatch decreases with temporal refinement; numerical parameter changes are reported, not fitted away."
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-short0p5-wide",
+      "expected": "Retention and rate bounds continue to hold; identity mismatch decreases with temporal refinement; numerical parameter changes are reported, not fitted away."
+    }
+  ]
+}

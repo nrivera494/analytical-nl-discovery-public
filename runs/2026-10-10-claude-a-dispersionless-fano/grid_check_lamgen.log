@@ -1,0 +1,10 @@
+{"Phi": 10.0, "dt": 0.04, "pad": 8, "thr": 0.0, "n_bins": 735, "lam_gen": 0.01146, "lam_mom_grid": 0.01289, "lam_P": 0.01282, "mom_over_P": 1.00553, "gen_over_P": 0.89391, "gen_over_mom": 0.88899, "wall_s": 0.7}
+{"Phi": 10.0, "dt": 0.02, "pad": 8, "thr": 0.0, "n_bins": 735, "lam_gen": 0.01146, "lam_mom_grid": 0.01289, "lam_P": 0.01282, "mom_over_P": 1.00553, "gen_over_P": 0.89391, "gen_over_mom": 0.88899, "wall_s": 2.1}
+{"Phi": 10.0, "dt": 0.02, "pad": 8, "thr": 0.0, "n_bins": 899, "lam_gen": 0.01139, "lam_mom_grid": 0.01282, "lam_P": 0.01282, "mom_over_P": 1.00001, "gen_over_P": 0.88784, "gen_over_mom": 0.88783, "wall_s": 2.7}
+{"Phi": 10.0, "dt": 0.01333, "pad": 4, "thr": 0.0, "n_bins": 367, "lam_gen": 0.01147, "lam_mom_grid": 0.0129, "lam_P": 0.01282, "mom_over_P": 1.00596, "gen_over_P": 0.89426, "gen_over_mom": 0.88896, "wall_s": 0.9}
+{"Phi": 10.0, "dt": 0.01, "pad": 4, "thr": 0.0, "n_bins": 367, "lam_gen": 0.01147, "lam_mom_grid": 0.0129, "lam_P": 0.01282, "mom_over_P": 1.00578, "gen_over_P": 0.89412, "gen_over_mom": 0.88898, "wall_s": 1.8}
+{"Phi": 20.0, "dt": 0.04, "pad": 8, "thr": 0.0, "n_bins": 1137, "lam_gen": 0.00305, "lam_mom_grid": 0.00344, "lam_P": 0.00324, "mom_over_P": 1.06157, "gen_over_P": 0.9416, "gen_over_mom": 0.88699, "wall_s": 1.1}
+{"Phi": 20.0, "dt": 0.02, "pad": 8, "thr": 0.0, "n_bins": 1137, "lam_gen": 0.00305, "lam_mom_grid": 0.00344, "lam_P": 0.00324, "mom_over_P": 1.06157, "gen_over_P": 0.9416, "gen_over_mom": 0.88699, "wall_s": 2.5}
+{"Phi": 20.0, "dt": 0.02, "pad": 8, "thr": 0.0, "n_bins": 1333, "lam_gen": 0.00304, "lam_mom_grid": 0.00324, "lam_P": 0.00324, "mom_over_P": 1.00008, "gen_over_P": 0.93819, "gen_over_mom": 0.93812, "wall_s": 3.7}
+{"Phi": 20.0, "dt": 0.01333, "pad": 4, "thr": 0.0, "n_bins": 569, "lam_gen": 0.00305, "lam_mom_grid": 0.00344, "lam_P": 0.00324, "mom_over_P": 1.0617, "gen_over_P": 0.9416, "gen_over_mom": 0.88688, "wall_s": 1.6}
+{"Phi": 20.0, "dt": 0.01, "pad": 4, "thr": 0.0, "n_bins": 569, "lam_gen": 0.00305, "lam_mom_grid": 0.00343, "lam_P": 0.00324, "mom_over_P": 1.06001, "gen_over_P": 0.94159, "gen_over_mom": 0.88829, "wall_s": 2.0}

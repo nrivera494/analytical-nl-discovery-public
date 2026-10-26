@@ -1,0 +1,88 @@
+{
+ "rows": [
+  {
+   "laser": "gauss",
+   "A": 6.0,
+   "class": "phi",
+   "start": 0,
+   "scale": 0.0,
+   "eta_TL": 5.488917290727497,
+   "eta_opt": 5.488917290727497,
+   "ratio_to_TL": 1.0,
+   "q_inf_final": 6.0,
+   "bound_2N_over_2N1": null,
+   "nit": 0,
+   "wall_s": 3.2
+  },
+  {
+   "laser": "gauss",
+   "A": 6.0,
+   "class": "phi",
+   "start": 1,
+   "scale": 0.5,
+   "eta_TL": 5.488917290727497,
+   "eta_opt": 5.488917287962097,
+   "ratio_to_TL": 0.9999999994961847,
+   "q_inf_final": 5.999999958033858,
+   "bound_2N_over_2N1": null,
+   "nit": 39,
+   "wall_s": 153.3
+  },
+  {
+   "laser": "gauss",
+   "A": 6.0,
+   "class": "phi",
+   "start": 2,
+   "scale": 1.0,
+   "eta_TL": 5.488917290727497,
+   "eta_opt": 5.488917272703915,
+   "ratio_to_TL": 0.9999999967163685,
+   "q_inf_final": 5.999999851203256,
+   "bound_2N_over_2N1": null,
+   "nit": 54,
+   "wall_s": 161.1
+  },
+  {
+   "laser": "gauss",
+   "A": 6.0,
+   "class": "Aphi",
+   "start": 0,
+   "scale": 0.0,
+   "eta_TL": 5.488917290727497,
+   "eta_opt": 5.488916021765744,
+   "ratio_to_TL": 0.9999997688138322,
+   "q_inf_final": 5.999998633282001,
+   "bound_2N_over_2N1": null,
+   "nit": 17,
+   "wall_s": 40.2
+  },
+  {
+   "laser": "gauss",
+   "A": 6.0,
+   "class": "Aphi",
+   "start": 1,
+   "scale": 0.5,
+   "eta_TL": 5.488917290727497,
+   "eta_opt": 5.4889169481353335,
+   "ratio_to_TL": 0.9999999375847466,
+   "q_inf_final": 5.999997276858236,
+   "bound_2N_over_2N1": null,
+   "nit": 41,
+   "wall_s": 88.3
+  },
+  {
+   "laser": "gauss",
+   "A": 6.0,
+   "class": "Aphi",
+   "start": 2,
+   "scale": 1.0,
+   "eta_TL": 5.488917290727497,
+   "eta_opt": 5.488917173549953,
+   "ratio_to_TL": 0.9999999786519749,
+   "q_inf_final": 5.999999779446221,
+   "bound_2N_over_2N1": null,
+   "nit": 51,
+   "wall_s": 116.0
+  }
+ ]
+}

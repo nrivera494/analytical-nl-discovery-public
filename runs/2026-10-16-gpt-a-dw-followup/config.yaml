@@ -1,0 +1,120 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-followup
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-followup
+cases:
+- N: 3
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 224
+  zmax: 1
+  h: 0.000125
+  name: frozenP5_d0.0043
+  delta3: 0.0043
+  frozen_prediction: P5
+- N: 3
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 224
+  zmax: 1
+  h: 0.000125
+  name: frozenP5_d0.0047
+  delta3: 0.0047
+  frozen_prediction: P5
+- N: 3
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 224
+  zmax: 1
+  h: 0.000125
+  name: frozenP5_d0.0052
+  delta3: 0.0052
+  frozen_prediction: P5
+- N: 3
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 224
+  zmax: 1
+  h: 0.000125
+  name: frozenP5_d0.0058
+  delta3: 0.0058
+  frozen_prediction: P5
+- N: 3
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 224
+  zmax: 1
+  h: 6.25e-05
+  name: P5_halfstep
+  delta3: 0.0043
+- N: 3
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 32768
+  window: 224
+  zmax: 1
+  h: 0.000125
+  name: P5_grid
+  delta3: 0.0043
+  grid_exception_reason: 'Exact P5 frozen-grid replication: halve dt to check the
+    smallest-yield point.'
+- N: 2
+  shape: sech
+  raman: roy
+  shock: 1
+  n: 32768
+  window: 384
+  zmax: 4
+  h: 0.00025
+  name: roy01_sampled_fine
+  delta3: 0.01
+  sampled_kernel: normalized
+  grid_exception_reason: 'Raman kernel convergence: halve dt from 1.171875 fs while
+    retaining the same physical window.'
+- N: 5
+  shape: gauss
+  raman: none
+  shock: 0
+  delta3: 0
+  n: 16384
+  window: 96
+  zmax: 2
+  h: 3.125e-05
+  strip: true
+  scan_stride: 0.000625
+  name: collapse_gauss5_strip_halfstep
+- N: 5
+  shape: gauss
+  raman: none
+  shock: 0
+  delta3: 0
+  n: 32768
+  window: 96
+  zmax: 2
+  h: 6.25e-05
+  strip: true
+  scan_stride: 0.00125
+  name: collapse_gauss5_strip_grid
+  grid_exception_reason: 'N=5 Fourier-tail uncertainty: halve dt to distinguish a
+    spatial grid effect from finite-step tail distortion.'
+purpose: Exact P5 abscissae, read from permitted proposer summary after independent
+  results; and a second sampled-kernel resolution.
+N5_strip_refinement:
+  trigger: Deepest Fourier-tail fits drift more than the primary fit; inspect step
+    and grid convergence before assigning a precise strip.
+  primary_refinement: collapse_gauss5_strip_halfstep
+  fit_window: blue_-4_-9
+  note: Selected before refined runs; no TOD yield is used to choose the strip estimate
+    or its window.

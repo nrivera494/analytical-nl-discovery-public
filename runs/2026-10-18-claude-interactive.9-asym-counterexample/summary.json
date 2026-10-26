@@ -1,0 +1,304 @@
+{
+ "source": "S(k) = pi cos(1) e^k sech(pi k/2); TL pulse q0 = cos(1) sech(t - i) (max error of the FFT check 6.9e-15); M0 = 2 cot(1) = 1.2841852319; |q0|max = 1",
+ "TL": {
+  "zeta": [
+   -0.383959370131839,
+   0.21427886590789058
+  ],
+  "eta": 0.21427886590789058,
+  "f1": 0.6674391219904815,
+  "n_discrete_eigenvalues": 1,
+  "note": "single bound state; FC at (512, 64) and (1024, 128) agree with BO-Richardson on the analytic pulse"
+ },
+ "hierarchy_B": {
+  "min_over_n_le_20": {
+   "n": 1,
+   "U_2n": 0.3210463079671654,
+   "f1_bound": 1.0
+  },
+  "f1_bounds_n1_to_6": [
+   1.0,
+   1.557097717067221,
+   1.86502127758104,
+   2.0610155434616555,
+   2.198197940922869,
+   2.300351738931937
+  ],
+  "statement": "the even-moment hierarchy gives only f1 <= 1 for n <= 20 (minimum at n = 1)"
+ },
+ "F_bound_min_over_p": {
+  "eta_bound": 0.3210463079686982,
+  "p": 2.0,
+  "f1_bound": 1.0000000000047744
+ },
+ "best_masks_verified": {
+  "phase-cheb": {
+   "start": "nearTL",
+   "eta_line_romberg": 0.21994856545599564,
+   "zeta_line": [
+    -0.35319521333680337,
+    0.21994856545599564
+   ],
+   "eta_line_raw": [
+    0.21993523291514933,
+    0.21994523217363893,
+    0.2199477321262099
+   ],
+   "gain_over_TL": 0.02645944351106566,
+   "fc_eigs_fine": [
+    [
+     -0.35319520320953296,
+     0.21994855919115722
+    ]
+   ],
+   "fc_grid": [
+    1024,
+    128.0
+   ],
+   "fc_vs_line_diff": 6.264838425806829e-09,
+   "throughput_line": 1.0,
+   "f1": 0.6850991897358639
+  },
+  "sharp": {
+   "start": "rand1",
+   "eta_line_romberg": 0.22011875298976671,
+   "zeta_line": [
+    -0.35306806053600986,
+    0.22011875298976671
+   ],
+   "eta_line_raw": [
+    0.22010552920785592,
+    0.2201154468947205,
+    0.22011792645665712
+   ],
+   "gain_over_TL": 0.027253677384994512,
+   "fc_eigs_fine": [
+    [
+     -0.3530698522563608,
+     0.22011870031759745
+    ]
+   ],
+   "fc_grid": [
+    1024,
+    128.0
+   ],
+   "fc_vs_line_diff": 5.2672169265077784e-08,
+   "throughput_line": 0.999776111306192,
+   "f1": 0.685629292495334
+  },
+  "passive-cheb": {
+   "start": "rand1.5",
+   "eta_line_romberg": 0.2199411365426929,
+   "zeta_line": [
+    -0.35305327092484906,
+    0.2199411365426929
+   ],
+   "eta_line_raw": [
+    0.2199278102789319,
+    0.2199378048300267,
+    0.219940303605356
+   ],
+   "gain_over_TL": 0.02642477414098443,
+   "fc_eigs_fine": [
+    [
+     -0.3530532745231764,
+     0.21994113941807708
+    ]
+   ],
+   "fc_grid": [
+    1024,
+    128.0
+   ],
+   "fc_vs_line_diff": 2.8753841807560576e-09,
+   "throughput_line": 0.9995470913496559,
+   "f1": 0.685076050041937
+  },
+  "passive-bins": {
+   "start": "nearTL",
+   "eta_line_romberg": 0.2202282251059442,
+   "zeta_line": [
+    -0.35198209580357265,
+    0.2202282251059442
+   ],
+   "eta_line_raw": [
+    0.2202223035165097,
+    0.2202267446789672,
+    0.22022785499734882
+   ],
+   "gain_over_TL": 0.027764563587950875,
+   "fc_eigs_fine": [
+    [
+     -0.3519825036425718,
+     0.2202272977645166
+    ]
+   ],
+   "fc_grid": [
+    768,
+    64.0
+   ],
+   "fc_vs_line_diff": 9.273414275923209e-07,
+   "throughput_line": null,
+   "f1": 0.6859702779340723
+  }
+ },
+ "best_overall": {
+  "family": "passive-bins",
+  "eta": 0.2202282251059442,
+  "gain_over_TL": 0.027764563587950875,
+  "f1": 0.6859702779340723
+ },
+ "explicit_cubic_phase": {
+  "mask": "m(k) = exp(i c (k - k0)^3 / 6), c = -0.500, k0 = 1.0",
+  "eta": 0.21666946383334174,
+  "gain_over_TL": 0.011156480203132979,
+  "fc_check": "FC (768, 96) eta 0.2166694633; FC (1024, 128) eta 0.2166694638"
+ },
+ "all_searches_grid_values": [
+  {
+   "family": "passive-cheb",
+   "start": "nearTL",
+   "eta_grid": 0.21963609378843935,
+   "gain_grid": 0.024995554227712935,
+   "nfev": 198,
+   "throughput": 0.9677242054600432,
+   "wall_s": 14.048831224441528
+  },
+  {
+   "family": "passive-cheb",
+   "start": "rand0.3",
+   "eta_grid": 0.21963420288058977,
+   "gain_grid": 0.024986729757627835,
+   "nfev": 268,
+   "throughput": 0.9679200373857955,
+   "wall_s": 21.423002243041992
+  },
+  {
+   "family": "passive-cheb",
+   "start": "rand0.8",
+   "eta_grid": 0.21928063185483782,
+   "gain_grid": 0.023336687985128668,
+   "nfev": 373,
+   "throughput": 0.9968612443184435,
+   "wall_s": 29.85082697868347
+  },
+  {
+   "family": "passive-cheb",
+   "start": "rand1.5",
+   "eta_grid": 0.2199398900042177,
+   "gain_grid": 0.026413307408408304,
+   "nfev": 521,
+   "throughput": 0.9995470918996769,
+   "wall_s": 40.25454783439636
+  },
+  {
+   "family": "passive-bins",
+   "start": "nearTL",
+   "eta_grid": 0.2202272977593828,
+   "gain_grid": 0.027754579082901465,
+   "nfev": 413,
+   "throughput": 0.9997890040986028,
+   "wall_s": 29.63221025466919
+  },
+  {
+   "family": "passive-bins",
+   "start": "rand0.5",
+   "eta_grid": 0.2202264524564293,
+   "gain_grid": 0.0277506342314231,
+   "nfev": 415,
+   "throughput": 0.9998003186912533,
+   "wall_s": 32.00571918487549
+  },
+  {
+   "family": "phase-cheb",
+   "start": "nearTL",
+   "eta_grid": 0.21994763807918097,
+   "gain_grid": 0.026449466048157122,
+   "nfev": 361,
+   "throughput": 1.0,
+   "wall_s": 33.418243169784546
+  },
+  {
+   "family": "phase-cheb",
+   "start": "rand0.3",
+   "eta_grid": 0.2199440493037218,
+   "gain_grid": 0.02643271798627289,
+   "nfev": 96,
+   "throughput": 1.0,
+   "wall_s": 10.258543968200684
+  },
+  {
+   "family": "phase-cheb",
+   "start": "rand0.8",
+   "eta_grid": 0.2197868746849511,
+   "gain_grid": 0.025699217027033594,
+   "nfev": 114,
+   "throughput": 1.0,
+   "wall_s": 12.590975046157837
+  },
+  {
+   "family": "phase-cheb",
+   "start": "rand1.5",
+   "eta_grid": 0.2197931560381886,
+   "gain_grid": 0.025728530784312476,
+   "nfev": 151,
+   "throughput": 1.0,
+   "wall_s": 17.424372911453247
+  },
+  {
+   "family": "sharp",
+   "start": "rand0",
+   "eta_grid": 0.22010623912071756,
+   "gain_grid": 0.027189623823078657,
+   "nfev": 285,
+   "throughput": 0.9940326164262525,
+   "wall_s": 21.41960597038269
+  },
+  {
+   "family": "sharp",
+   "start": "rand1",
+   "eta_grid": 0.22011829329140134,
+   "gain_grid": 0.02724587810782597,
+   "nfev": 292,
+   "throughput": 0.9997777369496291,
+   "wall_s": 21.389629364013672
+  },
+  {
+   "family": "sharp",
+   "start": "rand2",
+   "eta_grid": 0.22010614898257333,
+   "gain_grid": 0.02718920316727691,
+   "nfev": 277,
+   "throughput": 0.9939955056894724,
+   "wall_s": 19.39357900619507
+  },
+  {
+   "family": "sharp",
+   "start": "rand3",
+   "eta_grid": 0.2201129942639501,
+   "gain_grid": 0.027221148658828964,
+   "nfev": 347,
+   "throughput": 0.9935983328355229,
+   "wall_s": 24.248162746429443
+  }
+ ],
+ "simple_scans_stage1": {
+  "GDD phi = b k^2/2": [
+   0.0,
+   -0.3839593698637689,
+   0.21427886574462943,
+   -7.619097575073397e-10
+  ],
+  "TOD phi = c k^3/6": [
+   -0.1,
+   -0.37927365068011654,
+   0.21475544809677688,
+   0.0022241212957099243
+  ],
+  "high-pass edge at kc (width 0.3)": [
+   -3.0,
+   -0.38399938822050717,
+   0.2142408049979585,
+   -0.0001776232563618363
+  ]
+ }
+}

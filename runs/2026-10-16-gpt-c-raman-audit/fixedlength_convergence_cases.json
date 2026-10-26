@@ -1,0 +1,19 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "conv_measured_wide_N3_T50_fixed130cm",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 65536,
+    "width": 320,
+    "zN": [4, 16, 31.354955910975633],
+    "tol": 1e-9,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "zs_points": 4096
+  }
+]

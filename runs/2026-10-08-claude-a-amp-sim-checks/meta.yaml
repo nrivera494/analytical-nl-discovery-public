@@ -1,0 +1,15 @@
+run_id: 2026-10-08-claude-a-amp-sim-checks
+agent: claude-a
+model: claude-opus-5-5
+family: claude
+task: T-20261008-claude-a-01
+serves: [C-20261008-claude-a-01, C-20261008-claude-a-02]
+kind: symbolic (sympy) and numeric (ODE) checks of closed forms and leading-order predictions; no NLSE simulation
+solver_used: false
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa   # agents' copy pinned at run time; not exercised
+solver_dirty: false
+hardware: "Apple M5 (MacBook), 1 process"
+wall_time_s: 3
+date: 2026-10-08
+raw_location: none   # no raw output; scripts and json are the complete output
+outputs: [symbolic.json, numeric.json, amp_sim_noise.png]

@@ -1,0 +1,6 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+delta_half_zeroth = 0.94947609848080616
+delta_half_slope_r = -1.4464862515154773
+zeta = 13.0

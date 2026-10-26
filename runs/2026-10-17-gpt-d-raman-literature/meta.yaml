@@ -1,0 +1,11 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-d-raman-literature",
+  "solver_commit": null,
+  "solver_dirty": false,
+  "solver_note": "Literature retrieval, no solver",
+  "seeds": [],
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-17-gpt-d-raman-literature"
+}

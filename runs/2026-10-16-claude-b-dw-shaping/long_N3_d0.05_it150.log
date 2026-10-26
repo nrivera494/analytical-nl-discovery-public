@@ -1,0 +1,3 @@
+TL {'2': (np.float64(0.1645), np.float64(0.1303)), '3': (np.float64(0.1593), np.float64(0.137)), '4': (np.float64(0.1589), np.float64(0.1395)), '6': (np.float64(0.1595), np.float64(0.14))}
+phase {'2': (np.float64(0.2474), np.float64(0.0)), '3': (np.float64(0.232), np.float64(0.1371)), '4': (np.float64(0.2287), np.float64(0.1404)), '6': (np.float64(0.2241), np.float64(0.1413))}
+passive {'2': (np.float64(0.2479), np.float64(0.0)), '3': (np.float64(0.2323), np.float64(0.137)), '4': (np.float64(0.229), np.float64(0.1402)), '6': (np.float64(0.2244), np.float64(0.141))}

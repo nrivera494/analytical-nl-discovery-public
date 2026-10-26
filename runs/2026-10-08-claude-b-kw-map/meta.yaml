@@ -1,0 +1,18 @@
+run_id: 2026-10-08-claude-b-kw-map
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+date: 2026-10-08
+task: T-20261008-claude-b-01
+serves: "Claim C-20261008-claude-b-01: the coefficients K(zeta; T) and W(zeta; T) of the second-order law, at the LP01-optimal filter of four filter classes and over hard bands, for zeta = 0.5..8; the sign structure that decides the inequalities (I1), (I2)."
+description: "Per zeta (0.5, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 8): scalar launch; GRIN C22 = 1/2 at p2 = 0.1, 0.2 (delta = 0); Manakov overlaps at p2 = 0.5, delta = 0.1, 0.2. K(p2) = Delta F / ||q||^2 extrapolated K0 = 2 K(0.1) - K(0.2); W(delta) = Delta F / ||r||^2 extrapolated W0 = (4 W(0.1) - W(0.2)) / 3. Also the direct finite-parameter comparison of class minima (each launch optimized separately) against the envelope prediction. analyze.py writes summary.json and kw_vs_zeta.png. Added later: cases_crossing.json (zeta = 2.6, 2.7, 2.8, 2.9) with crossing.py (zero crossing of K*, crossing.json), domain_bound.py (largest GRIN advantage inside the GIF625 domain of the two-mode model, domain_bound.json), and all_intervals.py (K0 over every hard interval, all_intervals.json)."
+grid: "N = 256 over 40 T0, dz = 2e-3"
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_usage: "Not used; self-contained numpy code (library run 2026-10-08-claude-b-grin-manakov-lib)."
+software: "Python 3.9.6, numpy 2.0.2, matplotlib"
+hardware: "Apple M5 (macOS), up to four single-threaded processes in parallel"
+wall_time_s: 3065
+convergence: "Same grid as the optimum run, where halving dz or the sample spacing changed the optimum difference by < 1e-6 and doubling the window by 1.3% (zeta = 2). Not separately checked at zeta = 6 and 8, where the second-order extrapolation itself is least accurate (K(0.1) and K(0.2) differ by up to 25% at zeta = 8)."
+raw_location: "~/analytical-nl-discovery-data/2026-10-08-claude-b-kw-map/ on host COECIS-G3FLW49YGQ (per-case nbar and per-bin covariance, .npz)"
+caveats: "Class C (any transmission) uses a local optimizer. W at zeta = 6 and 8 comes from delta zeta = 0.6..1.6, outside the range where W(delta) is flat; its sign there is not established."

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "refine4_reference_N3_0",
+    "N": 3,
+    "T0_fs": 164.06878144091576,
+    "n": 8192,
+    "width": 96.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  },
+  {
+    "id": "refine4_reference_N3_1",
+    "N": 3,
+    "T0_fs": 170.0761023882805,
+    "n": 8192,
+    "width": 96.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  },
+  {
+    "id": "refine4_reference_N4_0",
+    "N": 4,
+    "T0_fs": 271.04665245911525,
+    "n": 16384,
+    "width": 96.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  },
+  {
+    "id": "refine4_reference_N4_1",
+    "N": 4,
+    "T0_fs": 280.970930671769,
+    "n": 16384,
+    "width": 96.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  }
+]

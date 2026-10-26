@@ -1,0 +1,10 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: evaluator/similariton_checks.py
+task: T-20261008-gpt-a-01
+seed: 18491
+ode_rtol: 2.0e-12
+ode_atol: 2.0e-14
+gain_length_max: 42
+quantile_quadrature_points: 512

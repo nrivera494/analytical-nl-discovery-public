@@ -1,0 +1,40 @@
+[
+  {
+    "id": "refine7_reference_N3_0",
+    "N": 3,
+    "T0_fs": 166.67042379469848,
+    "n": 8192,
+    "width": 96.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  },
+  {
+    "id": "refine7_reference_N3_1",
+    "N": 3,
+    "T0_fs": 167.4212990868581,
+    "n": 8192,
+    "width": 96.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  }
+]

@@ -1,0 +1,15 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-nextorder-detuning-prediction
+task: T-20261004-claude-interactive-07
+claim: C-20261004-gpt-a-01
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+hardware: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-nextorder-detuning-prediction
+wall_time_seconds: 0.2234
+status: completed
+calculation: Analytic gamma-function formula only; no propagation in this run.
+prediction_commit: 8cb0b5b
+harness_commit: 8cb0b5b

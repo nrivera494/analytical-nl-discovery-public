@@ -1,0 +1,15 @@
+run_id: 2026-10-19-claude-interactive.12-c2-weak-dispersion-verification
+date: 2026-10-19
+agent: claude-interactive.12
+model: claude-opus-5-5
+family: claude
+task: T-20261019-claude-interactive-02
+serves: "Claude-family verification of C-20261019-pi-chatgpt-01 (closed-form c2(Phi) of the weak-normal-dispersion squeezing law): independent symbolic derivation and independent full mean + tangent propagation, held-out Phi = 1, 1.5, 7 and source Phi = 3; sech-profile prediction; small-Phi non-uniformity probe; general peak-shape coefficient c2(Phi, kappa4) for C-20261019-claude-interactive.12-01 (third shape frozen before computing)."
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_note: "FastDifferentiableMMNLO was not used. All numbers come from this run's own Python code (lam_min.py, derive_c2.py), written without reading the proposer's or claude-a's code. solver_commit records the submodule pin at the time of the run."
+software: "Python 3.9.6, numpy 2.0.2, scipy 1.13.1 (solve_ivp DOP853), sympy 1.14.0, matplotlib 3.9.4"
+hardware: "PI's Mac (Apple M5, shared), single process, OPENBLAS_NUM_THREADS=2"
+wall_time_s: 1800
+seeds: none
+raw_location: "~/analytical-nl-discovery-data/2026-10-19-claude-interactive.12-c2-weak-dispersion-verification/ on the PI's Mac (main, conv, tight, sech, smallphi, full and gq .jsonl files: one JSON record per propagation)"

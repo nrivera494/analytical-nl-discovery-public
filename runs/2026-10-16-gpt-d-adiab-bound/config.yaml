@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-10-16-gpt-d-adiab-bound",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "launch_um": 2.0,
+    "dispersion": "quadratic",
+    "edge_B": 48.0,
+    "edge_ref_um": 2.0,
+    "edge_db": 0.057850592667456686
+  },
+  "grid": {
+    "n": 8192,
+    "dt": 0.003
+  },
+  "propagation": {
+    "T": 0.2,
+    "L": 9.558431174561722,
+    "h": 0.004779215587280861,
+    "cutoffs": [
+      2.02
+    ],
+    "save_every": 0.09558431174561723
+  }
+}

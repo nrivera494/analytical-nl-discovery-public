@@ -1,0 +1,17 @@
+# Run 2026-10-16-claude-interactive.7-rj-toy-thermalization
+# Classical resonant toy model (resonant_model.py): K equidistant degenerate groups (degeneracy k+1, eps'_k = k),
+# random fully symmetric positive overlap tensor S_pqrs = sum_j u_pj u_qj u_rj u_sj (J = 400, seed 0, mean self-overlap 1),
+# resonant (beat-averaged) Kerr dynamics, RK4 dz = 0.05, optional intra-group disorder (Brownian U(k+1), strength sigma).
+# Single-trajectory time averages over z in [2000, 20000], sampled every 0.5; Lyapunov exponent from a shadow trajectory.
+# Launch: fundamental + equal power in groups 1 and 2 (E' <= 1) or groups 2 and 3 (E' > 1); N = 1.
+#   'dephased' = one draw of uniform phases (phase_seed 1); 'focused' = phases aligned at the overlap pixel j* maximizing
+#   |sum_p u_pj sqrt(I_p)|.
+main: final_toy.py          # 18 cases, list in the script; started 2026-10-16 15:19:54 EDT
+extra: weak_extra.py        # 3 cases at sigma = 0.3 added after the sigma = 1 failures (started 15:41:51)
+predictions:
+  condensed: "Dirichlet closed forms (claim C-20261016-claude-interactive.7-01)"
+  noncondensed: "polytope_pred_noncondensed.json (rejection Monte Carlo of the (N, E') polytope, polytope_pred.py, computed 15:18)"
+commands:
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore final_toy.py"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore weak_extra.py"
+  - "~/agent-work/venv/bin/python summarize_toy.py"

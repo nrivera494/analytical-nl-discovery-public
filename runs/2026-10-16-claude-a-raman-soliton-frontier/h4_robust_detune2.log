@@ -1,0 +1,4 @@
+{"mask": "A2", "T0_fs": 90.0, "s": 0.0, "gain_energy": 0.07356, "gain_photon": 0.07356}
+{"mask": "A2", "T0_fs": 110.0, "s": 0.0, "gain_energy": 0.08417, "gain_photon": 0.08417}
+{"mask": "B2", "T0_fs": 180.0, "s": 0.0, "gain_energy": 0.06482, "gain_photon": 0.06482}
+{"mask": "B2", "T0_fs": 220.0, "s": 0.0, "gain_energy": 0.09124, "gain_photon": 0.09124}

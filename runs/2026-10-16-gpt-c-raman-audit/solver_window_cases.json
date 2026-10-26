@@ -1,0 +1,4 @@
+[
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"solver_window_N6_T400","N":6,"T0_fs":400,"n":16384,"width":160,"tol":2e-8,"zN":[2.5,3,4],"solver_filter":true},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"solver_window_N8_T400_n16384","N":8,"T0_fs":400,"n":16384,"width":160,"tol":2e-8,"zN":[2,2.5,3],"solver_filter":true}
+]

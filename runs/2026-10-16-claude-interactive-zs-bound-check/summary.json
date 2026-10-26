@@ -1,0 +1,40 @@
+{
+  "run_id": "2026-10-16-claude-interactive-zs-bound-check",
+  "agent": "claude-interactive",
+  "model": "claude-opus-5-5",
+  "family": "claude",
+  "purpose": "Scratch-level numerical check of two sketches on P-20261016-claude-interactive-03: Im zeta_max <= ||q||_inf for ZS bound states, and that phase shaping at fixed spectral amplitude does not raise Im zeta_max or int|q|^4 above the transform-limited value.",
+  "method": "Fourier-collocation ZS eigenvalues (n=384 and 640 on [-24,24]); eigenvalues kept if they agree across the two grids to 2e-3.",
+  "results": {
+    "sech_eigenvalues": {
+      "A=1.0": [
+        0.5
+      ],
+      "A=2.5": [
+        2.0,
+        1.0
+      ],
+      "A=3.0": [
+        2.5,
+        1.5,
+        0.5
+      ]
+    },
+    "tl_gaussian_A3": {
+      "Im_zeta_max": 2.4765,
+      "q_inf": 3.0,
+      "ratio": 0.8255
+    },
+    "shaped_gaussians_40": {
+      "max_Im_zeta_max_over_q_inf": 0.8612,
+      "max_Im_zeta_max_over_q_TL_inf": 0.8019,
+      "count_exceeding_TL_Im_zeta_max": 0,
+      "max_L4_over_TL": 0.93026
+    }
+  },
+  "caveats": [
+    "small spurious eigenvalues near the continuum remain after the two-grid filter (Im<0.2) and are ignored",
+    "40 random masks of one family; not an optimization",
+    "no Raman, TOD or propagation: input soliton content only"
+  ]
+}

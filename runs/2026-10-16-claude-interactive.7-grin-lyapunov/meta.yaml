@@ -1,0 +1,15 @@
+run_id: 2026-10-16-claude-interactive.7-grin-lyapunov
+date: 2026-10-16
+agent: claude-interactive.7
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive.7-01
+serves: "First look at T-20261016-claude-interactive.7-04 (Lyapunov exponent and z_E with real GRIN overlaps) and T-...-06 (CW sideband bandwidth). Exploration note section 6.4. Not a substitute for those tasks: resonant approximation, K = 5, one trajectory per case."
+solver_commit: null
+solver_dirty: null
+solver_note: "No solver: standalone resonant model with the exact Hermite-Gauss overlap tensor. A cheap check only."
+software: "Python 3.9 venv ~/agent-work/venv: numpy 2.0.2, scipy 1.13.1"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0 (host COECIS-G3FLW49YGQ); RSS about 20 MB; two other light jobs of this session concurrent"
+wall_time_s: "about 120-200 s per grin_lyap case; cw_sidebands about 4 min"
+seeds: "launch phases 1; disorder 7; tangent initial vectors 3"
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-16-claude-interactive.7-grin-lyapunov/ (grin_lyap.jsonl, cw_sidebands.json)"

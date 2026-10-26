@@ -1,0 +1,16 @@
+run_id: 2026-10-19-claude-interactive.13-similariton-lo-verification
+date: 2026-10-19
+agent: claude-interactive.13
+model: claude-opus-5-5
+family: claude
+task: T-20261019-claude-interactive-03
+serves: "Claude-family verification of C-20261019-pi-chatgpt-02 (proposer GPT 6 Pro, family gpt): (i) and (iii) in an independent reduced Legendre/hydrodynamic covariance code; (ii) in an independent full-field linearized code (both vacuum and both reservoir quadratures, exact discrete adjoint, commutator check); full field against reduced model at tau <= 4."
+solver_commit: null
+solver_dirty: null
+solver_note: "Independent numpy/scipy code written for this run (reduced.py, fullfield.py); FastDifferentiableMMNLO is not used. The agents' solver submodule was at b9fa957 (not checked out) during the session."
+software: "Python 3.9.6 venv ~/agent-work/venv: numpy 2.0.2, scipy 1.13.1, matplotlib"
+hardware: "PI's Mac (Apple M5, 10 cores, shared), one process at a time, OPENBLAS_NUM_THREADS=2"
+wall_time_s: "about 2200 in total: reduced model under 2 s; slopes 6 s; explicit 6 s; curve 222 s; eps_delta 80 s + 120 s; twa 1183 s (three cases; a fourth, tau=1, was stopped unrun to keep one process at a time) + 243 s (mode test); source_seed 134 s; finite_length 14 s"
+memory_note: "curve.py (first version of fullfield.py, background stored for every step) reached about 5.2 GB in its eps0 = 0.025, tau = 4 case, above the 3 GB guideline; the first eps_delta.py run was stopped by the watchdog at that case. fullfield.py was then checkpointed (peak RSS 109 MB) and the stopped cases were rerun. Results of the completed curve.py run are unaffected (checkpointed code reproduces it to 1e-13)."
+seeds: "none (deterministic); twa.py uses numpy seed 20261019"
+raw_location: "~/analytical-nl-discovery-data/2026-10-19-claude-interactive.13-similariton-lo-verification/ on the PI's Mac (reduced-model arrays, .npz)"

@@ -1,0 +1,113 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "response_table": [
+    [
+      54.43,
+      8.48,
+      58.67,
+      23.46
+    ],
+    [
+      102.91,
+      17.12,
+      82.4,
+      32.96
+    ],
+    [
+      169.95,
+      51.78,
+      115.27,
+      46.11
+    ],
+    [
+      275.91,
+      155.69,
+      160.76,
+      64.3
+    ],
+    [
+      377.35,
+      62.12,
+      137.9,
+      55.16
+    ],
+    [
+      504.77,
+      107.05,
+      184.62,
+      73.85
+    ],
+    [
+      576.43,
+      27.69,
+      38.5,
+      15.4
+    ],
+    [
+      648.44,
+      17.83,
+      135.84,
+      54.34
+    ]
+  ],
+  "overlap_max_fs": 22.055754125374076,
+  "overlap_max_quadrature_fine_fs": 22.055754780096567,
+  "Rmax": 0.2850657565048148,
+  "overlap_bracket_fs": [
+    21.05497587998518,
+    22.51977395337141
+  ],
+  "gain_peak_rad_fs": 0.1083250005407564,
+  "gain_inverse_angular_frequency_fs": 9.231479298481592,
+  "raman_fraction": 0.24,
+  "raman_first_moment_fs": 3.9660145022081243,
+  "response_norm": 0.9999999999975596,
+  "predictions": [
+    {
+      "N": 3,
+      "T0_fs": 93.03720482808261,
+      "T0_relative_tolerance": 0.3,
+      "scaled_share": 1.29,
+      "scaled_share_relative_tolerance": 0.1,
+      "energy_nJ": 1.2968431229011868,
+      "energy_relative_tolerance": 0.45,
+      "exit_width_null_fs": 22.055754125374076,
+      "exit_width_null_relative_tolerance": 0.15
+    },
+    {
+      "N": 4,
+      "T0_fs": 148.2714065567773,
+      "T0_relative_tolerance": 0.3,
+      "scaled_share": 1.29,
+      "scaled_share_relative_tolerance": 0.1,
+      "energy_nJ": 1.2528376462717865,
+      "energy_relative_tolerance": 0.45,
+      "exit_width_null_fs": 22.055754125374076,
+      "exit_width_null_relative_tolerance": 0.15
+    },
+    {
+      "N": 5,
+      "T0_fs": 212.83920522317322,
+      "T0_relative_tolerance": 0.3,
+      "scaled_share": 1.29,
+      "scaled_share_relative_tolerance": 0.1,
+      "energy_nJ": 1.21973530165889,
+      "energy_relative_tolerance": 0.45,
+      "exit_width_null_fs": 22.055754125374076,
+      "exit_width_null_relative_tolerance": 0.15
+    },
+    {
+      "N": 6,
+      "T0_fs": 285.97314207337877,
+      "T0_relative_tolerance": 0.3,
+      "scaled_share": 1.29,
+      "scaled_share_relative_tolerance": 0.1,
+      "energy_nJ": 1.1933390264914694,
+      "energy_relative_tolerance": 0.45,
+      "exit_width_null_fs": 22.055754125374076,
+      "exit_width_null_relative_tolerance": 0.15
+    }
+  ]
+}

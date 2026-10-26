@@ -1,0 +1,16 @@
+run_id: 2026-10-16-gpt-b-raman-literature
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261016-claude-a-07
+claim: C-20261016-claude-a-02
+kind: literature-digitisation-and-unit-conversion
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: false
+hardware: PI workstation, small single-process Python analyses only
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-b-raman-literature
+wall_time_seconds: 5118
+notes: Literature-session elapsed wall time through final documentation, not simulation runtime. No Julia or fibre simulations. Solver revision records checkout provenance only.
+session_started: "2026-10-16T14:39:25-04:00"
+recorded_at: "2026-10-16T16:04:43-04:00"

@@ -1,0 +1,26 @@
+{
+ "parabola_d0.05_unchirped_nsp1": {
+  "curv_full": -0.8516907061999077,
+  "curv_dispersionless": -0.8516810702486506
+ },
+ "parabola_d0.05_unchirped_nsp2": {
+  "curv_full": -1.406717466392633,
+  "curv_dispersionless": -1.4067242809946023
+ },
+ "parabola_d0.05_asymchirp_nsp1": {
+  "curv_full": -0.7630535640043843,
+  "curv_dispersionless": -0.8516810702486506
+ },
+ "parabola_d0.05_asymchirp_nsp2": {
+  "curv_full": -1.0521602877454266,
+  "curv_dispersionless": -1.4067242809946023
+ },
+ "gaussian_unchirped_nsp1": {
+  "curv_full": -0.6906080834506201,
+  "curv_dispersionless": -0.6905989588491055
+ },
+ "gaussian_unchirped_nsp2": {
+  "curv_full": -0.7623670216191356,
+  "curv_dispersionless": -0.762395835396422
+ }
+}

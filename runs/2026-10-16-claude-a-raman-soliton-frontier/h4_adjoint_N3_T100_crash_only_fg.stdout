@@ -1,0 +1,18 @@
+gradcheck N3_T0100_M16 coef 2: adjoint 8.939085e-04  finite-diff 8.939085e-04  rel.err 5.80e-09
+gradcheck N3_T0100_M16 coef 3: adjoint -8.749528e-04  finite-diff -8.749528e-04  rel.err 6.15e-09
+N3_T0100_M16 TL windowed fraction J_TL = 0.732208
+ERROR: LoadError: UndefVarError: `only_fg!` not defined in `Optim`
+Suggestion: check for spelling errors or missing imports.
+Hint: a global variable of this name also exists in NLSolversBase.
+Stacktrace:
+ [1] getproperty(x::Module, f::Symbol)
+   @ Base ./Base_compiler.jl:47
+ [2] top-level scope
+   @ ~/agent-work/claude-a/runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint.jl:97
+ [3] include(mod::Module, _path::String)
+   @ Base ./Base.jl:306
+ [4] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:317
+ [5] _start()
+   @ Base ./client.jl:550
+in expression starting at ~/agent-work/claude-a/runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint.jl:95

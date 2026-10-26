@@ -1,0 +1,20 @@
+# Run 2026-10-16-claude-interactive.7-grin-lyapunov
+# Resonant (beat-averaged) Kerr dynamics of a parabolic GRIN fibre, one polarization, K = 5 mode groups (15 Hermite-Gauss
+# modes), exact Kerr overlap tensor (grin_overlaps.py, Gauss-Hermite quadrature, S_0000 = 1 so z is in units of
+# L_NL = 1/(g N S_0000)). Model code grin_model.py = the toy's resonant_model.py with build() replaced.
+# Launch: fundamental + equal power in groups 1 and 2, E' in {0.3, 0.6, 0.9}, one draw of random phases (phase_seed 1).
+# Intra-group disorder: none, or Brownian U(k+1) with sigma = 0.3 (dis_seed 7).
+grin_lyap.py: {zmax: 10000, zburn: 1000, dz: 0.05, cases: "sigma in {0, 0.3} x E' in {0.3, 0.6, 0.9}"}
+cw_sidebands.py:
+  what: "CW sideband growth rate lambda(Omega) along the K=5, E'=0.6, sigma=0.3 trajectory. walkoff mode: D_p(+-Omega) = +-x k_p
+         (x = relative walk-off phase per L_NL per group at that Omega); gvd mode: D_p = x for both sidebands (x = beta2 Omega^2/2 per L_NL)."
+  xs: [0.0, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0]
+  zmax: 3000
+  zburn: 300
+commands:
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore grin_lyap.py"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore cw_sidebands.py"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore cw_sidebands_wide.py      # x = 1-16; x = 16 walk-off is a step-size artefact"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore cw_sidebands_normal.py    # opposite GVD sign"
+  - "~/agent-work/venv/bin/python summarize_grin.py"
+grin_dirichlet_seeds.py: "robustness of the Dirichlet statistics: E'=0.6, sigma=0.3, launch phase seeds 2 and 3 (summary grin_dirichlet_seeds_summary.txt; raw jsonl in raw_location)"

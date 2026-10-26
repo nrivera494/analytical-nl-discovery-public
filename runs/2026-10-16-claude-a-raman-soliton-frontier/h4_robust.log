@@ -1,0 +1,8 @@
+{"mask": "A", "T0_fs": 100.0, "s": 0.0, "gain_energy": 0.06181, "gain_photon": 0.06181}
+{"mask": "A", "T0_fs": 100.0, "s": 0.00823, "gain_energy": 0.08739, "gain_photon": 0.06582}
+{"mask": "A", "T0_fs": 90.0, "s": 0.0, "gain_energy": 0.03046, "gain_photon": 0.03046}
+{"mask": "A", "T0_fs": 110.0, "s": 0.0, "gain_energy": 0.06625, "gain_photon": 0.06625}
+{"mask": "B", "T0_fs": 200.0, "s": 0.0, "gain_energy": 0.06974, "gain_photon": 0.06974}
+{"mask": "B", "T0_fs": 200.0, "s": 0.00411, "gain_energy": 0.08482, "gain_photon": 0.07968}
+{"mask": "B", "T0_fs": 180.0, "s": 0.0, "gain_energy": 0.05522, "gain_photon": 0.05522}
+{"mask": "B", "T0_fs": 220.0, "s": 0.0, "gain_energy": 0.08175, "gain_photon": 0.08175}

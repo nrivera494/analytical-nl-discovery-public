@@ -1,0 +1,349 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-raman-sharpening",
+  "training_cases": [
+    [
+      "bw_sech_N3_T113.291",
+      "bw_sech_N3_T124.496",
+      "bw_sech_N3_T135.701"
+    ],
+    [
+      "bw_sech_N4_T180.550",
+      "bw_sech_N4_T198.407",
+      "bw_sech_N4_T216.263"
+    ],
+    [
+      "bw_sech_N5_T259.174",
+      "bw_sech_N5_T284.807",
+      "bw_sech_N5_T310.440"
+    ],
+    [
+      "bw_sech_N6_T348.230",
+      "bw_sech_N6_T382.670",
+      "bw_sech_N6_T417.110"
+    ],
+    [
+      "bw_sech_N7_T447.012",
+      "bw_sech_N7_T491.222",
+      "bw_sech_N7_T535.432"
+    ],
+    [
+      "bw_sech_N8_T554.966",
+      "bw_sech_N8_T609.853",
+      "bw_sech_N8_T664.740"
+    ],
+    [
+      "bw_sech_N10_T796.637",
+      "bw_sech_N10_T875.426",
+      "bw_sech_N10_T954.214"
+    ],
+    [
+      "bw_sech_N12_T1070.371",
+      "bw_sech_N12_T1176.232",
+      "bw_sech_N12_T1282.093"
+    ],
+    [
+      "bw_sech_N14_T1374.004",
+      "bw_sech_N14_T1509.895",
+      "bw_sech_N14_T1645.785"
+    ],
+    [
+      "bw_sech_N16_T1705.827",
+      "bw_sech_N16_T1874.535",
+      "bw_sech_N16_T2043.244"
+    ]
+  ],
+  "power_position": {
+    "prefactor_tau1": 1.7193991802809565,
+    "exponent": 1.6223393643261852,
+    "exponent_OLS_SE": 0.0044170513327228935,
+    "exponent_OLS_95_interval": [
+      1.612153625687517,
+      1.6325251029648533
+    ],
+    "max_relative_residual": 0.010771816940910561,
+    "N": [
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0
+    ],
+    "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+    "peak_bracket_sensitivity_95": [
+      1.5591145620045885,
+      1.6805102351754813
+    ],
+    "peak_bracket_full_corner_sensitivity": [
+      1.472743674288288,
+      1.767257551928217
+    ],
+    "y_exponent": 0.3776606356738148
+  },
+  "constant_y_test": {
+    "best_geometric_constant": 1.242994064185213,
+    "range": [
+      0.8902597118723101,
+      1.6715043429467413
+    ],
+    "max_relative_residual": 0.3447404063368704,
+    "interpretation": "Finite-range constant test only; cannot determine N to infinity."
+  },
+  "output_checkpoint_position_sensitivity": [
+    {
+      "checkpoint_choice": "earliest",
+      "prefactor_tau1": 1.6964457121787353,
+      "exponent": 1.6267343273540729,
+      "exponent_OLS_SE": 0.006148749683388363,
+      "exponent_OLS_95_interval": [
+        1.612555285157844,
+        1.6409133695503018
+      ],
+      "max_relative_residual": 0.014783876394874884,
+      "N": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error."
+    },
+    {
+      "checkpoint_choice": "latest",
+      "prefactor_tau1": 1.7193991802809565,
+      "exponent": 1.6223393643261852,
+      "exponent_OLS_SE": 0.0044170513327228935,
+      "exponent_OLS_95_interval": [
+        1.612153625687517,
+        1.6325251029648533
+      ],
+      "max_relative_residual": 0.010771816940910561,
+      "N": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error."
+    }
+  ],
+  "subrange_position_fits": [
+    {
+      "interval": [
+        3,
+        8
+      ],
+      "prefactor_tau1": 1.6679812650885406,
+      "exponent": 1.6418401108233502,
+      "exponent_OLS_SE": 0.004106152556089548,
+      "exponent_OLS_95_interval": [
+        1.6304396036578,
+        1.6532406179889005
+      ],
+      "max_relative_residual": 0.003835097460636483,
+      "N": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error."
+    },
+    {
+      "interval": [
+        6,
+        16
+      ],
+      "prefactor_tau1": 1.7910646993272665,
+      "exponent": 1.6051614252357078,
+      "exponent_OLS_SE": 0.0018144503058211282,
+      "exponent_OLS_95_interval": [
+        1.6004972322378992,
+        1.6098256182335164
+      ],
+      "max_relative_residual": 0.0018076569479640314,
+      "N": [
+        6.0,
+        7.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error."
+    },
+    {
+      "interval": [
+        8,
+        16
+      ],
+      "prefactor_tau1": 1.813495625971473,
+      "exponent": 1.6002862070058534,
+      "exponent_OLS_SE": 0.0013918340029867619,
+      "exponent_OLS_95_interval": [
+        1.5958567700254793,
+        1.6047156439862276
+      ],
+      "max_relative_residual": 0.0007380658353816072,
+      "N": [
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error."
+    }
+  ],
+  "scaled_share_log_quadratic": {
+    "coefficients": [
+      1.2934890255823206,
+      -0.009734797460073346,
+      -0.06624643701565795
+    ],
+    "variable": "log(N/6)",
+    "domain_N": [
+      3,
+      16
+    ],
+    "max_abs_training_residual": 0.0018658202209014263,
+    "heldout_absolute_tolerance": 0.006,
+    "constant_best": 1.2701158757513638,
+    "constant_max_residual": 0.04813167345718039,
+    "not_asymptotic": true
+  },
+  "scaled_share_inverse_log": {
+    "coefficients": [
+      1.730178135276442,
+      -0.8558322086822858,
+      -0.16343715899718853
+    ],
+    "basis": [
+      "1",
+      "1/N",
+      "log(N)"
+    ],
+    "domain_N": [
+      3,
+      16
+    ],
+    "max_abs_training_residual": 0.001560396109100859,
+    "heldout_absolute_tolerance": 0.006,
+    "not_asymptotic": true
+  },
+  "selected_share_model": "scaled_share_inverse_log",
+  "existing_laws": {
+    "share_1p29_relative_errors": [
+      -0.018184067869243425,
+      -0.0012945484981579103,
+      0.0036065776156049,
+      0.0031704403556940264,
+      0.00027443937989146683,
+      -0.004429513817371222,
+      -0.015760926349590587,
+      -0.02815477731934468,
+      -0.04064269697077472,
+      -0.052725424578152436
+    ],
+    "T_21N162_relative_errors": [
+      -0.00932799040165544,
+      -0.0023489633170146185,
+      0.007272094121162143,
+      0.01155380908571324,
+      0.010180380064682693,
+      0.010549295027892702,
+      0.007387464473246341,
+      0.0037533855019558082,
+      0.00041771228279197103,
+      -0.0032215961277939353
+    ],
+    "N": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "scaled_share": [
+      1.266542552448676,
+      1.2883300324373763,
+      1.2946524851241303,
+      1.2940898680588453,
+      1.29035402680006,
+      1.284285927175591,
+      1.2696684050090281,
+      1.2536803372580454,
+      1.2375709209077006,
+      1.2219842022941834
+    ],
+    "T0_fs": [
+      123.33479605527583,
+      197.9407169023484,
+      286.878171418461,
+      387.0912105361855,
+      496.22318149996727,
+      616.2863902474043,
+      881.8928815844843,
+      1180.6466425317087,
+      1510.5255819520614,
+      1868.4964913067615
+    ]
+  },
+  "holdout_predictions": [
+    {
+      "N": 9,
+      "scaled_share": 1.275977525046447,
+      "scaled_share_absolute_tolerance": 0.006,
+      "T0_fs": 741.0401384869749,
+      "T0_relative_tolerance": 0.05
+    },
+    {
+      "N": 11,
+      "scaled_share": 1.260470016255462,
+      "scaled_share_absolute_tolerance": 0.006,
+      "T0_fs": 1026.1926337932748,
+      "T0_relative_tolerance": 0.05
+    },
+    {
+      "N": 13,
+      "scaled_share": 1.24513685249955,
+      "scaled_share_absolute_tolerance": 0.006,
+      "T0_fs": 1345.6456013326922,
+      "T0_relative_tolerance": 0.05
+    },
+    {
+      "N": 15,
+      "scaled_share": 1.2305266234077128,
+      "scaled_share_absolute_tolerance": 0.006,
+      "T0_fs": 1697.288589773157,
+      "T0_relative_tolerance": 0.05
+    }
+  ]
+}

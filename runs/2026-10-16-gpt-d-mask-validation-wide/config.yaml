@@ -1,0 +1,18 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "search_run": "2026-10-16-gpt-d-adjoint-cutoff200-complete",
+  "script": "../2026-10-16-gpt-d-loss-edge-audit/validate_mask.py",
+  "L_m": 100.0,
+  "normalization": "Unmasked launch photons, for both baseline and passive mask",
+  "cases": [
+    {
+      "label": "wider",
+      "n": 16384,
+      "dt": 0.003,
+      "h": 0.04
+    }
+  ],
+  "amendment": "Additional window doubling after the small apparent optimizer improvement reversed sign. Elementwise basis contraction avoids irrelevant BLAS floating-point flags; the passive mask is asserted finite."
+}

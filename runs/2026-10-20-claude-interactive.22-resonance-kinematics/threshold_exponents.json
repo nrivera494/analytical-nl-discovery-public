@@ -1,0 +1,27 @@
+{
+ "pourbeyram2022_x": 1.02,
+ "pourbeyram2022_note": "0.5 m value is an upper bound on P_c, so x is an upper bound up to the power-step size",
+ "krupa2017_x_like_with_like_(2.0-2.5kW@12m vs 10kW@3m)": [
+  1.0,
+  1.16
+ ],
+ "krupa2017_x_full_range_(0.6-2.5kW@12m vs 7-10kW@3m)": [
+  0.74,
+  2.03
+ ],
+ "kinetic_prediction_x": 0.5,
+ "fixed_nonlinear_phase_prediction_x": 1.0,
+ "pourbeyram_factor_predicted_by_kinetic_for_Lx3": 1.73,
+ "pourbeyram_factor_observed": 3.06,
+ "D_equals_LNL_over_Ld_illustrative": {
+  "pourbeyram_LNL_0.05m_at_top_energy": 0.125,
+  "krupa_LC_0.3m_at_2.5kW": 0.75,
+  "kinetic_theory_requires": "D >> 1 (L_d << L_NL)"
+ },
+ "onset_L_over_LNL": {
+  "pourbeyram_1.5m_17kW": 7.3,
+  "pourbeyram_0.5m_52kW_(upper bound on P_c, so this is an upper bound)": 7.4,
+  "krupa_12m_2.5kW_with_LC_0.3m": 40.0,
+  "note": "different L_NL definitions (effective areas) in the two papers; only the within-paper constancy matters"
+ }
+}

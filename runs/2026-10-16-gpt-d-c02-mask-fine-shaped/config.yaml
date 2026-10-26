@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-10-16-gpt-d-c02-mask-fine-shaped",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "loss_scale": 0.0,
+    "dispersion": "quadratic"
+  },
+  "grid": {
+    "n": 8192,
+    "dt": 0.000125,
+    "carrier_um": 0.4
+  },
+  "input": {
+    "shape": "sech",
+    "E_pJ": 200.0,
+    "phase_coefficients": [
+      3.275029887611654e-06,
+      -0.01061112713773999,
+      9.055391229964249e-07,
+      8.523604446465563e-05,
+      -8.301004798864009e-05
+    ]
+  },
+  "positive_frequency_model": true,
+  "omega_min_fraction": 0.1,
+  "scope": "Formal model replay, not a calibrated fibre prediction; analytic Raman kernel.",
+  "propagation": {
+    "T": 0.002,
+    "L": 0.0005,
+    "h": 5e-06,
+    "save_every": 5e-05
+  },
+  "expected": {
+    "max_rate_over_bound": 1.0,
+    "integrated_loss_ratio_ceiling": 0.9999069055354003
+  }
+}

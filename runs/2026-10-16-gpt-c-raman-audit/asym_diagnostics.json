@@ -1,0 +1,445 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "comparisons": [
+    {
+      "N": 2,
+      "T0_fs": 800,
+      "zN": 16,
+      "cases": [
+        "asym_N2_T800",
+        "asym_wide_N2_T800"
+      ],
+      "f1_narrow": 0.7565704245033645,
+      "f1_wide": 0.7565704245033654,
+      "fraction_difference": 8.881784197001252e-16,
+      "leading_field_relative_error": 1.0394346609010539e-13,
+      "leading_field_phase_aligned_relative_error": 8.384308231416509e-15,
+      "edge_narrow": 1.098998621934302e-17,
+      "edge_wide": 2.101037025897276e-29
+    },
+    {
+      "N": 2,
+      "T0_fs": 800,
+      "zN": 32,
+      "cases": [
+        "asym_N2_T800",
+        "asym_wide_N2_T800"
+      ],
+      "f1_narrow": 0.7567864054942225,
+      "f1_wide": 0.7567864054940898,
+      "fraction_difference": -1.326716514427062e-13,
+      "leading_field_relative_error": 5.23883520493037e-09,
+      "leading_field_phase_aligned_relative_error": 5.238815196275691e-09,
+      "edge_narrow": 1.6908580234229615e-08,
+      "edge_wide": 4.3669455648366296e-17
+    },
+    {
+      "N": 2,
+      "T0_fs": 800,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T800",
+        "asym_wide_N2_T800"
+      ],
+      "f1_narrow": 0.7568011401387413,
+      "f1_wide": 0.7568010009614025,
+      "fraction_difference": -1.3917733887591766e-07,
+      "leading_field_relative_error": 0.0005459249904184662,
+      "leading_field_phase_aligned_relative_error": 0.0005457095783700882,
+      "edge_narrow": 1.4629766344730997e-05,
+      "edge_wide": 2.6910748900966808e-08
+    },
+    {
+      "N": 2,
+      "T0_fs": 1600,
+      "zN": 32,
+      "cases": [
+        "asym_N2_T1600",
+        "asym_wide_N2_T1600"
+      ],
+      "f1_narrow": 0.753372047636266,
+      "f1_wide": 0.753372047637553,
+      "fraction_difference": 1.287081552447944e-12,
+      "leading_field_relative_error": 1.0449822573372316e-09,
+      "leading_field_phase_aligned_relative_error": 1.0405860307426226e-09,
+      "edge_narrow": 4.033962173104176e-09,
+      "edge_wide": 1.2862538559120132e-17
+    },
+    {
+      "N": 2,
+      "T0_fs": 1600,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T1600",
+        "asym_wide_N2_T1600"
+      ],
+      "f1_narrow": 0.7533639638490898,
+      "f1_wide": 0.7533639710238672,
+      "fraction_difference": 7.174777438834212e-09,
+      "leading_field_relative_error": 9.07841163588177e-05,
+      "leading_field_phase_aligned_relative_error": 9.07768243760148e-05,
+      "edge_narrow": 6.524703608094968e-06,
+      "edge_wide": 9.897870764630097e-09
+    },
+    {
+      "N": 2,
+      "T0_fs": 3200,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T3200",
+        "asym_wide_N2_T3200"
+      ],
+      "f1_narrow": 0.7516755669671071,
+      "f1_wide": 0.7516755662912142,
+      "fraction_difference": -6.75892897206154e-10,
+      "leading_field_relative_error": 2.926935396836051e-05,
+      "leading_field_phase_aligned_relative_error": 2.9249728400209277e-05,
+      "edge_narrow": 2.5108895022383083e-06,
+      "edge_wide": 2.7231725934017596e-09
+    },
+    {
+      "N": 2,
+      "T0_fs": 3200,
+      "zN": 128,
+      "cases": [
+        "asym_N2_T3200",
+        "asym_wide_N2_T3200"
+      ],
+      "f1_narrow": 0.7516762275986976,
+      "f1_wide": 0.7516762289663405,
+      "fraction_difference": 1.3676428878284241e-09,
+      "leading_field_relative_error": 0.00024159564724227043,
+      "leading_field_phase_aligned_relative_error": 0.0002415955913101495,
+      "edge_narrow": 2.8122742764331252e-06,
+      "edge_wide": 2.9918900065708126e-06
+    },
+    {
+      "N": 2,
+      "T0_fs": 6400,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T6400",
+        "asym_wide_N2_T6400"
+      ],
+      "f1_narrow": 0.7508385613605832,
+      "f1_wide": 0.7508385609452007,
+      "fraction_difference": -4.1538250616923733e-10,
+      "leading_field_relative_error": 1.2194532940718585e-05,
+      "leading_field_phase_aligned_relative_error": 1.219403459739751e-05,
+      "edge_narrow": 7.493365183358575e-07,
+      "edge_wide": 6.282057391155509e-10
+    },
+    {
+      "N": 2,
+      "T0_fs": 6400,
+      "zN": 128,
+      "cases": [
+        "asym_N2_T6400",
+        "asym_wide_N2_T6400"
+      ],
+      "f1_narrow": 0.7508368289170059,
+      "f1_wide": 0.7508368071530761,
+      "fraction_difference": -2.1763929769491597e-08,
+      "leading_field_relative_error": 0.00021140117145651213,
+      "leading_field_phase_aligned_relative_error": 0.0002106753847081832,
+      "edge_narrow": 9.430954041467373e-07,
+      "edge_wide": 1.0942883759083936e-06
+    },
+    {
+      "N": 4,
+      "T0_fs": 6400,
+      "zN": 16,
+      "cases": [
+        "asym_N4_T6400",
+        "asym_wide_N4_T6400"
+      ],
+      "f1_narrow": 0.4428129859187803,
+      "f1_wide": 0.44281298592264895,
+      "fraction_difference": 3.868627640457589e-12,
+      "leading_field_relative_error": 1.3289191575904427e-09,
+      "leading_field_phase_aligned_relative_error": 4.993157260664192e-10,
+      "edge_narrow": 1.0903277003437571e-12,
+      "edge_wide": 3.1146665920379653e-25
+    }
+  ],
+  "N2_clean64": [
+    {
+      "N": 2,
+      "T0_fs": 800,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T800",
+        "asym_wide_N2_T800"
+      ],
+      "f1_narrow": 0.7568011401387413,
+      "f1_wide": 0.7568010009614025,
+      "fraction_difference": -1.3917733887591766e-07,
+      "leading_field_relative_error": 0.0005459249904184662,
+      "leading_field_phase_aligned_relative_error": 0.0005457095783700882,
+      "edge_narrow": 1.4629766344730997e-05,
+      "edge_wide": 2.6910748900966808e-08,
+      "excess": 0.00906800128187002,
+      "cN": 4.962130579923835
+    },
+    {
+      "N": 2,
+      "T0_fs": 1600,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T1600",
+        "asym_wide_N2_T1600"
+      ],
+      "f1_narrow": 0.7533639638490898,
+      "f1_wide": 0.7533639710238672,
+      "fraction_difference": 7.174777438834212e-09,
+      "leading_field_relative_error": 9.07841163588177e-05,
+      "leading_field_phase_aligned_relative_error": 9.07768243760148e-05,
+      "edge_narrow": 6.524703608094968e-06,
+      "edge_wide": 9.897870764630097e-09,
+      "excess": 0.0044852946984896835,
+      "cN": 4.9088255044348905
+    },
+    {
+      "N": 2,
+      "T0_fs": 3200,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T3200",
+        "asym_wide_N2_T3200"
+      ],
+      "f1_narrow": 0.7516755669671071,
+      "f1_wide": 0.7516755662912142,
+      "fraction_difference": -6.75892897206154e-10,
+      "leading_field_relative_error": 2.926935396836051e-05,
+      "leading_field_phase_aligned_relative_error": 2.9249728400209277e-05,
+      "edge_narrow": 2.5108895022383083e-06,
+      "edge_wide": 2.7231725934017596e-09,
+      "excess": 0.002234088388285649,
+      "cN": 4.8900911965812295
+    },
+    {
+      "N": 2,
+      "T0_fs": 6400,
+      "zN": 64,
+      "cases": [
+        "asym_N2_T6400",
+        "asym_wide_N2_T6400"
+      ],
+      "f1_narrow": 0.7508385613605832,
+      "f1_wide": 0.7508385609452007,
+      "fraction_difference": -4.1538250616923733e-10,
+      "leading_field_relative_error": 1.2194532940718585e-05,
+      "leading_field_phase_aligned_relative_error": 1.219403459739751e-05,
+      "edge_narrow": 7.493365183358575e-07,
+      "edge_wide": 6.282057391155509e-10,
+      "excess": 0.0011180812602675783,
+      "cN": 4.894631167294585
+    }
+  ],
+  "N2_late128": [
+    {
+      "N": 2,
+      "T0_fs": 3200,
+      "zN": 128,
+      "cases": [
+        "asym_N2_T3200",
+        "asym_wide_N2_T3200"
+      ],
+      "f1_narrow": 0.7516762275986976,
+      "f1_wide": 0.7516762289663405,
+      "fraction_difference": 1.3676428878284241e-09,
+      "leading_field_relative_error": 0.00024159564724227043,
+      "leading_field_phase_aligned_relative_error": 0.0002415955913101495,
+      "edge_narrow": 2.8122742764331252e-06,
+      "edge_wide": 2.9918900065708126e-06,
+      "excess": 0.0022349719551206793,
+      "cN": 4.892025194548467
+    },
+    {
+      "N": 2,
+      "T0_fs": 6400,
+      "zN": 128,
+      "cases": [
+        "asym_N2_T6400",
+        "asym_wide_N2_T6400"
+      ],
+      "f1_narrow": 0.7508368289170059,
+      "f1_wide": 0.7508368071530761,
+      "fraction_difference": -2.1763929769491597e-08,
+      "leading_field_relative_error": 0.00021140117145651213,
+      "leading_field_phase_aligned_relative_error": 0.0002106753847081832,
+      "edge_narrow": 9.430954041467373e-07,
+      "edge_wide": 1.0942883759083936e-06,
+      "excess": 0.0011157428707682104,
+      "cN": 4.884394385289902
+    }
+  ],
+  "N2_clean64_fit": {
+    "exponent": 1.006479516419027,
+    "local": [
+      1.0155818169928952,
+      1.0055165130577393,
+      0.9986612203268758
+    ],
+    "points": [
+      {
+        "N": 2,
+        "T0_fs": 800,
+        "zN": 64,
+        "cases": [
+          "asym_N2_T800",
+          "asym_wide_N2_T800"
+        ],
+        "f1_narrow": 0.7568011401387413,
+        "f1_wide": 0.7568010009614025,
+        "fraction_difference": -1.3917733887591766e-07,
+        "leading_field_relative_error": 0.0005459249904184662,
+        "leading_field_phase_aligned_relative_error": 0.0005457095783700882,
+        "edge_narrow": 1.4629766344730997e-05,
+        "edge_wide": 2.6910748900966808e-08,
+        "excess": 0.00906800128187002,
+        "cN": 4.962130579923835
+      },
+      {
+        "N": 2,
+        "T0_fs": 1600,
+        "zN": 64,
+        "cases": [
+          "asym_N2_T1600",
+          "asym_wide_N2_T1600"
+        ],
+        "f1_narrow": 0.7533639638490898,
+        "f1_wide": 0.7533639710238672,
+        "fraction_difference": 7.174777438834212e-09,
+        "leading_field_relative_error": 9.07841163588177e-05,
+        "leading_field_phase_aligned_relative_error": 9.07768243760148e-05,
+        "edge_narrow": 6.524703608094968e-06,
+        "edge_wide": 9.897870764630097e-09,
+        "excess": 0.0044852946984896835,
+        "cN": 4.9088255044348905
+      },
+      {
+        "N": 2,
+        "T0_fs": 3200,
+        "zN": 64,
+        "cases": [
+          "asym_N2_T3200",
+          "asym_wide_N2_T3200"
+        ],
+        "f1_narrow": 0.7516755669671071,
+        "f1_wide": 0.7516755662912142,
+        "fraction_difference": -6.75892897206154e-10,
+        "leading_field_relative_error": 2.926935396836051e-05,
+        "leading_field_phase_aligned_relative_error": 2.9249728400209277e-05,
+        "edge_narrow": 2.5108895022383083e-06,
+        "edge_wide": 2.7231725934017596e-09,
+        "excess": 0.002234088388285649,
+        "cN": 4.8900911965812295
+      },
+      {
+        "N": 2,
+        "T0_fs": 6400,
+        "zN": 64,
+        "cases": [
+          "asym_N2_T6400",
+          "asym_wide_N2_T6400"
+        ],
+        "f1_narrow": 0.7508385613605832,
+        "f1_wide": 0.7508385609452007,
+        "fraction_difference": -4.1538250616923733e-10,
+        "leading_field_relative_error": 1.2194532940718585e-05,
+        "leading_field_phase_aligned_relative_error": 1.219403459739751e-05,
+        "edge_narrow": 7.493365183358575e-07,
+        "edge_wide": 6.282057391155509e-10,
+        "excess": 0.0011180812602675783,
+        "cN": 4.894631167294585
+      }
+    ],
+    "note": "Late 128 checkpoints retain weak-radiation edge flags; compare with the clean64 fit and matched-window pulse differences."
+  },
+  "N2_late128_fit": {
+    "exponent": 1.0073286069986764,
+    "local": [
+      1.0155818169928952,
+      1.0049460497344225,
+      1.0022521400234632
+    ],
+    "points": [
+      {
+        "N": 2,
+        "T0_fs": 800,
+        "zN": 64,
+        "cases": [
+          "asym_N2_T800",
+          "asym_wide_N2_T800"
+        ],
+        "f1_narrow": 0.7568011401387413,
+        "f1_wide": 0.7568010009614025,
+        "fraction_difference": -1.3917733887591766e-07,
+        "leading_field_relative_error": 0.0005459249904184662,
+        "leading_field_phase_aligned_relative_error": 0.0005457095783700882,
+        "edge_narrow": 1.4629766344730997e-05,
+        "edge_wide": 2.6910748900966808e-08,
+        "excess": 0.00906800128187002,
+        "cN": 4.962130579923835
+      },
+      {
+        "N": 2,
+        "T0_fs": 1600,
+        "zN": 64,
+        "cases": [
+          "asym_N2_T1600",
+          "asym_wide_N2_T1600"
+        ],
+        "f1_narrow": 0.7533639638490898,
+        "f1_wide": 0.7533639710238672,
+        "fraction_difference": 7.174777438834212e-09,
+        "leading_field_relative_error": 9.07841163588177e-05,
+        "leading_field_phase_aligned_relative_error": 9.07768243760148e-05,
+        "edge_narrow": 6.524703608094968e-06,
+        "edge_wide": 9.897870764630097e-09,
+        "excess": 0.0044852946984896835,
+        "cN": 4.9088255044348905
+      },
+      {
+        "N": 2,
+        "T0_fs": 3200,
+        "zN": 128,
+        "cases": [
+          "asym_N2_T3200",
+          "asym_wide_N2_T3200"
+        ],
+        "f1_narrow": 0.7516762275986976,
+        "f1_wide": 0.7516762289663405,
+        "fraction_difference": 1.3676428878284241e-09,
+        "leading_field_relative_error": 0.00024159564724227043,
+        "leading_field_phase_aligned_relative_error": 0.0002415955913101495,
+        "edge_narrow": 2.8122742764331252e-06,
+        "edge_wide": 2.9918900065708126e-06,
+        "excess": 0.0022349719551206793,
+        "cN": 4.892025194548467
+      },
+      {
+        "N": 2,
+        "T0_fs": 6400,
+        "zN": 128,
+        "cases": [
+          "asym_N2_T6400",
+          "asym_wide_N2_T6400"
+        ],
+        "f1_narrow": 0.7508368289170059,
+        "f1_wide": 0.7508368071530761,
+        "fraction_difference": -2.1763929769491597e-08,
+        "leading_field_relative_error": 0.00021140117145651213,
+        "leading_field_phase_aligned_relative_error": 0.0002106753847081832,
+        "edge_narrow": 9.430954041467373e-07,
+        "edge_wide": 1.0942883759083936e-06,
+        "excess": 0.0011157428707682104,
+        "cN": 4.884394385289902
+      }
+    ],
+    "note": "Late 128 checkpoints retain weak-radiation edge flags; compare with the clean64 fit and matched-window pulse differences."
+  }
+}

@@ -1,0 +1,13 @@
+run_id: 2026-10-08-gpt-a-similariton-comparison
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261008-gpt-a-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+exploration: explorations/2026-10-08-gpt-a-similariton-attraction.md
+solver_dirty: false
+hardware: macOS-27.0.1-arm64-arm-64bit
+hostname: COECIS-G3FLW49YGQ
+wall_seconds: 0.984497709
+raw_location: Derived from the absolute raw locations in the input-run meta.yaml files;
+  no additional raw data

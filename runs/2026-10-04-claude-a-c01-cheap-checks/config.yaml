@@ -1,0 +1,17 @@
+# Config for run 2026-10-04-claude-a-c01-cheap-checks. Everything is in check.py; this file lists the knobs.
+command: "~/agent-work/venv/bin/python check.py <output_dir>"
+python: "3.9 (agent-work venv): sympy 1.14.0, mpmath 1.3.0, numpy 2.0.2, scipy 1.13.1, matplotlib 3.9.4"
+mp_dps: 30
+symbolic_l_range: [0, 6]          # A2, A3: Legendre separation and Pöschl–Teller residuals
+numeric_l_range: [0, 10]          # B1, B2: identity, determinant, group law
+ode_check: {l_range: [0, 6], zeta_end: 6.0, rtol: 1.0e-12, atol: 1.0e-13}     # B3
+prechirped: {mu0: -0.5, a_m: 0.75, adot0: -1.1547005383792515, zetas: [0.5, 1.0, 2.0, 4.0], l: [0, 2, 3]}   # B5
+random_lo_test: {seed: 20261004, pairs: 20, poly_degree: 3, l_max: 10, gauss_points: 40}   # B4c
+uncertainty_grid: {mu: [0.05, 0.3, 0.6, 0.9, 0.9375, 0.99], mu0: [0, -0.5], eps: [0.1, 0.02], delta: [1.0e-2, 1.0e-4]}
+linear_limit: {eps_ref: 0.05, zeta_ref: 2.0, power_ratios: [1.0e-2, 1.0e-4, 1.0e-6], delta: 1.0e-3}
+prediction_grids:
+  main_zeta: [0.25, 0.5, 1.0, 2.0, 3.0, zeta_star, 6.0, 8.0, 10.0]
+  heldout_zeta: [0.25, 0.5, 1.0, 2.0, 4.0, 8.0]
+  finite_eps: [0.1, 0.05, 0.025, 0.0125]
+  finite_eps_zeta: [1.0, 2.0, zeta_star, 8.0]
+  edge_cutoff_illustration: "delta = eps^(2/3) (constant c = 1; c is not predicted)"

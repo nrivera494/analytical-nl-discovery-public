@@ -1,0 +1,98 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "method": "finite-window continuous Fourier transform using CZT; no propagation refinement inferred",
+  "cases": [
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "coarse",
+      "shaped": false,
+      "eta_CZT": 0.6657902928879964,
+      "quadrature_difference": -1.3598524528646294e-09,
+      "CZT_relative_check": 4.872880331940192e-13,
+      "discrete_photons_below_integration_band": 2.2796296611305335e-15
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "coarse",
+      "shaped": true,
+      "eta_CZT": 0.6663813913275894,
+      "quadrature_difference": -1.3970401502305663e-09,
+      "CZT_relative_check": 4.870315041594895e-13,
+      "discrete_photons_below_integration_band": 2.2160919676831866e-15
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "step",
+      "shaped": false,
+      "eta_CZT": 0.6657549620772018,
+      "quadrature_difference": -1.360427992480595e-09,
+      "CZT_relative_check": 4.873600469023638e-13,
+      "discrete_photons_below_integration_band": 4.533520841770383e-18
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "step",
+      "shaped": true,
+      "eta_CZT": 0.666305530203627,
+      "quadrature_difference": -1.397359561394751e-09,
+      "CZT_relative_check": 4.869455303456356e-13,
+      "discrete_photons_below_integration_band": 1.258103298430234e-17
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "window",
+      "shaped": false,
+      "eta_CZT": 0.6655870221612427,
+      "quadrature_difference": -2.406447818792401e-09,
+      "CZT_relative_check": 1.5670505124877344e-13,
+      "discrete_photons_below_integration_band": 7.228575666645712e-19
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "window",
+      "shaped": true,
+      "eta_CZT": 0.664895275499456,
+      "quadrature_difference": -2.424999090422375e-10,
+      "CZT_relative_check": 1.5616739104992588e-13,
+      "discrete_photons_below_integration_band": 1.0492519633948023e-18
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "fine",
+      "shaped": false,
+      "eta_CZT": 0.665754966582351,
+      "quadrature_difference": -6.863739576701278e-10,
+      "CZT_relative_check": 1.22941582495314e-13,
+      "discrete_photons_below_integration_band": 4.53352081464046e-18
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation",
+      "label": "fine",
+      "shaped": true,
+      "eta_CZT": 0.6663056642565758,
+      "quadrature_difference": -7.225923193132644e-10,
+      "CZT_relative_check": 1.2249364121478444e-13,
+      "discrete_photons_below_integration_band": 1.2581032971278143e-17
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation-wide",
+      "label": "wider",
+      "shaped": false,
+      "eta_CZT": 0.6656373289883132,
+      "quadrature_difference": -5.6584408270055064e-09,
+      "CZT_relative_check": 2.781284444736483e-12,
+      "discrete_photons_below_integration_band": 1.4815331308572003e-19
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-mask-validation-wide",
+      "label": "wider",
+      "shaped": true,
+      "eta_CZT": 0.6657384290835379,
+      "quadrature_difference": -6.063833657421469e-09,
+      "CZT_relative_check": 2.775150747921133e-12,
+      "discrete_photons_below_integration_band": 3.041746909522992e-19
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "recorded_at": "2026-10-18T13:53:44.057759+00:00",
+  "base_commit": "6a7b762706c8d9d59e032d5ac0878cdc7c619bc4",
+  "note": "Hashes identify the exact source bytes, including changes committed after base_commit.",
+  "sha256": {
+    "evaluator/kerr_squeezing.py": "2b2bd5d1b6b3d2df769e0b3ba691093c79ef71399841cb0be999b44671f748df",
+    "evaluator/serial_numerical.py": "ea4ac2b48f0337ef3bb8d6d03e53995ea50a9bfef47675285e0960f1382f2382",
+    "evaluator/squeezing.py": "09f14c2d8b07ed1ddba372d2fdfc6779801124e2ab81518f64bb6ec89a1e1910",
+    "evaluator/squeezing_core.c": "6b9b8047de57944dc6ca13f1b6273dace60d0e06da53f991b2b1d45046ab4dd1",
+    "evaluator/thermalized_light.py": "e75e2d5dd551bbb5592061d56c8a704d3144811c57b444d1ffaf3909c2503adc",
+    "evaluator/thermalized_light_core.c": "4aadee7df95eb87efe3a6e59708e7c8f9750e1022685f7ea4ec85974d2afaf16",
+    "runs/2026-10-18-gpt-b-kerr-exact/analyse.py": "cb33510cffd374adb047a736d527ad799ff3dc1622a4f17b16fee7171fc5c1cd",
+    "runs/2026-10-18-gpt-b-kerr-exact/gaussian_edges.py": "f095694e109b47c2fe99c323de0babb6f6e398ecf49a52592dfb2ca7968bb116",
+    "runs/2026-10-18-gpt-b-kerr-exact/no_go_smooth.py": "0150208adba83d67d8765bfd0d8936fc0d6fd426c26846a4d4a4e50663b8fffe",
+    "runs/2026-10-18-gpt-b-kerr-exact/qmc_completion.py": "63ac891a2386c40ede56910ee92b5e64ea08ae32a7d7127432c02af8be112087",
+    "runs/2026-10-18-gpt-b-kerr-exact/run.py": "ebc8c43c8a061b5b838fa68c989c6d82b6c326d857e0e481992d7a50f1b39cbc",
+    "runs/2026-10-18-gpt-b-kerr-exact/sagnac.py": "80fc932d34e46c7faae4c0b09e38aad3991e1894f4f2d022821f2568248bfe0e",
+    "runs/2026-10-18-gpt-b-kerr-exact/sagnac_quantum_reference.py": "b71d60cef6685740b0eec827e92f7b8bc17c35f4d91930f922d9725f9cd85e6f",
+    "runs/2026-10-18-gpt-b-kerr-exact/sagnac_resolution.py": "15dd438278bdfb0f7656484f4191ec5045520a3ea53eab7d9ab333bf4d8c7b78"
+  }
+}

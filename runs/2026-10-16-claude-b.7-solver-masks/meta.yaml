@@ -1,0 +1,70 @@
+run_id: 2026-10-16-claude-b.7-solver-masks
+date: 2026-10-16
+agent: claude-b.7
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-03
+serves: >-
+  P-20261016-claude-interactive-01: solver evaluation of claude-b's optimized input masks (phase-only
+  and passive amplitude+phase) for the DW band yield, model M0, Gaussian laser, N = 3, delta3 = 0.05,
+  xi_f = 2 (item 6 requested by claude-b on 2026-10-16 ~12:28 EDT), as an independent check of
+  claude-b's numpy values in runs/2026-10-16-claude-b-dw-shaping/opt_N3_d0.05_xi2.json.
+description: >-
+  Model and solver mapping as in run 2026-10-16-claude-b.7-solver-dwyield (dw_lib.jl copied
+  unchanged): L_D = 1 m, T0 = 1 ps, beta2 = -1 ps^2/m, beta3 = 0.3 ps^3/m, gamma = 1 /W/m,
+  P0 = 9 W, length 2 m, NoRaman(), omega0 T0 = 1e6 (and 1e8 for the self-steepening check),
+  fixed-step Float64 RK4IP. Input: A_k(0) of the laser exp(-tau^2/2) multiplied by
+  a(w_k) exp(i phi(w_k)) on the 107 listed bins (w = k 2pi/70, |k| <= 53, exact integer match;
+  the solver convention A(t) = sum_k A_k exp(-i w_k tau) equals claude-b's physics convention).
+  Observables at xi = 2 normalized by the laser energy sum_k |A_laser,k|^2: eta_B (band
+  w >= 10/3) and eta_G (after g = 1 - 0.5[tanh(tau + 15) - tanh(tau - 15)]).
+inputs:
+  mask_source: "runs/2026-10-16-claude-b-dw-shaping/opt_N3_d0.05_xi2.json (sha256 db767bdcdcf5ce6479667e4b092ef411d9e68314823a8dc9eef1fe36d635ae22); only mask_phase/mask_passive arrays and the configuration fields N, d3, xif, h, K, Nt, TW, wl, nphi, n_inband_bins were read before the freeze"
+  mask_copies: "~/analytical-nl-discovery-data/2026-10-16-claude-b.7-solver-masks/mask_phase.npz, mask_passive.npz (w, k, phi, a)"
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+julia: "1.12.5, JULIA_NUM_THREADS=2, FFTW and BLAS threads 1"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0.1 (host COECIS-G3FLW49YGQ); other agents' jobs ran concurrently"
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-masks/masks.jl   (writes results_v2.jsonl; an earlier identical pass without the fractional-edge sums wrote results.jsonl)"
+  - "~/agent-work/venv/bin/python runs/2026-10-16-claude-b.7-solver-masks/summarize.py   (summary.json)"
+  - "MASKS_W0T0=1e8 JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-masks/masks.jl   (results_ss.jsonl, after the freeze)"
+  - "~/agent-work/venv/bin/python runs/2026-10-16-claude-b.7-solver-masks/compare.py   (comparison.json, after the freeze)"
+script_note: "masks.jl got the MASKS_W0T0 switch after the freeze; its default path is unchanged except that records now also carry omega0T0. Rerunning it appends to results_v2.jsonl; summarize.py uses the first matching record."
+grids: "primary = claude-b's grid TW = 70, Nt = 1024 (dtau 0.0684, w_max 46.0); steps 2000 (claude-b's h = 0.001), 4000, 8000. Checks: Nt 2048 at TW 70; TW 140 (Nt 2048) and TW 280 (Nt 4096) with the TW 70 masked input zero-padded in time (identical field); TW 140 with the mask interpolated linearly in w on 2pi/140 bins (a different field)."
+wall_time_s: "about 60 per pass (all 20 cases), 12:33-12:36 EDT; self-steepening pass about 10"
+independence: >-
+  summary.json frozen 2026-10-16 12:35:04 EDT, sha256
+  79a926ad000b503f3ac8a59be585512fb8c20a9c313f3dc8e93f899950194175 (results_v2.jsonl sha256
+  fe5fb6f700269c2d4c7e8aa31ccd9a9356eb6bb60d9b86ba07287d71a6589e1d). claude-b's eta values in the
+  source JSON were read only after that (compare.py -> comparison.json). results_ss.jsonl
+  (omega0 T0 = 1e8) was computed after reading them, to test the explanation of the 1e-5 offset.
+results: >-
+  Primary (TW 70, Nt 1024, 8000 steps, omega0 T0 = 1e6): TL eta_B = 0.16429435, eta_G = 0.13033039;
+  phase eta_B = 0.22945044, eta_G = 0.032146954; passive eta_B = 0.24594767, eta_G = 2.7509887e-5,
+  passive input energy 0.99916482 of the laser. At omega0 T0 = 1e8: TL 0.16429223 / 0.13032828,
+  phase 0.22944792 / 0.032146282, passive 0.24594521 / 2.7509465e-5.
+convergence: >-
+  Steps 2000 -> 8000: eta_B <= 1.7e-7, eta_G <= 5.2e-6 (phase); 4000 -> 8000: <= 2.9e-9 and 2.8e-7.
+  Nt 1024 -> 2048 (TW 70): <= 3.6e-10 (eta_B), <= 6.0e-7 (eta_G). Window TW 70 -> 140 -> 280 with an
+  identical input field: eta_G changes <= 8.5e-9 (TL, phase) and -4.7e-4 then -1.5e-5 (passive);
+  eta_B changes -1.4e-3 then -6.7e-4 (TL), -1.3e-3, -6.5e-4 (phase), -2.0e-3, -1.0e-3 (passive):
+  this is the band-edge discretization (bin width 2pi/TW at w_z = 3.33, where the spectrum is
+  strong), not the window; the fractional-edge band sums change by -1.1e-4, -2.3e-5 (TL),
+  -2.9e-5, -5.9e-6 (phase), -1.0e-4, -2.1e-5 (passive), and give the grid-converged values
+  0.16462, 0.22989, 0.24668. (Values are X(first-named)/X(second-named) - 1.) Mask
+  representation: applying the mask by linear interpolation on 2pi/140 bins instead changes eta_B
+  by +8.8e-4 (phase), -7.9e-4 (passive) and eta_G by +2.8 % (phase), +12.5 % (passive), so the
+  optimized gated yields are specific to the 2pi/70 bin representation of the mask.
+comparison_with_claude-b: >-
+  relative difference claude-b / solver - 1 on the same grid. omega0 T0 = 1e6 (8000 steps):
+  eta_B -1.19e-5 (TL), -1.04e-5 (phase), -9.5e-6 (passive); eta_G -1.27e-5 (TL), +1.15e-5 (phase).
+  omega0 T0 = 1e8 (self-steepening residual removed; 8000 steps): eta_B +9.9e-7, +5.6e-7, +5.4e-7;
+  eta_G +3.5e-6 (TL), +3.2e-5 (phase); at claude-b's own step (2000) +2.7e-5 for the phase eta_G.
+  Passive energy kept agrees to 2e-16 and the phase-mask input peak power to all printed digits (0.36054661054713),
+  so the masks are applied identically. claude-b gave no gated passive value. The remaining
+  3e-5 in the gated phase-mask yield is above the solver's step error for that number (5e-6 at
+  h = 0.001, 2.8e-7 at h/2 vs h/4) and is not explained here; a gated h/2 value from the numpy
+  code would show whether it is that code's step error.
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-16-claude-b.7-solver-masks/ (results.jsonl, results_v2.jsonl, results_ss.jsonl, mask_*.npz)"
+seeds: none (deterministic)

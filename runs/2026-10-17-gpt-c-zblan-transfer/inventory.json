@@ -1,0 +1,1895 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": [
+    {
+      "id": "physical_N3_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.807925958,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.236900917000001,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.428781291,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r0.85",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.0427547499999985,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.803434375000002,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r1.2",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.8510162080000008,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r1.5",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.086051541,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r2",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.929029958000001,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N3_r2.7",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 6.638097082999998,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.131487458999999,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.2905489999999986,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.5127348749999996,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r0.85",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.5587203330000037,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.7123639579999974,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r1.2",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.798449749999996,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r1.5",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.016824166999996,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r2",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.1129014170000033,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N3_r2.7",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 7.435339083999999,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 7.180488542000006,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 6.060651957999994,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.835447500000001,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r0.85",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.109567624999997,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.929119666999995,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r1.2",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.9289494169999983,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r1.5",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 9.123259458999996,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 9.444276415999994,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N4_r2.7",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 10.050412417000004,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.337176709000005,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.7973334999999935,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.0613448340000105,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r0.85",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.350021417000022,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.4909912500000075,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r1.2",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.673860958000006,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r1.5",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 11.292436459000015,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.135242540999997,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N4_r2.7",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.643375834000011,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 9.197190166000013,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 7.361294750000013,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 5.946732291999979,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r0.85",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 5.291733416999989,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 5.132345249999986,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r1.2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 11.763459208,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r1.5",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.686392625000025,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 13.365304457999997,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N5_r2.7",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 29.948081083000005,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 5.1463858749999645,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 5.608164832999989,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 6.272007625000015,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r0.85",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 6.631259082999975,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 7.317815791000044,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r1.2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 16.357087500000034,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r1.5",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 17.560290874999964,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 19.69508300000001,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N5_r2.7",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 42.67875145800002,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 11.800503792000029,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 10.012511542000027,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 7.660677625000005,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r0.85",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 14.493905499999983,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 14.717842207999979,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r1.2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 15.35298237500001,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r1.5",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 35.5565555,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r2",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 37.648666875,
+      "grid_exception": null
+    },
+    {
+      "id": "physical_N6_r2.7",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 38.00730670799999,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r0.4",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 6.922870417000013,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r0.55",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 8.191521749999993,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r0.7",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 8.65182612500007,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r0.85",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 20.625385499999993,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 22.242143916999908,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r1.2",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 23.37765749999994,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r1.5",
+      "status": "edge-terminated",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 54.20371658300007,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r2",
+      "status": "edge-terminated",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 57.058886832999974,
+      "grid_exception": null
+    },
+    {
+      "id": "reference_N6_r2.7",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 59.691809084000056,
+      "grid_exception": null
+    },
+    {
+      "id": "refine5_reference_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.018846,
+      "grid_exception": null
+    },
+    {
+      "id": "refine5_reference_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.049075041,
+      "grid_exception": null
+    },
+    {
+      "id": "refine5_reference_N4_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.798009333,
+      "grid_exception": null
+    },
+    {
+      "id": "refine5_reference_N4_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 13.013105249999999,
+      "grid_exception": null
+    },
+    {
+      "id": "refine4_reference_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.0373941669999995,
+      "grid_exception": null
+    },
+    {
+      "id": "refine4_reference_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.0089816249999997,
+      "grid_exception": null
+    },
+    {
+      "id": "refine4_reference_N4_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.830799917,
+      "grid_exception": null
+    },
+    {
+      "id": "refine4_reference_N4_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.654184832999999,
+      "grid_exception": null
+    },
+    {
+      "id": "control_grid_N3",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 6.260253542000001,
+      "grid_exception": null
+    },
+    {
+      "id": "control_window_N3",
+      "status": "complete",
+      "n": 16384,
+      "width": 192.0,
+      "wall_seconds": 6.616342541999998,
+      "grid_exception": null
+    },
+    {
+      "id": "control_step_N3",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.602975625000006,
+      "grid_exception": null
+    },
+    {
+      "id": "control_kernel_N3",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.795481916,
+      "grid_exception": null
+    },
+    {
+      "id": "control_grid_N4",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 19.353123375000003,
+      "grid_exception": null
+    },
+    {
+      "id": "control_window_N4",
+      "status": "complete",
+      "n": 32768,
+      "width": 192.0,
+      "wall_seconds": 19.171623874999995,
+      "grid_exception": null
+    },
+    {
+      "id": "control_step_N4",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 15.856579417000006,
+      "grid_exception": null
+    },
+    {
+      "id": "control_kernel_N4",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 8.94896175000001,
+      "grid_exception": null
+    },
+    {
+      "id": "control_grid_N5",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 26.575073916000008,
+      "grid_exception": null
+    },
+    {
+      "id": "control_window_N5",
+      "status": "complete",
+      "n": 32768,
+      "width": 192.0,
+      "wall_seconds": 26.22581500000001,
+      "grid_exception": null
+    },
+    {
+      "id": "control_step_N5",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 21.272264708999984,
+      "grid_exception": null
+    },
+    {
+      "id": "control_kernel_N5",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.147286375000022,
+      "grid_exception": null
+    },
+    {
+      "id": "control_grid_N6",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 33.249539333,
+      "grid_exception": null
+    },
+    {
+      "id": "control_window_N6",
+      "status": "complete",
+      "n": 32768,
+      "width": 192.0,
+      "wall_seconds": 33.441832333000036,
+      "grid_exception": null
+    },
+    {
+      "id": "control_step_N6",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 27.21660833300001,
+      "grid_exception": null
+    },
+    {
+      "id": "control_kernel_N6",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 15.44903870799999,
+      "grid_exception": null
+    },
+    {
+      "id": "control_fixed_h0.0004",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 1.329791666999995,
+      "grid_exception": null
+    },
+    {
+      "id": "control_fixed_h0.0002",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.6483522499999594,
+      "grid_exception": null
+    },
+    {
+      "id": "control_fixed_h0.0001",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 5.277128457999993,
+      "grid_exception": null
+    },
+    {
+      "id": "control_fixed_h5e-05",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 10.585727415999997,
+      "grid_exception": null
+    },
+    {
+      "id": "control_library_matched",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 5.758899417000009,
+      "grid_exception": null
+    },
+    {
+      "id": "refine7_reference_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.9634578329999997,
+      "grid_exception": null
+    },
+    {
+      "id": "refine7_reference_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.97661525,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.6989628750000003,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.984397417,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N4_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 4.0916278749999995,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N4_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 9.352204208999998,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N5_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.795086708,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N5_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 13.111536833999999,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N6_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 16.067827917000002,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_physical_N6_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 16.091137375000002,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.9468166249999967,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.042628499999992,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N4_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.293785249999999,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N4_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.588625958999998,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N5_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 18.934884291999992,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N5_1",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 41.652555750000005,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N6_0",
+      "status": "complete",
+      "n": 32768,
+      "width": 120.0,
+      "wall_seconds": 58.534576999999985,
+      "grid_exception": null
+    },
+    {
+      "id": "refine2_reference_N6_1",
+      "status": "complete",
+      "n": 32768,
+      "width": 120.0,
+      "wall_seconds": 59.934134083000004,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.752065333,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.766449833,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N4_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.9837500000000006,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N4_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 11.538060708000001,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N5_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.401845583,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N5_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 13.538407375000006,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N6_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 15.57968425,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_physical_N6_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 16.214934166999996,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.0501483750000062,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N3_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 7.476656750000004,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N4_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 12.3649195,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N4_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 13.179509959,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N5_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 19.055249875,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N5_1",
+      "status": "complete",
+      "n": 32768,
+      "width": 96.0,
+      "wall_seconds": 42.45863970799999,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N6_0",
+      "status": "complete",
+      "n": 32768,
+      "width": 120.0,
+      "wall_seconds": 56.68890349999998,
+      "grid_exception": null
+    },
+    {
+      "id": "refine1_reference_N6_1",
+      "status": "complete",
+      "n": 32768,
+      "width": 120.0,
+      "wall_seconds": 60.32588929199997,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_physical_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.729540625,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_physical_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.8541874579999997,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_physical_N6_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 15.636974541,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_physical_N6_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 15.590380249999999,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_reference_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.0609479590000035,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_reference_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.014253709000002,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_reference_N4_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 11.875556625000002,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_reference_N4_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 11.981592999999997,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_reference_N5_0",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 18.994572040999998,
+      "grid_exception": null
+    },
+    {
+      "id": "refine3_reference_N5_1",
+      "status": "complete",
+      "n": 16384,
+      "width": 96.0,
+      "wall_seconds": 19.094687292000003,
+      "grid_exception": null
+    },
+    {
+      "id": "window_reference_N6_r1.2",
+      "status": "complete",
+      "n": 32768,
+      "width": 120.0,
+      "wall_seconds": 54.990699375,
+      "grid_exception": null
+    },
+    {
+      "id": "window_reference_N6_r1.5",
+      "status": "complete",
+      "n": 32768,
+      "width": 120.0,
+      "wall_seconds": 54.633541125,
+      "grid_exception": null
+    },
+    {
+      "id": "window_reference_N6_r2",
+      "status": "complete",
+      "n": 32768,
+      "width": 120.0,
+      "wall_seconds": 57.63342187499998,
+      "grid_exception": null
+    },
+    {
+      "id": "control_reference_N6_doublewindow",
+      "status": "complete",
+      "n": 65536,
+      "width": 240.0,
+      "wall_seconds": 126.09116500000002,
+      "grid_exception": "Temporal window convergence after observed edge failure; fixed dt at doubled window."
+    },
+    {
+      "id": "refine6_reference_N3_0",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 2.999536333,
+      "grid_exception": null
+    },
+    {
+      "id": "refine6_reference_N3_1",
+      "status": "complete",
+      "n": 8192,
+      "width": 96.0,
+      "wall_seconds": 3.022595333,
+      "grid_exception": null
+    }
+  ],
+  "counts": {
+    "complete": 149,
+    "edge-terminated": 2
+  },
+  "rejected_checkpoints": [
+    {
+      "id": "reference_N3_r1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N3_r1",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r2",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r2",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.4",
+      "zN": 3.0,
+      "reasons": [
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.4",
+      "zN": 4.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine3_physical_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.55",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.55",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N6_r2",
+      "zN": 4.0,
+      "reasons": [
+        "edge",
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.85",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.85",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.4",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.4",
+      "zN": 4.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine2_physical_N4_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine1_physical_N4_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N6_r1.2",
+      "zN": 4.0,
+      "reasons": [
+        "edge"
+      ]
+    },
+    {
+      "id": "reference_N5_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "control_step_N3",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine3_physical_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "control_grid_N3",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N5_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N6_r1.5",
+      "zN": 4.0,
+      "reasons": [
+        "edge"
+      ]
+    },
+    {
+      "id": "control_grid_N4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "control_step_N4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N5_r0.55",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N4_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N4_r0.4",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N4_r1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N4_r0.55",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N5_r0.85",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N4_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine6_reference_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine1_reference_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N6_r0.55",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N4_r0.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine7_reference_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine4_reference_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine2_reference_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "control_window_N4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N4_r0.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine5_reference_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "control_library_matched",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine3_reference_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine3_reference_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N3_r1.5",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N4_r1.2",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.85",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.85",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine5_reference_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "control_kernel_N3",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine2_reference_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N4_r2.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine4_reference_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N4_r1.2",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r1.5",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine7_reference_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine1_reference_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine6_reference_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.55",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.55",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N3_r2.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N4_r0.55",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "control_kernel_N4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N4_r1.5",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N5_r0.85",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N3_r1.2",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N5_r0.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N5_r0.55",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r2.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r2.7",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine1_physical_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N5_r0.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N4_r0.85",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N3_r1.2",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine2_physical_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N4_r1.5",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N6_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "refine2_physical_N3_1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "refine1_physical_N3_0",
+      "zN": 2.0,
+      "reasons": [
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r0.7",
+      "zN": 3.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "physical_N6_r0.4",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    },
+    {
+      "id": "reference_N3_r2",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N3_r1",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "reference_N3_r0.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "control_window_N3",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary",
+        "gate/ZS disagreement"
+      ]
+    },
+    {
+      "id": "physical_N5_r2.7",
+      "zN": 2.0,
+      "reasons": [
+        "gate boundary"
+      ]
+    }
+  ]
+}

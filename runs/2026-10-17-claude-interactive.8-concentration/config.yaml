@@ -1,0 +1,20 @@
+# Run 2026-10-17-claude-interactive.8-concentration: verification of C-20261017-gpt-d-02 by claude-interactive.8.
+# Tolerances and launches frozen in ../2026-10-17-claude-interactive.8-sech-tightness/predictions.md at commit f784fed.
+check_bound.py: "(1) numerical bathtub on a log frequency grid (4,000,001 points, both signs, fractional last cell; no level-set shape assumed) vs F at r in {0.38125, 2}, tau2Q in {0.003, ..., 300}, plus band edges vs Om+ Om- = k, Om+ - Om- = pi Q; (2) 315 positive-intensity profiles at r in {0.38125, 0.2275, 2}: sech2, Gaussian, super-Gaussian 4/8, rectangle, triangle, Lorentzian^2, incoherent pair, coherent pairs with offsets 0.5, 1, w0, 2, chirped Gaussian pairs C = 2, 8, fission-like three-soliton field with pedestal, 20 random band-limited fields, resonant Gaussian trains, cosine-modulated envelopes; (3) optimizer: maximize rho at fixed Q (log-penalty mu = 200) over p = s^2, M = 4096, L-BFGS-B, 4 starts (sech, random, cosine-modulated, resonant train), tau2Q in {0.1, 0.3, 1, 3, 10}, r in {0.38125, 2}"
+optimizer_refine.py: "larger-window optimizer at r = 0.38125, tau2Q in {0.01, 0.03, 0.1, 0.3}: M = 8192, dt = min(0.25, 8/(Q M)), 5 starts, mu = 400"
+run_propagation.py:
+  model: "scalar photon-conserving shock GNLSE, constant Aeff, Blow-Wood oscillator with exact transfer function on the grid (default) or the sampled kernel; RK4IP fixed step; diagnostics at every step from the k1 evaluation"
+  material_A: "SMF-28 surrogate: lambda0 1550 nm, n2 2.6e-20 m^2/W, Aeff 80 um^2, beta2 -21.7 ps^2/km, beta3 0.127 ps^3/km, fR 0.18, tau1 12.2 fs, tau2 32 fs"
+  material_B: "fluoride surrogate, all values assumed (not sourced): lambda0 2.8 um, n2 2.1e-20 m^2/W, Aeff 50 um^2, beta2 -60 ps^2/km, beta3 0.3 ps^3/km, fR 0.2, tau1 9.1 fs, tau2 40 fs"
+  cases: "A1 N=1 30 fs 20 L_D; A2 N=1 300 fs 3 m; A3 N=3 100 fs 0.25 m; A4* N=4 200 fs 0.8 m; A5* N=6 100 fs 0.15 m; A6* N=5 300 fs 1.5 m; B1* N=4 150 fs 3 L_D (* = held out); post-freeze, added after the audit commit 6320014 and not held out: A7 N=3 30 fs 3 L_D, A8 N=6 30 fs 1 L_D (with half-step repeats). Grids and steps in the CASES table of run_propagation.py"
+  convergence: "A3: half step, half dt, double window, sampled kernel at dt = 1 fs, analytic and sampled kernel at dt = 3 fs; A5: half step, half dt; B1: 4x window (B1_widewin, used for B1 results), and that with half step"
+julia_crosscheck.jl: "agents' solver b9fa957, solve_mmgnlse, AgarwalRaman(0.18, 12.2 fs, 32 fs) sampled kernel, same A3 launch, grid and step (Nt 2^14, 16.384 ps, dz = L/4000), fields saved at 101 planes"
+julia_analysis.py: "E(z) of the Julia run vs the verifier's Python A3 (sampled and analytic kernels); verifier's rho and F(Q) diagnostics applied to the Julia fields"
+make_figure.py: "fig_summary.png: 60 planes per launch (rho vs tau2 Q) and the optimizer's best intensities against F"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore check_bound.py"
+  - "~/agent-work/venv/bin/python -W ignore run_propagation.py   # then: run_propagation.py B1_widewin B1_widewin_halfstep; post-freeze: A7_postfreeze A7_postfreeze_halfstep A8_postfreeze A8_postfreeze_halfstep"
+  - "JULIA_NUM_THREADS=1 julia --heap-size-hint=2G --project=solver runs/2026-10-17-claude-interactive.8-concentration/julia_crosscheck.jl"
+  - "~/agent-work/venv/bin/python julia_analysis.py"
+  - "~/agent-work/venv/bin/python -W ignore optimizer_refine.py"
+  - "~/agent-work/venv/bin/python -W ignore make_figure.py"

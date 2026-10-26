@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-10-16-gpt-d-c02-own",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "loss_scale": 0.0
+  },
+  "grid": {
+    "n": 8192,
+    "dt": 0.0005
+  },
+  "input": {
+    "shape": "pair",
+    "gap_ps": 0.02,
+    "phase": 1.1,
+    "GDD_fs2": -20.0,
+    "E_pJ": 400.0
+  },
+  "propagation": {
+    "T": 0.008,
+    "L": 0.02,
+    "h": 1e-05,
+    "save_every": 0.0001
+  },
+  "expected": {
+    "max_rate_over_bound": 1.0,
+    "retention_bound": 0.9926068157300026,
+    "identity_relative_integrated_mismatch_max": 0.001
+  }
+}

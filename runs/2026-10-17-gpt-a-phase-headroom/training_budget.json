@@ -1,0 +1,9 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "initially_planned_starts_per_N": 4,
+  "initial_search_limit_per_N": 3,
+  "deferred_starts": ["N3_T140_r3", "N4_T200_r2", "N5_T280_r3"],
+  "reason": "Measured serial run times require reserving the 240-minute session budget for stationary-point polishing, independent qualification, held-out cases and the final 15-minute closeout. No held-out outputs have been evaluated. The extra starts remain a follow-up under T-20261017-gpt-a-01."
+}

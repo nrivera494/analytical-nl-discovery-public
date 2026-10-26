@@ -1,0 +1,377 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-nextorder-detuning-response",
+  "cases": [
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "mu1",
+      "parameters": {
+        "delta": 0.0,
+        "delta3": 0.0,
+        "b2": 1.0,
+        "b3": 1.0,
+        "mu": -0.7,
+        "sigma": 1.0,
+        "sigma13": 0.75,
+        "kappa": 0.25,
+        "alpha2": 0.5
+      },
+      "nt": 4096,
+      "window_tau": 320.0,
+      "dzeta": 0.005,
+      "ablation": "none",
+      "nu": 1.0,
+      "C0_analytic": 1.0,
+      "elapsed_seconds": 4.587601900100708,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "B0": 1.0000000000000004,
+          "B1": 0.0,
+          "W0": 0.9999090196384219,
+          "W1": 0.0,
+          "LP03_coefficient": 0.0,
+          "minority_norm_correction": 0.0,
+          "pump_norm_first_correction": 0.0,
+          "boundary_fraction": 1.597423085137841e-125
+        },
+        {
+          "zeta": 5.0,
+          "B0": 0.9999999999999549,
+          "B1": -0.20146296406772213,
+          "W0": 0.9999090196383791,
+          "W1": -0.2011642014076116,
+          "LP03_coefficient": 0.20146296406704914,
+          "minority_norm_correction": -0.20146296406624242,
+          "pump_norm_first_correction": 5.510036871214652e-11,
+          "boundary_fraction": 1.6898583275204678e-29
+        },
+        {
+          "zeta": 11.0,
+          "B0": 0.9999999999999031,
+          "B1": -0.28817295717053987,
+          "W0": 0.9999090196383256,
+          "W1": -0.2904388510143132,
+          "LP03_coefficient": 0.2881729571702359,
+          "minority_norm_correction": -0.2881729571696534,
+          "pump_norm_first_correction": 3.289413186280399e-10,
+          "boundary_fraction": 4.365259260111567e-21
+        },
+        {
+          "zeta": 17.0,
+          "B0": 0.9999999999998519,
+          "B1": -0.21634004404944224,
+          "W0": 0.999909019638272,
+          "W1": -0.21237177138070623,
+          "LP03_coefficient": 0.21634004404738258,
+          "minority_norm_correction": -0.21634004404818885,
+          "pump_norm_first_correction": 7.97615307135402e-10,
+          "boundary_fraction": 3.797676472701226e-15
+        }
+      ]
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "mu2",
+      "parameters": {
+        "delta": 0.0,
+        "delta3": 0.0,
+        "b2": 1.0,
+        "b3": 1.0,
+        "mu": -7.0,
+        "sigma": 1.0,
+        "sigma13": 0.75,
+        "kappa": 0.25,
+        "alpha2": 0.5
+      },
+      "nt": 4096,
+      "window_tau": 320.0,
+      "dzeta": 0.005,
+      "ablation": "none",
+      "nu": 1.0,
+      "C0_analytic": 1.0,
+      "elapsed_seconds": 4.602051019668579,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "B0": 1.0000000000000004,
+          "B1": 0.0,
+          "W0": 0.9999090196384219,
+          "W1": 0.0,
+          "LP03_coefficient": 0.0,
+          "minority_norm_correction": 0.0,
+          "pump_norm_first_correction": 0.0,
+          "boundary_fraction": 1.597423085137841e-125
+        },
+        {
+          "zeta": 5.0,
+          "B0": 0.9999999999999549,
+          "B1": -0.0030551010228030417,
+          "W0": 0.9999090196383791,
+          "W1": -0.00256073441956469,
+          "LP03_coefficient": 0.003055101024563587,
+          "minority_norm_correction": -0.0030551010213580865,
+          "pump_norm_first_correction": 5.510036871214652e-11,
+          "boundary_fraction": 1.6494834685408604e-29
+        },
+        {
+          "zeta": 11.0,
+          "B0": 0.9999999999999031,
+          "B1": -0.004428221176387108,
+          "W0": 0.9999090196383256,
+          "W1": -0.005715028260345987,
+          "LP03_coefficient": 0.004428221182570728,
+          "minority_norm_correction": -0.004428221175563074,
+          "pump_norm_first_correction": 3.289413186280399e-10,
+          "boundary_fraction": 4.547358804288462e-21
+        },
+        {
+          "zeta": 17.0,
+          "B0": 0.9999999999998519,
+          "B1": -0.003885535938228543,
+          "W0": 0.999909019638272,
+          "W1": -0.0009183743454964211,
+          "LP03_coefficient": 0.0038855359477849164,
+          "minority_norm_correction": -0.0038855359369782683,
+          "pump_norm_first_correction": 7.97615307135402e-10,
+          "boundary_fraction": 3.9071509785703366e-15
+        }
+      ]
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "mu3",
+      "parameters": {
+        "delta": 0.0,
+        "delta3": 0.0,
+        "b2": 1.0,
+        "b3": 1.0,
+        "mu": -47.0,
+        "sigma": 1.0,
+        "sigma13": 0.75,
+        "kappa": 0.25,
+        "alpha2": 0.5
+      },
+      "nt": 4096,
+      "window_tau": 320.0,
+      "dzeta": 0.0025,
+      "ablation": "none",
+      "nu": 1.0,
+      "C0_analytic": 1.0,
+      "elapsed_seconds": 9.160974025726318,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "B0": 1.0000000000000004,
+          "B1": 0.0,
+          "W0": 0.9999090196384219,
+          "W1": 0.0,
+          "LP03_coefficient": 0.0,
+          "minority_norm_correction": 0.0,
+          "pump_norm_first_correction": 0.0,
+          "boundary_fraction": 1.597423085137841e-125
+        },
+        {
+          "zeta": 5.0,
+          "B0": 0.9999999999999314,
+          "B1": -0.00010271560502339154,
+          "W0": 0.9999090196383547,
+          "W1": 0.00036114390091823023,
+          "LP03_coefficient": 0.00010271589096410934,
+          "minority_norm_correction": -0.00010271560493657628,
+          "pump_norm_first_correction": 3.700373341075647e-12,
+          "boundary_fraction": 4.747209804864317e-28
+        },
+        {
+          "zeta": 11.0,
+          "B0": 0.99999999999985,
+          "B1": -0.000102652231259247,
+          "W0": 0.9999090196382732,
+          "W1": -0.0013702594845070547,
+          "LP03_coefficient": 0.00010265286045980042,
+          "minority_norm_correction": -0.0001026522312230771,
+          "pump_norm_first_correction": 2.1103119252074976e-11,
+          "boundary_fraction": 4.533578126011087e-21
+        },
+        {
+          "zeta": 17.0,
+          "B0": 0.9999999999997696,
+          "B1": -9.62485954617468e-05,
+          "W0": 0.9999090196381903,
+          "W1": 0.0028465630351722985,
+          "LP03_coefficient": 9.624956785056567e-05,
+          "minority_norm_correction": -9.624859539592023e-05,
+          "pump_norm_first_correction": 5.063061081500564e-11,
+          "boundary_fraction": 4.030363714548844e-15
+        }
+      ]
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "mu3_halfstep",
+      "parameters": {
+        "delta": 0.0,
+        "delta3": 0.0,
+        "b2": 1.0,
+        "b3": 1.0,
+        "mu": -47.0,
+        "sigma": 1.0,
+        "sigma13": 0.75,
+        "kappa": 0.25,
+        "alpha2": 0.5
+      },
+      "nt": 4096,
+      "window_tau": 320.0,
+      "dzeta": 0.00125,
+      "ablation": "none",
+      "nu": 1.0,
+      "C0_analytic": 1.0,
+      "elapsed_seconds": 17.438052654266357,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "B0": 1.0000000000000004,
+          "B1": 0.0,
+          "W0": 0.9999090196384219,
+          "W1": 0.0,
+          "LP03_coefficient": 0.0,
+          "minority_norm_correction": 0.0,
+          "pump_norm_first_correction": 0.0,
+          "boundary_fraction": 1.597423085137841e-125
+        },
+        {
+          "zeta": 5.0,
+          "B0": 1.000000000000068,
+          "B1": -0.00010271586894352497,
+          "W0": 0.999909019638491,
+          "W1": 0.0003611436348241714,
+          "LP03_coefficient": 0.00010271587783008806,
+          "minority_norm_correction": -0.00010271586893262352,
+          "pump_norm_first_correction": 1.8318679906315083e-13,
+          "boundary_fraction": 5.943623183613655e-28
+        },
+        {
+          "zeta": 11.0,
+          "B0": 1.000000000000154,
+          "B1": -0.0001026528277579835,
+          "W0": 0.999909019638576,
+          "W1": -0.001370260079642473,
+          "LP03_coefficient": 0.00010265284732232471,
+          "minority_norm_correction": -0.00010265282775701046,
+          "pump_norm_first_correction": 1.234568003383174e-12,
+          "boundary_fraction": 4.5335937105629756e-21
+        },
+        {
+          "zeta": 17.0,
+          "B0": 1.0000000000002398,
+          "B1": -9.624952528419069e-05,
+          "W0": 0.9999090196386602,
+          "W1": 0.0028465621039076225,
+          "LP03_coefficient": 9.624955552422386e-05,
+          "minority_norm_correction": -9.624952527209629e-05,
+          "pump_norm_first_correction": 2.8776980798284058e-12,
+          "boundary_fraction": 4.030363428855588e-15
+        }
+      ]
+    }
+  ],
+  "analytic_interval_checks": [
+    {
+      "label": "mu1",
+      "mu": -0.7,
+      "zeta": 5.0,
+      "K": 0.20146296406704914,
+      "lower": 0.19451815253585752,
+      "upper": 0.235906385035569,
+      "inside": true
+    },
+    {
+      "label": "mu1",
+      "mu": -0.7,
+      "zeta": 11.0,
+      "K": 0.2881729571702359,
+      "lower": 0.2788569314074489,
+      "upper": 0.32024516390716035,
+      "inside": true
+    },
+    {
+      "label": "mu1",
+      "mu": -0.7,
+      "zeta": 17.0,
+      "K": 0.21634004404738258,
+      "lower": 0.20729753058116457,
+      "upper": 0.24868576308087603,
+      "inside": true
+    },
+    {
+      "label": "mu2",
+      "mu": -7.0,
+      "zeta": 5.0,
+      "K": 0.003055101024563587,
+      "lower": 0.00265593431460211,
+      "upper": 0.003715473066594723,
+      "inside": true
+    },
+    {
+      "label": "mu2",
+      "mu": -7.0,
+      "zeta": 11.0,
+      "K": 0.004428221182570728,
+      "lower": 0.003981534955455436,
+      "upper": 0.00504107370744805,
+      "inside": true
+    },
+    {
+      "label": "mu2",
+      "mu": -7.0,
+      "zeta": 17.0,
+      "K": 0.0038855359477849164,
+      "lower": 0.003457203753302442,
+      "upper": 0.004516742505295055,
+      "inside": true
+    },
+    {
+      "label": "mu3",
+      "mu": -47.0,
+      "zeta": 5.0,
+      "K": 0.00010271589096410934,
+      "lower": 9.227958720502091e-05,
+      "upper": 0.00011869468074500296,
+      "inside": true
+    },
+    {
+      "label": "mu3",
+      "mu": -47.0,
+      "zeta": 11.0,
+      "K": 0.00010265286045980042,
+      "lower": 8.918321031511862e-05,
+      "upper": 0.00011559830385510067,
+      "inside": true
+    },
+    {
+      "label": "mu3",
+      "mu": -47.0,
+      "zeta": 17.0,
+      "K": 9.624956785056567e-05,
+      "lower": 8.393206948040641e-05,
+      "upper": 0.00011034716302038845,
+      "inside": true
+    }
+  ],
+  "halfstep_K_differences": [
+    0.0,
+    -1.3134021282124216e-11,
+    -1.313747571287608e-11,
+    -1.2326341810860002e-11
+  ]
+}

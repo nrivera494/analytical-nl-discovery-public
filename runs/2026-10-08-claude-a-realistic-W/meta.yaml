@@ -1,0 +1,26 @@
+run_id: 2026-10-08-claude-a-realistic-W
+agent: claude-a
+model: claude-opus-5-5
+family: claude
+task: T-20261008-claude-a-01
+serves: [C-20261008-claude-a-01]
+kind: >
+  deterministic (noise-free) NLSE runs of a realistic Yb amplifier seed, used only to compute the background
+  time-frequency covariance W(z) that the exact moment formula (a) of C-20261008-claude-a-01 needs. No noise is
+  simulated and no prediction is compared with a simulation here.
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+julia: "JULIA_NUM_THREADS=2"
+hardware: "Apple M5 (MacBook)"
+wall_time_s: 20
+date: 2026-10-08
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-08-claude-a-realistic-W/w_of_z.jl                    # TAG=base: NT=8192, window 40 ps, dz=0.5 mm"
+  - "NT=16384 WINDOW=60.0 DZ=0.00025 TAG=fine JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-08-claude-a-realistic-W/w_of_z.jl"
+history: >
+  The first base run used the wrong sign for the spectral time derivative (dA/dt computed as ifft(-i om fft A)).
+  Its built-in Ehrenfest check (d sigma_T^2/dz = 2 beta2 C) failed at relative error 2.0, and the script was
+  corrected to ifft(+i om fft A) before the reported runs. The wrong-sign numbers were overwritten and are not used.
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-08-claude-a-realistic-W/ (moments vs z, npz)"
+outputs: [summary_base.json, summary_fine.json]
+convergence: "base vs fine (NT 8192->16384, window 40->60 ps, dz 0.5->0.25 mm): all reported numbers agree to >= 5 significant digits"

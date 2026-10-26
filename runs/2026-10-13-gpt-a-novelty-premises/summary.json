@@ -1,0 +1,158 @@
+{
+  "run_id": "2026-10-13-gpt-a-novelty-premises",
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "scope": "Dimensionless algebra and quadrature checks only. No NLSE propagation, no simulated conversion yields, no physical counterexample to a quantum Raman bound.",
+  "gaussian": [
+    {
+      "chirp": 0.0,
+      "energy": 1.7724538509055159,
+      "temporal_variance": 0.5,
+      "spectral_second_moment": 0.5,
+      "H_over_E": 1.6642135623730951,
+      "analytic_H_over_E": 1.664213562373095
+    },
+    {
+      "chirp": 1.0,
+      "energy": 1.7724538509055159,
+      "temporal_variance": 0.5,
+      "spectral_second_moment": 1.0,
+      "H_over_E": 1.9142135623730951,
+      "analytic_H_over_E": 1.914213562373095
+    },
+    {
+      "chirp": 3.0,
+      "energy": 1.7724538509055159,
+      "temporal_variance": 0.5,
+      "spectral_second_moment": 5.000000000000001,
+      "H_over_E": 3.914213562373096,
+      "analytic_H_over_E": 3.914213562373095
+    },
+    {
+      "chirp": 8.0,
+      "energy": 1.7724538509055159,
+      "temporal_variance": 0.5,
+      "spectral_second_moment": 32.5,
+      "H_over_E": 17.664213562373096,
+      "analytic_H_over_E": 17.664213562373096
+    }
+  ],
+  "recoil": [
+    {
+      "redshift": 0.0,
+      "corrected_relative_detuning": 10.0,
+      "proposed_relative_detuning": 10.0,
+      "corrected_phase_mismatch": 0.0,
+      "proposed_phase_mismatch": 0.0,
+      "corrected_lab_detuning": 10.0
+    },
+    {
+      "redshift": 0.5,
+      "corrected_relative_detuning": 11.5,
+      "proposed_relative_detuning": 12.0,
+      "corrected_phase_mismatch": -2.6645352591003757e-15,
+      "proposed_phase_mismatch": 3.600000000000003,
+      "corrected_lab_detuning": 11.0
+    },
+    {
+      "redshift": 2.0,
+      "corrected_relative_detuning": 16.0,
+      "proposed_relative_detuning": 18.0,
+      "corrected_phase_mismatch": -1.4210854715202004e-14,
+      "proposed_phase_mismatch": 32.399999999999984,
+      "corrected_lab_detuning": 14.0
+    }
+  ],
+  "blue_budget": {
+    "centroid": -0.19999999999999996,
+    "edge_expression": -0.4,
+    "exact_conditional_mean_identity": 0.2,
+    "corrected_edge_upper_bound": 0.26666666666666666,
+    "eta": 0.2
+  },
+  "selective_loss": {
+    "survival_fraction": 0.55,
+    "blue_fraction_of_launch": 0.5,
+    "blue_fraction_of_survivors": 0.9090909090909091,
+    "input_centroid": 0.0,
+    "output_centroid": 0.8181818181818181
+  },
+  "toy_covariance": [
+    {
+      "k": 0.1,
+      "v0": 1.0508331944775051,
+      "shift": 0.9999999999999419,
+      "variance": 9.048374180325674e-05,
+      "final_ratio": 0.90483741803262,
+      "predicted_ratio": 0.9048374180359595,
+      "local_ratio": 1.0
+    },
+    {
+      "k": 1.0,
+      "v0": 1.5819767068693265,
+      "shift": 0.9999999999992346,
+      "variance": 3.6787944115348636e-05,
+      "final_ratio": 0.3678794411537679,
+      "predicted_ratio": 0.36787944117144233,
+      "local_ratio": 1.0
+    },
+    {
+      "k": 4.0,
+      "v0": 4.074629441455096,
+      "shift": 0.9999999999974217,
+      "variance": 1.8315638888044865e-06,
+      "final_ratio": 0.018315638888092088,
+      "predicted_ratio": 0.01831563888873418,
+      "local_ratio": 1.0
+    },
+    {
+      "k": 8.0,
+      "v0": 8.00268460160673,
+      "shift": 0.9999999999972363,
+      "variance": 3.354626305963308e-08,
+      "final_ratio": 0.0003354626305972579,
+      "predicted_ratio": 0.00033546262790251185,
+      "local_ratio": 1.0
+    }
+  ],
+  "raman_generator": [
+    {
+      "points": 256,
+      "self_steepening": false,
+      "photon_number": 0.02695756534751775,
+      "energy_rate": -1.0899589056276974e-16,
+      "analytic_energy_rate": 0.0,
+      "photon_number_rate": 1.4157870887942125e-05,
+      "positive_raman_integral": 7.077808110619953
+    },
+    {
+      "points": 256,
+      "self_steepening": true,
+      "photon_number": 0.02695756534751775,
+      "energy_rate": -0.004246684866371731,
+      "analytic_energy_rate": -0.004246684866371971,
+      "photon_number_rate": 2.2139790270562606e-18,
+      "positive_raman_integral": 7.077808110619953
+    },
+    {
+      "points": 512,
+      "self_steepening": false,
+      "photon_number": 0.02695756534751775,
+      "energy_rate": 6.539753433766185e-17,
+      "analytic_energy_rate": 0.0,
+      "photon_number_rate": 1.4157870887937527e-05,
+      "positive_raman_integral": 7.077808110619955
+    },
+    {
+      "points": 512,
+      "self_steepening": true,
+      "photon_number": 0.02695756534751775,
+      "energy_rate": -0.004246684866372036,
+      "analytic_energy_rate": -0.004246684866371973,
+      "photon_number_rate": -6.812243160173109e-19,
+      "positive_raman_integral": 7.077808110619955
+    }
+  ],
+  "passed": true
+}

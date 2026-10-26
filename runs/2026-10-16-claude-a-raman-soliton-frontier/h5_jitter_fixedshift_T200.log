@@ -1,0 +1,1 @@
+FIXEDSHIFT N=4 T0=200 fs: lead L=1.942 m shift=-135.805 rad/ps var_vac=3.2242e-33 var_ram=1.0377e-33 | isolated T1=23.82 fs reaches the shift at L_b=3.336 m: var_vac=2.3964e-32 var_ram=1.8041e-33 | ratios vac 0.135 ram 0.575 total 0.165

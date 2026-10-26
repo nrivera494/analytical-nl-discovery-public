@@ -1,0 +1,28 @@
+{
+ "rows": [
+  {
+   "T0_fs": 1000.0,
+   "T_K": 0.0,
+   "chi": 0.39269908169872414,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_gen_insensitive": 0.01700976421047025,
+   "binary_insensitive": 0.6615271038678997,
+   "sigma_plus_peak_in": 0.8535533905932738,
+   "sigma_plus_peak_out": 0.8562032371430971,
+   "wall_s": 83.5
+  },
+  {
+   "T0_fs": 1000.0,
+   "T_K": 300.0,
+   "chi": 0.39269908169872414,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_gen_insensitive": 0.05803946718990183,
+   "binary_insensitive": 0.6834574959541625,
+   "sigma_plus_peak_in": 0.8535533905932738,
+   "sigma_plus_peak_out": 0.8562032371430971,
+   "wall_s": 80.4
+  }
+ ]
+}

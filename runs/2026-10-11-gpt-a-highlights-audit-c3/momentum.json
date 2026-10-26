@@ -1,0 +1,117 @@
+{
+  "provenance": {
+    "agent": "gpt-a",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "rows": [
+    {
+      "shape": "gaussian",
+      "Phi": 1.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.5650354826521339,
+      "bandwidth_ratio": 0.5650354826521339,
+      "formula": 0.5650354826521339,
+      "relative_error": 0.0,
+      "wall_seconds": 0.0009157657623291016
+    },
+    {
+      "shape": "gaussian",
+      "Phi": 5.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.04939489043123063,
+      "bandwidth_ratio": 0.04939489043123064,
+      "formula": 0.049394890431230645,
+      "relative_error": -3.3306690738754696e-16,
+      "wall_seconds": 0.00015687942504882812
+    },
+    {
+      "shape": "gaussian",
+      "Phi": 10.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.012823795072184984,
+      "bandwidth_ratio": 0.012823795072185012,
+      "formula": 0.01282379507218501,
+      "relative_error": -1.9984014443252818e-15,
+      "wall_seconds": 0.00014519691467285156
+    },
+    {
+      "shape": "quartic",
+      "Phi": 1.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.630945962374218,
+      "bandwidth_ratio": 0.630945962374218,
+      "formula": 0.6309459623742181,
+      "relative_error": -2.220446049250313e-16,
+      "wall_seconds": 0.00015282630920410156
+    },
+    {
+      "shape": "quartic",
+      "Phi": 5.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.06400801036854158,
+      "bandwidth_ratio": 0.06400801036854156,
+      "formula": 0.06400801036854156,
+      "relative_error": 2.220446049250313e-16,
+      "wall_seconds": 0.0001552104949951172
+    },
+    {
+      "shape": "quartic",
+      "Phi": 10.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.01680893232819587,
+      "bandwidth_ratio": 0.016808932328195848,
+      "formula": 0.016808932328195848,
+      "relative_error": 1.3322676295501878e-15,
+      "wall_seconds": 0.00014495849609375
+    },
+    {
+      "shape": "sech",
+      "Phi": 1.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.5223880597014735,
+      "bandwidth_ratio": 0.5223880597014736,
+      "formula": 0.5223880597014737,
+      "relative_error": -4.440892098500626e-16,
+      "wall_seconds": 0.000141143798828125
+    },
+    {
+      "shape": "sech",
+      "Phi": 5.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.041916167664667645,
+      "bandwidth_ratio": 0.04191616766466764,
+      "formula": 0.041916167664667645,
+      "relative_error": 0.0,
+      "wall_seconds": 0.0001399517059326172
+    },
+    {
+      "shape": "sech",
+      "Phi": 10.0,
+      "nt": 2048,
+      "window": 32.0,
+      "physical_weight": "omega, signed post-detection weighting",
+      "F_momentum": 0.010819165378669967,
+      "bandwidth_ratio": 0.010819165378669981,
+      "formula": 0.010819165378669985,
+      "relative_error": -1.5543122344752192e-15,
+      "wall_seconds": 0.00015115737915039062
+    }
+  ]
+}

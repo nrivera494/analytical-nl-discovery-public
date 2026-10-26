@@ -1,0 +1,17 @@
+agent: gpt-c
+model: gpt-6-astra
+family: gpt
+equation: scalar deterministic GNLSE with exact Fourier-domain Raman convolution
+solver: independent Float64 adaptive RK4IP; two half steps accepted
+launches: [sech, gaussian]
+responses: [bw, hc, as2s3, bw_damped]
+seed: 20261017
+production_max_grid: 32768
+production_max_dt_fs: 2.7
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-c-raman-sharpening
+memory: serial propagation; one heavy process; free memory >=35%; target RSS below 3 GB
+reference_checkpoint_policy: latest uncontaminated bracket with complete prior qualified checkpoints and <=0.5% share change; finite output distance, not an infinite-length limit
+physical_model: Boilard SMF-28 Table 3 dispersion, HC Raman, shock, gamma0=1.3/W/km, loss=0.2 dB/km
+predictions: predictions.md
+zs_compile_command: cc -O3 -shared -fPIC zs_shoot.c -o /tmp/gpt-c-zs-shoot.so -lm
+analysis_order: [analyze.py, accuracy.py, report_data.py, final_position.py, tables.py, plot_summary.py, inventory.py]

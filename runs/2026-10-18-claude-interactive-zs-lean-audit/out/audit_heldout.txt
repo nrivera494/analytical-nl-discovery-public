@@ -1,0 +1,67 @@
+'audit_sech_nine_halves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'audit_sech_fifteen_halves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'audit_order_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+def ZS.SolvesZS : (ℝ → ℂ) → ℂ → (ℝ → ℂ) → (ℝ → ℂ) → Prop :=
+fun q ζ v₁ v₂ =>
+  (∀ (t : ℝ), HasDerivAt v₁ (-Complex.I * ζ * v₁ t + q t * v₂ t) t) ∧
+    ∀ (t : ℝ), HasDerivAt v₂ (-star (q t) * v₁ t + Complex.I * ζ * v₂ t) t
+def ZS.IsEigenvalue : (ℝ → ℂ) → ℂ → Prop :=
+fun q ζ =>
+  0 < ζ.im ∧
+    ∃ v₁ v₂,
+      SolvesZS q ζ v₁ v₂ ∧
+        MeasureTheory.MemLp v₁ 2 MeasureTheory.volume ∧
+          MeasureTheory.MemLp v₂ 2 MeasureTheory.volume ∧ ∃ t, v₁ t ≠ 0 ∨ v₂ t ≠ 0
+def ZS.PositiveSpectrum : SchwartzMap ℝ ℂ → Prop :=
+fun g => ∀ (x : ℝ), g x = ↑‖g x‖
+def ZS.IsSechSource : ℝ → SchwartzMap ℝ ℂ → Prop :=
+fun N g => PositiveSpectrum g ∧ ∀ (t : ℝ), (FourierTransformInv.fourierInv g) t = ↑(N * sech t)
+def ZS.attainableHeights : SchwartzMap ℝ ℂ → Set ℝ :=
+fun g =>
+  {η |
+    ∃ f m ζ,
+      (∀ (ξ : ℝ), ‖m ξ‖ ≤ 1) ∧
+        (∀ (ξ : ℝ), f ξ = m ξ * g ξ) ∧ IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ ∧ ζ.im = η}
+def ZS.sourceEnergy : SchwartzMap ℝ ℂ → ℝ :=
+fun g => ∫ (t : ℝ), ‖(FourierTransformInv.fourierInv g) t‖ ^ 2
+def ZS.attainableFractions : SchwartzMap ℝ ℂ → Set ℝ :=
+fun g => {y | ∃ η ∈ attainableHeights g, y = 4 * η / sourceEnergy g}
+eigenvalue_even_moment_bound : ∀ (k : ℕ) {q : ℝ → ℂ} {ζ : ℂ},
+  Continuous q →
+    ∀ {Q : ℝ},
+      (∀ (t : ℝ), ‖q t‖ ≤ Q) →
+        Filter.Tendsto (fun t => ‖q t‖) Filter.atBot (nhds 0) →
+          Filter.Tendsto (fun t => ‖q t‖) Filter.atTop (nhds 0) →
+            MeasureTheory.Integrable (fun t => ‖q t‖ ^ (2 * k + 2)) MeasureTheory.volume →
+              IsEigenvalue q ζ →
+                (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) * ∫ (s : ℝ) in -1..1, (1 - s ^ 2) ^ k ≤
+                  2 * (2 * ↑k + 1) ^ (2 * k + 1) * ∫ (t : ℝ), ‖q t‖ ^ (2 * k + 2)
+schwartz_eigenvalue_even_moment_bound : ∀ (k : ℕ) (q : SchwartzMap ℝ ℂ) {ζ : ℂ},
+  IsEigenvalue (⇑q) ζ →
+    (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) * ∫ (s : ℝ) in -1..1, (1 - s ^ 2) ^ k ≤
+      2 * (2 * ↑k + 1) ^ (2 * k + 1) * ∫ (t : ℝ), ‖q t‖ ^ (2 * k + 2)
+passive_source_eigenvalue_bound : ∀ (k : ℕ) {f g : SchwartzMap ℝ ℂ} (m : ℝ → ℂ),
+  PositiveSpectrum g →
+    (∀ (ξ : ℝ), ‖m ξ‖ ≤ 1) →
+      (∀ (ξ : ℝ), f ξ = m ξ * g ξ) →
+        ∀ {ζ : ℂ},
+          IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ →
+            (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) * ∫ (s : ℝ) in -1..1, (1 - s ^ 2) ^ k ≤
+              2 * (2 * ↑k + 1) ^ (2 * k + 1) * ∫ (t : ℝ), ‖(FourierTransformInv.fourierInv g) t‖ ^ (2 * k + 2)
+canonical_integer_sech_optimality : ∀ (k : ℕ), IsGreatest (attainableHeights (sechSource (↑k + 1))) (↑k + 1 - 1 / 2)
+canonical_integer_sech_fraction_optimality : ∀ (k : ℕ),
+  IsGreatest (attainableFractions (sechSource (↑k + 1))) ((2 * (↑k + 1) - 1) / (↑k + 1) ^ 2)
+rational_sech_height_enclosure : ∀ (k : ℕ) {N U : ℝ},
+  1 / 2 < N →
+    0 ≤ U →
+      2 * (2 * ↑k + 1) ^ (2 * k + 1) * N ^ (2 * k + 2) ≤ (2 * ↑k + 2) ^ (2 * k + 2) * U ^ (2 * k + 1) →
+        N - 1 / 2 ∈ attainableHeights (sechSource N) ∧ ∀ η ∈ attainableHeights (sechSource N), η ≤ U
+canonical_gaussian_ceiling : ∀ (k : ℕ) {N : ℝ},
+  0 ≤ N →
+    ∀ {f : SchwartzMap ℝ ℂ} (m : ℝ → ℂ),
+      (∀ (ξ : ℝ), ‖m ξ‖ ≤ 1) →
+        (∀ (ξ : ℝ), f ξ = m ξ * (gaussianSource N) ξ) →
+          ∀ {ζ : ℂ},
+            IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ →
+              (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) * ∫ (s : ℝ) in -1..1, (1 - s ^ 2) ^ k ≤
+                2 * (2 * ↑k + 1) ^ (2 * k + 1) * N ^ (2 * k + 2) * √(Real.pi / (↑k + 1))

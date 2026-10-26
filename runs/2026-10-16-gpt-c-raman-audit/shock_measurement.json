@@ -1,0 +1,255 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "N": 3,
+      "T0_fs": 100,
+      "zN": 3,
+      "case": "shock_bw_N3_T100",
+      "carrier_ratio": 0.9334867768301695,
+      "unscaled_zs_fraction": 0.6769256239612035,
+      "local_zs_energy_fraction": 0.6797278439211084,
+      "gate_energy_fraction": 0.6898399290932441,
+      "gate_photon_fraction": 0.7395387819197061,
+      "reference_zs_fraction": 0.7267680815854338,
+      "reference_gate_fraction": 0.7359596847285074,
+      "unscaled_photon_relative_to_reference": -0.0022150753629396336,
+      "local_zs_photon_relative_to_reference": 0.0019153825966049531,
+      "gate_photon_relative_to_reference": 0.004863170178294629,
+      "ideal_sech_unscaled_to_energy_ratio": 0.9988556119096413,
+      "unscaled_zs": {
+        "real": -0.020200947237996467,
+        "eta": 3.0461653078254156,
+        "residual": 6.005482736025638e-14,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": -0.021167555230241084,
+        "eta": 2.855326293646362,
+        "residual": 7.143649396998277e-13,
+        "success": true,
+        "points": 8192
+      }
+    },
+    {
+      "N": 3,
+      "T0_fs": 100,
+      "zN": 4,
+      "case": "shock_bw_N3_T100",
+      "carrier_ratio": 0.9103751258701177,
+      "unscaled_zs_fraction": 0.6632780850234489,
+      "local_zs_energy_fraction": 0.6669862914080477,
+      "gate_energy_fraction": 0.6711989356337746,
+      "gate_photon_fraction": 0.7377810476755984,
+      "reference_zs_fraction": 0.7275530933275538,
+      "reference_gate_fraction": 0.7323005753534644,
+      "unscaled_photon_relative_to_reference": 0.001406886690727971,
+      "local_zs_photon_relative_to_reference": 0.007005478736289872,
+      "gate_photon_relative_to_reference": 0.007483910987627906,
+      "ideal_sech_unscaled_to_energy_ratio": 0.9978964752077978,
+      "unscaled_zs": {
+        "real": 0.00512401263035569,
+        "eta": 2.98475138260552,
+        "residual": 9.319967798015517e-15,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": 0.0004211156539983509,
+        "eta": 2.7324347804740996,
+        "residual": 1.0192942617139244e-13,
+        "success": true,
+        "points": 8192
+      }
+    },
+    {
+      "N": 3,
+      "T0_fs": 140,
+      "zN": 3,
+      "case": "shock_bw_N3_T140",
+      "carrier_ratio": 0.952160888943917,
+      "unscaled_zs_fraction": 0.6921736558631877,
+      "local_zs_energy_fraction": 0.6930553870098609,
+      "gate_energy_fraction": 0.7003088707871821,
+      "gate_photon_fraction": 0.7358335197209805,
+      "reference_zs_fraction": 0.7292381330395935,
+      "reference_gate_fraction": 0.7353068015032692,
+      "unscaled_photon_relative_to_reference": -0.0031372748297576747,
+      "local_zs_photon_relative_to_reference": -0.0018674129875815293,
+      "gate_photon_relative_to_reference": 0.0007163244194592355,
+      "ideal_sech_unscaled_to_energy_ratio": 0.9994137460049153,
+      "unscaled_zs": {
+        "real": -0.016209350747238904,
+        "eta": 3.114781451384345,
+        "residual": 3.58400219537934e-14,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": -0.018359608265696447,
+        "eta": 2.969551050222058,
+        "residual": 5.335784953565986e-15,
+        "success": true,
+        "points": 8192
+      }
+    },
+    {
+      "N": 3,
+      "T0_fs": 140,
+      "zN": 4,
+      "case": "shock_bw_N3_T140",
+      "carrier_ratio": 0.9347692307570958,
+      "unscaled_zs_fraction": 0.6814831777151272,
+      "local_zs_energy_fraction": 0.6834791948167663,
+      "gate_energy_fraction": 0.6857284340938667,
+      "gate_photon_fraction": 0.7338719885693831,
+      "reference_zs_fraction": 0.7294884530822452,
+      "reference_gate_fraction": 0.7324643635979095,
+      "unscaled_photon_relative_to_reference": -0.0006161905679192836,
+      "local_zs_photon_relative_to_reference": 0.002310935500571265,
+      "gate_photon_relative_to_reference": 0.0019217658106385205,
+      "ideal_sech_unscaled_to_energy_ratio": 0.9989000592272033,
+      "unscaled_zs": {
+        "real": 0.0011132761152362635,
+        "eta": 3.0666742997180725,
+        "residual": 6.6288832274205605e-15,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": -0.0005851806424136125,
+        "eta": 2.8750289452980655,
+        "residual": 1.2413882881933432e-15,
+        "success": true,
+        "points": 8192
+      }
+    },
+    {
+      "N": 4,
+      "T0_fs": 200,
+      "zN": 3,
+      "case": "shock_bw_N4_T200",
+      "carrier_ratio": 0.9146056946108709,
+      "unscaled_zs_fraction": 0.5892718357203507,
+      "local_zs_energy_fraction": 0.5924057895828613,
+      "gate_energy_fraction": 0.5945547058586245,
+      "gate_photon_fraction": 0.6503616840912835,
+      "reference_zs_fraction": 0.644185007696,
+      "reference_gate_fraction": 0.6471006368775267,
+      "unscaled_photon_relative_to_reference": 0.00016388891812946227,
+      "local_zs_photon_relative_to_reference": 0.005483110528283097,
+      "gate_photon_relative_to_reference": 0.0050394745854251966,
+      "ideal_sech_unscaled_to_energy_ratio": 0.998094694483951,
+      "unscaled_zs": {
+        "real": -0.003509921898725289,
+        "eta": 4.7141746857628055,
+        "residual": 4.595969711782359e-16,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": -0.00292721655830078,
+        "eta": 4.334541669383475,
+        "residual": 1.0085548618660547e-15,
+        "success": true,
+        "points": 8192
+      }
+    },
+    {
+      "N": 4,
+      "T0_fs": 200,
+      "zN": 4,
+      "case": "shock_bw_N4_T200",
+      "carrier_ratio": 0.8881989940451414,
+      "unscaled_zs_fraction": 0.5718516244758871,
+      "local_zs_energy_fraction": 0.575593102766746,
+      "gate_energy_fraction": 0.5768218947682494,
+      "gate_photon_fraction": 0.6497011907684915,
+      "reference_zs_fraction": 0.6441547405486248,
+      "reference_gate_fraction": 0.6467127213158482,
+      "unscaled_photon_relative_to_reference": -0.0004998239803269966,
+      "local_zs_photon_relative_to_reference": 0.006039648935771913,
+      "gate_photon_relative_to_reference": 0.004621015412473728,
+      "ideal_sech_unscaled_to_energy_ratio": 0.9966872030979554,
+      "unscaled_zs": {
+        "real": 0.0033420519443806153,
+        "eta": 4.574812995807097,
+        "residual": 2.484222479678537e-15,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": 0.0017127670119130342,
+        "eta": 4.089929718853964,
+        "residual": 6.814204771741614e-14,
+        "success": true,
+        "points": 8192
+      }
+    },
+    {
+      "N": 6,
+      "T0_fs": 400,
+      "zN": 3,
+      "case": "shock_bw_N6_T400",
+      "carrier_ratio": 0.8629000067350661,
+      "unscaled_zs_fraction": 0.45574964953795694,
+      "local_zs_energy_fraction": 0.4591276864084275,
+      "gate_energy_fraction": 0.4598496279561703,
+      "gate_photon_fraction": 0.5331027793700461,
+      "reference_zs_fraction": 0.5282378486210941,
+      "reference_gate_fraction": 0.5299880588000131,
+      "unscaled_photon_relative_to_reference": -0.00014653616803050884,
+      "local_zs_photon_relative_to_reference": 0.0072644226101414855,
+      "gate_photon_relative_to_reference": 0.005876963675531366,
+      "ideal_sech_unscaled_to_energy_ratio": 0.9949482182123499,
+      "unscaled_zs": {
+        "real": 0.005600092087850255,
+        "eta": 8.203493691683224,
+        "residual": 1.840730439570244e-15,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": 0.0007468296261183403,
+        "eta": 7.131263106493574,
+        "residual": 1.584945224318941e-14,
+        "success": true,
+        "points": 8192
+      }
+    },
+    {
+      "N": 6,
+      "T0_fs": 400,
+      "zN": 4,
+      "case": "shock_bw_N6_T400",
+      "carrier_ratio": 0.8298317220039353,
+      "unscaled_zs_fraction": 0.4372864876550346,
+      "local_zs_energy_fraction": 0.44169022966413307,
+      "gate_energy_fraction": 0.44223291766459094,
+      "gate_photon_fraction": 0.5330992190447903,
+      "reference_zs_fraction": 0.528158709421507,
+      "reference_gate_fraction": 0.5299018433813442,
+      "unscaled_photon_relative_to_reference": -0.0022733348397402375,
+      "local_zs_photon_relative_to_reference": 0.007774382052966544,
+      "gate_photon_relative_to_reference": 0.006033901756301585,
+      "ideal_sech_unscaled_to_energy_ratio": 0.9920702753646775,
+      "unscaled_zs": {
+        "real": 0.006958251345562274,
+        "eta": 7.871156777790622,
+        "residual": 1.4420926430058125e-15,
+        "success": true,
+        "points": 8192
+      },
+      "scaled_zs": {
+        "real": 0.0006585306844473986,
+        "eta": 6.597514149741022,
+        "residual": 1.0794608675644e-15,
+        "success": true,
+        "points": 8192
+      }
+    }
+  ]
+}

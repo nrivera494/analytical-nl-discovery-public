@@ -1,0 +1,16 @@
+{
+ "planes": 101,
+ "julia_E0_J": 5.226256670798152e-09,
+ "python_E0_J": 5.226256670795538e-09,
+ "julia_retention": 0.932705207375699,
+ "python_sampled_retention": 0.9327052073757022,
+ "python_analytic_retention": 0.9327058275078072,
+ "max_abs_diff_Ez_julia_vs_python_sampled": 3.219646771412954e-15,
+ "max_abs_diff_Ez_julia_vs_python_analytic": 3.2942046789274926e-06,
+ "julia_max_rho_over_F": 0.4087142240171567,
+ "python_max_rho_over_F_on_same_planes": 0.4086949072095154,
+ "julia_violations": 0,
+ "julia_max_tau2Q": 0.7407521558655045,
+ "julia_retention_energy_only_bound": 0.5048035844716277,
+ "julia_retention_Qmax_bound": 0.6503606118958422
+}

@@ -1,0 +1,29 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "case": {
+    "id": "edge_N4_T12800",
+    "N": 4,
+    "T0_fs": 12800,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "tol": 1e-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "checkpoints": [],
+  "complete": false,
+  "implementation_sha256": "7460ba8b8bd4cbd102170b3af82435f6c85fc89d5d1126c0ae59a44013f30b47",
+  "intentionally_interrupted": true,
+  "stop_reason": "Stopped only this agent process after saving the N=2 boundary continuation, to reserve time for higher-priority physical and accuracy controls and final audit closure.",
+  "stopped_local": "2026-10-16T18:31:35.003246"
+}

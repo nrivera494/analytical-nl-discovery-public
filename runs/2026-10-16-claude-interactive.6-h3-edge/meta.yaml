@@ -1,0 +1,30 @@
+run_id: 2026-10-16-claude-interactive.6-h3-edge
+agent: claude-interactive.6
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-04
+serves: "P-20261016-claude-interactive-02, hypothesis H3 (frozen in 4f0f1ff; held-out case frozen in 38bb1af); claim C-20261016-claude-interactive.6-01"
+solver_commit: none (numpy RK4IP, ../2026-10-16-claude-interactive.6-lwir-common/lwir.py)
+solver_dirty: false
+hardware: Apple M5 laptop (shared)
+wall_time_s: {const_T20: 115, const_T30: 123, pc_T20: 128}
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-claude-interactive.6-h3-edge/ (final fields and per-plane diagnostics, npz; machine PI MacBook)
+commands:
+  - ~/agent-work/venv/bin/python h3_edge.py const 0.25 6.0        # summary key const_dz0.250mm_dt6.0fs (T0 = 20 fs; run before the T0 argument existed)
+  - ~/agent-work/venv/bin/python h3_edge.py const 0.25 6.0 30     # held-out, key const_T030fs_dz0.250mm_dt6.0fs
+  - ~/agent-work/venv/bin/python h3_edge.py pc 0.25 6.0 20        # relaxed Aeff(omega), key pc_T020fs_dz0.250mm_dt6.0fs
+  - ~/agent-work/venv/bin/python h3_invariant_post.py             # equal-wavelength comparison, summary_invariant_post.json
+  - ~/agent-work/venv/bin/python h3_edge.py const 0.125 6.0 20     # step halving
+  - ~/agent-work/venv/bin/python h3_edge.py const 0.25 6.0 30 3.4  # held-out with frame at 3.4 um
+  - ~/agent-work/venv/bin/python h3_edge.py const 0.25 3.0 20      # dt halving (nt = 16384, window 49 ps)
+  - ~/agent-work/venv/bin/python h3_julia_crosscheck.py           # agents' Julia solver b9fa957, summary_julia_crosscheck.json
+config:
+  fibre: "Z75: step-index ZrF4, core radius 3.75 um, NA 0.30, Boilard ZrF4 Sellmeier (arXiv:2109.13366 Table 2), LP01 scalar; n2 = 2.1e-20 m^2/W (assumed)"
+  raman: {model: single damped oscillator, fR: 0.20, tau1_ps: 0.0209, tau2_ps: 0.053, note: "stand-in built from the broad component of the InF3 fit in Gauthier et al. 2022"}
+  loss: "alpha = A exp(-B/lambda), 1 dB/m at 4.2 um (Gauthier et al. 2022, ZrF4), B = 92 um assumed"
+  launch: "fundamental sech soliton at 2.8 um, T0 = 20 fs (9.13 nJ) and 30 fs (6.09 nJ); P0 = |beta2|/(gamma T0^2) with constant-Aeff gamma"
+  grid: {nt: 16384, dt_fs: 6.0, centre_um: 3.3, frame: group velocity at 3.7 um, window_ps: 98.3}
+  dz_mm: 0.25
+  L_m: 8.0
+  observables: "soliton photons in a +-1.5 ps window around the intensity peak; photon fractions beyond 3.3-3.7 um, normalised to the launched photon number"
+artefact_notes: "In the T0 = 30 fs and pc runs the soliton crossed the periodic window boundary (max |t_peak| = 49.1 ps). Rerun of the T0 = 30 fs case with the frame at 3.4 um (key ..._frame3.4um): peak within 18.7 ps and all observables identical to 4 decimals (a frame change is an exact time translation in the periodic box). Step halving (key const_T020fs_dz0.125mm_dt6.0fs) also identical to 4 decimals."

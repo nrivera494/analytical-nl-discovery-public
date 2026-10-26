@@ -1,0 +1,33 @@
+# Run 2026-10-04-claude-b.4-pmin-gdd0-check (task T-20261004-claude-interactive-03, diagnostic added after the map).
+# Identical to run 2026-10-04-claude-b.4-pmin-length-map except that the assumed input GDD is set to zero
+# (transform-limited input with the same measured spectrum). Purpose: test whether the input pre-chirp
+# (C = GDD/T0^2 = -2.4 in the archive configuration) causes the two departures from the card's crossover picture
+# seen in the map: no minimum below F = 0.99 at 0.25 m, and the deeper minimum at 5 m.
+# This diagnostic was not pre-registered in the frozen note; it was decided after seeing the map.
+# Driver: run_map.jl (same adaptive procedure as the map; RUN_ID changed). No random numbers; no seed.
+
+wavelength_nm = 1250.0
+lo_nm = 1226.0
+hi_nm = 1269.0
+gdd_ps2 = 0.0
+temperature_K = 300.0
+kind = "agarwal"
+lengths_m = [0.25, 1.0, 5.0]
+
+nt = 8192
+window_ps = 40.0
+dz_m = 0.0025
+raman_z_spacing_short_m = 0.0125
+raman_z_spacing_long_m = 0.025
+
+# The transform-limited input has about 2.2 times the launched peak power of the chirped one, so the starting guess
+# is scaled down by the same factor relative to the map (142 / 2.2 = 65 mW at 1 m).
+P_guess_1m_mw = 65.0
+start_factor = 0.6
+coarse_ratio = 1.15
+rise_needed = 0.005
+refine_factors = [0.92, 0.96, 1.04, 1.08]
+plateau_ratio = 1.25
+plateau_max_factor = 6.0
+max_temporal_edge_fraction = 1.0e-4
+max_spectral_edge_fraction = 1.0e-8

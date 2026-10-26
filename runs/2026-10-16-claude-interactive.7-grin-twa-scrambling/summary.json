@@ -1,0 +1,119 @@
+{
+ "rows": [
+  {
+   "n": 1000000.0,
+   "z_meanfield_half": 235.5,
+   "z_median_relvar_0p4": 220.0
+  },
+  {
+   "n": 100000000.0,
+   "z_meanfield_half": 372.4,
+   "z_median_relvar_0p4": 340.0
+  },
+  {
+   "n": 10000000000.0,
+   "z_meanfield_half": 510.5,
+   "z_median_relvar_0p4": 470.0
+  },
+  {
+   "n": 1000000000000.0,
+   "z_meanfield_half": 639.0,
+   "z_median_relvar_0p4": 640.0
+  }
+ ],
+ "increment_1e6_to_1e12": 403.5,
+ "predicted_increment": 377.4,
+ "tolerance": [
+  283,
+  471
+ ],
+ "slope_per_decade": 67.4,
+ "predicted_slope": 62.9,
+ "lambda_eff": 0.0171,
+ "lambda_1_shadow": 0.0183,
+ "verdict": "PASS",
+ "post_scrambling_vs_dirichlet": {
+  "dirichlet_relvar_excited": 0.867,
+  "dirichlet_relvar_condensate": 0.0027,
+  "ensemble": [
+   {
+    "n": 1000000.0,
+    "relvar_excited_mean": 0.84,
+    "relvar_condensate": 0.0025
+   },
+   {
+    "n": 100000000.0,
+    "relvar_excited_mean": 0.824,
+    "relvar_condensate": 0.0029
+   },
+   {
+    "n": 10000000000.0,
+    "relvar_excited_mean": 0.831,
+    "relvar_condensate": 0.0027
+   },
+   {
+    "n": 1000000000000.0,
+    "relvar_excited_mean": 0.809,
+    "relvar_condensate": 0.0025
+   }
+  ]
+ },
+ "collapse_shape": {
+  "two_lambda_1": 0.0366,
+  "per_n": [
+   {
+    "n": 1000000.0,
+    "window": [
+     120.0,
+     310.0
+    ],
+    "loglog_slope_in_z": 0.0142,
+    "power_law_exponent": 3.0
+   },
+   {
+    "n": 100000000.0,
+    "window": [
+     170.0,
+     440.0
+    ],
+    "loglog_slope_in_z": 0.0157,
+    "power_law_exponent": 4.5
+   },
+   {
+    "n": 10000000000.0,
+    "window": [
+     280.0,
+     590.0
+    ],
+    "loglog_slope_in_z": 0.0145,
+    "power_law_exponent": 6.3
+   },
+   {
+    "n": 1000000000000.0,
+    "window": [
+     480.0,
+     780.0
+    ],
+    "loglog_slope_in_z": 0.0147,
+    "power_law_exponent": 9.3
+   }
+  ],
+  "note": "local rate ~0.015 (about lambda_1) for every n; the n-scaling of the crossing gives 2 lambda_eff = 0.034"
+ },
+ "dephased_input": {
+  "sampling_step": 2.0,
+  "per_n": [
+   {
+    "n": 1000000.0,
+    "z_relvar_0p43": 2.0,
+    "relvar_at_10": 0.72
+   },
+   {
+    "n": 10000000000.0,
+    "z_relvar_0p43": 4.0,
+    "relvar_at_10": 0.777
+   }
+  ],
+  "note": "pre-registered in grin_twa_dephased_predictions.txt; both n reach thermal-level spread within 2-4 L_NL (one sampling step apart), vs coherent z_E 235-511 L_NL"
+ }
+}

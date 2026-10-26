@@ -1,0 +1,169 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-a-gate-null",
+  "precision_decimal_digits": 100,
+  "experiment": "TOD-free null: parameter delta3 only sets the moving band edge; no radiation exists",
+  "z_final": 2.356194490192345,
+  "exact_strip": 0.3747344327087401,
+  "card_printed_decimal": 0.374664,
+  "null_limit_delta_log_eta": -0.12491147756958003,
+  "rows": [
+    {
+      "gate_radius": 15,
+      "delta3": 0.01,
+      "eta": "7.381639090756810214579218e-32",
+      "log_eta": -71.68372726283887,
+      "delta_log_eta": -0.7168372726283888
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.007,
+      "eta": "3.499799550246734702035111e-34",
+      "log_eta": -77.03518746630033,
+      "delta_log_eta": -0.5392463122641022
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.005,
+      "eta": "2.780588508821761472830107e-37",
+      "log_eta": -84.17298584166035,
+      "delta_log_eta": -0.4208649292083017
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.004,
+      "eta": "5.391609773588668776517188e-40",
+      "log_eta": -90.41855972013784,
+      "delta_log_eta": -0.3616742388805514
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.003,
+      "eta": "1.625628603875445383951044e-44",
+      "log_eta": -100.82784951760284,
+      "delta_log_eta": -0.3024835485528085
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.002,
+      "eta": "1.477838897359349125212751e-53",
+      "log_eta": -121.64642911253284,
+      "delta_log_eta": -0.2432928582250657
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.001,
+      "eta": "1.110310318202090274467673e-80",
+      "log_eta": -184.10216789732286,
+      "delta_log_eta": -0.18410216789732287
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.0005,
+      "eta": "6.267277734844018515453564e-135",
+      "log_eta": -309.01364546690286,
+      "delta_log_eta": -0.15450682273345145
+    },
+    {
+      "gate_radius": 15,
+      "delta3": 0.0001,
+      "eta": "6.458853918568930350276194e-569",
+      "log_eta": -1308.305466023543,
+      "delta_log_eta": -0.1308305466023543
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.01,
+      "eta": "3.081275644048025820039529e-40",
+      "log_eta": -90.97806003837566,
+      "delta_log_eta": -0.9097806003837566
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.007,
+      "eta": "7.213324491072951661547315e-43",
+      "log_eta": -97.03522905925622,
+      "delta_log_eta": -0.6792466034147936
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.005,
+      "eta": "5.731220078917362868419077e-46",
+      "log_eta": -104.17298584140762,
+      "delta_log_eta": -0.5208649292070381
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.004,
+      "eta": "1.111293601560745696551625e-48",
+      "log_eta": -110.41855972013784,
+      "delta_log_eta": -0.44167423888055135
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.003,
+      "eta": "3.350670285617671139029677e-53",
+      "log_eta": -120.82784951760283,
+      "delta_log_eta": -0.36248354855280845
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.002,
+      "eta": "3.046052996672882410290577e-62",
+      "log_eta": -141.64642911253284,
+      "delta_log_eta": -0.28329285822506567
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.001,
+      "eta": "2.288520134393188183056112e-89",
+      "log_eta": -204.10216789732283,
+      "delta_log_eta": -0.20410216789732286
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.0005,
+      "eta": "1.291782220600250517731383e-143",
+      "log_eta": -329.01364546690286,
+      "delta_log_eta": -0.16450682273345144
+    },
+    {
+      "gate_radius": 20,
+      "delta3": 0.0001,
+      "eta": "1.331269015106006913986626e-577",
+      "log_eta": -1328.305466023543,
+      "delta_log_eta": -0.1328305466023543
+    }
+  ],
+  "complex_gate_at_nearest_pole": {
+    "15": [
+      1.3700510902528924e-13,
+      0.0
+    ],
+    "20": [
+      6.220022326849768e-18,
+      0.0
+    ]
+  },
+  "derivation": "For fixed R, the gate leaves the breather pole at i*d. Its squared Fourier tail decays as exp(-2*d*w). Integrating w >= 1/(6*delta3) gives exp(-d/(3*delta3)).",
+  "limitation": "A null-background obstruction to interpreting the fixed-gate observable as a radiation asymptotic; not by itself a full-TOD counterexample.",
+  "fourier_crosscheck": [
+    {
+      "w": 1.9634954084936207,
+      "absolute_error": 1.854065882134941e-22,
+      "relative_error": 2.7348273627620355e-15
+    },
+    {
+      "w": 3.9269908169872414,
+      "absolute_error": 4.5794738804001714e-23,
+      "relative_error": 8.01177747566022e-15
+    },
+    {
+      "w": 7.853981633974483,
+      "absolute_error": 4.525344454068544e-24,
+      "relative_error": 1.993886034764445e-10
+    }
+  ]
+}

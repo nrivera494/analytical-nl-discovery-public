@@ -1,0 +1,228 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "n": 16,
+      "cutoff": 180,
+      "captured_norm_before_normalizing": 0.9999999999999979,
+      "held_out": false,
+      "crossing": 3.3362592120397228,
+      "predicted_crossing": 3.336259212039722,
+      "probes": [
+        {
+          "s": 1.0,
+          "coherence": 0.9394321729271176,
+          "det": 0.6038768391734679,
+          "analytic_det": 0.6038768391734946,
+          "asymptotic_excess": 0.40625,
+          "norm": 1.0
+        },
+        {
+          "s": 2.0,
+          "coherence": 0.7790542081724875,
+          "det": 7.733463968002143,
+          "analytic_det": 7.733463968002171,
+          "asymptotic_excess": 12.5,
+          "norm": 1.0
+        },
+        {
+          "s": 1.5874010519681994,
+          "coherence": 0.8543955743814474,
+          "det": 2.9641989620492355,
+          "analytic_det": 2.9641989620492666,
+          "asymptotic_excess": 3.7858261834642226,
+          "norm": 1.0000000000000002
+        },
+        {
+          "s": 0.4,
+          "coherence": 0.9900503493895149,
+          "det": 0.2575368390139383,
+          "analytic_det": 0.2575368390139383,
+          "asymptotic_excess": 0.007712000000000002,
+          "norm": 1.0
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "cutoff": 292,
+      "captured_norm_before_normalizing": 0.9999999999999669,
+      "held_out": false,
+      "crossing": 6.663446197322099,
+      "predicted_crossing": 6.663446197322109,
+      "probes": [
+        {
+          "s": 1.0,
+          "coherence": 0.9844967499659006,
+          "det": 0.3481208054324283,
+          "analytic_det": 0.3481208054324991,
+          "asymptotic_excess": 0.1015625,
+          "norm": 1.0000000000000002
+        },
+        {
+          "s": 2.0,
+          "coherence": 0.9394178407720143,
+          "det": 2.9915388801173854,
+          "analytic_det": 2.9915388801172753,
+          "asymptotic_excess": 3.125,
+          "norm": 1.0000000000000004
+        },
+        {
+          "s": 2.0,
+          "coherence": 0.9394178407720143,
+          "det": 2.9915388801173854,
+          "analytic_det": 2.9915388801172753,
+          "asymptotic_excess": 3.125,
+          "norm": 1.0000000000000004
+        },
+        {
+          "s": 0.8,
+          "coherence": 0.9900499626612439,
+          "det": 0.2861748881289088,
+          "analytic_det": 0.2861748881289963,
+          "asymptotic_excess": 0.03699200000000001,
+          "norm": 1.0000000000000002
+        }
+      ]
+    },
+    {
+      "n": 256,
+      "cutoff": 612,
+      "captured_norm_before_normalizing": 0.9999999999999143,
+      "held_out": true,
+      "crossing": 13.3223770564789,
+      "predicted_crossing": 13.322377056478832,
+      "probes": [
+        {
+          "s": 1.0,
+          "coherence": 0.9961013744178039,
+          "det": 0.2751728207861015,
+          "analytic_det": 0.27517282078591077,
+          "asymptotic_excess": 0.025390625,
+          "norm": 0.9999999999999998
+        },
+        {
+          "s": 2.0,
+          "coherence": 0.9844965152459995,
+          "det": 1.0059866660808083,
+          "analytic_det": 1.0059866660812347,
+          "asymptotic_excess": 0.78125,
+          "norm": 0.9999999999999998
+        },
+        {
+          "s": 2.5198420997897464,
+          "coherence": 0.9755021243880531,
+          "det": 2.823002407555876,
+          "analytic_det": 2.823002407556281,
+          "asymptotic_excess": 2.7087055905658666,
+          "norm": 0.9999999999999996
+        },
+        {
+          "s": 1.6,
+          "coherence": 0.9900498659773116,
+          "det": 0.4910644532199324,
+          "analytic_det": 0.4910644532204884,
+          "asymptotic_excess": 0.24627200000000007,
+          "norm": 0.9999999999999997
+        }
+      ]
+    },
+    {
+      "n": 1024,
+      "cutoff": 1636,
+      "captured_norm_before_normalizing": 0.9999999999998991,
+      "held_out": false,
+      "crossing": 26.642499024274453,
+      "predicted_crossing": 26.642499024274837,
+      "probes": [
+        {
+          "s": 1.0,
+          "coherence": 0.9990239142595105,
+          "det": 0.2563340010741324,
+          "analytic_det": 0.2563340010768551,
+          "asymptotic_excess": 0.00634765625,
+          "norm": 1.0000000000000004
+        },
+        {
+          "s": 2.0,
+          "coherence": 0.9961013707070399,
+          "det": 0.44371237770878125,
+          "analytic_det": 0.44371237771317595,
+          "asymptotic_excess": 0.1953125,
+          "norm": 1.0000000000000004
+        },
+        {
+          "s": 3.1748021039363987,
+          "coherence": 0.9902051596854329,
+          "det": 2.647542654192307,
+          "analytic_det": 2.647542654213069,
+          "asymptotic_excess": 2.446456545866055,
+          "norm": 1.0000000000000004
+        },
+        {
+          "s": 3.2,
+          "coherence": 0.9900498418062116,
+          "det": 2.756020603814804,
+          "analytic_det": 2.756020603838536,
+          "asymptotic_excess": 2.557952000000001,
+          "norm": 1.0000000000000004
+        }
+      ]
+    },
+    {
+      "n": 4096,
+      "cutoff": 5220,
+      "captured_norm_before_normalizing": 0.999999999999042,
+      "held_out": true,
+      "crossing": 53.2838708262451,
+      "predicted_crossing": 53.28387082624635,
+      "probes": [
+        {
+          "s": 1.0,
+          "coherence": 0.9997558891761092,
+          "det": 0.251586059958822,
+          "analytic_det": 0.2515860599504227,
+          "asymptotic_excess": 0.0015869140625,
+          "norm": 1.0
+        },
+        {
+          "s": 2.0,
+          "coherence": 0.9990239142013592,
+          "det": 0.2987277830637787,
+          "analytic_det": 0.29872778307602843,
+          "asymptotic_excess": 0.048828125,
+          "norm": 0.9999999999999999
+        },
+        {
+          "s": 3.9999999999999996,
+          "coherence": 0.9961013697793483,
+          "det": 2.513182403675671,
+          "analytic_det": 2.513182403765029,
+          "asymptotic_excess": 2.2812499999999987,
+          "norm": 1.0
+        },
+        {
+          "s": 6.4,
+          "coherence": 0.9900498357634293,
+          "det": 34.94221144798939,
+          "analytic_det": 34.94221144838116,
+          "asymptotic_excess": 35.397632000000016,
+          "norm": 0.9999999999999996
+        }
+      ]
+    }
+  ],
+  "ballistic_exponent": 0.4997090104110615,
+  "covariance_error_exponents": [
+    {
+      "s": 1.0,
+      "exponent": 0.9921898726308374
+    },
+    {
+      "s": 2.0,
+      "exponent": 0.9703368629209261
+    }
+  ]
+}

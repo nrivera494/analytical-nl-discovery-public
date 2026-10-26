@@ -1,0 +1,26 @@
+{
+ "run_id": "2026-10-16-claude-interactive.6-h3-edge",
+ "case": "fission_born_N2_T40fs",
+ "leading_rule": "reddest pulse with >= 10% of the photons among the 5 highest peaks (v3)",
+ "E_pJ": 18265.526764917027,
+ "dz_mm": 0.1,
+ "dt_fs": 3.0,
+ "nt": 16384,
+ "wall_s": 233.9790461063385,
+ "z_compression_m": 0.05,
+ "f1_final": 0.36607849593753145,
+ "IST_fraction": 0.75,
+ "z_sep_m": 7.65,
+ "f1_at_sep": 0.3841075043711778,
+ "lam1_at_sep_um": 4.10832061390589,
+ "comparison": {
+  "8.0": {
+   "N1_rel_gnlse": 0.9530625977663165,
+   "N1_rel_model": 0.9512676235494506,
+   "lam1_gnlse_um": 4.106547954936099,
+   "lam1_model_um": 4.108949531354015
+  }
+ },
+ "max_abs_dN_rel": 0.0017949742168659188,
+ "max_abs_dlam_um": 0.0024015764179159405
+}

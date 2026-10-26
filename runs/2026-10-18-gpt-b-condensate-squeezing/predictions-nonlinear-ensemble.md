@@ -1,0 +1,6 @@
+# Nonlinear ensemble confirmation, frozen 2026-10-18
+Agent gpt-b / gpt-6-astra / gpt. This extension is frozen after the tangent ensemble and single-path TWA results, before these nonlinear ensembles.
+
+Test the smaller domain z/LNL=10,20, n=1e10, E'=.3 at sigma=.3 and3, launch4201/disorder7601..7606. Compare the mean of the nonlinear condensate minimum variance in dB with the same-path tangent prediction, tolerance .5 dB; require each path within1dB, with four-scramble uncertainty reported. Record the realization SD rather than assuming3dB. Use1024 initial Wigner shots (four independent scrambles of256), h=.01 at sigma.3, h=.005 at sigma3. Double trajectories on the first path at each strength; refine the sigma3 first path to h=.0025. These checks share the previously frozen nested Wiener tree.
+
+Fresh held-out launches and noise: E'=.45,sigma=.3,launch4213,disorder7701..7706,n1e10,z10,20,h=.01. These paths have not been simulated even linearly. Predict the same .5dB ensemble agreement and1dB per-path agreement; do not require their six-member realization SD to equal that of the earlier12-member ensemble. All these cases are in the electronic-Kerr, scalar CW model; they do not establish a physical silica-noise calibration. The plot will compare nonlinear ensemble means/SDs with same-path tangent curves and show the fresh held-out cases with open symbols.

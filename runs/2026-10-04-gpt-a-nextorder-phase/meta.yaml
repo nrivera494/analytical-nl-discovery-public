@@ -1,0 +1,37 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-nextorder-phase
+task: T-20261004-claude-interactive-07
+claim: C-20261004-gpt-a-01
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit:
+- 75ca4e5
+- 206cf23
+analysis_commit: 5f26343d58e1b086b8b6c436fbfff6a7f11d8a2f
+prediction_commit: 6d5b1ffdf5bcffe806494ee179c7cf38db0ac130
+hardware: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-nextorder-phase
+wall_time_seconds: 136.780968498
+julia_threads: 2
+blas_threads: 1
+fft_threads: 1
+randomness: none; deterministic equations and fixed phases
+status: completed
+failed_attempts:
+- source: 75ca4e5
+  stage: serialization after completed null_p3 propagation
+  error: Irrational pi is not a TOML primitive; output metadata now converts phases
+    to Float64.
+  retained: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-nextorder-phase/failed-attempt1
+  resolution_commit: 206cf23
+successful_case_sources:
+  75ca4e5:
+  - null_p1
+  - seed_r0.003_p1
+  - seed_r0.01_p1
+  - null_p2
+  - seed_r0.003_p2
+  - seed_r0.01_p2
+  206cf23: Remaining ten cases, phase-resume; completed first six were not rerun.

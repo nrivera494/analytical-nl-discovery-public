@@ -1,0 +1,75 @@
+# Run 2026-10-16-claude-b.7-solver-dwyield: configuration (all cases are deterministic; no seeds).
+# The authoritative definitions are in run_dw.jl (stages) and dw_lib.jl (model, observables).
+# Rerun from the repository root, solver submodule at b9fa957:
+#   JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no \
+#     runs/2026-10-16-claude-b.7-solver-dwyield/run_dw.jl lin item1 item1_conv item1_grid ss \
+#     item2 item2_conv item2_ref item2_grid item2_xi item3 item3_conv item3_grid \
+#     item4 item4_conv item4_grid item4_grid2 item3_win item3_win10
+#   ~/agent-work/venv/bin/python runs/2026-10-16-claude-b.7-solver-dwyield/summarize.py
+
+[model]
+equation = "i u_xi + (1/2) u_tautau + N^2 |u|^2 u = i delta3 u_tautautau (M0); M1 adds Raman"
+mapping = "L_D = 1 m; beta2 = -T0^2 ps^2/m; beta3 = 6 delta3 T0^3 ps^3/m; gamma = 1 /W/m; P0 = N^2 W; length = xi m"
+self_steepening = "suppressed: omega0 T0 = 1e6 (n2 = gamma c/(omega0 S), S = 1e10 m^-2)"
+raman_M0 = "NoRaman()"
+raman_M1 = "AgarwalRaman(fraction=0.18, tau1=0.0122 ps, tau2=0.0320 ps), T0 = 0.05 ps"
+integrator = "RK4IP, fixed step, Float64, CPU backend"
+
+[observables]
+band = "w = Omega T0 >= w_z = 1/(6 delta3)"
+eta_B = "sum_band |A_k(xi)|^2 / sum_all |A_k(0)|^2"
+eta_DW = "same with A(t) set to zero for |tau| < 8 (hard gate)"
+eta_DW_smoothgate = "diagnostic: A(t) * (1 + tanh((|tau| - 8)/1))/2"
+nsr_peak = "max_band |A_k(xi)|^2 / max |A_k(0)|^2 in dB (and / max |A_k(xi)|^2); dnu_d T0 = w_peak/(2 pi)"
+invariants = "E = int |u|^2 dtau, P = <w>, H = int K |uhat|^2 dw/2pi - (N^2/2) int |u|^4 dtau, K = w^2/2 - delta3 w^3"
+
+[grids]
+G1 = { window_T0 = 160.0, Nt = 4096 }
+G2 = { window_T0 = 256.0, Nt = 16384 }
+G3 = { window_T0 = 384.0, Nt = 32768 }
+G1x2 = { window_T0 = 160.0, Nt = 8192 }
+G1x4 = { window_T0 = 160.0, Nt = 16384 }
+
+[item1]
+pulse = "sech"
+N = 2.0
+xi = 4.0
+delta3 = [0.02, 0.03, 0.04, 0.06, 0.10]
+grid = "G1"
+nsteps = [4000, 8000]
+grid_check = "G2 nsteps 8000 (all five delta3)"
+
+[item2]
+pulse = "sech"
+N = 2.0
+xi = 4.0
+delta3 = [0.010, 0.012, 0.014, 0.016, 0.020, 0.025, 0.030]
+grid = "G2"
+nsteps = [4000, 8000]
+grid_check = "G3 nsteps 8000 at delta3 = 0.010"
+reference = "delta3 = 0, G2, nsteps 4000 and 8000, evaluated with each item-2 band edge"
+xi_resolved = "delta3 = 0.012, 0.016, 0.020 saved every 0.05 (G2, nsteps 4000)"
+
+[item3]
+pulse = "gauss"
+xi = 2.0
+saved_xi = [0.0, 0.5, 1.0, 1.5, 2.0]
+cases = [[3.0, 0.02, 4000], [3.0, 0.05, 4000], [6.0, 0.03, 8000], [8.0, 0.05, 16000], [10.0, 0.05, 20000]]  # N, delta3, nsteps (base); conv = 2 x nsteps
+grid = "G2"
+grid_check = "G3 with nsteps 40000 for N = 10, delta3 = 0.05"
+window_checks = "window 512 T0 (Nt 32768, base step) for N = 8 and N = 6; window 1024 T0 (Nt 65536, 20000 steps) for N = 10"
+
+[item4]
+pulse = "sech"
+N = 2.0
+xi = 4.0
+T0_ps = 0.05
+lambda0_nm = 835.0  # lambda0 unused: self-steepening suppressed
+delta3 = [0.02, 0.03, 0.04]
+grid = "G1 (dt = 1.95 fs)"
+nsteps = [4000, 8000]
+grid_check = "G1x2 (0.98 fs), G1x4 (0.49 fs), nsteps 8000"
+
+[selfsteepening_check]
+case = "item1 delta3 = 0.04, G1, nsteps 8000"
+omega0T0 = [1.0e6, 1.0e7, 1.0e8]

@@ -1,0 +1,42 @@
+run_id: 2026-10-10-claude-a-solver-dispersion-check
+date: 2026-10-10
+agent: claude-a.1
+model: claude-opus-5-5
+family: claude
+task: T-20261010-claude-interactive-04
+serves: "second-solver check of the dispersionless theory and its breakdown in Phi^2 L/L_D"
+solver: "PulsePropagation (FastDifferentiableMMNLO-agents), submodule solver/, used unmodified; all scripts live in this folder"
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_remote_check: "git -C solver branch -r --contains HEAD lists origin/main (2026-10-10)"
+path: >-
+  S (2N x 2N) built row by row with the discrete adjoint: one
+  solve_adjoint(lambda, pars, dz; forward_solution=sol, adjoint_mode=:discrete_rk4ip) per output quadrature
+  (dz_adj = dz_forward, RK4IP fixed step, Float64). lambda_min and lambda_gen both come from this S.
+  Checked against central finite differences of solve_mmgnlse on two random input directions per case.
+julia: "1.12.5, JULIA_NUM_THREADS=2, BLAS 2 threads, FFTW 1 thread, one Julia process at a time"
+python: "~/agent-work/venv/bin/python (numpy 2.0.2) for post-processing of the saved S matrices"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0.1 (host COECIS-G3FLW49YGQ); four other agents' Julia jobs ran concurrently, so per-row adjoint time varied from 0.26 s to 1.1 s"
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-a-solver-dispersion-check/smoke.jl"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-a-solver-dispersion-check/run_check.jl b0 p0.1 m0.1 p1 m1 m1_dzhalf b0_selfsteep m0.1_nt400 b0_nt400 b0_dzhalf > runs/2026-10-10-claude-a-solver-dispersion-check/run_check.log 2>&1  (stopped by hand after b0_selfsteep for the time budget; m0.1_nt400, b0_nt400, b0_dzhalf and m0.1_dzhalf were not run)"
+  - "~/agent-work/venv/bin/python runs/2026-10-10-claude-a-solver-dispersion-check/ideal_b0_compare.py b0 b0_selfsteep"
+  - "~/agent-work/venv/bin/python runs/2026-10-10-claude-a-solver-dispersion-check/bandlimited.py <case> (each completed case)"
+  - "~/agent-work/venv/bin/python runs/2026-10-10-claude-a-solver-dispersion-check/eigmode.py <case> (each completed case)"
+  - "~/agent-work/venv/bin/python runs/2026-10-10-claude-a-solver-dispersion-check/make_summary.py"
+wall_time_s: "smoke test about 150 (incl. compilation); per case (Julia, incl. FD check): b0 363, p0.1 332, m0.1 264, p1 342, m1 405, m1_dzhalf 1116, b0_selfsteep 503; batch 11:04-12:00 local time (stopped after b0_selfsteep); post-processing < 1 min per case"
+config: config.yaml
+files:
+  library: sdc_lib.jl
+  driver: run_check.jl
+  smoke_test: smoke.jl
+  postprocessing: [bandlimited.py, ideal_b0_compare.py, eigmode.py]
+  summarizer: make_summary.py
+  log: run_check.log
+  summary: summary.json
+  per_case_collection: summary_cases.json (written by run_check.jl; same numbers as <raw>/<case>.json)
+seeds: "MersenneTwister(20261010) for the finite-difference check directions; otherwise deterministic"
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-10-claude-a-solver-dispersion-check/ (<case>.npz: S, mean output field, input field, time axis, eigenvalues of V and V_amp; <case>.json; bandlimited_/eigmode_/ideal_compare_<case>.json)"
+known_issues:
+  - "solve_mmgnlse multiplies the nonlinear term by damped_freq_window(nt). This corrupts the full-V lambda_min at beta2 = 0 (0.0048058 against 0.0098049 for the exact time-local map). Band-limited lambda_min (|omega| <= 60 rad/ps) and lambda_gen are unaffected; see summary.json window_artifact."
+  - "The solver always includes the shock term (prefactor n2 (omega0 + Omega)/c); suppressed here with omega0 = 2*pi*193.4e3 rad/ps."

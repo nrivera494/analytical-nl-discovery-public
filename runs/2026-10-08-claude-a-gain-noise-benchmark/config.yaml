@@ -1,0 +1,61 @@
+# Gain-Langevin noise normalization benchmark: linear amplifier, Kerr and Raman off.
+# Everything needed to rerun; the same values are hard-coded in bench.jl / bench_supp.jl.
+scripts:
+  main: bench.jl          # 10 cases, writes summary.json (cases)
+  supplementary: bench_supp.jl   # S1-S3 high-statistics checks; output merged into summary.json (supplementary, combined) with the python snippet described in meta.yaml
+  figure: plot.py
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-08-claude-a-gain-noise-benchmark/bench.jl"
+  - "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-08-claude-a-gain-noise-benchmark/bench_supp.jl"
+  - "~/agent-work/venv/bin/python runs/2026-10-08-claude-a-gain-noise-benchmark/plot.py"
+api_calls:
+  grid: "TimeGrid(512, 40.0)"
+  system: "PassiveFiber(; length=1.0, lambda0=1550e-9, betas=reshape([0.0, 0.0, -0.02], :, 1), n2=0.0, raman_fraction=0.0)  # material default Silica(); n2=0 removes Kerr"
+  solver: "RK4IPSolver(; stepping=FixedStep(; dz=L/nsteps), saveat=SaveAt(collect(range(0.0, L; length=nsteps+1))), linear_gain=LinearGain(log(G)/L))"
+  problem: "PulsePropagationProblem(; grid, system, fields=reshape(ComplexF64.(A), 512, 1), solver)"
+  ensemble: "stochastic_ensemble(problem; noise=ShotNoise(; noise_scale=ns0), ntraj=500, rng=rng_init)  # per batch, one RNG stream per case"
+  solve: "stochastic_solve(problem, ensemble; drives=[GainLangevin(; noise_scale=ns)], rng=rng_drive)"
+  mean_field: "same two calls with ShotNoise(; noise_scale=0.0), GainLangevin(; noise_scale=0.0), ntraj=1; cross-checked against solve(problem)"
+  photon_number_crosscheck: "stochastic_values(SpectralPhotonNumber(; filter=ones(512), modes=:all), st) on the first batch"
+grid:
+  Nt: 512
+  window_ps: 40.0
+  dt_ps: 0.078125
+  lambda0_m: 1.55e-6
+  f0_THz: 193.41448903225807
+  bins_with_positive_photon_weight: 512
+fiber:
+  length_m: 1.0
+  beta2_ps2_per_m: -0.02
+  n2: 0.0
+  raman_fraction: 0.0
+  gain: "frequency-flat, z-constant power gain g = ln(G)/L (LinearGain scalar); field amplitude grows as exp(g z / 2)"
+pulse:
+  shape: "Gaussian, intensity FWHM 1.0 ps, centred, flat phase"
+  N0: "set by energy N0 * hbar * 2 pi f0; measured N0 in photon units is in summary.json (N0_photon_units)"
+noise:
+  initial: "ShotNoise(; noise_scale=ns0): dB_k = ns0 (randn + i randn), E|dB_k|^2 = 2 ns0^2 per positive-weight bin"
+  drive: "GainLangevin(; noise_scale=ns): after each deterministic RK4IP step, dB_k = ns sqrt(G_step - 1) (randn + i randn)"
+  photon_units: "B_k = sqrt(w_k) * ifft(A_t)_k, w_k = photon_bin_weights(512, dt, f0; shifted=false)"
+batch_size: 500
+predictions:
+  s_pred: "G * 2 ns0^2 + 2 ns^2 (G - 1)   (per-bin output Wigner variance)"
+  n_sp_equivalent: "2 ns^2 + 1/2   (ns = 0.5 -> n_sp = 1; ns = sqrt(0.75) -> n_sp = 2)"
+  F_pred: "2 s_pred = 1 + 2 n_sp (G - 1) for ns0 = 1/2"
+  mean_added_wigner_photons: "M s_pred"
+cases:  # name: [ln G, GainLangevin ns, ShotNoise ns0, N0, nsteps, ntraj, seed_init, seed_drive]
+  G1_nsp1:          [1.0, 0.5,       0.5, 1.0e6, 10, 20000, 1101, 2101]
+  G2_nsp1:          [2.0, 0.5,       0.5, 1.0e6, 10, 20000, 1102, 2102]
+  G3_nsp1:          [3.0, 0.5,       0.5, 1.0e6, 10, 20000, 1103, 2103]
+  G3_nsp1_dz_half:  [3.0, 0.5,       0.5, 1.0e6, 20, 20000, 1104, 2104]
+  G3_nsp1_onestep:  [3.0, 0.5,       0.5, 1.0e6,  1, 20000, 1105, 2105]
+  G2_nsp2:          [2.0, 0.8660254037844386, 0.5, 1.0e6, 10, 20000, 1106, 2106]
+  G2_nsp2_dz_half:  [2.0, 0.8660254037844386, 0.5, 1.0e6, 20, 20000, 1107, 2107]
+  G2_nsp1_N0_1e8:   [2.0, 0.5,       0.5, 1.0e8, 10, 20000, 1108, 2108]
+  G2_langevin_off:  [2.0, 0.0,       0.5, 1.0e6, 10, 20000, 1109, 2109]   # control: F_pred = G
+  G2_vacuum_off:    [2.0, 0.5,       0.0, 1.0e6, 10, 20000, 1110, 2110]   # control: F_pred = G - 1
+supplementary_cases:
+  S1_G3_nsp1_onestep_200k:       [3.0, 0.5, 0.5, 1.0e6, 1, 200000, 3101, 4101]
+  S2_G2_vacuum_off_onestep_200k: [2.0, 0.5, 0.0, 1.0e6, 1, 200000, 3102, 4102]
+  S3_shotnoise_generator_only: {ntraj: 200000, seed: 3103, noise: "ShotNoise(; noise_scale=0.5)", propagation: none}
+rng: "Random.MersenneTwister(seed); seed_init feeds stochastic_ensemble, seed_drive feeds stochastic_solve"

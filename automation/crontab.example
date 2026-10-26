@@ -1,0 +1,7 @@
+# Four sessions a day, staggered by five minutes so that task claims do not race at start-up.
+# Session length comes from automation/policy.yaml (session_minutes).
+# m  h  dom mon dow  command
+0  22 *   *   *    /path/to/analytic-discovery/automation/run_session.sh claude-a
+5  22 *   *   *    /path/to/analytic-discovery/automation/run_session.sh gpt-a
+10 22 *   *   *    /path/to/analytic-discovery/automation/run_session.sh claude-b
+15 22 *   *   *    /path/to/analytic-discovery/automation/run_session.sh gpt-b

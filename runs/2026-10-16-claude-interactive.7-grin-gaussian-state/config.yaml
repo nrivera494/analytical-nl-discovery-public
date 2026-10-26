@@ -1,0 +1,21 @@
+# Run 2026-10-16-claude-interactive.7-grin-gaussian-state
+# Exact linearized (pre-scrambling) quantum state of the thermalizing field in the GRIN resonant model (exact Hermite-Gauss
+# Kerr tensor, K = 5, 15 modes, S_0000 = 1, z in units of L_NL): tangent map S(z) integrated with RK4 (dz = 0.02) along the
+# classical trajectory, V = S S^T/2 (vacuum 1/2). Launch as in the toy: fundamental + equal power in groups 1 and 2, random
+# phases (phase_seed 1). Disorder: Brownian U(k+1) inside groups, sigma in {0, 0.3} (dis_seed 7), applied to A and S.
+cases: "E' in {0.3, 0.6, 0.9} x sigma in {0.3, 0.0}; zmax = 400; checkpoints 1, 2, 5, 10, 20, 50, 100, 200, 300, 400"
+diagnostics:
+  multimode_min_quad_dB: "10 log10(lambda_min(V)/0.5) = 10 log10(1/sigma_max(S)^2) (exact by symplecticity)"
+  lambda_gen: "2 lambda_min(V_amp): best Fano factor over real-weighted, mode-resolved photon counts (amplitude quadratures at the local mean phases)"
+  Fano_N: "total photon number (conserved): must be 1"
+  modes: "per representative mode of each group: reduced symplectic eigenvalue, entanglement entropy, minimum quadrature variance (dB), Fano factor"
+commands:
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore gauss_state.py"
+  - "~/agent-work/venv/bin/python summarize_gauss.py"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore gauss_weights.py"
+gauss_weights.py: "E' = 0.6, sigma in {0.3, 0}: eigenvector of V_amp with the smallest eigenvalue at z = 10, 50, 100, 200, 400 -> group shares of the optimal weights, within-group share, overlaps with the total-N and E' directions, number of sub-shot-noise directions (gauss_weights.json, committed: small)"
+figure: "fig_squeezing.py -> fig_squeezing.png"
+gauss_modecount.py: "mode-count robustness: K = 4 (10 modes) and K = 6 (21 modes), E' = 0.6, sigma = 0.3, same checkpoints; output gauss_modecount.json (raw_location), printed summary gauss_modecount_summary.txt"
+minimal_lgen.py: "minimal integrable model: 1D Hermite-Gauss ladder modes (0, 1, 2), exact overlaps, resonant process 0+2 <-> 1+1 plus SPM/XPM, no disorder; lambda_gen(z) for three launches (output minimal_lgen_summary.txt)"
+gauss_structure.py: "E' = 0.6, sigma in {0.3, 0}: fraction of the optimal photon-counting weight vector in span(amplitude gradients of N, E', H_res), and the best Fano within the span and within its complement (gauss_structure.json)"
+redistribution_bound.py: "conservation + redistribution part of the photon-counting squeezing with N and E' only (output redistribution_bound_summary.txt)"

@@ -1,0 +1,207 @@
+# Derivation for C-20261004-claude-a-01
+
+Author: claude-a (claude-opus-5-5), 2026-10-04, task T-20261004-claude-interactive-05.
+Machine checks of every equation marked (✓A*, ✓B*) are in `runs/2026-10-04-claude-a-c01-cheap-checks/check.py`. Their results are in that run's `summary.json`.
+
+## 1. Model and scaling
+
+The model is the scalar NLSE in Agrawal's convention, with normal dispersion and nothing else:
+$\partial_z A=-\tfrac{i}{2}\beta_2\partial_T^2A+i\gamma|A|^2A$, $\beta_2>0$.
+The launch is $A(0,T)=\sqrt{P_0}\,(1-T^2/T_0^2)^{1/2}e^{iCT^2/2T_0^2}$ for $|T|<T_0$, and zero outside.
+$T_0$ is the half-width.
+
+Scaled variables:
+- $A=\sqrt{P_0}\,\psi$, $T=T_0x$, $z=\zeta\sqrt{L_DL_{NL}}$;
+- $L_D=T_0^2/\beta_2$, $L_{NL}=1/\gamma P_0$;
+- $\varepsilon=\sqrt{L_{NL}/L_D}=1/N$.
+
+These give $i\varepsilon\psi_\zeta=\tfrac{\varepsilon^2}{2}\psi_{xx}-|\psi|^2\psi$. Its conjugate $u=\psi^*$ is the standard semiclassical defocusing NLSE.
+
+The Madelung form $u=\sqrt\rho\,e^{iS/\varepsilon}$, with $v=S_x$, is
+- $\rho_\zeta+(\rho v)_x=0$;
+- $S_\zeta+\tfrac12v^2+\rho-\tfrac{\varepsilon^2}{2}(\sqrt\rho)_{xx}/\sqrt\rho=0$.
+
+Physical phase and frequency:
+- $\arg A=-S/\varepsilon$;
+- the instantaneous frequency is $\delta\omega=-\partial_T\arg A=v/(\varepsilon T_0)$.
+
+## 2. Background (dispersionless limit; known)
+
+Dropping the $\varepsilon^2$ term gives the shallow-water equations. These have the exact expanding-parabola solution (✓A1):
+$$\bar\rho=\frac{1-\xi^2}{a},\quad \bar v=\xi\dot a,\quad \xi=\frac{x}{a(\zeta)},\quad \ddot a=\frac{2}{a^2}.$$
+
+Unchirped launch ($C=0$), with $a(0)=1$, $\dot a(0)=0$:
+- $a=\cosh^2\theta$;
+- $\zeta=\tfrac{\theta}{2}+\tfrac14\sinh2\theta$;
+- $\theta=\int d\zeta/a=\varepsilon\Phi_{NL}$, where $\Phi_{NL}(z)=\int\gamma P_{\rm peak}\,dz$ is the peak nonlinear phase.
+
+Define $\mu\equiv\tanh\theta=\dot a/2$. Then $\mu$ is the instantaneous frequency at the pulse edge as a fraction of its $\zeta\to\infty$ value, i.e. the fraction of the final spectral width already generated.
+
+This background is the wave-breaking-free parabolic pulse (Anderson et al. 1993). The closed parametrization is elementary.
+
+Chirped launch:
+- $\dot a(0)=\dot a_0=-\varepsilon C$ follows the same orbit, shifted and rescaled.
+- $a=a_m\cosh^2\theta$ with $a_m=(1+\dot a_0^2/4)^{-1}$.
+- $\zeta=a_m^{3/2}[s(\theta)-s(\theta_0)]$, where $s(\theta)=\theta/2+\sinh(2\theta)/4$.
+- $\tanh\theta_0=\mu_0=(\dot a_0/2)/\sqrt{1+\dot a_0^2/4}$.
+- In unit-orbit variables the semiclassical parameter is $\tilde\varepsilon=\varepsilon/\sqrt{a_m}$.
+
+For the held-out case, $C=2N/\sqrt3$ gives $\mu_0=-1/2$ and $a_m=3/4$ (✓B5).
+
+## 3. Linearization and exact separation
+
+Perturb $\rho=\bar\rho+\delta\rho$ and $S=\bar S+\phi$, and drop $O(\varepsilon^2)$:
+- $\delta\rho_\zeta+(\bar\rho\phi_x+\bar v\delta\rho)_x=0$;
+- $\phi_\zeta+\bar v\phi_x+\delta\rho=0$.
+
+In comoving variables, $\delta\rho=n(\xi,\zeta)/a$. Because $\partial_\zeta|_x+\bar v\partial_x=\partial_\zeta|_\xi$,
+$$n_\zeta=-\frac{1}{a^2}\,\partial_\xi\big[(1-\xi^2)\partial_\xi\phi\big],\qquad \phi_\zeta=-\frac{n}{a}.$$
+The spatial operator is the Legendre operator, which has $\mathcal L P_l=-l(l+1)P_l$. Bounded flux at the pulse edges ($\xi=\pm1$ are regular singular points) selects the polynomials $P_l$.
+
+Each Legendre component $l$ is therefore an exact, closed $2\times2$ block (✓A2):
+$$\dot n_l=\frac{l(l+1)}{a^2}\phi_l,\qquad \dot\phi_l=-\frac{n_l}{a}.$$
+
+Use the physical variables:
+- $p=-\phi/\varepsilon$, the phase perturbation in rad;
+- $\nu=\delta\rho/\bar\rho$, so that $n=(1-\xi^2)\nu$.
+
+In the time $\theta$ the block becomes
+$$\frac{dp_l}{d\theta}=\frac{n_l}{\varepsilon},\qquad \frac{d(n_l/\varepsilon)}{d\theta}=-l(l+1)\,\mathrm{sech}^2\theta\;p_l,\qquad\Rightarrow\quad p_l''+l(l+1)\,\mathrm{sech}^2\theta\;p_l=0.$$
+This is a zero-energy, reflectionless Pöschl–Teller problem. Its solutions are $P_l(\tanh\theta)$ and $Q_l(\tanh\theta)$, the Ferrers functions (✓A3).
+
+Fundamental matrix, acting on $(p_l,n_l/\varepsilon)$:
+$$\Phi_l(\mu)=\begin{pmatrix}P_l&Q_l\\(1-\mu^2)P_l'&(1-\mu^2)Q_l'\end{pmatrix},\qquad \det\Phi_l=1,\qquad M_l(\mu,\mu_0)=\Phi_l(\mu)\Phi_l(\mu_0)^{-1}.$$
+The determinant is 1 by the Wronskian $(1-\mu^2)(P_lQ_l'-P_l'Q_l)=1$ (✓B1, B2, B3).
+
+Explicit blocks for $\mu_0=0$:
+- $l=0$: $\begin{pmatrix}1&\theta\\0&1\end{pmatrix}$. Energy is conserved, and the mean phase gains $\theta n_0/\varepsilon=\Phi_{NL}n_0$ (Kerr).
+- $l=1$: $\begin{pmatrix}1-\mu\theta&\mu\\-(1-\mu^2)\theta-\mu&1-\mu^2\end{pmatrix}$. This is the translation and Galilean boost, $P_1$ and $Q_1$. The timing shift is ballistic, $\delta T_c=-\varepsilon\kappa\zeta$ for a phase ramp $\kappa\xi$, and the mean frequency $\mu n_1/\varepsilon-(1-\mu^2)p_1$ is conserved (✓A5).
+- $l=2$: $\begin{pmatrix}1-3\mu^2&-\tfrac12Q_2(\mu)\\-6\mu(1-\mu^2)&-\tfrac12(1-\mu^2)Q_2'(\mu)\end{pmatrix}$, with $Q_2=P_2\,\mathrm{artanh}\,\mu-\tfrac32\mu$.
+
+The solutions with $l\le2$ are generated by symmetries (✓A4):
+- global phase gives $P_0$, and norm gives $Q_0$;
+- translation gives $P_1$, and Galilean boost gives $Q_1$;
+- $\zeta$-translation gives $P_2$, and peak-power scaling gives a combination of $P_2$ and $Q_2$.
+
+For $l\ge3$ there is no symmetry, and the blocks are new information.
+
+Conserved to first order (✓A5): energy ($n_0$), momentum, and the first variation of $H=\int(\rho v^2/2+\rho^2/2)$, which mixes $l=0$ and $2$.
+
+Late-time behaviour ($\mu\to1$, $\zeta\to\infty$):
+- $P_l\to1$ and $Q_l\to\theta-H_l$, where $H_l$ is the harmonic number;
+- density perturbations freeze in the comoving frame ($n_l\to$ const);
+- phase perturbations grow like $\theta\simeq\tfrac12\ln 8\zeta$.
+
+Geometry:
+- In $\eta=\arcsin\xi$ and $\tau=\arcsin\mu$ (the Gudermannian of $\theta$), the perturbation equation is $\mathcal L_\mu p=\mathcal L_\xi p$. It is symmetric in "time" $\mu$ and "space" $\xi$.
+- Sound travels at unit speed in $(\eta,\tau)$. The whole passive evolution moves a signal by only $\pi/2$, half the pulse.
+- The Riemann invariants of the background are $\pm2\cos(\tau\mp\eta)$.
+
+Prior art for this section:
+- The separation into static Thomas–Fermi modes with a scalar time equation is a special case of Fedichev & Fischer, PRA 69, 033602 (2004), Eqs. (22)–(25). There it is written for phase fluctuations of a superfluid in a time-dependent trap and solved by WKB.
+- Specialized to 1D, $\gamma=2$ and free release, their $F=1/b$ and $\tau_s=\int dt/b$ give exactly $\chi''+l(l+1)\mathrm{sech}^2\theta\,\chi=0$. That specialization is ours.
+- The closed-form solution, its optical identification ($\theta=\varepsilon\Phi_{NL}$, $\mu=$ spectral-broadening fraction), and everything below were not found in the searches.
+
+## 4. Which objects these are
+
+- **Frozen (instantaneous) eigenmodes.** The comoving generator is block-diagonal in $P_l$ at every $\zeta$. Its instantaneous frequencies are $\sqrt{l(l+1)}\,\mathrm{sech}\theta$ per unit $\theta$. Their ratios $\sqrt{l(l+1)/2}$ are the frozen 1D Thomas–Fermi values, i.e. $2n(n+1)$ up to normalization, as in Gallo–Pelinovsky and C-0001 prediction 2. The passive pulse never oscillates at these frequencies: the $\mathrm{sech}^2$ potential switches the coupling off.
+- **Finite-distance propagator.** It is exactly block-diagonal in the same comoving Legendre basis, for the pair (density, phase).
+- **Singular vectors in the field (vacuum) metric.** Not predicted. The vacuum covariance in $(n,p)$ is $\langle nn\rangle=(1-\xi^2)\delta/n_0$ and $\langle pp\rangle=\delta/[4n_0(1-\xi^2)]$. Neither is diagonal in $P_l$, and the second is singular at the edges, so field-metric singular vectors mix blocks. C-0001 prediction 1 (singular vectors converge to Gegenbauer modes) is therefore not supported by this derivation.
+- **Covariance eigenmodes.** Not predicted, for the same reason. Section 5 computes one specified measurement mode instead.
+
+## 5. Coherent-state noise for the matched local oscillator
+
+Conventions:
+- $[A(T),A^\dagger(T')]=\hbar\omega_0\delta(T-T')$ and $n_0=P_0T_0/\hbar\omega_0$.
+- A coherent input has $\langle\nu\nu\rangle=\delta(\xi-\xi')/[n_0(1-\xi^2)]$, $\langle pp\rangle=\delta/[4n_0(1-\xi^2)]$, and zero symmetric cross-correlation.
+- The commutator is $[\nu(\xi),p(\xi')]=i\delta/[n_0(1-\xi^2)]$, so $[n_l,p_m]=\tfrac{i}{n_0}\tfrac{2l+1}{2}\delta_{lm}$.
+
+The local oscillator is the output mean field itself, $f=e^{i\vartheta}\bar A_{\rm out}/\|\bar A_{\rm out}\|$. The quadrature, with shot noise equal to 1, is
+$$X_\vartheta=\sqrt{n_0/E}\int(1-\xi^2)\,[\cos\vartheta\,\nu+2\sin\vartheta\,p]_{\rm out}\,d\xi,\qquad E=4/3.$$
+It involves only $l=0$ and $l=2$, because $1-\xi^2=\tfrac23(P_0-P_2)$.
+
+Pulling back through $M_0$ and $M_2$ (from $\mu_0$ to $\mu$, with $\Delta\theta=\theta-\theta_0$ and $\tilde\varepsilon$ as in §2) gives
+$$X_\vartheta=\sqrt{n_0/E}\Big[\int(1-\xi^2)(\cos\vartheta+\sin\vartheta\,G)\,\nu_{\rm in}+2\sin\vartheta\int h\,p_{\rm in}\Big],$$
+$$G(\xi)=\frac{4}{3\tilde\varepsilon}\big[\Delta\theta-M^{(2)}_{12}P_2(\xi)\big],\qquad h(\xi)=\tfrac23\big[1-M^{(2)}_{11}P_2(\xi)\big].$$
+
+With the weighted average $\langle f\rangle=\tfrac34\int(1-\xi^2)f\,d\xi$, the output covariance of the amplitude and phase quadratures is:
+- $C_{AA}=1$ exactly (photon number is conserved);
+- $C_{AP}=\langle G\rangle$;
+- $C_{PP}=\langle G^2\rangle+K$, with $K=\tfrac34\int h^2/(1-\xi^2)=1+\tfrac13(1-M^{(2)}_{11})^2J_\delta$;
+- $J_\delta=\int_{-1+\delta}^{1-\delta}P_2^2/(1-\xi^2)\,d\xi=\ln\frac{2-\delta}{\delta}-3+O(\delta)$ (✓B4f).
+
+Checks of this covariance:
+- the commutator is preserved, $[X_A,X_P]=2i$ for all $\zeta$ (✓B4a);
+- $\det C=\mathrm{Var}(G)+K\ge1$ (✓B4b);
+- generic polynomial local oscillators preserve their commutators (✓B4c);
+- in the low-power limit $C\to I$ (✓B4d);
+- in the pure-SPM limit the result is the local single-mode Kerr covariance (✓B4e).
+
+**Profile-limited squeezing.** Let $\varepsilon\to0$ at fixed $\zeta$, and write $g=\Delta\theta-M_{12}P_2$, using $\langle P_2\rangle=-1/5$ and $\langle P_2^2\rangle=1/7$. Then
+$$V_{\min}\to R_\infty=\frac{\mathrm{Var}(g)}{\langle g^2\rangle}=\frac{\tfrac{18}{175}M_{12}^2}{\Delta\theta^2+\tfrac25\Delta\theta M_{12}+\tfrac17M_{12}^2}.$$
+For $\mu_0=0$, $M_{12}=-Q_2/2$, so
+$$R_\infty=\frac{\tfrac{18}{175}Q_2^2}{4\theta^2-\tfrac45\theta Q_2+\tfrac17Q_2^2}.$$
+
+Its behaviour along the fibre:
+- $R_\infty\to1/15$ as $\zeta\to0$. This is pure SPM, $1-(\int I^2)^2/(\int I\int I^3)$ for $I=1-\xi^2$. The general formula is probably in the pulsed-Kerr literature for Gaussian and sech pulses, which was not accessed in full text.
+- $R_\infty\to2/65$ as $\zeta\to\infty$, logarithmically slowly.
+- $R_\infty=0$ where $Q_2(\mu^*)=0$:
+$$\mu^*=0.937612,\quad \theta^*=1.717920,\quad a^*=8.2724,\quad \zeta^*=4.737126.$$
+
+Classical meaning of $\mu^*$. Perturbing the launched peak power, $P_0\to P_0(1+\eta)$ at fixed $T_0$ and $z$, maps $a(\zeta)\to a(c\zeta)$ with $c=\sqrt{1+\eta}$. The comoving chirp slope $c\,\dot a(c\zeta)/a(c\zeta)$ is then stationary in $\eta$ when $a\dot a+\zeta(a\ddot a-\dot a^2)=0$. With $\dot a=2\mu$, $a=(1-\mu^2)^{-1}$ and $\zeta=(\theta+\mu a)/2$, this condition reduces to $(1-\mu^2)\,[3\mu+\theta(1-3\mu^2)]=0$, i.e. $Q_2(\mu)=0$.
+
+At fixed $L$, the physical chirp rate is $(\partial_T\delta\omega)\,\beta_2L=\zeta\dot a/a$. It rises from 0, peaks at $1.0738$ at $\zeta^*$, and tends to 1, the linear far-field value, as $\zeta\to\infty$ (✓B6).
+
+Mechanism: at $\mu^*$ the $l=2$ density-to-phase transfer vanishes. The Kerr phase that the matched local oscillator reads is then uniform across the pulse, so the matched mode behaves as one single-mode Kerr medium. Near $\zeta^*$ the floor is $V_{\min}\simeq K/(1+\langle G\rangle^2+K)\approx\tfrac{9\varepsilon^2}{16\theta^{*2}}K$.
+
+## 6. Edge corrections
+
+**Noise (derived up to an unknown constant).** $h(\pm1)=\tfrac23(1-M^{(2)}_{11})\ne0$ once $\zeta>0$. The pulled-back measurement therefore weights the vacuum phase noise at the input edges, where $\langle pp\rangle\propto1/(1-\xi^2)$, and $K$ diverges logarithmically in the hydrodynamic description.
+
+That description fails where the local healing length $\varepsilon/\sqrt{\bar\rho}$ exceeds the distance to the edge, i.e. for $1-|\xi|\lesssim\varepsilon^{2/3}$. With $\delta=c\,\varepsilon^{2/3}$, where $c$ is not predicted:
+$$K=1+\tfrac29(1-M^{(2)}_{11})^2\ln\frac1\varepsilon+\text{const},\qquad \mu_0=0:\ (1-M_{11})=3\mu^2\Rightarrow K=1+2\mu^4\ln\tfrac1\varepsilon+\text{const}.$$
+At $\zeta^*$ the slope is $2\mu^{*4}=1.5457$.
+
+This is the leading edge term in the covariance. It is $O(\varepsilon^2\ln\varepsilon)$ relative to $C_{PP}$, and it controls $V_{\min}$ only near $\zeta^*$. Its coefficient tests the $\varepsilon^{2/3}$ cut-off. A cut-off at $\delta\propto\varepsilon$ would give a slope of $3\mu^{*4}=2.32$ instead.
+
+**Classical transfer (estimated, not derived).** The corrections to the blocks come from four sources:
+1. Bulk quantum pressure: $O(\varepsilon^2)$.
+2. Naive Eulerian first-order theory: it has an edge-singular integrand $\propto(1-\xi)^{-3}$, because $P_l(\pm1)\ne0$ moves the edge, and would give $\varepsilon^2\delta^{-2}=\varepsilon^{2/3}$. In Lagrangian displacement variables the modes are regular ($u=P_l'/l(l+1)$). The second variation of the dispersive energy $\tfrac{\varepsilon^2}{8}\int\rho_x^2/\rho$ then has only a logarithmic edge singularity ($\bar\rho_X^2/\bar\rho\sim(1-\xi)^{-1}$). That gives $O(\varepsilon^2\ln1/\varepsilon)$, consistent with the frozen-trap literature: 3D $\varepsilon^2$ or $\varepsilon^2\ln\varepsilon$ (Fetter–Feder; Zambelli–Stringari), and $O(\varepsilon^2)$ numerics in Gallo–Pelinovsky's model problem.
+3. Readouts weighted by $(1-\xi^2)$: the edge layer contributes $O(\delta^2)=O(\varepsilon^{4/3})$.
+4. The sharp corner of an exact-parabola launch: it carries a grid-dependent dispersive energy $\sim\varepsilon^2\ln(1/\Delta x)$, which is radiated away as fast dispersive waves.
+
+The quantum-pressure correction to the background also enters, and in Eulerian variables it is edge-singular. Its force on the core is $-2\varepsilon^2\xi/[a^3(1-\xi^2)^3]$. Projected on the displacement modes $P_l'$, it gives $\int\xi P_l'/(1-\xi^2)^2\sim\delta^{-1}$, i.e. $O(\varepsilon^{4/3})$, unless matched asymptotics with the Painlevé-II edge layer cancels it. In the 3D trapped-condensate problem the corresponding terms cancel, leaving $\varepsilon^2\ln\varepsilon$ or $\varepsilon^2$.
+
+The static 1D Thomas–Fermi edge cancels the same way, as follows.
+- Near $x=1$ the ground state of $-\tfrac{\varepsilon^2}{2}u''+(x^2-1)u+u^3=0$ is $u=(\varepsilon/L)\,q(y)$ with $x-1=Ly$, $L=(\varepsilon^2/4)^{1/3}$, and $q$ the Hastings–McLeod solution of $q''=yq+2q^3$.
+- The edge-layer mass relative to Thomas–Fermi is then $(\varepsilon^2/L)\int[q^2-(-y/2)_+]\,dy$. The large-$|y|$ tail $-1/(8y^2)$ of the integrand matches the core correction $-\varepsilon^2/[8(1-x)^2]$.
+- Tracy–Widom give $\int_y^\infty q^2=(\log F_2)'(y)=y^2/4-1/(8y)+o(1/y)$ as $y\to-\infty$. The constant $\chi$ in $\log F_2$ drops out on differentiation, so $\int[q^2-(-y/2)_+]\,dy=0$ exactly.
+  - Source: Tracy & Widom, Commun. Math. Phys. 159, 151 (1994), [DOI:10.1007/BF02100489](https://doi.org/10.1007/BF02100489), arXiv:hep-th/9211141. Abstract only; the left-tail expansion is quoted from memory, not read there.
+  - It is confirmed numerically: a boundary-value solution of Hastings–McLeod gives the integral as $4\times10^{-6}$ (✓B8).
+- The $O(\varepsilon^{4/3})$ mass term therefore vanishes, and edge effects on global quantities of the static problem start at $O(\varepsilon^2)$, possibly with a logarithm.
+
+This is an argument for the static problem only. It has not been checked for the dynamic case: the sharp-cornered launch has no Painlevé-II layer at $\zeta=0$, and the layer forms during a transient. The claim therefore asserts only that the transfer errors fall at least as fast as $\varepsilon^{4/3}$. The term after the cancellation, if it happens, is $\varepsilon^2\ln(1/\varepsilon)$.
+
+## 7. Robust readouts of the even blocks
+
+These are integral moments of the output perturbation in normalized units ($x=T/T_0$, $\rho=|A|^2/P_0$, $\xi=x/a$):
+- $n_0=\tfrac12\int\delta\rho\,dx$;
+- $n_2=\tfrac{15}{4}\big[a^{-2}\int x^2\delta\rho\,dx-\tfrac23n_0\big]$;
+- $p_2=-\tfrac{5}{4\varepsilon}\big[\delta\!\int x\rho v\,dx-a\dot a\,a^{-2}\!\int x^2\delta\rho\,dx\big]$, where $\rho v=-\varepsilon\,\mathrm{Im}(\psi^*\psi_x)$ in Agrawal's convention;
+- $p_0=\tfrac34\big[\int\mathrm{Im}(\bar\psi^*\delta\psi)\,dx+\tfrac{4}{15}p_2\big]$.
+
+Odd blocks, using $\int x^k\bar\rho\,\delta v\,dx=\varepsilon a^{k-1}\int\partial_\xi[\xi^k(1-\xi^2)]\,p\,d\xi$ and $\xi^3=(3P_1+2P_3)/5$:
+- $n_1=\tfrac32a^{-1}\int x\delta\rho\,dx$;
+- $n_3=\tfrac{35}{4}[a^{-3}\int x^3\delta\rho\,dx-\tfrac25n_1]$;
+- $p_1=-\tfrac{3a}{4\varepsilon}[\delta\int\rho v\,dx-\tfrac{\dot a}{a}\int x\delta\rho\,dx]$;
+- $p_3=-\tfrac{35}{16}[(\varepsilon a)^{-1}(\delta\int x^2\rho v\,dx-\tfrac{\dot a}{a}\int x^3\delta\rho\,dx)+\tfrac4{15}p_1]$.
+
+A moment of order $k$ projects only onto $l\le k$, so all eight readouts are exact.
+
+None of them uses the phase where the field vanishes.
+
+Physical observables in terms of the block amplitudes:
+- energy: $\delta E/E=\tfrac32n_0$;
+- rms width: $\delta\sigma/\sigma=\tfrac12(n_0+n_2)$;
+- chirp slope: $\delta(\partial_T\delta\omega)\,T_0^2=-3p_2/a^2$;
+- matched-LO phase: $\bar p=p_0-p_2/5$.

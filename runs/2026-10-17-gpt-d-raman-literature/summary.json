@@ -1,0 +1,85 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-d-raman-literature",
+  "sources": [
+    {
+      "doi": "10.1364/JOSAB.377891",
+      "authors": "Bonetti et al.",
+      "access": "full text",
+      "read": "All six article pages; equation (12) and the plots inspected visually.",
+      "url": "https://ri.itba.edu.ar/bitstreams/c884d094-31f2-47ae-baf2-27d64a618e54/download",
+      "finding": "Photon-conserving model and energy decrease are prior work. Equations (1)-(16) do not explicitly state the arbitrary-field spectral energy identity, E-squared ceiling, or integrated retention bound."
+    },
+    {
+      "arxiv": "2607.05244",
+      "authors": "Huang et al.",
+      "access": "full text",
+      "read": "Energy and bright-soliton equations (12)-(23), with relevant supplemental energy integrals.",
+      "url": "https://arxiv.org/html/2607.05244v1",
+      "finding": "Equation (18) explicitly has E-squared divided by sech-width cubed in the long-pulse Raman approximation. The inverse-cube exponent and leading energy-loss coefficient are not a new physical effect."
+    },
+    {
+      "arxiv": "2402.04806",
+      "authors": "Nordebo and Stumpf",
+      "access": "full text",
+      "read": "Sections II, III-C and appendices A-B; other material examples screened.",
+      "url": "https://arxiv.org/html/2402.04806v1",
+      "finding": "Positive measures and response sum rules are standard tools for passive-response bounds. Equations (50)-(59) give the general representation/sum-rule framework; the Raman energy-retention inequality was not found."
+    },
+    {
+      "doi": "10.1364/JOSAB.19.002886",
+      "authors": "Hollenbeck and Cantrell",
+      "access": "full text",
+      "read": "Response/gain sections and limitations of the single oscillator; accessed complete PDF.",
+      "url": "https://opg.optica.org/josab/abstract.cfm?uri=josab-19-12-2886",
+      "finding": "Multi-vibrational-mode response and gain model; the imaginary response is the Raman gain. Single-oscillator silica parameters are a common approximation with important fine-structure limitations. No energy-squared retention or arctangent intensity-norm bound found in the reviewed equations."
+    },
+    {
+      "doi": "10.1364/OL.31.003086",
+      "authors": "Lin and Agrawal",
+      "access": "abstract only",
+      "url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-31-21-3086",
+      "finding": "The single Lorentzian misses the silica Boson-peak shoulder; this supports restricting the exact sech formula to its explicitly specified oscillator response."
+    },
+    {
+      "arxiv": "2511.04013",
+      "authors": "Nie et al.",
+      "access": "full text",
+      "read": "Main theory and supplementary sections I.1-I.3, including the nonadiabatic convolution approximation.",
+      "url": "https://arxiv.org/html/2511.04013v1",
+      "finding": "Published preprint treats duration-dependent full-response SSFS in microresonators and nonadiabatic reduction. It uses a Raman-band approximation, not the exact trigamma energy-loss ratio, the energy-squared ceiling, or the arctangent concentration bound. Related short-pulse crossover physics is prior work."
+    },
+    {
+      "doi": "10.1088/2515-7647/ab4976",
+      "authors": "Butler et al.",
+      "access": "full text",
+      "read": "ZBLAN section 3 and table 1, including visual check of page 6.",
+      "url": "https://pure.mpg.de/rest/items/item_3216687/component/file_3216688/content",
+      "finding": "Source of the fluoride oscillator, nonlinear index and mode-field diameter used here. The present beta2/beta3 values are declared surrogates, not extracted from its dispersion curve."
+    },
+    {
+      "doi": "10.1364/OL.11.000662",
+      "authors": "Gordon",
+      "access": "abstract only",
+      "url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-11-10-662",
+      "finding": "Foundational soliton self-frequency-shift width scaling; original full-text exact-overlap comparison remains unclosed."
+    },
+    {
+      "doi": "10.1364/OL.19.002065",
+      "authors": "Herrmann and Nazarkin",
+      "access": "abstract only",
+      "url": "https://opg.optica.org/ol/abstract.cfm?uri=ol-19-24-2065",
+      "finding": "Publisher abstract gives an inverse-duration short-pulse soliton frequency-shift regime. This is direct prior work on the short-pulse crossover; full-text comparison of the exact normalized ratio and its linear gap coefficient remains open.",
+      "retrieval_note": "Publisher PDF endpoint returned no accessible article text; ResearchGate article endpoint failed. No full-text access is claimed."
+    }
+  ],
+  "verdict": "Leading long-pulse law is published; exact normalized curve, short-gap coefficient, and conditional arctangent bound were not found in this restricted search. Novelty is unestablished. The post-commit gpt-b comparison confirms the identity and weaker peak bound are already present internally; dynamical closure remains open. Herrmann and Nazarkin (1994) are additional direct short-pulse crossover prior work; only their publisher abstract was accessible.",
+  "internal_review_comparison": {
+    "path": "docs/review-2026-10-16-gpt-b-supercontinuum-literature.md",
+    "access": "full text, long-wave/IR section read",
+    "read_after_independent_audit_commit": "bcecbc639d49b69ddfee93d8e4c97ccc5504c7dc",
+    "finding": "Same exact spectral identity and weaker peak/supremum-weight ceiling. The new arctangent bound improves that conditional inequality but does not provide the missing propagated-concentration/peak closure."
+  }
+}

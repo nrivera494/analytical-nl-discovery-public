@@ -1,0 +1,17 @@
+{
+ "N": 18,
+ "zr": 0.9,
+ "Z": 0.9543014682518549,
+ "Phi": 17.177426428533387,
+ "lam_min_formula": 0.0019262459319194976,
+ "lam_min_lo": 0.0019131894691119663,
+ "F_centroid": 0.008264537179543223,
+ "F_centroid_rel_tol": 0.01,
+ "lam_gen_max_dB_below_centroid": 1.0,
+ "Fpar_min_dB_over_gen": 7.0,
+ "bin_over_Fpar_dB_range": [
+  2.0,
+  6.5
+ ],
+ "frozen_note": "committed before computing"
+}

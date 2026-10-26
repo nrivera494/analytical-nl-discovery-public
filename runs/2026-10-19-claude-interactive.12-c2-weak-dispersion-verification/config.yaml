@@ -1,0 +1,40 @@
+run_id: 2026-10-19-claude-interactive.12-c2-weak-dispersion-verification
+claim: C-20261019-pi-chatgpt-01
+task: T-20261019-claude-interactive-02
+scripts:
+  derive_c2.py: "independent symbolic second-order derivation (SymPy); args: <out.json> [gauss|sech|gq]; env MEAN_DISP=0 drops dispersion from the mean equation (ablation)"
+  lam_min.py: "full mean + tangent propagation; Fourier grid, interaction picture, DOP853 (scipy) or fixed-step RK4IP; restricted-input SVD"
+  sweep.py: "drivers: main, conv, sech, tight, smallphi, full, gq (sequential, one process)"
+  analyse.py: "fits, exponents, convergence table, summary.json, fig_summary.png"
+commands:
+  - "python derive_c2.py derive_c2.json gauss"
+  - "python derive_c2.py derive_c2_sech.json sech"
+  - "MEAN_DISP=0 python derive_c2.py derive_c2_ablation_no_mean_reshaping.json gauss"
+  - "OPENBLAS_NUM_THREADS=2 python sweep.py <raw_dir> main"
+  - "OPENBLAS_NUM_THREADS=2 python sweep.py <raw_dir> conv"
+  - "OPENBLAS_NUM_THREADS=2 python sweep.py <raw_dir> sech"
+  - "OPENBLAS_NUM_THREADS=2 python sweep.py <raw_dir> tight"
+  - "OPENBLAS_NUM_THREADS=2 python sweep.py <raw_dir> smallphi"
+  - "OPENBLAS_NUM_THREADS=2 python sweep.py <raw_dir> full"
+  - "python derive_c2.py derive_c2_gq.json gq"
+  - "OPENBLAS_NUM_THREADS=2 python sweep.py <raw_dir> gq"
+  - "python analyse.py <raw_dir>"
+model: "u_zeta = -i (eps/2) u_xx + i Phi |u|^2 u, x = t/T0, zeta = z/L, eps = L/L_D = y/Phi; u(0,x) = exp(-x^2/2) (Gaussian) or sech(x); linearized tangent du_zeta = -i (eps/2) du_xx + i Phi (2|u|^2 du + u^2 du*); lossless, scalar, instantaneous Kerr"
+observable: "lambda_min = sigma_min(M P_in)^2, M the real tangent map on (Re du, Im du), vacuum covariance = identity; c_eff = [(lambda_min/lambda0 - 1)/(A sqrt(y)) - 1]/sqrt(y), lambda0 = (S - Phi)^2, A = sqrt(2/3) Phi/S"
+grid:
+  window: "periodic x in [-Xw, Xw), Xw = 10 (Gaussian), 25 (sech)"
+  N: "smallest power of 2 with dx <= sigma/3, sigma = (y/24)^(1/4): 2048 (y >= 2e-5), 4096 (2e-6..1e-5), 8192 (1e-7..1e-6), 16384 (y < 1e-7)"
+  input_support: "even grid functions (delta_{c+m} + delta_{c-m})/sqrt2, |x| <= 10 sigma, amplitude and phase quadrature columns"
+integrator: "DOP853 rtol 1e-13 (main), 3e-14 (tight reruns of y <= 1e-6 and small Phi), atol 1e-16"
+sweep:
+  Phi_main: [1.0, 1.5, 3.0, 7.0]
+  y_main: [1e-4, 5e-5, 2e-5, 1e-5, 5e-6, 2e-6, 1e-6, 5e-7, 2e-7, 1e-7]
+  y_below: "5e-8, 2e-8 at Phi = 3, 7"
+  source_table_points: "(Phi, y) = (10, 1e-6), (2, 1e-6), (10, 1e-5), (2, 1e-5)"
+  sech: "Phi = 1, 3; y = 1e-4, 3e-5, 1e-5, 3e-6, 1e-6"
+  small_phi: "Phi = 0.5, 0.25; y as main"
+  full_input: "Phi = 3, 1 at y = 1e-4, N = 1024: all grid points as inputs vs restricted support"
+  kappa4_zero_shape: "intensity exp(-x^2 - x^4/2) (kappa4 = 0), Phi = 3, 1, y = 1e-4..1e-6, rtol 3e-14; prediction frozen in HELDOUT_kappa4.md (commit 76856b7)"
+convergence: "Phi = 1, 3, 7 at y = 1e-4 and 1e-7: N doubled; Xw = 8 and 14; input support 7 and 14 sigma; rtol 1e-12 and 3e-14; even+odd input at y = 1e-6; RK4IP 1000 and 2000 steps with Richardson at y = 1e-4 (and Phi = 3, y = 1e-6)"
+fits: "c_eff = c + d sqrt(y) + e y over 1e-7 <= y <= 1e-4 (main estimate); c + d sqrt(y) over 1e-7..1e-5; quadratic over 2e-7..2e-5"
+seeds: none (deterministic)

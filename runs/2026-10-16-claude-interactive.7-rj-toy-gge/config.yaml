@@ -1,0 +1,20 @@
+# Run 2026-10-16-claude-interactive.7-rj-toy-gge
+# Resonant toy model (resonant_model.py; build(K, J=400, seed=0)), no disorder (sigma = 0).
+# Question: is the disorder-free long-z state the uniform measure on the (N, E', H_res) shell (GGE), and does it depend
+# on the input phases at fixed mode powers?
+steps:
+  hres_rj_check.py:   "H_res of the launches vs the RJ (Dirichlet x uniform phases) distribution of H_res (20000 samples, seed 5)"
+  gge_shell.py:       "POST-HOC GGE for the three disorder-free dephased cases of run 2026-10-16-claude-interactive.7-rj-toy-thermalization (reads H0 from its final_toy.jsonl); rejection |H_res - h| < 0.002, >= 4000 shell samples, seed 9"
+  gge_predict_focused.py:       "PRE-REGISTERED (written 15:33:01) GGE predictions for focused launches K=4 E'=0.9, K=5 E'=0.9, K=4 E'=0.6; seed 10"
+  gge_predict_dephased_K4E06.py: "PRE-REGISTERED (written 15:33:20, before that case's run reached it) GGE prediction for the K=4 E'=0.6 dephased launch; seed 11"
+  gge_focused_runs.py: "toy runs, sigma=0, zmax 20000, zburn 2000, dz 0.05, phase_seed 1: K=4 E'=0.9 focused; K=4 E'=0.6 focused; K=5 E'=0.9 focused; K=4 E'=0.6 dephased (started 15:33:12)"
+  summ_gge.py:        "comparison table -> gge_focused_summary.json"
+launch: "fundamental + equal power in groups 1 and 2 (a*1 + a*2 = E'); 'dephased' = one draw of uniform phases (phase_seed 1); 'focused' = phases aligned at the overlap pixel maximizing |sum_p u_pj sqrt(I_p)|"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore hres_rj_check.py"
+  - "~/agent-work/venv/bin/python -W ignore gge_predict_focused.py"
+  - "~/agent-work/venv/bin/python -W ignore gge_predict_dephased_K4E06.py"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore gge_focused_runs.py"
+  - "~/agent-work/venv/bin/python summ_gge.py"
+  - "~/agent-work/venv/bin/python -W ignore gge_shell.py   # needs final_toy.jsonl of the toy-thermalization run"
+figure: "fig_gge.py -> fig_gge.png"

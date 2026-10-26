@@ -1,0 +1,5 @@
+seed: 7
+grids: {n: [384, 640], window: [-24, 24]}
+test_profiles: {sech_A: [1.0, 2.5, 3.0], gaussian_A: 3.0}
+shaped_masks: {count: 40, polynomial_orders: [2, 3, 4, 5], coefficient_sd: 1.5, sine_ripple_amplitude: "U(0,1)", sine_ripple_period_factor: 1.7}
+convergence_filter: {tolerance: 2.0e-3, min_imag: 0.02}

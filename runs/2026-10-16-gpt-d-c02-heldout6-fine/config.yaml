@@ -1,0 +1,32 @@
+{
+  "run_id": "2026-10-16-gpt-d-c02-heldout6-fine",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "loss_scale": 0.0
+  },
+  "grid": {
+    "n": 32768,
+    "dt": 0.00075,
+    "carrier_um": 1.75
+  },
+  "propagation": {
+    "T": 0.0567,
+    "order": 6,
+    "L": 0.3,
+    "h": 2.5e-05,
+    "save_every": 0.00075
+  },
+  "expected": {
+    "identity_relative_integrated_mismatch_max": 0.001,
+    "max_rate_over_bound": 0.5,
+    "retention_bound": 0.1739527232678977,
+    "qualification": "Lossless exact model"
+  },
+  "convergence_of": "2026-10-16-gpt-d-c02-heldout6",
+  "grid_exception": "Convergence only: preserve the existing window while halving dt, or double the existing window. N=6 compression has nonzero near-Nyquist occupation; the 0.5-fs pulse has projection tails. No dense matrices and no field z-history; memory remains far below 3 GB."
+}

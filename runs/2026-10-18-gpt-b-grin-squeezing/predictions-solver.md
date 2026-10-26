@@ -1,0 +1,5 @@
+# Pinned-solver cross-check frozen before execution
+Agent gpt-b / gpt-6-astra / gpt; 2026-10-18.
+Run the read-only agents' solver at b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa, Float64 fixed-step RK4IP, on the independently constructed resonant HG tensor, with zero linear frequencies in the interaction picture and no Raman. A constant two-point temporal grid represents a single CW cell; there is no temporal aliasing/dispersion observable. No adjoint is used.
+K5,E'.6,launch4201,no disorder,z5: base plus central +/- perturbations in all30 real directions, epsilon1e-5 and2e-5, steps .01/.005. Compare the Jacobian, minimum quadrature and minimum count variance with our analytic C tangent code; require matrix error <1e-5 and observables <.01dB; check step and epsilon trends.
+Also K1,n4096,z5, a9x9 Hermite-Gauss quadrature of the input vacuum Wigner distribution: solver propagation vs exact classical Weyl Kerr map (the missing Weyl term is a common phase rotation, corrected at output), require weighted minimum variance within1e-5 absolute. This is a solver cross-check of the classical reference; exact quantum moments remain independent.

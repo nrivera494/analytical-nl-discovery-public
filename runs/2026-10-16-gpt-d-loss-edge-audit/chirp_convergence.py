@@ -1,0 +1,12 @@
+"""Post-scan GDD convergence, independent implementation: gpt-d/gpt-6-astra/gpt."""
+from independent import *
+memory_ok();t0=time.monotonic();rid='2026-10-16-gpt-d-chirp-convergence';rd=ROOT/'runs'/rid;raw=RAW/rid;raw.mkdir(exist_ok=True);cfg=json.loads((rd/'config.yaml').read_text());rows=[]
+f=Fibre('S28',loss_scale=0.);T=.0567;P,_=f.launch(T,3)
+for case in cfg['cases']:
+ memory_ok();s=GNLSE(f,n=case['n'],dt=case['dt'],carrier_um=1.75)
+ Q=ifft(np.sqrt(P)*sech(s.t/T)*np.exp(-1j*(f.w0-s.wref)*s.t));Q*=np.exp(.5j*case['GDD_fs2']*1e-6*(s.w-f.w0)**2)
+ out,arr=s.run(T,1.,case['h'],order=3,cutoffs=[1.75,1.85],save_every=.05,Q0=Q,progress=False)
+ rows.append({**case,'final':out['records'][-1],'wall_s':out['wall_s']});print(json.dumps(rows[-1]),flush=True)
+ np.savez_compressed(raw/f"fields_{case['label']}_{case['GDD_fs2']}.npz",**arr)
+summary={**IDENTITY,'run_id':rid,'cases':rows,'wall_s':time.monotonic()-t0};dump(rd/'summary.json',summary)
+(rd/'meta.yaml').write_text(f'run_id: {rid}\nagent: gpt-d\nmodel: gpt-6-astra\nfamily: gpt\nclaim: C-20261016-claude-interactive.6-01 (supplementary shaping)\nsolver_commit: {SOLVER}\nsolver_dirty: false\nhardware: {socket.gethostname()}\nwall_time_s: {summary["wall_s"]}\nraw_location: {raw}\n')

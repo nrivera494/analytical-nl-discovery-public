@@ -1,0 +1,11 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "batch_vs_single": 0.0,
+  "duplicate_spread": 0.0,
+  "fine_duplicate_spread": 0.0,
+  "fine_N_drift": 1.1948220191015935e-12,
+  "fine_E_drift": 4.3498538104813633e-13,
+  "bridge_coupled_field_difference": 0.0072940684395099405
+}

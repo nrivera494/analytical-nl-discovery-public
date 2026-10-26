@@ -1,0 +1,10 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "edge": 0.7368,
+  "b0": -0.8360818049672138,
+  "coefficient_of_log_z_per_rho": 0.1266035972462525,
+  "frozen_before_tail_quadrature": true,
+  "model_scope": "fixed centered mask, frozen white Raman source, infinite line"
+}

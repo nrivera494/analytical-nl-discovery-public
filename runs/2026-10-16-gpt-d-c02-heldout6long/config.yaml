@@ -1,0 +1,30 @@
+{
+  "run_id": "2026-10-16-gpt-d-c02-heldout6long",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "loss_scale": 0.0
+  },
+  "grid": {
+    "n": 16384,
+    "dt": 0.0015,
+    "carrier_um": 1.75
+  },
+  "propagation": {
+    "T": 0.1702,
+    "order": 6,
+    "L": 1.5,
+    "h": 0.00025,
+    "save_every": 0.00375
+  },
+  "expected": {
+    "identity_relative_integrated_mismatch_max": 0.001,
+    "max_rate_over_bound": 0.5,
+    "retention_bound": 0.11223558021509106,
+    "qualification": "Lossless exact model"
+  }
+}

@@ -1,0 +1,129 @@
+run_id: 2026-10-16-claude-b.7-solver-dwyield
+date: 2026-10-16
+agent: claude-b.7
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-03
+serves: >-
+  P-20261016-claude-interactive-01 (dispersive-wave yield of fibre supercontinuum): independent
+  FastDifferentiableMMNLO computations that cross-check claude-b's numpy split-step code on
+  (1) the Roy-Bhadra-Agrawal check (sech N = 2, xi = 4, delta3 = 0.02-0.10), (2) the gated DW
+  yield law (sech N = 2, xi = 4, delta3 = 0.010-0.030), (3) the card regime (TL Gaussian,
+  N = 3-10, xi <= 2), (4) the same with Raman (model M1, T0 = 50 fs).
+description: >-
+  Normalized model i u_xi + (1/2) u_tautau + N^2 |u|^2 u = i delta3 u_tautautau realized with
+  L_D = 1 m: beta2 = -T0^2 ps^2/m, beta3 = 6 delta3 T0^3 ps^3/m, gamma = 1 /W/m, P0 = N^2 W,
+  length = xi m, omega0 T0 = 1e6 (self-steepening suppressed), NoRaman() (M0) or
+  AgarwalRaman(fraction 0.18, tau1 12.2 fs, tau2 32 fs) with T0 = 50 fs (M1). Fixed-step Float64
+  RK4IP on the CPU backend. Observables exactly as specified by claude-b (band w = Omega T0 >=
+  1/(6 delta3); eta_B; eta_DW with the field zeroed for |tau| < 8; NSR peak level in dB relative
+  to the input and output spectral maxima, dnu_d T0 = w_peak/(2 pi); E, P = <w>, H). Extra
+  diagnostics, clearly labelled: smooth (tanh, width 1) gate, delta3 = 0 reference runs,
+  fractional-edge band sums and fringe-averaged (boxcar width 1 in w) peak levels from the saved
+  spectra, xi-resolved yields, a self-steepening residual check at omega0 T0 = 1e7, 1e8.
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_remote_check: "origin of solver/ is FastDifferentiableMMNLO-agents; git -C solver status --porcelain printed nothing before and after the runs"
+julia: "1.12.5, JULIA_NUM_THREADS=2, FFTW and BLAS threads 1"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0.1 (host COECIS-G3FLW49YGQ); other agents' jobs ran concurrently (load average 60-170)"
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-dwyield/run_dw.jl lin   (then stage timing: speed test only, no results)"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-dwyield/run_dw.jl item1 item1_conv item4 item4_conv item4_grid item2_ref item2_grid"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-dwyield/run_dw.jl item2 item2_conv item3 item3_conv item3_grid"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-dwyield/run_dw.jl ss item1_grid item4_grid2 item2_xi"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-dwyield/run_dw.jl item3_win"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-dwyield/run_dw.jl item3_win10"
+  - "~/agent-work/venv/bin/python runs/2026-10-16-claude-b.7-solver-dwyield/summarize.py"
+files:
+  library: dw_lib.jl (model mapping, observables, invariants, JSON lines, npz output)
+  driver: run_dw.jl (stages; grids G1/G2/G3 and all cases)
+  config: config.toml (human-readable list of the cases; run_dw.jl is authoritative)
+  summarizer: summarize.py -> summary.json
+seeds: none (deterministic)
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-16-claude-b.7-solver-dwyield/ (results_<stage>.jsonl: every saved plane of every case; <stage>_<case>.npz: input/output spectra, gated output spectrum, output power, for the base runs)"
+decisions:
+  - "Physical mapping with L_D = 1 m, T0 = 1 ps (M0) or 50 fs (M1), so xi = z in metres; only N, delta3 (and tau1/T0, tau2/T0 for M1) matter."
+  - "Self-steepening suppressed by omega0 T0 = 1e6 (s = 1e-6). For M1 the solver's Raman time constants are absolute (ps) and independent of omega0, so Raman stays physical while self-steepening is off; lambda0 = 835 nm is therefore not used."
+  - "Reported values: finest step on the base grid (item 1: G1 n8000; item 2: G2 n8000; item 3: G2 at twice the base step count; item 4: G1 n8000, with 0.98 fs and 0.49 fs refinements also given). Convergence numbers are X(first-named)/X(second-named) - 1."
+  - "eta_DW uses the hard gate exactly as specified (samples with |tau| < 8 set to zero). Because a hard gate leaks broadband energy from whatever field sits at |tau| = 8, a smooth-gate variant, delta3 = 0 reference runs and the gated yield at xi = 0 are reported as floors/diagnostics."
+  - "NSR peak: band maximum of |A_k|^2 on the grid (flag if it sits on the band edge) and the largest interior local maximum (the DW peak); both normalizations. When the band maximum is the band edge (item 2, delta3 <= 0.016: soliton spectral wing), the DW numbers are the interior local maximum."
+  - "Invariants: E and H relative drifts; P = <w> absolute drift (P = 0 at input)."
+grids:
+  G1: "window 160 T0, Nt 4096, dtau 0.0391, w_max 80.4 (Raman: dt = 1.95 fs)"
+  G2: "window 256 T0, Nt 16384, dtau 0.0156, w_max 201.1"
+  G3: "window 384 T0, Nt 32768, dtau 0.0117, w_max 268.1"
+  G1x2_G1x4: "window 160 T0, Nt 8192 / 16384 (Raman dt 0.98 / 0.49 fs)"
+  W512: "window 512 T0, Nt 32768, dtau 0.0156 (item-3 window check)"
+convention_check: >-
+  stage lin (gamma = 0, delta3 = 0.05, xi = 0.05, G1): A_k(xi)/A_k(0) = exp(i D(w_k) xi) with
+  D = delta3 w^3 - w^2/2 to max abs error 1.19e-6 over 2305 bins (|w| <= 45.2, |D xi| up to 283 rad;
+  consistent with FFT round-off in the weakest tested bins, threshold 1e-20 of the spectral maximum); the alternatives
+  -delta3 w^3 - w^2/2 (flipped axis or beta3 sign), -D, and 6 delta3 w^3 - w^2/2 (missing 1/6) all give
+  errors of 2.0. A field exp(-tau^2/2 - 5 i tau) peaks at w = +4.987 (nearest bin to +5), so the solver's
+  A(t) = sum_k A_k exp(-i w_k tau), A_k = fftshift(ifft(A(t))). A packet at w1 = 10 (delta3 = 0.05) is
+  delayed to tau = 10.017 after xi = 2 (D'(w1) xi = 10.000; +0.017 is the TOD shift of the centroid
+  for its bandwidth), i.e. positive delay = trailing. No surprises: TaylorBeta uses beta_k Omega^k / k!.
+convergence:
+  item1: >-
+    Step halving (G1, 4000 -> 8000 steps over xi = 4): |relative change| <= 5.4e-7 (eta_B), 1.4e-6
+    (eta_DW), NSR level <= 2e-5 dB, peak frequency unchanged. Grid G1 -> G2 (8000 steps): eta_B
+    -4.6e-3 (delta3 0.02), +7.0e-5 (0.03), -9.8e-4 (0.04), +1.0e-3 (0.06), -2.0e-4 (0.10)
+    (first-named / second-named - 1); this is the discretization of the band edge on bins of width
+    dw (the band maximum region near w_z is steep); the fractional-edge band sum changes by +3.1e-5
+    (0.02) and +2.5e-6 (0.03) between G1 and G2. eta_DW changes <= 1.8e-3 (largest at delta3 = 0.10,
+    where the DW packet sits at the gate edge); smooth-gate yield <= 2.4e-4. NSR peak level:
+    -0.305 dB at delta3 = 0.02 (the DW spectrum carries fringes of period ~0.17-0.2 in w, about
+    5 bins on G1, and the sampled fringe maximum depends on dw); <= 0.005 dB at the other delta3;
+    peak frequency <= 0.025 in w. The fringe-averaged level (boxcar width 1 in w) agrees between G1 and G2
+    to 0.002 dB (-27.581 vs -27.579 dB at delta3 = 0.02).
+  item2: >-
+    Step halving (G2, 4000 -> 8000): |relative change| <= 5.4e-7 (eta_B), <= 2.3e-5 (eta_DW),
+    <= 2.1e-4 (smooth gate, at delta3 = 0.010). Grid G2 -> G3 at delta3 = 0.010 (8000 steps): eta_B
+    -8.1e-3 (band-edge discretization; fractional-edge sums differ by 2.2e-5), eta_DW +2.6e-3 (hard-gate
+    discretization at |tau| = 8), smooth-gate yield 5.9e-11, DW local-peak level 0.074 dB, peak w 0.008.
+  item3: >-
+    Step doubling (G2, base -> 2x steps): |relative change| <= 1.9e-6 for eta_B at all saved xi and
+    for eta_DW(2), except N = 10: eta_B <= 2.9e-5, eta_DW(2) 7.4e-5. Window/grid: W512 (window 512,
+    same dtau, same step) vs G2 for N = 6 and N = 8: eta_B <= 3.7e-4, eta_DW(2) <= 1.7e-5. N = 10:
+    G3 vs G2 (40000 steps): eta_B <= 5.3e-4 (3.2e-6 at xi = 2) but eta_DW(2) -2.3 % and the smooth
+    gate -2.5 % (G2 low): 2 % of the energy is at w >= 32, whose group delay over xi ~ 2 exceeds
+    243 T0 and wraps into the |tau| < 8 gate on the 256 T0 window. Window 1024 T0 (Nt 65536, same
+    dtau, 20000 steps): eta_DW(2) = 0.275620, eta_DW_smoothgate(2) = 0.270969; G3 (384 T0) differs from it
+    by 9.4e-5 and G2 by -2.3 %; eta_B(2) agrees to 7.6e-6 on all three windows; eta_B at xi = 0.5-1.5
+    differs by up to 1.2e-3 between windows (band-edge discretization: w_z = 3.33 lies inside the broad
+    spectrum). For N = 10 the reported eta_DW(2) is therefore the 1024 T0 value.
+  item4: >-
+    Step halving (G1, 4000 -> 8000): <= 3.0e-6. Raman kernel / time step 1.95 -> 0.98 -> 0.49 fs
+    (window fixed, 8000 steps): eta_B +6.97e-3 then +1.73e-3 (delta3 0.02), +3.47e-3 then +8.6e-4 (0.03),
+    +1.78e-3 then +4.4e-4 (0.04): ratios 4.0, i.e. second order in dt (the kernel is sampled at the grid
+    step and h_R(0) = 0, so the quadrature error is O(dt^2)). Richardson-extrapolated eta_B: 9.267e-6,
+    2.6843e-3, 1.6130e-2; eta_DW: 2.7196e-5, 2.6307e-3, 1.5736e-2. NSR levels change <= 0.036 dB, peak
+    frequency unchanged.
+invariants: >-
+  Energy: relative drift <= 2.2e-10 (item 1, 8000 steps; 5.5e-9 at 4000 steps, ratio 26, about 4th order),
+  <= 2.2e-10 (item 2), <= 3.9e-8 (item 3). Momentum <w>: drift 0.6e-5 to 1.9e-4 and Hamiltonian
+  relative drift 1e-7 to 1.1e-4, independent of the step; both scale as s = 1/(omega0 T0): at
+  delta3 = 0.04 (item 1) dP = 1.45e-5, 1.45e-6, 1.43e-7 and dH = 1.37e-5, 1.37e-6, 1.36e-7 for
+  omega0 T0 = 1e6, 1e7, 1e8, so they are the suppressed self-steepening, not integration error;
+  eta_B changes by 2.0e-5 relative between s = 1e-6 and 1e-8. delta3 = 0 reference (pure NLSE):
+  dP = 6.2e-6 (also s), dH 7e-10. Raman (M1): <w> moves by -3.77, -3.32, -2.90 (soliton
+  self-frequency shift) and the energy drift equals s * Delta<w> (-3.77e-6, -3.32e-6, -2.90e-6):
+  the (omega0 + Omega) prefactor conserves photon number, not energy; H is not conserved with Raman.
+findings_and_caveats:
+  - "Hard gate leakage. Zeroing |tau| < 8 cuts the soliton's exponential tail (and any radiation) at |tau| = 8 and leaks broadband energy into the band. Floor from the input sech and from the delta3 = 0 reference at xi = 4: eta_DW = 4.3e-9 (band of delta3 = 0.010) to 1.3e-8 (0.030). At xi = 4 the hard-gated yield exceeds the smooth-gate yield by 7.1 % (delta3 0.014), 0.8 % (0.016), <= 0.1 % (>= 0.020), but by 3.1x (0.012) and 309x (0.010): there the hard-gated number is not a DW yield. The smooth-gate floor is <= 2.4e-17 (delta3 = 0 reference, bands of delta3 <= 0.020)."
+  - "DW bursts and timing of xi = 4 (stage item2_xi). The N = 2 breather compresses at xi = 0.80, 2.40 and 3.95 (peak power 4.0-4.4 P0, xi resolution 0.05); the band yield jumps at each compression and plateaus in between: delta3 = 0.020: 9.34e-4 then 1.760e-3; 0.016: 2.09e-5 then 4.30e-5; 0.012: 2.16e-8 then 4.42e-8. At xi = 4 the third burst is still under the |tau| < 8 gate, so eta_DW(4) counts two bursts; the smooth-gate eta_DW(4) equals the inter-compression plateau to <= 2e-4. eta_B(4) is taken 0.05 after the third compression and is dominated by the compressed soliton's spectral wing at the band edge for delta3 <= 0.02 (e.g. 7.0e-3 vs DW plateau 1.76e-3 at delta3 = 0.020; 7.9e-5 vs 4.4e-8 at 0.012)."
+  - "Band-edge discretization. eta_B sums whole bins with w_k >= w_z; where the spectrum is steep at w_z the result depends on dw at the 0.1-1 % level (G1 vs G2 at delta3 = 0.02: 0.46 %; G2 vs G3 at 0.010: 0.81 %; mask runs TW 70 vs 280: 0.2 %). A fractional-edge sum (bin straddling w_z weighted by its fraction above w_z) removes this to <= 3e-5 and is given in summary.json for the saved spectra. Codes on different grids should be compared with that sum or on the same grid."
+  - "NSR peak sampling. For delta3 = 0.02 the DW spectrum has fringes of period ~0.17-0.2 in w (two bursts); the grid maximum depends on dw by 0.3 dB (G1 -23.36 dB, G2 -23.06 dB re input maximum). The fringe-averaged level (boxcar width 1 in w) is -27.58 dB on both grids."
+  - "Hard gate where the DW sits near |tau| = 8: item 1 delta3 = 0.10 and 0.06 (DW delay xi/(4 delta3) = 10 and 17) and item 3 N = 3, delta3 = 0.05 give eta_DW > eta_B (0.197 vs 0.167; 0.1148 vs 0.1142; 0.1668 vs 0.1647); the smooth gate gives 0.1645, 0.1095, 0.1375."
+  - "Raman (M1). The Raman-shifted soliton is at tau = 12 (mean frequency -3.8 to -2.9) at xi = 4, outside the gate, so the hard-gated eta_DW at delta3 = 0.02 (2.70e-5) is dominated by leakage from the soliton's leading tail; eta_B = 9.27e-6 (Richardson) and the smooth-gate yield 9.26e-6 are the DW energy. Raman lowers eta_B(4) relative to M0 by 750x (delta3 0.02), 10x (0.03), 3.9x (0.04); since M0 eta_B(4) at delta3 = 0.02 is dominated by the breathing soliton wing, the smooth-gated ratio there (190x) is the DW comparison."
+  - "Solver specifics that a numpy split-step code does not share: (i) residual self-steepening s = 1/(omega0 T0) = 1e-6 shifts yields by ~1-2e-5 relative (measured: eta_B 2.0e-5 at delta3 = 0.04; 1.0-1.3e-5 in the mask runs) and causes the momentum/Hamiltonian drifts; (ii) damped_freq_window tapers the nonlinear term at positive (blue) detunings above ~0.85 of Nyquist; the output spectrum above 0.8 of Nyquist is <= -135.9 dB re its maximum in every saved plane of every run, so it plays no role here; (iii) spectra are A_k = fftshift(ifft(A(t))) with A(t) = sum_k A_k exp(-i w_k tau), so a numpy code using np.fft.fft for time -> frequency has w reversed."
+  - "Window criterion. The suggested window >= 2 (xi/(4 delta3) + 15) covers the DW at 1/(2 delta3) only; at N = 10 (Gaussian, delta3 = 0.05) the phase-matched DWs reach w ~ 32 with delays > 240 T0 at xi = 2 and the gated yield needs >= 384 T0."
+wall_time_s: "about 2900 s of Julia process time in up to two concurrent processes, 11:52-12:28 EDT (stage times in the run logs: item1 19, item1_conv 21, item1_grid 72, ss 18, item2 93, item2_conv 201, item2_ref 49, item2_grid 72, item2_xi 57, item3 211, item3_conv 416, item3_grid 412, item3_win 207, item3_win10 677, item4 14, item4_conv 26, item4_grid 19, item4_grid2 294)"
+independence: >-
+  summary.json frozen 2026-10-16 12:28:49 EDT, sha256
+  24d582796c32481e025288d900bf5ca8f89544b1b3e39f7092a050713424cc02 (the 19 raw results_*.jsonl files,
+  426 records, hash together, as `shasum -a 256 results_*.jsonl | shasum -a 256`, to
+  54a656827ac17cc2dec5bb774212b4dc0830b9e5eaf529e12d4beddcc566224b). No file under
+  runs/2026-10-16-claude-b-* or ~/analytical-nl-discovery-data/2026-10-16-claude-b-* was opened before
+  that time (directory names were listed once). Afterwards only claude-b's mask file was read, for run
+  2026-10-16-claude-b.7-solver-masks; claude-b's numpy outputs for items 1-4 were not read at all.

@@ -1,0 +1,2 @@
+{"file": "h4_N4_T100_d005_phi.json", "N": 4.0, "T0_fs": 100.0, "d3": 0.05, "mask": "TL", "f1_ZS_nominal": 0.50315, "f1_ZS_local": 0.6434, "f1_window": 0.64518, "W_c": 8.08588, "D_local": 3.42576}
+{"file": "h4_N4_T100_d005_phi.json", "N": 4.0, "T0_fs": 100.0, "d3": 0.05, "mask": "best", "f1_ZS_nominal": 0.52407, "f1_ZS_local": 0.66172, "f1_window": 0.66277, "W_c": 7.97315, "D_local": 3.39195}

@@ -1,0 +1,175 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "complete": true,
+  "records": [
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 0.3,
+      "disorder": 7601,
+      "launch": 4201,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7602_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 0.3,
+      "disorder": 7602,
+      "launch": 4201,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7603_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 0.3,
+      "disorder": 7603,
+      "launch": 4201,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7604_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 0.3,
+      "disorder": 7604,
+      "launch": 4201,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7605_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 0.3,
+      "disorder": 7605,
+      "launch": 4201,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.3_s0.3_l4201_d7606_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 0.3,
+      "disorder": 7606,
+      "launch": 4201,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 3,
+      "disorder": 7601,
+      "launch": 4201,
+      "dt": 0.005
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7602_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 3,
+      "disorder": 7602,
+      "launch": 4201,
+      "dt": 0.005
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7603_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 3,
+      "disorder": 7603,
+      "launch": 4201,
+      "dt": 0.005
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7604_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 3,
+      "disorder": 7604,
+      "launch": 4201,
+      "dt": 0.005
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7605_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 3,
+      "disorder": 7605,
+      "launch": 4201,
+      "dt": 0.005
+    },
+    {
+      "file": "K5_E0.3_s3_l4201_d7606_h0.005_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": false,
+      "E": 0.3,
+      "sigma": 3,
+      "disorder": 7606,
+      "launch": 4201,
+      "dt": 0.005
+    },
+    {
+      "file": "K5_E0.45_s0.3_l4213_d7701_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": true,
+      "E": 0.45,
+      "sigma": 0.3,
+      "disorder": 7701,
+      "launch": 4213,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.45_s0.3_l4213_d7702_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": true,
+      "E": 0.45,
+      "sigma": 0.3,
+      "disorder": 7702,
+      "launch": 4213,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.45_s0.3_l4213_d7703_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": true,
+      "E": 0.45,
+      "sigma": 0.3,
+      "disorder": 7703,
+      "launch": 4213,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.45_s0.3_l4213_d7704_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": true,
+      "E": 0.45,
+      "sigma": 0.3,
+      "disorder": 7704,
+      "launch": 4213,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.45_s0.3_l4213_d7705_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": true,
+      "E": 0.45,
+      "sigma": 0.3,
+      "disorder": 7705,
+      "launch": 4213,
+      "dt": 0.01
+    },
+    {
+      "file": "K5_E0.45_s0.3_l4213_d7706_h0.01_z20_n1e+10_p8_loss0_w1.json",
+      "held_out": true,
+      "E": 0.45,
+      "sigma": 0.3,
+      "disorder": 7706,
+      "launch": 4213,
+      "dt": 0.01
+    }
+  ],
+  "convergence_files": [
+    "K5_E0.3_s0.3_l4201_d7601_h0.01_z20_n1e+10_p9_loss0_w1.json",
+    "K5_E0.3_s3_l4201_d7601_h0.005_z20_n1e+10_p9_loss0_w1.json",
+    "K5_E0.3_s3_l4201_d7601_h0.0025_z20_n1e+10_p8_loss0_w1.json"
+  ]
+}

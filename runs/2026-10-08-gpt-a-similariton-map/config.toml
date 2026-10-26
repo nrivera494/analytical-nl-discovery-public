@@ -1,0 +1,391 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-map"
+
+[defaults]
+nt = 8192
+window = 64.0
+length = 8.0
+dzmax = 0.005
+phase_step = 0.025
+save_interval = 0.1
+
+[[cases]]
+label = "gaussian_N5_w0p5_qm0p5"
+shape = "gaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_N5_w0p5_q0"
+shape = "gaussian"
+Nstar = 5.0
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_N5_w0p5_q0p3333"
+shape = "gaussian"
+Nstar = 5.0
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_N5_w1_qm0p5"
+shape = "gaussian"
+Nstar = 5.0
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_N5_w1_q0"
+shape = "gaussian"
+Nstar = 5.0
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_N5_w1_q0p3333"
+shape = "gaussian"
+Nstar = 5.0
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_N5_w2_qm0p5"
+shape = "gaussian"
+Nstar = 5.0
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_N5_w2_q0"
+shape = "gaussian"
+Nstar = 5.0
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_N5_w2_q0p3333"
+shape = "gaussian"
+Nstar = 5.0
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_N10_w0p5_qm0p5"
+shape = "gaussian"
+Nstar = 10.0
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_N10_w0p5_q0"
+shape = "gaussian"
+Nstar = 10.0
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_N10_w0p5_q0p3333"
+shape = "gaussian"
+Nstar = 10.0
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_N10_w1_qm0p5"
+shape = "gaussian"
+Nstar = 10.0
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_N10_w1_q0"
+shape = "gaussian"
+Nstar = 10.0
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_N10_w1_q0p3333"
+shape = "gaussian"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_N10_w2_qm0p5"
+shape = "gaussian"
+Nstar = 10.0
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_N10_w2_q0"
+shape = "gaussian"
+Nstar = 10.0
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_N10_w2_q0p3333"
+shape = "gaussian"
+Nstar = 10.0
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_N5_w0p5_qm0p5"
+shape = "sech"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "sech_N5_w0p5_q0"
+shape = "sech"
+Nstar = 5.0
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "sech_N5_w0p5_q0p3333"
+shape = "sech"
+Nstar = 5.0
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_N5_w1_qm0p5"
+shape = "sech"
+Nstar = 5.0
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_N5_w1_q0"
+shape = "sech"
+Nstar = 5.0
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_N5_w1_q0p3333"
+shape = "sech"
+Nstar = 5.0
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_N5_w2_qm0p5"
+shape = "sech"
+Nstar = 5.0
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_N5_w2_q0"
+shape = "sech"
+Nstar = 5.0
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_N5_w2_q0p3333"
+shape = "sech"
+Nstar = 5.0
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_N10_w0p5_qm0p5"
+shape = "sech"
+Nstar = 10.0
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "sech_N10_w0p5_q0"
+shape = "sech"
+Nstar = 10.0
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "sech_N10_w0p5_q0p3333"
+shape = "sech"
+Nstar = 10.0
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_N10_w1_qm0p5"
+shape = "sech"
+Nstar = 10.0
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_N10_w1_q0"
+shape = "sech"
+Nstar = 10.0
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_N10_w1_q0p3333"
+shape = "sech"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_N10_w2_qm0p5"
+shape = "sech"
+Nstar = 10.0
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_N10_w2_q0"
+shape = "sech"
+Nstar = 10.0
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_N10_w2_q0p3333"
+shape = "sech"
+Nstar = 10.0
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_N5_w0p5_qm0p5"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_N5_w0p5_q0"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_N5_w0p5_q0p3333"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_N5_w1_qm0p5"
+shape = "supergaussian"
+Nstar = 5.0
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_N5_w1_q0"
+shape = "supergaussian"
+Nstar = 5.0
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_N5_w1_q0p3333"
+shape = "supergaussian"
+Nstar = 5.0
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_N5_w2_qm0p5"
+shape = "supergaussian"
+Nstar = 5.0
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_N5_w2_q0"
+shape = "supergaussian"
+Nstar = 5.0
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_N5_w2_q0p3333"
+shape = "supergaussian"
+Nstar = 5.0
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_N10_w0p5_qm0p5"
+shape = "supergaussian"
+Nstar = 10.0
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_N10_w0p5_q0"
+shape = "supergaussian"
+Nstar = 10.0
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_N10_w0p5_q0p3333"
+shape = "supergaussian"
+Nstar = 10.0
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_N10_w1_qm0p5"
+shape = "supergaussian"
+Nstar = 10.0
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_N10_w1_q0"
+shape = "supergaussian"
+Nstar = 10.0
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_N10_w1_q0p3333"
+shape = "supergaussian"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_N10_w2_qm0p5"
+shape = "supergaussian"
+Nstar = 10.0
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_N10_w2_q0"
+shape = "supergaussian"
+Nstar = 10.0
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_N10_w2_q0p3333"
+shape = "supergaussian"
+Nstar = 10.0
+width = 2.0
+chirp = 0.3333333333333333

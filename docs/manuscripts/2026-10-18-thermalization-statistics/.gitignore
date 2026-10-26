@@ -1,0 +1,9 @@
+# LaTeX build byproducts (main.pdf is committed)
+main.aux
+main.bbl
+main.blg
+main.fdb_latexmk
+main.fls
+main.log
+main.out
+mainNotes.bib

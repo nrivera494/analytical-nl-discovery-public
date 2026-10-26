@@ -1,0 +1,170 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N15_T1612.466",
+    "N": 15,
+    "T0_fs": 1612.466,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 54.868505754539946,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N15_T1764.426",
+    "N": 15,
+    "T0_fs": 1764.426,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 50.14299267863884,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N13_T1278.825",
+    "N": 13,
+    "T0_fs": 1278.825,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 69.18350829863351,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N13_T1399.342",
+    "N": 13,
+    "T0_fs": 1399.342,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 63.225144389291536,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N11_T975.615",
+    "N": 11,
+    "T0_fs": 975.615,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 90.68495256837996,
+    "zN": [
+      1.25,
+      1.5,
+      1.75
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N11_T1067.559",
+    "N": 11,
+    "T0_fs": 1067.559,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 82.87467015874533,
+    "zN": [
+      1.25,
+      1.5,
+      1.75
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N9_T704.848",
+    "N": 9,
+    "T0_fs": 704.848,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N9_T771.274",
+    "N": 9,
+    "T0_fs": 771.274,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout",
+    "design_note": "Midpoints of the frozen-policy three-sample local bracket; no training coefficient is refitted."
+  }
+]

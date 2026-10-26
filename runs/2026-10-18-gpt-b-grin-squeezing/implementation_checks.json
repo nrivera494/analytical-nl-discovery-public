@@ -1,0 +1,37 @@
+{
+  "single_mode": [
+    {
+      "z": 0,
+      "lambda_quad": 1.0,
+      "expected": 1.0,
+      "symplectic_error": 0.0,
+      "Fano_N": 1.0
+    },
+    {
+      "z": 1,
+      "lambda_quad": 0.17157289710687162,
+      "expected": 0.17157287525381,
+      "symplectic_error": 1.5459611368839887e-10,
+      "Fano_N": 1.0000000002870761
+    },
+    {
+      "z": 2,
+      "lambda_quad": 0.055728098984448776,
+      "expected": 0.055728090000841266,
+      "symplectic_error": 3.091926714660076e-10,
+      "Fano_N": 1.0000000005741532
+    },
+    {
+      "z": 5,
+      "lambda_quad": 0.009804865808601512,
+      "expected": 0.009804864072151632,
+      "symplectic_error": 7.729819007096239e-10,
+      "Fano_N": 1.0000000014353863
+    }
+  ],
+  "finite_difference_max": 0.00022344416070589954,
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "int16_gammaln_dtype": "float32: rejected for exact Fock reference"
+}

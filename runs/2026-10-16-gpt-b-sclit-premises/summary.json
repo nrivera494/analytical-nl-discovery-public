@@ -1,0 +1,122 @@
+{
+  "run_id": "2026-10-16-gpt-b-sclit-premises",
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "seed": 20261016,
+  "wall_seconds": 0.04323400000000001,
+  "mask_count": 128,
+  "max_peak_ratio": 0.999714283549785,
+  "max_quartic_ratio": 0.9996938453290996,
+  "GN_checks": {
+    "2048": {
+      "sech_sharp_GN_ratio": 0.9999999999999999
+    },
+    "4096": {
+      "sech_sharp_GN_ratio": 1.0000000000000002
+    }
+  },
+  "raman_checks": [
+    {
+      "grid": 2048,
+      "chirp": -1.0,
+      "number_derivative": -8.673617379884036e-20,
+      "energy_derivative_direct": -0.00029059536742009895,
+      "energy_derivative_spectral": -0.00029059536742013635,
+      "identity_absolute_error": 3.74049749507499e-17,
+      "photon_mean_derivative": -0.049184717282615184,
+      "mean_rate_over_bound": 0.12171622066258378
+    },
+    {
+      "grid": 2048,
+      "chirp": 0.0,
+      "number_derivative": -8.245530149958062e-21,
+      "energy_derivative_direct": -0.0002905953674201402,
+      "energy_derivative_spectral": -0.0002905953674201363,
+      "identity_absolute_error": 3.903127820947816e-18,
+      "photon_mean_derivative": -0.049184990543200656,
+      "mean_rate_over_bound": 0.12171622066261091
+    },
+    {
+      "grid": 2048,
+      "chirp": 1.0,
+      "number_derivative": 1.7347234759768072e-19,
+      "energy_derivative_direct": -0.00029059536742009895,
+      "energy_derivative_spectral": -0.00029059536742013635,
+      "identity_absolute_error": 3.74049749507499e-17,
+      "photon_mean_derivative": -0.049184717282628396,
+      "mean_rate_over_bound": 0.12171622066261648
+    },
+    {
+      "grid": 4096,
+      "chirp": -1.0,
+      "number_derivative": 0.0,
+      "energy_derivative_direct": -0.00029059536742013364,
+      "energy_derivative_spectral": -0.0002905953674201363,
+      "identity_absolute_error": 2.656295322589486e-18,
+      "photon_mean_derivative": -0.04918471728262546,
+      "mean_rate_over_bound": 0.12171622066260922
+    },
+    {
+      "grid": 4096,
+      "chirp": 0.0,
+      "number_derivative": -9.341678598276172e-21,
+      "energy_derivative_direct": -0.0002905953674201484,
+      "energy_derivative_spectral": -0.0002905953674201363,
+      "identity_absolute_error": 1.2088854223213374e-17,
+      "photon_mean_derivative": -0.049184990543201995,
+      "mean_rate_over_bound": 0.12171622066261423
+    },
+    {
+      "grid": 4096,
+      "chirp": 1.0,
+      "number_derivative": 1.7347234759768072e-19,
+      "energy_derivative_direct": -0.00029059536742009895,
+      "energy_derivative_spectral": -0.0002905953674201363,
+      "identity_absolute_error": 3.735076484212563e-17,
+      "photon_mean_derivative": -0.049184717282628396,
+      "mean_rate_over_bound": 0.12171622066261648
+    }
+  ],
+  "moment_bound": {
+    "eta": 0.52,
+    "constructed_mean": -0.3999999999999999,
+    "target_mean": -0.4
+  },
+  "selective_loss_mean_derivative": 0.6400000000000001,
+  "original_DW_relaxation_tail_sequence": [
+    {
+      "epsilon": 0.1,
+      "band_fraction": 0.9,
+      "momentum": 0.0,
+      "dispersive_moment": -7.5,
+      "original_constraint_lhs_H0": -8.36602540378444,
+      "fails_omitted_H_le_MK": true
+    },
+    {
+      "epsilon": 0.03,
+      "band_fraction": 0.97,
+      "momentum": -1.1102230246251565e-16,
+      "dispersive_moment": -152.6851851851852,
+      "original_constraint_lhs_H0": -154.32666148548455,
+      "fails_omitted_H_le_MK": true
+    },
+    {
+      "epsilon": 0.01,
+      "band_fraction": 0.99,
+      "momentum": 0.0,
+      "dispersive_moment": -1567.5,
+      "original_constraint_lhs_H0": -1570.372281323269,
+      "fails_omitted_H_le_MK": true
+    },
+    {
+      "epsilon": 0.003,
+      "band_fraction": 0.997,
+      "momentum": 0.0,
+      "dispersive_moment": -18186.018518518515,
+      "original_constraint_lhs_H0": -18191.28106965313,
+      "fails_omitted_H_le_MK": true
+    }
+  ],
+  "scope": "Algebra and instantaneous RHS only; no propagation, eigenvalue computation, or claim verification."
+}

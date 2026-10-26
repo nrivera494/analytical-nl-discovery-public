@@ -1,0 +1,7 @@
+sech2b sech 2.0 0.009 Nt 16384 TW 272.22222222222223 etaB(xif) 2.1536e-06 etaDW 3.1955e-12 conv 8.1e-03 NSR dB -57.36 dnuT0 2.95 dH -3.5e-10 dP 3.8e-12 wall 22.3
+sech2b sech 2.0 0.011 Nt 16384 TW 231.81818181818184 etaB(xif) 2.9078e-05 etaDW 3.3820e-09 conv 1.9e-03 NSR dB -46.22 dnuT0 2.416 dH -1.1e-10 dP 3.8e-12 wall 21.4
+sech2b sech 2.0 0.014 Nt 8192 TW 192.85714285714286 etaB(xif) 3.6816e-04 etaDW 2.3501e-06 conv 3.5e-04 NSR dB -35.51 dnuT0 1.898 dH 6.2e-10 dP 3.0e-12 wall 7.8
+sech2b sech 2.0 0.018 Nt 8192 TW 161.11111111111111 etaB(xif) 3.3437e-03 etaDW 3.7352e-04 conv 6.2e-05 NSR dB -27.05 dnuT0 1.477 dH 3.9e-09 dP 2.8e-12 wall 9.2
+sech2b sech 2.0 0.022 Nt 4096 TW 140.90909090909093 etaB(xif) 1.0073e-02 etaDW 4.7171e-03 conv 1.1e-05 NSR dB -19.53 dnuT0 3.733 dH 2.5e-09 dP 2.3e-12 wall 4.3
+sech2b sech 2.0 0.025 Nt 4096 TW 130.0 etaB(xif) 1.3632e-02 etaDW 1.0761e-02 conv 4.4e-06 NSR dB -17.68 dnuT0 3.369 dH 2.9e-10 dP 3.4e-12 wall 4.3
+sech2b sech 2.0 0.03 Nt 4096 TW 116.66666666666667 etaB(xif) 2.7892e-02 etaDW 2.6427e-02 conv 1.8e-06 NSR dB -15.66 dnuT0 2.889 dH 1.6e-11 dP 3.1e-12 wall 4.4

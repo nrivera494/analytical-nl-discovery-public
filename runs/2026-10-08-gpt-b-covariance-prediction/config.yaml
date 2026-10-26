@@ -1,0 +1,25 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance_prediction.py
+inputs: 2026-10-08-gpt-b-covariance-material
+nt: 512
+window: 48.0
+T0_ps: 0.35
+temperature_K: 77.0
+seed: null
+ntraj: null
+scope: frozen prediction; no propagation of this case before independent verification
+p2: 0.35
+energy: 2.0
+gain_complex_psd_over_q:
+- 0.1
+- 0.1
+zeta_targets:
+- 0.5
+- 1.0
+- 2.0
+- 3.0
+propagated: false
+secular_relative_tolerance: 0.002
+freeze_commit: dc16c67

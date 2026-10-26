@@ -1,0 +1,128 @@
+[
+  {
+    "id": "tablepoint_smf_N3",
+    "N": 3,
+    "T0_fs": 123.65286443562111,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1e-09,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_measured_N3",
+    "N": 3,
+    "T0_fs": 123.65286443562111,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1e-09,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_smf_N4",
+    "N": 4,
+    "T0_fs": 196.8235961429382,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1e-09,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_measured_N4",
+    "N": 4,
+    "T0_fs": 196.8235961429382,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1e-09,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_smf_N6",
+    "N": 6,
+    "T0_fs": 380.6012478729439,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1e-09,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_measured_N6",
+    "N": 6,
+    "T0_fs": 380.6012478729439,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1e-09,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  }
+]

@@ -1,0 +1,46 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-map-convergence"
+
+[defaults]
+nt = 8192
+window = 64.0
+length = 8.0
+dzmax = 0.005
+phase_step = 0.025
+save_interval = 0.1
+
+[[cases]]
+label = "N5_supergaussian_step"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+nt = 8192
+window = 64.0
+dzmax = 0.0025
+phase_step = 0.0125
+
+[[cases]]
+label = "N5_supergaussian_grid"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+nt = 16384
+window = 64.0
+dzmax = 0.005
+phase_step = 0.025
+
+[[cases]]
+label = "N5_supergaussian_window"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+nt = 16384
+window = 128.0
+dzmax = 0.005
+phase_step = 0.025

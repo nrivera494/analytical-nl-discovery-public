@@ -1,0 +1,86 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence"
+
+[defaults]
+nt = 8192
+window = 12.0
+length = 12.0
+step = 0.001
+linear_phase_cap = 2.0
+nonlinear_phase_cap = 0.1
+save_interval = 0.05
+shape = "parabola"
+smooth = 0.02
+Nstar = 10.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "grid_width_minus"
+width = 0.99
+nt = 16384
+
+[[cases]]
+label = "grid_width_plus"
+width = 1.01
+nt = 16384
+
+[[cases]]
+label = "step_width_minus"
+width = 0.99
+step = 0.0005
+linear_phase_cap = 1.0
+nonlinear_phase_cap = 0.05
+
+[[cases]]
+label = "step_width_plus"
+width = 1.01
+step = 0.0005
+linear_phase_cap = 1.0
+nonlinear_phase_cap = 0.05
+
+[[cases]]
+label = "window_width_minus"
+width = 0.99
+nt = 16384
+window = 24.0
+
+[[cases]]
+label = "window_width_plus"
+width = 1.01
+nt = 16384
+window = 24.0
+
+[[cases]]
+label = "amplitude_width_minus"
+width = 0.995
+
+[[cases]]
+label = "amplitude_width_plus"
+width = 1.005
+
+[[cases]]
+label = "N5_grid_width_minus"
+Nstar = 5.0
+nt = 16384
+width = 0.99
+
+[[cases]]
+label = "N5_grid_width_plus"
+Nstar = 5.0
+nt = 16384
+width = 1.01
+
+[[cases]]
+label = "N20_grid_width_minus"
+Nstar = 20.0
+nt = 16384
+width = 0.99
+
+[[cases]]
+label = "N20_grid_width_plus"
+Nstar = 20.0
+nt = 16384
+width = 1.01

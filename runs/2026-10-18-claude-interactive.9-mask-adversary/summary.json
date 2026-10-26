@@ -1,0 +1,2904 @@
+{
+ "headline": [
+  {
+   "case": "gauss N=1.5",
+   "held_out_on_card": false,
+   "TL_eta_verified": 0.9490752501496978,
+   "ceiling_eta": 0.9517652333963138,
+   "ceiling_rel_headroom": 0.0028343202988294625,
+   "best_verified_eta": 0.9490752501496972,
+   "best_rel_gain_over_TL": -6.661338147750939e-16,
+   "best_excess_over_ceiling": -0.002689983246616623,
+   "n_searches": 13,
+   "fc_bo_spread_max": 3.774758283725532e-14,
+   "max_edge_energy_fraction": 5.95942738417443e-11
+  },
+  {
+   "case": "gauss N=4",
+   "held_out_on_card": false,
+   "TL_eta_verified": 3.4828771908598113,
+   "ceiling_eta": 3.483398983296238,
+   "ceiling_rel_headroom": 0.00014981649016965193,
+   "best_verified_eta": 3.4828771908598104,
+   "best_rel_gain_over_TL": -2.220446049250313e-16,
+   "best_excess_over_ceiling": -0.0005217924364275817,
+   "n_searches": 13,
+   "fc_bo_spread_max": 8.504308368628699e-13,
+   "max_edge_energy_fraction": 1.2753427860615231e-12
+  },
+  {
+   "case": "gauss N=5",
+   "held_out_on_card": true,
+   "TL_eta_verified": 4.486540026022649,
+   "ceiling_eta": 4.4868741237657535,
+   "ceiling_rel_headroom": 7.446668059718498e-05,
+   "best_verified_eta": 4.486540026022612,
+   "best_rel_gain_over_TL": -8.104628079763643e-15,
+   "best_excess_over_ceiling": -0.0003340977431411929,
+   "n_searches": 13,
+   "fc_bo_spread_max": 1.8420820424580597e-12,
+   "max_edge_energy_fraction": 1.7400849703326086e-12
+  },
+  {
+   "case": "gauss N=8",
+   "held_out_on_card": true,
+   "TL_eta_verified": 7.491813998685675,
+   "ceiling_eta": 7.491942733652931,
+   "ceiling_rel_headroom": 1.7183417431176906e-05,
+   "best_verified_eta": 7.491813998685674,
+   "best_rel_gain_over_TL": -1.1102230246251565e-16,
+   "best_excess_over_ceiling": -0.00012873496725696043,
+   "n_searches": 13,
+   "fc_bo_spread_max": 8.149925179168349e-12,
+   "max_edge_energy_fraction": 9.436979506391085e-12
+  },
+  {
+   "case": "sech N=2",
+   "held_out_on_card": false,
+   "TL_eta_verified": 1.5000000000001816,
+   "ceiling_eta": 1.5,
+   "ceiling_rel_headroom": -1.2112533198660458e-13,
+   "best_verified_eta": 1.5000000000001823,
+   "best_rel_gain_over_TL": 4.440892098500626e-16,
+   "best_excess_over_ceiling": 1.822986206434507e-13,
+   "n_searches": 13,
+   "fc_bo_spread_max": 1.907363156306019e-13,
+   "max_edge_energy_fraction": 2.701751794693669e-10
+  },
+  {
+   "case": "sech N=3",
+   "held_out_on_card": false,
+   "TL_eta_verified": 2.50000000000084,
+   "ceiling_eta": 2.5,
+   "ceiling_rel_headroom": -3.360645095540349e-13,
+   "best_verified_eta": 2.5000000000008384,
+   "best_rel_gain_over_TL": -6.661338147750939e-16,
+   "best_excess_over_ceiling": 8.384404281969182e-13,
+   "n_searches": 13,
+   "fc_bo_spread_max": 8.628653347386717e-13,
+   "max_edge_energy_fraction": 1.608983991524435e-10
+  },
+  {
+   "case": "sech N=4",
+   "held_out_on_card": false,
+   "TL_eta_verified": 3.500000000002312,
+   "ceiling_eta": 3.5,
+   "ceiling_rel_headroom": -6.605826996519681e-13,
+   "best_verified_eta": 3.500000000002306,
+   "best_rel_gain_over_TL": -1.6653345369377348e-15,
+   "best_excess_over_ceiling": 2.306155266751375e-12,
+   "n_searches": 13,
+   "fc_bo_spread_max": 2.327027459614328e-12,
+   "max_edge_energy_fraction": 1.0813624032454258e-11
+  },
+  {
+   "case": "sech N=6",
+   "held_out_on_card": false,
+   "TL_eta_verified": 5.50000000000161,
+   "ceiling_eta": 5.5,
+   "ceiling_rel_headroom": -2.927658115936538e-13,
+   "best_verified_eta": 5.500000000001607,
+   "best_rel_gain_over_TL": -6.661338147750939e-16,
+   "best_excess_over_ceiling": 1.6067147612375265e-12,
+   "n_searches": 13,
+   "fc_bo_spread_max": 1.6351364706679306e-12,
+   "max_edge_energy_fraction": 1.0406501223446587e-11
+  },
+  {
+   "case": "sech N=2.5",
+   "held_out_on_card": false,
+   "TL_eta_verified": 2.0000000000004303,
+   "ceiling_eta": 2.0087343833388065,
+   "ceiling_rel_headroom": 0.004367191669187198,
+   "best_verified_eta": 2.0000000000004285,
+   "best_rel_gain_over_TL": -8.881784197001252e-16,
+   "best_excess_over_ceiling": -0.008734383338377949,
+   "n_searches": 13,
+   "fc_bo_spread_max": 4.518607710224387e-13,
+   "max_edge_energy_fraction": 9.891121996492236e-11
+  },
+  {
+   "case": "sech N=4.5",
+   "held_out_on_card": true,
+   "TL_eta_verified": 4.0000000000034595,
+   "ceiling_eta": 4.00286420911878,
+   "ceiling_rel_headroom": 0.0007160522788294266,
+   "best_verified_eta": 4.000000000003459,
+   "best_rel_gain_over_TL": -2.220446049250313e-16,
+   "best_excess_over_ceiling": -0.002864209115321259,
+   "n_searches": 13,
+   "fc_bo_spread_max": 3.482991672854041e-12,
+   "max_edge_energy_fraction": 2.2613612998350448e-11
+  },
+  {
+   "case": "sech N=7.5",
+   "held_out_on_card": true,
+   "TL_eta_verified": 7.000000000003327,
+   "ceiling_eta": 7.001062556551381,
+   "ceiling_rel_headroom": 0.0001517937925790136,
+   "best_verified_eta": 6.9999999995859294,
+   "best_rel_gain_over_TL": -5.96281912734753e-11,
+   "best_excess_over_ceiling": -0.0010625569654516553,
+   "n_searches": 13,
+   "fc_bo_spread_max": 3.3519853559482726e-12,
+   "max_edge_energy_fraction": 3.6766412013824484e-07
+  }
+ ],
+ "note": "Gaussian N = 1.5 was marked held out on the card but its TL fraction and ceiling are in the source README table.",
+ "chunk_wall_times_s": [
+  1075.852797985077,
+  716.3501300811768
+ ],
+ "cases": [
+  {
+   "name": "gauss N=1.5",
+   "kind": "gauss",
+   "N": 1.5,
+   "held_out": true,
+   "grid": {
+    "n": 256,
+    "T": 40.0,
+    "K": 7.0
+   },
+   "ceiling_eta": 0.9517652333963138,
+   "TL_eta_grid": 0.94907525014967,
+   "exact_TL": null,
+   "M0": 3.9880211645374106,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 0.9490752501432675,
+     "nfev": 126,
+     "nit": 118,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 0.9490752501432601,
+     "excess_over_ceiling": -0.0026899832530462575,
+     "rel_gain_over_TL_grid": -6.745937142227376e-12
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 0.9490752491836281,
+     "nfev": 145,
+     "nit": 124,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 0.9490752491836286,
+     "excess_over_ceiling": -0.0026899842126857365,
+     "rel_gain_over_TL_grid": -1.0178770049051877e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 0.9490752470443131,
+     "nfev": 206,
+     "nit": 175,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 0.9490752470443107,
+     "excess_over_ceiling": -0.002689986352000684,
+     "rel_gain_over_TL_grid": -3.2719816855930617e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 0.9490752464227012,
+     "nfev": 290,
+     "nit": 253,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 0.9490752464227068,
+     "excess_over_ceiling": -0.002689986973612557,
+     "rel_gain_over_TL_grid": -3.926947544918846e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 0.9490752468314186,
+     "nfev": 319,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 0.9490752468314151,
+     "excess_over_ceiling": -0.0026899865648951637,
+     "rel_gain_over_TL_grid": -3.496299472161013e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 0.9490751577486928,
+     "nfev": 318,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 0.9490751577486887,
+     "excess_over_ceiling": -0.0026900756476210264,
+     "rel_gain_over_TL_grid": -9.735895778462123e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 0.9490751492462924,
+     "nfev": 327,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 0.9490751492462887,
+     "excess_over_ceiling": -0.0026900841500213657,
+     "rel_gain_over_TL_grid": -1.0631757341172943e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 0.9490748760268458,
+     "nfev": 354,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 0.9490748760268484,
+     "excess_over_ceiling": -0.0026903573694679883,
+     "rel_gain_over_TL_grid": -3.9419721897804294e-07
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 0.9490752403653475,
+     "nfev": 258,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 0.9490752403653531,
+     "excess_over_ceiling": -0.0026899930309662867,
+     "rel_gain_over_TL_grid": -1.030932206269597e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 0.9490736148124846,
+     "nfev": 255,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 0.9490736148124901,
+     "excess_over_ceiling": -0.0026916185838291584,
+     "rel_gain_over_TL_grid": -1.723084850357992e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 0.9490752501471676,
+     "nfev": 196,
+     "nit": 166,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 0.949075250147172,
+     "excess_over_ceiling": -0.002689983249146155,
+     "rel_gain_over_TL_grid": -2.6365576388798218e-12
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 0.9490752501496641,
+     "nfev": 296,
+     "nit": 247,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 0.9490752501496634,
+     "excess_over_ceiling": -0.0026899832466497076,
+     "rel_gain_over_TL_grid": -6.217248937900877e-15
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 0.9490752501496781,
+     "nfev": 66,
+     "nit": 50,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 0.9490752501496752,
+     "excess_over_ceiling": -0.0026899832466357187,
+     "rel_gain_over_TL_grid": 8.43769498715119e-15
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 0.9490752501432498,
+     "fc_refined_zeta": [
+      -7.362331379329722e-12,
+      0.9490752501432498
+     ],
+     "bo_romberg_eta": 0.9490752501432828,
+     "bo_raw_eta": [
+      0.9490149159806709,
+      0.9490601653994036,
+      0.9490714788821114
+     ],
+     "edge_energy_fraction": 5.707330357669382e-25,
+     "throughput": 1.0,
+     "fc_window2x_eta": 0.9490752501432612,
+     "eta_opt_grid": 0.9490752501432675
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 0.9490752468314061,
+     "fc_refined_zeta": [
+      2.0974368536371793e-09,
+      0.9490752468314061
+     ],
+     "bo_romberg_eta": 0.9490752468314373,
+     "bo_raw_eta": [
+      0.9490149126730764,
+      0.9490601620886221,
+      0.9490714755705318
+     ],
+     "edge_energy_fraction": 3.383230791219178e-25,
+     "throughput": 0.999999999778697,
+     "fc_window2x_eta": 0.9490752468314215,
+     "eta_opt_grid": 0.9490752468314186
+    },
+    "passive-bins": {
+     "fc_refined_eta": 0.9490752403653382,
+     "fc_refined_zeta": [
+      -4.410523211968984e-09,
+      0.9490752403653382
+     ],
+     "bo_romberg_eta": 0.9490752403653759,
+     "bo_raw_eta": [
+      0.9490149062146855,
+      0.9490601556244791,
+      0.9490714691049502
+     ],
+     "edge_energy_fraction": 5.95942738417443e-11,
+     "throughput": 0.9999999996271286,
+     "eta_opt_grid": 0.9490752403653475
+    },
+    "sharp": {
+     "fc_refined_eta": 0.94907525014968,
+     "fc_refined_zeta": [
+      2.1597977400697622e-15,
+      0.94907525014968
+     ],
+     "bo_romberg_eta": 0.9490752501496972,
+     "bo_raw_eta": [
+      0.9490149159870735,
+      0.949060165405816,
+      0.9490714788885253
+     ],
+     "edge_energy_fraction": 2.1664884596618867e-18,
+     "throughput": 1.0,
+     "fc_window2x_eta": 0.9490752501496712,
+     "eta_opt_grid": 0.9490752501496781
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 0.9490752501496877,
+    "fc_refined_zeta": [
+     7.710492961914288e-17,
+     0.9490752501496877
+    ],
+    "bo_romberg_eta": 0.9490752501496978,
+    "bo_raw_eta": [
+     0.9490149159870738,
+     0.9490601654058157,
+     0.9490714788885258
+    ],
+    "edge_energy_fraction": 9.562896256532254e-32,
+    "throughput": 1.0,
+    "fc_window2x_eta": 0.949075250149682
+   },
+   "best_verified_eta": 0.9490752501496972,
+   "best_verified_excess_over_ceiling": -0.002689983246616623,
+   "best_verified_rel_gain_over_TL": -6.661338147750939e-16,
+   "ceiling_rel_headroom": 0.0028343202988294625,
+   "wall_s": 195.73777890205383
+  },
+  {
+   "name": "gauss N=4",
+   "kind": "gauss",
+   "N": 4,
+   "held_out": false,
+   "grid": {
+    "n": 256,
+    "T": 40.0,
+    "K": 7.0
+   },
+   "ceiling_eta": 3.483398983296238,
+   "TL_eta_grid": 3.482877190858941,
+   "exact_TL": null,
+   "M0": 28.359261614488254,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 3.4828771907719016,
+     "nfev": 135,
+     "nit": 128,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4828771907718985,
+     "excess_over_ceiling": -0.000521792524336373,
+     "rel_gain_over_TL_grid": -2.4990676195102424e-11
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 3.4828771898696163,
+     "nfev": 206,
+     "nit": 192,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4828771898696194,
+     "excess_over_ceiling": -0.0005217934266217306,
+     "rel_gain_over_TL_grid": -2.840537804971177e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 3.482877185884271,
+     "nfev": 237,
+     "nit": 192,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.48287718588427,
+     "excess_over_ceiling": -0.0005217974119671176,
+     "rel_gain_over_TL_grid": -1.4283220162170096e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 3.4828771329642088,
+     "nfev": 238,
+     "nit": 188,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.482877132964225,
+     "excess_over_ceiling": -0.0005218503320292278,
+     "rel_gain_over_TL_grid": -1.6622674015032146e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 3.482877182684845,
+     "nfev": 321,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.482877182684867,
+     "excess_over_ceiling": -0.000521800611393175,
+     "rel_gain_over_TL_grid": -2.346937755248746e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 3.482877017857064,
+     "nfev": 317,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.482877017857092,
+     "excess_over_ceiling": -0.0005219654391739326,
+     "rel_gain_over_TL_grid": -4.967211508777325e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 3.4828725086475267,
+     "nfev": 338,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.4828725086474885,
+     "excess_over_ceiling": -0.0005264746487112504,
+     "rel_gain_over_TL_grid": -1.3443515683997376e-06
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 2.719778790643356,
+     "nfev": 329,
+     "nit": 230,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.7197787906433653,
+     "excess_over_ceiling": -0.7636201926528821,
+     "rel_gain_over_TL_grid": -0.21910000221035386
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 3.482877166177454,
+     "nfev": 260,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.482877166177471,
+     "excess_over_ceiling": -0.0005218171187841847,
+     "rel_gain_over_TL_grid": -7.086522368915382e-09
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 3.482873108367976,
+     "nfev": 256,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.482873108367969,
+     "excess_over_ceiling": -0.000525874928261949,
+     "rel_gain_over_TL_grid": -1.1721604699088672e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 3.482877190858959,
+     "nfev": 37,
+     "nit": 33,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.482877190858949,
+     "excess_over_ceiling": -0.0005217924372789007,
+     "rel_gain_over_TL_grid": 5.329070518200751e-15
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 3.4502713838085874,
+     "nfev": 248,
+     "nit": 196,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4502713838086074,
+     "excess_over_ceiling": -0.03312759948765054,
+     "rel_gain_over_TL_grid": -0.009361744690834839
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 3.4828771908589466,
+     "nfev": 69,
+     "nit": 62,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4828771908589466,
+     "excess_over_ceiling": -0.0005217924372913352,
+     "rel_gain_over_TL_grid": 1.5543122344752192e-15
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 3.48287719077192,
+     "fc_refined_zeta": [
+      -2.1053348605757586e-11,
+      3.48287719077192
+     ],
+     "bo_romberg_eta": 3.4828771907727627,
+     "bo_raw_eta": [
+      3.482655802240113,
+      3.4828218348545574,
+      3.4828633512441463
+     ],
+     "edge_energy_fraction": 6.732457503169755e-26,
+     "throughput": 1.0,
+     "fc_window2x_eta": 3.482877190771882,
+     "eta_opt_grid": 3.4828771907719016
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 3.4828771826848794,
+     "fc_refined_zeta": [
+      -7.730941303802283e-10,
+      3.4828771826848794
+     ],
+     "bo_romberg_eta": 3.48287718268573,
+     "bo_raw_eta": [
+      3.4826557941631435,
+      3.4828218267700435,
+      3.4828633431577436
+     ],
+     "edge_energy_fraction": 3.100267423195679e-25,
+     "throughput": 0.9999999997580161,
+     "fc_window2x_eta": 3.482877182684847,
+     "eta_opt_grid": 3.482877182684845
+    },
+    "passive-bins": {
+     "fc_refined_eta": 3.482877166177495,
+     "fc_refined_zeta": [
+      -3.949663384400975e-09,
+      3.482877166177495
+     ],
+     "bo_romberg_eta": 3.4828771661783327,
+     "bo_raw_eta": [
+      3.4826557776830427,
+      3.482821810269476,
+      3.482863326652054
+     ],
+     "edge_energy_fraction": 1.2753427860615231e-12,
+     "throughput": 0.9999999999945773,
+     "eta_opt_grid": 3.482877166177454
+    },
+    "sharp": {
+     "fc_refined_eta": 3.4828771908589955,
+     "fc_refined_zeta": [
+      -1.6653345369377348e-15,
+      3.4828771908589955
+     ],
+     "bo_romberg_eta": 3.4828771908598104,
+     "bo_raw_eta": [
+      3.482655802326982,
+      3.4828218349415625,
+      3.4828633513311833
+     ],
+     "edge_energy_fraction": 1.0717845742879195e-17,
+     "throughput": 0.9999999999999996,
+     "fc_window2x_eta": 3.4828771908589418,
+     "eta_opt_grid": 3.482877190858959
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 3.482877190858965,
+    "fc_refined_zeta": [
+     -2.3225178362415463e-14,
+     3.482877190858965
+    ],
+    "bo_romberg_eta": 3.4828771908598113,
+    "bo_raw_eta": [
+     3.4826558023269825,
+     3.482821834941563,
+     3.482863351331184
+    ],
+    "edge_energy_fraction": 8.196721806168226e-32,
+    "throughput": 1.0,
+    "fc_window2x_eta": 3.482877190858944
+   },
+   "best_verified_eta": 3.4828771908598104,
+   "best_verified_excess_over_ceiling": -0.0005217924364275817,
+   "best_verified_rel_gain_over_TL": -2.220446049250313e-16,
+   "ceiling_rel_headroom": 0.00014981649016965193,
+   "wall_s": 269.5102620124817
+  },
+  {
+   "name": "gauss N=5",
+   "kind": "gauss",
+   "N": 5,
+   "held_out": true,
+   "grid": {
+    "n": 256,
+    "T": 40.0,
+    "K": 7.0
+   },
+   "ceiling_eta": 4.4868741237657535,
+   "TL_eta_grid": 4.486540026020827,
+   "exact_TL": null,
+   "M0": 44.3113462726379,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 4.486540025432017,
+     "nfev": 132,
+     "nit": 126,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.486540025432031,
+     "excess_over_ceiling": -0.00033409833373632125,
+     "rel_gain_over_TL_grid": -1.3123924169633483e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 4.486540022647506,
+     "nfev": 182,
+     "nit": 168,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.486540022647493,
+     "excess_over_ceiling": -0.00033410111824760946,
+     "rel_gain_over_TL_grid": -7.518758948776849e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 4.486540007037295,
+     "nfev": 228,
+     "nit": 197,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.486540007037279,
+     "excess_over_ceiling": -0.00033411672845851115,
+     "rel_gain_over_TL_grid": -4.231218708738993e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 4.486540021038556,
+     "nfev": 379,
+     "nit": 282,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.486540021038528,
+     "excess_over_ceiling": -0.0003341027271970276,
+     "rel_gain_over_TL_grid": -1.1104928088201405e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 4.486539995795626,
+     "nfev": 315,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 4.486539995795606,
+     "excess_over_ceiling": -0.0003341279701274402,
+     "rel_gain_over_TL_grid": -6.736861957179485e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 4.486539560497757,
+     "nfev": 327,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 4.486539560497751,
+     "excess_over_ceiling": -0.00033456326799630176,
+     "rel_gain_over_TL_grid": -1.0375992798294931e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 4.48651572213746,
+     "nfev": 330,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 4.486515722137462,
+     "excess_over_ceiling": -0.000358401628293592,
+     "rel_gain_over_TL_grid": -5.4170659854468894e-06
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 4.2017248483596035,
+     "nfev": 292,
+     "nit": 205,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.20172484835962,
+     "excess_over_ceiling": -0.28514927540615,
+     "rel_gain_over_TL_grid": -0.06348214348013514
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 4.48653999297983,
+     "nfev": 254,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 4.486539992979809,
+     "excess_over_ceiling": -0.0003341307859230369,
+     "rel_gain_over_TL_grid": -7.3644715881115985e-09
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 4.486535798762158,
+     "nfev": 258,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 4.486535798762211,
+     "excess_over_ceiling": -0.000338325003595763,
+     "rel_gain_over_TL_grid": -9.422090619937151e-07
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 4.486540026019269,
+     "nfev": 127,
+     "nit": 107,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.48654002601923,
+     "excess_over_ceiling": -0.00033409774648429647,
+     "rel_gain_over_TL_grid": -3.4727776210274897e-13
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 4.48654002602084,
+     "nfev": 93,
+     "nit": 82,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.486540026020809,
+     "excess_over_ceiling": -0.00033409774491310884,
+     "rel_gain_over_TL_grid": 2.886579864025407e-15
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 4.461600041600876,
+     "nfev": 143,
+     "nit": 116,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.461600041600913,
+     "excess_over_ceiling": -0.025274082164877143,
+     "rel_gain_over_TL_grid": -0.005558845853442684
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 4.486540025432049,
+     "fc_refined_zeta": [
+      -1.2409016910405474e-10,
+      4.486540025432049
+     ],
+     "bo_romberg_eta": 4.486540025433834,
+     "bo_raw_eta": [
+      4.486254852966124,
+      4.486468718422763,
+      4.486522197812683
+     ],
+     "edge_energy_fraction": 7.777483564156364e-26,
+     "throughput": 1.0,
+     "fc_window2x_eta": 4.486540025431989,
+     "eta_opt_grid": 4.486540025432017
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 4.486539995795587,
+     "fc_refined_zeta": [
+      -1.021892117453155e-09,
+      4.486539995795587
+     ],
+     "bo_romberg_eta": 4.486539995797406,
+     "bo_raw_eta": [
+      4.486254823368555,
+      4.486468688796058,
+      4.486522168178686
+     ],
+     "edge_energy_fraction": 8.560210656236622e-25,
+     "throughput": 0.9999999995348908,
+     "fc_window2x_eta": 4.486539995795637,
+     "eta_opt_grid": 4.486539995795626
+    },
+    "passive-bins": {
+     "fc_refined_eta": 4.486539992979769,
+     "fc_refined_zeta": [
+      5.034165196119713e-09,
+      4.486539992979769
+     ],
+     "bo_romberg_eta": 4.486539992981611,
+     "bo_raw_eta": [
+      4.486254820562319,
+      4.486468685982652,
+      4.486522165363488
+     ],
+     "edge_energy_fraction": 1.7400849703326086e-12,
+     "throughput": 0.9999999999874423,
+     "eta_opt_grid": 4.48653999297983
+    },
+    "sharp": {
+     "fc_refined_eta": 4.486540026020788,
+     "fc_refined_zeta": [
+      1.8625400292068982e-14,
+      4.486540026020788
+     ],
+     "bo_romberg_eta": 4.486540026022612,
+     "bo_raw_eta": [
+      4.486254853554061,
+      4.486468719011332,
+      4.486522198401408
+     ],
+     "edge_energy_fraction": 2.3953990982229906e-15,
+     "throughput": 0.9999999999999994,
+     "fc_window2x_eta": 4.486540026020746,
+     "eta_opt_grid": 4.48654002602084
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 4.486540026020844,
+    "fc_refined_zeta": [
+     9.027518927359622e-15,
+     4.486540026020844
+    ],
+    "bo_romberg_eta": 4.486540026022649,
+    "bo_raw_eta": [
+     4.4862548535541,
+     4.486468719011369,
+     4.486522198401445
+    ],
+    "edge_energy_fraction": 8.589380868926329e-32,
+    "throughput": 1.0,
+    "fc_window2x_eta": 4.4865400260208785
+   },
+   "best_verified_eta": 4.486540026022612,
+   "best_verified_excess_over_ceiling": -0.0003340977431411929,
+   "best_verified_rel_gain_over_TL": -8.104628079763643e-15,
+   "ceiling_rel_headroom": 7.446668059718498e-05,
+   "wall_s": 306.9433557987213
+  },
+  {
+   "name": "gauss N=8",
+   "kind": "gauss",
+   "N": 8,
+   "held_out": true,
+   "grid": {
+    "n": 256,
+    "T": 40.0,
+    "K": 7.0
+   },
+   "ceiling_eta": 7.491942733652931,
+   "TL_eta_grid": 7.491813998677552,
+   "exact_TL": null,
+   "M0": 113.43704645795302,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 7.491813998484687,
+     "nfev": 122,
+     "nit": 113,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 7.491813998484701,
+     "excess_over_ceiling": -0.0001287351682437432,
+     "rel_gain_over_TL_grid": -2.5743296383495817e-11
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 7.491813987726836,
+     "nfev": 174,
+     "nit": 160,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 7.491813987726784,
+     "excess_over_ceiling": -0.00012874592609524171,
+     "rel_gain_over_TL_grid": -1.4616908794451433e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 7.301041449548414,
+     "nfev": 324,
+     "nit": 210,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 7.301041449548402,
+     "excess_over_ceiling": -0.190901284104517,
+     "rel_gain_over_TL_grid": -0.025464133140893908
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 7.491813979093573,
+     "nfev": 294,
+     "nit": 259,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 7.491813979093554,
+     "excess_over_ceiling": -0.0001287545593582351,
+     "rel_gain_over_TL_grid": -2.614050309546201e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 7.4918139882127655,
+     "nfev": 315,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 7.491813988212771,
+     "excess_over_ceiling": -0.00012874544016572287,
+     "rel_gain_over_TL_grid": -1.3968294299004924e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 7.491813552460346,
+     "nfev": 317,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 7.491813552460347,
+     "excess_over_ceiling": -0.00012918119258475969,
+     "rel_gain_over_TL_grid": -5.956063586776139e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 7.491805384922189,
+     "nfev": 332,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 7.4918053849221495,
+     "excess_over_ceiling": -0.00013734873074255916,
+     "rel_gain_over_TL_grid": -1.1497556352546567e-06
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 4.968960120400685,
+     "nfev": 357,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 4.968960120400736,
+     "excess_over_ceiling": -2.522982613252246,
+     "rel_gain_over_TL_grid": -0.3367480664525573
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 7.491813945260943,
+     "nfev": 260,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 7.491813945260945,
+     "excess_over_ceiling": -0.00012878839198826597,
+     "rel_gain_over_TL_grid": -7.129996704158259e-09
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 7.491800526880775,
+     "nfev": 259,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 7.491800526880779,
+     "excess_over_ceiling": -0.0001422067721561504,
+     "rel_gain_over_TL_grid": -1.798202248326497e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 7.364184878819142,
+     "nfev": 186,
+     "nit": 160,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 7.364184878819106,
+     "excess_over_ceiling": -0.12775785483378943,
+     "rel_gain_over_TL_grid": -0.01703581000288301
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 7.491813998669674,
+     "nfev": 107,
+     "nit": 80,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 7.491813998669668,
+     "excess_over_ceiling": -0.00012873498325749466,
+     "rel_gain_over_TL_grid": -1.0516032489249483e-12
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 7.49181399867757,
+     "nfev": 115,
+     "nit": 109,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 7.491813998677551,
+     "excess_over_ceiling": -0.0001287349753615885,
+     "rel_gain_over_TL_grid": 2.4424906541753444e-15
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 7.491813998484682,
+     "fc_refined_zeta": [
+      4.293609912053853e-11,
+      7.491813998484682
+     ],
+     "bo_romberg_eta": 7.491813998492822,
+     "bo_raw_eta": [
+      7.4913378764185,
+      7.491694931448843,
+      7.4917842294489905
+     ],
+     "edge_energy_fraction": 1.5793878096612694e-26,
+     "throughput": 1.0,
+     "fc_window2x_eta": 7.491813998484709,
+     "eta_opt_grid": 7.491813998484687
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 7.491813988212766,
+     "fc_refined_zeta": [
+      -3.790648767099114e-10,
+      7.491813988212766
+     ],
+     "bo_romberg_eta": 7.4918139882208905,
+     "bo_raw_eta": [
+      7.491337866156956,
+      7.491694921179511,
+      7.49178421917771
+     ],
+     "edge_energy_fraction": 2.7985603254007163e-25,
+     "throughput": 0.9999999999231461,
+     "fc_window2x_eta": 7.491813988212804,
+     "eta_opt_grid": 7.4918139882127655
+    },
+    "passive-bins": {
+     "fc_refined_eta": 7.491813945260916,
+     "fc_refined_zeta": [
+      -1.9241852555751393e-10,
+      7.491813945260916
+     ],
+     "bo_romberg_eta": 7.491813945269066,
+     "bo_raw_eta": [
+      7.491337823269099,
+      7.491694878243693,
+      7.491784176229887
+     ],
+     "edge_energy_fraction": 9.436979506391085e-12,
+     "throughput": 0.9999999999812761,
+     "eta_opt_grid": 7.491813945260943
+    },
+    "sharp": {
+     "fc_refined_eta": 7.491813998677537,
+     "fc_refined_zeta": [
+      -5.9396931817445875e-15,
+      7.491813998677537
+     ],
+     "bo_romberg_eta": 7.491813998685674,
+     "bo_raw_eta": [
+      7.491337876610983,
+      7.491694931641603,
+      7.491784229641819
+     ],
+     "edge_energy_fraction": 3.7438089426079523e-17,
+     "throughput": 0.9999999999999996,
+     "fc_window2x_eta": 7.491813998677594,
+     "eta_opt_grid": 7.49181399867757
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 7.491813998677639,
+    "fc_refined_zeta": [
+     9.702218927929082e-14,
+     7.491813998677639
+    ],
+    "bo_romberg_eta": 7.491813998685675,
+    "bo_raw_eta": [
+     7.491337876610985,
+     7.491694931641606,
+     7.491784229641821
+    ],
+    "edge_energy_fraction": 8.196721806168226e-32,
+    "throughput": 1.0,
+    "fc_window2x_eta": 7.491813998677544
+   },
+   "best_verified_eta": 7.491813998685674,
+   "best_verified_excess_over_ceiling": -0.00012873496725696043,
+   "best_verified_rel_gain_over_TL": -1.1102230246251565e-16,
+   "ceiling_rel_headroom": 1.7183417431176906e-05,
+   "wall_s": 303.6492819786072
+  },
+  {
+   "name": "sech N=2",
+   "kind": "sech",
+   "N": 2,
+   "held_out": false,
+   "grid": {
+    "n": 192,
+    "T": 36.0,
+    "K": 12.0
+   },
+   "ceiling_eta": 1.5,
+   "TL_eta_grid": 1.5000000000000038,
+   "exact_TL": 1.5,
+   "M0": 8,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 1.49999999997649,
+     "nfev": 103,
+     "nit": 96,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.4999999999764897,
+     "excess_over_ceiling": -2.3510082769462315e-11,
+     "rel_gain_over_TL_grid": -1.567590501849736e-11
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 1.499999999272722,
+     "nfev": 147,
+     "nit": 125,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.4999999992727238,
+     "excess_over_ceiling": -7.272780155886949e-10,
+     "rel_gain_over_TL_grid": -4.848544898905516e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 1.4999999986441692,
+     "nfev": 143,
+     "nit": 124,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.499999998644168,
+     "excess_over_ceiling": -1.3558307809802272e-09,
+     "rel_gain_over_TL_grid": -9.038897408331081e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 1.4999999956899828,
+     "nfev": 198,
+     "nit": 167,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.4999999956899839,
+     "excess_over_ceiling": -4.310017232000973e-09,
+     "rel_gain_over_TL_grid": -2.8733473378395047e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 1.4999999984768364,
+     "nfev": 322,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.4999999984768375,
+     "excess_over_ceiling": -1.5231635952517308e-09,
+     "rel_gain_over_TL_grid": -1.0154449503474439e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 1.4999999935208446,
+     "nfev": 324,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.4999999935208448,
+     "excess_over_ceiling": -6.479155434391259e-09,
+     "rel_gain_over_TL_grid": -4.319439472766362e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 1.4999992896713787,
+     "nfev": 334,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.499999289671379,
+     "excess_over_ceiling": -7.103286212561954e-07,
+     "rel_gain_over_TL_grid": -4.735524167243099e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 1.499999583007989,
+     "nfev": 335,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.4999995830079889,
+     "excess_over_ceiling": -4.1699201092093574e-07,
+     "rel_gain_over_TL_grid": -2.7799467650080345e-07
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 1.4999999726254925,
+     "nfev": 256,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.4999999726254925,
+     "excess_over_ceiling": -2.7374507549637883e-08,
+     "rel_gain_over_TL_grid": -1.824967421626411e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 1.4999937983050762,
+     "nfev": 257,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.4999937983050764,
+     "excess_over_ceiling": -6.201694923824164e-06,
+     "rel_gain_over_TL_grid": -4.134463285065948e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 1.499986456491326,
+     "nfev": 310,
+     "nit": 232,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.4999864564913252,
+     "excess_over_ceiling": -1.3543508674107585e-05,
+     "rel_gain_over_TL_grid": -9.029005785254895e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 1.4999970894971033,
+     "nfev": 302,
+     "nit": 214,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.4999970894971044,
+     "excess_over_ceiling": -2.9105028966913693e-06,
+     "rel_gain_over_TL_grid": -1.940335267014426e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 1.5000000000000033,
+     "nfev": 71,
+     "nit": 67,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.500000000000003,
+     "excess_over_ceiling": 3.3306690738754696e-15,
+     "rel_gain_over_TL_grid": -3.3306690738754696e-16
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 1.499999999976498,
+     "fc_refined_zeta": [
+      4.245105511406036e-11,
+      1.499999999976498
+     ],
+     "bo_romberg_eta": 1.4999999999766696,
+     "bo_raw_eta": [
+      1.499890158289102,
+      1.4999725355052795,
+      1.4999931336057286
+     ],
+     "edge_energy_fraction": 6.980813367079955e-13,
+     "throughput": 1.0,
+     "fc_window2x_eta": 1.4999999999764915,
+     "eta_opt_grid": 1.49999999997649
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 1.4999999984768262,
+     "fc_refined_zeta": [
+      2.393533307504803e-09,
+      1.4999999984768262
+     ],
+     "bo_romberg_eta": 1.499999998477017,
+     "bo_raw_eta": [
+      1.4998901567970822,
+      1.4999725340075396,
+      1.4999931321065545
+     ],
+     "edge_energy_fraction": 6.984013811591184e-13,
+     "throughput": 0.9999999999357545,
+     "fc_window2x_eta": 1.499999998476841,
+     "eta_opt_grid": 1.4999999984768364
+    },
+    "passive-bins": {
+     "fc_refined_eta": 1.4999999726255042,
+     "fc_refined_zeta": [
+      -1.18468798105623e-08,
+      1.4999999726255042
+     ],
+     "bo_romberg_eta": 1.4999999726256714,
+     "bo_raw_eta": [
+      1.4998901310127504,
+      1.4999725081729653,
+      1.4999931062594027
+     ],
+     "edge_energy_fraction": 2.701751794693669e-10,
+     "throughput": 0.9999999985834136,
+     "eta_opt_grid": 1.4999999726254925
+    },
+    "sharp": {
+     "fc_refined_eta": 1.5000000000000135,
+     "fc_refined_zeta": [
+      -2.1094237467877974e-15,
+      1.5000000000000135
+     ],
+     "bo_romberg_eta": 1.5000000000001823,
+     "bo_raw_eta": [
+      1.4998901583124746,
+      1.4999725355287583,
+      1.4999931336292327
+     ],
+     "edge_energy_fraction": 6.980823734804593e-13,
+     "throughput": 1.0,
+     "fc_window2x_eta": 1.4999999999999976,
+     "eta_opt_grid": 1.5000000000000033
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 1.5000000000000187,
+    "fc_refined_zeta": [
+     -1.2931819581591409e-14,
+     1.5000000000000187
+    ],
+    "bo_romberg_eta": 1.5000000000001816,
+    "bo_raw_eta": [
+     1.4998901583124742,
+     1.4999725355287574,
+     1.4999931336292323
+    ],
+    "edge_energy_fraction": 6.980823610405289e-13,
+    "throughput": 1.0,
+    "fc_window2x_eta": 1.4999999999999896
+   },
+   "best_verified_eta": 1.5000000000001823,
+   "best_verified_excess_over_ceiling": 1.822986206434507e-13,
+   "best_verified_rel_gain_over_TL": 4.440892098500626e-16,
+   "ceiling_rel_headroom": -1.2112533198660458e-13,
+   "wall_s": 80.59464073181152
+  },
+  {
+   "name": "sech N=3",
+   "kind": "sech",
+   "N": 3,
+   "held_out": false,
+   "grid": {
+    "n": 192,
+    "T": 36.0,
+    "K": 12.0
+   },
+   "ceiling_eta": 2.5,
+   "TL_eta_grid": 2.500000000000003,
+   "exact_TL": 2.5,
+   "M0": 18,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 2.4999999997308837,
+     "nfev": 118,
+     "nit": 108,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.4999999997308837,
+     "excess_over_ceiling": -2.6911628481229855e-10,
+     "rel_gain_over_TL_grid": -1.0764777957916749e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 2.499999997396333,
+     "nfev": 128,
+     "nit": 109,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.4999999973963316,
+     "excess_over_ceiling": -2.6036670597306966e-09,
+     "rel_gain_over_TL_grid": -1.0414680229331452e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 2.499999997479519,
+     "nfev": 223,
+     "nit": 209,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.499999997479518,
+     "excess_over_ceiling": -2.5204811571200025e-09,
+     "rel_gain_over_TL_grid": -1.0081937507067096e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 2.499999956030741,
+     "nfev": 247,
+     "nit": 185,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.499999956030741,
+     "excess_over_ceiling": -4.3969258900489194e-08,
+     "rel_gain_over_TL_grid": -1.7587704848054386e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 2.4999999982264867,
+     "nfev": 322,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 2.499999998226487,
+     "excess_over_ceiling": -1.7735133361895805e-09,
+     "rel_gain_over_TL_grid": -7.094065335166988e-10
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 2.4999998135499633,
+     "nfev": 322,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 2.4999998135499633,
+     "excess_over_ceiling": -1.8645003674322425e-07,
+     "rel_gain_over_TL_grid": -7.458001594073949e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 2.49999951517673,
+     "nfev": 327,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 2.49999951517673,
+     "excess_over_ceiling": -4.848232699750099e-07,
+     "rel_gain_over_TL_grid": -1.9392930927786267e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 2.4999974541977985,
+     "nfev": 333,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 2.4999974541978,
+     "excess_over_ceiling": -2.5458022014923642e-06,
+     "rel_gain_over_TL_grid": -1.0183208818403955e-06
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 2.4999999309092638,
+     "nfev": 262,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 2.4999999309092638,
+     "excess_over_ceiling": -6.909073624328244e-08,
+     "rel_gain_over_TL_grid": -2.763629569635384e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 2.4999909241665605,
+     "nfev": 256,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 2.4999909241665605,
+     "excess_over_ceiling": -9.075833439453618e-06,
+     "rel_gain_over_TL_grid": -3.630333377024897e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 2.4999999999666604,
+     "nfev": 124,
+     "nit": 109,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.49999999996666,
+     "excess_over_ceiling": -3.33395533402836e-11,
+     "rel_gain_over_TL_grid": -1.3337109194822006e-11
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 2.4985235034841855,
+     "nfev": 282,
+     "nit": 254,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.4985235034841855,
+     "excess_over_ceiling": -0.001476496515814496,
+     "rel_gain_over_TL_grid": -0.0005905986063270419
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 2.500000000000003,
+     "nfev": 117,
+     "nit": 107,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.500000000000004,
+     "excess_over_ceiling": 3.1086244689504383e-15,
+     "rel_gain_over_TL_grid": 0.0
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 2.4999999997308926,
+     "fc_refined_zeta": [
+      -3.2153027807742177e-10,
+      2.4999999997308926
+     ],
+     "bo_romberg_eta": 2.49999999973172,
+     "bo_raw_eta": [
+      2.499803867589729,
+      2.4999509568891476,
+      2.499987738408135
+     ],
+     "edge_energy_fraction": 6.983569953045836e-13,
+     "throughput": 1.0000000000000004,
+     "fc_window2x_eta": 2.499999999730874,
+     "eta_opt_grid": 2.4999999997308837
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 2.4999999982264587,
+     "fc_refined_zeta": [
+      -1.5881328015416188e-10,
+      2.4999999982264587
+     ],
+     "bo_romberg_eta": 2.4999999982273216,
+     "bo_raw_eta": [
+      2.499803866092128,
+      2.4999509553864523,
+      2.4999877369041625
+     ],
+     "edge_energy_fraction": 6.981734222126692e-13,
+     "throughput": 0.9999999999783834,
+     "fc_window2x_eta": 2.499999998226492,
+     "eta_opt_grid": 2.4999999982264867
+    },
+    "passive-bins": {
+     "fc_refined_eta": 2.4999999309092726,
+     "fc_refined_zeta": [
+      2.5813120097391065e-09,
+      2.4999999309092726
+     ],
+     "bo_romberg_eta": 2.4999999309100978,
+     "bo_raw_eta": [
+      2.4998037990009165,
+      2.4999508881258063,
+      2.4999876696010874
+     ],
+     "edge_energy_fraction": 1.608983991524435e-10,
+     "throughput": 0.9999999997823632,
+     "eta_opt_grid": 2.4999999309092638
+    },
+    "sharp": {
+     "fc_refined_eta": 2.499999999999992,
+     "fc_refined_zeta": [
+      7.731640905143678e-15,
+      2.499999999999992
+     ],
+     "bo_romberg_eta": 2.5000000000008384,
+     "bo_raw_eta": [
+      2.4998038678568797,
+      2.499950957157773,
+      2.49998773867713
+     ],
+     "edge_energy_fraction": 6.980823826647503e-13,
+     "throughput": 1.0,
+     "fc_window2x_eta": 2.5,
+     "eta_opt_grid": 2.500000000000003
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 2.5000000000000107,
+    "fc_refined_zeta": [
+     -9.261072329437133e-15,
+     2.5000000000000107
+    ],
+    "bo_romberg_eta": 2.50000000000084,
+    "bo_raw_eta": [
+     2.49980386785688,
+     2.4999509571577727,
+     2.499987738677131
+    ],
+    "edge_energy_fraction": 6.980823610351406e-13,
+    "throughput": 1.0,
+    "fc_window2x_eta": 2.499999999999992
+   },
+   "best_verified_eta": 2.5000000000008384,
+   "best_verified_excess_over_ceiling": 8.384404281969182e-13,
+   "best_verified_rel_gain_over_TL": -6.661338147750939e-16,
+   "ceiling_rel_headroom": -3.360645095540349e-13,
+   "wall_s": 71.72129487991333
+  },
+  {
+   "name": "sech N=4",
+   "kind": "sech",
+   "N": 4,
+   "held_out": false,
+   "grid": {
+    "n": 192,
+    "T": 36.0,
+    "K": 12.0
+   },
+   "ceiling_eta": 3.5,
+   "TL_eta_grid": 3.5000000000000075,
+   "exact_TL": 3.5,
+   "M0": 32,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 3.499999999896086,
+     "nfev": 122,
+     "nit": 114,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.499999999896086,
+     "excess_over_ceiling": -1.0391421056965555e-10,
+     "rel_gain_over_TL_grid": -2.969191559287765e-11
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 3.499999994734764,
+     "nfev": 134,
+     "nit": 118,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4999999947347633,
+     "excess_over_ceiling": -5.265235802909274e-09,
+     "rel_gain_over_TL_grid": -1.5043551959692536e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 3.49999999210792,
+     "nfev": 144,
+     "nit": 116,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4999999921079183,
+     "excess_over_ceiling": -7.892079878502045e-09,
+     "rel_gain_over_TL_grid": -2.254882169872019e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 3.4999999906168413,
+     "nfev": 244,
+     "nit": 190,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.499999990616841,
+     "excess_over_ceiling": -9.383158694475924e-09,
+     "rel_gain_over_TL_grid": -2.680904609420054e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 3.499999999166802,
+     "nfev": 325,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.4999999991668016,
+     "excess_over_ceiling": -8.331979550746382e-10,
+     "rel_gain_over_TL_grid": -2.380586838768295e-10
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 3.499999640253982,
+     "nfev": 324,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.4999996402539826,
+     "excess_over_ceiling": -3.597460178639267e-07,
+     "rel_gain_over_TL_grid": -1.027845787371362e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 3.4999930354443483,
+     "nfev": 348,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.4999930354443474,
+     "excess_over_ceiling": -6.96455565174503e-06,
+     "rel_gain_over_TL_grid": -1.9898730455603086e-06
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 3.499424133876812,
+     "nfev": 202,
+     "nit": 153,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4994241338768126,
+     "excess_over_ceiling": -0.0005758661231878293,
+     "rel_gain_over_TL_grid": -0.0001645331780558701
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 3.4999999509942943,
+     "nfev": 260,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.4999999509942943,
+     "excess_over_ceiling": -4.9005705715643444e-08,
+     "rel_gain_over_TL_grid": -1.4001632409055276e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 3.4999834123199216,
+     "nfev": 260,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.4999834123199207,
+     "excess_over_ceiling": -1.658768007839484e-05,
+     "rel_gain_over_TL_grid": -4.7393371673809526e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 3.499996998766271,
+     "nfev": 72,
+     "nit": 53,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.4999969987662696,
+     "excess_over_ceiling": -3.0012337290941105e-06,
+     "rel_gain_over_TL_grid": -8.574953532791696e-07
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 3.5000000000000036,
+     "nfev": 67,
+     "nit": 64,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.500000000000002,
+     "excess_over_ceiling": 3.552713678800501e-15,
+     "rel_gain_over_TL_grid": -1.1102230246251565e-15
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 3.411181556710651,
+     "nfev": 150,
+     "nit": 113,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.41118155671065,
+     "excess_over_ceiling": -0.08881844328934907,
+     "rel_gain_over_TL_grid": -0.025376698082673288
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 3.4999999998961124,
+     "fc_refined_zeta": [
+      -1.9529794456010325e-11,
+      3.4999999998961124
+     ],
+     "bo_romberg_eta": 3.4999999998983915,
+     "bo_raw_eta": [
+      3.4997152652149905,
+      3.4999287982099965,
+      3.4999821983501964
+     ],
+     "edge_energy_fraction": 6.980845556351246e-13,
+     "throughput": 0.9999999999999998,
+     "fc_window2x_eta": 3.4999999998960676,
+     "eta_opt_grid": 3.499999999896086
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 3.499999999166779,
+     "fc_refined_zeta": [
+      2.0617331512195688e-10,
+      3.499999999166779
+     ],
+     "bo_romberg_eta": 3.499999999169106,
+     "bo_raw_eta": [
+      3.49971526448977,
+      3.499928797481731,
+      3.4999821976211662
+     ],
+     "edge_energy_fraction": 6.981540356063873e-13,
+     "throughput": 0.99999999999749,
+     "fc_window2x_eta": 3.4999999991668145,
+     "eta_opt_grid": 3.499999999166802
+    },
+    "passive-bins": {
+     "fc_refined_eta": 3.499999950994308,
+     "fc_refined_zeta": [
+      -1.1896778426525055e-08,
+      3.499999950994308
+     ],
+     "bo_romberg_eta": 3.4999999509966,
+     "bo_raw_eta": [
+      3.499715216512672,
+      3.499928749358151,
+      3.4999821494608963
+     ],
+     "edge_energy_fraction": 1.0813624032454258e-11,
+     "throughput": 0.9999999999332562,
+     "eta_opt_grid": 3.4999999509942943
+    },
+    "sharp": {
+     "fc_refined_eta": 3.5000000000000058,
+     "fc_refined_zeta": [
+      -6.51058817540815e-16,
+      3.5000000000000058
+     ],
+     "bo_romberg_eta": 3.500000000002306,
+     "bo_raw_eta": [
+      3.4997152653182333,
+      3.4999287983137437,
+      3.4999821984540698
+     ],
+     "edge_energy_fraction": 6.980941224530586e-13,
+     "throughput": 0.9999999999999998,
+     "fc_window2x_eta": 3.500000000000001,
+     "eta_opt_grid": 3.5000000000000036
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 3.4999999999999916,
+    "fc_refined_zeta": [
+     2.0962371735002473e-14,
+     3.4999999999999916
+    ],
+    "bo_romberg_eta": 3.500000000002312,
+    "bo_raw_eta": [
+     3.499715265318237,
+     3.499928798313748,
+     3.4999821984540747
+    ],
+    "edge_energy_fraction": 6.980823610405289e-13,
+    "throughput": 1.0,
+    "fc_window2x_eta": 3.5000000000000027
+   },
+   "best_verified_eta": 3.500000000002306,
+   "best_verified_excess_over_ceiling": 2.306155266751375e-12,
+   "best_verified_rel_gain_over_TL": -1.6653345369377348e-15,
+   "ceiling_rel_headroom": -6.605826996519681e-13,
+   "wall_s": 80.09877800941467
+  },
+  {
+   "name": "sech N=6",
+   "kind": "sech",
+   "N": 6,
+   "held_out": false,
+   "grid": {
+    "n": 256,
+    "T": 36.0,
+    "K": 12.0
+   },
+   "ceiling_eta": 5.5,
+   "TL_eta_grid": 5.500000000000005,
+   "exact_TL": 5.5,
+   "M0": 72,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 5.499999999646188,
+     "nfev": 170,
+     "nit": 157,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 5.499999999646188,
+     "excess_over_ceiling": -3.538120907364828e-10,
+     "rel_gain_over_TL_grid": -6.433042987197268e-11
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 5.499999986673214,
+     "nfev": 153,
+     "nit": 139,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 5.499999986673216,
+     "excess_over_ceiling": -1.3326785897049831e-08,
+     "rel_gain_over_TL_grid": -2.4230529804825096e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 5.499999989649849,
+     "nfev": 236,
+     "nit": 194,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 5.499999989649852,
+     "excess_over_ceiling": -1.0350150958515769e-08,
+     "rel_gain_over_TL_grid": -1.8818465674641516e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 5.499999941539179,
+     "nfev": 265,
+     "nit": 206,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 5.499999941539177,
+     "excess_over_ceiling": -5.846082107296979e-08,
+     "rel_gain_over_TL_grid": -1.0629241153914393e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 5.499999981765523,
+     "nfev": 316,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 5.499999981765524,
+     "excess_over_ceiling": -1.8234477039413832e-08,
+     "rel_gain_over_TL_grid": -3.3153604306335183e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 5.4999996735024395,
+     "nfev": 324,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 5.499999673502439,
+     "excess_over_ceiling": -3.264975605432596e-07,
+     "rel_gain_over_TL_grid": -5.9363193805062053e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 5.499994843707138,
+     "nfev": 326,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 5.499994843707139,
+     "excess_over_ceiling": -5.156292862018574e-06,
+     "rel_gain_over_TL_grid": -9.375077940632082e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 5.49998208154073,
+     "nfev": 342,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 5.499982081540732,
+     "excess_over_ceiling": -1.7918459270127585e-05,
+     "rel_gain_over_TL_grid": -3.2579016864264787e-06
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 5.499999901508706,
+     "nfev": 258,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 5.499999901508705,
+     "excess_over_ceiling": -9.849129423145087e-08,
+     "rel_gain_over_TL_grid": -1.790750903118976e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 5.4999797398651555,
+     "nfev": 264,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 5.499979739865155,
+     "excess_over_ceiling": -2.0260134844463096e-05,
+     "rel_gain_over_TL_grid": -3.683660881770301e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 5.4999403589963825,
+     "nfev": 61,
+     "nit": 49,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 5.4999403589963825,
+     "excess_over_ceiling": -5.964100361754987e-05,
+     "rel_gain_over_TL_grid": -1.0843818840533537e-05
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 5.499975347551884,
+     "nfev": 312,
+     "nit": 208,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 5.499975347551885,
+     "excess_over_ceiling": -2.46524481157806e-05,
+     "rel_gain_over_TL_grid": -4.482263294747213e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 5.500000000000001,
+     "nfev": 62,
+     "nit": 57,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 5.500000000000002,
+     "excess_over_ceiling": 8.881784197001252e-16,
+     "rel_gain_over_TL_grid": -7.771561172376096e-16
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 5.499999999646205,
+     "fc_refined_zeta": [
+      -1.4523686105768346e-10,
+      5.499999999646205
+     ],
+     "bo_romberg_eta": 5.499999999647794,
+     "bo_raw_eta": [
+      5.499738616763579,
+      5.499934640683692,
+      5.499983659079079
+     ],
+     "edge_energy_fraction": 6.088024670444109e-13,
+     "throughput": 1.0000000000000002,
+     "fc_window2x_eta": 5.499999999646335,
+     "eta_opt_grid": 5.499999999646188
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 5.499999981765511,
+     "fc_refined_zeta": [
+      2.7935735023797033e-09,
+      5.499999981765511
+     ],
+     "bo_romberg_eta": 5.49999998176713,
+     "bo_raw_eta": [
+      5.499738598933186,
+      5.49993462281561,
+      5.499983641201561
+     ],
+     "edge_energy_fraction": 6.089145681130455e-13,
+     "throughput": 0.9999999997838013,
+     "fc_window2x_eta": 5.499999981765925,
+     "eta_opt_grid": 5.499999981765523
+    },
+    "passive-bins": {
+     "fc_refined_eta": 5.499999901508675,
+     "fc_refined_zeta": [
+      2.2786375396789233e-08,
+      5.499999901508675
+     ],
+     "bo_romberg_eta": 5.49999990151031,
+     "bo_raw_eta": [
+      5.499738518863781,
+      5.499934542605688,
+      5.499983560956468
+     ],
+     "edge_energy_fraction": 1.0406501223446587e-11,
+     "throughput": 0.9999999999727185,
+     "eta_opt_grid": 5.499999901508706
+    },
+    "sharp": {
+     "fc_refined_eta": 5.499999999999985,
+     "fc_refined_zeta": [
+      -1.8176325124766515e-14,
+      5.499999999999985
+     ],
+     "bo_romberg_eta": 5.500000000001607,
+     "bo_raw_eta": [
+      5.499738617115655,
+      5.49993464103707,
+      5.499983659432782
+     ],
+     "edge_energy_fraction": 6.089608921315523e-13,
+     "throughput": 1.0,
+     "fc_window2x_eta": 5.5,
+     "eta_opt_grid": 5.500000000000001
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 5.5000000000000595,
+    "fc_refined_zeta": [
+     1.7491728879579065e-14,
+     5.5000000000000595
+    ],
+    "bo_romberg_eta": 5.50000000000161,
+    "bo_raw_eta": [
+     5.499738617115659,
+     5.499934641037075,
+     5.499983659432787
+    ],
+    "edge_energy_fraction": 6.08802730309948e-13,
+    "throughput": 1.0,
+    "fc_window2x_eta": 5.499999999999992
+   },
+   "best_verified_eta": 5.500000000001607,
+   "best_verified_excess_over_ceiling": 1.6067147612375265e-12,
+   "best_verified_rel_gain_over_TL": -6.661338147750939e-16,
+   "ceiling_rel_headroom": -2.927658115936538e-13,
+   "wall_s": 199.0438802242279
+  },
+  {
+   "name": "sech N=2.5",
+   "kind": "sech",
+   "N": 2.5,
+   "held_out": false,
+   "grid": {
+    "n": 192,
+    "T": 36.0,
+    "K": 12.0
+   },
+   "ceiling_eta": 2.0087343833388065,
+   "TL_eta_grid": 2.0000000000000036,
+   "exact_TL": 2.0,
+   "M0": 12.5,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 1.9999999995142395,
+     "nfev": 77,
+     "nit": 71,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.9999999995142395,
+     "excess_over_ceiling": -0.008734383824567038,
+     "rel_gain_over_TL_grid": -2.428820478073135e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 1.9999999997355202,
+     "nfev": 163,
+     "nit": 150,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.9999999997355202,
+     "excess_over_ceiling": -0.008734383603286267,
+     "rel_gain_over_TL_grid": -1.3224166206526888e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 1.9999999983190468,
+     "nfev": 173,
+     "nit": 158,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.9999999983190468,
+     "excess_over_ceiling": -0.00873438501975965,
+     "rel_gain_over_TL_grid": -8.404783535809202e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 1.9999999772917927,
+     "nfev": 203,
+     "nit": 181,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.999999977291792,
+     "excess_over_ceiling": -0.00873440604701381,
+     "rel_gain_over_TL_grid": -1.135410543362525e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 1.9999999977179854,
+     "nfev": 325,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.9999999977179848,
+     "excess_over_ceiling": -0.008734385620821072,
+     "rel_gain_over_TL_grid": -1.1410090650088023e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 1.999999986048945,
+     "nfev": 320,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.9999999860489448,
+     "excess_over_ceiling": -0.008734397289861473,
+     "rel_gain_over_TL_grid": -6.975529265318414e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 1.9999993035791968,
+     "nfev": 315,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.999999303579197,
+     "excess_over_ceiling": -0.008735079759609743,
+     "rel_gain_over_TL_grid": -3.482104034002731e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 1.999997872091365,
+     "nfev": 362,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.9999978720913651,
+     "excess_over_ceiling": -0.00873651124744157,
+     "rel_gain_over_TL_grid": -1.0639543193136092e-06
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 1.9999999546293878,
+     "nfev": 255,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.999999954629388,
+     "excess_over_ceiling": -0.008734428709418651,
+     "rel_gain_over_TL_grid": -2.2685307854430903e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 1.9999946217855076,
+     "nfev": 258,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 1.9999946217855082,
+     "excess_over_ceiling": -0.00873976155329892,
+     "rel_gain_over_TL_grid": -2.6891072479884315e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 2.000000000000002,
+     "nfev": 108,
+     "nit": 89,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 2.0000000000000013,
+     "excess_over_ceiling": -0.008734383338804275,
+     "rel_gain_over_TL_grid": -6.661338147750939e-16
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 1.9942546159930428,
+     "nfev": 233,
+     "nit": 174,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.994254615993043,
+     "excess_over_ceiling": -0.014479767345763728,
+     "rel_gain_over_TL_grid": -0.0028726920034803927
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 1.9924928631145822,
+     "nfev": 81,
+     "nit": 62,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 1.9924928631145817,
+     "excess_over_ceiling": -0.016241520224224315,
+     "rel_gain_over_TL_grid": -0.0037535684427106863
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 1.999999999735521,
+     "fc_refined_zeta": [
+      2.282052324886763e-10,
+      1.999999999735521
+     ],
+     "bo_romberg_eta": 1.9999999997359466,
+     "bo_raw_eta": [
+      1.9998474471679633,
+      1.999961854969746,
+      1.999990463130384
+     ],
+     "edge_energy_fraction": 6.981919754251366e-13,
+     "throughput": 1.0,
+     "fc_window2x_eta": 1.9999999997355233,
+     "eta_opt_grid": 1.9999999997355202
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 1.9999999977179759,
+     "fc_refined_zeta": [
+      -7.49138949381225e-13,
+      1.9999999977179759
+     ],
+     "bo_romberg_eta": 1.9999999977184115,
+     "bo_raw_eta": [
+      1.999847445159417,
+      1.9999618529544623,
+      1.9999904611134118
+     ],
+     "edge_energy_fraction": 6.980804715765363e-13,
+     "throughput": 0.9999999999348461,
+     "fc_window2x_eta": 1.999999997717977,
+     "eta_opt_grid": 1.9999999977179854
+    },
+    "passive-bins": {
+     "fc_refined_eta": 1.999999954629389,
+     "fc_refined_zeta": [
+      -1.7223411318983277e-08,
+      1.999999954629389
+     ],
+     "bo_romberg_eta": 1.9999999546298142,
+     "bo_raw_eta": [
+      1.999847402204497,
+      1.9999618098993244,
+      1.9999904180331818
+     ],
+     "edge_energy_fraction": 9.891121996492236e-11,
+     "throughput": 0.9999999995121046,
+     "eta_opt_grid": 1.9999999546293878
+    },
+    "sharp": {
+     "fc_refined_eta": 1.9999999999999767,
+     "fc_refined_zeta": [
+      -5.432340686497168e-15,
+      1.9999999999999767
+     ],
+     "bo_romberg_eta": 2.0000000000004285,
+     "bo_raw_eta": [
+      1.9998474474299437,
+      1.9999618552335998,
+      1.9999904633947088
+     ],
+     "edge_energy_fraction": 6.980930221482631e-13,
+     "throughput": 0.9999999999999999,
+     "fc_window2x_eta": 1.9999999999999873,
+     "eta_opt_grid": 2.000000000000002
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 2.000000000000002,
+    "fc_refined_zeta": [
+     5.653713760234673e-15,
+     2.000000000000002
+    ],
+    "bo_romberg_eta": 2.0000000000004303,
+    "bo_raw_eta": [
+     1.999847447429945,
+     1.9999618552336014,
+     1.99999046339471
+    ],
+    "edge_energy_fraction": 6.980823610184998e-13,
+    "throughput": 1.0,
+    "fc_window2x_eta": 2.0000000000000164
+   },
+   "best_verified_eta": 2.0000000000004285,
+   "best_verified_excess_over_ceiling": -0.008734383338377949,
+   "best_verified_rel_gain_over_TL": -8.881784197001252e-16,
+   "ceiling_rel_headroom": 0.004367191669187198,
+   "wall_s": 67.5015480518341
+  },
+  {
+   "name": "sech N=4.5",
+   "kind": "sech",
+   "N": 4.5,
+   "held_out": true,
+   "grid": {
+    "n": 192,
+    "T": 36.0,
+    "K": 12.0
+   },
+   "ceiling_eta": 4.00286420911878,
+   "TL_eta_grid": 4.000000000000016,
+   "exact_TL": 4.0,
+   "M0": 40.5,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 3.999999999669575,
+     "nfev": 124,
+     "nit": 115,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.9999999996695745,
+     "excess_over_ceiling": -0.0028642094492048464,
+     "rel_gain_over_TL_grid": -8.261025197242589e-11
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 3.999999999544136,
+     "nfev": 224,
+     "nit": 204,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.9999999995441367,
+     "excess_over_ceiling": -0.002864209574643617,
+     "rel_gain_over_TL_grid": -1.1396994459289544e-10
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 3.9999999937034043,
+     "nfev": 240,
+     "nit": 215,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.999999993703405,
+     "excess_over_ceiling": -0.002864215415375515,
+     "rel_gain_over_TL_grid": -1.5741529191259929e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 3.99999998716698,
+     "nfev": 256,
+     "nit": 231,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.99999998716698,
+     "excess_over_ceiling": -0.0028642219517998058,
+     "rel_gain_over_TL_grid": -3.208258991804769e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 3.999999985076955,
+     "nfev": 326,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.999999985076955,
+     "excess_over_ceiling": -0.0028642240418248477,
+     "rel_gain_over_TL_grid": -3.7307652522855506e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 3.9999997423532245,
+     "nfev": 321,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.999999742353225,
+     "excess_over_ceiling": -0.0028644667655552958,
+     "rel_gain_over_TL_grid": -6.441169786430834e-08
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 3.9999978259111075,
+     "nfev": 334,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.999997825911108,
+     "excess_over_ceiling": -0.002866383207672296,
+     "rel_gain_over_TL_grid": -5.435222271144013e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 3.999979731272369,
+     "nfev": 354,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.999979731272369,
+     "excess_over_ceiling": -0.002884477846410771,
+     "rel_gain_over_TL_grid": -5.067181911733165e-06
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 3.999999919764452,
+     "nfev": 257,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.999999919764452,
+     "excess_over_ceiling": -0.002864289354327809,
+     "rel_gain_over_TL_grid": -2.0058890992658007e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 3.999989028637999,
+     "nfev": 260,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 3.999989028638,
+     "excess_over_ceiling": -0.002875180480780948,
+     "rel_gain_over_TL_grid": -2.7428405042773107e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 3.999999999999978,
+     "nfev": 123,
+     "nit": 111,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.9999999999999774,
+     "excess_over_ceiling": -0.0028642091188020302,
+     "rel_gain_over_TL_grid": -9.547918011776346e-15
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 3.9999999999998503,
+     "nfev": 97,
+     "nit": 89,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 3.9999999999998503,
+     "excess_over_ceiling": -0.002864209118929484,
+     "rel_gain_over_TL_grid": -4.141131881851834e-14
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 4.000000000000017,
+     "nfev": 117,
+     "nit": 101,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 4.000000000000017,
+     "excess_over_ceiling": -0.0028642091187629504,
+     "rel_gain_over_TL_grid": 2.220446049250313e-16
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 3.9999999996696087,
+     "fc_refined_zeta": [
+      2.433396956158518e-10,
+      3.9999999996696087
+     ],
+     "bo_romberg_eta": 3.9999999996730167,
+     "bo_raw_eta": [
+      3.9996705327100512,
+      3.9999176098789793,
+      3.999979400783676
+     ],
+     "edge_energy_fraction": 6.980966957783951e-13,
+     "throughput": 1.0,
+     "fc_window2x_eta": 3.9999999996696065,
+     "eta_opt_grid": 3.999999999669575
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 3.999999985076977,
+     "fc_refined_zeta": [
+      -1.8761074025157483e-09,
+      3.999999985076977
+     ],
+     "bo_romberg_eta": 3.999999985080398,
+     "bo_raw_eta": [
+      3.999670518190119,
+      3.999917595304572,
+      3.999979386195613
+     ],
+     "edge_energy_fraction": 6.981080552062638e-13,
+     "throughput": 0.9999999998395288,
+     "fc_window2x_eta": 3.9999999850770047,
+     "eta_opt_grid": 3.999999985076955
+    },
+    "passive-bins": {
+     "fc_refined_eta": 3.999999919764429,
+     "fc_refined_zeta": [
+      -2.0583719659293174e-08,
+      3.999999919764429
+     ],
+     "bo_romberg_eta": 3.999999919767894,
+     "bo_raw_eta": [
+      3.999670453110615,
+      3.9999175300503915,
+      3.999979320897695
+     ],
+     "edge_energy_fraction": 2.2613612998350448e-11,
+     "throughput": 0.9999999999352821,
+     "eta_opt_grid": 3.999999919764452
+    },
+    "sharp": {
+     "fc_refined_eta": 3.9999999999999756,
+     "fc_refined_zeta": [
+      -4.339327329870973e-15,
+      3.9999999999999756
+     ],
+     "bo_romberg_eta": 4.000000000003459,
+     "bo_raw_eta": [
+      3.999670533038078,
+      3.999917610208816,
+      3.999979401113967
+     ],
+     "edge_energy_fraction": 6.98082377946286e-13,
+     "throughput": 0.9999999999999997,
+     "fc_window2x_eta": 4.00000000000002,
+     "eta_opt_grid": 4.000000000000017
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 4.000000000000006,
+    "fc_refined_zeta": [
+     -5.29381019975948e-15,
+     4.000000000000006
+    ],
+    "bo_romberg_eta": 4.0000000000034595,
+    "bo_raw_eta": [
+     3.9996705330380786,
+     3.999917610208816,
+     3.9999794011139675
+    ],
+    "edge_energy_fraction": 6.980823610211246e-13,
+    "throughput": 1.0,
+    "fc_window2x_eta": 3.9999999999999893
+   },
+   "best_verified_eta": 4.000000000003459,
+   "best_verified_excess_over_ceiling": -0.002864209115321259,
+   "best_verified_rel_gain_over_TL": -2.220446049250313e-16,
+   "ceiling_rel_headroom": 0.0007160522788294266,
+   "wall_s": 87.12017893791199
+  },
+  {
+   "name": "sech N=7.5",
+   "kind": "sech",
+   "N": 7.5,
+   "held_out": true,
+   "grid": {
+    "n": 256,
+    "T": 36.0,
+    "K": 12.0
+   },
+   "ceiling_eta": 7.001062556551381,
+   "TL_eta_grid": 7.000000000000008,
+   "exact_TL": 7.0,
+   "M0": 112.5,
+   "searches": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 6.999999999582605,
+     "nfev": 158,
+     "nit": 150,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 6.999999999582607,
+     "excess_over_ceiling": -0.0010625569687761072,
+     "rel_gain_over_TL_grid": -5.962896842959253e-11
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.3",
+     "eta": 6.99999998223881,
+     "nfev": 185,
+     "nit": 167,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 6.99999998223881,
+     "excess_over_ceiling": -0.001062574312570952,
+     "rel_gain_over_TL_grid": -2.5373140255524618e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand0.8",
+     "eta": 6.999999970604155,
+     "nfev": 321,
+     "nit": 290,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 6.999999970604156,
+     "excess_over_ceiling": -0.001062585947225969,
+     "rel_gain_over_TL_grid": -4.199407599436711e-09
+    },
+    {
+     "family": "phase-cheb",
+     "start": "rand1.5",
+     "eta": 6.9999999791394565,
+     "nfev": 341,
+     "nit": 290,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 6.9999999791394565,
+     "excess_over_ceiling": -0.0010625774119246145,
+     "rel_gain_over_TL_grid": -2.9800787393341466e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 6.999999959651363,
+     "nfev": 323,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 6.999999959651361,
+     "excess_over_ceiling": -0.0010625969000184199,
+     "rel_gain_over_TL_grid": -5.764092203541793e-09
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.3",
+     "eta": 6.999996554122501,
+     "nfev": 321,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 6.999996554122498,
+     "excess_over_ceiling": -0.0010660024288799974,
+     "rel_gain_over_TL_grid": -4.922682153019053e-07
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand0.8",
+     "eta": 6.99998776903416,
+     "nfev": 355,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 6.999987769034162,
+     "excess_over_ceiling": -0.0010747875172212318,
+     "rel_gain_over_TL_grid": -1.7472808354623837e-06
+    },
+    {
+     "family": "passive-cheb",
+     "start": "rand1.5",
+     "eta": 6.9998859936967,
+     "nfev": 392,
+     "nit": 300,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 6.999885993696701,
+     "excess_over_ceiling": -0.0011765628546811513,
+     "rel_gain_over_TL_grid": -1.6286614758276308e-05
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 6.9999998255638385,
+     "nfev": 260,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 6.99999982556384,
+     "excess_over_ceiling": -0.001062730987542615,
+     "rel_gain_over_TL_grid": -2.4919452834559763e-08
+    },
+    {
+     "family": "passive-bins",
+     "start": "rand0.6",
+     "eta": 6.999975247058047,
+     "nfev": 259,
+     "nit": 250,
+     "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+     "tracked_eta_at_end": 6.999975247058048,
+     "excess_over_ceiling": -0.001087309493334132,
+     "rel_gain_over_TL_grid": -3.53613456582913e-06
+    },
+    {
+     "family": "sharp",
+     "start": "rand0",
+     "eta": 6.999634634804237,
+     "nfev": 185,
+     "nit": 160,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 6.999634634804235,
+     "excess_over_ceiling": -0.001427921747144012,
+     "rel_gain_over_TL_grid": -5.219502796727227e-05
+    },
+    {
+     "family": "sharp",
+     "start": "rand1",
+     "eta": 6.99966616520655,
+     "nfev": 333,
+     "nit": 272,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 6.999666165206552,
+     "excess_over_ceiling": -0.0013963913448309384,
+     "rel_gain_over_TL_grid": -4.769068477972205e-05
+    },
+    {
+     "family": "sharp",
+     "start": "rand2",
+     "eta": 6.995285345738608,
+     "nfev": 382,
+     "nit": 281,
+     "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+     "tracked_eta_at_end": 6.995285345738607,
+     "excess_over_ceiling": -0.005777210812772715,
+     "rel_gain_over_TL_grid": -0.000673522037342833
+    }
+   ],
+   "best": {
+    "phase-cheb": {
+     "fc_refined_eta": 6.999999999582579,
+     "fc_refined_zeta": [
+      7.600140808541853e-11,
+      6.999999999582579
+     ],
+     "bo_romberg_eta": 6.9999999995859294,
+     "bo_raw_eta": [
+      6.999662153107476,
+      6.999915516980377,
+      6.999978877622921
+     ],
+     "edge_energy_fraction": 6.088047011991242e-13,
+     "throughput": 1.0,
+     "fc_window2x_eta": 6.99999999958274,
+     "eta_opt_grid": 6.999999999582605
+    },
+    "passive-cheb": {
+     "fc_refined_eta": 6.999999959651337,
+     "fc_refined_zeta": [
+      -5.216622144475779e-09,
+      6.999999959651337
+     ],
+     "bo_romberg_eta": 6.999999959654685,
+     "bo_raw_eta": [
+      6.999662113312466,
+      6.99991547708324,
+      6.999978837700207
+     ],
+     "edge_energy_fraction": 6.088179958512504e-13,
+     "throughput": 0.9999999999275508,
+     "fc_window2x_eta": 6.999999959651939,
+     "eta_opt_grid": 6.999999959651363
+    },
+    "passive-bins": {
+     "fc_refined_eta": 6.999999825563887,
+     "fc_refined_zeta": [
+      3.010781472526243e-08,
+      6.999999825563887
+     ],
+     "bo_romberg_eta": 6.999999825567161,
+     "bo_raw_eta": [
+      6.999661979541981,
+      6.999915343075046,
+      6.999978703632519
+     ],
+     "edge_energy_fraction": 1.6373345263242394e-11,
+     "throughput": 0.9999999999382816,
+     "eta_opt_grid": 6.9999998255638385
+    },
+    "sharp": {
+     "fc_refined_eta": 6.999666165206518,
+     "fc_refined_zeta": [
+      -8.251778304057666e-05,
+      6.999666165206518
+     ],
+     "bo_romberg_eta": 6.99966616520987,
+     "bo_raw_eta": [
+      6.999328547046995,
+      6.99958173971057,
+      6.999645057525134
+     ],
+     "edge_energy_fraction": 3.6766412013824484e-07,
+     "throughput": 0.9999989003924544,
+     "fc_window2x_eta": 6.997598464130801,
+     "eta_opt_grid": 6.99966616520655
+    }
+   },
+   "TL_verified": {
+    "fc_refined_eta": 6.999999999999952,
+    "fc_refined_zeta": [
+     -2.180200464607651e-14,
+     6.999999999999952
+    ],
+    "bo_romberg_eta": 7.000000000003327,
+    "bo_raw_eta": [
+     6.9996621535226895,
+     6.9999155173972305,
+     6.999978878040182
+    ],
+    "edge_energy_fraction": 6.088027302973262e-13,
+    "throughput": 1.0,
+    "fc_window2x_eta": 7.000000000000041
+   },
+   "best_verified_eta": 6.9999999995859294,
+   "best_verified_excess_over_ceiling": -0.0010625569654516553,
+   "best_verified_rel_gain_over_TL": -5.96281912734753e-11,
+   "ceiling_rel_headroom": 0.0001517937925790136,
+   "wall_s": 130.2595112323761
+  }
+ ]
+}

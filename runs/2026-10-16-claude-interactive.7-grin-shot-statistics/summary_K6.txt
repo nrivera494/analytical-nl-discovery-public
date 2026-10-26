@@ -1,0 +1,14 @@
+shot_stats_K6.json: M = 21; Dirichlet excited g2-1 = 0.905, <I0> = 0.781, relvar(I0) = 1.54e-03
+z=   1 | launched relvar q1e10 1.44e-09  q1e4 1.35e-03  deph 1.21e-01 | I0 relvar q1e10 1.78e-10  q1e4 1.86e-04  deph 7.73e-04 | Fano I0 1.0, launched 1.0 | f0 deph 0.602
+z=   2 | launched relvar q1e10 1.00e-09  q1e4 1.12e-03  deph 3.56e-01 | I0 relvar q1e10 2.06e-10  q1e4 2.02e-04  deph 2.65e-03 | Fano I0 1.1, launched 1.1 | f0 deph 0.606
+z=   5 | launched relvar q1e10 5.52e-09  q1e4 7.58e-03  deph 6.74e-01 | I0 relvar q1e10 3.60e-10  q1e4 3.70e-04  deph 5.71e-03 | Fano I0 1.9, launched 1.2 | f0 deph 0.635
+z=  10 | launched relvar q1e10 2.50e-09  q1e4 2.59e-03  deph 8.91e-01 | I0 relvar q1e10 2.80e-10  q1e4 3.60e-04  deph 4.67e-03 | Fano I0 1.8, launched 1.3 | f0 deph 0.688
+z=  20 | launched relvar q1e10 4.11e-09  q1e4 4.63e-03  deph 8.00e-01 | I0 relvar q1e10 2.63e-10  q1e4 3.58e-04  deph 2.25e-03 | Fano I0 1.7, launched 2.6 | f0 deph 0.728
+z=  30 | launched relvar q1e10 6.29e-09  q1e4 8.09e-03  deph 8.18e-01 | I0 relvar q1e10 2.07e-10  q1e4 2.73e-04  deph 2.02e-03 | Fano I0 1.5, launched 2.1 | f0 deph 0.745
+z=  50 | launched relvar q1e10 1.58e-08  q1e4 1.82e-02  deph 9.37e-01 | I0 relvar q1e10 1.46e-10  q1e4 2.15e-04  deph 1.79e-03 | Fano I0 1.1, launched 3.3 | f0 deph 0.762
+z=  75 | launched relvar q1e10 7.08e-08  q1e4 8.92e-02  deph 8.55e-01 | I0 relvar q1e10 4.67e-10  q1e4 5.09e-04  deph 1.88e-03 | Fano I0 3.5, launched 16.6 | f0 deph 0.773
+z= 100 | launched relvar q1e10 4.26e-08  q1e4 8.83e-02  deph 8.28e-01 | I0 relvar q1e10 2.05e-10  q1e4 2.26e-04  deph 1.07e-03 | Fano I0 1.6, launched 9.8 | f0 deph 0.782
+z= 150 | launched relvar q1e10 2.34e-07  q1e4 1.41e-01  deph 7.98e-01 | I0 relvar q1e10 8.06e-10  q1e4 7.40e-04  deph 1.67e-03 | Fano I0 6.3, launched 45.0 | f0 deph 0.780
+z= 200 | launched relvar q1e10 8.06e-07  q1e4 3.94e-01  deph 9.54e-01 | I0 relvar q1e10 3.46e-09  q1e4 1.62e-03  deph 1.43e-03 | Fano I0 26.4, launched 175.1 | f0 deph 0.782
+z= 250 | launched relvar q1e10 2.09e-05  q1e4 1.17e+00  deph 8.28e-01 | I0 relvar q1e10 4.86e-09  q1e4 3.68e-03  deph 1.55e-03 | Fano I0 33.8, launched 124.1 | f0 deph 0.780
+z= 300 | launched relvar q1e10 2.91e-04  q1e4 8.05e-01  deph 8.16e-01 | I0 relvar q1e10 4.13e-09  q1e4 1.65e-03  deph 1.15e-03 | Fano I0 33.2, launched 13312.0 | f0 deph 0.779

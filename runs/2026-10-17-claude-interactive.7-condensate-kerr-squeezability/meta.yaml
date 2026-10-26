@@ -1,0 +1,15 @@
+run_id: 2026-10-17-claude-interactive.7-condensate-kerr-squeezability
+date: 2026-10-17
+agent: claude-interactive.7
+model: claude-opus-5-5
+family: claude
+task: T-20261017-claude-interactive.7-01
+serves: "PI question (chat, 2026-10-17): after equilibration to a condensed state at large n, can the condensate be squeezed by subsequent Kerr, or has it lost phase coherence or gained excess intensity noise? Exploration note section 6.8."
+solver_commit: null
+solver_dirty: null
+solver_note: "No solver: tangent-map (linearized) Gaussian state of the GRIN resonant model as in runs/2026-10-16-claude-interactive.7-grin-gaussian-state (same trajectories), exact single-mode Kerr in the Fock basis, and 2x2 Gaussian algebra."
+software: "Python 3.9 venv ~/agent-work/venv: numpy 2.0.2, scipy"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0 (host COECIS-G3FLW49YGQ); matrices at most 30 x 30; Fock bases up to about 1.2e6 states"
+wall_time_s: "about 70 (cond_kerr.py), under 60 each (kerr_curvature.py, best_squeezing.py), about 370 (own_squeezing_checks.py)"
+seeds: "launch phases phase_seed 1, disorder dis_seed 7 (as in grin-gaussian-state); Sagnac pump-spread sampling default_rng(3); Wigner noise default_rng(2024), bootstrap default_rng(11)"
+raw_location: "none; outputs are the committed JSON and text files (small)"

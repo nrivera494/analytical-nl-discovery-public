@@ -1,0 +1,26 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-nextorder-full
+task: T-20261004-claude-interactive-07
+claim: C-20261004-gpt-a-01
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: 75ca4e5
+analysis_commit: e190f01d5013aa781890098d5b4320a900d656ac
+prediction_commit: 6d5b1ffdf5bcffe806494ee179c7cf38db0ac130
+hardware: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-nextorder-full
+wall_time_seconds: 356.3820106229999
+julia_threads: 2
+blas_threads: 1
+fft_threads: 1
+randomness: none; deterministic equations and fixed phases
+status: completed
+failed_attempts:
+- source: e855dc0
+  stage: metadata lookup before propagation
+  error: Older material TOML lacked derived mismatch key; fixed by deriving it from
+    retained beta arrays.
+  log: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-nextorder-prediction/full-main-attempt1.log
+  resolution_commit: 75ca4e5

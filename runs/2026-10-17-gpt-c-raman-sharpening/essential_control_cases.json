@@ -1,0 +1,477 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_baseline",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_fine",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "fine check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_wide",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "wide check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_tight",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 1.25e-10,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "tight check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_baseline",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_fine",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "fine check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_wide",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 200,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "wide check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_tight",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 1.25e-10,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "tight check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_baseline",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 45,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_fine",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 45,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "fine check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_wide",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 90,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "wide check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_tight",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 45,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 1.25e-10,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "tight check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step0.0004",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0004
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step0.0002",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0002
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step0.0001",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0001
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step5e-05",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 5e-05
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelanalytic_n8192",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 8192,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n8192",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 8192,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_sampling": "sampled_normalized"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelanalytic_n16384",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n16384",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_sampling": "sampled_normalized"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelanalytic_n32768",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n32768",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_sampling": "sampled_normalized"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T400.000_times2",
+    "N": 4,
+    "T0_fs": 400,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_scale": 2.0
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "library_matched_gaussian_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "gaussian",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0001,
+    "shock": true,
+    "solver_filter": true,
+    "raman_sampling": "sampled_raw",
+    "convergence_justification": "Matched sampled response, shock and library filter; compares Gaussian field against agents solver."
+  }
+]

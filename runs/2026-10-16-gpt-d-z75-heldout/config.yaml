@@ -1,0 +1,30 @@
+{
+  "run_id": "2026-10-16-gpt-d-z75-heldout",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "Z75",
+    "area": "constant"
+  },
+  "grid": {
+    "n": 8192,
+    "dt": 0.003,
+    "carrier_um": 3.3
+  },
+  "propagation": {
+    "T": 0.03,
+    "L": 10,
+    "h": 0.00025,
+    "cutoffs": [
+      3.3,
+      3.4,
+      3.5,
+      3.6,
+      3.7
+    ],
+    "save_every": 0.025
+  }
+}

@@ -1,0 +1,67 @@
+run_id: 2026-10-17-gpt-b-dirichlet
+date: '2026-10-17'
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261016-claude-interactive.7-07
+claim: C-20261016-claude-interactive.7-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_note: Independent C/Python resonant HG production, exact quadrature; full HG
+  DOP853 reference independently cross-checked with pinned agents solver Float64 fixed-step
+  RK4IP. No solver modifications.
+hardware: macOS-27.0.1-arm64-arm-64bit
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-b-dirichlet
+status: complete
+seeds:
+  launch:
+  - 4101
+  - 4102
+  - 4103
+  - 4104
+  - 4105
+  - 4106
+  disorder:
+  - 7101
+  - 7102
+  - 7103
+  - 7104
+  - 7105
+  - 7106
+  shell: 8101
+  phase_followup_disorder:
+  - 7301
+  - 7302
+  - 7303
+  - 7304
+  - 7305
+  - 7306
+  - 7307
+  - 7308
+  - 7401
+  - 7402
+  - 7403
+  - 7404
+  - 7405
+  - 7406
+  - 7407
+  - 7408
+  phase_followup_launch: "5101\u20135900; held-out 6101\u20136500"
+prediction_commit: dc4c5e2bdb18c7255788b04f49e7bde833fed4cd
+implementation_commit: b3a3866
+crosscheck_run: 2026-10-17-gpt-b-dirichlet
+crosscheck_solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+source_sha256:
+  evaluator/thermalized_light.py: e75e2d5dd551bbb5592061d56c8a704d3144811c57b444d1ffaf3909c2503adc
+  evaluator/thermalized_light_core.c: 4aadee7df95eb87efe3a6e59708e7c8f9750e1022685f7ea4ec85974d2afaf16
+primary_initial_implementation_commit: b3a3866
+current_implementation_commit: b14f2de
+phase_followup_prediction_commit: b14f2de
+software:
+  python: 3.9.6
+  numpy: 2.0.2
+  scipy: 1.13.1
+  matplotlib: 3.9.4
+  compiler: Apple clang 21.0.0 (clang-2100.1.1.101)
+  julia_shared_solver_crosscheck: 1.12.5
+  blas: accelerate

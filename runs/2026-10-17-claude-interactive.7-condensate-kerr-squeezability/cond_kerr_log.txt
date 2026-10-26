@@ -1,0 +1,50 @@
+coherent-state reference: Phi for -3 dB 0.354, for -10 dB 1.423
+E'=0.3 sigma=0.3 z=    1 f0=0.793: V_X=     1.02 V_P=     3.92 V_P|X=     1.46 nu=    1.22 own min   -4.9 dB | Phi for -3 dB        0, -10 dB    0.976
+E'=0.3 sigma=0.3 z=    2 f0=0.787: V_X=     1.06 V_P=     12.6 V_P|X=     3.38 nu=    1.89 own min   -5.7 dB | Phi for -3 dB        0, -10 dB     1.25
+E'=0.3 sigma=0.3 z=    5 f0=0.809: V_X=     1.25 V_P=     76.1 V_P|X=     16.6 nu=    4.56 own min   -5.7 dB | Phi for -3 dB        0, -10 dB     2.71
+E'=0.3 sigma=0.3 z=   10 f0=0.846: V_X=     1.23 V_P=      310 V_P|X=       41 nu=    7.09 own min   -7.9 dB | Phi for -3 dB        0, -10 dB     2.29
+E'=0.3 sigma=0.3 z=   20 f0=0.833: V_X=     1.66 V_P= 1.21e+03 V_P|X=      192 nu=    17.8 own min   -5.8 dB | Phi for -3 dB        0, -10 dB     8.88
+E'=0.3 sigma=0.3 z=   50 f0=0.860: V_X=     1.88 V_P= 7.72e+03 V_P|X= 1.13e+03 nu=    46.2 own min   -5.6 dB | Phi for -3 dB        0, -10 dB     22.2
+E'=0.3 sigma=0.3 z=  100 f0=0.858: V_X=     1.45 V_P= 3.19e+04 V_P|X=  1.6e+04 nu=     152 own min   -1.4 dB | Phi for -3 dB     20.1, -10 dB      141
+E'=0.3 sigma=0.3 z=  200 f0=0.873: V_X=     5.76 V_P= 1.04e+05 V_P|X= 9.01e+04 nu=     720 own min    7.0 dB | Phi for -3 dB      178, -10 dB      446
+E'=0.3 sigma=0.3 z=  300 f0=0.868: V_X=      6.5 V_P= 2.16e+05 V_P|X= 9.09e+04 nu=     769 own min    4.4 dB | Phi for -3 dB      136, -10 dB      404
+E'=0.3 sigma=0.0 z=    1 f0=0.787: V_X=     1.01 V_P=     3.92 V_P|X=     1.53 nu=    1.24 own min   -4.7 dB | Phi for -3 dB        0, -10 dB     1.03
+E'=0.3 sigma=0.0 z=    2 f0=0.778: V_X=     1.06 V_P=     12.6 V_P|X=     3.67 nu=    1.97 own min   -5.4 dB | Phi for -3 dB        0, -10 dB     1.39
+E'=0.3 sigma=0.0 z=    5 f0=0.792: V_X=      1.3 V_P=     74.6 V_P|X=     18.9 nu=    4.96 own min   -4.9 dB | Phi for -3 dB        0, -10 dB     3.31
+E'=0.3 sigma=0.0 z=   10 f0=0.869: V_X=     1.18 V_P=      315 V_P|X=     19.7 nu=    4.82 own min  -11.3 dB | Phi for -3 dB        0, -10 dB        0
+E'=0.3 sigma=0.0 z=   20 f0=0.871: V_X=    0.914 V_P= 1.27e+03 V_P|X=      111 nu=    10.1 own min  -11.0 dB | Phi for -3 dB        0, -10 dB        0
+E'=0.3 sigma=0.0 z=   50 f0=0.853: V_X=    0.189 V_P= 7.76e+03 V_P|X= 1.86e+03 nu=    18.7 own min  -13.4 dB | Phi for -3 dB        0, -10 dB        0
+E'=0.3 sigma=0.0 z=  100 f0=0.870: V_X=     1.23 V_P= 3.14e+04 V_P|X= 7.31e+03 nu=    94.7 own min   -5.4 dB | Phi for -3 dB        0, -10 dB     59.5
+E'=0.3 sigma=0.0 z=  200 f0=0.872: V_X=      3.1 V_P= 1.27e+05 V_P|X= 3.38e+04 nu=     324 own min   -0.8 dB | Phi for -3 dB     32.4, -10 dB      199
+E'=0.3 sigma=0.0 z=  300 f0=0.861: V_X=     15.3 V_P=  2.8e+05 V_P|X= 6.45e+03 nu=     314 own min   -4.5 dB | Phi for -3 dB        0, -10 dB     59.7
+E'=0.6 sigma=0.3 z=    1 f0=0.579: V_X=     1.05 V_P=     2.93 V_P|X=     1.72 nu=    1.34 own min   -2.8 dB | Phi for -3 dB   0.0275, -10 dB     1.38
+E'=0.6 sigma=0.3 z=    2 f0=0.555: V_X=     1.21 V_P=     8.61 V_P|X=     4.96 nu=    2.45 own min   -1.8 dB | Phi for -3 dB    0.277, -10 dB     2.47
+E'=0.6 sigma=0.3 z=    5 f0=0.557: V_X=      2.1 V_P=     50.5 V_P|X=     32.9 nu=    8.32 own min    1.3 dB | Phi for -3 dB     2.07, -10 dB     7.39
+E'=0.6 sigma=0.3 z=   10 f0=0.614: V_X=     2.54 V_P=      206 V_P|X=     97.6 nu=    15.7 own min    0.8 dB | Phi for -3 dB     2.97, -10 dB       12
+E'=0.6 sigma=0.3 z=   20 f0=0.622: V_X=     1.87 V_P=      793 V_P|X=      313 nu=    24.2 own min   -1.3 dB | Phi for -3 dB      2.7, -10 dB     19.2
+E'=0.6 sigma=0.3 z=   50 f0=0.765: V_X=     1.62 V_P= 6.17e+03 V_P|X=      796 nu=    35.9 own min   -6.8 dB | Phi for -3 dB        0, -10 dB     14.3
+E'=0.6 sigma=0.3 z=  100 f0=0.752: V_X=     6.69 V_P= 2.14e+04 V_P|X= 1.15e+04 nu=     277 own min    5.6 dB | Phi for -3 dB     53.7, -10 dB      149
+E'=0.6 sigma=0.3 z=  200 f0=0.719: V_X=      493 V_P= 1.99e+05 V_P|X= 4.05e+04 nu=4.47e+03 own min   20.0 dB | Phi for -3 dB      151, -10 dB      327
+E'=0.6 sigma=0.3 z=  300 f0=0.683: V_X= 1.61e+03 V_P= 4.52e+05 V_P|X= 1.81e+05 nu=1.71e+04 own min   28.1 dB | Phi for -3 dB      294, -10 dB      666
+E'=0.6 sigma=0.0 z=    1 f0=0.566: V_X=     1.04 V_P=     2.94 V_P|X=     1.83 nu=    1.38 own min   -2.6 dB | Phi for -3 dB   0.0704, -10 dB     1.46
+E'=0.6 sigma=0.0 z=    2 f0=0.538: V_X=      1.2 V_P=      8.6 V_P|X=     5.27 nu=    2.51 own min   -1.6 dB | Phi for -3 dB    0.344, -10 dB     2.61
+E'=0.6 sigma=0.0 z=    5 f0=0.531: V_X=        2 V_P=     48.8 V_P|X=     29.9 nu=    7.73 own min    0.8 dB | Phi for -3 dB     1.78, -10 dB     6.87
+E'=0.6 sigma=0.0 z=   10 f0=0.694: V_X=     1.99 V_P=      226 V_P|X=     46.9 nu=    9.65 own min   -3.9 dB | Phi for -3 dB        0, -10 dB     5.78
+E'=0.6 sigma=0.0 z=   20 f0=0.783: V_X=    0.861 V_P=      999 V_P|X=      108 nu=    9.64 own min  -10.3 dB | Phi for -3 dB        0, -10 dB        0
+E'=0.6 sigma=0.0 z=   50 f0=0.718: V_X=    0.297 V_P= 5.74e+03 V_P|X= 5.64e+03 nu=      41 own min   -5.3 dB | Phi for -3 dB        0, -10 dB     87.8
+E'=0.6 sigma=0.0 z=  100 f0=0.765: V_X=    0.755 V_P= 2.48e+04 V_P|X= 4.71e+03 nu=    59.6 own min   -8.4 dB | Phi for -3 dB        0, -10 dB     19.4
+E'=0.6 sigma=0.0 z=  200 f0=0.682: V_X=     6.38 V_P= 9.04e+04 V_P|X= 8.46e+04 nu=     735 own min    7.8 dB | Phi for -3 dB      212, -10 dB      471
+E'=0.6 sigma=0.0 z=  300 f0=0.701: V_X= 3.99e+03 V_P= 2.21e+05 V_P|X= 2.03e+05 nu=2.84e+04 own min   35.6 dB | Phi for -3 dB      317, -10 dB      711
+Sagnac: pump RMS 0.000, Phi   3.0: dark-port variance 0.02633 (-15.8 dB); V_min + eps^2 = 0.02633
+Sagnac: pump RMS 0.000, Phi  10.0: dark-port variance 0.002488 (-26.0 dB); V_min + eps^2 = 0.002488
+Sagnac: pump RMS 0.000, Phi  30.0: dark-port variance 0.0002776 (-35.6 dB); V_min + eps^2 = 0.0002776
+Sagnac: pump RMS 0.010, Phi   3.0: dark-port variance 0.02642 (-15.8 dB); V_min + eps^2 = 0.02643
+Sagnac: pump RMS 0.010, Phi  10.0: dark-port variance 0.002586 (-25.9 dB); V_min + eps^2 = 0.002588
+Sagnac: pump RMS 0.010, Phi  30.0: dark-port variance 0.0003769 (-34.2 dB); V_min + eps^2 = 0.0003776
+Sagnac: pump RMS 0.020, Phi   3.0: dark-port variance 0.0267 (-15.7 dB); V_min + eps^2 = 0.02673
+Sagnac: pump RMS 0.020, Phi  10.0: dark-port variance 0.002882 (-25.4 dB); V_min + eps^2 = 0.002888
+Sagnac: pump RMS 0.020, Phi  30.0: dark-port variance 0.0006746 (-31.7 dB); V_min + eps^2 = 0.0006776
+Sagnac: pump RMS 0.052, Phi   3.0: dark-port variance 0.0288 (-15.4 dB); V_min + eps^2 = 0.02904
+Sagnac: pump RMS 0.052, Phi  10.0: dark-port variance 0.005153 (-22.9 dB); V_min + eps^2 = 0.005192
+Sagnac: pump RMS 0.052, Phi  30.0: dark-port variance 0.002961 (-25.3 dB); V_min + eps^2 = 0.002982
+wall 67.62074017524719

@@ -1,0 +1,18 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-capture-convergence
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: 57db513eccb519164fb597c9880dda4e5c3181b8
+analysis_commit: 57db513eccb519164fb597c9880dda4e5c3181b8
+prediction_commit: 43bc96d
+hardware: COECIS-G3FLW49YGQ
+julia_threads: 2
+blas_threads: 1
+fft_threads: 1
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-capture-convergence
+wall_time_seconds: 261.839167625
+randomness: none; deterministic propagation
+status: completed
+task: T-20261004-claude-interactive-02

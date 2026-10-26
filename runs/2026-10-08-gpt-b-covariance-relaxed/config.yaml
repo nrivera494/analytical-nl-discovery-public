@@ -1,0 +1,156 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance_solver.jl
+contraction_script: evaluator/mm_soliton_covariance_check.py
+profiles: 2026-10-08-gpt-b-covariance-sweep
+material: 2026-10-08-gpt-b-covariance-material
+adjoint_mode: discrete_rk4ip
+no_shock: true
+analytic_Raman_Fourier_kernel: true
+task_local_model_adapter: 'CovarianceResponse: private dispatch for analytic Raman
+  kernel and flat no-shock prefactor'
+solver_source_modified: false
+temperature_K: 300.0
+gain_complex_psd_over_q: 0.1
+Raman_fraction: 0.18
+Raman_tau1_ps: 0.0122
+Raman_tau2_ps: 0.032
+cases:
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin02_p0.2_physical.npz
+  pair: grin02
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.001
+  zspacing: 0.05
+  raman_mean: false
+  overlap_backend: exact sparse-term CP
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin02_p0.2_physical.npz
+  pair: grin02
+  nm: 11
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: false
+  overlap_backend: exact sparse-term CP
+  actual_energy_centroid_frequency_fraction_gradients: false
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin02_p0.2_physical.npz
+  pair: grin02
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: false
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin02_p0.2_physical.npz
+  pair: grin02
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: true
+  overlap_backend: exact sparse-term CP
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin02_p0.2_physical.npz
+  pair: grin02
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: true
+  overlap_backend: exact sparse-term CP
+  actual_energy_centroid_frequency_fraction_gradients: true
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin11_p0.2_physical.npz
+  pair: grin11
+  nm: 11
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: false
+  overlap_backend: exact sparse-term CP
+  actual_energy_centroid_frequency_fraction_gradients: false
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin11_p0.2_physical.npz
+  pair: grin11
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: false
+  overlap_backend: exact sparse-term CP
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin11_p0.2_physical.npz
+  pair: grin11
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: true
+  overlap_backend: exact sparse-term CP
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin11_p0.2_physical.npz
+  pair: grin11
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: true
+  overlap_backend: exact sparse-term CP
+  actual_energy_centroid_frequency_fraction_gradients: true
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/step11_p0.2_physical.npz
+  pair: step11
+  nm: 3
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: false
+  overlap_backend: exact sparse-term CP
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/step11_p0.2_physical.npz
+  pair: step11
+  nm: 3
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: true
+  overlap_backend: exact sparse-term CP
+- time_points: 512
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/step11_p0.2_physical.npz
+  pair: step11
+  nm: 3
+  zeta: 4.0
+  dzeta: 0.002
+  zspacing: 0.05
+  raman_mean: true
+  overlap_backend: exact sparse-term CP
+  actual_energy_centroid_frequency_fraction_gradients: true
+- time_points: 1024
+  time_window: 48.0
+  profile: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/fine/grin02_p0.2_physical.npz
+  pair: grin02
+  nm: 6
+  zeta: 4.0
+  dzeta: 0.001
+  zspacing: 0.05
+  raman_mean: true
+  overlap_backend: exact sparse-term CP
+  actual_energy_centroid_frequency_fraction_gradients: true
+scope: Full-field deterministic Jacobian contractions; source-specific leading weak-noise
+  covariance

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "conv_smf_fine_N3_T25_retry",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  }
+]

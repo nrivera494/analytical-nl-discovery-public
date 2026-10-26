@@ -1,0 +1,104 @@
+run_id: 2026-10-18-gpt-b-kerr-exact
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+production_started: true
+serial: true
+memory_gate_free_percent: 35
+max_process_gb: 3
+raw_root: ~/analytical-nl-discovery-data
+predictions: predictions.md
+prediction_commits:
+  initial: 9db4bb6a67b640d79365810a984c3af5c6a9da92
+  disorder_refinement_and_orientation: e221a59c026e933deafe1ba16a12123eaca4f110
+  count_n1e6_confirmation: 7e0e9b97c51782bb0fa74fc2a04f8a3d19fc904a
+  phase_mechanism: 2ac8a9273aa2effb1e4df93f8b2d00628bf3f50b
+  pinned_solver: 851351d88aedc6a73554e65d8d20bbf1d0df1489
+  count_z300_confirmation: 368fd6b354128c9f606f2d0cf0e9a34ea91d05be
+  antithetic_scaling: f380d729ac06227ffcb937f031ecdaf4fd618add
+  nonlinear_ensemble: de19ac53551537a8ad4f0a888b814d16ec1c67d6
+  sagnac_integral: 3a500fe164d9f592df8d51c97a2c9a96999dc13e
+  count_resolution: 66012828c3dabca15d258af4c4808952af40b0ee
+  exact_n64: 58f39549d4e3b9e58765369bef4cc3acd45926ec
+  quantum_bright_reference: dbd35fd143caabdec1b0390cdf463f5dce4ab0e5
+  fixed_number_reference: bcc4dd669ba2dbd5c631892e38abf51c8ac905e9
+  fresh_count_resolution: c9725cab8690ef6acc5ce000b119bd6c023348a2
+  final_strong_resolution: b561662e63250818ce92a9a5af8a05dd3b6c40fb
+  sagnac_shot_rescaling: 9ff7001391f69bd55895cced2634e66e41b4c2e1
+  last_count_refinement: 7f1cb2ce5df94fdcb8fcc17bb325bfb0e5fb293d
+  unimodal_positive_P_counterexample: e1da2d58fb64f3bdd9a8f95da6752d963d5e24ef
+Hamiltonian: H=chi*N*(N-1)/2
+n_definition: displacement photons nd=abs(alpha)^2; total mean nd+(nu-1)/2 for displaced
+  thermal input
+vacuum_variance: 1
+exact_moment_precision_decimal_digits: 60
+displaced_thermal_nu:
+- 1
+- 3
+- 10
+- 30
+- 100
+displacement_range:
+- 100.0
+- 1000000000000.0
+fit_n:
+- 1000000.0
+- 100000000.0
+- 10000000000.0
+held_out_n:
+- 10000000.0
+- 1000000000.0
+- 1000000000000.0
+held_out_nu:
+- 3
+- 30
+fock_reference_nd:
+- 4
+- 16
+- 64
+fock_reference_nu:
+- 1
+- 3
+- 10
+classical_wigner_scrambles: 8611..8614
+classical_wigner_shots:
+- 16384
+- 65536
+sagnac:
+  n_per_arm:
+  - 10000000000.0
+  - 5000000000.0
+  Phi:
+  - 3
+  - 10
+  - 30
+  - 60
+  power_laws:
+  - fixed
+  - Gaussian RMS .02,sqrt(.0026),.1
+  - K5 Eprime=.6 Dirichlet condensate
+  observables:
+  - dark quadrature, external LO tracking conditional mean phase
+  - fixed laboratory LO negative control
+  - quantum bright-port number difference, normalized to total shot noise
+  - quantum bright-port number difference rescaled by known classical shot power
+  wigner_scrambles: 8811..8814 and8891..8894
+  power_integral_scrambles:
+  - 8881
+  - 8882
+  fixed_total_number_benchmarks:
+  - 8
+  - 32
+  - 128
+reproduce:
+- python run.py
+- shared serial_checks.sh and final_checks.sh
+- python qmc_completion.py
+- python analyse.py
+physical_scope: one monochromatic electronic-Kerr cell; no Raman, dispersion or loss
+  within the stage
+reproduce_note: Run from repository root. Execute numerical stages strictly serially;
+  serial_checks.sh, final_checks.sh, then after_checks.sh. Earlier core jobs are named
+  in this config and scripts.
+production_finished: true
+production_stopped_at: '2026-10-18T13:53:44.057759+00:00'

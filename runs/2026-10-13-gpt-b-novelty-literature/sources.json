@@ -1,0 +1,2199 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-13-gpt-b-novelty-literature",
+  "date": "2026-10-13",
+  "access_policy": "Access is an explicit reviewer judgment in each active card. A cached PDF is not automatically a full-text reading. Full text means relevant sections inspected.",
+  "active_bibliography_rows": [
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Shapiro, DOI [10.1103/PhysRevA.73.062305](https://doi.org/10.1103/PhysRevA.73.062305)",
+      "access": "abstract only",
+      "finding": "Exists and supports a causal-response-model fidelity obstruction; full text not obtained. Avoid extending the abstract's language to every dielectric architecture."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Shapiro and Razavi, [arXiv:quant-ph/0612086](https://arxiv.org/abs/quant-ph/0612086), DOI 10.1088/1367-2630/9/1/016",
+      "access": "full text",
+      "finding": "Continuous-time XPM response and phase-noise model; probe/parity-gate analysis is not an architecture-independent phase maximum."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Gea-Banacloche, [arXiv:0911.4682](https://arxiv.org/abs/0911.4682), DOI 10.1103/PhysRevA.81.043823",
+      "access": "full text",
+      "finding": "Local multimode interaction and bandwidth/fidelity tradeoff; stated assumptions matter."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Viswanathan and Gea-Banacloche, [arXiv:1712.03914](https://arxiv.org/abs/1712.03914), DOI 10.1103/PhysRevA.97.032314",
+      "access": "full text",
+      "finding": "Analytical high-fidelity conditional phase in a nonlocal, chi(2)-equivalent model with unequal velocities; not a counterexample inside strict local bulk Kerr."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Brod and Combes, [arXiv:1604.04278](https://arxiv.org/abs/1604.04278), DOI 10.1103/PhysRevLett.117.080502",
+      "access": "full text",
+      "finding": "Discrete atom-mediated counter-propagating architecture; fidelity allows specified single-photon distortion corrections. Not a transparent-bulk material bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Heuck, Jacobs and Englund, [arXiv:1909.05751](https://arxiv.org/abs/1909.05751), DOI 10.1103/PhysRevLett.124.160501",
+      "access": "full text",
+      "finding": "Memory citation verified. Strong classical controls change cavity coupling; storage and incident pulse duration are independent resources. This is outside a passive time-independent architecture."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Tian and Chen, [arXiv:2312.10719](https://arxiv.org/abs/2312.10719)",
+      "access": "full text",
+      "finding": "Emitter/cavity photon-transport gate; does not establish a bound for transparent bulk chi(3)."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Shim, Monticone and Miller, [arXiv:2103.15697](https://arxiv.org/abs/2103.15697), DOI 10.1002/adma.202103946",
+      "access": "full text",
+      "finding": "Index bound has dispersion/bandwidth conditions; no automatic nonlinear extension."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Kuzyk, DOI [10.1103/PhysRevLett.85.1218](https://doi.org/10.1103/PhysRevLett.85.1218), correction DOI 10.1103/PhysRevLett.90.039902",
+      "access": "abstract only; correction not accessed",
+      "finding": "Original source and correction metadata located. Molecular hyperpolarizability, not a universal bulk Kerr theorem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Kuzyk, [arXiv:physics/0510002](https://arxiv.org/abs/physics/0510002)",
+      "access": "full text",
+      "finding": "Truncation/ansatz assumptions are part of the theory, not consequences of macroscopic transparency alone."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Kuzyk, [arXiv:physics/0510199](https://arxiv.org/abs/physics/0510199)",
+      "access": "full text",
+      "finding": "Main calculation concerns second-order molecular response; third-order response is proposed as subsequent work."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Kuzyk, DOI [10.1364/OL.25.001183](https://doi.org/10.1364/OL.25.001183), correction DOI 10.1364/OL.28.000135",
+      "access": "abstract only; correction not accessed",
+      "finding": "Omitted direct third-order molecular bound. Full corrected derivation remains to be checked."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Shafei and Kuzyk, [arXiv:1306.0937](https://arxiv.org/abs/1306.0937)",
+      "access": "full text",
+      "finding": "Few-level ansatz and formal many-state catastrophe; does not prove a physically attainable bulk divergence."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Sheik-Bahae, Hagan and Van Stryland, DOI [10.1103/PhysRevLett.65.96](https://doi.org/10.1103/PhysRevLett.65.96)",
+      "access": "full text",
+      "finding": "Located specific band-gap-scaling paper. Model/dispersion prediction, not a universal upper bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Sheik-Bahae et al., DOI [10.1109/3.89946](https://doi.org/10.1109/3.89946)",
+      "access": "abstract only",
+      "finding": "Located the detailed bound-electronic-refraction paper; replaces the unidentifiable Handbook-chapter citation as an active source."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Shim, Fan, Johnson and Miller, DOI [10.1103/PhysRevX.9.011043](https://doi.org/10.1103/PhysRevX.9.011043)",
+      "access": "full text",
+      "finding": "Vague memory citation resolved. Bandwidth-averaged response/LDOS limits do not directly bound the internal energy-normalized quartic interaction."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "**Chen et al., 2018**, DOI [10.1038/s41467-017-02487-z](https://doi.org/10.1038/s41467-017-02487-z), [arXiv:1612.07427](https://arxiv.org/abs/1612.07427)",
+      "access": "full text",
+      "finding": "Article year is **2018**, despite the DOI's 2017 string. Fiber XPM metrology with mixed probes/postselection; not a demonstrated high-fidelity two-photon gate."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Choi, Heuck and Englund, DOI [10.1103/PhysRevLett.118.223605](https://doi.org/10.1103/PhysRevLett.118.223605)",
+      "access": "full text",
+      "finding": "Memory citation verified. Self-similar dielectric concentration is feature-size sensitive; peak-energy mode volume differs from nonlinear interaction volume."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Chang, Vuletić and Lukin, DOI [10.1038/nphoton.2014.192](https://doi.org/10.1038/nphoton.2014.192)",
+      "access": "full text",
+      "finding": "Review located; covers resonant platforms outside the strict bulk-transparent class as well as general quantum nonlinear optics."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Yanagimoto et al., [arXiv:2203.11909](https://arxiv.org/abs/2203.11909), DOI 10.1364/OPTICA.473276",
+      "access": "full text",
+      "finding": "Vague Mabuchi-group lead resolved: auxiliary trap pulse and dispersion engineering; demonstrated model uses chi(2)-mediated gate dynamics. Additional control resources must be counted."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Li et al., [arXiv:2409.20351](https://arxiv.org/abs/2409.20351), DOI 10.1021/acsphotonics.4c01892",
+      "access": "full text",
+      "finding": "Resonant quantum-well second/third-order bounds, not the proposed general off-resonant bulk Kerr limit."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Koutserimpas et al., [arXiv:2410.02002](https://arxiv.org/abs/2410.02002)",
+      "access": "full text",
+      "finding": "Clarifies nonlinear analyticity and signed sum-rule strengths; closes a logical shortcut in the proposed combination."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Zhao, Zhang and Miller, [arXiv:2008.13241](https://arxiv.org/abs/2008.13241)",
+      "access": "full text",
+      "finding": "Fabrication-constrained mode-volume bounds already exist, including multiple resonances; their point-energy objective does not itself bound a gate channel."
+    },
+    {
+      "problem": "P-20261012-claude-interactive-02",
+      "card": "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+      "source": "Miller and Monticone, [arXiv:2605.24738](https://arxiv.org/abs/2605.24738), sections 2.6 and 5.6",
+      "access": "full text",
+      "finding": "Current tutorial explicitly leaves general bandwidth-dependent nonlinear material bounds open and reviews regularized mode-volume limits. This supports the narrower material subquestion, not the original combined gate ceiling."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "C. L. Epstein, minimum-energy pulse synthesis, DOI [10.1016/j.jmr.2003.12.014](https://doi.org/10.1016/j.jmr.2003.12.014)",
+      "access": "abstract only",
+      "finding": "Minimum-energy inverse-scattering result is real; full author PDF was blocked. Do not attribute its exact normalization from the abstract."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "**J. F. Magland**, thesis, [arXiv:0903.4363](https://arxiv.org/abs/0903.4363)",
+      "access": "full text",
+      "finding": "Sole author, not “Epstein & Magland”; theorem supplies the exact trace identity and bound-state penalty."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Mafi, [arXiv:1507.04284](https://arxiv.org/abs/1507.04284), DOI 10.1364/OL.40.003603",
+      "access": "full text",
+      "finding": "Log-transmittance area for a different, counter-propagating stack model; useful analogy, not this optimization problem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Kats, [arXiv:2608.26633](https://arxiv.org/abs/2608.26633)",
+      "access": "full text",
+      "finding": "Located current preprint; wavelength-integrated mirror bound has different assumptions and integration weight."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Rozanov, DOI [10.1109/8.884491](https://doi.org/10.1109/8.884491)",
+      "access": "abstract only",
+      "finding": "Located paper and abstract in a copy of the original article; metal-backed absorber bound, not an SFG theorem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Miller, DOI [10.1103/PhysRevLett.99.203903](https://doi.org/10.1103/PhysRevLett.99.203903)",
+      "access": "abstract only",
+      "finding": "Linear slow-light limit; no nonlinear-conversion conclusion inferred."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Xiong et al., [arXiv:1609.09221](https://arxiv.org/abs/1609.09221)",
+      "access": "full text",
+      "finding": "The area law is derived in the weak-conversion limit and explicitly ceases to hold at saturation; original author list was inaccurate."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Suchowski, Oron, Arie and Silberberg, [arXiv:0805.1517](https://arxiv.org/abs/0805.1517), DOI 10.1103/PhysRevA.78.063821",
+      "access": "full text",
+      "finding": "SFG/Bloch mapping and adiabatic QPM designs precede this card."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Porat and Arie, [arXiv:1302.3964](https://arxiv.org/abs/1302.3964), DOI 10.1364/JOSAB.30.001342",
+      "access": "full text",
+      "finding": "Fully nonlinear adiabatic conditions **and a bandwidth estimate** already exist; they are not an all-poling trace bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Rangelov and Vitanov, [arXiv:1111.1333](https://arxiv.org/abs/1111.1333), DOI 10.1103/PhysRevA.85.045804",
+      "access": "full text",
+      "finding": "Cascaded adiabatic conversion, not a global optimum over the present controls."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Genov, Rangelov and Vitanov, DOI [10.1088/2040-8978/16/6/062001](https://doi.org/10.1088/2040-8978/16/6/062001)",
+      "access": "full text",
+      "finding": "Composite-crystal designs include depleted and undepleted operation; this is a stronger precedent than the original listing conveyed."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Charbonneau-Lefort, Afeyan and Fejer, DOI [10.1364/JOSAB.25.000463](https://doi.org/10.1364/JOSAB.25.000463)",
+      "access": "abstract only",
+      "finding": "Frequency-domain WKB design formulas for chirped OPA; exact coefficients and edge corrections not independently audited here."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Phillips et al., DOI [10.1364/JOSAB.30.001551](https://doi.org/10.1364/JOSAB.30.001551)",
+      "access": "abstract only",
+      "finding": "Apodization paper exists; coauthor is **L. Gallmann**, not L. Lin."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Kobzar et al., DOI [10.1016/j.jmr.2004.06.017](https://doi.org/10.1016/j.jmr.2004.06.017) and DOI [10.1016/j.jmr.2008.05.023](https://doi.org/10.1016/j.jmr.2008.05.023)",
+      "access": "abstract only, both",
+      "finding": "Numerical optimal-control studies constrain amplitude and RF power separately; do not interpret their numerical limits as a global impossibility theorem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Li and Khaneja, [arXiv:quant-ph/0510012](https://arxiv.org/abs/quant-ph/0510012), DOI 10.1103/PhysRevA.73.030302",
+      "access": "full text",
+      "finding": "Ensemble control is established; admissible controls differ from binary QPM."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Song and Shin, DOI [10.1364/JOSAA.2.001905](https://doi.org/10.1364/JOSAA.2.001905)",
+      "access": "abstract only",
+      "finding": "The previously vague lead is located: inverse scattering of corrugated filters."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Feced, Zervas and Muriel, DOI [10.1109/3.777209](https://doi.org/10.1109/3.777209)",
+      "access": "abstract only",
+      "finding": "Located institutional abstract: exact differential layer-peeling synthesis of fiber Bragg gratings; no new conversion theorem attributed to it."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Feced and Zervas, DOI [10.1364/JOSAA.17.001573](https://doi.org/10.1364/JOSAA.17.001573)",
+      "access": "abstract only",
+      "finding": "Omitted close precedent: inverse synthesis of **codirectional** coupling spectra."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Brenne and Skaar, DOI [10.1109/JLT.2003.808648](https://doi.org/10.1109/JLT.2003.808648)",
+      "access": "abstract only",
+      "finding": "Necessary/sufficient realizability constraints and inverse synthesis are already claimed for a discrete coupler model. Full text needed before claiming novelty for an unconstrained reachable set."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Chern and Wang, DOI [10.1364/JOSAA.19.000772](https://doi.org/10.1364/JOSAA.19.000772)",
+      "access": "full text",
+      "finding": "Omitted binary-grating precedent: inverse scattering plus a transfer-matrix genetic optimization, including corrections to the effective-envelope approximation. An achieved flat-band design is not a certified global bandwidth frontier."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Phillips, Langrock and Fejer, DOI [10.1364/OE.21.010139](https://doi.org/10.1364/OE.21.010139)",
+      "access": "full text",
+      "finding": "Omitted close precedent: convex QPM design under stated linear/first-order-QPM approximations, including fabrication constraints. Does not establish the exact high-conversion binary frontier."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-01",
+      "card": "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+      "source": "Li, Ruths and Glaser, DOI [10.1038/s41467-017-00441-7](https://doi.org/10.1038/s41467-017-00441-7)",
+      "access": "full text",
+      "finding": "Main article supplies analytical minimum-energy and bounded-amplitude bang–bang designs through a spin–spring projection with an additional feasibility condition. The supplement's control optimization remains to be audited; do not equate it with a worst-band-error frontier under minimum-domain constraints."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "**C. Bao** et al., DOI [10.1364/OL.39.006126](https://doi.org/10.1364/OL.39.006126)",
+      "access": "abstract only",
+      "finding": "First initial corrected; soliton efficiency scaling, with a pulse-energy convention that needs care when comparing pump-excluded power."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "**X. Xue, P.-H. Wang, Y. Xuan, M. Qi and A. M. Weiner**, DOI [10.1002/lpor.201600276](https://doi.org/10.1002/lpor.201600276), arXiv:1610.00958",
+      "access": "full text",
+      "finding": "Original author list corrected; effective critical coupling is a general energy-flow argument, not merely a duty-cycle fit."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Jang et al., DOI [10.1364/OL.423654](https://doi.org/10.1364/OL.423654)",
+      "access": "abstract only",
+      "finding": "Single-soliton scaling regimes; no all-state conclusion inferred from the abstract."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Xue, Zheng and Zhou, [arXiv:1805.11228](https://arxiv.org/abs/1805.11228), DOI 10.1038/s41566-019-0436-0",
+      "access": "full text",
+      "finding": "Coupled-cavity pump matching; different system from the uniform single-ring problem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Helgason et al., DOI [10.1038/s41566-023-01280-3](https://doi.org/10.1038/s41566-023-01280-3)",
+      "access": "abstract only",
+      "finding": "Coupled-ring efficiency enhancement verified; full supplementary derivation was not independently read here."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Kondratiev et al., [arXiv:2209.03707](https://arxiv.org/abs/2209.03707), DOI 10.1103/PhysRevA.107.063508",
+      "access": "full text",
+      "finding": "Soliton-ansatz optimization; paper discusses disagreement with simulations at low normalized drive. Its formal unity limit is not a certified exact stationary-state optimum."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "**J. Gärtner** et al., DOI [10.1103/PhysRevA.100.033819](https://doi.org/10.1103/PhysRevA.100.033819); author preprint DOI 10.5445/IR/1000089036",
+      "access": "full text",
+      "finding": "First initial corrected; numerical bifurcation/continuation and the external-power normalization are established."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "**Q.-F. Yang**, Hu, Torres-Company and Vahala, DOI [10.1186/s43593-024-00075-5](https://doi.org/10.1186/s43593-024-00075-5)",
+      "access": "full text",
+      "finding": "First initials corrected; dark-pulse approximation has the squared-coupling maximum. Review's definition can include pump power under the comb envelope, unlike strict pump-line exclusion here."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Gasmi et al., [arXiv:2210.09760](https://arxiv.org/abs/2210.09760), DOI 10.1103/PhysRevA.108.023505",
+      "access": "full text",
+      "finding": "Their dual-pump metric includes weighted contributions **from both pump modes**. Its weak-drive limit is not a limit on new-line conversion. See registered algebra check."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Mandel and Reichel, [arXiv:1603.02206](https://arxiv.org/abs/1603.02206)",
+      "access": "full text",
+      "finding": "A priori estimates and bifurcations constrain possible branches but do not solve the requested conversion frontier."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Gasmi, Jahnke, Kirn and Reichel, [arXiv:2210.09779](https://arxiv.org/abs/2210.09779), DOI 10.1007/s00033-023-02060-3",
+      "access": "full text",
+      "finding": "Existence, uniqueness and continuation results for dual pumping; relevant theorems inspected, but no conversion-efficiency optimization supplied."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Lihachev et al., DOI [10.1038/s41467-022-29431-0](https://doi.org/10.1038/s41467-022-29431-0)",
+      "access": "abstract only",
+      "finding": "Platicon demonstration; coupling calibration not independently reconstructed."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "**J. Zang** et al., [arXiv:2401.16740](https://arxiv.org/abs/2401.16740)",
+      "access": "full text",
+      "finding": "Initial corrected; bidirectional system needs its own port and power bookkeeping."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Zhao et al., [arXiv:2104.12905](https://arxiv.org/abs/2104.12905), DOI 10.1364/OL.427684",
+      "access": "full text",
+      "finding": "Resonant chi(2) efficiency/critical-coupling theory already exists; comb allocation beyond that model is a different question."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Leo et al., [arXiv:1510.04261](https://arxiv.org/abs/1510.04261), DOI 10.1103/PhysRevLett.116.033901",
+      "access": "full text",
+      "finding": "Mean-field chi(2) comb model, not a global conversion optimizer."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Chembo and Menyuk, DOI [10.1103/PhysRevA.87.053852](https://doi.org/10.1103/PhysRevA.87.053852)",
+      "access": "abstract only",
+      "finding": "Previously unaccessed normalization/model reference located in an author PDF."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Stone et al., [arXiv:2109.04910](https://arxiv.org/abs/2109.04910), DOI 10.1103/PhysRevApplied.17.024038",
+      "access": "full text",
+      "finding": "Previously unlocated lead verified: three-mode OPO optimum and multimode competing processes. Not a solution of the all-branch LLE problem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Perez et al., DOI [10.1038/s41467-022-35746-9](https://doi.org/10.1038/s41467-022-35746-9)",
+      "access": "full text",
+      "finding": "OPO signal/idler coupling-product ceiling stated explicitly; track photon versus power efficiency."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Zeng and Popović, DOI [10.1364/OE.22.015837](https://doi.org/10.1364/OE.22.015837)",
+      "access": "full text",
+      "finding": "Earlier triply resonant Kerr-OPO optimization with loss and couplings; rules out novelty for an undifferentiated “more ports” ceiling."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-02",
+      "card": "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+      "source": "Yu et al., [arXiv:2109.01280](https://arxiv.org/abs/2109.01280), DOI 10.1038/s41467-022-30774-x",
+      "access": "full text",
+      "finding": "Explicit internal ceiling and external-coupling relation, missed by proposer."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Reddy, Raymer, McKinstrie, Mejling and Rottwitt, [arXiv:1305.2165](https://arxiv.org/abs/1305.2165), DOI 10.1364/OE.21.013840",
+      "access": "full text",
+      "finding": "Exact matched-regime Green function and numerical parameter exploration; pump chirp can be removed from the Schmidt spectrum in that regime. This is not a proof over every velocity configuration."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Reddy et al., erratum, DOI [10.1364/OE.25.007998](https://doi.org/10.1364/OE.25.007998)",
+      "access": "full text",
+      "finding": "Omitted erratum corrects time arguments in the original Green-function equations; conclusions stated unchanged. Use corrected expressions in an oracle."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Reddy, Raymer and McKinstrie, DOI [10.1364/OL.39.002924](https://doi.org/10.1364/OL.39.002924)",
+      "access": "abstract only",
+      "finding": "Temporal-mode interferometry is a cascaded architecture, outside the proposed single-pass class."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Reddy, Raymer and McKinstrie, [arXiv:1501.03216](https://arxiv.org/abs/1501.03216), DOI 10.1103/PhysRevA.91.012323",
+      "access": "full text",
+      "finding": "Multistage theory and numerical high selectivity; no all-pump single-stage proof found."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Reddy and Raymer, [arXiv:1702.05687](https://arxiv.org/abs/1702.05687), DOI 10.1364/OE.25.012952",
+      "access": "full text",
+      "finding": "Explicitly describes the single-stage limit as obtained by exhaustive numerical exploration."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Quesada and Sipe, [arXiv:1508.03361](https://arxiv.org/abs/1508.03361), DOI 10.1364/OL.41.000364",
+      "access": "full text",
+      "finding": "Mode-selective conversion, time ordering and cascade scaling; finite-order analysis is not a global ceiling proof."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Quesada and Sipe, [arXiv:1407.6976](https://arxiv.org/abs/1407.6976), DOI 10.1103/PhysRevA.90.063840",
+      "access": "full text",
+      "finding": "Magnus formalism supporting the mechanism; retain its approximation assumptions."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Christ, Brecht, Mauerer and Silberhorn, [arXiv:1210.8342](https://arxiv.org/abs/1210.8342), DOI 10.1088/1367-2630/15/5/053038",
+      "access": "full text",
+      "finding": "Rigorous numerical propagation versus neglect of time ordering; explicitly leaves perfect engineered single-mode high-gain conversion open."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Brecht, Reddy, Silberhorn and Raymer, DOI [10.1103/PhysRevX.5.041017](https://doi.org/10.1103/PhysRevX.5.041017)",
+      "access": "full text",
+      "finding": "Review of temporal modes; numerical ceiling, not a new theorem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Ansari, Donohue, Brecht and Silberhorn, DOI [10.1364/OPTICA.5.000534](https://doi.org/10.1364/OPTICA.5.000534)",
+      "access": "full text",
+      "finding": "Review of temporal-mode engineering and architectures; no global proof found in the relevant conversion discussion."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Reddy and Raymer, [arXiv:1708.01705](https://arxiv.org/abs/1708.01705), DOI 10.1364/OE.26.028091",
+      "access": "full text",
+      "finding": "Dichroic-cavity selection uses a different Green operator."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "**S. Babel** et al., [arXiv:2608.09346](https://arxiv.org/abs/2608.09346)",
+      "access": "full text",
+      "finding": "First author is Silia Babel, not L. Babel. Selectivity is a normalized mode fraction measured in a finite test basis with output filtering at low pump power; high conversion is measured separately. It is not a demonstrated violation of the Reddy $S$ ceiling."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Brecht et al., DOI [10.1103/PhysRevA.90.030302](https://doi.org/10.1103/PhysRevA.90.030302)",
+      "access": "abstract only",
+      "finding": "The percentage highlighted by the original card refers to conversion efficiency, not a global selectivity bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Reddy and Raymer, [arXiv:1710.06736](https://arxiv.org/abs/1710.06736), DOI 10.1364/OPTICA.5.000423",
+      "access": "full text",
+      "finding": "Omitted experimental temporal-mode interferometry precedent; an architecture comparison, not a single-pass counterexample."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "McGuinness, Raymer and McKinstrie, [arXiv:1107.3257](https://arxiv.org/abs/1107.3257)",
+      "access": "abstract only",
+      "finding": "Earlier Green-function/Schmidt treatment of frequency translation in fiber; mathematical framework itself is established."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-03",
+      "card": "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+      "source": "Raymer and Banaszek, [arXiv:2008.09280](https://arxiv.org/abs/2008.09280), DOI 10.1364/OE.405618",
+      "access": "full text",
+      "finding": "Efficiency–mode-discrimination tradeoffs and a genuine Slepian reduction for sequential rectangular time/frequency filters. That filter kernel is different from the nonlinear single-pass Bessel kernel; its bound cannot be imported without proving an equivalence."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Mohajan et al., DOI [10.1364/OE.513565](https://doi.org/10.1364/OE.513565), arXiv:2307.06414",
+      "access": "full text",
+      "finding": "Driven-power upper bound, with undepleted pump and explicit norm/discretization relaxation; not a normalized eigenmode bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Chao et al., DOI [10.1038/s42254-022-00468-w](https://doi.org/10.1038/s42254-022-00468-w), [arXiv:2109.05667](https://arxiv.org/abs/2109.05667)",
+      "access": "full text",
+      "finding": "Review's outlook identifies nonlinear and eigenproblem objectives as limitations of the then quadratic framework; no requested overlap theorem found there."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Kuang, thesis, [arXiv:2308.08698](https://arxiv.org/abs/2308.08698)",
+      "access": "full text",
+      "finding": "Appendix F inspected: nonlinear power-conservation formulation and possible bounds, not the requested closed modal-overlap ceiling."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Chao, **Ian M. Hammond** and Johnson, [arXiv:2502.09821](https://arxiv.org/abs/2502.09821)",
+      "access": "full text",
+      "finding": "Original A. M. initial wrong; separated-region quartic bound and singularity discussion are essential to interpretation."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Rodriguez et al., DOI [10.1364/OE.15.007303](https://doi.org/10.1364/OE.15.007303), arXiv:0705.3652",
+      "access": "full text",
+      "finding": "Depleted two-mode conversion theory already established."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Lin et al., DOI [10.1364/OPTICA.3.000233](https://doi.org/10.1364/OPTICA.3.000233), [arXiv:1505.02880](https://arxiv.org/abs/1505.02880)",
+      "access": "full text",
+      "finding": "Nonlinear-overlap optimization gives achievable designs, not certified global maxima; comparison requires identical normalization/design class."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Kuzyk, DOI [10.1103/PhysRevLett.85.1218](https://doi.org/10.1103/PhysRevLett.85.1218), erratum DOI 10.1103/PhysRevLett.90.039902",
+      "access": "abstract only; correction not accessed",
+      "finding": "Located original molecular bound and correction metadata; not a bulk or structural theorem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Kuzyk, [arXiv:physics/0510199](https://arxiv.org/abs/physics/0510199)",
+      "access": "full text",
+      "finding": "Frequency-dependent molecular hyperpolarizability treatment using the few-level ansatz, not a Maxwell shape bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Bassani and Scandolo, DOI [10.1103/PhysRevB.44.8446](https://doi.org/10.1103/PhysRevB.44.8446)",
+      "access": "full text",
+      "finding": "Causality/sum-rule identities do not alone supply a positive structural optimization bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Tan and Rappe, DOI [10.1103/PhysRevB.100.085102](https://doi.org/10.1103/PhysRevB.100.085102), [arXiv:1708.05433](https://arxiv.org/abs/1708.05433)",
+      "access": "full text",
+      "finding": "Extended-system second-order response bound depends on band gap, bandwidth and microscopic geometry; not obtained by naive molecular-density scaling."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Li et al., [arXiv:2409.20351](https://arxiv.org/abs/2409.20351), DOI 10.1021/acsphotonics.4c01892",
+      "access": "full text",
+      "finding": "Resonant quantum-well susceptibilities, not all transparent bulk materials or all cavity shapes."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Koutserimpas et al., [arXiv:2410.02002](https://arxiv.org/abs/2410.02002)",
+      "access": "full text",
+      "finding": "Nonlinear oscillator strengths need not be positive; sum rules are constraints, not automatically an extremal theorem."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "**Z.-Y. Wang** et al., DOI [10.1126/sciadv.adu7605](https://doi.org/10.1126/sciadv.adu7605), [arXiv:2412.11111](https://arxiv.org/abs/2412.11111)",
+      "access": "full text",
+      "finding": "Original D. Wang wrong; nonlinear critical coupling and device demonstration, not an all-geometry bound."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Choi, Heuck and Englund, DOI [10.1103/PhysRevLett.118.223605](https://doi.org/10.1103/PhysRevLett.118.223605)",
+      "access": "full text",
+      "finding": "Relevant omitted geometric warning: dielectric field concentration depends on fabrication scale; pointwise mode volume and nonlinear overlap are distinct."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Zhao, Zhang and Miller, [arXiv:2008.13241](https://arxiv.org/abs/2008.13241)",
+      "access": "full text",
+      "finding": "Omitted close precedent: computational mode-volume bounds with minimum features and simultaneous resonances; does not optimize the nonlinear overlap."
+    },
+    {
+      "problem": "P-20261012-claude-interactive.5-05",
+      "card": "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md",
+      "source": "Miller and Monticone, [arXiv:2605.24738](https://arxiv.org/abs/2605.24738), sections 2.6 and 5.6",
+      "access": "full text",
+      "finding": "Current tutorial separates nonlinear material bounds, sharp-tip concentration and minimum physical size; its citations led to the Zhao multiresonance result. Only these relevant sections were audited."
+    }
+  ],
+  "retrieval_records": [
+    {
+      "metadata_file": "0705.3652.json",
+      "key": "0705.3652",
+      "url": "https://arxiv.org/pdf/0705.3652",
+      "resolved_url": "https://arxiv.org/pdf/0705.3652",
+      "pages": 11,
+      "sha256": "3df5e133efe2060c7ca40dd215b5c00b08898788ca3da9d1468d40aba4cde8b7",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "0805.1517.json",
+      "key": "0805.1517",
+      "url": "https://arxiv.org/pdf/0805.1517",
+      "resolved_url": "https://arxiv.org/pdf/0805.1517",
+      "pages": 5,
+      "sha256": "2efa1a7ad77f1b078d38f43cecca94017fc8f7de805be79cea07e381c2b6a892",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "0903.4363.json",
+      "key": "0903.4363",
+      "url": "https://arxiv.org/pdf/0903.4363",
+      "resolved_url": "https://arxiv.org/pdf/0903.4363",
+      "pages": 66,
+      "sha256": "f3502d4802923baf909873297901d3167d2cd504b4d8467a0be17d38544c94c4",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "0911.4682.json",
+      "key": "0911.4682",
+      "url": "https://arxiv.org/pdf/0911.4682",
+      "resolved_url": "https://arxiv.org/pdf/0911.4682",
+      "pages": 8,
+      "sha256": "1bcaa910060c1334afa583a336e8b700d2b8cc87d64117d08ccf8bb31efdf552",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1107.3257.json",
+      "key": "1107.3257",
+      "url": "https://arxiv.org/pdf/1107.3257",
+      "resolved_url": "https://arxiv.org/pdf/1107.3257",
+      "pages": 33,
+      "sha256": "4d2a45855b8bf1828920742f64801eb7c8f503f89153a25c8f74411fea4de1c8",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1111.1333.json",
+      "key": "1111.1333",
+      "url": "https://arxiv.org/pdf/1111.1333",
+      "resolved_url": "https://arxiv.org/pdf/1111.1333",
+      "pages": 4,
+      "sha256": "692b9bcdfa726d0d1a27b9501002a9ba35e0128e38e430c0206ed7a7d000ba9a",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1210.8342.json",
+      "key": "1210.8342",
+      "url": "https://arxiv.org/pdf/1210.8342",
+      "resolved_url": "https://arxiv.org/pdf/1210.8342",
+      "pages": 26,
+      "sha256": "05d3da0305116a14d27ead14692e2c7e0519d8e93c562ff204eb4df9895f098a",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1302.3964.json",
+      "key": "1302.3964",
+      "url": "https://arxiv.org/pdf/1302.3964",
+      "resolved_url": "https://arxiv.org/pdf/1302.3964",
+      "pages": 11,
+      "sha256": "e413843501960afdf9201ea9d9e02a9dba8290c7e0427c2310652b9d9e39a5c8",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1305.2165.json",
+      "key": "1305.2165",
+      "url": "https://arxiv.org/pdf/1305.2165",
+      "resolved_url": "https://arxiv.org/pdf/1305.2165",
+      "pages": 24,
+      "sha256": "ede4dbe0c629bda5a222c48e7676fd64e121ff767cf3bc6e375ae96ca3592a8f",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1306.0937.json",
+      "key": "1306.0937",
+      "url": "https://arxiv.org/pdf/1306.0937",
+      "resolved_url": "https://arxiv.org/pdf/1306.0937",
+      "pages": 13,
+      "sha256": "f163e0cf8d76c1ea0a1167f573496a15449f817d1907d1dbcca5bf15056f0a83",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1407.6976.json",
+      "key": "1407.6976",
+      "url": "https://arxiv.org/pdf/1407.6976",
+      "resolved_url": "https://arxiv.org/pdf/1407.6976",
+      "pages": 14,
+      "sha256": "5cc2f0fbf41e854f9bf9cf73a0cf4d9ba0f70c28a043c5058d4f1bbc64d4b20d",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1501.03216.json",
+      "key": "1501.03216",
+      "url": "https://arxiv.org/pdf/1501.03216",
+      "resolved_url": "https://arxiv.org/pdf/1501.03216",
+      "pages": 13,
+      "sha256": "35ef5db1efe32d79b132e93d0a4abd274b5b77cf4041c15347026b8bb343c1fe",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1505.02880.json",
+      "key": "1505.02880",
+      "url": "https://arxiv.org/pdf/1505.02880",
+      "resolved_url": "https://arxiv.org/pdf/1505.02880",
+      "pages": 22,
+      "sha256": "0e4e4c9ee0b89af94f4d1b3bae6e86856a2b4aa371b83f9bd1bfc94afc6121e9",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1507.04284.json",
+      "key": "1507.04284",
+      "url": "https://arxiv.org/pdf/1507.04284",
+      "resolved_url": "https://arxiv.org/pdf/1507.04284",
+      "pages": 4,
+      "sha256": "27b211d4d69bab98691c3350cfcb220f7fd32df72af1878aca2ac83069064367",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1508.03361.json",
+      "key": "1508.03361",
+      "url": "https://arxiv.org/pdf/1508.03361",
+      "resolved_url": "https://arxiv.org/pdf/1508.03361",
+      "pages": 5,
+      "sha256": "2657c060b7aa27c818bc2d60d13371f3c998c0387582b2a619c059dfde7f5160",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1510.04261.json",
+      "key": "1510.04261",
+      "url": "https://arxiv.org/pdf/1510.04261",
+      "resolved_url": "https://arxiv.org/pdf/1510.04261",
+      "pages": 6,
+      "sha256": "3a728b5cee331e0fb11baf56e96afbab3c8c5c20993abee8b71c38a654c05b34",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1603.02206.json",
+      "key": "1603.02206",
+      "url": "https://arxiv.org/pdf/1603.02206",
+      "resolved_url": "https://arxiv.org/pdf/1603.02206",
+      "pages": 34,
+      "sha256": "3efa8ba82c62d7372e5b5e63e0948d47b71585df0d92a2b599717353e9688860",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1604.04278.json",
+      "key": "1604.04278",
+      "url": "https://arxiv.org/pdf/1604.04278",
+      "resolved_url": "https://arxiv.org/pdf/1604.04278",
+      "pages": 10,
+      "sha256": "c31a46162a032ee804859beead91366d890f906ce65e56708d34f007d6966ba1",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1609.09221.json",
+      "key": "1609.09221",
+      "url": "https://arxiv.org/pdf/1609.09221",
+      "resolved_url": "https://arxiv.org/pdf/1609.09221",
+      "pages": 7,
+      "sha256": "885c0201e57b4651e4fe3f1e964eb3d29d08d6f4cfc6719c00562daccebe15be",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1610.00958.json",
+      "key": "1610.00958",
+      "url": "https://arxiv.org/pdf/1610.00958",
+      "resolved_url": "https://arxiv.org/pdf/1610.00958",
+      "pages": 4,
+      "sha256": "e7e413bdec0d2b4a7b60362728dc27b0cddbb6b4e7f8eb830550f7691bc9a9d4",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1612.07427.json",
+      "key": "1612.07427",
+      "url": "https://arxiv.org/pdf/1612.07427",
+      "resolved_url": "https://arxiv.org/pdf/1612.07427",
+      "pages": 7,
+      "sha256": "28e2670a91498ef586a1c53cf7da702672ad3909a766d1e79b755a46f1d6d217",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1702.05687.json",
+      "key": "1702.05687",
+      "url": "https://arxiv.org/pdf/1702.05687",
+      "resolved_url": "https://arxiv.org/pdf/1702.05687",
+      "pages": 15,
+      "sha256": "4e658a91a0448519b1fd399b0a8493c551cc5cb1764c5aa185146626ec5d159d",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1708.01705.json",
+      "key": "1708.01705",
+      "url": "https://arxiv.org/pdf/1708.01705",
+      "resolved_url": "https://arxiv.org/pdf/1708.01705",
+      "pages": 10,
+      "sha256": "2074becc647f0c0927f776947b8f353a5ecda1280c11710368a8e486ffb1b0bf",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1708.05433.json",
+      "key": "1708.05433",
+      "url": "https://arxiv.org/pdf/1708.05433",
+      "resolved_url": "https://arxiv.org/pdf/1708.05433",
+      "pages": 19,
+      "sha256": "e3b7436b9c74fdc26b40a05f9a4ab9960c29fa9bb21220dffe6e945044428a91",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1710.06736.json",
+      "key": "1710.06736",
+      "url": "https://arxiv.org/pdf/1710.06736",
+      "resolved_url": "https://arxiv.org/pdf/1710.06736",
+      "pages": 6,
+      "sha256": "74f7bdf6ad2326d52f68650694419d8e7dc2b6bc3d601b404cf755bca6e66513",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1712.03914.json",
+      "key": "1712.03914",
+      "url": "https://arxiv.org/pdf/1712.03914",
+      "resolved_url": "https://arxiv.org/pdf/1712.03914",
+      "pages": 11,
+      "sha256": "2b02b883a8ddf6bd3dcaf53432e41393f7b2a41c43667899894ed9cea273d477",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1805.11228.json",
+      "key": "1805.11228",
+      "url": "https://arxiv.org/pdf/1805.11228",
+      "resolved_url": "https://arxiv.org/pdf/1805.11228",
+      "pages": 30,
+      "sha256": "844aa8b00d131524b5ec2e071fd65981f7189577ae1e459f173fe887d193d980",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "1909.05751.json",
+      "key": "1909.05751",
+      "url": "https://arxiv.org/pdf/1909.05751",
+      "resolved_url": "https://arxiv.org/pdf/1909.05751",
+      "pages": 5,
+      "sha256": "24f5242d9859d88de6d9394726a06a789068679fa47467ce91c768595b7e3a2c",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2008.09280.json",
+      "key": "2008.09280",
+      "url": "https://arxiv.org/pdf/2008.09280",
+      "pages": 22,
+      "sha256": "7ed49b9c0864e9912c139fb702ed044826712a401b17619ca2b089a6affb6483",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2008.13241.json",
+      "key": "2008.13241",
+      "url": "https://arxiv.org/pdf/2008.13241",
+      "pages": 15,
+      "sha256": "d70fc8539de53e1981600c8a7f1fcf7e788c45ef3ebcda59050f8938b700b117",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2103.15697.json",
+      "key": "2103.15697",
+      "url": "https://arxiv.org/pdf/2103.15697",
+      "resolved_url": "https://arxiv.org/pdf/2103.15697",
+      "pages": 39,
+      "sha256": "27000569548eaa527288f40445ab386391b24e5854ee4f04d980a81533770b70",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2104.12905.json",
+      "key": "2104.12905",
+      "url": "https://arxiv.org/pdf/2104.12905",
+      "resolved_url": "https://arxiv.org/pdf/2104.12905",
+      "pages": 16,
+      "sha256": "bb877b65313d0b0804695cc4d5fda2f477081db6cc5a8e627e091a0a63cc7803",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2109.01280.json",
+      "key": "2109.01280",
+      "url": "https://arxiv.org/pdf/2109.01280",
+      "resolved_url": "https://arxiv.org/pdf/2109.01280",
+      "pages": 14,
+      "sha256": "6292650a04e4a208b5d8638f67b1f88a90e9f79dbfacd72745911911ff36a46e",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2109.04910.json",
+      "key": "2109.04910",
+      "url": "https://arxiv.org/pdf/2109.04910",
+      "resolved_url": "https://arxiv.org/pdf/2109.04910",
+      "pages": 13,
+      "sha256": "af3741175ffee468255225b46bde9ec88a747511c473992e9cacc812a48b5696",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2109.05667.json",
+      "key": "2109.05667",
+      "url": "https://arxiv.org/pdf/2109.05667",
+      "resolved_url": "https://arxiv.org/pdf/2109.05667",
+      "pages": 22,
+      "sha256": "1a5bc1d92cd0ba2cf684d6993ae1286d9ba34be2e8760a6e1694691e8d190a99",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2203.11909.json",
+      "key": "2203.11909",
+      "url": "https://arxiv.org/pdf/2203.11909",
+      "resolved_url": "https://arxiv.org/pdf/2203.11909",
+      "pages": 15,
+      "sha256": "b5f2c9d926ccde37a64b5fe2147c22ba5c595d25518c7460d04eec219da440c2",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2209.03707.json",
+      "key": "2209.03707",
+      "url": "https://arxiv.org/pdf/2209.03707",
+      "resolved_url": "https://arxiv.org/pdf/2209.03707",
+      "pages": 10,
+      "sha256": "97df8ca70bbf073dd4f7280c79b592a4f35273f52b911ab780e6c2a7df7ecc7b",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2210.09760.json",
+      "key": "2210.09760",
+      "url": "https://arxiv.org/pdf/2210.09760",
+      "resolved_url": "https://arxiv.org/pdf/2210.09760",
+      "pages": 13,
+      "sha256": "859340704e767c65440915682985799b636abaa6a5de4ac2171b6ada57db7c6a",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2210.09779.json",
+      "key": "2210.09779",
+      "url": "https://arxiv.org/pdf/2210.09779",
+      "pages": 35,
+      "sha256": "91030ef5a4c333244283d7d26e9def2baed7d95c1651822d413f7e11aa7e1744",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2307.06414.json",
+      "key": "2307.06414",
+      "url": "https://arxiv.org/pdf/2307.06414",
+      "resolved_url": "https://arxiv.org/pdf/2307.06414",
+      "pages": 10,
+      "sha256": "e4e084d39a0a7db174c3dea3697f915d61cfff86a3144c86200b055e6f41215b",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2308.08698.json",
+      "key": "2308.08698",
+      "url": "https://arxiv.org/pdf/2308.08698",
+      "resolved_url": "https://arxiv.org/pdf/2308.08698",
+      "pages": 231,
+      "sha256": "a787b139bf11e151830ce0114ada95d17919e7677dbe58748db6cf964ce8cafa",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2312.10719.json",
+      "key": "2312.10719",
+      "url": "https://arxiv.org/pdf/2312.10719",
+      "resolved_url": "https://arxiv.org/pdf/2312.10719",
+      "pages": 6,
+      "sha256": "58c0b15efb01c249230420a74297b3a6b91b168704eba0fac2b63efc7e759f09",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2401.16740.json",
+      "key": "2401.16740",
+      "url": "https://arxiv.org/pdf/2401.16740",
+      "resolved_url": "https://arxiv.org/pdf/2401.16740",
+      "pages": 15,
+      "sha256": "ea624b3a2e9af9b4dad66737455a3b36565531a6fb0d0276a5bfe42b9eb21b17",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2409.20351.json",
+      "key": "2409.20351",
+      "url": "https://arxiv.org/pdf/2409.20351",
+      "resolved_url": "https://arxiv.org/pdf/2409.20351",
+      "pages": 21,
+      "sha256": "481102c4d576e86a75d9a60cc7e923048722632ff77a5de01f3e015c08b51b53",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2410.02002.json",
+      "key": "2410.02002",
+      "url": "https://arxiv.org/pdf/2410.02002",
+      "resolved_url": "https://arxiv.org/pdf/2410.02002",
+      "pages": 9,
+      "sha256": "c52423c569292101bb8d4b2dc9b200397ce5406bf0688130abacfdf00876acc9",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2412.11111.json",
+      "key": "2412.11111",
+      "url": "https://arxiv.org/pdf/2412.11111",
+      "resolved_url": "https://arxiv.org/pdf/2412.11111",
+      "pages": 21,
+      "sha256": "f22066c995968af2462e7a6d52752004954183a4b1f45518d73c1c29a3ee5f83",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2502.09821.json",
+      "key": "2502.09821",
+      "url": "https://arxiv.org/pdf/2502.09821",
+      "resolved_url": "https://arxiv.org/pdf/2502.09821",
+      "pages": 16,
+      "sha256": "10dd377025fd3c35224eb9517c00387fc42f9ee25f9856459c70dd1c2957c79e",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2605.24738.json",
+      "key": "2605.24738",
+      "url": "https://arxiv.org/pdf/2605.24738",
+      "pages": 165,
+      "sha256": "0e372acce59b9c77770f1d4800cab71ab0a469ab5ddb0314c0fbbc35a4f1c104",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2608.09346.json",
+      "key": "2608.09346",
+      "url": "https://arxiv.org/pdf/2608.09346",
+      "resolved_url": "https://arxiv.org/pdf/2608.09346",
+      "pages": 12,
+      "sha256": "6e0ccc84ef2d2c27ce5068bee403b62dfca27e3a693c08b346d7b496a051eb8f",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "2608.26633.json",
+      "key": "2608.26633",
+      "url": "https://arxiv.org/pdf/2608.26633",
+      "resolved_url": "https://arxiv.org/pdf/2608.26633",
+      "pages": 16,
+      "sha256": "88f2f6774c052793d445f99f182b7adb9a84683e4eb8e4bc321ac27de46d3e33",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "ansari2018.json",
+      "key": "ansari2018",
+      "url": "https://physik.uni-paderborn.de/fileadmin-nw/physik/Arbeitsgruppen/integrierte-quantenoptik/publications/2018/optica-5-5-534.pdf",
+      "resolved_url": "https://physik.uni-paderborn.de/fileadmin-nw/physik/Arbeitsgruppen/integrierte-quantenoptik/publications/2018/optica-5-5-534.pdf",
+      "pages": 17,
+      "sha256": "a2ca1cd4024f536b39a0572efa6ed0f1450d9aba2cc17d4b2bbddaa13f4e9cbf",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "arxiv_0705.3652.json",
+      "kind": "arxiv",
+      "id": "0705.3652",
+      "title": "Chi2 and chi3 harmonic generation at a critical power in inhomogeneous doubly resonant cavities",
+      "author": [
+        "Rodriguez, Alejandro",
+        "Soljacic, Marin",
+        "Joannopoulos, John D.",
+        "Johnson, Steven G."
+      ],
+      "doi": "10.1364/OE.15.007303",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_0903.4363.json",
+      "kind": "arxiv",
+      "id": "0903.4363",
+      "title": "Discrete Inverse Scattering Theory for NMR Pulse Design",
+      "author": [
+        "Magland, Jeremy F."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_0911.4682.json",
+      "kind": "arxiv",
+      "id": "0911.4682",
+      "title": "Impossibility of large phase shifts via the &#34;giant Kerr effect&#34; with single-photon wavepackets",
+      "author": [
+        "Gea-Banacloche, Julio"
+      ],
+      "doi": "10.1103/PhysRevA.81.043823",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1111.1333.json",
+      "kind": "arxiv",
+      "id": "1111.1333",
+      "title": "Broadband sum frequency generation via chirped quasi-phase-matching",
+      "author": [
+        "Rangelov, A. A.",
+        "Vitanov, N. V."
+      ],
+      "doi": "10.1103/PhysRevA.85.045804",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1305.2165.json",
+      "kind": "arxiv",
+      "id": "1305.2165",
+      "title": "Temporal mode selectivity by frequency conversion in second-order nonlinear optical waveguides",
+      "author": [
+        "Reddy, Dileep V.",
+        "Raymer, Michael G.",
+        "McKinstrie, Colin J.",
+        "Mejling, Lasse",
+        "Rottwitt, Karsten"
+      ],
+      "doi": "10.1364/OE.21.013840",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1407.6976.json",
+      "kind": "arxiv",
+      "id": "1407.6976",
+      "title": "Effects of time ordering in quantum nonlinear optics",
+      "author": [
+        "Quesada, Nicolás",
+        "Sipe, J. E."
+      ],
+      "doi": "10.1103/PhysRevA.90.063840",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1501.03216.json",
+      "kind": "arxiv",
+      "id": "1501.03216",
+      "title": "Sorting photon wave packets using temporal-mode interferometry based on multiple-stage quantum frequency conversion",
+      "author": [
+        "Reddy, D. V.",
+        "Raymer, M. G.",
+        "McKinstrie, C. J."
+      ],
+      "doi": "10.1103/PhysRevA.91.012323",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1505.02880.json",
+      "kind": "arxiv",
+      "id": "1505.02880",
+      "title": "Cavity-enhanced second harmonic generation via nonlinear-overlap optimization",
+      "author": [
+        "Lin, Zin",
+        "Liang, Xiangdong",
+        "Loncar, Marko",
+        "Johnson, Steven G.",
+        "Rodriguez, Alejandro W."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1507.04284.json",
+      "kind": "arxiv",
+      "id": "1507.04284",
+      "title": "Anderson localization in a partially random Bragg grating and a conserved area theorem",
+      "author": [
+        "Mafi, Arash"
+      ],
+      "doi": "10.1364/OL.40.003603",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1508.03361.json",
+      "kind": "arxiv",
+      "id": "1508.03361",
+      "title": "High efficiency in mode selective frequency conversion",
+      "author": [
+        "Quesada, Nicolás",
+        "Sipe, J. E."
+      ],
+      "doi": "10.1364/OL.41.000364",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1510.04261.json",
+      "kind": "arxiv",
+      "id": "1510.04261",
+      "title": "Walk-off-induced modulation instability, temporal pattern formation, and frequency comb generation in cavity-enhanced second-harmonic generation",
+      "author": [
+        "Leo, F.",
+        "Hansson, T.",
+        "Ricciardi, I.",
+        "De Rosa, M.",
+        "Coen, S.",
+        "Wabnitz, S.",
+        "Erkintalo, M."
+      ],
+      "doi": "10.1103/PhysRevLett.116.033901",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1603.02206.json",
+      "kind": "arxiv",
+      "id": "1603.02206",
+      "title": "A priori bounds and global bifurcation results for frequency combs modeled by the Lugiato-Lefever equation",
+      "author": [
+        "Mandel, Rainer",
+        "Reichel, Wolfgang"
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1604.04278.json",
+      "kind": "arxiv",
+      "id": "1604.04278",
+      "title": "A passive CPHASE gate via cross-Kerr nonlinearities",
+      "author": [
+        "Brod, Daniel J.",
+        "Combes, Joshua"
+      ],
+      "doi": "10.1103/PhysRevLett.117.080502",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1609.09221.json",
+      "kind": "arxiv",
+      "id": "1609.09221",
+      "title": "Broadband frequency conversion via adiabatically tapered $\\chi^{(2)}$ waveguide in photonic integrated circuits",
+      "author": [
+        "Xiong, Xiao",
+        "Zou, Chang-Ling",
+        "Guo, Xiang",
+        "Tang, Hong X.",
+        "Ren, Xi-Feng",
+        "Guo, Guang-Can"
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1610.00958.json",
+      "kind": "arxiv",
+      "id": "1610.00958",
+      "title": "Microresonator Kerr frequency combs with high conversion efficiency",
+      "author": [
+        "Xue, Xiaoxiao",
+        "Wang, Pei-Hsun",
+        "Xuan, Yi",
+        "Qi, Minghao",
+        "Weiner, Andrew M."
+      ],
+      "doi": "10.1002/lpor.201600276",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1702.05687.json",
+      "kind": "arxiv",
+      "id": "1702.05687",
+      "title": "Engineering temporal-mode-selective frequency conversion in off-the-shelf nonlinear optical waveguides: From theory to experiment",
+      "author": [
+        "Reddy, Dileep V.",
+        "Raymer, Michael G."
+      ],
+      "doi": "10.1364/OE.25.012952",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1708.01705.json",
+      "kind": "arxiv",
+      "id": "1708.01705",
+      "title": "Photonic temporal-mode multiplexing by quantum frequency conversion in a dichroic-finesse cavity",
+      "author": [
+        "Reddy, Dileep V.",
+        "Raymer, Michael G."
+      ],
+      "doi": "10.1364/OE.26.028091",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1708.05433.json",
+      "kind": "arxiv",
+      "id": "1708.05433",
+      "title": "Upper limit on nonlinear optical processes: shift current and second harmonic generation in extended systems",
+      "author": [
+        "Tan, Liang Z.",
+        "Rappe, Andrew M."
+      ],
+      "doi": "10.1103/PhysRevB.100.085102",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1712.03914.json",
+      "kind": "arxiv",
+      "id": "1712.03914",
+      "title": "Analytical results for a conditional phase shift between single-photon pulses in a nonlocal nonlinear medium",
+      "author": [
+        "Viswanathan, Balakrishnan",
+        "Gea-Banacloche, Julio"
+      ],
+      "doi": "10.1103/PhysRevA.97.032314",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_1805.11228.json",
+      "kind": "arxiv",
+      "id": "1805.11228",
+      "title": "Super-efficient temporal solitons in mutually coupled optical cavities",
+      "author": [
+        "Xue, Xiaoxiao",
+        "Zheng, Xiaoping",
+        "Zhou, Bingkun"
+      ],
+      "doi": "10.1038/s41566-019-0436-0",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2103.15697.json",
+      "kind": "arxiv",
+      "id": "2103.15697",
+      "title": "Fundamental limits to the refractive index of transparent optical materials",
+      "author": [
+        "Shim, Hyungki",
+        "Monticone, Francesco",
+        "Miller, Owen D."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2104.12905.json",
+      "kind": "arxiv",
+      "id": "2104.12905",
+      "title": "Theory of $\\chi^{(2)}$-microresonator-based frequency conversion",
+      "author": [
+        "Zhao, Yun",
+        "Jang, Jae K.",
+        "Okawachi, Yoshitomo",
+        "Gaeta, Alexander L."
+      ],
+      "doi": "10.1364/OL.427684",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2209.03707.json",
+      "kind": "arxiv",
+      "id": "2209.03707",
+      "title": "Analysis of parameter combinations for optimal soliton microcomb generation efficiency in a simple single-cavity scheme",
+      "author": [
+        "Kondratiev, Nikita",
+        "Lobanov, Valery",
+        "Dmitriev, Nikita",
+        "Cordette, Steevy",
+        "Bilenko, Igor"
+      ],
+      "doi": "10.1103/PhysRevA.107.063508",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2210.09760.json",
+      "kind": "arxiv",
+      "id": "2210.09760",
+      "title": "Bandwidth and Conversion-Efficiency Analysis of Kerr Soliton Combs in Dual-Pumped Resonators with Anomalous Dispersion",
+      "author": [
+        "Gasmi, Elias",
+        "Peng, Huanfa",
+        "Koos, Christian",
+        "Reichel, Wolfgang"
+      ],
+      "doi": "10.1103/PhysRevA.108.023505",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2307.06414.json",
+      "kind": "arxiv",
+      "id": "2307.06414",
+      "title": "Fundamental limits on $\\chi^{(2)}$ second harmonic generation",
+      "author": [
+        "Mohajan, Jewel",
+        "Chao, Pengning",
+        "Jin, Weiliang",
+        "Molesky, Sean",
+        "Rodriguez, Alejandro W."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2308.08698.json",
+      "kind": "arxiv",
+      "id": "2308.08698",
+      "title": "Fundamental Limits of Nanophotonic Design",
+      "author": [
+        "Kuang, Zeyu"
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2312.10719.json",
+      "kind": "arxiv",
+      "id": "2312.10719",
+      "title": "Passive and Deterministic Controlled-phase Gate for Single-photon Wavepackets Based on Time-reversal Symmetric Photon Transport",
+      "author": [
+        "Tian, Zhaohua",
+        "Chen, Xue-Wen"
+      ],
+      "doi": "10.1103/49mp-bx59",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2401.16740.json",
+      "kind": "arxiv",
+      "id": "2401.16740",
+      "title": "Laser-power consumption of soliton formation in a bidirectional Kerr resonator",
+      "author": [
+        "Zang, Jizhao",
+        "Yu, Su-Peng",
+        "Liu, Haixin",
+        "Jin, Yan",
+        "Briles, Travis C.",
+        "Carlson, David R.",
+        "Papp, Scott B."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2409.20351.json",
+      "kind": "arxiv",
+      "id": "2409.20351",
+      "title": "Approaching upper bounds to resonant nonlinear optical susceptibilities with inverse-designed quantum wells",
+      "author": [
+        "Li, Hao",
+        "Koutserimpas, Theodoros T.",
+        "Monticone, Francesco",
+        "Miller, Owen D."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2410.02002.json",
+      "kind": "arxiv",
+      "id": "2410.02002",
+      "title": "Exploring the equivalence of causality-based and quantum mechanics-based sum rules for harmonic generation in nonlinear optical materials",
+      "author": [
+        "Koutserimpas, Theodoros T.",
+        "Li, Hao",
+        "Miller, Owen D.",
+        "Monticone, Francesco"
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2412.11111.json",
+      "kind": "arxiv",
+      "id": "2412.11111",
+      "title": "Toward ultimate-efficiency frequency conversion in nonlinear optical microresonators",
+      "author": [
+        "Wang, Zhi-Yan",
+        "Wu, Xiao",
+        "Xiong, Xiao",
+        "Yang, Chen",
+        "Hao, Zhengzhong",
+        "Yang, Qi-Fan",
+        "Hu, Yaowen",
+        "Bo, Fang",
+        "Cao, Qi-Tao",
+        "Xiao, Yun-Feng"
+      ],
+      "doi": "10.1126/sciadv.adu7605",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2502.09821.json",
+      "kind": "arxiv",
+      "id": "2502.09821",
+      "title": "Sum-of-Squares Bounds on Surface-Enhanced Raman Scattering",
+      "author": [
+        "Chao, Pengning",
+        "Hammond, Ian M.",
+        "Johnson, Steven G."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2608.09346.json",
+      "kind": "arxiv",
+      "id": "2608.09346",
+      "title": "A high-performance quantum pulse gate in thin-film lithium niobate",
+      "author": [
+        "Babel, Silia",
+        "Alarcón, Alejandra",
+        "Serino, Laura",
+        "Golla, Christian",
+        "Bollmers, Laura",
+        "Lengeling, Sebastian",
+        "Yang, Jiayu",
+        "Reineke, Bernhard",
+        "Eigner, Christof",
+        "Brecht, Benjamin",
+        "Lončar, Marko",
+        "Padberg, Laura",
+        "Silberhorn, Christine"
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_2608.26633.json",
+      "kind": "arxiv",
+      "id": "2608.26633",
+      "title": "Lower bound on the thickness of broadband dielectric mirrors",
+      "author": [
+        "Kats, Mikhail A."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_physics_0510002.json",
+      "kind": "arxiv",
+      "id": "physics/0510002",
+      "title": "Truncated Sum Rules and their use in Calculating Fundamental Limits of Nonlinear Susceptibilities",
+      "author": [
+        "Kuzyk, Mark G."
+      ],
+      "doi": "10.1142/S0218863506003086",
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_physics_0510199.json",
+      "kind": "arxiv",
+      "id": "physics/0510199",
+      "title": "The Ultimate Fundamental Limits of Nonlinear-Optical Phenomena",
+      "author": [
+        "Kuzyk, Mark G."
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_quant-ph_0510012.json",
+      "kind": "arxiv",
+      "id": "quant-ph/0510012",
+      "title": "Noncommuting vector fields, polynomial approximations and control of inhomogeneous quantum ensembles",
+      "author": [
+        "Khaneja, Navin",
+        "Li, Jr-Shin"
+      ],
+      "doi": null,
+      "journal": null
+    },
+    {
+      "metadata_file": "arxiv_quant-ph_0612086.json",
+      "kind": "arxiv",
+      "id": "quant-ph/0612086",
+      "title": "Continuous-time cross-phase modulation and quantum computation",
+      "author": [
+        "Shapiro, Jeffrey H.",
+        "Razavi, Mohsen"
+      ],
+      "doi": "10.1088/1367-2630/9/1/016",
+      "journal": null
+    },
+    {
+      "metadata_file": "bassani1991.json",
+      "key": "bassani1991",
+      "url": "https://users.ictp.it/~scandolo/pdf/prb_44_8446_1991.pdf",
+      "resolved_url": "https://users.ictp.it/~scandolo/pdf/prb_44_8446_1991.pdf",
+      "pages": 8,
+      "sha256": "80fb47ae637a59c4d9e41bdaed520452ccf63ad6f5d8c2411a67410196c92830",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "brecht2015.json",
+      "key": "brecht2015",
+      "url": "https://physik.uni-paderborn.de/fileadmin-nw/physik/Arbeitsgruppen/integrierte-quantenoptik/publications/2015/PhysRevX.5.041017.pdf",
+      "resolved_url": "https://physik.uni-paderborn.de/fileadmin-nw/physik/Arbeitsgruppen/integrierte-quantenoptik/publications/2015/PhysRevX.5.041017.pdf",
+      "pages": 17,
+      "sha256": "d2cafdb3fc1c4603a46f2d76c570d4cabe1b5287bb9eac8daca50c95e8465068",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "chang2014.json",
+      "key": "chang2014",
+      "url": "https://eapg.mit.edu/wp-content/uploads/2018/01/Nature_Photonics_QNLO_Review.pdf",
+      "resolved_url": "https://eapg.mit.edu/wp-content/uploads/2018/01/Nature_Photonics_QNLO_Review.pdf",
+      "pages": 10,
+      "sha256": "5c7d3bb4db40f67ecaf063ff970fe1947166b45450c5ae5e56bd31f40555c37d",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "chernwang2002.json",
+      "key": "chernwang2002",
+      "url": "https://scholars.lib.ntu.edu.tw/bitstreams/22b9ea7c-cd88-4fc9-80cb-77da0a6b945c/download",
+      "resolved_url": "https://scholars.lib.ntu.edu.tw/server/api/core/bitstreams/22b9ea7c-cd88-4fc9-80cb-77da0a6b945c/content",
+      "pages": 9,
+      "sha256": "e6d0a01022a81c963bf22ad5f947c4df65bc330037e9414944352045333e1b73",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "choi2017.json",
+      "key": "choi2017",
+      "url": "https://ciqm.harvard.edu/uploads/2/3/3/4/23349210/choi2017.pdf",
+      "resolved_url": "https://ciqm.harvard.edu/uploads/2/3/3/4/23349210/choi2017.pdf",
+      "pages": 7,
+      "sha256": "7bf7b498827f5e832bd4856e51a868e6c40b08747da56c8da73c89e1f0122340",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "doi_10.1002_lpor.201600276.json",
+      "kind": "doi",
+      "id": "10.1002/lpor.201600276",
+      "title": [
+        "Microresonator Kerr frequency combs with high conversion efficiency"
+      ],
+      "authors": [
+        "Xue",
+        "Wang",
+        "Xuan",
+        "Qi",
+        "Weiner"
+      ],
+      "journal": [
+        "Laser &amp; Photonics Reviews"
+      ],
+      "URL": "https://doi.org/10.1002/lpor.201600276"
+    },
+    {
+      "metadata_file": "doi_10.1016_j.jmr.2003.12.014.json",
+      "kind": "doi",
+      "id": "10.1016/j.jmr.2003.12.014",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1016_j.jmr.2004.06.017.json",
+      "kind": "doi",
+      "id": "10.1016/j.jmr.2004.06.017",
+      "title": [
+        "Exploring the limits of broadband excitation and inversion pulses"
+      ],
+      "authors": [
+        "Kobzar",
+        "Skinner",
+        "Khaneja",
+        "Glaser",
+        "Luy"
+      ],
+      "journal": [
+        "Journal of Magnetic Resonance"
+      ],
+      "URL": "https://doi.org/10.1016/j.jmr.2004.06.017"
+    },
+    {
+      "metadata_file": "doi_10.1016_j.jmr.2008.05.023.json",
+      "kind": "doi",
+      "id": "10.1016/j.jmr.2008.05.023",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1038_s41467-022-29431-0.json",
+      "kind": "doi",
+      "id": "10.1038/s41467-022-29431-0",
+      "title": [
+        "Platicon microcomb generation using laser self-injection locking"
+      ],
+      "authors": [
+        "Lihachev",
+        "Weng",
+        "Liu",
+        "Chang",
+        "Guo",
+        "He",
+        "Wang",
+        "Anderson",
+        "Liu",
+        "Bowers",
+        "Kippenberg"
+      ],
+      "journal": [
+        "Nature Communications"
+      ],
+      "URL": "https://doi.org/10.1038/s41467-022-29431-0"
+    },
+    {
+      "metadata_file": "doi_10.1038_s41566-023-01280-3.json",
+      "kind": "doi",
+      "id": "10.1038/s41566-023-01280-3",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1038_s42254-022-00468-w.json",
+      "kind": "doi",
+      "id": "10.1038/s42254-022-00468-w",
+      "title": [
+        "Physical limits in electromagnetism"
+      ],
+      "authors": [
+        "Chao",
+        "Strekha",
+        "Kuate Defo",
+        "Molesky",
+        "Rodriguez"
+      ],
+      "journal": [
+        "Nature Reviews Physics"
+      ],
+      "URL": "https://doi.org/10.1038/s42254-022-00468-w"
+    },
+    {
+      "metadata_file": "doi_10.1088_1367-2630_15_5_053038.json",
+      "kind": "doi",
+      "id": "10.1088/1367-2630/15/5/053038",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1088_2040-8978_16_6_062001.json",
+      "kind": "doi",
+      "id": "10.1088/2040-8978/16/6/062001",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevA.100.033819.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevA.100.033819",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevA.73.062305.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevA.73.062305",
+      "title": [
+        "Single-photon Kerr nonlinearities do not help quantum computation"
+      ],
+      "authors": [
+        "Shapiro"
+      ],
+      "journal": [
+        "Physical Review A"
+      ],
+      "URL": "https://doi.org/10.1103/physreva.73.062305"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevA.78.063821.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevA.78.063821",
+      "title": [
+        "Geometrical representation of sum frequency generation and adiabatic frequency conversion"
+      ],
+      "authors": [
+        "Suchowski",
+        "Oron",
+        "Arie",
+        "Silberberg"
+      ],
+      "journal": [
+        "Physical Review A"
+      ],
+      "URL": "https://doi.org/10.1103/physreva.78.063821"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevB.100.085102.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevB.100.085102",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevB.44.8446.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevB.44.8446",
+      "title": [
+        "Dispersion relations and sum rules in nonlinear optics"
+      ],
+      "authors": [
+        "Bassani",
+        "Scandolo"
+      ],
+      "journal": [
+        "Physical Review B"
+      ],
+      "URL": "https://doi.org/10.1103/physrevb.44.8446"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevLett.117.080502.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevLett.117.080502",
+      "title": [
+        "Passive CPHASE Gate via Cross-Kerr Nonlinearities"
+      ],
+      "authors": [
+        "Brod",
+        "Combes"
+      ],
+      "journal": [
+        "Physical Review Letters"
+      ],
+      "URL": "https://doi.org/10.1103/physrevlett.117.080502"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevLett.118.223605.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevLett.118.223605",
+      "title": [
+        "Self-Similar Nanocavity Design with Ultrasmall Mode Volume for Single-Photon Nonlinearities"
+      ],
+      "authors": [
+        "Choi",
+        "Heuck",
+        "Englund"
+      ],
+      "journal": [
+        "Physical Review Letters"
+      ],
+      "URL": "https://doi.org/10.1103/physrevlett.118.223605"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevLett.124.160501.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevLett.124.160501",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevLett.65.96.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevLett.65.96",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevLett.85.1218.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevLett.85.1218",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevLett.99.203903.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevLett.99.203903",
+      "title": [
+        "Fundamental Limit to Linear One-Dimensional Slow Light Structures"
+      ],
+      "authors": [
+        "Miller"
+      ],
+      "journal": [
+        "Physical Review Letters"
+      ],
+      "URL": "https://doi.org/10.1103/physrevlett.99.203903"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevX.5.041017.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevX.5.041017",
+      "title": [
+        "Photon Temporal Modes: A Complete Framework for Quantum Information Science"
+      ],
+      "authors": [
+        "Brecht",
+        "Reddy",
+        "Silberhorn",
+        "Raymer"
+      ],
+      "journal": [
+        "Physical Review X"
+      ],
+      "URL": "https://doi.org/10.1103/physrevx.5.041017"
+    },
+    {
+      "metadata_file": "doi_10.1103_PhysRevX.9.011043.json",
+      "kind": "doi",
+      "id": "10.1103/PhysRevX.9.011043",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1109_8.884491.json",
+      "kind": "doi",
+      "id": "10.1109/8.884491",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1126_sciadv.adu7605.json",
+      "kind": "doi",
+      "id": "10.1126/sciadv.adu7605",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1186_s43593-024-00075-5.json",
+      "kind": "doi",
+      "id": "10.1186/s43593-024-00075-5",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_JOSAB.25.000463.json",
+      "kind": "doi",
+      "id": "10.1364/JOSAB.25.000463",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_JOSAB.30.001342.json",
+      "kind": "doi",
+      "id": "10.1364/JOSAB.30.001342",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_JOSAB.30.001551.json",
+      "kind": "doi",
+      "id": "10.1364/JOSAB.30.001551",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_OE.513565.json",
+      "kind": "doi",
+      "id": "10.1364/OE.513565",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_OL.25.001183.json",
+      "kind": "doi",
+      "id": "10.1364/OL.25.001183",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_OL.39.002924.json",
+      "kind": "doi",
+      "id": "10.1364/OL.39.002924",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_OL.39.006126.json",
+      "kind": "doi",
+      "id": "10.1364/OL.39.006126",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_OL.423654.json",
+      "kind": "doi",
+      "id": "10.1364/OL.423654",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "doi_10.1364_OPTICA.5.000534.json",
+      "kind": "doi",
+      "id": "10.1364/OPTICA.5.000534",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "metadata_file": "epstein2004.json",
+      "key": "epstein2004",
+      "url": "https://www2.math.upenn.edu/~cle/papers/psvis_shrt.pdf",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "metadata_file": "gaertner2019.json",
+      "key": "gaertner2019",
+      "url": "https://publikationen.bibliothek.kit.edu/1000089036/21265072",
+      "resolved_url": "https://publikationen.bibliothek.kit.edu/1000089036/21265072",
+      "pages": 14,
+      "sha256": "1c808ac1237503fceb0d8ed4b261469ce43ecd2b702cd9677c3bb8a5d46d027c",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "genov2014.json",
+      "key": "genov2014",
+      "url": "https://quantum-bg.org/rangelov29.pdf",
+      "resolved_url": "https://quantum-bg.org/rangelov29.pdf",
+      "pages": 6,
+      "sha256": "d38fae5069a00edb9688ae08a7749448777eaa3bf42dc728575b07e2d0abf00b",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "kuzyk2000.json",
+      "key": "kuzyk2000",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.85.1218/fulltext",
+      "status": "error",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "metadata_file": "liruths2017.json",
+      "key": "liruths2017",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5585281/fullTextXML",
+      "sha256": "9c7c278b04be2ef738bf99777387c6643308c8d03ecdd35fa3011037b6656004",
+      "status": "ok",
+      "format": "xml"
+    },
+    {
+      "metadata_file": "phillipsconvex2013.json",
+      "key": "phillipsconvex2013",
+      "url": "https://www.nccr-must.ch/libraries.files/Phillips-2013.pdf",
+      "resolved_url": "https://www.nccr-must.ch/libraries.files/Phillips-2013.pdf",
+      "pages": 21,
+      "sha256": "81777112e974d67d65414c6fe7f64c6eae5b8834531b3d6c4d3681c6b795b429",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "physics_0510002.json",
+      "key": "physics_0510002",
+      "url": "https://arxiv.org/pdf/physics/0510002",
+      "resolved_url": "https://arxiv.org/pdf/physics/0510002",
+      "pages": 6,
+      "sha256": "f9b50c0825139e91ca8e75ba1f424811d6f2e211b47d9a77d26972e80109e7fb",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "physics_0510199.json",
+      "key": "physics_0510199",
+      "url": "https://arxiv.org/pdf/physics/0510199",
+      "resolved_url": "https://arxiv.org/pdf/physics/0510199",
+      "pages": 4,
+      "sha256": "25fb0e24b79622906fa4db73a8341e0f29f3b23430e4be6a376abda0f05aa743",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "quant-ph_0510012.json",
+      "key": "quant-ph_0510012",
+      "url": "https://arxiv.org/pdf/quant-ph/0510012",
+      "resolved_url": "https://arxiv.org/pdf/quant-ph/0510012",
+      "pages": 7,
+      "sha256": "964b3256179fff71b5da95d37fb7a47ffe805700a3f8676e269700247b16f626",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "quant-ph_0612086.json",
+      "key": "quant-ph_0612086",
+      "url": "https://arxiv.org/pdf/quant-ph/0612086",
+      "resolved_url": "https://arxiv.org/pdf/quant-ph/0612086",
+      "pages": 17,
+      "sha256": "bf19fb1de0452afa1dbfcfdd85834fb3efd47a978009861b54b493e4485906fb",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "reddy2017thesis.json",
+      "key": "reddy2017thesis",
+      "url": "https://scholarsbank.uoregon.edu/server/api/core/bitstreams/15e6538f-15ad-4f46-940a-b6234ddc7719/content",
+      "resolved_url": "https://scholarsbank.uoregon.edu/server/api/core/bitstreams/15e6538f-15ad-4f46-940a-b6234ddc7719/content",
+      "pages": 200,
+      "sha256": "e423406bce82823eb7409b904f022774841b42eec0ee607eabd24e5afede20b0",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "shapiro2006.json",
+      "key": "shapiro2006",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevA.73.062305/fulltext",
+      "status": "error",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "metadata_file": "sheik1990.json",
+      "key": "sheik1990",
+      "url": "https://api.creol.ucf.edu/Publications/1805.pdf",
+      "resolved_url": "https://api.creol.ucf.edu/Publications/1805.pdf",
+      "pages": 4,
+      "sha256": "fb944b48890dc812e76a2ae0584b45888336d67c68f678de1daded3a07caf861",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "shim2019.json",
+      "key": "shim2019",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevX.9.011043/fulltext",
+      "resolved_url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevX.9.011043/fulltext",
+      "pages": 22,
+      "sha256": "90d4f69682420bca8133ee2034f3b5402a9ab5aeb9b2fed9dc965e2150e6515d",
+      "status": "ok"
+    },
+    {
+      "metadata_file": "suchowski2008.json",
+      "key": "suchowski2008",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevA.78.063821/fulltext",
+      "status": "error",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "metadata_file": "yang2024.json",
+      "key": "yang2024",
+      "url": "https://research.chalmers.se/publication/543309/file/543309_Fulltext.pdf",
+      "resolved_url": "https://research.chalmers.se/publication/543309/file/543309_Fulltext.pdf",
+      "pages": 15,
+      "sha256": "47f5c9809f6b81a06330b3ddb915efbbe1af5bc2baa47e84baf65cbd9bbacaf0",
+      "status": "ok"
+    }
+  ],
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-13-gpt-b-novelty-literature",
+  "special_leads": [
+    {
+      "lead": "Sheik-Bahae Handbook of Optics chapter",
+      "access": "not accessed",
+      "status": "Not uniquely identified from original card; replaced by DOI 10.1103/PhysRevLett.65.96 and DOI 10.1109/3.89946."
+    },
+    {
+      "lead": "Zakharov-Shabat, JETP 34, 62 (1972)",
+      "access": "abstract only",
+      "status": "Located publisher scan but no DOI/arXiv identifier found; active trace theorem uses arXiv:0903.4363.",
+      "url": "https://jetp.ras.ru/cgi-bin/dn/e_034_01_0062.pdf"
+    },
+    {
+      "lead": "Reddy NIST seminar (2017)",
+      "access": "abstract only",
+      "status": "Event located; no DOI/arXiv assigned and no slides/proof obtained. Related papers arXiv:1305.2165 and arXiv:1702.05687 were read.",
+      "url": "https://www.nist.gov/news-events/events/2017/12/temporal-mode-selective-nonlinear-optics-quantum-information-processing"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Output of checks/crux_symbolic.py and checks/crux_reduced.py, 2026-10-19, claude-interactive.20
+## crux_symbolic.py
+eliminated (should be prop. to q'' + 2a'/a q' + L a''/(2a) q): (L*q(zeta)*Derivative(a(zeta), (zeta, 2))/2 + a(zeta)*Derivative(q(zeta), (zeta, 2)) + 2*Derivative(a(zeta), zeta)*Derivative(q(zeta), zeta))/a(zeta)
+asymptote condition A*^3 = [18/Gm**2]
+roots: [-sqrt(4 - 2*L)/6 - 1/3, sqrt(4 - 2*L)/6 - 1/3]
+B^2 = Matrix([[1/9 - L/18, 0], [0, 1/9 - L/18]])
+s - (n + 3 n_tau) = 0
+s_1 = 3*c2*exp(-tau/3)
+pbar coefficient of p2: -1/5
+parabola <P>_P = 4*P0/5
+gaussian <P>_P = sqrt(2)*P0/2
+V1 = Matrix([[2*g*n_sp, k], [k, 2*g*n_sp]])
+V2 = Matrix([[2*g**2*n_sp, 2*g*k*(n_sp + 1)], [2*g*k*(n_sp + 1), 2*g**2*n_sp + 2*k**2]])
+dlam/dz = 2*g*n_sp - kbar ; z^2 coefficient = g**2*n_sp - g*kbar*n_sp - g*kbar + k2/2
+(gz)^2 coefficient at R=1: 2*VarP - n_sp
+parabola n_sp = 1 : coefficient = -6/7 = -0.8571428571428571
+parabola n_sp = 2 : coefficient = -10/7 = -1.4285714285714286
+gaussian n_sp = 1 : coefficient = -3 + 4*sqrt(3)/3 = -0.690598923241497
+gaussian n_sp = 2 : coefficient = -10 + 16*sqrt(3)/3 = -0.7623956929659877
+## crux_reduced.py
+exponents 12-26: N Var n2 0.32443, eps2 N Var p2 1.69240, mu2/mu1 -0.66522, 1-r2 -0.65326
+tau=4: mu2/mu1=0.2778999  1-r2=0.02804364  CAA=108.196300 (exact 108.196300)  CPP ratio=1.10575  G^-1/3 lmin=0.7998
+tau=12: mu2/mu1=0.003031037  1-r2=8.963224e-05  CAA=325508.582838 (exact 325508.582838)  CPP ratio=0.99041  G^-1/3 lmin=0.5344
+tau=15: mu2/mu1=0.0004141167  1-r2=9.586702e-06  CAA=6538033.744944 (exact 6538033.744944)  CPP ratio=1.00167  G^-1/3 lmin=0.4223
+tau=18: mu2/mu1=6.07125e-05  1-r2=1.836594e-06  CAA=131319937.274660 (exact 131319937.274661)  CPP ratio=1.00141  G^-1/3 lmin=0.5978
+G^-1/3 lambda_min range 12-26: [0.3384, 0.6331]
+CPP ratio range 12-26: [0.99041, 1.00227]
+power of eps^2 CPP over 12-26: 2.33350

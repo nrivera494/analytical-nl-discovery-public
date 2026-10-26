@@ -1,0 +1,9 @@
+{"laser": "flattop", "A": 2.0, "class": "phi", "start": 0, "scale": 0.0, "eta_TL": 0.000182, "eta_opt": -2e-06, "ratio_to_TL": -0.00868, "q_inf_final": 2.0, "bound_2N_over_2N1": null, "nit": 1, "wall_s": 10.5}
+{"laser": "flattop", "A": 2.0, "class": "phi", "start": 1, "scale": 0.5, "eta_TL": 0.000182, "eta_opt": 5.3e-05, "ratio_to_TL": 0.289277, "q_inf_final": 1.998468, "bound_2N_over_2N1": null, "nit": 1, "wall_s": 9.7}
+{"laser": "flattop", "A": 2.0, "class": "phi", "start": 2, "scale": 1.0, "eta_TL": 0.000182, "eta_opt": 3.4e-05, "ratio_to_TL": 0.184956, "q_inf_final": 1.635269, "bound_2N_over_2N1": null, "nit": 2, "wall_s": 10.6}
+{"laser": "flattop", "A": 2.0, "class": "Aphi", "start": 0, "scale": 0.0, "eta_TL": 0.000182, "eta_opt": -0.000531, "ratio_to_TL": -2.916003, "q_inf_final": 1.995055, "bound_2N_over_2N1": null, "nit": 1, "wall_s": 11.4}
+{"laser": "flattop", "A": 2.0, "class": "Aphi", "start": 1, "scale": 0.5, "eta_TL": 0.000182, "eta_opt": -0.042361, "ratio_to_TL": -232.822206, "q_inf_final": 1.985359, "bound_2N_over_2N1": null, "nit": 1, "wall_s": 9.3}
+{"laser": "flattop", "A": 2.0, "class": "Aphi", "start": 2, "scale": 1.0, "eta_TL": 0.000182, "eta_opt": -0.207075, "ratio_to_TL": -1138.111083, "q_inf_final": 1.615043, "bound_2N_over_2N1": null, "nit": 2, "wall_s": 9.7}
+{"laser": "flattop", "A": 4.0, "class": "phi", "start": 0, "scale": 0.0, "eta_TL": -0.0057, "eta_opt": 0.00012, "ratio_to_TL": -0.02112, "q_inf_final": 4.0, "bound_2N_over_2N1": null, "nit": 0, "wall_s": 3.5}
+{"laser": "flattop", "A": 4.0, "class": "phi", "start": 1, "scale": 0.5, "eta_TL": -0.0057, "eta_opt": 0.000109, "ratio_to_TL": -0.019112, "q_inf_final": 3.028197, "bound_2N_over_2N1": null, "nit": 3, "wall_s": 35.8}
+{"laser": "flattop", "A": 4.0, "class": "phi", "start": 2, "scale": 1.0, "eta_TL": -0.0057, "eta_opt": 2.9e-05, "ratio_to_TL": -0.005041, "q_inf_final": 3.476531, "bound_2N_over_2N1": null, "nit": 0, "wall_s": 3.4}

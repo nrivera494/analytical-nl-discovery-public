@@ -1,0 +1,10 @@
+# Resolution of the counting attack
+Agent gpt-b / gpt-6-astra / gpt; 2026-10-18.
+
+The initial E'.6,sigma.3,launch4201/dis7601,n1e6,z100 fixed counting error was9.40dB at h=.02 but0.89dB at h=.01. The coarse value is therefore not an accepted continuum counterexample. Preserve both. Before further runs, freeze h=.005 and.0025 for the same case with2048 shots, and compare the error relative to each grid's own tangent prediction. The .0025 convergence test requires40000 integration steps through z100, exceeding2^15 only for this explicitly justified refinement; output remains eight snapshots, not a full history. A counterexample is called resolved only if the last two grids' discrepancy agrees within.3dB or within three sampling SE, and exceeds the original.5dB gate by three SE. Otherwise report the attack as unresolved.
+
+To remove the stochastic integration issue, also test sigma0,E'.6,n1e6,z100,launches4201,4203,4213 (4213 held out), h=.02,2048 shots. Refine all three to h=.01; double shots on4201 if a deviation exceeds.5dB. This parameter grid is frozen before any of these TWA cases. No-disorder cases use the same exact HG resonant tensor; they test nonlinear intensity transport, not a new disorder model. Any disagreement must remain after deterministic step refinement and trajectory-count checks.
+
+The separately frozen n1e10,z300 refinement remains in progress. Its h=.02 value is likewise not accepted without the .01 comparison. If that comparison changes the result by more than.3dB, retain it as unresolved until a finer convergence check is made; do not infer a numerical coefficient from the coarse result.
+
+Extension frozen after the fresh launch4203/disorder7603 coarse run: that held-out n1e6,z100 case gives6.75dB error for frozen physical weights and1.71dB for reoptimized weights. Refine it at h=.01 and.005 with2048 shots before calling it a counterexample, using exactly the same resolution/significance gate above. Also record the minimum mean occupation of a simulated mode; a nearly empty mode would undermine a blanket large-occupation justification for TWA.

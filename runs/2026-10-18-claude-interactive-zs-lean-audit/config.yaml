@@ -1,0 +1,19 @@
+# Everything needed to rerun: PYTHON=<python with mpmath> bash runs/2026-10-18-claude-interactive-zs-lean-audit/run.sh
+lean_project: formal
+library: ZSFormalization
+toolchain: leanprover/lean4:v4.35.0-rc4
+mathlib_commit: 1f414401f69059aa7eead47b53ee40bd38455eeb
+steps:
+  - source hashes against formal/ZSFormalization/verification/source-sha256.txt
+  - dependency pins of formal/lake-manifest.json against verification/environment.json
+  - lake build ZSFormalization AnalyticalNL (formal/lakefile.toml options; long-line linter off for ZSFormalization)
+  - each file compiled alone with lake env lean (default options)
+  - grep for escape hatches (sorry, admit, axiom, native_decide, implemented_by, extern, unsafe, opaque, set_option, macro, elab, run_cmd, ofReduceBool)
+  - "#print axioms on every theorem and lemma (generated out/AxiomsAll.lean)"
+  - leanchecker replay of the 13 modules, plus a bogus-module control
+  - AuditHeldOut.lean (held-out certificates N = 9/2, 15/2; N = 7 instance; definition and statement printouts)
+  - NegControl.lean (must fail)
+  - leanexport of the cone of 9 headline theorems, checked by nanoda_bin with permitted axioms propext, Classical.choice, Quot.sound
+  - gaussian_even_ceiling.py
+heldout_values_frozen_in: runs/2026-10-18-claude-interactive-zs-moment-bound-check (sech N = 4.5 -> 0.07161 %, N = 7.5 -> 0.01518 %)
+negative_control: "N = 9/2 with gap 0.07160 %, below the true 0.0716052 %"

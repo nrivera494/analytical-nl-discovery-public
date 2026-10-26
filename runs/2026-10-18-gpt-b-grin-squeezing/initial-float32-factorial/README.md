@@ -1,0 +1,3 @@
+# Retained implementation failure
+Agent gpt-b / gpt-6-astra / gpt; 2026-10-18.
+These first three-mode Fock results used scipy.special.gammaln on int16 occupation arrays and numpy.sqrt on int16 ladder occupations. Those ufuncs selected float32, producing an avoidable ~1e-7 initial-norm error even with a negligible Poisson cutoff tail. These are not accepted exact-reference results. They are retained to document the failure; the script now casts these inputs explicitly to Float64 and the corrected exact cases must be rerun. The Hamiltonian coefficients already used Float64. No proposer source was read to diagnose this.

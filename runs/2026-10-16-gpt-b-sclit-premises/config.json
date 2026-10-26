@@ -1,0 +1,7 @@
+{
+  "agent": "gpt-b", "model": "gpt-6-astra", "family": "gpt",
+  "seed": 20261016, "grid_sizes": [2048, 4096], "window": 80.0,
+  "masks_per_grid": 64, "BLAS_threads": 1,
+  "rerun": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 ~/agent-work/venv/bin/python runs/2026-10-16-gpt-b-sclit-premises/check.py",
+  "scope": "Instantaneous identities only. No claim marked verified."
+}

@@ -1,0 +1,1008 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-three-scaling",
+  "cases": [
+    {
+      "label": "three_r0.0001_d0.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 1.0,
+      "r": 0.0001,
+      "window_tau": 320.0,
+      "delta": 0.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 9.999000099990002e-05,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 11.138786542,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.59742308513782e-125,
+          "capture_fixed_4": 0.9993606534640126,
+          "spectral_edge_fraction": 4.374767279889206e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434635,
+          "capture_centered_5": 0.9999019265434635,
+          "capture_fixed_6": 0.9999871350150831,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.0002000000000000001,
+            0.0
+          ],
+          "capture_centered_6": 0.9999871350150831,
+          "capture_centered_4": 0.9993606534640126,
+          "bound_projection": 1.0,
+          "mode2_energy_ratio": 1.0000000000000004
+        },
+        {
+          "temporal_edge_fraction": 7.046157328659773e-27,
+          "capture_fixed_4": 0.9989445907960705,
+          "spectral_edge_fraction": 1.3176199209741435e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9994855365994727,
+          "capture_centered_5": 0.9994855365994727,
+          "capture_fixed_6": 0.9995706574091864,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.000000041692605,
+            0.00019991668783852286,
+            4.1656082564486915e-08
+          ],
+          "capture_centered_6": 0.9995706574091864,
+          "capture_centered_4": 0.9989445907960705,
+          "bound_projection": 0.9995834366230524,
+          "mode2_energy_ratio": 0.9995834391926143
+        },
+        {
+          "temporal_edge_fraction": 8.943186786289432e-19,
+          "capture_fixed_4": 0.9985678960041866,
+          "spectral_edge_fraction": 1.4213268552098896e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9991078506355148,
+          "capture_centered_5": 0.9991078506355148,
+          "capture_fixed_6": 0.9991927178873886,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.000000079528759,
+            0.00019984108851163517,
+            7.945574783281849e-08
+          ],
+          "capture_centered_6": 0.9991927178873886,
+          "capture_centered_4": 0.9985678960041866,
+          "bound_projection": 0.9992054333656323,
+          "mode2_energy_ratio": 0.9992054425581758
+        }
+      ]
+    },
+    {
+      "label": "three_r0.0001_d1.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 0.4659010545249694,
+      "r": 0.0001,
+      "window_tau": 320.0,
+      "delta": 1.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 9.999000099990002e-05,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.685307834,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.59742308513782e-125,
+          "capture_fixed_4": 0.9993606534640126,
+          "spectral_edge_fraction": 4.374767279889206e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434635,
+          "capture_centered_5": 0.9999019265434635,
+          "capture_fixed_6": 0.9999871350150831,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.0002000000000000001,
+            0.0
+          ],
+          "capture_centered_6": 0.9999871350150831,
+          "capture_centered_4": 0.9993606534640126,
+          "bound_projection": 0.4659010545249693,
+          "mode2_energy_ratio": 1.0000000000000004
+        },
+        {
+          "temporal_edge_fraction": 2.4729677766088865e-25,
+          "capture_fixed_4": 0.5564467715788007,
+          "spectral_edge_fraction": 1.1846436087543025e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.5876027717752084,
+          "capture_centered_5": 0.5876027717752084,
+          "capture_fixed_6": 0.6263581263901967,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.000000002723284,
+            0.0001999946262642316,
+            2.686868890926559e-09
+          ],
+          "capture_centered_6": 0.6263581263901967,
+          "capture_centered_4": 0.5564467715788007,
+          "bound_projection": 0.4659507860008381,
+          "mode2_energy_ratio": 0.999973131321158
+        },
+        {
+          "temporal_edge_fraction": 6.062285957461864e-15,
+          "capture_fixed_4": 0.5058312933363098,
+          "spectral_edge_fraction": 1.4095141843292835e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.518353841820645,
+          "capture_centered_5": 0.518353841820645,
+          "capture_fixed_6": 0.5328456339342337,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.000000004104297,
+            0.00019999193708450944,
+            4.031459624077735e-09
+          ],
+          "capture_centered_6": 0.5328456339342337,
+          "capture_centered_4": 0.5058312933363098,
+          "bound_projection": 0.46604266105744224,
+          "mode2_energy_ratio": 0.9999596854225471
+        }
+      ]
+    },
+    {
+      "label": "three_r0.0003_d0.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 1.0,
+      "r": 0.0003,
+      "window_tau": 320.0,
+      "delta": 0.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.0002999100269919024,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.678373917,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378194e-125,
+          "capture_fixed_4": 0.9993606534640124,
+          "spectral_edge_fraction": 4.3751994127568225e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434633,
+          "capture_centered_5": 0.9999019265434633,
+          "capture_fixed_6": 0.999987135015083,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.0006000000000000001,
+            0.0
+          ],
+          "capture_centered_6": 0.999987135015083,
+          "capture_centered_4": 0.9993606534640124,
+          "bound_projection": 1.0000000000000004,
+          "mode2_energy_ratio": 1.0000000000000002
+        },
+        {
+          "temporal_edge_fraction": 1.1082705993138244e-26,
+          "capture_fixed_4": 0.9981127332682089,
+          "spectral_edge_fraction": 1.3633241545458613e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9986530296959686,
+          "capture_centered_5": 0.9986530296959686,
+          "capture_fixed_6": 0.9987379780406903,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.000000374857268,
+            0.0005992503589690026,
+            3.748205210099496e-07
+          ],
+          "capture_centered_6": 0.9987379780406903,
+          "capture_centered_4": 0.9981127332682089,
+          "bound_projection": 0.9987505751975706,
+          "mode2_energy_ratio": 0.9987505982816711
+        },
+        {
+          "temporal_edge_fraction": 7.75844315979711e-18,
+          "capture_fixed_4": 0.9969880161738078,
+          "spectral_edge_fraction": 1.3862673119060987e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9975253521198217,
+          "capture_centered_5": 0.9975253521198217,
+          "capture_fixed_6": 0.9976095432672943,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.0000007134742024,
+            0.0005985731984244041,
+            7.134007988072315e-07
+          ],
+          "capture_centered_6": 0.9976095432672943,
+          "capture_centered_4": 0.9969880161738078,
+          "bound_projection": 0.9976219149179956,
+          "mode2_energy_ratio": 0.9976219973740069
+        }
+      ]
+    },
+    {
+      "label": "three_r0.0003_d1.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 0.4659010545249694,
+      "r": 0.0003,
+      "window_tau": 320.0,
+      "delta": 1.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.0002999100269919024,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.665596333,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378194e-125,
+          "capture_fixed_4": 0.9993606534640124,
+          "spectral_edge_fraction": 4.3751994127568225e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434633,
+          "capture_centered_5": 0.9999019265434633,
+          "capture_fixed_6": 0.999987135015083,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.0006000000000000001,
+            0.0
+          ],
+          "capture_centered_6": 0.999987135015083,
+          "capture_centered_4": 0.9993606534640124,
+          "bound_projection": 0.46590105452496927,
+          "mode2_energy_ratio": 1.0000000000000002
+        },
+        {
+          "temporal_edge_fraction": 7.509263381038834e-25,
+          "capture_fixed_4": 0.5564698901373354,
+          "spectral_edge_fraction": 1.3275312552916956e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.5876171504620249,
+          "capture_centered_5": 0.5876171504620249,
+          "capture_fixed_6": 0.6263647350995015,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.000000024222613,
+            0.0005999516276582581,
+            2.4186173885124156e-08
+          ],
+          "capture_centered_6": 0.6263647350995015,
+          "capture_centered_4": 0.5564698901373354,
+          "bound_projection": 0.4660497991939962,
+          "mode2_energy_ratio": 0.9999193794304302
+        },
+        {
+          "temporal_edge_fraction": 1.8278599845820542e-14,
+          "capture_fixed_4": 0.5058373939273122,
+          "spectral_edge_fraction": 1.4784394883016376e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.5183488489444086,
+          "capture_centered_5": 0.5183488489444086,
+          "capture_fixed_6": 0.5328344272002805,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.0000000363583874,
+            0.0005999274290272196,
+            3.628549201679903e-08
+          ],
+          "capture_centered_6": 0.5328344272002805,
+          "capture_centered_4": 0.5058373939273122,
+          "bound_projection": 0.46632468008739425,
+          "mode2_energy_ratio": 0.9998790483786993
+        }
+      ]
+    },
+    {
+      "label": "three_r0.001_d0.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 1.0,
+      "r": 0.001,
+      "window_tau": 320.0,
+      "delta": 0.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.0009990009990009992,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.576743166,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.597423085137819e-125,
+          "capture_fixed_4": 0.9993606534640124,
+          "spectral_edge_fraction": 4.374889130838125e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434629,
+          "capture_centered_5": 0.9999019265434629,
+          "capture_fixed_6": 0.9999871350150827,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.002,
+            0.0
+          ],
+          "capture_centered_6": 0.9999871350150827,
+          "capture_centered_4": 0.9993606534640124,
+          "bound_projection": 0.9999999999999993,
+          "mode2_energy_ratio": 1.0
+        },
+        {
+          "temporal_edge_fraction": 3.321750623308125e-26,
+          "capture_fixed_4": 0.9952040585895123,
+          "spectral_edge_fraction": 1.2534651235792133e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.995742136150264,
+          "capture_centered_5": 0.995742136150264,
+          "capture_fixed_6": 0.9958265107232922,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.0000041614210544,
+            0.001991677233028212,
+            4.161383504655094e-06
+          ],
+          "capture_centered_6": 0.9958265107232922,
+          "capture_centered_4": 0.9952040585895123,
+          "bound_projection": 0.9958383616679074,
+          "mode2_energy_ratio": 0.995838616514106
+        },
+        {
+          "temporal_edge_fraction": 8.498478955331962e-17,
+          "capture_fixed_4": 0.991517278617628,
+          "spectral_edge_fraction": 1.5371568132130733e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9920456393782238,
+          "capture_centered_5": 0.9920456393782238,
+          "capture_fixed_6": 0.9921275304062358,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.0000078609317495,
+            0.0019842782861675787,
+            7.860856953587316e-06
+          ],
+          "capture_centered_6": 0.9921275304062358,
+          "capture_centered_4": 0.991517278617628,
+          "bound_projection": 0.9921382376725844,
+          "mode2_energy_ratio": 0.9921391430837894
+        }
+      ]
+    },
+    {
+      "label": "three_r0.001_d1.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 0.4659010545249694,
+      "r": 0.001,
+      "window_tau": 320.0,
+      "delta": 1.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.0009990009990009992,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.497572958,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.597423085137819e-125,
+          "capture_fixed_4": 0.9993606534640124,
+          "spectral_edge_fraction": 4.374889130838125e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434629,
+          "capture_centered_5": 0.9999019265434629,
+          "capture_fixed_6": 0.9999871350150827,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.002,
+            0.0
+          ],
+          "capture_centered_6": 0.9999871350150827,
+          "capture_centered_4": 0.9993606534640124,
+          "bound_projection": 0.4659010545249692,
+          "mode2_energy_ratio": 1.0
+        },
+        {
+          "temporal_edge_fraction": 2.7218685439304503e-24,
+          "capture_fixed_4": 0.5565505977759589,
+          "spectral_edge_fraction": 1.1590228740326786e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.5876673170483073,
+          "capture_centered_5": 0.5876673170483073,
+          "capture_fixed_6": 0.6263877208297901,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.000000268941161,
+            0.0019994621907326194,
+            2.689046436642896e-07
+          ],
+          "capture_centered_6": 0.6263877208297901,
+          "capture_centered_4": 0.5565505977759589,
+          "bound_projection": 0.4663916112618456,
+          "mode2_energy_ratio": 0.9997310953663097
+        },
+        {
+          "temporal_edge_fraction": 6.199748474965348e-14,
+          "capture_fixed_4": 0.5058586837007163,
+          "spectral_edge_fraction": 1.385499690636235e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.5183313190032341,
+          "capture_centered_5": 0.5183313190032341,
+          "capture_fixed_6": 0.532795127028679,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.000000403336428,
+            0.0019991934733613525,
+            4.032633379621078e-07
+          ],
+          "capture_centered_6": 0.532795127028679,
+          "capture_centered_4": 0.5058586837007163,
+          "bound_projection": 0.46729915548350426,
+          "mode2_energy_ratio": 0.9995967366806763
+        }
+      ]
+    },
+    {
+      "label": "three_r0.003_d0.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 1.0,
+      "r": 0.003,
+      "window_tau": 320.0,
+      "delta": 0.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.0029910269192422734,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.756901042,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378192e-125,
+          "capture_fixed_4": 0.9993606534640127,
+          "spectral_edge_fraction": 4.385956088382423e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434634,
+          "capture_centered_5": 0.9999019265434634,
+          "capture_fixed_6": 0.999987135015083,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.006,
+            0.0
+          ],
+          "capture_centered_6": 0.999987135015083,
+          "capture_centered_4": 0.9993606534640127,
+          "bound_projection": 1.0000000000000002,
+          "mode2_energy_ratio": 1.0
+        },
+        {
+          "temporal_edge_fraction": 1.6463692921191182e-25,
+          "capture_fixed_4": 0.9869181381426605,
+          "spectral_edge_fraction": 1.2800956073696866e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9874503302185129,
+          "capture_centered_5": 0.9874503302185129,
+          "capture_fixed_6": 0.9875333179699547,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.0000373668760183,
+            0.005925266327796553,
+            3.736683616138993e-05
+          ],
+          "capture_centered_6": 0.9875333179699547,
+          "capture_centered_4": 0.9869181381426605,
+          "bound_projection": 0.9875421356454368,
+          "mode2_energy_ratio": 0.9875443879660921
+        },
+        {
+          "temporal_edge_fraction": 7.589596323460353e-16,
+          "capture_fixed_4": 0.9763829410853222,
+          "spectral_edge_fraction": 1.643694255857402e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9768872577562581,
+          "capture_centered_5": 0.9768872577562581,
+          "capture_fixed_6": 0.9769631359430649,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.0000690803446948,
+            0.005861839468428785,
+            6.908026590358288e-05
+          ],
+          "capture_centered_6": 0.9769631359430649,
+          "capture_centered_4": 0.9763829410853222,
+          "bound_projection": 0.9769653676322132,
+          "mode2_energy_ratio": 0.9769732447381309
+        }
+      ]
+    },
+    {
+      "label": "three_r0.003_d1.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 0.4659010545249694,
+      "r": 0.003,
+      "window_tau": 320.0,
+      "delta": 1.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.0029910269192422734,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.522128666,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378192e-125,
+          "capture_fixed_4": 0.9993606534640127,
+          "spectral_edge_fraction": 4.385956088382423e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434634,
+          "capture_centered_5": 0.9999019265434634,
+          "capture_fixed_6": 0.999987135015083,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.006,
+            0.0
+          ],
+          "capture_centered_6": 0.999987135015083,
+          "capture_centered_4": 0.9993606534640127,
+          "bound_projection": 0.46590105452496966,
+          "mode2_energy_ratio": 1.0
+        },
+        {
+          "temporal_edge_fraction": 1.0129374767212751e-23,
+          "capture_fixed_4": 0.556779411939249,
+          "spectral_edge_fraction": 1.1143980702447038e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.5878092863506196,
+          "capture_centered_5": 0.5878092863506196,
+          "capture_fixed_6": 0.6264521510874214,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.00000242453866,
+            0.005995150996226634,
+            2.424501915982904e-06
+          ],
+          "capture_centered_6": 0.6264521510874214,
+          "capture_centered_4": 0.556779411939249,
+          "bound_projection": 0.46732750257420913,
+          "mode2_energy_ratio": 0.9991918327044389
+        },
+        {
+          "temporal_edge_fraction": 1.951147502405239e-13,
+          "capture_fixed_4": 0.5059189977491058,
+          "spectral_edge_fraction": 1.4669814247647146e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.5182807783244266,
+          "capture_centered_5": 0.5182807783244266,
+          "capture_fixed_6": 0.5326821974261128,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.000003631758531,
+            0.0059927366303607725,
+            3.6316848745161195e-06
+          ],
+          "capture_centered_6": 0.5326821974261128,
+          "capture_centered_4": 0.5059189977491058,
+          "bound_projection": 0.4699742848821614,
+          "mode2_energy_ratio": 0.998789438393462
+        }
+      ]
+    },
+    {
+      "label": "three_r0.03_d0.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 1.0,
+      "r": 0.03,
+      "window_tau": 320.0,
+      "delta": 0.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.029126213592233007,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.794901167,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378194e-125,
+          "capture_fixed_4": 0.9993606534640124,
+          "spectral_edge_fraction": 4.385872165972456e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_centered_5": 0.9999019265434632,
+          "capture_fixed_6": 0.9999871350150827,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.05999999999999999,
+            0.0
+          ],
+          "capture_centered_6": 0.9999871350150827,
+          "capture_centered_4": 0.9993606534640124,
+          "bound_projection": 0.9999999999999993,
+          "mode2_energy_ratio": 0.9999999999999999
+        },
+        {
+          "temporal_edge_fraction": 1.124688911569578e-23,
+          "capture_fixed_4": 0.8790880074570755,
+          "spectral_edge_fraction": 1.4964447600629777e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.8795952974744432,
+          "capture_centered_5": 0.8795952974744432,
+          "capture_fixed_6": 0.8796915478951444,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.0036075628057333,
+            0.05278487453727547,
+            0.003607562732429727
+          ],
+          "capture_centered_6": 0.8796915478951444,
+          "capture_centered_4": 0.8790880074570755,
+          "bound_projection": 0.879564874596147,
+          "mode2_energy_ratio": 0.8797479089545912
+        },
+        {
+          "temporal_edge_fraction": 7.174126139724984e-14,
+          "capture_fixed_4": 0.8335445825396094,
+          "spectral_edge_fraction": 1.3146474977831952e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.8339111583752675,
+          "capture_centered_5": 0.8339111583752675,
+          "capture_fixed_6": 0.8339731107880624,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.004977422319441,
+            0.05004515563535737,
+            0.004977422184298232
+          ],
+          "capture_centered_6": 0.8339731107880624,
+          "capture_centered_4": 0.8335445825396094,
+          "bound_projection": 0.8335906275544074,
+          "mode2_energy_ratio": 0.8340859272559562
+        }
+      ]
+    },
+    {
+      "label": "three_r0.03_d1.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 0.4659010545249694,
+      "r": 0.03,
+      "window_tau": 320.0,
+      "delta": 1.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.029126213592233007,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.614818917,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378194e-125,
+          "capture_fixed_4": 0.9993606534640124,
+          "spectral_edge_fraction": 4.385872165972456e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_centered_5": 0.9999019265434632,
+          "capture_fixed_6": 0.9999871350150827,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.05999999999999999,
+            0.0
+          ],
+          "capture_centered_6": 0.9999871350150827,
+          "capture_centered_4": 0.9993606534640124,
+          "bound_projection": 0.46590105452496955,
+          "mode2_energy_ratio": 0.9999999999999999
+        },
+        {
+          "temporal_edge_fraction": 3.552544541351865e-22,
+          "capture_fixed_4": 0.5596070459663284,
+          "spectral_edge_fraction": 1.396052171685554e-32,
+          "peak_tau": 0.15625,
+          "capture_fixed_5": 0.5895244377593041,
+          "capture_centered_5": 0.5936811852742381,
+          "capture_fixed_6": 0.6271380634982497,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.000248397869105,
+            0.05950320434297328,
+            0.0002483978287186253
+          ],
+          "capture_centered_6": 0.6325537404638598,
+          "capture_centered_4": 0.5622149406756728,
+          "bound_projection": 0.47389855715038814,
+          "mode2_energy_ratio": 0.9917200723828881
+        },
+        {
+          "temporal_edge_fraction": 3.1278411863653033e-12,
+          "capture_fixed_4": 0.506685259592038,
+          "spectral_edge_fraction": 1.3077279910776712e-32,
+          "peak_tau": 0.3125,
+          "capture_fixed_5": 0.5175543226719066,
+          "capture_centered_5": 0.5191537073164246,
+          "capture_fixed_6": 0.5310837740241373,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.000365855689834,
+            0.05926828878536709,
+            0.00036585560772277586
+          ],
+          "capture_centered_6": 0.5337050801872768,
+          "capture_centered_4": 0.5067231831375202,
+          "bound_projection": 0.4889520655946863,
+          "mode2_energy_ratio": 0.9878048130894516
+        }
+      ]
+    },
+    {
+      "label": "three_r0.1_d0.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 1.0,
+      "r": 0.1,
+      "window_tau": 320.0,
+      "delta": 0.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.09090909090909091,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.539479834,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378194e-125,
+          "capture_fixed_4": 0.9993606534640126,
+          "spectral_edge_fraction": 4.3542426651883554e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434633,
+          "capture_centered_5": 0.9999019265434633,
+          "capture_fixed_6": 0.999987135015083,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.20000000000000004,
+            0.0
+          ],
+          "capture_centered_6": 0.999987135015083,
+          "capture_centered_4": 0.9993606534640126,
+          "bound_projection": 0.9999999999999999,
+          "mode2_energy_ratio": 1.0000000000000002
+        },
+        {
+          "temporal_edge_fraction": 1.058249343860549e-22,
+          "capture_fixed_4": 0.6430330128649046,
+          "spectral_edge_fraction": 1.31973540888793e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.6437081250709462,
+          "capture_centered_5": 0.6437081250709462,
+          "capture_fixed_6": 0.644015118659977,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.035538175087318,
+            0.1289236502430749,
+            0.035538174887252104
+          ],
+          "capture_centered_6": 0.644015118659977,
+          "capture_centered_4": 0.6430330128649046,
+          "bound_projection": 0.6429032915366752,
+          "mode2_energy_ratio": 0.6446182512153744
+        },
+        {
+          "temporal_edge_fraction": 6.936252527990325e-13,
+          "capture_fixed_4": 0.7843768072277396,
+          "spectral_edge_fraction": 1.4384095994748769e-32,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.7849799134406948,
+          "capture_centered_5": 0.7849799134406948,
+          "capture_fixed_6": 0.7852292744381512,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.0213569205432917,
+            0.15728615958720676,
+            0.02135692022131018
+          ],
+          "capture_centered_6": 0.7852292744381512,
+          "capture_centered_4": 0.7843768072277396,
+          "bound_projection": 0.7842597270575082,
+          "mode2_energy_ratio": 0.7864307979360338
+        }
+      ]
+    },
+    {
+      "label": "three_r0.1_d1.0",
+      "family": "gpt",
+      "method": "RK4IP",
+      "model": "gpt-6-astra",
+      "C0": 0.4659010545249694,
+      "r": 0.1,
+      "window_tau": 320.0,
+      "delta": 1.0,
+      "response": "none",
+      "nm": 3,
+      "dzeta": 0.01,
+      "nt": 4096,
+      "p2_total": 0.09090909090909091,
+      "physical_dispersion": false,
+      "agent": "gpt-a",
+      "elapsed_seconds": 8.526583917,
+      "rows": [
+        {
+          "temporal_edge_fraction": 1.5974230851378194e-125,
+          "capture_fixed_4": 0.9993606534640126,
+          "spectral_edge_fraction": 4.3542426651883554e-33,
+          "peak_tau": 0.0,
+          "capture_fixed_5": 0.9999019265434633,
+          "capture_centered_5": 0.9999019265434633,
+          "capture_fixed_6": 0.999987135015083,
+          "zeta": 0.0,
+          "energies": [
+            1.9999999999999996,
+            0.20000000000000004,
+            0.0
+          ],
+          "capture_centered_6": 0.999987135015083,
+          "capture_centered_4": 0.9993606534640126,
+          "bound_projection": 0.46590105452496927,
+          "mode2_energy_ratio": 1.0000000000000002
+        },
+        {
+          "temporal_edge_fraction": 3.052668704599549e-21,
+          "capture_fixed_4": 0.5645478926127759,
+          "spectral_edge_fraction": 1.2996258012675378e-32,
+          "peak_tau": 0.546875,
+          "capture_fixed_5": 0.592124037618321,
+          "capture_centered_5": 0.6061680824610947,
+          "capture_fixed_6": 0.6272309906621689,
+          "zeta": 9.999999999999998,
+          "energies": [
+            2.0029349750275847,
+            0.19413005005743375,
+            0.002934974971091121
+          ],
+          "capture_centered_6": 0.6454059080503901,
+          "capture_centered_4": 0.5737863487198271,
+          "bound_projection": 0.43807634114470034,
+          "mode2_energy_ratio": 0.9706502502871687
+        },
+        {
+          "temporal_edge_fraction": 1.9165061965923057e-11,
+          "capture_fixed_4": 0.5085678870262663,
+          "spectral_edge_fraction": 1.3053600000991428e-32,
+          "peak_tau": 1.1718750000000002,
+          "capture_fixed_5": 0.5157833274305196,
+          "capture_centered_5": 0.5206510778005102,
+          "capture_fixed_6": 0.5268012464710672,
+          "zeta": 19.999999999999996,
+          "energies": [
+            2.0041040068800733,
+            0.19179198646649043,
+            0.004104006766701536
+          ],
+          "capture_centered_6": 0.5357990908643688,
+          "capture_centered_4": 0.5077117249713062,
+          "bound_projection": 0.3932438960784815,
+          "mode2_energy_ratio": 0.9589599323324521
+        }
+      ]
+    }
+  ],
+  "scaling": [
+    {
+      "delta": 0.0,
+      "r": [
+        0.0001,
+        0.0003,
+        0.001,
+        0.003,
+        0.03,
+        0.1
+      ],
+      "LP03_energy": [
+        7.945574783281849e-08,
+        7.134007988072315e-07,
+        7.860856953587316e-06,
+        6.908026590358288e-05,
+        0.004977422184298232,
+        0.02135692022131018
+      ],
+      "LP03_energy_over_r_squared": [
+        7.945574783281849,
+        7.926675542302573,
+        7.860856953587317,
+        7.675585100398098,
+        5.530469093664702,
+        2.1356920221310176
+      ],
+      "LP02_projection": [
+        0.9992054333656323,
+        0.9976219149179956,
+        0.9921382376725844,
+        0.9769653676322132,
+        0.8335906275544074,
+        0.7842597270575082
+      ],
+      "absolute_energy_exponent_epsilon": 3.9906167813686673,
+      "max_Manley_Rowe_absolute_error": 3.219815525312697e-10
+    },
+    {
+      "delta": 1.0,
+      "r": [
+        0.0001,
+        0.0003,
+        0.001,
+        0.003,
+        0.03,
+        0.1
+      ],
+      "LP03_energy": [
+        4.031459624077735e-09,
+        3.628549201679903e-08,
+        4.032633379621078e-07,
+        3.6316848745161195e-06,
+        0.00036585560772277586,
+        0.004104006766701536
+      ],
+      "LP03_energy_over_r_squared": [
+        0.4031459624077735,
+        0.40317213351998926,
+        0.4032633379621078,
+        0.40352054161290213,
+        0.4065062308030843,
+        0.4104006766701535
+      ],
+      "LP02_projection": [
+        0.46604266105744224,
+        0.46632468008739425,
+        0.46729915548350426,
+        0.4699742848821614,
+        0.4889520655946863,
+        0.3932438960784815
+      ],
+      "absolute_energy_exponent_epsilon": 4.000254810801869,
+      "max_Manley_Rowe_absolute_error": 1.1337153438262249e-10
+    }
+  ]
+}

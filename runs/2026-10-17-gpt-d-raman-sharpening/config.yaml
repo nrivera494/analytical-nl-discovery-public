@@ -1,0 +1,38 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "freeze_commit": "6df0927ef31369add037f36db21643b14d68bf51",
+  "units": "tau1=1",
+  "x": [
+    0.002,
+    0.004,
+    0.008,
+    0.016,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0,
+    20.0,
+    40.0,
+    80.0,
+    160.0
+  ],
+  "r": [
+    0.38125,
+    0.824023727137914,
+    0.2,
+    0.6,
+    1.4
+  ],
+  "seed": 20261017,
+  "held_out_r": [
+    0.2,
+    0.6,
+    1.4
+  ],
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-17-gpt-d-raman-sharpening",
+  "precision_digits": 60
+}

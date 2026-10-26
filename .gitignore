@@ -1,0 +1,29 @@
+# OS and editor clutter
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Launcher state (clones, session transcripts, local settings)
+automation/worktrees/
+automation/session-logs/
+automation/.venv/
+automation/local.yaml
+automation/state/
+
+# Raw simulation output never goes in git (AGENTS.md rule 9). Keep configs, meta.yaml,
+# summary.json and small figures; put raw data in the storage location named in runs/README.md.
+runs/**/raw/
+runs/**/*.jld2
+runs/**/*.h5
+runs/**/*.hdf5
+runs/**/*.npy
+runs/**/*.npz
+runs/**/*.mat
+runs/**/*.zarr/

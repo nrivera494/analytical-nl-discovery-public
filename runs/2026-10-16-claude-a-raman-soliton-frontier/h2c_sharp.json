@@ -1,0 +1,9508 @@
+{
+ "rows": [
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 0,
+   "eta_ratio": 0.5163802115995877,
+   "q_inf_ratio": 0.5691637022497682
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 1,
+   "eta_ratio": 0.8488337653827793,
+   "q_inf_ratio": 0.8149272574712448
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 2,
+   "eta_ratio": 0.9999973506257753,
+   "q_inf_ratio": 0.9998926112558308
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 3,
+   "eta_ratio": 0.8637356379707405,
+   "q_inf_ratio": 0.8498459236657102
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 4,
+   "eta_ratio": 0.9999999999999998,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 5,
+   "eta_ratio": 0.9987112439119503,
+   "q_inf_ratio": 0.9944348381120861
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 6,
+   "eta_ratio": 0.9991964746680008,
+   "q_inf_ratio": 0.9958930782374847
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 7,
+   "eta_ratio": 0.9282754305552569,
+   "q_inf_ratio": 0.8926486295099499
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 8,
+   "eta_ratio": 0.6034628295028293,
+   "q_inf_ratio": 0.628496611697397
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 9,
+   "eta_ratio": 0.9867617380938732,
+   "q_inf_ratio": 0.9711733818851727
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 10,
+   "eta_ratio": 0.5193553616883986,
+   "q_inf_ratio": 0.5731973468273148
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 11,
+   "eta_ratio": 0.9685105309482945,
+   "q_inf_ratio": 0.9451376895347364
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 12,
+   "eta_ratio": 0.9357812375265228,
+   "q_inf_ratio": 0.8886512602691313
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 13,
+   "eta_ratio": 0.9999421142577478,
+   "q_inf_ratio": 0.9993077043303563
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 14,
+   "eta_ratio": 0.9993456426929936,
+   "q_inf_ratio": 0.995625091839423
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 15,
+   "eta_ratio": 0.9995175591752226,
+   "q_inf_ratio": 0.9971177901108375
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 16,
+   "eta_ratio": 0.8394884609601196,
+   "q_inf_ratio": 0.7669378238600756
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 17,
+   "eta_ratio": 0.982300957595726,
+   "q_inf_ratio": 0.9701389973207627
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 18,
+   "eta_ratio": 0.9526195210199923,
+   "q_inf_ratio": 0.9267408316026245
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 19,
+   "eta_ratio": 0.9999973506257749,
+   "q_inf_ratio": 0.9998926111858356
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 20,
+   "eta_ratio": 1.0000000000000013,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 21,
+   "eta_ratio": 0.8457512642643441,
+   "q_inf_ratio": 0.7942105442574778
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 22,
+   "eta_ratio": 0.8457514252947778,
+   "q_inf_ratio": 0.7944035635207817
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 23,
+   "eta_ratio": 0.9998364644161581,
+   "q_inf_ratio": 0.9987954285409995
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 24,
+   "eta_ratio": 0.5163361473493538,
+   "q_inf_ratio": 0.5687112119841645
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 25,
+   "eta_ratio": 0.9780971650193309,
+   "q_inf_ratio": 0.9550990220784256
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 26,
+   "eta_ratio": 0.9946720737592173,
+   "q_inf_ratio": 0.9853618700932533
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 27,
+   "eta_ratio": 0.9282756070453159,
+   "q_inf_ratio": 0.8927560183241144
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 28,
+   "eta_ratio": 0.9017371230236173,
+   "q_inf_ratio": 0.8801225524442718
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 29,
+   "eta_ratio": 0.9354113628235637,
+   "q_inf_ratio": 0.8855679353979923
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 30,
+   "eta_ratio": 0.9999776862336571,
+   "q_inf_ratio": 0.9995996271276121
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 31,
+   "eta_ratio": 0.7667615749141441,
+   "q_inf_ratio": 0.7153402904927438
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 32,
+   "eta_ratio": 0.9788521219029571,
+   "q_inf_ratio": 0.9561522473752987
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 33,
+   "eta_ratio": 0.6722077851701219,
+   "q_inf_ratio": 0.6581914661080466
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 34,
+   "eta_ratio": 0.5163812156115426,
+   "q_inf_ratio": 0.5690268187769797
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 35,
+   "eta_ratio": 0.9999954633931146,
+   "q_inf_ratio": 0.9998507797000588
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 36,
+   "eta_ratio": 0.9684747113987289,
+   "q_inf_ratio": 0.9443646205917678
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 37,
+   "eta_ratio": 1.000000000000001,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 38,
+   "eta_ratio": 1.0000000000000007,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 39,
+   "eta_ratio": 0.8939597845064794,
+   "q_inf_ratio": 0.8515840612118538
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 40,
+   "eta_ratio": 0.8558641364326461,
+   "q_inf_ratio": 0.8342606607212725
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 41,
+   "eta_ratio": 0.5018653494044892,
+   "q_inf_ratio": 0.564842159602489
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 42,
+   "eta_ratio": 1.0,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 43,
+   "eta_ratio": 0.980570217656086,
+   "q_inf_ratio": 0.9640010572775494
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 44,
+   "eta_ratio": 1.0000000000000007,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 45,
+   "eta_ratio": 0.6998232713404954,
+   "q_inf_ratio": 0.6670845693448503
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 46,
+   "eta_ratio": 0.9798741876178283,
+   "q_inf_ratio": 0.9615100558641142
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 47,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 48,
+   "eta_ratio": 0.5961653728180542,
+   "q_inf_ratio": 0.610575108736501
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 49,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 50,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 51,
+   "eta_ratio": 0.7920145959393173,
+   "q_inf_ratio": 0.771895958462725
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 52,
+   "eta_ratio": 0.9915510524756481,
+   "q_inf_ratio": 0.9793304594580547
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 53,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 54,
+   "eta_ratio": 0.999936689373498,
+   "q_inf_ratio": 0.9992269309870361
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 55,
+   "eta_ratio": 0.5579092977625274,
+   "q_inf_ratio": 0.5973296448153025
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 56,
+   "eta_ratio": 0.848745895859313,
+   "q_inf_ratio": 0.81284822463122
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 57,
+   "eta_ratio": 0.9966479498336964,
+   "q_inf_ratio": 0.9892545479489568
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 58,
+   "eta_ratio": 0.5965466907327744,
+   "q_inf_ratio": 0.6113854194862114
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 59,
+   "eta_ratio": 0.9915499589014992,
+   "q_inf_ratio": 0.9792531787500592
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 60,
+   "eta_ratio": 0.5097397023323708,
+   "q_inf_ratio": 0.5630413228758903
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 61,
+   "eta_ratio": 0.9966479498336973,
+   "q_inf_ratio": 0.9892545479489568
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 62,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 63,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 64,
+   "eta_ratio": 0.9946553311195346,
+   "q_inf_ratio": 0.9850688861050251
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 65,
+   "eta_ratio": 0.9995175591752226,
+   "q_inf_ratio": 0.9971177901808327
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 66,
+   "eta_ratio": 0.9389949035691039,
+   "q_inf_ratio": 0.9428072210438735
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 67,
+   "eta_ratio": 0.9998457039725995,
+   "q_inf_ratio": 0.9988621730540342
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 68,
+   "eta_ratio": 0.975137810059828,
+   "q_inf_ratio": 0.9469080915968364
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 69,
+   "eta_ratio": 0.9017350357753159,
+   "q_inf_ratio": 0.8799151989051831
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 70,
+   "eta_ratio": 0.9999913591952568,
+   "q_inf_ratio": 0.9998610934875275
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 71,
+   "eta_ratio": 0.9999623369817661,
+   "q_inf_ratio": 0.9994436618735048
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 72,
+   "eta_ratio": 0.5047080537820625,
+   "q_inf_ratio": 0.552703235756593
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 73,
+   "eta_ratio": 0.9999366893734981,
+   "q_inf_ratio": 0.9992269309870361
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 74,
+   "eta_ratio": 0.9282745815765648,
+   "q_inf_ratio": 0.8925486647850257
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 75,
+   "eta_ratio": 0.9999999999999998,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 76,
+   "eta_ratio": 0.9282710146566912,
+   "q_inf_ratio": 0.8923556454517265
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 77,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 78,
+   "eta_ratio": 0.9966817427367637,
+   "q_inf_ratio": 0.9898108861454474
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 79,
+   "eta_ratio": 0.780170000065021,
+   "q_inf_ratio": 0.7216885410417406
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 80,
+   "eta_ratio": 0.9693938369714765,
+   "q_inf_ratio": 0.949529409677289
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 81,
+   "eta_ratio": 0.9999868317070921,
+   "q_inf_ratio": 0.9997118731875863
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 82,
+   "eta_ratio": 0.4850699575171557,
+   "q_inf_ratio": 0.4985499612099617
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 83,
+   "eta_ratio": 0.9946553311195346,
+   "q_inf_ratio": 0.9850688860350297
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 84,
+   "eta_ratio": 0.9856660693301411,
+   "q_inf_ratio": 0.9656082199972588
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 85,
+   "eta_ratio": 0.9915499589014993,
+   "q_inf_ratio": 0.9792531787500592
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 86,
+   "eta_ratio": 0.5906877979006334,
+   "q_inf_ratio": 0.5516354350030884
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 87,
+   "eta_ratio": 0.7406377858392713,
+   "q_inf_ratio": 0.7525613411716124
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 88,
+   "eta_ratio": 0.8910303899510449,
+   "q_inf_ratio": 0.836581551250943
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 89,
+   "eta_ratio": 0.9915499589014989,
+   "q_inf_ratio": 0.9792531786800639
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 90,
+   "eta_ratio": 0.9999776862336571,
+   "q_inf_ratio": 0.9995996271976075
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 91,
+   "eta_ratio": 0.8457538648566639,
+   "q_inf_ratio": 0.7938615595300808
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 92,
+   "eta_ratio": 0.6953117710569151,
+   "q_inf_ratio": 0.6568850989401197
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 93,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 94,
+   "eta_ratio": 0.45305423575909065,
+   "q_inf_ratio": 0.4790012209858159
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 95,
+   "eta_ratio": 0.845753345702467,
+   "q_inf_ratio": 0.7939593917550264
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 96,
+   "eta_ratio": 0.7761479767055943,
+   "q_inf_ratio": 0.7201549813242286
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 97,
+   "eta_ratio": 0.7801700000650207,
+   "q_inf_ratio": 0.7216885409740295
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 98,
+   "eta_ratio": 0.5953995367369812,
+   "q_inf_ratio": 0.6050288484067174
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 99,
+   "eta_ratio": 0.7761478914421449,
+   "q_inf_ratio": 0.8289435418997807
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 1,
+   "eta_ratio": 0.6348284027998833,
+   "q_inf_ratio": 0.6472229583965566
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 2,
+   "eta_ratio": 0.9988612209808562,
+   "q_inf_ratio": 0.9974099854756907
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 3,
+   "eta_ratio": 0.6957215101283709,
+   "q_inf_ratio": 0.665334249839168
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 4,
+   "eta_ratio": 0.9220028213123734,
+   "q_inf_ratio": 0.9162644953576463
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 5,
+   "eta_ratio": 0.9995189324742496,
+   "q_inf_ratio": 0.9989741673285409
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 6,
+   "eta_ratio": 0.9986798189726672,
+   "q_inf_ratio": 0.9973060271812252
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 7,
+   "eta_ratio": 0.6969446218392722,
+   "q_inf_ratio": 0.6741680659341824
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 8,
+   "eta_ratio": 0.6471992612787881,
+   "q_inf_ratio": 0.6518994051516238
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 9,
+   "eta_ratio": 0.9996123270281083,
+   "q_inf_ratio": 0.9988743265338461
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 10,
+   "eta_ratio": 4.446632284993425e-05,
+   "q_inf_ratio": 0.1802169175618192
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 11,
+   "eta_ratio": 0.502100320302379,
+   "q_inf_ratio": 0.5339253796472389
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 13,
+   "eta_ratio": 0.9670412213031581,
+   "q_inf_ratio": 0.9542921757707711
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 14,
+   "eta_ratio": 0.7431553845253498,
+   "q_inf_ratio": 0.7368134637398284
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 15,
+   "eta_ratio": 5.8429140719050466e-05,
+   "q_inf_ratio": 0.13008086539759092
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 16,
+   "eta_ratio": 0.983470097805671,
+   "q_inf_ratio": 0.9718633024369798
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 17,
+   "eta_ratio": 0.9985952195114886,
+   "q_inf_ratio": 0.9955205124923111
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 18,
+   "eta_ratio": 0.9990336830366198,
+   "q_inf_ratio": 0.9968867605226674
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 19,
+   "eta_ratio": 0.9937509127687465,
+   "q_inf_ratio": 0.9879886339504013
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 20,
+   "eta_ratio": 0.12655744062289492,
+   "q_inf_ratio": 0.21195342626814795
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 21,
+   "eta_ratio": 0.7432306649354723,
+   "q_inf_ratio": 0.7370184105239401
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 22,
+   "eta_ratio": 0.9422706874692635,
+   "q_inf_ratio": 0.925703148521445
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 23,
+   "eta_ratio": 0.9991328949964029,
+   "q_inf_ratio": 0.9969322482508898
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 24,
+   "eta_ratio": 0.9993262740823047,
+   "q_inf_ratio": 0.9971975531490526
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 25,
+   "eta_ratio": 0.9985152303411876,
+   "q_inf_ratio": 0.9971575197418653
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 26,
+   "eta_ratio": 0.7432229142748927,
+   "q_inf_ratio": 0.737778982691911
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 27,
+   "eta_ratio": 0.20349374233353903,
+   "q_inf_ratio": 0.2738732165599867
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 28,
+   "eta_ratio": 0.20389790048933684,
+   "q_inf_ratio": 0.30065292019947243
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 30,
+   "eta_ratio": 0.38448804401779674,
+   "q_inf_ratio": 0.49742732493873226
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 31,
+   "eta_ratio": 0.9831693090678044,
+   "q_inf_ratio": 0.97177315064766
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 32,
+   "eta_ratio": 2.114854584099394e-05,
+   "q_inf_ratio": 0.124052793064306
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 33,
+   "eta_ratio": 0.647303652652131,
+   "q_inf_ratio": 0.6527166613043596
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 34,
+   "eta_ratio": 0.12662446776236502,
+   "q_inf_ratio": 0.1849539441386344
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 35,
+   "eta_ratio": 0.8255712407028793,
+   "q_inf_ratio": 0.8241831593955736
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 36,
+   "eta_ratio": 0.0008332901838206713,
+   "q_inf_ratio": 0.15568276755197805
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 37,
+   "eta_ratio": 0.8656899068196977,
+   "q_inf_ratio": 0.8382176290407712
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 38,
+   "eta_ratio": 0.9274366469324032,
+   "q_inf_ratio": 0.9246397017251148
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 39,
+   "eta_ratio": -0.08568912015877504,
+   "q_inf_ratio": 0.1288264238522032
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 42,
+   "eta_ratio": 0.8737652485179804,
+   "q_inf_ratio": 0.8560850699541955
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 43,
+   "eta_ratio": 0.8274722474028443,
+   "q_inf_ratio": 0.8295085229895446
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 44,
+   "eta_ratio": 0.9828317842459402,
+   "q_inf_ratio": 0.9658672573804757
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 45,
+   "eta_ratio": 0.01106426503090203,
+   "q_inf_ratio": 0.14876876718758827
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 46,
+   "eta_ratio": 0.8449893750257711,
+   "q_inf_ratio": 0.8205620500962504
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 47,
+   "eta_ratio": 0.9422527413303721,
+   "q_inf_ratio": 0.9255062751150543
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 48,
+   "eta_ratio": 0.12649870211084288,
+   "q_inf_ratio": 0.19453246463600604
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 49,
+   "eta_ratio": 0.9859002660645197,
+   "q_inf_ratio": 0.9792444595079296
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 50,
+   "eta_ratio": 0.37766339571400126,
+   "q_inf_ratio": 0.3972882353521714
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 51,
+   "eta_ratio": 0.8703891544509446,
+   "q_inf_ratio": 0.8540243285225159
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 52,
+   "eta_ratio": 0.8188316624825726,
+   "q_inf_ratio": 0.8100486516065812
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 53,
+   "eta_ratio": 0.6331278750270202,
+   "q_inf_ratio": 0.6303294400290698
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 54,
+   "eta_ratio": 0.5346250104568903,
+   "q_inf_ratio": 0.5531965609092215
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 55,
+   "eta_ratio": 0.9901735527648807,
+   "q_inf_ratio": 0.9795392036764615
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 56,
+   "eta_ratio": 0.127555059157128,
+   "q_inf_ratio": 0.26818605300431525
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 57,
+   "eta_ratio": 0.8104507691435122,
+   "q_inf_ratio": 0.78589134001907
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 58,
+   "eta_ratio": 0.30123943935821995,
+   "q_inf_ratio": 0.36644658534908564
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 59,
+   "eta_ratio": 0.8439116211688528,
+   "q_inf_ratio": 0.8515732924340877
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 60,
+   "eta_ratio": 0.9930897518999929,
+   "q_inf_ratio": 0.9895926386894046
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 61,
+   "eta_ratio": 0.9982575454939419,
+   "q_inf_ratio": 0.9957771060903858
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 62,
+   "eta_ratio": 0.0003250540279408048,
+   "q_inf_ratio": 0.18259937745267366
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 63,
+   "eta_ratio": 0.8237258004074659,
+   "q_inf_ratio": 0.8242014449716638
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 64,
+   "eta_ratio": 0.41766012083630694,
+   "q_inf_ratio": 0.48599686225620076
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 65,
+   "eta_ratio": 0.6463378837728935,
+   "q_inf_ratio": 0.6441788765613369
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 66,
+   "eta_ratio": 0.4175098684392331,
+   "q_inf_ratio": 0.48527200069444265
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 67,
+   "eta_ratio": 0.7433126363373936,
+   "q_inf_ratio": 0.7393161016635443
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 68,
+   "eta_ratio": 0.6474591074909845,
+   "q_inf_ratio": 0.6515309960135518
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 69,
+   "eta_ratio": 0.5409949572994618,
+   "q_inf_ratio": 0.5125917322913299
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 70,
+   "eta_ratio": 0.7979844444121679,
+   "q_inf_ratio": 0.767805430082139
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 71,
+   "eta_ratio": 0.15543013337773368,
+   "q_inf_ratio": 0.194545054116705
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 72,
+   "eta_ratio": 0.1265110725935532,
+   "q_inf_ratio": 0.20452050680618994
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 73,
+   "eta_ratio": 0.9827130055491201,
+   "q_inf_ratio": 0.970846645080711
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 74,
+   "eta_ratio": 0.9608215610818106,
+   "q_inf_ratio": 0.950887331228083
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 75,
+   "eta_ratio": 0.993633882925341,
+   "q_inf_ratio": 0.9896139963025342
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 76,
+   "eta_ratio": 0.2985109293773933,
+   "q_inf_ratio": 0.3283541880087329
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 77,
+   "eta_ratio": 8.129714555448909e-06,
+   "q_inf_ratio": 0.12006615127737806
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 78,
+   "eta_ratio": 0.9983670939749185,
+   "q_inf_ratio": 0.9954439085056158
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 80,
+   "eta_ratio": 1.2046473783343596e-05,
+   "q_inf_ratio": 0.10548480712808057
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 81,
+   "eta_ratio": 0.817622396742977,
+   "q_inf_ratio": 0.805137150823163
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 82,
+   "eta_ratio": 0.8026688476545581,
+   "q_inf_ratio": 0.786975794766866
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 83,
+   "eta_ratio": 0.9614855233580281,
+   "q_inf_ratio": 0.9457499828390225
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 84,
+   "eta_ratio": 0.961500199906378,
+   "q_inf_ratio": 0.9472456467896077
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 85,
+   "eta_ratio": -0.06638860692696802,
+   "q_inf_ratio": 0.12672493059335857
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 86,
+   "eta_ratio": 0.9985794876123422,
+   "q_inf_ratio": 0.996838103324388
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 87,
+   "eta_ratio": 0.9424015220582944,
+   "q_inf_ratio": 0.9264779093124459
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 88,
+   "eta_ratio": 0.981261485598694,
+   "q_inf_ratio": 0.9655670964853363
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 89,
+   "eta_ratio": 0.2034900960008036,
+   "q_inf_ratio": 0.27285106587751884
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 90,
+   "eta_ratio": 0.8184123137698704,
+   "q_inf_ratio": 0.8066726993295994
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 91,
+   "eta_ratio": 0.2228589700612424,
+   "q_inf_ratio": 0.2151089720975705
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 92,
+   "eta_ratio": 0.9953667943417124,
+   "q_inf_ratio": 0.988663296514024
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 93,
+   "eta_ratio": 0.9987256837654735,
+   "q_inf_ratio": 0.9977281013703707
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 94,
+   "eta_ratio": 0.6034708487610021,
+   "q_inf_ratio": 0.7090271359460449
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 95,
+   "eta_ratio": 0.978891523172849,
+   "q_inf_ratio": 0.964181298857358
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 96,
+   "eta_ratio": 0.41499538531208907,
+   "q_inf_ratio": 0.4568204602428761
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 97,
+   "eta_ratio": 0.126499412251509,
+   "q_inf_ratio": 0.19311938284589822
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 98,
+   "eta_ratio": 0.00016781728967708064,
+   "q_inf_ratio": 0.13593478601179185
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 99,
+   "eta_ratio": 0.41485997564648813,
+   "q_inf_ratio": 0.4474780446532764
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 0,
+   "eta_ratio": 0.999924417594743,
+   "q_inf_ratio": 0.9989350766071302
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 1,
+   "eta_ratio": 0.9512067893004722,
+   "q_inf_ratio": 0.9384339776846548
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 2,
+   "eta_ratio": 0.9999958258168864,
+   "q_inf_ratio": 0.9995076650304039
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 3,
+   "eta_ratio": 0.9986522272334286,
+   "q_inf_ratio": 0.9983932210155667
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 4,
+   "eta_ratio": 0.9999973709293372,
+   "q_inf_ratio": 0.9997329951789552
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 5,
+   "eta_ratio": 0.9867341126349822,
+   "q_inf_ratio": 0.9702763827333049
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 6,
+   "eta_ratio": 0.9942093503532391,
+   "q_inf_ratio": 0.989230512334724
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 7,
+   "eta_ratio": 0.9801672448258311,
+   "q_inf_ratio": 0.9676960478539661
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 8,
+   "eta_ratio": 0.989315700158828,
+   "q_inf_ratio": 0.9777660778131286
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 9,
+   "eta_ratio": 0.9999590580670559,
+   "q_inf_ratio": 0.9991075968514643
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 10,
+   "eta_ratio": 0.8197605154762669,
+   "q_inf_ratio": 0.8076283277343458
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 11,
+   "eta_ratio": 0.9939049192765574,
+   "q_inf_ratio": 0.986083604831011
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 12,
+   "eta_ratio": 0.958470413696098,
+   "q_inf_ratio": 0.9393746491861689
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 13,
+   "eta_ratio": 0.6962133110449991,
+   "q_inf_ratio": 0.6572430975353134
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 14,
+   "eta_ratio": 0.9949483420725895,
+   "q_inf_ratio": 0.9900493488269896
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 15,
+   "eta_ratio": 0.6796009711912208,
+   "q_inf_ratio": 0.66592579057856
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 16,
+   "eta_ratio": 0.9998094050812094,
+   "q_inf_ratio": 0.998621216163382
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 17,
+   "eta_ratio": 0.943384216419011,
+   "q_inf_ratio": 0.9322200503141805
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 18,
+   "eta_ratio": 0.9996090293721307,
+   "q_inf_ratio": 0.9976547902701675
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 19,
+   "eta_ratio": 0.9999626315583603,
+   "q_inf_ratio": 0.9995791075893816
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 20,
+   "eta_ratio": 0.8281545656026039,
+   "q_inf_ratio": 0.8185012252816882
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 21,
+   "eta_ratio": 0.9940511494306943,
+   "q_inf_ratio": 0.9870412990647873
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 22,
+   "eta_ratio": 0.9266386392806211,
+   "q_inf_ratio": 0.9167560385337241
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 23,
+   "eta_ratio": 0.6544709546301845,
+   "q_inf_ratio": 0.639963069790095
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 24,
+   "eta_ratio": 0.9999203947624746,
+   "q_inf_ratio": 0.9990510362175411
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 25,
+   "eta_ratio": 0.7611047267803267,
+   "q_inf_ratio": 0.7353349086108277
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 26,
+   "eta_ratio": 0.9966958397078651,
+   "q_inf_ratio": 0.9960209850129109
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 27,
+   "eta_ratio": 0.9370383155165521,
+   "q_inf_ratio": 0.913381978426364
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 28,
+   "eta_ratio": 0.9837302649337702,
+   "q_inf_ratio": 0.9739009684548589
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 29,
+   "eta_ratio": 0.982253204677488,
+   "q_inf_ratio": 0.9698212370139534
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 30,
+   "eta_ratio": 0.8395742297930541,
+   "q_inf_ratio": 0.823914120399824
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 31,
+   "eta_ratio": 0.9996957384599929,
+   "q_inf_ratio": 0.9982303178525206
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 32,
+   "eta_ratio": 0.9999922084546513,
+   "q_inf_ratio": 0.9996939862496902
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 33,
+   "eta_ratio": 0.9987781807014346,
+   "q_inf_ratio": 0.996627090679003
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 34,
+   "eta_ratio": 0.9660448884960662,
+   "q_inf_ratio": 0.9483676217026361
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 35,
+   "eta_ratio": 0.9951873072882382,
+   "q_inf_ratio": 0.9891843112469765
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 36,
+   "eta_ratio": 0.9979652340391899,
+   "q_inf_ratio": 0.9977298180307878
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 37,
+   "eta_ratio": 0.5077703790168223,
+   "q_inf_ratio": 0.5369411342324103
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 38,
+   "eta_ratio": 0.5689272355837026,
+   "q_inf_ratio": 0.5817936378441161
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 39,
+   "eta_ratio": 0.5217627432605456,
+   "q_inf_ratio": 0.5058763141408129
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 40,
+   "eta_ratio": 0.8162333994758931,
+   "q_inf_ratio": 0.8083508124972484
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 41,
+   "eta_ratio": 0.9316514315995172,
+   "q_inf_ratio": 0.9153442574423497
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 42,
+   "eta_ratio": 0.97007733473732,
+   "q_inf_ratio": 0.9552691991251537
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 43,
+   "eta_ratio": 0.9915750420102822,
+   "q_inf_ratio": 0.9829428319920108
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 44,
+   "eta_ratio": 0.989811382160396,
+   "q_inf_ratio": 0.9802970903227816
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 45,
+   "eta_ratio": 0.966927660635447,
+   "q_inf_ratio": 0.951070609359629
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 46,
+   "eta_ratio": 0.9525727143261049,
+   "q_inf_ratio": 0.9369824202287322
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 47,
+   "eta_ratio": 0.9999956266317642,
+   "q_inf_ratio": 0.9998870577029821
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 48,
+   "eta_ratio": 0.9984642068949114,
+   "q_inf_ratio": 0.9953363598214882
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 49,
+   "eta_ratio": 0.9973932891283269,
+   "q_inf_ratio": 0.9904524333942718
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 50,
+   "eta_ratio": 0.8528276547039493,
+   "q_inf_ratio": 0.8403920481588077
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 51,
+   "eta_ratio": 0.9995625154325035,
+   "q_inf_ratio": 0.9977963074696915
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 52,
+   "eta_ratio": 0.9943163866881009,
+   "q_inf_ratio": 0.9860043642427264
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 53,
+   "eta_ratio": 0.9978181993036586,
+   "q_inf_ratio": 0.9934588726641228
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 54,
+   "eta_ratio": 0.999853617789762,
+   "q_inf_ratio": 0.9985661792398299
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 55,
+   "eta_ratio": 0.9990634318308415,
+   "q_inf_ratio": 0.995994581890976
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 56,
+   "eta_ratio": 0.9477880308839252,
+   "q_inf_ratio": 0.9422262331333585
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 57,
+   "eta_ratio": 0.9999441716012418,
+   "q_inf_ratio": 0.9993485456601207
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 58,
+   "eta_ratio": 0.9999958032175668,
+   "q_inf_ratio": 0.9997467841584305
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 59,
+   "eta_ratio": 0.9840996317554913,
+   "q_inf_ratio": 0.9729156081887743
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 60,
+   "eta_ratio": 0.9898194243012858,
+   "q_inf_ratio": 0.9799726124766237
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 61,
+   "eta_ratio": 0.993215904620204,
+   "q_inf_ratio": 0.984988234825658
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 62,
+   "eta_ratio": 0.8343386587446694,
+   "q_inf_ratio": 0.8199197570857879
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 63,
+   "eta_ratio": 0.9985956199367779,
+   "q_inf_ratio": 0.9949605736438184
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 64,
+   "eta_ratio": 0.9987150741135133,
+   "q_inf_ratio": 0.9955103672435581
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 65,
+   "eta_ratio": 0.9744319994198772,
+   "q_inf_ratio": 0.9603561272908706
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 66,
+   "eta_ratio": 0.9999798364581094,
+   "q_inf_ratio": 0.9996943388352962
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 67,
+   "eta_ratio": 0.9855126626486026,
+   "q_inf_ratio": 0.9712790483832587
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 68,
+   "eta_ratio": 0.9402691524506119,
+   "q_inf_ratio": 0.9229206524743055
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 69,
+   "eta_ratio": 0.9999978663362423,
+   "q_inf_ratio": 0.9996853978195214
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 70,
+   "eta_ratio": 0.999536745257123,
+   "q_inf_ratio": 0.9978344596888776
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 71,
+   "eta_ratio": 0.6427208364789591,
+   "q_inf_ratio": 0.6315655521701811
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 72,
+   "eta_ratio": 0.7826408651103712,
+   "q_inf_ratio": 0.75233189189924
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 73,
+   "eta_ratio": 0.9974495169917796,
+   "q_inf_ratio": 0.992603972115793
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 74,
+   "eta_ratio": 0.9386321385536405,
+   "q_inf_ratio": 0.9196774555612471
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 75,
+   "eta_ratio": 0.9999715581089864,
+   "q_inf_ratio": 0.9995111321983084
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 76,
+   "eta_ratio": 0.9994804680665996,
+   "q_inf_ratio": 0.9975390709442459
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 77,
+   "eta_ratio": 0.9999910438772124,
+   "q_inf_ratio": 0.9997727135050059
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 78,
+   "eta_ratio": 0.9983513319536457,
+   "q_inf_ratio": 0.9943712322423665
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 79,
+   "eta_ratio": 0.9929521130719519,
+   "q_inf_ratio": 0.9858359686617065
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 80,
+   "eta_ratio": 0.8546251734641341,
+   "q_inf_ratio": 0.8371098759955279
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 81,
+   "eta_ratio": 0.9985385373931983,
+   "q_inf_ratio": 0.9952754598444996
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 82,
+   "eta_ratio": 0.9933266849872867,
+   "q_inf_ratio": 0.9846704401888662
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 83,
+   "eta_ratio": 0.7351410166361679,
+   "q_inf_ratio": 0.7217873362571209
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 84,
+   "eta_ratio": 0.956522716701584,
+   "q_inf_ratio": 0.9479932223906551
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 85,
+   "eta_ratio": 0.699888670656847,
+   "q_inf_ratio": 0.6901836068772202
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 86,
+   "eta_ratio": 0.9999775954350747,
+   "q_inf_ratio": 0.9995257430668255
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 87,
+   "eta_ratio": 0.641488720696977,
+   "q_inf_ratio": 0.6198353256507381
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 88,
+   "eta_ratio": 0.563493252457044,
+   "q_inf_ratio": 0.5563547064527912
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 89,
+   "eta_ratio": 0.9957651890439132,
+   "q_inf_ratio": 0.9886119272650266
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 90,
+   "eta_ratio": 0.996503056660621,
+   "q_inf_ratio": 0.991077964733158
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 91,
+   "eta_ratio": 0.590865489737918,
+   "q_inf_ratio": 0.5949653063123129
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 92,
+   "eta_ratio": 0.9997469531547976,
+   "q_inf_ratio": 0.9980803547036774
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 93,
+   "eta_ratio": 0.9996816233798345,
+   "q_inf_ratio": 0.9986797216196516
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 94,
+   "eta_ratio": 0.6600353062653183,
+   "q_inf_ratio": 0.643689598353082
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 95,
+   "eta_ratio": 0.9999272157092232,
+   "q_inf_ratio": 0.9990317167620711
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 96,
+   "eta_ratio": 0.7396015628714723,
+   "q_inf_ratio": 0.7371636322112357
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 97,
+   "eta_ratio": 0.5420712834332323,
+   "q_inf_ratio": 0.550813329055983
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 98,
+   "eta_ratio": 0.9999956573854389,
+   "q_inf_ratio": 0.9995242154958598
+  },
+  {
+   "laser": "sech",
+   "A": 3.0,
+   "family": "split",
+   "trial": 99,
+   "eta_ratio": 0.9336652627965784,
+   "q_inf_ratio": 0.9268202204835453
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 0,
+   "eta_ratio": 0.8349313228907136,
+   "q_inf_ratio": 0.7936542060479814
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 1,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 2,
+   "eta_ratio": 0.9999935597161583,
+   "q_inf_ratio": 0.999892611211816
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 3,
+   "eta_ratio": 0.9999999999999999,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 4,
+   "eta_ratio": 0.9835742958724821,
+   "q_inf_ratio": 0.9711733818981216
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 5,
+   "eta_ratio": 0.9202673590845605,
+   "q_inf_ratio": 0.8927861263212771
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 6,
+   "eta_ratio": 0.9953770627675771,
+   "q_inf_ratio": 0.9892545480060085
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 7,
+   "eta_ratio": 0.999817041358756,
+   "q_inf_ratio": 0.9990749994686678
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 8,
+   "eta_ratio": 0.5972089481871505,
+   "q_inf_ratio": 0.6244925943872793
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 9,
+   "eta_ratio": 0.9970114380450507,
+   "q_inf_ratio": 0.9922669287359943
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 10,
+   "eta_ratio": 0.9542977389471322,
+   "q_inf_ratio": 0.9265772898690319
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 11,
+   "eta_ratio": 0.9987737896816925,
+   "q_inf_ratio": 0.9959950103829363
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 12,
+   "eta_ratio": 0.9954868341962372,
+   "q_inf_ratio": 0.9900276169618998
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 13,
+   "eta_ratio": 0.9987737896816922,
+   "q_inf_ratio": 0.9959950104140503
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 14,
+   "eta_ratio": 0.9999716604199226,
+   "q_inf_ratio": 0.9997118731305031
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 15,
+   "eta_ratio": 0.9999539082454767,
+   "q_inf_ratio": 0.9995996271535775
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 16,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 17,
+   "eta_ratio": 0.44141455990137324,
+   "q_inf_ratio": 0.4561018449791351
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 18,
+   "eta_ratio": 0.8779357515960119,
+   "q_inf_ratio": 0.8374577529517606
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 19,
+   "eta_ratio": 0.6835069552543643,
+   "q_inf_ratio": 0.6568373583989123
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 20,
+   "eta_ratio": 0.9928957958834126,
+   "q_inf_ratio": 0.9850688860479752
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 21,
+   "eta_ratio": 0.9999826421260074,
+   "q_inf_ratio": 0.9997926464868838
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 22,
+   "eta_ratio": 0.8845039122057246,
+   "q_inf_ratio": 0.8512959343864843
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 23,
+   "eta_ratio": 0.9629572984044773,
+   "q_inf_ratio": 0.9428719222503814
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 24,
+   "eta_ratio": 0.9005762484798678,
+   "q_inf_ratio": 0.8544059535877873
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 25,
+   "eta_ratio": 0.767354689426096,
+   "q_inf_ratio": 0.722087249467994
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 26,
+   "eta_ratio": 0.9202667598880558,
+   "q_inf_ratio": 0.8927560182981873
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 27,
+   "eta_ratio": 0.9451139149748222,
+   "q_inf_ratio": 0.9206676252201107
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 28,
+   "eta_ratio": 0.9999788399634573,
+   "q_inf_ratio": 0.9997015593170502
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 29,
+   "eta_ratio": 0.525296953028809,
+   "q_inf_ratio": 0.5695531857370187
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 30,
+   "eta_ratio": 0.9998795655238055,
+   "q_inf_ratio": 0.9992269310129949
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 31,
+   "eta_ratio": 0.9999999999999993,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 32,
+   "eta_ratio": 0.9999960977462062,
+   "q_inf_ratio": 0.9999227192349058
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 33,
+   "eta_ratio": 0.9970114380450503,
+   "q_inf_ratio": 0.9922669287671081
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 34,
+   "eta_ratio": 0.9999826421260078,
+   "q_inf_ratio": 0.9997926465179978
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 35,
+   "eta_ratio": 0.94560472548615,
+   "q_inf_ratio": 0.9233015574724412
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 36,
+   "eta_ratio": 0.6304336138784892,
+   "q_inf_ratio": 0.6917164086829534
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 37,
+   "eta_ratio": 0.8948486737639665,
+   "q_inf_ratio": 0.8788344594292763
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 38,
+   "eta_ratio": 0.5453328438358627,
+   "q_inf_ratio": 0.6010695602180989
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 39,
+   "eta_ratio": 0.7406436495941211,
+   "q_inf_ratio": 0.7109128704786664
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 40,
+   "eta_ratio": 0.9996907879943517,
+   "q_inf_ratio": 0.9985073017156569
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 41,
+   "eta_ratio": 0.5318963682423948,
+   "q_inf_ratio": 0.5727084257303517
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 42,
+   "eta_ratio": 0.7664265038987029,
+   "q_inf_ratio": 0.7220616609796048
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 43,
+   "eta_ratio": 0.9999762250615578,
+   "q_inf_ratio": 0.999685257729814
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 44,
+   "eta_ratio": 0.5608378850389486,
+   "q_inf_ratio": 0.5823086095543896
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 45,
+   "eta_ratio": 0.9988633949802813,
+   "q_inf_ratio": 0.9964799525315584
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 46,
+   "eta_ratio": 0.9954021649002609,
+   "q_inf_ratio": 0.9895426748443914
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 47,
+   "eta_ratio": 0.8845039122057247,
+   "q_inf_ratio": 0.8512959343553705
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 48,
+   "eta_ratio": 0.5885260329900951,
+   "q_inf_ratio": 0.6049400992774846
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 49,
+   "eta_ratio": 0.9455570459918381,
+   "q_inf_ratio": 0.922885062355584
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 50,
+   "eta_ratio": 0.9929045783903321,
+   "q_inf_ratio": 0.9879152135750601
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 51,
+   "eta_ratio": 0.5158434545757593,
+   "q_inf_ratio": 0.5510376345221579
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 52,
+   "eta_ratio": 0.9968992728424209,
+   "q_inf_ratio": 0.9914938597801033
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 53,
+   "eta_ratio": 0.8908076796023964,
+   "q_inf_ratio": 0.8712696866934815
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 54,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 55,
+   "eta_ratio": 0.7541315292676682,
+   "q_inf_ratio": 0.718953250508479
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 56,
+   "eta_ratio": 0.9997961743686454,
+   "q_inf_ratio": 0.9987765587857182
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 57,
+   "eta_ratio": 0.531380629185244,
+   "q_inf_ratio": 0.5693275484462492
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 58,
+   "eta_ratio": 0.9998515090967464,
+   "q_inf_ratio": 0.9989388041746121
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 59,
+   "eta_ratio": 0.9999935597161584,
+   "q_inf_ratio": 0.99989261124293
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 60,
+   "eta_ratio": 0.9999999999999998,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 61,
+   "eta_ratio": 0.9998065818251246,
+   "q_inf_ratio": 0.9989257791427502
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 62,
+   "eta_ratio": 0.9202667598880553,
+   "q_inf_ratio": 0.8927560182670735
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 63,
+   "eta_ratio": 0.9992942014685442,
+   "q_inf_ratio": 0.9976741283203557
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 64,
+   "eta_ratio": 0.9998065818251246,
+   "q_inf_ratio": 0.9989257791116362
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 65,
+   "eta_ratio": 1.0000000000000007,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 66,
+   "eta_ratio": 0.9891581452262265,
+   "q_inf_ratio": 0.979253178705998
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 67,
+   "eta_ratio": 0.9454423497125056,
+   "q_inf_ratio": 0.9216616211413025
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 68,
+   "eta_ratio": 0.5885273605195912,
+   "q_inf_ratio": 0.6050288484268833
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 69,
+   "eta_ratio": 0.7683272590518736,
+   "q_inf_ratio": 0.721691394543955
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 70,
+   "eta_ratio": 0.9999539082454765,
+   "q_inf_ratio": 0.9995996271846914
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 71,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 72,
+   "eta_ratio": 0.5158427094561744,
+   "q_inf_ratio": 0.5509389033790559
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 73,
+   "eta_ratio": 0.9999894082490207,
+   "q_inf_ratio": 0.9998507796429681
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 74,
+   "eta_ratio": 0.7683253248896356,
+   "q_inf_ratio": 0.7214974109772437
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 75,
+   "eta_ratio": 0.6832833131482681,
+   "q_inf_ratio": 0.6541901423380122
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 76,
+   "eta_ratio": 0.7148395277632705,
+   "q_inf_ratio": 0.7158109617804052
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 77,
+   "eta_ratio": 0.9753149543679288,
+   "q_inf_ratio": 0.960058681981516
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 78,
+   "eta_ratio": 0.9987844518128703,
+   "q_inf_ratio": 0.9960757837393173
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 79,
+   "eta_ratio": 0.7683272590518726,
+   "q_inf_ratio": 0.721691394543955
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 80,
+   "eta_ratio": 0.9846714124459577,
+   "q_inf_ratio": 0.9778144949229275
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 81,
+   "eta_ratio": 0.9999999999999998,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 82,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 83,
+   "eta_ratio": 0.9998795655238052,
+   "q_inf_ratio": 0.9992269310129949
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 84,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 85,
+   "eta_ratio": 0.999879565523805,
+   "q_inf_ratio": 0.9992269310441088
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 86,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 87,
+   "eta_ratio": 0.9990228647638411,
+   "q_inf_ratio": 0.995851625875207
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 88,
+   "eta_ratio": 0.9999999999999997,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 89,
+   "eta_ratio": 0.6838535766860884,
+   "q_inf_ratio": 0.6601725555361245
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 90,
+   "eta_ratio": 0.9970114380450497,
+   "q_inf_ratio": 0.9922669287359943
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 91,
+   "eta_ratio": 0.884505576707676,
+   "q_inf_ratio": 0.8514260071033926
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 92,
+   "eta_ratio": 0.9992111287556635,
+   "q_inf_ratio": 0.9969685698108666
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 93,
+   "eta_ratio": 0.9987737896816921,
+   "q_inf_ratio": 0.9959950104140503
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 94,
+   "eta_ratio": 1.000000000000001,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 95,
+   "eta_ratio": 0.9631563481023339,
+   "q_inf_ratio": 0.9440764936963415
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 96,
+   "eta_ratio": 0.9970114380450493,
+   "q_inf_ratio": 0.9922669287671081
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 97,
+   "eta_ratio": 0.9835742958724835,
+   "q_inf_ratio": 0.9711733818981216
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 98,
+   "eta_ratio": 0.6831406633621956,
+   "q_inf_ratio": 0.6383853303634427
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 99,
+   "eta_ratio": 0.9999999999999999,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 0,
+   "eta_ratio": 0.12542580680274873,
+   "q_inf_ratio": 0.1554467003252236
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 1,
+   "eta_ratio": 0.49418441123589535,
+   "q_inf_ratio": 0.5880520156013771
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 2,
+   "eta_ratio": 0.6554908128338898,
+   "q_inf_ratio": 0.6780744303574173
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 3,
+   "eta_ratio": 0.9635816113221723,
+   "q_inf_ratio": 0.9542020672176621
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 4,
+   "eta_ratio": 7.783699519369302e-06,
+   "q_inf_ratio": 0.11020943065701418
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 5,
+   "eta_ratio": 0.5706007352803149,
+   "q_inf_ratio": 0.5970344041617284
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 6,
+   "eta_ratio": 0.8699556752839489,
+   "q_inf_ratio": 0.8599361734012603
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 7,
+   "eta_ratio": 0.46044080943212784,
+   "q_inf_ratio": 0.5498823123473868
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 8,
+   "eta_ratio": 0.9990825562928506,
+   "q_inf_ratio": 0.9979048314782919
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 9,
+   "eta_ratio": 0.5033749740953813,
+   "q_inf_ratio": 0.563776526054209
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 10,
+   "eta_ratio": 0.4262997181250281,
+   "q_inf_ratio": 0.47839262567648116
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 11,
+   "eta_ratio": 0.8983229942978838,
+   "q_inf_ratio": 0.8779466274380345
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 12,
+   "eta_ratio": 0.42276598358806544,
+   "q_inf_ratio": 0.44832811639767584
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 13,
+   "eta_ratio": 0.8151422919238812,
+   "q_inf_ratio": 0.8092260839443371
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 14,
+   "eta_ratio": 0.9944249442622043,
+   "q_inf_ratio": 0.9894694812172466
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 15,
+   "eta_ratio": 0.8695670133617351,
+   "q_inf_ratio": 0.8579505188529248
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 16,
+   "eta_ratio": 0.3128186986695057,
+   "q_inf_ratio": 0.35610515535557613
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 17,
+   "eta_ratio": 0.7095208320294571,
+   "q_inf_ratio": 0.7439260777771669
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 18,
+   "eta_ratio": 0.9892496637830483,
+   "q_inf_ratio": 0.9820734093041987
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 19,
+   "eta_ratio": 0.14295513422911071,
+   "q_inf_ratio": 0.2034400892390218
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 20,
+   "eta_ratio": 0.1431552215619892,
+   "q_inf_ratio": 0.20106702790272427
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 21,
+   "eta_ratio": 0.9726222761506902,
+   "q_inf_ratio": 0.9640817418426386
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 22,
+   "eta_ratio": 0.952030322548765,
+   "q_inf_ratio": 0.9381389025759357
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 23,
+   "eta_ratio": 0.9385406471807319,
+   "q_inf_ratio": 0.9282422156281156
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 24,
+   "eta_ratio": 0.740794418930244,
+   "q_inf_ratio": 0.7369861822824757
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 25,
+   "eta_ratio": 0.6485750585340464,
+   "q_inf_ratio": 0.6585226055910327
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 26,
+   "eta_ratio": 0.9947495651699159,
+   "q_inf_ratio": 0.9913552306407168
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 27,
+   "eta_ratio": 0.9395434535868337,
+   "q_inf_ratio": 0.9291946871199068
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 28,
+   "eta_ratio": 0.9680012865901358,
+   "q_inf_ratio": 0.952880694527049
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 29,
+   "eta_ratio": 0.3127510119240159,
+   "q_inf_ratio": 0.3535356427636663
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 31,
+   "eta_ratio": 0.37540423535310846,
+   "q_inf_ratio": 0.525073821982867
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 32,
+   "eta_ratio": 0.033299013290985384,
+   "q_inf_ratio": 0.15509956889213447
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 33,
+   "eta_ratio": 0.957711306562633,
+   "q_inf_ratio": 0.9466858498750457
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 34,
+   "eta_ratio": 0.9873098361057953,
+   "q_inf_ratio": 0.9804614258706054
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 36,
+   "eta_ratio": 0.09112311630294827,
+   "q_inf_ratio": 0.2825760707117997
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 37,
+   "eta_ratio": 0.08843010146298994,
+   "q_inf_ratio": 0.13043569052232518
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 38,
+   "eta_ratio": 0.9942490293179617,
+   "q_inf_ratio": 0.9893171975974356
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 39,
+   "eta_ratio": 0.99794642753133,
+   "q_inf_ratio": 0.9964732729385907
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 41,
+   "eta_ratio": 0.9930623525106997,
+   "q_inf_ratio": 0.9879164090030025
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 42,
+   "eta_ratio": 0.6141387144149535,
+   "q_inf_ratio": 0.6015974918309455
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 43,
+   "eta_ratio": 0.9912870610039783,
+   "q_inf_ratio": 0.985156654577622
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 44,
+   "eta_ratio": 0.9741100851983095,
+   "q_inf_ratio": 0.9622410935187993
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 46,
+   "eta_ratio": 0.32059828123683615,
+   "q_inf_ratio": 0.38022464264224737
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 47,
+   "eta_ratio": 0.4603686096653698,
+   "q_inf_ratio": 0.5492183784113107
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 48,
+   "eta_ratio": 0.9975675113701079,
+   "q_inf_ratio": 0.994445530286006
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 49,
+   "eta_ratio": 0.5388166782400353,
+   "q_inf_ratio": 0.5547142264978435
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 50,
+   "eta_ratio": 0.16050462550735758,
+   "q_inf_ratio": 0.15920443727016062
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 51,
+   "eta_ratio": 0.31257480070774796,
+   "q_inf_ratio": 0.3480316542780446
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 52,
+   "eta_ratio": 0.6872465944054549,
+   "q_inf_ratio": 0.6639848063855691
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 53,
+   "eta_ratio": 0.6478930676675857,
+   "q_inf_ratio": 0.6514727769690457
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 54,
+   "eta_ratio": 0.9995257158109528,
+   "q_inf_ratio": 0.9984622440924411
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 55,
+   "eta_ratio": 0.8151555066327153,
+   "q_inf_ratio": 0.8093111680321821
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 56,
+   "eta_ratio": 0.9808643405471911,
+   "q_inf_ratio": 0.9721752413090967
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 57,
+   "eta_ratio": 0.14041389313890779,
+   "q_inf_ratio": 0.21405428550637032
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 58,
+   "eta_ratio": 0.06518248765201434,
+   "q_inf_ratio": 0.19222416283923735
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 59,
+   "eta_ratio": 0.9081098723932683,
+   "q_inf_ratio": 0.8951606936827801
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 60,
+   "eta_ratio": 0.7931685122018586,
+   "q_inf_ratio": 0.775596496487968
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 61,
+   "eta_ratio": 0.2218698825505664,
+   "q_inf_ratio": 0.3762887649934447
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 63,
+   "eta_ratio": 0.9971343420963548,
+   "q_inf_ratio": 0.9946896785371722
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 64,
+   "eta_ratio": 0.9108469599788676,
+   "q_inf_ratio": 0.9014598344595778
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 65,
+   "eta_ratio": 0.00012843148289328464,
+   "q_inf_ratio": 0.12099318257826948
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 66,
+   "eta_ratio": 0.2182541207131137,
+   "q_inf_ratio": 0.2739628434836582
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 67,
+   "eta_ratio": 0.9532578853356969,
+   "q_inf_ratio": 0.9417998197485372
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 68,
+   "eta_ratio": 0.9970370643865616,
+   "q_inf_ratio": 0.9933230021337891
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 69,
+   "eta_ratio": 0.997976116626386,
+   "q_inf_ratio": 0.9969809629881725
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 70,
+   "eta_ratio": 0.3126590302553035,
+   "q_inf_ratio": 0.3458678265851344
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 71,
+   "eta_ratio": -0.0035011630454648253,
+   "q_inf_ratio": 0.13519141770456441
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 72,
+   "eta_ratio": 0.698687945264335,
+   "q_inf_ratio": 0.6837538717384264
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 73,
+   "eta_ratio": 0.9805076350461542,
+   "q_inf_ratio": 0.9735284131086522
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 74,
+   "eta_ratio": 0.09116248827988097,
+   "q_inf_ratio": 0.28359938602912377
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 75,
+   "eta_ratio": 0.4335370752030925,
+   "q_inf_ratio": 0.46801422944375837
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 76,
+   "eta_ratio": 0.4420414996356107,
+   "q_inf_ratio": 0.5212789296980064
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 77,
+   "eta_ratio": 0.9808412211010687,
+   "q_inf_ratio": 0.9722561311799476
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 78,
+   "eta_ratio": 0.9576567899726641,
+   "q_inf_ratio": 0.9462961172977687
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 79,
+   "eta_ratio": 0.8665965772106635,
+   "q_inf_ratio": 0.8786973293082573
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 80,
+   "eta_ratio": 0.06784663350679437,
+   "q_inf_ratio": 0.16038108891509278
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 81,
+   "eta_ratio": 0.9988235338015864,
+   "q_inf_ratio": 0.9978230294373595
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 82,
+   "eta_ratio": 4.0344771315996624e-08,
+   "q_inf_ratio": 0.0879507464624799
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 83,
+   "eta_ratio": 0.5388038471100153,
+   "q_inf_ratio": 0.5552631909515382
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 84,
+   "eta_ratio": 0.9555397340726881,
+   "q_inf_ratio": 0.9412974982692521
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 85,
+   "eta_ratio": 0.9985709182366389,
+   "q_inf_ratio": 0.9979743678261562
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 86,
+   "eta_ratio": 0.9712608985969194,
+   "q_inf_ratio": 0.9611952598677983
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 87,
+   "eta_ratio": 0.2174503219458047,
+   "q_inf_ratio": 0.2539244823664445
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 88,
+   "eta_ratio": 0.5402369161514166,
+   "q_inf_ratio": 0.5645918447414021
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 89,
+   "eta_ratio": 0.9975733352601119,
+   "q_inf_ratio": 0.9952124278586354
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 90,
+   "eta_ratio": 0.21821123309130172,
+   "q_inf_ratio": 0.2679147355814978
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 91,
+   "eta_ratio": 0.9094589174831189,
+   "q_inf_ratio": 0.8968661559980108
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 92,
+   "eta_ratio": 0.02274950060929024,
+   "q_inf_ratio": 0.1610820942209523
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 93,
+   "eta_ratio": 0.9979013102899696,
+   "q_inf_ratio": 0.9953471259559061
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 94,
+   "eta_ratio": 0.6548557852840247,
+   "q_inf_ratio": 0.677027181606026
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 95,
+   "eta_ratio": 0.782780450313362,
+   "q_inf_ratio": 0.7999948343298672
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 96,
+   "eta_ratio": 0.9377150750585354,
+   "q_inf_ratio": 0.9261813695080011
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 97,
+   "eta_ratio": 0.21484421164398973,
+   "q_inf_ratio": 0.3589085740167225
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 98,
+   "eta_ratio": 0.31273531872680627,
+   "q_inf_ratio": 0.34923581929548464
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 99,
+   "eta_ratio": 0.9868190640710096,
+   "q_inf_ratio": 0.9795056811018521
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 0,
+   "eta_ratio": 0.5675562925561111,
+   "q_inf_ratio": 0.5852420494479169
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 1,
+   "eta_ratio": 0.9996988698503145,
+   "q_inf_ratio": 0.9986410832610835
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 2,
+   "eta_ratio": 0.9999835527287368,
+   "q_inf_ratio": 0.9998314474670567
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 3,
+   "eta_ratio": 0.8958743045230992,
+   "q_inf_ratio": 0.8888475187758096
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 4,
+   "eta_ratio": 0.9452567535804316,
+   "q_inf_ratio": 0.9373311422985453
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 5,
+   "eta_ratio": 0.9192472619374761,
+   "q_inf_ratio": 0.9066062780058558
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 6,
+   "eta_ratio": 0.994307537306703,
+   "q_inf_ratio": 0.9893977398970849
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 7,
+   "eta_ratio": 0.9998113434165059,
+   "q_inf_ratio": 0.9990709674045771
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 8,
+   "eta_ratio": 0.9291342495270279,
+   "q_inf_ratio": 0.9173034391107537
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 9,
+   "eta_ratio": 0.9999891482220521,
+   "q_inf_ratio": 0.9997691611454403
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 10,
+   "eta_ratio": 0.999172443706532,
+   "q_inf_ratio": 0.999001003215148
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 11,
+   "eta_ratio": 0.5583405716190161,
+   "q_inf_ratio": 0.5747305889595514
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 12,
+   "eta_ratio": 0.9661626601225384,
+   "q_inf_ratio": 0.9532313228457161
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 13,
+   "eta_ratio": 0.8020016727328133,
+   "q_inf_ratio": 0.7872783634491362
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 14,
+   "eta_ratio": 0.978898183810738,
+   "q_inf_ratio": 0.9678728474818586
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 15,
+   "eta_ratio": 0.9861897543602005,
+   "q_inf_ratio": 0.9848625041544758
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 16,
+   "eta_ratio": 0.4713026671639315,
+   "q_inf_ratio": 0.4812226618713995
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 17,
+   "eta_ratio": 0.9965390089845434,
+   "q_inf_ratio": 0.993049603295339
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 18,
+   "eta_ratio": 0.9934652054348375,
+   "q_inf_ratio": 0.9879103365466582
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 19,
+   "eta_ratio": 0.9999883821049983,
+   "q_inf_ratio": 0.99980988853796
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 20,
+   "eta_ratio": 0.9999776352139546,
+   "q_inf_ratio": 0.9997781699934886
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 21,
+   "eta_ratio": 0.8150823637126285,
+   "q_inf_ratio": 0.795190608718854
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 22,
+   "eta_ratio": 0.7472327479111515,
+   "q_inf_ratio": 0.7356545422412213
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 23,
+   "eta_ratio": 0.9998001091918338,
+   "q_inf_ratio": 0.9990040959998349
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 24,
+   "eta_ratio": 0.995710524074238,
+   "q_inf_ratio": 0.9916426286575879
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 25,
+   "eta_ratio": 0.8803546999977899,
+   "q_inf_ratio": 0.8737226222128093
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 26,
+   "eta_ratio": 0.9971129998335647,
+   "q_inf_ratio": 0.9918046440732922
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 27,
+   "eta_ratio": 0.549493988289832,
+   "q_inf_ratio": 0.540820326616687
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 28,
+   "eta_ratio": 0.9767336592478604,
+   "q_inf_ratio": 0.9668949774637272
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 29,
+   "eta_ratio": 0.9999135723437796,
+   "q_inf_ratio": 0.9994712464319001
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 30,
+   "eta_ratio": 0.9999863149228719,
+   "q_inf_ratio": 0.9998515766220709
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 31,
+   "eta_ratio": 0.9997135155852013,
+   "q_inf_ratio": 0.9984484710642368
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 32,
+   "eta_ratio": 0.9998931302562096,
+   "q_inf_ratio": 0.9993501273666708
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 33,
+   "eta_ratio": 0.9873521994869412,
+   "q_inf_ratio": 0.9795226244500647
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 34,
+   "eta_ratio": 0.9395082143702934,
+   "q_inf_ratio": 0.9238603205457265
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 35,
+   "eta_ratio": 0.9117494526248723,
+   "q_inf_ratio": 0.9018486106771579
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 36,
+   "eta_ratio": 0.9999813761708148,
+   "q_inf_ratio": 0.9998984041944445
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 37,
+   "eta_ratio": 0.668059645031149,
+   "q_inf_ratio": 0.6685088960897881
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 38,
+   "eta_ratio": 0.9940724767755237,
+   "q_inf_ratio": 0.9893335742869654
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 39,
+   "eta_ratio": 0.939937526978065,
+   "q_inf_ratio": 0.9312549893371729
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 40,
+   "eta_ratio": 0.9643988296770413,
+   "q_inf_ratio": 0.946368169669247
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 41,
+   "eta_ratio": 0.9998128302488754,
+   "q_inf_ratio": 0.9997580268161436
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 42,
+   "eta_ratio": 0.9998643705712599,
+   "q_inf_ratio": 0.9994242159514282
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 43,
+   "eta_ratio": 0.7524299557839215,
+   "q_inf_ratio": 0.7488317796566126
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 44,
+   "eta_ratio": 0.6457743991233412,
+   "q_inf_ratio": 0.6457650483911475
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 45,
+   "eta_ratio": 0.5985347686785125,
+   "q_inf_ratio": 0.5987953286052193
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 46,
+   "eta_ratio": 0.5893304149373144,
+   "q_inf_ratio": 0.6563343254648981
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 47,
+   "eta_ratio": 0.9957166335407948,
+   "q_inf_ratio": 0.9901017139630871
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 48,
+   "eta_ratio": 0.9266049120841614,
+   "q_inf_ratio": 0.9087997133143848
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 49,
+   "eta_ratio": 0.9999527679726207,
+   "q_inf_ratio": 0.9995875919056892
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 50,
+   "eta_ratio": 0.9999212876783204,
+   "q_inf_ratio": 0.9993788364454097
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 51,
+   "eta_ratio": 0.9923029612577505,
+   "q_inf_ratio": 0.9869835051856574
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 52,
+   "eta_ratio": 0.8335280192743614,
+   "q_inf_ratio": 0.8083641691781939
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 53,
+   "eta_ratio": 0.9999831093559717,
+   "q_inf_ratio": 0.9997956372062234
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 54,
+   "eta_ratio": 0.9457241844972905,
+   "q_inf_ratio": 0.932416377181863
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 55,
+   "eta_ratio": 0.8344443556098184,
+   "q_inf_ratio": 0.8226020187354928
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 56,
+   "eta_ratio": 0.9999968766539729,
+   "q_inf_ratio": 0.9998133707576504
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 57,
+   "eta_ratio": 0.8594743345277785,
+   "q_inf_ratio": 0.8479136655042104
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 58,
+   "eta_ratio": 0.9688023049336405,
+   "q_inf_ratio": 0.9528080011586424
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 59,
+   "eta_ratio": 0.9999620612809392,
+   "q_inf_ratio": 0.9995474308311693
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 60,
+   "eta_ratio": 0.9999473275716395,
+   "q_inf_ratio": 0.9996189062151976
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 61,
+   "eta_ratio": 0.4964292646574517,
+   "q_inf_ratio": 0.5085782117048561
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 62,
+   "eta_ratio": 0.9999950352977128,
+   "q_inf_ratio": 0.9997492277783778
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 63,
+   "eta_ratio": 0.9062139470104371,
+   "q_inf_ratio": 0.8962619755700915
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 64,
+   "eta_ratio": 0.9998887893617772,
+   "q_inf_ratio": 0.9993643852995868
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 65,
+   "eta_ratio": 0.9999302561658293,
+   "q_inf_ratio": 0.9994993825437671
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 66,
+   "eta_ratio": 0.9992038622858491,
+   "q_inf_ratio": 0.9972243461278754
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 67,
+   "eta_ratio": 0.8955556124629336,
+   "q_inf_ratio": 0.8767797705940349
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 68,
+   "eta_ratio": 0.8855301645656874,
+   "q_inf_ratio": 0.8759972760412222
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 69,
+   "eta_ratio": 0.9019673807073499,
+   "q_inf_ratio": 0.8892660485250664
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 70,
+   "eta_ratio": 0.9999956873743383,
+   "q_inf_ratio": 0.9998549890781191
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 71,
+   "eta_ratio": 0.9430752258810563,
+   "q_inf_ratio": 0.9351099478865846
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 72,
+   "eta_ratio": 0.7904040461633459,
+   "q_inf_ratio": 0.7819814949710582
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 73,
+   "eta_ratio": 0.9958227969894692,
+   "q_inf_ratio": 0.9911688832285522
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 74,
+   "eta_ratio": 0.6147109136685427,
+   "q_inf_ratio": 0.6223579979608396
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 75,
+   "eta_ratio": 0.7318695721370708,
+   "q_inf_ratio": 0.7070815200158218
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 76,
+   "eta_ratio": 0.9571562189363053,
+   "q_inf_ratio": 0.948969400777503
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 77,
+   "eta_ratio": 0.9999941957747859,
+   "q_inf_ratio": 0.9997608999957538
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 78,
+   "eta_ratio": 0.999979913966001,
+   "q_inf_ratio": 0.9997759120807174
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 79,
+   "eta_ratio": 0.8613229925302652,
+   "q_inf_ratio": 0.8497399200743284
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 80,
+   "eta_ratio": 0.9931738163871616,
+   "q_inf_ratio": 0.9870087599248869
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 81,
+   "eta_ratio": 0.9956516937438373,
+   "q_inf_ratio": 0.9912760663799165
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 82,
+   "eta_ratio": 0.5256500515977002,
+   "q_inf_ratio": 0.5105423294723277
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 83,
+   "eta_ratio": 0.9995617969181305,
+   "q_inf_ratio": 0.9984248909097178
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 84,
+   "eta_ratio": 0.9965995380684104,
+   "q_inf_ratio": 0.9927424233938491
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 85,
+   "eta_ratio": 0.9998029857107608,
+   "q_inf_ratio": 0.9990931595147184
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 86,
+   "eta_ratio": 0.6434498028292135,
+   "q_inf_ratio": 0.6298100358383748
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 87,
+   "eta_ratio": 0.9988953806741024,
+   "q_inf_ratio": 0.997734055657049
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 88,
+   "eta_ratio": 0.9994323787871734,
+   "q_inf_ratio": 0.9992828948950656
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 89,
+   "eta_ratio": 0.9999911908601042,
+   "q_inf_ratio": 0.9997270472701324
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 90,
+   "eta_ratio": 0.6045697655794992,
+   "q_inf_ratio": 0.6225650624745056
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 91,
+   "eta_ratio": 0.9999816238350145,
+   "q_inf_ratio": 0.9996826141795428
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 92,
+   "eta_ratio": 0.975783913067875,
+   "q_inf_ratio": 0.9651321518736209
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 93,
+   "eta_ratio": 0.6811311894849412,
+   "q_inf_ratio": 0.6600659901332472
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 94,
+   "eta_ratio": 0.999974979607886,
+   "q_inf_ratio": 0.9997604155415408
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 95,
+   "eta_ratio": 0.9999827884181745,
+   "q_inf_ratio": 0.9996922959822833
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 96,
+   "eta_ratio": 0.9601111798913221,
+   "q_inf_ratio": 0.9463715190845211
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 97,
+   "eta_ratio": 0.9089761482671623,
+   "q_inf_ratio": 0.8931712729064205
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 98,
+   "eta_ratio": 0.9997066518805916,
+   "q_inf_ratio": 0.9988963201494943
+  },
+  {
+   "laser": "sech",
+   "A": 4.0,
+   "family": "split",
+   "trial": 99,
+   "eta_ratio": 0.8807734438928504,
+   "q_inf_ratio": 0.8700393958704992
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 0,
+   "eta_ratio": 0.42813507543652546,
+   "q_inf_ratio": 0.6156494673004399
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 1,
+   "eta_ratio": 0.6868378902946899,
+   "q_inf_ratio": 0.6541870567418399
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 2,
+   "eta_ratio": 0.5331293869645686,
+   "q_inf_ratio": 0.6144754942211851
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 3,
+   "eta_ratio": 0.4787456516221119,
+   "q_inf_ratio": 0.6016877546514278
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 4,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 5,
+   "eta_ratio": 0.9996109685880425,
+   "q_inf_ratio": 0.9989258960492461
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 6,
+   "eta_ratio": 0.9999999999999998,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 7,
+   "eta_ratio": 0.9988285317421979,
+   "q_inf_ratio": 0.9970954345442045
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 8,
+   "eta_ratio": 1.0,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 9,
+   "eta_ratio": 0.9939795856971841,
+   "q_inf_ratio": 0.9890291742553813
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 10,
+   "eta_ratio": 0.9974173182763532,
+   "q_inf_ratio": 0.9946616150348166
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 11,
+   "eta_ratio": 0.9999999999999998,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 12,
+   "eta_ratio": 0.7786747006469061,
+   "q_inf_ratio": 0.7247163392590634
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 13,
+   "eta_ratio": 0.9989640200456038,
+   "q_inf_ratio": 0.9975391746517412
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 14,
+   "eta_ratio": 0.9733967996589935,
+   "q_inf_ratio": 0.9605183927644222
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 15,
+   "eta_ratio": 0.6858908497715217,
+   "q_inf_ratio": 0.6571085242383279
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 16,
+   "eta_ratio": 0.9963735002169055,
+   "q_inf_ratio": 0.9939238191130281
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 17,
+   "eta_ratio": 0.4729496382803639,
+   "q_inf_ratio": 0.48419692186787294
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 18,
+   "eta_ratio": 0.9868951932143978,
+   "q_inf_ratio": 0.9786298258315721
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 19,
+   "eta_ratio": 0.7458320959835242,
+   "q_inf_ratio": 0.6874666262836797
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 20,
+   "eta_ratio": 0.8547289227181879,
+   "q_inf_ratio": 0.8172657623699561
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 21,
+   "eta_ratio": 0.8531322755816787,
+   "q_inf_ratio": 0.8121008271481417
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 22,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 23,
+   "eta_ratio": 0.7788291596161778,
+   "q_inf_ratio": 0.7266326528105037
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 24,
+   "eta_ratio": 0.5860738931718736,
+   "q_inf_ratio": 0.5591735959764117
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 25,
+   "eta_ratio": 0.8551043195780066,
+   "q_inf_ratio": 0.8192828476106783
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 26,
+   "eta_ratio": 0.9999999999999997,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 27,
+   "eta_ratio": 0.5902547660249774,
+   "q_inf_ratio": 0.6236281002766634
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 28,
+   "eta_ratio": 0.9974037418083332,
+   "q_inf_ratio": 0.9945974871541972
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 29,
+   "eta_ratio": 1.0,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 30,
+   "eta_ratio": 0.47354982857156097,
+   "q_inf_ratio": 0.5651865731323695
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 31,
+   "eta_ratio": 0.9989193979834544,
+   "q_inf_ratio": 0.9973657249083719
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 32,
+   "eta_ratio": 0.5345563804622107,
+   "q_inf_ratio": 0.6255145163134985
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 33,
+   "eta_ratio": 0.9041661060244252,
+   "q_inf_ratio": 0.8742596047368266
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 34,
+   "eta_ratio": 0.9989640200456046,
+   "q_inf_ratio": 0.9975391746517412
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 35,
+   "eta_ratio": 0.6868959447856745,
+   "q_inf_ratio": 0.6554757350578051
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 36,
+   "eta_ratio": 0.7788310300268367,
+   "q_inf_ratio": 0.7268061025538728
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 37,
+   "eta_ratio": 0.9597237821705226,
+   "q_inf_ratio": 0.9424069596972721
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 38,
+   "eta_ratio": 0.7303120156082815,
+   "q_inf_ratio": 0.7902870297826873
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 39,
+   "eta_ratio": 0.9998180555282415,
+   "q_inf_ratio": 0.9993828101490942
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 40,
+   "eta_ratio": 0.9989640200456046,
+   "q_inf_ratio": 0.9975391746517412
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 41,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 42,
+   "eta_ratio": 0.9999860269556918,
+   "q_inf_ratio": 0.9999358721193806
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 43,
+   "eta_ratio": 0.47563245648553726,
+   "q_inf_ratio": 0.5803175804829998
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 44,
+   "eta_ratio": 0.9113850057609079,
+   "q_inf_ratio": 0.8847230810412553
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 45,
+   "eta_ratio": 0.6877251356763338,
+   "q_inf_ratio": 0.6378722487168712
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 46,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 47,
+   "eta_ratio": 0.7303396560062602,
+   "q_inf_ratio": 0.807182440413
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 48,
+   "eta_ratio": 0.6867374007850293,
+   "q_inf_ratio": 0.6517873624388882
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 49,
+   "eta_ratio": 0.6868378902946899,
+   "q_inf_ratio": 0.6541870567418399
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 50,
+   "eta_ratio": 0.9113787956413005,
+   "q_inf_ratio": 0.884658953160636
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 51,
+   "eta_ratio": 0.4109989874274011,
+   "q_inf_ratio": 0.4770118182556189
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 52,
+   "eta_ratio": 0.8546884977738523,
+   "q_inf_ratio": 0.8168220222624195
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 53,
+   "eta_ratio": 0.9996559087588807,
+   "q_inf_ratio": 0.9990993457926152
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 54,
+   "eta_ratio": 0.9974173182763534,
+   "q_inf_ratio": 0.9946616150348166
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 55,
+   "eta_ratio": 0.9868951932143976,
+   "q_inf_ratio": 0.9786298258315721
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 56,
+   "eta_ratio": 0.5969005945800134,
+   "q_inf_ratio": 0.5544204587173023
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 57,
+   "eta_ratio": 0.6401791134862203,
+   "q_inf_ratio": 0.707588762255884
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 58,
+   "eta_ratio": 0.9996109685880439,
+   "q_inf_ratio": 0.9989258960492459
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 59,
+   "eta_ratio": 0.5804178259322539,
+   "q_inf_ratio": 0.6372837053211863
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 60,
+   "eta_ratio": 0.680926695216073,
+   "q_inf_ratio": 0.6529770620406438
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 61,
+   "eta_ratio": 0.90045675628556,
+   "q_inf_ratio": 0.863288778992208
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 62,
+   "eta_ratio": 1.0,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 63,
+   "eta_ratio": 0.5547631044102949,
+   "q_inf_ratio": 0.6324766483448035
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 64,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 65,
+   "eta_ratio": 0.5891913013605834,
+   "q_inf_ratio": 0.6206914904453976
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 66,
+   "eta_ratio": 0.9999999999999997,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 67,
+   "eta_ratio": 0.5186954731009078,
+   "q_inf_ratio": 0.5728207349223722
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 68,
+   "eta_ratio": 0.9996248581432002,
+   "q_inf_ratio": 0.9989900239298654
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 69,
+   "eta_ratio": 0.7786747006469058,
+   "q_inf_ratio": 0.7247163392590634
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 70,
+   "eta_ratio": 0.9989640200456047,
+   "q_inf_ratio": 0.9975391746517412
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 71,
+   "eta_ratio": 0.9496817929541383,
+   "q_inf_ratio": 0.9307649865100456
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 72,
+   "eta_ratio": 0.4393380029863808,
+   "q_inf_ratio": 0.46635652185993504
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 73,
+   "eta_ratio": 0.7835644718251344,
+   "q_inf_ratio": 0.7124714779783119
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 74,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 75,
+   "eta_ratio": 0.9943510241934025,
+   "q_inf_ratio": 0.9901032782061354
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 76,
+   "eta_ratio": 0.4790513178490757,
+   "q_inf_ratio": 0.48546192112667147
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 77,
+   "eta_ratio": 0.7343714527541929,
+   "q_inf_ratio": 0.7965955469354364
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 78,
+   "eta_ratio": 0.8669111845854839,
+   "q_inf_ratio": 0.8468506478116694
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 79,
+   "eta_ratio": 1.000000000000001,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 80,
+   "eta_ratio": 0.7786742816412294,
+   "q_inf_ratio": 0.7246777835017525
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 81,
+   "eta_ratio": 0.7660763376775906,
+   "q_inf_ratio": 0.7862302231064054
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 82,
+   "eta_ratio": 0.8509812538926622,
+   "q_inf_ratio": 0.8087557619735962
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 83,
+   "eta_ratio": 0.4867363045006346,
+   "q_inf_ratio": 0.504838102715223
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 84,
+   "eta_ratio": 0.9496817929541381,
+   "q_inf_ratio": 0.9307649865100456
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 85,
+   "eta_ratio": 0.9999548413057748,
+   "q_inf_ratio": 0.9998265502566309
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 86,
+   "eta_ratio": 0.5969814764961914,
+   "q_inf_ratio": 0.6403205454752589
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 87,
+   "eta_ratio": 0.9799022882318774,
+   "q_inf_ratio": 0.9707442914448622
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 88,
+   "eta_ratio": 0.48402984326134757,
+   "q_inf_ratio": 0.5276516573204426
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 89,
+   "eta_ratio": 0.6868378902946899,
+   "q_inf_ratio": 0.6541870567418399
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 90,
+   "eta_ratio": 0.6868378902946898,
+   "q_inf_ratio": 0.6541870567418399
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 91,
+   "eta_ratio": 0.7099392611170982,
+   "q_inf_ratio": 0.6573838736036606
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 92,
+   "eta_ratio": 0.43249451388252125,
+   "q_inf_ratio": 0.4644793529726899
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 93,
+   "eta_ratio": 0.9867687281793733,
+   "q_inf_ratio": 0.9781860857240354
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 94,
+   "eta_ratio": 1.0000000000000007,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 95,
+   "eta_ratio": 0.6505707116168571,
+   "q_inf_ratio": 0.7026387695748855
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 96,
+   "eta_ratio": 0.7205645406381288,
+   "q_inf_ratio": 0.65211973138835
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 97,
+   "eta_ratio": 0.4277756243715142,
+   "q_inf_ratio": 0.45616829230079475
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 98,
+   "eta_ratio": 0.5274674486010943,
+   "q_inf_ratio": 0.6160113746138144
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "binary",
+   "trial": 99,
+   "eta_ratio": 0.9306998553719825,
+   "q_inf_ratio": 0.9326068092093202
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 0,
+   "eta_ratio": 0.5335725260319278,
+   "q_inf_ratio": 0.5472312175487929
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 1,
+   "eta_ratio": 0.9869927713002462,
+   "q_inf_ratio": 0.9826757275199861
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 2,
+   "eta_ratio": 0.8636618183635336,
+   "q_inf_ratio": 0.8926489566452297
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 3,
+   "eta_ratio": 0.8075633043347924,
+   "q_inf_ratio": 0.7982625028976491
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 4,
+   "eta_ratio": 0.7642271193815802,
+   "q_inf_ratio": 0.7637512050978662
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 5,
+   "eta_ratio": 0.22826865853210765,
+   "q_inf_ratio": 0.27763402405240983
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 6,
+   "eta_ratio": 0.5738854198991667,
+   "q_inf_ratio": 0.580585460682045
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 7,
+   "eta_ratio": 0.9976051097898136,
+   "q_inf_ratio": 0.9969112815281328
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 8,
+   "eta_ratio": 0.337431601669163,
+   "q_inf_ratio": 0.4920825101011104
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 9,
+   "eta_ratio": 0.9964504499852099,
+   "q_inf_ratio": 0.9963269439924837
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 10,
+   "eta_ratio": 0.8101191508804335,
+   "q_inf_ratio": 0.8013920425741706
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 11,
+   "eta_ratio": 0.026696680215464254,
+   "q_inf_ratio": 0.25592881063249645
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 12,
+   "eta_ratio": 0.9777477202083797,
+   "q_inf_ratio": 0.9703681417572749
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 13,
+   "eta_ratio": 0.9630715053336041,
+   "q_inf_ratio": 0.9508565452486059
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 14,
+   "eta_ratio": 0.8572030113239087,
+   "q_inf_ratio": 0.868442770768792
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 15,
+   "eta_ratio": 0.10270528963353427,
+   "q_inf_ratio": 0.15858776285627496
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 16,
+   "eta_ratio": 0.8378318797566154,
+   "q_inf_ratio": 0.8224962871841673
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 17,
+   "eta_ratio": 0.5338834883221252,
+   "q_inf_ratio": 0.5478240847771356
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 18,
+   "eta_ratio": 0.323259459097481,
+   "q_inf_ratio": 0.3753510651238836
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 19,
+   "eta_ratio": 0.9910231505894496,
+   "q_inf_ratio": 0.9856015488338179
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 20,
+   "eta_ratio": 0.33489919610710467,
+   "q_inf_ratio": 0.4556356048626046
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 21,
+   "eta_ratio": 0.8264924626059728,
+   "q_inf_ratio": 0.8334089557455265
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 22,
+   "eta_ratio": 0.38389091047196605,
+   "q_inf_ratio": 0.4805167152558722
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 23,
+   "eta_ratio": 0.23053116869470985,
+   "q_inf_ratio": 0.36234344572782673
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 24,
+   "eta_ratio": 0.9508112015633058,
+   "q_inf_ratio": 0.9360992346164476
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 25,
+   "eta_ratio": 0.972402803459965,
+   "q_inf_ratio": 0.9644438318299294
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 26,
+   "eta_ratio": 0.9948755090812746,
+   "q_inf_ratio": 0.9935979474560844
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 27,
+   "eta_ratio": -1.9049052564088172e-06,
+   "q_inf_ratio": 0.14314759314807834
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 28,
+   "eta_ratio": 0.14813311625910722,
+   "q_inf_ratio": 0.2807956633549787
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 29,
+   "eta_ratio": 0.9192698436961018,
+   "q_inf_ratio": 0.9074558768622804
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 30,
+   "eta_ratio": 0.9967649470574258,
+   "q_inf_ratio": 0.9942431575245466
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 31,
+   "eta_ratio": 0.5391277046596906,
+   "q_inf_ratio": 0.5809076252926878
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 32,
+   "eta_ratio": 0.7461606636779553,
+   "q_inf_ratio": 0.7696194251117476
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 33,
+   "eta_ratio": 0.8717808402081169,
+   "q_inf_ratio": 0.905236536265448
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 34,
+   "eta_ratio": 0.8083084378872233,
+   "q_inf_ratio": 0.7995721512789734
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 35,
+   "eta_ratio": 0.986035121521172,
+   "q_inf_ratio": 0.979788771117088
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 36,
+   "eta_ratio": 0.9972142593162237,
+   "q_inf_ratio": 0.9957076934728253
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 38,
+   "eta_ratio": 0.994408749437449,
+   "q_inf_ratio": 0.994117966171271
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 39,
+   "eta_ratio": 0.8824395144333788,
+   "q_inf_ratio": 0.8804398220539733
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 40,
+   "eta_ratio": 0.8579690899210615,
+   "q_inf_ratio": 0.8944903935515165
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 41,
+   "eta_ratio": 0.7497057728571058,
+   "q_inf_ratio": 0.7762138653110408
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 42,
+   "eta_ratio": 0.5921599845845149,
+   "q_inf_ratio": 0.7127497949614544
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 43,
+   "eta_ratio": 0.22843941350955976,
+   "q_inf_ratio": 0.30385333133102604
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 44,
+   "eta_ratio": 0.8715820141010285,
+   "q_inf_ratio": 0.9049958970685125
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 45,
+   "eta_ratio": 0.8114786420949208,
+   "q_inf_ratio": 0.8062413427446762
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 46,
+   "eta_ratio": 0.9946280205760096,
+   "q_inf_ratio": 0.9934437542197928
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 47,
+   "eta_ratio": 0.9205226078006125,
+   "q_inf_ratio": 0.9093373829390216
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 48,
+   "eta_ratio": 0.7124717194274675,
+   "q_inf_ratio": 0.7522230491193973
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 49,
+   "eta_ratio": 0.10396509796121142,
+   "q_inf_ratio": 0.12490443852609047
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 50,
+   "eta_ratio": 0.91698857286566,
+   "q_inf_ratio": 0.9054064699755521
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 51,
+   "eta_ratio": 0.15026638466679676,
+   "q_inf_ratio": 0.3356332285490091
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 52,
+   "eta_ratio": 0.9601391166550606,
+   "q_inf_ratio": 0.9560628644489214
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 53,
+   "eta_ratio": -0.03243212555969066,
+   "q_inf_ratio": 0.1710902329898292
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 54,
+   "eta_ratio": 0.32322604733053484,
+   "q_inf_ratio": 0.35845340463985126
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 55,
+   "eta_ratio": 0.8806258472216677,
+   "q_inf_ratio": 0.8763793720578578
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 56,
+   "eta_ratio": 0.6101713635118733,
+   "q_inf_ratio": 0.6394170920776522
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 57,
+   "eta_ratio": 0.37281678127598805,
+   "q_inf_ratio": 0.5078463698557559
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 58,
+   "eta_ratio": 0.000688875672353407,
+   "q_inf_ratio": 0.27489538205419733
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 59,
+   "eta_ratio": -1.1955377926648353e-05,
+   "q_inf_ratio": 0.11042189118644304
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 60,
+   "eta_ratio": 0.724696174872482,
+   "q_inf_ratio": 0.7449511251045235
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 61,
+   "eta_ratio": 0.10257935768900353,
+   "q_inf_ratio": 0.14747641404533698
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 62,
+   "eta_ratio": 0.5340031563413741,
+   "q_inf_ratio": 0.5571527917626807
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 63,
+   "eta_ratio": 0.9964079598718645,
+   "q_inf_ratio": 0.9963614717367016
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 64,
+   "eta_ratio": 0.2339267205217906,
+   "q_inf_ratio": 0.3979519716001351
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 65,
+   "eta_ratio": 0.9765428706526227,
+   "q_inf_ratio": 0.975239598928002
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 66,
+   "eta_ratio": 0.9410902737400355,
+   "q_inf_ratio": 0.9284133132766769
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 67,
+   "eta_ratio": 0.29206376920006566,
+   "q_inf_ratio": 0.2770455206801488
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 68,
+   "eta_ratio": 0.9942758755738619,
+   "q_inf_ratio": 0.993133711685472
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 69,
+   "eta_ratio": 0.6463551872151521,
+   "q_inf_ratio": 0.6752759491395132
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 70,
+   "eta_ratio": 0.9232601158984746,
+   "q_inf_ratio": 0.9156614987056657
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 71,
+   "eta_ratio": 0.7444865477301522,
+   "q_inf_ratio": 0.7619829071228015
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 72,
+   "eta_ratio": 0.14836659416411418,
+   "q_inf_ratio": 0.2892293352181434
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 73,
+   "eta_ratio": 0.4527265204672322,
+   "q_inf_ratio": 0.6196031802786798
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 74,
+   "eta_ratio": 0.5468025351747701,
+   "q_inf_ratio": 0.6052260804696282
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 75,
+   "eta_ratio": 0.6374661642912457,
+   "q_inf_ratio": 0.6417420486376483
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 76,
+   "eta_ratio": 0.8630370047346916,
+   "q_inf_ratio": 0.8925459467677328
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 77,
+   "eta_ratio": 0.8752083048011804,
+   "q_inf_ratio": 0.8672423111760582
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 78,
+   "eta_ratio": 0.4284536751065661,
+   "q_inf_ratio": 0.4711150445195655
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 79,
+   "eta_ratio": 0.24954916797777157,
+   "q_inf_ratio": 0.5422537609709673
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 80,
+   "eta_ratio": 0.5170598020183651,
+   "q_inf_ratio": 0.6480908970341979
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 81,
+   "eta_ratio": 0.7538334887720274,
+   "q_inf_ratio": 0.7737669388599197
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 82,
+   "eta_ratio": 0.9715542086219031,
+   "q_inf_ratio": 0.9633025307384332
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 83,
+   "eta_ratio": 0.102068822663443,
+   "q_inf_ratio": 0.23331951160820638
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 84,
+   "eta_ratio": 0.8796475959290656,
+   "q_inf_ratio": 0.8702036595863406
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 85,
+   "eta_ratio": 0.15278642870836248,
+   "q_inf_ratio": 0.33201734150324674
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 86,
+   "eta_ratio": 0.7554711417451108,
+   "q_inf_ratio": 0.7777783138312903
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 87,
+   "eta_ratio": -0.010611444941484659,
+   "q_inf_ratio": 0.1950825965019156
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 88,
+   "eta_ratio": 0.54530608768456,
+   "q_inf_ratio": 0.6017356832420341
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 89,
+   "eta_ratio": 0.9986438487681032,
+   "q_inf_ratio": 0.9977096145791422
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 90,
+   "eta_ratio": 0.4618331019812571,
+   "q_inf_ratio": 0.5540428133064522
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 91,
+   "eta_ratio": 0.7319630310650405,
+   "q_inf_ratio": 0.7326144020879277
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 92,
+   "eta_ratio": 0.22706072108798986,
+   "q_inf_ratio": 0.2961162431244757
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 93,
+   "eta_ratio": 0.9920652158937511,
+   "q_inf_ratio": 0.9879662924051491
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 94,
+   "eta_ratio": 0.9871188663058835,
+   "q_inf_ratio": 0.9845149233335447
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 95,
+   "eta_ratio": 0.6444229161085355,
+   "q_inf_ratio": 0.6988105251453636
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 96,
+   "eta_ratio": 0.7303901839489023,
+   "q_inf_ratio": 0.7267730201827418
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 97,
+   "eta_ratio": 0.10408529894483882,
+   "q_inf_ratio": 0.2191930770725727
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 98,
+   "eta_ratio": 0.7268612788045206,
+   "q_inf_ratio": 0.7222805750646696
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "holes",
+   "trial": 99,
+   "eta_ratio": 0.2288203692849304,
+   "q_inf_ratio": 0.3150370165242955
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 0,
+   "eta_ratio": 0.9813235184396951,
+   "q_inf_ratio": 0.9731192233721465
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 1,
+   "eta_ratio": 0.5161086119167085,
+   "q_inf_ratio": 0.5501014563225383
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 2,
+   "eta_ratio": 0.9999411779511107,
+   "q_inf_ratio": 0.9997411356340015
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 3,
+   "eta_ratio": 0.7298757341560785,
+   "q_inf_ratio": 0.7308191015071303
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 4,
+   "eta_ratio": 0.6894150505223351,
+   "q_inf_ratio": 0.6829926312831258
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 5,
+   "eta_ratio": 0.9718765405610962,
+   "q_inf_ratio": 0.9617337683937147
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 6,
+   "eta_ratio": 0.9999000894267093,
+   "q_inf_ratio": 0.9994604390225454
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 7,
+   "eta_ratio": 0.4847129287942284,
+   "q_inf_ratio": 0.5010156949077237
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 8,
+   "eta_ratio": 0.9961735309382818,
+   "q_inf_ratio": 0.9933739802986724
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 9,
+   "eta_ratio": 0.9999893698803125,
+   "q_inf_ratio": 0.9999381588863835
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 10,
+   "eta_ratio": 0.9968852181721819,
+   "q_inf_ratio": 0.9942022013260708
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 11,
+   "eta_ratio": 0.9943623993766557,
+   "q_inf_ratio": 0.9908194525939628
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 12,
+   "eta_ratio": 0.8107373012443687,
+   "q_inf_ratio": 0.8007028446000016
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 13,
+   "eta_ratio": 0.8380184300627279,
+   "q_inf_ratio": 0.8372412368989309
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 14,
+   "eta_ratio": 0.9744595798816128,
+   "q_inf_ratio": 0.9622923106978344
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 15,
+   "eta_ratio": 0.9999730148364151,
+   "q_inf_ratio": 0.9998374600545324
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 16,
+   "eta_ratio": 0.9814322387534201,
+   "q_inf_ratio": 0.9731154310174773
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 17,
+   "eta_ratio": 0.9630834888674252,
+   "q_inf_ratio": 0.9528294041895154
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 18,
+   "eta_ratio": 0.9995006950338429,
+   "q_inf_ratio": 0.9990539524969885
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 19,
+   "eta_ratio": 0.9876699354260131,
+   "q_inf_ratio": 0.9817805152449798
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 20,
+   "eta_ratio": 0.8334447134057672,
+   "q_inf_ratio": 0.8039267643533147
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 21,
+   "eta_ratio": 0.9970418538328729,
+   "q_inf_ratio": 0.9940310778985565
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 22,
+   "eta_ratio": 0.9293794894251312,
+   "q_inf_ratio": 0.9338335934375382
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 23,
+   "eta_ratio": 0.7326071109953256,
+   "q_inf_ratio": 0.7218682747313315
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 24,
+   "eta_ratio": 0.9804908979641994,
+   "q_inf_ratio": 0.9725389749314024
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 25,
+   "eta_ratio": 0.9883473899565557,
+   "q_inf_ratio": 0.9834248088185573
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 26,
+   "eta_ratio": 0.9978072205092003,
+   "q_inf_ratio": 0.995660724744714
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 27,
+   "eta_ratio": 0.9807287554664984,
+   "q_inf_ratio": 0.9767202367365412
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 28,
+   "eta_ratio": 0.8010124271538829,
+   "q_inf_ratio": 0.7860252130788391
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 29,
+   "eta_ratio": 0.9367983520878824,
+   "q_inf_ratio": 0.9257683563704878
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 30,
+   "eta_ratio": 0.7807296820098903,
+   "q_inf_ratio": 0.7740636026254081
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 31,
+   "eta_ratio": 0.8868579382043345,
+   "q_inf_ratio": 0.8730808592688679
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 32,
+   "eta_ratio": 0.9998641856729776,
+   "q_inf_ratio": 0.999284185459535
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 33,
+   "eta_ratio": 0.9270227748844986,
+   "q_inf_ratio": 0.9143376870207082
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 34,
+   "eta_ratio": 0.9089870698943529,
+   "q_inf_ratio": 0.8942145402694149
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 35,
+   "eta_ratio": 0.9726977435967171,
+   "q_inf_ratio": 0.9605948377953907
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 36,
+   "eta_ratio": 0.5169184747331103,
+   "q_inf_ratio": 0.5599650538792605
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 37,
+   "eta_ratio": 0.9905552135389704,
+   "q_inf_ratio": 0.9852278385339406
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 38,
+   "eta_ratio": 0.7955187602768252,
+   "q_inf_ratio": 0.7635348828725709
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 39,
+   "eta_ratio": 0.8979542438313807,
+   "q_inf_ratio": 0.8837852853676927
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 40,
+   "eta_ratio": 0.9643022096851525,
+   "q_inf_ratio": 0.9541480922544895
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 41,
+   "eta_ratio": 0.9365213050089097,
+   "q_inf_ratio": 0.9405648011491735
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 42,
+   "eta_ratio": 0.9988784778864518,
+   "q_inf_ratio": 0.9972520993839803
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 43,
+   "eta_ratio": 0.7131559876849329,
+   "q_inf_ratio": 0.6986590017331551
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 44,
+   "eta_ratio": 0.979675736793914,
+   "q_inf_ratio": 0.9755470154944779
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 45,
+   "eta_ratio": 0.9337617749125333,
+   "q_inf_ratio": 0.918160095805446
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 46,
+   "eta_ratio": 0.9987598240517226,
+   "q_inf_ratio": 0.9974133190586931
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 47,
+   "eta_ratio": 0.9533936377252148,
+   "q_inf_ratio": 0.9410070839933926
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 48,
+   "eta_ratio": 0.7413629427287474,
+   "q_inf_ratio": 0.7377269902971678
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 49,
+   "eta_ratio": 0.8923673778615482,
+   "q_inf_ratio": 0.8721446384555022
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 50,
+   "eta_ratio": 0.7586185813064062,
+   "q_inf_ratio": 0.7595239638717471
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 51,
+   "eta_ratio": 0.5467713133237099,
+   "q_inf_ratio": 0.5536989525191504
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 52,
+   "eta_ratio": 0.9998277116974238,
+   "q_inf_ratio": 0.999241056342238
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 53,
+   "eta_ratio": 0.8290068403498384,
+   "q_inf_ratio": 0.7990427289909804
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 54,
+   "eta_ratio": 0.988423480212427,
+   "q_inf_ratio": 0.9886385741127035
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 55,
+   "eta_ratio": 0.9526734323208165,
+   "q_inf_ratio": 0.9384339742559562
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 56,
+   "eta_ratio": 0.9137248567648388,
+   "q_inf_ratio": 0.918954173141756
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 57,
+   "eta_ratio": 0.999478394974174,
+   "q_inf_ratio": 0.9986477560708966
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 58,
+   "eta_ratio": 0.702762917522315,
+   "q_inf_ratio": 0.708555722450396
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 59,
+   "eta_ratio": 0.9999672282078577,
+   "q_inf_ratio": 0.9998831233936754
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 60,
+   "eta_ratio": 0.992106220233984,
+   "q_inf_ratio": 0.9870524636682868
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 61,
+   "eta_ratio": 0.9989495147601059,
+   "q_inf_ratio": 0.9976607959942781
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 62,
+   "eta_ratio": 0.9181691072129211,
+   "q_inf_ratio": 0.924907301202858
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 63,
+   "eta_ratio": 0.9715997040903478,
+   "q_inf_ratio": 0.9659484737211922
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 64,
+   "eta_ratio": 0.7860500345847098,
+   "q_inf_ratio": 0.779953148622007
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 65,
+   "eta_ratio": 0.9993948364168025,
+   "q_inf_ratio": 0.9987214692648667
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 66,
+   "eta_ratio": 0.9998977062520846,
+   "q_inf_ratio": 0.9994582139094703
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 67,
+   "eta_ratio": 0.6389652029344571,
+   "q_inf_ratio": 0.6709243214369569
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 68,
+   "eta_ratio": 0.7809112955818458,
+   "q_inf_ratio": 0.7801525856713157
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 69,
+   "eta_ratio": 0.6595852187111407,
+   "q_inf_ratio": 0.6064125627577054
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 70,
+   "eta_ratio": 0.999172843759865,
+   "q_inf_ratio": 0.9981262866644202
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 71,
+   "eta_ratio": 0.6364468581375322,
+   "q_inf_ratio": 0.6096580289413808
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 72,
+   "eta_ratio": 0.8580973593011673,
+   "q_inf_ratio": 0.8430640945382173
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 73,
+   "eta_ratio": 0.9742521141433743,
+   "q_inf_ratio": 0.9623968090110552
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 74,
+   "eta_ratio": 0.9955339836187319,
+   "q_inf_ratio": 0.993226766480979
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 75,
+   "eta_ratio": 0.6960788968001091,
+   "q_inf_ratio": 0.7221567672713799
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 76,
+   "eta_ratio": 0.9927158796947482,
+   "q_inf_ratio": 0.9917666922684115
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 77,
+   "eta_ratio": 0.9999671861699183,
+   "q_inf_ratio": 0.9996860407406287
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 78,
+   "eta_ratio": 0.9692459032366432,
+   "q_inf_ratio": 0.9592247909913455
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 79,
+   "eta_ratio": 0.7964319616467325,
+   "q_inf_ratio": 0.793667605630239
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 80,
+   "eta_ratio": 0.9999871477821693,
+   "q_inf_ratio": 0.99980840781766
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 81,
+   "eta_ratio": 0.863395581048115,
+   "q_inf_ratio": 0.8530703431751139
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 82,
+   "eta_ratio": 0.9775769612680422,
+   "q_inf_ratio": 0.9685496703735562
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 83,
+   "eta_ratio": 0.8901623544255729,
+   "q_inf_ratio": 0.8860152292899462
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 84,
+   "eta_ratio": 0.8488806574224885,
+   "q_inf_ratio": 0.8361205084886455
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 85,
+   "eta_ratio": 0.817157358192953,
+   "q_inf_ratio": 0.8124683041157618
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 86,
+   "eta_ratio": 0.9999183160978017,
+   "q_inf_ratio": 0.9997890448170668
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 87,
+   "eta_ratio": 0.9800476268225028,
+   "q_inf_ratio": 0.9724025295529762
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 88,
+   "eta_ratio": 0.6529955887920305,
+   "q_inf_ratio": 0.6587279301774543
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 89,
+   "eta_ratio": 0.9089141224735093,
+   "q_inf_ratio": 0.9130223225455517
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 90,
+   "eta_ratio": 0.9866708791678573,
+   "q_inf_ratio": 0.9811640389669704
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 91,
+   "eta_ratio": 0.9967055955524082,
+   "q_inf_ratio": 0.9937480486083984
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 92,
+   "eta_ratio": 0.7669778286811457,
+   "q_inf_ratio": 0.7629239920026207
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 93,
+   "eta_ratio": 0.9642790629159033,
+   "q_inf_ratio": 0.9527102104694173
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 94,
+   "eta_ratio": 0.484476874212205,
+   "q_inf_ratio": 0.5009209500284599
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 95,
+   "eta_ratio": 0.9878741716622419,
+   "q_inf_ratio": 0.9883263291203686
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 96,
+   "eta_ratio": 0.9841576597780081,
+   "q_inf_ratio": 0.9806550727752089
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 97,
+   "eta_ratio": 0.9740953314132473,
+   "q_inf_ratio": 0.9617603427198193
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 98,
+   "eta_ratio": 0.8636928512858763,
+   "q_inf_ratio": 0.8361730143716835
+  },
+  {
+   "laser": "gauss",
+   "A": 3.0,
+   "family": "split",
+   "trial": 99,
+   "eta_ratio": 0.9828676772317273,
+   "q_inf_ratio": 0.9759360939308701
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 0,
+   "eta_ratio": 0.828077991276237,
+   "q_inf_ratio": 0.8233771133351759
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 1,
+   "eta_ratio": 1.0000000000000002,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 2,
+   "eta_ratio": 0.7681839289049316,
+   "q_inf_ratio": 0.7245271580096484
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 3,
+   "eta_ratio": 0.6761949465016228,
+   "q_inf_ratio": 0.6441871458566842
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 4,
+   "eta_ratio": 0.9848832412341991,
+   "q_inf_ratio": 0.978629825831572
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 5,
+   "eta_ratio": 0.9047691415372775,
+   "q_inf_ratio": 0.8845948252800167
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 6,
+   "eta_ratio": 0.8905589851042408,
+   "q_inf_ratio": 0.8663740703501168
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 7,
+   "eta_ratio": 1.0000000000000007,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 8,
+   "eta_ratio": 0.47618267165645123,
+   "q_inf_ratio": 0.48623102712900573
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 9,
+   "eta_ratio": 0.8477448306942892,
+   "q_inf_ratio": 0.8226041473351394
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 10,
+   "eta_ratio": 0.9967898185373972,
+   "q_inf_ratio": 0.9945974871541973
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 11,
+   "eta_ratio": 0.9991515635297743,
+   "q_inf_ratio": 0.9982955322060285
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 12,
+   "eta_ratio": 0.8666642823180579,
+   "q_inf_ratio": 0.8564770792413664
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 13,
+   "eta_ratio": 0.5696776714580107,
+   "q_inf_ratio": 0.6143185705237302
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 14,
+   "eta_ratio": 0.5531544179275107,
+   "q_inf_ratio": 0.6129846805071132
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 15,
+   "eta_ratio": 0.5525182105963317,
+   "q_inf_ratio": 0.6142333617461885
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 16,
+   "eta_ratio": 0.9701711335012803,
+   "q_inf_ratio": 0.960518392764422
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 17,
+   "eta_ratio": 0.9994802207429234,
+   "q_inf_ratio": 0.998925896049246
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 18,
+   "eta_ratio": 0.9047831419429797,
+   "q_inf_ratio": 0.8846589531606358
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 19,
+   "eta_ratio": 0.4543573242016592,
+   "q_inf_ratio": 0.49294096618745303
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 20,
+   "eta_ratio": 0.9994802207429243,
+   "q_inf_ratio": 0.998925896049246
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 21,
+   "eta_ratio": 1.0,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 22,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 23,
+   "eta_ratio": 0.5525182105963315,
+   "q_inf_ratio": 0.6142333617461885
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 24,
+   "eta_ratio": 0.4745932405646701,
+   "q_inf_ratio": 0.4850604272707073
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 25,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 26,
+   "eta_ratio": 0.6760669489164571,
+   "q_inf_ratio": 0.6549712362977255
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 27,
+   "eta_ratio": 0.5692031749770274,
+   "q_inf_ratio": 0.6126601202469171
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 28,
+   "eta_ratio": 0.9898814170144443,
+   "q_inf_ratio": 0.9841345293977344
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 29,
+   "eta_ratio": 0.5266903223130044,
+   "q_inf_ratio": 0.5778887666148954
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 30,
+   "eta_ratio": 0.6198934640571974,
+   "q_inf_ratio": 0.6375299154290017
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 31,
+   "eta_ratio": 0.6946673696836543,
+   "q_inf_ratio": 0.7308941407008804
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 32,
+   "eta_ratio": 0.9730282763270849,
+   "q_inf_ratio": 0.9658567777296054
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 33,
+   "eta_ratio": 0.44351386248566277,
+   "q_inf_ratio": 0.48089637779594535
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 34,
+   "eta_ratio": 0.9696960778175671,
+   "q_inf_ratio": 0.9594442888136681
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 35,
+   "eta_ratio": 0.8461797986627377,
+   "q_inf_ratio": 0.8172657623699561
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 36,
+   "eta_ratio": 0.4084540407112674,
+   "q_inf_ratio": 0.4929127943171384
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 37,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 38,
+   "eta_ratio": 1.0,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 39,
+   "eta_ratio": 0.87778224587995,
+   "q_inf_ratio": 0.8651306016914826
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 40,
+   "eta_ratio": 0.8477448306942889,
+   "q_inf_ratio": 0.8226041473351394
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 41,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 42,
+   "eta_ratio": 0.9968106166970669,
+   "q_inf_ratio": 0.9946616150348164
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 43,
+   "eta_ratio": 0.5420579024309361,
+   "q_inf_ratio": 0.5964970128634455
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 44,
+   "eta_ratio": 0.5540998523823347,
+   "q_inf_ratio": 0.6143855243226031
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 45,
+   "eta_ratio": 0.9701711335012808,
+   "q_inf_ratio": 0.960518392764422
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 46,
+   "eta_ratio": 0.9766210874626688,
+   "q_inf_ratio": 0.9710454784015041
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 47,
+   "eta_ratio": 0.5525182105963312,
+   "q_inf_ratio": 0.6142333617461885
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 48,
+   "eta_ratio": 0.9928263827158144,
+   "q_inf_ratio": 0.9890291742553813
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 49,
+   "eta_ratio": 0.5049820039015064,
+   "q_inf_ratio": 0.5379620205175889
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 50,
+   "eta_ratio": 0.9954974740365837,
+   "q_inf_ratio": 0.9922007896865577
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 51,
+   "eta_ratio": 0.7682986596736104,
+   "q_inf_ratio": 0.724723749750506
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 52,
+   "eta_ratio": 0.5908734372845611,
+   "q_inf_ratio": 0.6391931904589773
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 53,
+   "eta_ratio": 0.9954974740365842,
+   "q_inf_ratio": 0.9922007896865577
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 54,
+   "eta_ratio": 0.8983989282826602,
+   "q_inf_ratio": 0.8725007987647097
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 55,
+   "eta_ratio": 0.5001758565823102,
+   "q_inf_ratio": 0.5548430602343619
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 56,
+   "eta_ratio": 0.5882684543186638,
+   "q_inf_ratio": 0.570516336865239
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 57,
+   "eta_ratio": 0.5513780017658801,
+   "q_inf_ratio": 0.6138720479036411
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 58,
+   "eta_ratio": 0.9165287228596233,
+   "q_inf_ratio": 0.9060291273290637
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 59,
+   "eta_ratio": 0.9999999999999999,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 60,
+   "eta_ratio": 0.9047831419429789,
+   "q_inf_ratio": 0.8846589531606358
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 61,
+   "eta_ratio": 0.9047831419429795,
+   "q_inf_ratio": 0.8846589531606358
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 62,
+   "eta_ratio": 0.9449049973364083,
+   "q_inf_ratio": 0.9307649865100454
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 63,
+   "eta_ratio": 0.48361096662212727,
+   "q_inf_ratio": 0.5914029668239099
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 64,
+   "eta_ratio": 1.0000000000000004,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 65,
+   "eta_ratio": 0.9701711335012801,
+   "q_inf_ratio": 0.960518392764422
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 66,
+   "eta_ratio": 0.8462008143755998,
+   "q_inf_ratio": 0.817439212113325
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 67,
+   "eta_ratio": 0.9449049973364089,
+   "q_inf_ratio": 0.9307649865100456
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 68,
+   "eta_ratio": 0.552518210596332,
+   "q_inf_ratio": 0.6142333617461886
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 69,
+   "eta_ratio": 0.8461797986627377,
+   "q_inf_ratio": 0.817265762369956
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 70,
+   "eta_ratio": 0.9999999999999999,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 71,
+   "eta_ratio": 0.9927630556393755,
+   "q_inf_ratio": 0.9888557245120122
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 72,
+   "eta_ratio": 0.7298000689637323,
+   "q_inf_ratio": 0.7622788749216727
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 73,
+   "eta_ratio": 0.5538897822251594,
+   "q_inf_ratio": 0.6152186582121001
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 74,
+   "eta_ratio": 0.9047831419429794,
+   "q_inf_ratio": 0.8846589531606358
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 75,
+   "eta_ratio": 0.5867702563441519,
+   "q_inf_ratio": 0.6235290149653473
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 76,
+   "eta_ratio": 0.7704814050163846,
+   "q_inf_ratio": 0.7352519750696134
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 77,
+   "eta_ratio": 0.5812060290179775,
+   "q_inf_ratio": 0.6161473628666678
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 78,
+   "eta_ratio": 0.552534610018649,
+   "q_inf_ratio": 0.614331062087521
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 79,
+   "eta_ratio": 0.5396496280766822,
+   "q_inf_ratio": 0.5852951676180775
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 80,
+   "eta_ratio": 0.9999999999999997,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 81,
+   "eta_ratio": 0.5765886700664475,
+   "q_inf_ratio": 0.6219083160421419
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 82,
+   "eta_ratio": 0.9986706354096637,
+   "q_inf_ratio": 0.997539174651741
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 83,
+   "eta_ratio": 0.9698672842795387,
+   "q_inf_ratio": 0.9598880289212046
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 84,
+   "eta_ratio": 0.9047831419429799,
+   "q_inf_ratio": 0.8846589531606358
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 85,
+   "eta_ratio": 0.8462480920311917,
+   "q_inf_ratio": 0.8177095024774925
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 86,
+   "eta_ratio": 0.554841481230615,
+   "q_inf_ratio": 0.6164336238948928
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 87,
+   "eta_ratio": 0.7162088271773385,
+   "q_inf_ratio": 0.7163762069674666
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 88,
+   "eta_ratio": 0.6000662873492814,
+   "q_inf_ratio": 0.6406998791796914
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 89,
+   "eta_ratio": 0.32054539248457753,
+   "q_inf_ratio": 0.36495861797267953
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 90,
+   "eta_ratio": 0.9047831419429803,
+   "q_inf_ratio": 0.8846589531606359
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 91,
+   "eta_ratio": 0.5887829649189333,
+   "q_inf_ratio": 0.6277118956135788
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 92,
+   "eta_ratio": 0.7682986596736107,
+   "q_inf_ratio": 0.724723749750506
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 93,
+   "eta_ratio": 0.9701711335012798,
+   "q_inf_ratio": 0.960518392764422
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 94,
+   "eta_ratio": 0.996810616697066,
+   "q_inf_ratio": 0.9946616150348166
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 95,
+   "eta_ratio": 1.0,
+   "q_inf_ratio": 1.0
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 96,
+   "eta_ratio": 0.9928263827158137,
+   "q_inf_ratio": 0.9890291742553812
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 97,
+   "eta_ratio": 0.8923037748769154,
+   "q_inf_ratio": 0.8956649489835025
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 98,
+   "eta_ratio": 0.9997880468096138,
+   "q_inf_ratio": 0.999492132011844
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "binary",
+   "trial": 99,
+   "eta_ratio": 0.6150118154486914,
+   "q_inf_ratio": 0.6414668349471078
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 0,
+   "eta_ratio": 0.8121280062364186,
+   "q_inf_ratio": 0.8101637058035729
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 1,
+   "eta_ratio": 0.782115025910691,
+   "q_inf_ratio": 0.7691078954215834
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 2,
+   "eta_ratio": 0.9446945965882954,
+   "q_inf_ratio": 0.9378589348998748
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 3,
+   "eta_ratio": 0.7748452900674903,
+   "q_inf_ratio": 0.8166412087843972
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 4,
+   "eta_ratio": 0.8699954569644976,
+   "q_inf_ratio": 0.861986205949996
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 5,
+   "eta_ratio": 0.7476597637818757,
+   "q_inf_ratio": 0.7322677075730052
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 6,
+   "eta_ratio": 0.9980004492621128,
+   "q_inf_ratio": 0.9972533946494391
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 7,
+   "eta_ratio": 0.9218958309043586,
+   "q_inf_ratio": 0.917896650705193
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 8,
+   "eta_ratio": 0.8719914476323798,
+   "q_inf_ratio": 0.8669471624525884
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 9,
+   "eta_ratio": 0.6391780311897001,
+   "q_inf_ratio": 0.6463163400928483
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 10,
+   "eta_ratio": 0.9929450079263945,
+   "q_inf_ratio": 0.9917373446756316
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 11,
+   "eta_ratio": 3.868229035092046e-05,
+   "q_inf_ratio": 0.14860505318990488
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 12,
+   "eta_ratio": 0.9975628857833706,
+   "q_inf_ratio": 0.9968824289174777
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 13,
+   "eta_ratio": 0.5717935715375229,
+   "q_inf_ratio": 0.5697086478961252
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 14,
+   "eta_ratio": 0.6633164169582284,
+   "q_inf_ratio": 0.6585208631348711
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 15,
+   "eta_ratio": 0.9832174849406803,
+   "q_inf_ratio": 0.9788185690181227
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 16,
+   "eta_ratio": 0.49529180794545646,
+   "q_inf_ratio": 0.5873780484073631
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 17,
+   "eta_ratio": 0.8936085648626584,
+   "q_inf_ratio": 0.8904288257728664
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 18,
+   "eta_ratio": 0.2875988847571033,
+   "q_inf_ratio": 0.2955194650241232
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 19,
+   "eta_ratio": 0.3346751896810009,
+   "q_inf_ratio": 0.38767432232065174
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 20,
+   "eta_ratio": 0.7981450355517409,
+   "q_inf_ratio": 0.7971377297910464
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 21,
+   "eta_ratio": 0.6021032497570528,
+   "q_inf_ratio": 0.6325713205885806
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 22,
+   "eta_ratio": 0.16638274260271463,
+   "q_inf_ratio": 0.3242863291590093
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 23,
+   "eta_ratio": 0.9845556993742408,
+   "q_inf_ratio": 0.9800252691209199
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 24,
+   "eta_ratio": 0.9615430619755027,
+   "q_inf_ratio": 0.9523084194329655
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 25,
+   "eta_ratio": 0.9495160356080954,
+   "q_inf_ratio": 0.942006509664093
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 26,
+   "eta_ratio": 0.49615083817984695,
+   "q_inf_ratio": 0.49587016141436924
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 27,
+   "eta_ratio": 0.2419541393784667,
+   "q_inf_ratio": 0.3252576145364587
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 28,
+   "eta_ratio": 0.6101390766587956,
+   "q_inf_ratio": 0.6414285697584503
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 29,
+   "eta_ratio": 0.8931650286708617,
+   "q_inf_ratio": 0.8804438645341867
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 30,
+   "eta_ratio": 0.9974297534746428,
+   "q_inf_ratio": 0.9969564125748652
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 31,
+   "eta_ratio": 0.8671784699954602,
+   "q_inf_ratio": 0.8596002603359747
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 32,
+   "eta_ratio": 0.9116009403083607,
+   "q_inf_ratio": 0.9031609902495906
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 33,
+   "eta_ratio": 0.9490693682123427,
+   "q_inf_ratio": 0.9412331111508592
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 34,
+   "eta_ratio": 0.8707712262174552,
+   "q_inf_ratio": 0.8641206401227903
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 35,
+   "eta_ratio": 0.8077886871742601,
+   "q_inf_ratio": 0.8021340528394332
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 36,
+   "eta_ratio": 0.7166717037787149,
+   "q_inf_ratio": 0.7076985019941514
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 37,
+   "eta_ratio": 0.9720817265919912,
+   "q_inf_ratio": 0.967204379438518
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 38,
+   "eta_ratio": 0.9820408695205648,
+   "q_inf_ratio": 0.9776383061640227
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 39,
+   "eta_ratio": 0.8087760789879844,
+   "q_inf_ratio": 0.8047512407303884
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 40,
+   "eta_ratio": 0.787940323068631,
+   "q_inf_ratio": 0.7820811061209335
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 41,
+   "eta_ratio": 0.9231860719604679,
+   "q_inf_ratio": 0.9191324662804916
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 42,
+   "eta_ratio": 0.9904331355945798,
+   "q_inf_ratio": 0.9873711552561913
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 43,
+   "eta_ratio": 0.287502745315436,
+   "q_inf_ratio": 0.2890593683507541
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 44,
+   "eta_ratio": 0.9503527926449966,
+   "q_inf_ratio": 0.9438391994049741
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 45,
+   "eta_ratio": 0.1559856085192436,
+   "q_inf_ratio": 0.1983779051635861
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 46,
+   "eta_ratio": 0.8053926260814773,
+   "q_inf_ratio": 0.8370004692950997
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 47,
+   "eta_ratio": 0.8195546699335534,
+   "q_inf_ratio": 0.8231133623031689
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 48,
+   "eta_ratio": 0.9952620441091354,
+   "q_inf_ratio": 0.9939583455281158
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 49,
+   "eta_ratio": 0.9957268499447115,
+   "q_inf_ratio": 0.9940462714759482
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 50,
+   "eta_ratio": 0.29536764414421074,
+   "q_inf_ratio": 0.3380403497935102
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 51,
+   "eta_ratio": 0.9991569781853415,
+   "q_inf_ratio": 0.9984117092139727
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 52,
+   "eta_ratio": 0.2408167708947242,
+   "q_inf_ratio": 0.2906220990086658
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 53,
+   "eta_ratio": 0.033102846558299565,
+   "q_inf_ratio": 0.1568077374731463
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 54,
+   "eta_ratio": 0.09927338695616718,
+   "q_inf_ratio": 0.2269515557025739
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 55,
+   "eta_ratio": 0.9969067100506143,
+   "q_inf_ratio": 0.9963126402858329
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 56,
+   "eta_ratio": 0.7316376254120266,
+   "q_inf_ratio": 0.732451736554104
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 57,
+   "eta_ratio": 0.9137186818494264,
+   "q_inf_ratio": 0.9033824236543668
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 58,
+   "eta_ratio": 0.8925194523104459,
+   "q_inf_ratio": 0.8950867401203819
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 59,
+   "eta_ratio": 0.29561083718115977,
+   "q_inf_ratio": 0.34295970619928146
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 60,
+   "eta_ratio": 0.18787054222976915,
+   "q_inf_ratio": 0.36981136792140107
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 61,
+   "eta_ratio": 0.8961741548126837,
+   "q_inf_ratio": 0.8842402719839699
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 62,
+   "eta_ratio": 0.45774320486602776,
+   "q_inf_ratio": 0.5362682598821618
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 63,
+   "eta_ratio": 0.16148410885929462,
+   "q_inf_ratio": 0.21523463636783677
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 64,
+   "eta_ratio": 0.9197560097046253,
+   "q_inf_ratio": 0.9123608280896149
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 65,
+   "eta_ratio": 0.5294794302139655,
+   "q_inf_ratio": 0.5476450906149635
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 66,
+   "eta_ratio": 0.9190300671637085,
+   "q_inf_ratio": 0.9123480402095377
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 67,
+   "eta_ratio": 0.10417050587442087,
+   "q_inf_ratio": 0.14200999150024443
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 68,
+   "eta_ratio": 0.5518637316245618,
+   "q_inf_ratio": 0.5959516339692543
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 69,
+   "eta_ratio": 0.6372855369127866,
+   "q_inf_ratio": 0.7160036899872662
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 70,
+   "eta_ratio": 0.736537528603132,
+   "q_inf_ratio": 0.7444446713845685
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 71,
+   "eta_ratio": 0.855801254204548,
+   "q_inf_ratio": 0.8422550875063071
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 72,
+   "eta_ratio": 0.9970731836134964,
+   "q_inf_ratio": 0.9958389785574577
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 73,
+   "eta_ratio": 0.4610285305880548,
+   "q_inf_ratio": 0.5415609360087362
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 74,
+   "eta_ratio": 0.8688443708729651,
+   "q_inf_ratio": 0.8611255148283513
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 75,
+   "eta_ratio": 0.9577263853781441,
+   "q_inf_ratio": 0.94814573735241
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 76,
+   "eta_ratio": 0.91622412485289,
+   "q_inf_ratio": 0.9091122088362363
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 77,
+   "eta_ratio": 0.38471823073478906,
+   "q_inf_ratio": 0.3845065632264341
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 78,
+   "eta_ratio": -0.039867013574166194,
+   "q_inf_ratio": 0.08675094073617388
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 79,
+   "eta_ratio": 0.9810003405819212,
+   "q_inf_ratio": 0.9771318224335708
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 80,
+   "eta_ratio": 0.7303045590418956,
+   "q_inf_ratio": 0.7296844566956557
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 81,
+   "eta_ratio": 0.3536329955804098,
+   "q_inf_ratio": 0.41786496772341514
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 82,
+   "eta_ratio": 0.6843687690521159,
+   "q_inf_ratio": 0.6704642493554434
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 83,
+   "eta_ratio": 0.5415249570922706,
+   "q_inf_ratio": 0.21878266634291366
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 84,
+   "eta_ratio": 0.1835006709918121,
+   "q_inf_ratio": 0.31993696306581737
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 85,
+   "eta_ratio": 0.43402556207697424,
+   "q_inf_ratio": 0.454993999241655
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 86,
+   "eta_ratio": 0.7984086524586257,
+   "q_inf_ratio": 0.7924405046653903
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 87,
+   "eta_ratio": 0.2536413250861665,
+   "q_inf_ratio": 0.4091458089801076
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 88,
+   "eta_ratio": 0.9977791257485484,
+   "q_inf_ratio": 0.9967057609102538
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 89,
+   "eta_ratio": 0.6924733062966236,
+   "q_inf_ratio": 0.7307998590598949
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 90,
+   "eta_ratio": 0.6503440692176852,
+   "q_inf_ratio": 0.6720292764708838
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 91,
+   "eta_ratio": 0.24510755184291785,
+   "q_inf_ratio": 0.36084561052119085
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 92,
+   "eta_ratio": 0.6533487616614899,
+   "q_inf_ratio": 0.6373724892046007
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 93,
+   "eta_ratio": 0.4132972320674533,
+   "q_inf_ratio": 0.42802153773565144
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 94,
+   "eta_ratio": 0.24239345897486655,
+   "q_inf_ratio": 0.32922309545273426
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 95,
+   "eta_ratio": 0.9915951991962854,
+   "q_inf_ratio": 0.9885950530864343
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 96,
+   "eta_ratio": 0.43868720217838364,
+   "q_inf_ratio": 0.48623993650287006
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 97,
+   "eta_ratio": 0.9938397954049831,
+   "q_inf_ratio": 0.9917592147797603
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 98,
+   "eta_ratio": 0.916611058931513,
+   "q_inf_ratio": 0.9082983418982511
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "holes",
+   "trial": 99,
+   "eta_ratio": 0.24067952537390605,
+   "q_inf_ratio": 0.2728673156656875
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 0,
+   "eta_ratio": 0.9910737137606603,
+   "q_inf_ratio": 0.9883227964676612
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 1,
+   "eta_ratio": 0.7763672288003587,
+   "q_inf_ratio": 0.7705812934624515
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 2,
+   "eta_ratio": 0.8911195768083849,
+   "q_inf_ratio": 0.8785953319899904
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 3,
+   "eta_ratio": 0.8736295641156039,
+   "q_inf_ratio": 0.8563789072183323
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 4,
+   "eta_ratio": 0.9998889039901303,
+   "q_inf_ratio": 0.9997339513477805
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 5,
+   "eta_ratio": 0.9024188534006389,
+   "q_inf_ratio": 0.9059462500853549
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 6,
+   "eta_ratio": 0.8781142969523194,
+   "q_inf_ratio": 0.8674701494146235
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 7,
+   "eta_ratio": 0.8465167361459776,
+   "q_inf_ratio": 0.864247105932254
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 8,
+   "eta_ratio": 0.994396125728154,
+   "q_inf_ratio": 0.9918322351819783
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 9,
+   "eta_ratio": 0.999623835287964,
+   "q_inf_ratio": 0.9991643966456049
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 10,
+   "eta_ratio": 0.8115845337693999,
+   "q_inf_ratio": 0.8198227680293233
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 11,
+   "eta_ratio": 0.9999623260366873,
+   "q_inf_ratio": 0.9998673688502229
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 12,
+   "eta_ratio": 0.4949036791704341,
+   "q_inf_ratio": 0.5086934023681327
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 13,
+   "eta_ratio": 0.7439080169984202,
+   "q_inf_ratio": 0.7472430127531046
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 14,
+   "eta_ratio": 0.6359511614654031,
+   "q_inf_ratio": 0.6516063009557459
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 15,
+   "eta_ratio": 0.9766584674119271,
+   "q_inf_ratio": 0.970750739890942
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 16,
+   "eta_ratio": 0.7600297492440888,
+   "q_inf_ratio": 0.7678307299412677
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 17,
+   "eta_ratio": 0.7698093037143915,
+   "q_inf_ratio": 0.7644866605717531
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 18,
+   "eta_ratio": 0.9932787564377047,
+   "q_inf_ratio": 0.9898401977767082
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 19,
+   "eta_ratio": 0.9995146976987214,
+   "q_inf_ratio": 0.9990601029738607
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 20,
+   "eta_ratio": 0.8855834505653895,
+   "q_inf_ratio": 0.8734640987118384
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 21,
+   "eta_ratio": 0.997624482158804,
+   "q_inf_ratio": 0.9969934838960471
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 22,
+   "eta_ratio": 0.9653418737180691,
+   "q_inf_ratio": 0.9582812756102278
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 23,
+   "eta_ratio": 0.964904917901861,
+   "q_inf_ratio": 0.9582432532085056
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 24,
+   "eta_ratio": 0.5040947269797236,
+   "q_inf_ratio": 0.5000113504788262
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 25,
+   "eta_ratio": 0.999822579181915,
+   "q_inf_ratio": 0.9995871983169475
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 26,
+   "eta_ratio": 0.5448117089057596,
+   "q_inf_ratio": 0.5410256760089412
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 27,
+   "eta_ratio": 0.9828753025826396,
+   "q_inf_ratio": 0.9843474302324116
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 28,
+   "eta_ratio": 0.999875255521682,
+   "q_inf_ratio": 0.9996071994219655
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 29,
+   "eta_ratio": 0.9998946276149219,
+   "q_inf_ratio": 0.9996557238257556
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 30,
+   "eta_ratio": 0.999835871290069,
+   "q_inf_ratio": 0.9996299341255006
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 31,
+   "eta_ratio": 0.8005754823922987,
+   "q_inf_ratio": 0.7952624650887055
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 32,
+   "eta_ratio": 0.9999322674188363,
+   "q_inf_ratio": 0.9998267007408564
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 33,
+   "eta_ratio": 0.67100972939544,
+   "q_inf_ratio": 0.6601444391396777
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 34,
+   "eta_ratio": 0.921045138408687,
+   "q_inf_ratio": 0.90862500491202
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 35,
+   "eta_ratio": 0.48850789716474896,
+   "q_inf_ratio": 0.48422494983474124
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 36,
+   "eta_ratio": 0.48954695232641027,
+   "q_inf_ratio": 0.49865633938714177
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 37,
+   "eta_ratio": 0.9698077565248449,
+   "q_inf_ratio": 0.9702315780356416
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 38,
+   "eta_ratio": 0.9457498027988723,
+   "q_inf_ratio": 0.9379638259659647
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 39,
+   "eta_ratio": 0.9004490698713185,
+   "q_inf_ratio": 0.9040157027367344
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 40,
+   "eta_ratio": 0.9764505562973606,
+   "q_inf_ratio": 0.9776104212767808
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 41,
+   "eta_ratio": 0.5780004152914046,
+   "q_inf_ratio": 0.5869925772306922
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 42,
+   "eta_ratio": 0.9066944854326677,
+   "q_inf_ratio": 0.9066542695384803
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 43,
+   "eta_ratio": 0.8670505414689311,
+   "q_inf_ratio": 0.8605223606052836
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 44,
+   "eta_ratio": 0.6521193230310249,
+   "q_inf_ratio": 0.6554761330753126
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 45,
+   "eta_ratio": 0.742737813602246,
+   "q_inf_ratio": 0.7464868874986433
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 46,
+   "eta_ratio": 0.9999427788061694,
+   "q_inf_ratio": 0.9998476463412039
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 47,
+   "eta_ratio": 0.9096905570781634,
+   "q_inf_ratio": 0.901637683331668
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 48,
+   "eta_ratio": 0.9968668616972671,
+   "q_inf_ratio": 0.9947465081546056
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 49,
+   "eta_ratio": 0.999783101862905,
+   "q_inf_ratio": 0.9994381780062491
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 50,
+   "eta_ratio": 0.8352424453689742,
+   "q_inf_ratio": 0.8368787411405203
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 51,
+   "eta_ratio": 0.9957256078917349,
+   "q_inf_ratio": 0.99379494678978
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 52,
+   "eta_ratio": 0.9988898638041606,
+   "q_inf_ratio": 0.997902634263943
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 53,
+   "eta_ratio": 0.8010393183151364,
+   "q_inf_ratio": 0.7752398611790672
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 54,
+   "eta_ratio": 0.9973312653558272,
+   "q_inf_ratio": 0.9956952240650139
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 55,
+   "eta_ratio": 0.9757120598577866,
+   "q_inf_ratio": 0.969025746437049
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 56,
+   "eta_ratio": 0.990805685534906,
+   "q_inf_ratio": 0.9873851182118448
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 57,
+   "eta_ratio": 0.6062166760363499,
+   "q_inf_ratio": 0.6222361544869719
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 58,
+   "eta_ratio": 0.8764644168147747,
+   "q_inf_ratio": 0.8607686975691197
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 59,
+   "eta_ratio": 0.9554383738734991,
+   "q_inf_ratio": 0.9576031988406021
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 60,
+   "eta_ratio": 0.938727537646502,
+   "q_inf_ratio": 0.9328485104072317
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 61,
+   "eta_ratio": 0.7401907579831569,
+   "q_inf_ratio": 0.7502548404719599
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 62,
+   "eta_ratio": 0.9292500855246579,
+   "q_inf_ratio": 0.9205911151402011
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 63,
+   "eta_ratio": 0.83991032022341,
+   "q_inf_ratio": 0.8323530143301633
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 64,
+   "eta_ratio": 0.9713258989318707,
+   "q_inf_ratio": 0.9654012974919496
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 65,
+   "eta_ratio": 0.9998338112874351,
+   "q_inf_ratio": 0.9994797584668508
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 66,
+   "eta_ratio": 0.9879985700046117,
+   "q_inf_ratio": 0.9839130869860974
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 67,
+   "eta_ratio": 0.9426581622643214,
+   "q_inf_ratio": 0.9338144906422077
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 68,
+   "eta_ratio": 0.6274056058066305,
+   "q_inf_ratio": 0.6294681301637745
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 69,
+   "eta_ratio": 0.9157994989133086,
+   "q_inf_ratio": 0.8991584453744698
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 70,
+   "eta_ratio": 0.5748043443925739,
+   "q_inf_ratio": 0.5609339682344553
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 71,
+   "eta_ratio": 0.8629443100669666,
+   "q_inf_ratio": 0.8500436862196097
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 72,
+   "eta_ratio": 0.962098831411329,
+   "q_inf_ratio": 0.9506450618491536
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 73,
+   "eta_ratio": 0.9572311717924543,
+   "q_inf_ratio": 0.9488167938411323
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 74,
+   "eta_ratio": 0.9545690424837655,
+   "q_inf_ratio": 0.9445191330254151
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 75,
+   "eta_ratio": 0.9990164893649243,
+   "q_inf_ratio": 0.9982296574482883
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 76,
+   "eta_ratio": 0.9999348131829838,
+   "q_inf_ratio": 0.9997824081716771
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 77,
+   "eta_ratio": 0.9867086485353845,
+   "q_inf_ratio": 0.9831965849318925
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 78,
+   "eta_ratio": 0.9184135945735975,
+   "q_inf_ratio": 0.910928595296332
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 79,
+   "eta_ratio": 0.9896743093168623,
+   "q_inf_ratio": 0.9864621154778379
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 80,
+   "eta_ratio": 0.9794593274363527,
+   "q_inf_ratio": 0.974126947700909
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 81,
+   "eta_ratio": 0.9932813574958804,
+   "q_inf_ratio": 0.9896295583755021
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 82,
+   "eta_ratio": 0.9906445645268315,
+   "q_inf_ratio": 0.9901933207364715
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 83,
+   "eta_ratio": 0.9792707692310233,
+   "q_inf_ratio": 0.9742944843189302
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 84,
+   "eta_ratio": 0.8435806929806803,
+   "q_inf_ratio": 0.8471402697912649
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 85,
+   "eta_ratio": 0.7599646786560137,
+   "q_inf_ratio": 0.7733449372681588
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 86,
+   "eta_ratio": 0.8375293568022147,
+   "q_inf_ratio": 0.8455866110150383
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 87,
+   "eta_ratio": 0.8668973982686472,
+   "q_inf_ratio": 0.8479044873289602
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 88,
+   "eta_ratio": 0.9438017413981349,
+   "q_inf_ratio": 0.9343482764520021
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 89,
+   "eta_ratio": 0.8480728928398573,
+   "q_inf_ratio": 0.8363818932192862
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 90,
+   "eta_ratio": 0.6921829740705778,
+   "q_inf_ratio": 0.6913693411110924
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 91,
+   "eta_ratio": 0.6874062527875563,
+   "q_inf_ratio": 0.6934739122639666
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 92,
+   "eta_ratio": 0.9510689426769037,
+   "q_inf_ratio": 0.939241276950883
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 93,
+   "eta_ratio": 0.9914505194176796,
+   "q_inf_ratio": 0.9880405870967174
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 94,
+   "eta_ratio": 0.9387955827548238,
+   "q_inf_ratio": 0.9293898705921053
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 95,
+   "eta_ratio": 0.7575561074665844,
+   "q_inf_ratio": 0.7523841224627588
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 96,
+   "eta_ratio": 0.8615959680345983,
+   "q_inf_ratio": 0.8522737256917551
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 97,
+   "eta_ratio": 0.9384880675417983,
+   "q_inf_ratio": 0.9389998278687062
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 98,
+   "eta_ratio": 0.6346821202294853,
+   "q_inf_ratio": 0.6400403887233863
+  },
+  {
+   "laser": "gauss",
+   "A": 4.0,
+   "family": "split",
+   "trial": 99,
+   "eta_ratio": 0.8615997519274426,
+   "q_inf_ratio": 0.8532213296025839
+  }
+ ]
+}

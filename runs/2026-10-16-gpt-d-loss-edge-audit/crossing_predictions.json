@@ -1,0 +1,45 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": [
+    {
+      "run_id": "2026-10-16-gpt-d-cutoff-q03",
+      "q_at_cutoff": 0.030000000000000148,
+      "closed_L_m": 201.6964625143772,
+      "closed_eta": 0.8572836077778494,
+      "ODE_optimum": {
+        "eta": 0.8498482621069272,
+        "L_m": 152.35,
+        "boundary": false
+      },
+      "terminal": {
+        "omega_inf": 930.4971630991676,
+        "lambda_inf_um": 2.024349607939754,
+        "w_eff": 29.342745189441214,
+        "alpha_inf": 0.0009846891252757663,
+        "terminal_condition_ratio": 3.1216813303465156
+      },
+      "scope": "inside"
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-cutoff-q20",
+      "q_at_cutoff": 0.2000000000019262,
+      "closed_L_m": null,
+      "closed_eta": 0.45232128179014713,
+      "ODE_optimum": {
+        "eta": 0.539315193028603,
+        "L_m": 62.0,
+        "boundary": false
+      },
+      "terminal": {
+        "omega_inf": 939.5325007873332,
+        "lambda_inf_um": 2.0048817531382293,
+        "w_eff": 29.414106681315076,
+        "alpha_inf": 0.004532568036151024,
+        "terminal_condition_ratio": 13.33259359099246
+      },
+      "scope": "outside crossing bound"
+    }
+  ]
+}

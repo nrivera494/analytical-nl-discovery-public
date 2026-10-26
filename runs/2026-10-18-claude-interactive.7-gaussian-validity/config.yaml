@@ -1,0 +1,10 @@
+# Run 2026-10-18-claude-interactive.7-gaussian-validity: where the linearized (Gaussian) squeezing numbers describe the true state.
+single_mode_mixed_kerr.py: "G1: a single-mode Kerr stage acting on mixed Gaussian condensate inputs (cond_kerr.json reference, three Q-dis members), exact classical map of 2e5 Wigner samples, n0 = 1e8 and 1e10; best over Phi against the curvature-limited formula and 0.945 (nu^4/n0)^(1/3)"
+twa_multimode_check.py: "G2, G3: tangent map and a 512-trajectory truncated-Wigner ensemble on the same trajectory (E' = 0.6, sigma = 0.3, dz = 0.02), n = 1e6 and 1e10, z = 5-100: variance along the most-squeezed direction and photon-counting squeezing with the optimal weights"
+thresholds.py: "G4 and the regime boundaries: curvature thresholds n0* from earlier runs"
+summarize.py: "summary.txt, summary.json: mechanical checks of G1-G4"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore single_mode_mixed_kerr.py | tee single_mode_mixed_kerr_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore twa_multimode_check.py > twa_multimode_check_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore thresholds.py"
+  - "~/agent-work/venv/bin/python -W ignore summarize.py"

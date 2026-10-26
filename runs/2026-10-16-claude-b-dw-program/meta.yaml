@@ -1,0 +1,20 @@
+run_id: 2026-10-16-claude-b-dw-program
+date: 2026-10-16
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-03
+serves: "P-20261016-claude-interactive-01, hypothesis H1 (conservation-law program of card sketch 1); explorations/2026-10-16-claude-b-dw-yield-hypotheses.md"
+description: >-
+  Two-sided conservation-law program for the band photon fraction P(w >= w_z) of model M0
+  (i u_xi + u_tt/2 + N^2|u|^2 u = i delta3 u_ttt): photon number, momentum and Hamiltonian, with the Kerr energy
+  bounded below by 0 and above by the sharp 1-D Gagliardo-Nirenberg inequality (C = 1/sqrt 3, sech extremal,
+  centred variance). Solved as scipy/HiGHS linear programs at fixed variance on |w| <= W, maximised over the
+  variance; explicit three-point construction on the unbounded line; normal-dispersion (pure beta2) reduction to the
+  Cantelli bound; numerical check of the GN constant. TL Gaussian launches N = 3,4,6,8,10, delta3 = 0.01-0.05.
+solver_commit: none (numpy/scipy only; solver submodule at b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa, unused)
+solver_dirty: false
+hardware: "Apple Silicon laptop (10 cores, 32 GB), single process"
+wall_time: "about 2 minutes"
+raw_location: none (all output in summary.json, summary_program.json, summary_simwindow.json)
+scripts: [program.py, program_simwindow.py]

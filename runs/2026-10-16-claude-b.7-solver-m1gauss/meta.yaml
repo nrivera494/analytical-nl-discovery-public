@@ -1,0 +1,90 @@
+run_id: 2026-10-16-claude-b.7-solver-m1gauss
+date: 2026-10-16
+agent: claude-b.7
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-03
+serves: >-
+  P-20261016-claude-interactive-01, item 7 requested by claude-b (~12:45 EDT): solver values of the
+  smooth-gated DW band yield of a TL Gaussian (N = 3, xi = 2) in model M1 for delta3 = 0.0055, 0.006,
+  0.0066, 0.0073, and the fit ln eta_G = c + p ln delta3 - d/delta3, as an independent check of
+  claude-b's numpy values.
+description: >-
+  M1: AgarwalRaman(fraction 0.18, tau1 12.2 fs, tau2 32 fs) (h_R = (tau1^2+tau2^2)/(tau1 tau2^2)
+  exp(-t/tau2) sin(t/tau1); nonlinearity (1-f_R)|A|^2 A + f_R A (h_R * |A|^2)), T0 = 50 fs,
+  beta2 = -T0^2 ps^2/m (L_D = 1 m), beta3 = 6 delta3 T0^3 ps^3/m, gamma = 1 /W/m, P0 = 9 W,
+  length 2 m, omega0 T0 = 1e6 (self-steepening suppressed), fixed-step Float64 RK4IP (CPU).
+  Input u0 = exp(-tau^2/2). Observables at xi = 2 over the input energy: eta_G = band (w >= 1/(6 delta3))
+  energy after g = 1 - 0.5[tanh(tau+15) - tanh(tau-15)]; eta_B = the same without the gate.
+  Diagnostics: split of the gated band energy into [w_z, 0.8 w_DW), [0.8, 1.2] w_DW and > 1.2 w_DW
+  (w_DW = 1/(2 delta3)), gated spectral peak, soliton position and mean frequency, xi = 0 floor,
+  a delta3 = 0 reference (same Raman dynamics without the TOD resonance) evaluated at the four band edges.
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+julia: "1.12.5, JULIA_NUM_THREADS=2, FFTW and BLAS threads 1"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0.1 (host COECIS-G3FLW49YGQ); other agents' jobs ran concurrently (load average 35-90)"
+grids: "base: window 256 T0, Nt 32768 (dtau 0.0078 = 0.39 fs Raman kernel step, w_max 402), 8000 steps (dxi 2.5e-4). Window check: 512 T0, Nt 65536 (same dtau) at delta3 = 0.0055. Steps: 4000 (all four delta3) and 16000 (delta3 = 0.0055 and 0.0073)."
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-m1gauss/run_m1g.jl baseA halve ref"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-m1gauss/run_m1g.jl baseB window coarse"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-16-claude-b.7-solver-m1gauss/run_m1g.jl halve2"
+  - "~/agent-work/venv/bin/python runs/2026-10-16-claude-b.7-solver-m1gauss/summarize.py"
+  - "post-freeze: run_m1g.jl ssA, ssB (omega0 T0 = 1e8), then ~/agent-work/venv/bin/python runs/2026-10-16-claude-b.7-solver-m1gauss/compare.py (comparison.json)"
+files:
+  library: dw_lib.jl (unchanged copy from run 2026-10-16-claude-b.7-solver-dwyield)
+  driver: run_m1g.jl
+  summarizer: summarize.py -> summary.json (values, convergence, 3-parameter fit with sensitivities)
+seeds: none (deterministic)
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-16-claude-b.7-solver-m1gauss/ (results_<stage>.jsonl, base_<case>.npz with input/output/gated spectra and output power)"
+stages_added_during_the_run: >-
+  q32k/q32kb/q32kc/q32kd (32000 steps at all four delta3) after the 4000 -> 8000 -> 16000 changes at
+  delta3 = 0.0055 (+1.25e-4, +1.53e-4) did not shrink; dtA-dtD (Nt 65536, dt 0.195 fs, 8000 steps) to
+  measure the Raman-kernel/time-step dependence at every delta3. Commands as above with these stage names.
+results: >-
+  eta_G(xi = 2) [window 256 T0, Nt 32768, dt 0.39 fs, 32000 steps]: 1.01424e-13 (delta3 0.0055),
+  2.79601e-12 (0.006), 7.52142e-11 (0.0066), 1.71830e-9 (0.0073); eta_B: 1.02255e-13, 2.80028e-12,
+  7.52356e-11, 1.71840e-9. Gated DW spectral peak at w = 92.11, 84.53, 76.97, 69.70 (1/(2 delta3) =
+  90.9, 83.3, 75.8, 68.5); essentially all gated band energy lies in [0.8, 1.2] w_DW (rest <= 1e-7
+  relative). The DW is emitted before xi = 1: eta_G(1)/eta_G(2) - 1 = -9e-8 (delta3 0.0055). At xi = 2 the
+  Raman solitons have <w> = -7.82 ... -7.42 and peak at tau = 12.1, inside the |tau| < 15 gate.
+convergence: >-
+  Steps (relchange A_vs_B = X(A)/X(B) - 1): n8000 vs n32000 = +1.67e-4, +9.6e-5, +5.1e-5, +2.6e-5
+  (delta3 0.0055 ... 0.0073). Sequence 4000 -> 8000 -> 16000 -> 32000: delta3 0.0055 changes +1.25e-4,
+  +1.53e-4, +1.34e-5 (pre-asymptotic, then converging); delta3 0.0073: +1.90e-4, +2.38e-5, +1.79e-6
+  (ratios 8.0, 13.3, approaching 4th order). Window 256 -> 512 T0 (same dtau, 8000 steps, delta3 0.0055):
+  eta_G 3.4e-10, eta_B 4.1e-5. Raman kernel / time step 0.39 -> 0.195 fs (Nt 65536, 8000 steps):
+  eta_G -5.63e-4, -5.15e-4, -4.67e-4, -4.20e-4 (smooth in delta3; the second-order behaviour seen in
+  run 2026-10-16-claude-b.7-solver-dwyield item 4 implies the 0.195 fs values are within ~2e-4 of dt -> 0).
+fit: >-
+  ln eta_G = c + p ln delta3 - d/delta3, least squares on the four 32000-step values: d = 0.235960,
+  p = -2.9703, c = -2.4721; residuals in ln eta +1.7e-5, -4.7e-5, +4.5e-5, -1.5e-5; formal standard
+  error of d 4.9e-5 (1 degree of freedom), corr(p, d) = -0.99912, condition number of the design 1.5e5;
+  sensitivities dd/dln(eta_i) = -0.367, +0.337, +0.375, -0.345. Numerical robustness of d: 8000 steps
+  0.235941, 4000 steps 0.236058, dt 0.195 fs (8000 steps) 0.235938, 32000 steps times the measured
+  dt-refinement factor 0.235957 (0.235956 with dt^2 extrapolation). So d = 0.23596 with numerical
+  uncertainty ~2e-5 and fit uncertainty ~5e-5. With p fixed at 0: d = 0.21722 (rms residual 0.013);
+  the same 3-parameter fit to eta_B gives d = 0.23357, p = -2.619.
+floors: >-
+  eta_G at xi = 0: 1.0e-33 (all four). delta3 = 0 reference (same Raman/N = 3 dynamics without the TOD
+  resonance), eta_G at xi = 2 with the four band edges: 2.6e-18, 1.4e-17, 7.5e-17, 3.7e-16, i.e. 4.6 to
+  6.7 decades below the yields; its gated band energy sits at the band edge (soliton blue wing through
+  the gate edges), and its gated energy in the DW window is 1e-30 to 2e-25.
+wall_time_s: "about 5600 s of Julia process time in at most two concurrent processes, 12:50-13:57 EDT (8000 steps on Nt 32768: ~180 s; 32000 steps: 760-860 s; Nt 65536, 8000 steps: 440-520 s)"
+independence: >-
+  summary.json frozen 2026-10-16 13:57:13 EDT, sha256
+  11b2d4cfa5851fb501ae1a065f2583055106c779977bc1899e22c661c77f8b7a (the seven raw results_*.jsonl,
+  115 records, concatenated in name order: sha256 86aebd15ec517ce50e0a7fbad60e328ac966fb3e78c717dd7b65e9e08b521eb0).
+  claude-b's values for this item were not read before that time.
+post_freeze_comparison_with_claude-b: >-
+  Read after the freeze: runs/2026-10-16-claude-b-dw-oracle/summary.json (m1_gauss3_heldout at claude-b's
+  finer step, m1_gauss3_fit4). Then ran ssA/ssB (omega0 T0 = 1e8, 8000 steps; results_ss.jsonl, not in the
+  hashed summary.json) and compare.py -> comparison.json. claude-b / solver(32000 steps) - 1:
+  -4.15e-4 (0.0055), -3.04e-4 (0.006), -1.65e-3 (0.0066), -1.27e-3 (0.0073). claude-b's Raman kernel steps
+  were 0.354, 0.331, 0.615, 0.571 fs (Nt 32768, 32768, 16384, 16384) against 0.39 fs here; the solver's
+  own dt dependence is eta(dt) = eta0 (1 - k dt^2) with k = 4.9e-3, 4.5e-3, 4.1e-3, 3.7e-3 per fs^2.
+  Residual self-steepening: eta(omega0 T0 = 1e6)/eta(1e8) - 1 = +4.26e-4 (0.0055), +3.18e-4 (0.0073).
+  After correcting claude-b's values to dt -> 0 with that k and the solver's to dt -> 0 and s -> 0, the
+  differences are -1.2e-4, -1.1e-4, -3.8e-4, -3.2e-4. Fits: claude-b d = 0.235828 (c -2.4095, p -2.9536);
+  solver 32000 steps d = 0.235960; the difference -1.32e-4 is reproduced to 2e-7 by propagating the four
+  eta differences through dd/dln(eta_i). Corrected: claude-b (dt -> 0) d = 0.235934; solver (dt -> 0, s -> 0)
+  d = 0.235958.

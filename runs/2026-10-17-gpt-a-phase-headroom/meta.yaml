@@ -1,0 +1,95 @@
+run_id: 2026-10-17-gpt-a-phase-headroom
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+reasoning_effort: max
+orchestrator: claude-interactive
+task: T-20261016-claude-a-03
+claims: [C-20261016-claude-a-03, C-20261016-claude-a-04, C-20261017-gpt-a-01]
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_note: Independent Python RK4IP and ZS shooting plus pinned Julia discrete adjoint.
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-a-phase-headroom
+started_local: '2026-10-17 16:44 EDT'
+status: complete numerical run; unresolved stationarity and waveform limits recorded
+seeds: [2026101701, 2026101702, 2026101703, 2026101704]
+final_directional_check_seed: 2026101705
+deferred_optimization_seed: 2026101703
+freeze_commits:
+  primary: 04cf1e92059772ef6bda543e933460698acd1ce6
+  direct_zs: 133f51c
+  published_material: 8d4c8c2
+  stable_ZS_and_search_schedule: 716a21d
+  final_qualification_and_cross_N: 88c219d
+  refined_ZS_polishing: bc6e59f
+  matched_TL_duration_peak: 9c8d294
+  C2_extension_and_resolution_guard: 53c6bbf
+  training_budget_and_holdout_precision: 2bebefa
+  final_census_and_resource_guards: 9411106
+  final_directional_derivative: 61ba744
+  bounded_N5_continuation: ed77498
+  training_leading_identity: 9cae78e
+  selected_masks: 50602138e3472b9f2645bb02abdae031372a9722
+retained_attempts:
+  - Initial Julia derivative-check report had an enclosing-scope binding bug; first_bindingbug stdout/TOML retained. Corrected check passed.
+  - Julia N3 TL optimization deliberately interrupted after checkpointing its best mask to validate a faster independent scalar discrete adjoint; partial history and stdout retained.
+  - N5 random-start r1 stopped at a ZS root failure after 28 returned evaluations; its preceding extreme trial had about 10% of input energy at the window edge. The failed attempt and best resolved mask are retained, and r1resume continues from that mask with explicit resolution guards.
+  - The first refined N3 polishing check stopped at a relative-only derivative tolerance; its absolute discrepancy was 8.2e-11 for a derivative of magnitude 8.0e-7. The retained stdout records the stop. The check now uses an absolute plus relative Float64 tolerance, documented before selected-mask holdouts.
+  - The first training census stopped while serializing a NumPy boolean. The failed stdout/status are retained; an explicit bool conversion fixed serialization, and the unchanged numerical census passed on restart.
+  - The selected N3 fixed-energy 90-percent-duration readout initially failed its ZS root solve (residual 0.0686). Five independent root guesses on the same saved field agreed on a resolved root (residual below 1e-14). The original case JSON and detune_N3_ZS_root_diagnosis.json are retained. Final readout uses explicit root-validity checks and retries; no mask or propagation was retuned.
+implementation_note: >
+  The independent Python scalar VJP differentiates the same fixed-step RK4IP map,
+  with checkpointed segment replay and an exact discrete-ZS transfer derivative.
+  Its directional check passes and its forward objective agrees with the pinned
+  Julia solver. Julia calls explicitly use adjoint_mode=:discrete_rk4ip.
+
+machine: COECIS-G3FLW49YGQ
+architecture: arm64
+python: 3.9.6
+numpy: 2.0.2
+scipy: 1.13.1
+Julia: 1.12.5
+threads_per_heavy_process: 1
+pr: https://github.com/nrivera494/analytical-nl-discovery/pull/57
+root_solver_correction: >
+  The first Python N4 mask-B check stopped before optimization because an
+  undamped Newton iteration on the wider-window unnormalized Evans determinant
+  found a negative-imaginary root. Retained stdout records the failure. Replaced
+  the root iteration with the independently used normalized two-sided shooting
+  root solve; the exact implicit derivative is evaluated at that root. Gradient
+  validation remains mandatory before the restarted production search.
+trial_guard: >
+  Reject any trial with input or monitored propagation edge energy above 1e-6,
+  or an unresolved ZS root. Save its coefficients, field and diagnostic when
+  available. A large guard penalty is supplied only to reject that line-search
+  trial; it is never reported as a physical objective or convergence result.
+  Final points are re-evaluated without the penalty wrapper.
+preconditioner_note: >
+  The numerical-library matrix multiply emitted divide/overflow/invalid warnings
+  while returning a finite Gram matrix. A direct einsum contraction reproduced
+  it within 5.3e-18; the raw preconditioner_validation.json retains both that
+  comparison and all warning messages. Subsequent launches use direct
+  contractions and an explicit finiteness check. No physical objective changes.
+
+completed_local: '2026-10-17 20:24 EDT'
+assignment_status: partial; parent task remains open
+new_claim_status: proposed; Claude-family verification required
+postrun_window_diagnostic_freeze: d426430
+convergence_grid_exception:
+  points: 65536
+  cases: [diagnostic_N5_window640_clipped, diagnostic_N5_window640_C2]
+  reason: Preserve dt=2.734375 fs while testing width 640 T0 after a large N5 waveform change under window doubling. This is a convergence test, not an optimization or a new training point.
+  coefficient_changes: none
+  fraction_result: Within 1.97e-4 of the original clipped-mask fraction; full waveform convergence remains unestablished.
+analysis_repair: >
+  The first final-analysis assembly stopped on missing ancillary photon metadata
+  in early core records. Missing quantities were recovered from the unchanged
+  saved field using measure(..., zs=False), without replacing existing values.
+  The original failed stdout and status remain in raw storage.
+reported_numerical_uncertainty: Maximum observed grid/window/gate/readout discrepancy, floor 1e-5; not a statistical confidence interval or a rigorous bound.
+figure_visual_qa: Single panel inspected; legend spacing corrected; 69471 bytes, readable at 600 px width.
+case_count: 209
+readout_case_count: 134
+census_case_count: 127
+scalar_checks_passed: 286
+scalar_checks_failed: 3

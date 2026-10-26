@@ -1,0 +1,162 @@
+[
+ {
+  "N": 8,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 2.468079678289839,
+    "Nex_mean": 5.504223685846059,
+    "Nex_var": 1.0125779244756004
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 6.108209319608233,
+    "Nex_mean": 3.0970317935123166,
+    "Nex_var": 0.21724347386568077
+   }
+  ]
+ },
+ {
+  "N": 12,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 4.667149530481696,
+    "Nex_mean": 5.263887359124161,
+    "Nex_var": 0.5303924709687031
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 3.987099984074521,
+    "Nex_mean": 3.012887792563659,
+    "Nex_var": 0.02062347703348877
+   }
+  ]
+ },
+ {
+  "N": 20,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 3.1635496345936445,
+    "Nex_mean": 5.956880351723001,
+    "Nex_var": 0.042616161256191276
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 2.717480274844844,
+    "Nex_mean": 3.0037170106631472,
+    "Nex_var": 0.00434744353650629
+   }
+  ]
+ },
+ {
+  "N": 50,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 3.8604816751896793,
+    "Nex_mean": 5.995082682875977,
+    "Nex_var": 0.004921600450543906
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 2.484025369106707,
+    "Nex_mean": 3.000938389676113,
+    "Nex_var": 0.000951347851644968
+   }
+  ]
+ },
+ {
+  "N": 100,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 2.7724137562317424,
+    "Nex_mean": 5.998310736712275,
+    "Nex_var": 0.0016904823014058934
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 2.5367955659672043,
+    "Nex_mean": 3.0004378549335406,
+    "Nex_var": 0.0004407516804683098
+   }
+  ]
+ },
+ {
+  "N": 300,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 2.1100843093377293,
+    "Nex_mean": 5.999560569884467,
+    "Nex_var": 0.00043956528158872743
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 2.593220989041407,
+    "Nex_mean": 3.000143562244098,
+    "Nex_var": 0.0001436116024144951
+   }
+  ]
+ },
+ {
+  "N": 1000,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 1.9693522611006828,
+    "Nex_mean": 5.999877853641397,
+    "Nex_var": 0.00012215810327376175
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 2.6197272394077635,
+    "Nex_mean": 3.0000429685724073,
+    "Nex_var": 4.297122717034085e-05
+   }
+  ]
+ },
+ {
+  "N": 3000,
+  "dim": 100,
+  "uniform_Nex_var": 1.1075,
+  "uniform_Nex_mean": 3.75,
+  "inits": [
+   {
+    "name": "Q photons in one group-1 mode",
+    "PR": 1.9348525026081016,
+    "Nex_mean": 5.999960122386799,
+    "Nex_var": 3.987890330137134e-05
+   },
+   {
+    "name": "photons in one group-2 mode",
+    "PR": 2.627620379076176,
+    "Nex_mean": 3.000014315572864,
+    "Nex_var": 1.4315809597320595e-05
+   }
+  ]
+ }
+]

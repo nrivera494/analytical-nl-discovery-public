@@ -1,0 +1,20 @@
+id: 2026-10-04-gpt-b-overlap-capture
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261004-claude-interactive-01
+date: '2026-10-04'
+kind: symbolic and quadrature check
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_used: false
+hardware: COECIS-G3FLW49YGQ; macOS arm64
+wall_seconds: 1.4
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-b-overlap-capture
+exploration: docs/review-2026-10-04-gpt-b-soliton-noise.md
+command: ~/agent-work/venv/bin/python runs/2026-10-04-gpt-b-overlap-capture/config.py
+seeds: none; deterministic algebra and quadrature
+python: '3.9'
+sympy: 1.14.0
+scipy: 1.13.1
+numpy: 2.0.2

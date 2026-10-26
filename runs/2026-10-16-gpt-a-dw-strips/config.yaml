@@ -1,0 +1,66 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-strips
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-strips
+cases:
+- N: 2
+  shape: sech
+  delta3: 0
+  n: 8192
+  window: 160
+  zmax: 4
+  h: 0.00025
+  strip: true
+  scan_stride: 0.005
+  name: sech2_M0
+  raman: none
+  shock: 0
+- N: 2
+  shape: sech
+  delta3: 0
+  n: 8192
+  window: 160
+  zmax: 4
+  h: 0.00025
+  strip: true
+  scan_stride: 0.005
+  name: sech2_roy_s1
+  raman: roy
+  shock: 1
+- N: 2
+  shape: sech
+  delta3: 0
+  n: 8192
+  window: 160
+  zmax: 4
+  h: 0.00025
+  strip: true
+  scan_stride: 0.005
+  name: sech2_roy_s2
+  raman: roy
+  shock: 2
+- N: 2
+  shape: sech
+  delta3: 0
+  n: 8192
+  window: 160
+  zmax: 4
+  h: 0.00025
+  strip: true
+  scan_stride: 0.005
+  name: sech2_roy_s0
+  raman: roy
+  shock: 0
+- N: 2
+  shape: sech
+  delta3: 0
+  n: 8192
+  window: 160
+  zmax: 4
+  h: 0.00025
+  strip: true
+  scan_stride: 0.005
+  name: sech2_shock
+  raman: none
+  shock: 1

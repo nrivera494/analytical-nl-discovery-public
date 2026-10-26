@@ -1,0 +1,15 @@
+run_id: 2026-10-19-gpt-e-weak-dispersion
+agent: gpt-e
+model: gpt-6-astra
+family: gpt
+date: 2026-10-19
+claim: C-20261010-claude-a-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: true
+implementation: independent Python Fourier tangent, exact shear and Jones tangent ODE; unchanged pinned solver discrete-RK4IP adjoint cross-check
+hardware: "COECIS-G3FLW49YGQ / arm64 / macOS-27.0.1-arm64-arm-64bit"
+wall_time_seconds: 169.107
+raw_location: ~/analytical-nl-discovery-data/2026-10-19-gpt-e-weak-dispersion/
+raw_storage: interim local storage
+clean_context: true

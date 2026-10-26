@@ -1,0 +1,12 @@
+{
+ "window_min": 0.013296342248672776,
+ "window_lt_0.99_from_lambda_um": 0.953116535698406,
+ "window_dz0.25": {
+  "rel_photon_drift": -0.0003080734172892176,
+  "photon_fraction_in_damped_band_final": 0.0006247989406600219
+ },
+ "window_dz0.125": {
+  "rel_photon_drift": -0.0003149124629505787,
+  "photon_fraction_in_damped_band_final": 0.0006257067667423237
+ }
+}

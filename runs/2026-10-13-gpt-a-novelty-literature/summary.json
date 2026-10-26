@@ -1,0 +1,63 @@
+{
+  "run_id": "2026-10-13-gpt-a-novelty-literature",
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "task": "T-20261013-gpt-a-01",
+  "type": "literature-audit",
+  "numerical_simulation": false,
+  "assessments": [
+    {
+      "problem": "P-20261012-claude-interactive-01",
+      "verdict": "open, narrowed",
+      "novelty": 3,
+      "impact": 3,
+      "recommended_status": "candidate",
+      "confidence": "medium"
+    },
+    {
+      "problem": "P-20261012-claude-interactive.4-01",
+      "verdict": "open, narrowed",
+      "novelty": 2,
+      "impact": 3,
+      "recommended_status": "candidate",
+      "confidence": "low"
+    },
+    {
+      "problem": "P-20261012-claude-interactive.4-02",
+      "verdict": "open, narrowed",
+      "novelty": 3,
+      "impact": 3,
+      "recommended_status": "candidate",
+      "confidence": "low"
+    },
+    {
+      "problem": "P-20261012-claude-interactive.4-04",
+      "verdict": "open, narrowed",
+      "novelty": 2,
+      "impact": 3,
+      "recommended_status": "candidate",
+      "confidence": "low"
+    }
+  ],
+  "source_count": 74,
+  "query_count": 158,
+  "access_counts": {
+    "full text": 27,
+    "abstract only": 43,
+    "not accessed": 4
+  },
+  "metadata_doi_count": 70,
+  "source_ledger": "source-ledger.json",
+  "literature_equation_checks": [
+    {
+      "source": "10.1364/OE.26.017571",
+      "access": "full text",
+      "location": "Section 3, Eq. 6",
+      "published_leading_compression_scale": "0.32*(pi/2)*L_D/N",
+      "proposal_leading_scale": "0.32*L_D/N",
+      "conclusion": "Proposal omits the soliton-period factor at leading order; finite-order fit constants not certified"
+    }
+  ],
+  "limits": "Source metadata verification is distinct from abstract or full-text claim verification."
+}

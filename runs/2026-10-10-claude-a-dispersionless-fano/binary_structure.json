@@ -1,0 +1,88 @@
+{
+ "rows": [
+  {
+   "Phi": 7.0,
+   "F": 0.4877913571944758,
+   "frac_photons_w_pos": 0.8674094714013827,
+   "f_odd": 0.3827996730939524,
+   "F_from_even": 0.3461837334853031,
+   "F_from_odd": 0.14160762370904162,
+   "overlap2_momentum": 0.24512687130092173,
+   "n_selected": 280,
+   "n_bins": 601,
+   "selected_blocks": 19
+  },
+  {
+   "Phi": 10.0,
+   "F": 0.47099560132033513,
+   "frac_photons_w_pos": 0.8774570865520124,
+   "f_odd": 0.4205151408982586,
+   "F_from_even": 0.32750560347542257,
+   "F_from_odd": 0.14348999784482494,
+   "overlap2_momentum": 0.29065501190829934,
+   "n_selected": 370,
+   "n_bins": 735,
+   "selected_blocks": 39
+  },
+  {
+   "Phi": 15.0,
+   "F": 0.43912149620132407,
+   "frac_photons_w_pos": 0.0882887521597175,
+   "f_odd": 0.4281066291832302,
+   "F_from_even": 0.30747758760759997,
+   "F_from_odd": 0.13164390859407768,
+   "overlap2_momentum": 0.32262738001509467,
+   "n_selected": 333,
+   "n_bins": 941,
+   "selected_blocks": 49
+  },
+  {
+   "Phi": 20.0,
+   "F": 0.4004203347028407,
+   "frac_photons_w_pos": 0.930093132685014,
+   "f_odd": 0.4378868687236753,
+   "F_from_even": 0.2815191853646516,
+   "F_from_odd": 0.11890114933776676,
+   "overlap2_momentum": 0.3286933490488392,
+   "n_selected": 438,
+   "n_bins": 1137,
+   "selected_blocks": 48
+  },
+  {
+   "Phi": 25.0,
+   "F": 0.3218011062471881,
+   "frac_photons_w_pos": 0.9378013228426952,
+   "f_odd": 0.44016450656044703,
+   "F_from_even": 0.21875835278375355,
+   "F_from_odd": 0.10304275346342617,
+   "overlap2_momentum": 0.34824320500124617,
+   "n_selected": 592,
+   "n_bins": 1327,
+   "selected_blocks": 59
+  },
+  {
+   "Phi": 30.0,
+   "F": 0.4005617273675993,
+   "frac_photons_w_pos": 0.06169091362711836,
+   "f_odd": 0.45088694242921107,
+   "F_from_even": 0.273367740013141,
+   "F_from_odd": 0.12719398735436813,
+   "overlap2_momentum": 0.355849789952865,
+   "n_selected": 525,
+   "n_bins": 1511,
+   "selected_blocks": 41
+  },
+  {
+   "Phi": 40.0,
+   "F": 0.35898302921155023,
+   "frac_photons_w_pos": 0.5026258045185988,
+   "f_odd": 0.029307327983928523,
+   "F_from_even": 0.3091271053395992,
+   "F_from_odd": 0.049855923871960105,
+   "overlap2_momentum": 2.8434913968766137e-05,
+   "n_selected": 1366,
+   "n_bins": 1871,
+   "selected_blocks": 158
+  }
+ ]
+}

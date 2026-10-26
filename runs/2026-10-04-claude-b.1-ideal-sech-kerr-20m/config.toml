@@ -1,0 +1,62 @@
+# Run 2026-10-04-claude-b.1-ideal-sech-kerr-20m (task T-20261004-claude-interactive-06, case 1).
+# Pure-Kerr (beta2 only, instantaneous Kerr, no Raman, no shock) exact-sech N=1 soliton over 20 m,
+# read out by interference with a coherent copy of its own input:
+#   C = sqrt(eta) A_fiber + sqrt(1-eta) r exp(i psi) A_input,  F = Var(N_C)/<N_C>.
+# Driver: run_ideal_sech_kerr.jl (adapted from archive simulations/validate_ideal_sech_kerr.jl).
+# Analytical comparison: analytic_check.py, which imports the archive's frozen analytical script
+# (soliton_copy_analytic_archive.py, a byte-identical copy of
+#  ideal_sech_kerr_control/frozen_pro_analytic.py, sha256 fedb09721aed0d763bb85d5f43d5630c3a2bfc4945ad9664d3fe72d084792062).
+# No random numbers are drawn; there is no seed.
+
+# Byte-for-byte values of the archive file
+# research_runs/2026-09-26_analytics/simulations/ideal_sech_kerr_control/frozen_control_parameters.toml
+# (sha256 243e0e70ad92be7d7ec95d79b6ef0757416efc5f6683fe107646ecbb535bb5b2).
+[frozen_control_parameters]
+beta2_ps2_per_m = -0.0280886649
+gamma_per_W_m = 0.000529330575
+T0_ps = 0.22691853
+length_m = 20.0
+LD_m = 1.8331956837635561
+Ppeak_W = 1030.53843455131
+Pin_mW = 37.41572266830151
+eta = 0.995
+r = 0.7017289851
+psi_rad = -2.181661565
+
+# Grids. "nominal" is the archive grid. "window2x" doubles the time window at fixed sample spacing.
+# "fine" halves the sample spacing (doubles the frequency span) and halves the propagation step.
+[[grids]]
+tag = "nominal"
+nt = 8192
+window_ps = 40.0
+dz_m = 0.005
+
+[[grids]]
+tag = "window2x"
+nt = 16384
+window_ps = 80.0
+dz_m = 0.005
+
+[[grids]]
+tag = "fine"
+nt = 16384
+window_ps = 40.0
+dz_m = 0.0025
+
+# Readout phase offsets added to psi_rad: the nominal phase and pi.
+[readout]
+phase_offsets_rad = [0.0, 3.141592653589793]
+
+# Archive values being reproduced (report.md and ideal_sech_kerr_control/full_control.toml,
+# frozen_control_prediction.json).
+[archive]
+F_solver_offset0 = 0.012687341911357897
+F_solver_offsetpi = 4.295819315491556
+Pout_mW_solver_offset0 = 38.11952266170737
+Pout_mW_solver_offsetpi = 36.52200928496216
+Q_solver = [[1.0000000000041132, 21.953888173567172], [21.953888173567172, 484.01331638509856]]
+F_analytic_offset0 = 0.012687341922535945
+F_analytic_offsetpi = 4.295819315870825
+Q_analytic = [[1.0, 21.953888175093653], [21.953888175093653, 484.0133164539275]]
+exact_soliton_mean_relative_field_error = 9.17711205812676e-11
+photon_drift = -6.517009154549669e-14

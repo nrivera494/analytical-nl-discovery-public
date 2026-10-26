@@ -1,0 +1,15 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-d-fission-daughter",
+  "parent_run": "2026-10-16-gpt-d-z75-fission-prefix",
+  "start_z_m": 0.5,
+  "end_z_m": 8,
+  "cutout_halfwidth_ps": 1.5,
+  "n": 16384,
+  "dt_ps": 0.003,
+  "dz_m": 0.00025,
+  "script": "../2026-10-16-gpt-d-loss-edge-audit/run_daughter.py",
+  "prediction": "../2026-10-16-gpt-d-loss-edge-audit/fission_predictions.json"
+}

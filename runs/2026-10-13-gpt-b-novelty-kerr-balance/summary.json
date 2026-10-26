@@ -1,0 +1,14 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-13-gpt-b-novelty-kerr-balance",
+  "cw_square_completion_residual": "0",
+  "transmission_residual": "0",
+  "three_complex_pumps_residual": "0",
+  "breather_mean_square": "f**2/4 - f*xm + vx + vy + xm**2 + ym**2",
+  "gasmi_linear_equal_pump_metric": "1/2",
+  "strict_outside_pump_linear_efficiency": 0,
+  "wall_seconds": 0.101123208,
+  "interpretation": "Identities conditional on uniform-loss norm balance, not LLE existence or stability tests. The general M proof is the sum of the same scalar identity."
+}

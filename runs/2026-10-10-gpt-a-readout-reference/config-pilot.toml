@@ -1,0 +1,31 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+raw_location = "~/analytical-nl-discovery-data/2026-10-10-gpt-a-readout-reference"
+
+[[cases]]
+label = "pilot_kerr_phi1"
+nt = 128
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+peak_power_W = 1000.0
+length_m = 0.7692307692307692
+beta2_ps2_per_m = 0.0
+steps = 64
+raman = false
+
+[[cases]]
+label = "pilot_raman"
+nt = 512
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+peak_power_W = 1000.0
+length_m = 0.7692307692307692
+beta2_ps2_per_m = -0.0206
+steps = 64
+raman = true
+bath_intervals = 16

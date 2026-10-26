@@ -1,0 +1,63 @@
+{
+ "note": "Three-group (G=3, 6 HG modes) parabolic-fibre toy. Units ps, m, W, rad/ps. Declared reductions: scalar field, Raman tensor = Kerr tensor, fixed overlaps, toy group spacing dbeta = 300 /m (dbeta L_NL = 30), beta2 = 0.1 ps^2/m (W_t = 0.25 at t_c = 50 fs), white-noise su(n) coupling inside groups 1 and 2 (Dd = 30 /m), shock off (s = 0). Launch group populations 0.3/0.1/0.6 (group 1 under-populated relative to RJ). Tag g4_weak (added after the main run, before its own propagation): four groups (10 modes), weak coupling Dd = 1 /m (L_d = 10 L_NL, the weak-disorder regime in which run 2026-10-17-claude-interactive.7-disorder-model-scan relaxed within about 10 L_NL), N = 1024, 6 mirror pairs, launch group fractions 0.3/0.1/0.5/0.1 (RJ 0.291/0.246/0.234/0.229).",
+ "main": {
+  "G": 3,
+  "N": 2048,
+  "dt_ps": 0.004,
+  "gamma_perWm": 0.001,
+  "fR": 0.18,
+  "tau1_ps": 0.0122,
+  "tau2_ps": 0.032,
+  "omega0_radps": 1770.4,
+  "dbeta_perm": 300.0,
+  "beta2_ps2perm": 0.1,
+  "s": 0,
+  "Dd_perm": 30.0,
+  "powers_W": [
+   3000,
+   500,
+   500,
+   2000,
+   2000,
+   2000
+  ],
+  "sigma_radps": 20.0,
+  "seed": 41,
+  "R_base": 8,
+  "dz_m": 0.000333333333,
+  "nsteps": 9000,
+  "save_every": 300,
+  "rj_target": [
+   0.1804,
+   0.3393,
+   0.4804
+  ]
+ },
+ "g4_weak": {
+  "G": 4,
+  "N": 1024,
+  "R_base": 6,
+  "Dd_perm": 1.0,
+  "seed": 61,
+  "powers_W": [
+   3000.0,
+   500.0,
+   500.0,
+   1666.6667,
+   1666.6667,
+   1666.6667,
+   250.0,
+   250.0,
+   250.0,
+   250.0
+  ],
+  "lkin_group": 2,
+  "lkin_target": 0.2341,
+  "rj_target": [
+   0.2912,
+   0.2462,
+   0.2341,
+   0.2285
+  ]
+ }
+}

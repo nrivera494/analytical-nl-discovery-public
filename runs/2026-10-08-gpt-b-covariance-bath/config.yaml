@@ -1,0 +1,17 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance_sampler.py
+inputs: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-sweep/grin02_p0.2_physical.npz
+nt: 512
+window: 48.0
+T0_ps: 0.5
+temperature_K:
+- 0.0
+- 300.0
+seed: 2026100803
+ntraj: 16384
+scope: Stationary unequal-shape family and source quadratures; proposer calculation
+beat_phase_distribution: uniform over [0,2pi)
+temporal_noise: real Gaussian with coth spectrum
+transverse_covariance: Gram of sampled phi01^2, phi02^2, phi01*phi02

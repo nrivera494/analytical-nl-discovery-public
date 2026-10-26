@@ -1,0 +1,6 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_detuning_full.jl
+mode: all
+full_parameters: Retained per case in summary.json and in the frozen script.

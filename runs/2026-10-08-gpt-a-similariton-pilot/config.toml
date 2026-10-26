@@ -1,0 +1,34 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-pilot"
+
+[defaults]
+Nstar = 10.0
+nt = 8192
+window = 64.0
+length = 6.0
+dzmax = 0.005
+phase_step = 0.04
+save_interval = 0.1
+
+[[cases]]
+label = "gaussian_w1_q0"
+shape = "gaussian"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "parabola_w1p02_qthird"
+shape = "parabola"
+width = 1.02
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gain_only"
+shape = "gaussian"
+width = 1.0
+chirp = 0.0
+nonlinear = false
+length = 2.0

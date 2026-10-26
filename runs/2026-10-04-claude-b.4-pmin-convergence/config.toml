@@ -1,0 +1,46 @@
+# Run 2026-10-04-claude-b.4-pmin-convergence (task T-20261004-claude-interactive-03, step 5 "convergence").
+# Same model, input and readout as runs 2026-10-04-claude-b.4-pmin-gate-1250 and 2026-10-04-claude-b.4-pmin-length-map.
+# At the shortest and longest lengths, near each minimum, every listed power is evaluated on the base grid of the map
+# and on refined grids (see run_convergence.jl):
+#   dz_half : propagation step and Raman reservoir spacing halved
+#   win_x2  : time window doubled at the same sample spacing (nt doubled)
+#   dt_half : sample spacing halved at the same window (nt doubled) -- only at the centre power of each case
+# Powers are 0.96, 1 and 1.04 times the map's fitted P_min (0.975, 1, 1.025 for the narrow second dip at 5 m).
+# No random numbers are drawn; there is no seed.
+
+wavelength_nm = 1250.0
+lo_nm = 1226.0
+hi_nm = 1269.0
+gdd_ps2 = -0.015
+temperature_K = 300.0
+nt = 8192
+window_ps = 40.0
+dz_m = 0.0025
+raman_z_spacing_short_m = 0.0125
+raman_z_spacing_long_m = 0.025
+
+[[cases]]
+tag = "L0.25_no_dip"
+length_m = 0.25
+# no dip below F = 1 in the map; check that F > 1 is grid-independent, and the plateau bracket
+powers_mw = [300.0, 600.0, 1044.879, 1201.611]
+dt_half_powers_mw = [300.0]
+
+[[cases]]
+tag = "L0.40_dip"
+length_m = 0.4
+powers_mw = [260.294, 271.14, 281.986]
+dt_half_powers_mw = [271.14]
+
+[[cases]]
+tag = "L5.00_first_dip"
+length_m = 5.0
+powers_mw = [49.238, 51.29, 53.342]
+dt_half_powers_mw = [51.29]
+
+[[cases]]
+tag = "L5.00_second_dip"
+length_m = 5.0
+# second, deeper dip below the plateau found at 5 m (dense pass of the map); narrow, so +-2.5 %
+powers_mw = [111.579, 114.44, 117.301]
+dt_half_powers_mw = [114.44]

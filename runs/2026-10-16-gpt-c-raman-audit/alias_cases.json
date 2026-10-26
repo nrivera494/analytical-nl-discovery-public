@@ -1,0 +1,87 @@
+[
+  {
+    "id": "alias_N8_T400_n16384",
+    "N": 8,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T400_n32768",
+    "N": 8,
+    "T0_fs": 400,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T400_n65536",
+    "N": 8,
+    "T0_fs": 400,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T600_n16384",
+    "N": 8,
+    "T0_fs": 600,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T600_n65536",
+    "N": 8,
+    "T0_fs": 600,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  }
+]

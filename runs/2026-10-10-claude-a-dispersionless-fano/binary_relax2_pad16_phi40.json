@@ -1,0 +1,407 @@
+{
+ "rows": [
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": false,
+   "J_relaxed": 0.2971687208821835,
+   "F_polished": 0.31883026674025106
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": true,
+   "J_relaxed": 0.2971808277064948,
+   "F_polished": 0.31923002784109666
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 12.5,
+   "mirror": false,
+   "J_relaxed": 0.29716926155618273,
+   "F_polished": 0.3164745070040566
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 12.5,
+   "mirror": true,
+   "J_relaxed": 0.2971669317492769,
+   "F_polished": 0.32738724574502454
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 15.0,
+   "mirror": false,
+   "J_relaxed": 0.2971799818490749,
+   "F_polished": 0.3174669424866799
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 15.0,
+   "mirror": true,
+   "J_relaxed": 0.2971673747223298,
+   "F_polished": 0.316822369262401
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": false,
+   "J_relaxed": 0.2971648968434928,
+   "F_polished": 0.31408961696524734
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": true,
+   "J_relaxed": 0.2971687138469751,
+   "F_polished": 0.31812339669274403
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": false,
+   "J_relaxed": 0.2971702806792622,
+   "F_polished": 0.32456161888043283
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": true,
+   "J_relaxed": 0.29717550783160007,
+   "F_polished": 0.3201504587059766
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 25.0,
+   "mirror": false,
+   "J_relaxed": 0.2971712213810339,
+   "F_polished": 0.321304373386896
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 25.0,
+   "mirror": true,
+   "J_relaxed": 0.2972514656221644,
+   "F_polished": 0.3124021000359941
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 30.0,
+   "mirror": false,
+   "J_relaxed": 0.29717159613157085,
+   "F_polished": 0.31688963655225244
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 30.0,
+   "mirror": true,
+   "J_relaxed": 0.297179493601729,
+   "F_polished": 0.316311159456563
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 30.0,
+   "mirror": false,
+   "J_relaxed": 0.2972091326151882,
+   "F_polished": 0.3248022119862857
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 30.0,
+   "mirror": true,
+   "J_relaxed": 0.29720534855157943,
+   "F_polished": 0.3189238841483699
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 40.0,
+   "mirror": false,
+   "J_relaxed": 0.32734093523299335,
+   "F_polished": 0.34405616362601227
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 40.0,
+   "mirror": true,
+   "J_relaxed": 0.32734139120271266,
+   "F_polished": 0.3439083022575793
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 50.0,
+   "mirror": false,
+   "J_relaxed": 0.3273513331297524,
+   "F_polished": 0.34267355343248923
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 50.0,
+   "mirror": true,
+   "J_relaxed": 0.32734635174763593,
+   "F_polished": 0.3403190449181869
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 7.0,
+   "mirror": false,
+   "J_relaxed": 0.3273474438810161,
+   "F_polished": 0.33647996548914993
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 7.0,
+   "mirror": true,
+   "J_relaxed": 0.327598311605247,
+   "F_polished": 0.33879771463551156
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 1.0,
+   "mirror": false,
+   "J_relaxed": 0.3273464130534005,
+   "F_polished": 0.33857643665584963
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 1.0,
+   "mirror": true,
+   "J_relaxed": 0.3273485949823507,
+   "F_polished": 0.3364460067671684
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": false,
+   "J_relaxed": 0.2971858590817791,
+   "F_polished": 0.3167196059345463
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": true,
+   "J_relaxed": 0.2971922060868708,
+   "F_polished": 0.322656835518768
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": false,
+   "J_relaxed": 0.2971717662362131,
+   "F_polished": 0.32256638687860983
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": true,
+   "J_relaxed": 0.2971984648165833,
+   "F_polished": 0.3193093521821814
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": false,
+   "J_relaxed": 0.29718389186988037,
+   "F_polished": 0.3169464140272397
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 10.0,
+   "mirror": true,
+   "J_relaxed": 0.2971862619543514,
+   "F_polished": 0.31786864145015237
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 12.5,
+   "mirror": false,
+   "J_relaxed": 0.29716716640414387,
+   "F_polished": 0.32051764854482173
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 12.5,
+   "mirror": true,
+   "J_relaxed": 0.2972196783751513,
+   "F_polished": 0.3216576749680515
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 15.0,
+   "mirror": false,
+   "J_relaxed": 0.29716651263351423,
+   "F_polished": 0.32487036419959725
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 15.0,
+   "mirror": true,
+   "J_relaxed": 0.29718127630631874,
+   "F_polished": 0.31745667219782664
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 2.0,
+   "mirror": false,
+   "J_relaxed": 0.32736417037082843,
+   "F_polished": 0.33778399256572367
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 2.0,
+   "mirror": true,
+   "J_relaxed": 0.32734612194345614,
+   "F_polished": 0.33966247665019955
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": false,
+   "J_relaxed": 0.2971659008081272,
+   "F_polished": 0.323788974542016
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": true,
+   "J_relaxed": 0.29716828397357054,
+   "F_polished": 0.3204618312959399
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": false,
+   "J_relaxed": 0.29716641603480687,
+   "F_polished": 0.3175305310512878
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": true,
+   "J_relaxed": 0.29716571582551665,
+   "F_polished": 0.3172099814161972
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": false,
+   "J_relaxed": 0.29718054324434784,
+   "F_polished": 0.32542270052708966
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 20.0,
+   "mirror": true,
+   "J_relaxed": 0.2971780118607448,
+   "F_polished": 0.3182547265528446
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 25.0,
+   "mirror": false,
+   "J_relaxed": 0.29717756109809135,
+   "F_polished": 0.3190536051552614
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 25.0,
+   "mirror": true,
+   "J_relaxed": 0.2971703116930725,
+   "F_polished": 0.31687887215262206
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 3.0,
+   "mirror": false,
+   "J_relaxed": 0.32734247252154347,
+   "F_polished": 0.34511486169486
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 3.0,
+   "mirror": true,
+   "J_relaxed": 0.3273659377602668,
+   "F_polished": 0.3470519002007837
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 30.0,
+   "mirror": false,
+   "J_relaxed": 0.29717964208797654,
+   "F_polished": 0.32203611717249303
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 30.0,
+   "mirror": true,
+   "J_relaxed": 0.29719379768390275,
+   "F_polished": 0.32128743758033373
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 40.0,
+   "mirror": false,
+   "J_relaxed": 0.32734524527903464,
+   "F_polished": 0.33866623269450646
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 40.0,
+   "mirror": true,
+   "J_relaxed": 0.3273382735390198,
+   "F_polished": 0.34525615494256673
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 5.0,
+   "mirror": false,
+   "J_relaxed": 0.3273443067267937,
+   "F_polished": 0.3409176498521719
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 5.0,
+   "mirror": true,
+   "J_relaxed": 0.327345986853798,
+   "F_polished": 0.3394126227282216
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 50.0,
+   "mirror": false,
+   "J_relaxed": 0.3273568163254844,
+   "F_polished": 0.34444445395467344
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 50.0,
+   "mirror": true,
+   "J_relaxed": 0.3273428334477342,
+   "F_polished": 0.345512464688115
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 7.0,
+   "mirror": false,
+   "J_relaxed": 0.3273443444839753,
+   "F_polished": 0.33638511098445284
+  },
+  {
+   "Phi": 40.0,
+   "seed_Phi": 7.0,
+   "mirror": true,
+   "J_relaxed": 0.3273415551703852,
+   "F_polished": 0.3365531484083595
+  },
+  {
+   "Phi": 40.0,
+   "pad": 16,
+   "n_seeds": 28,
+   "best_F": 0.3124021000359941,
+   "best_seed_Phi": 25.0,
+   "best_mirror": true,
+   "best_selected": 1608,
+   "n_bins": 3743,
+   "wall_s": 732.3
+  }
+ ]
+}

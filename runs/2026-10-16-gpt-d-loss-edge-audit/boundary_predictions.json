@@ -1,0 +1,51 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": [
+    {
+      "run_id": "2026-10-16-gpt-d-width-bound",
+      "T_fs": 97.68260924332105,
+      "initial_loss_width": 0.2500000000000001,
+      "initial_alpha_z0": 0.00017908161852531236,
+      "initial_spectral_loss_factor": 1.042914821466744,
+      "Gordon_final_N_ratio": 0.6891422614787432,
+      "Gordon_final_lambda_um": 2.084511920766908,
+      "full_response_final_N_ratio": 0.6745493936196656,
+      "full_response_final_lambda_um": 2.0852093755103804
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-width-beyond",
+      "T_fs": 69.07203539994804,
+      "initial_loss_width": 0.5000000000000001,
+      "initial_alpha_z0": 8.954080926265615e-05,
+      "initial_spectral_loss_factor": 1.0884645540443973,
+      "Gordon_final_N_ratio": 0.17633588894869903,
+      "Gordon_final_lambda_um": 2.148270047399926,
+      "full_response_final_N_ratio": 0.1666859022608778,
+      "full_response_final_lambda_um": 2.147005199090707
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-adiab-bound",
+      "T_fs": 200.0,
+      "initial_loss_width": 0.016233842974905516,
+      "initial_alpha_z0": 0.01,
+      "initial_spectral_loss_factor": 1.0027107736252716,
+      "Gordon_final_N_ratio": 0.8799746221795729,
+      "Gordon_final_lambda_um": 2.000647658727437,
+      "full_response_final_N_ratio": 0.8797357785239769,
+      "full_response_final_lambda_um": 2.0006044435876
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-adiab-beyond",
+      "T_fs": 200.0,
+      "initial_loss_width": 0.016233842974905516,
+      "initial_alpha_z0": 0.030000000000000002,
+      "initial_spectral_loss_factor": 1.0027107736252716,
+      "Gordon_final_N_ratio": 0.6816878403219931,
+      "Gordon_final_lambda_um": 2.000423484015509,
+      "full_response_final_N_ratio": 0.681398623185092,
+      "full_response_final_lambda_um": 2.0003068063642857
+    }
+  ]
+}

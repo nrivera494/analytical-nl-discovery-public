@@ -1,0 +1,9 @@
+{"Phi": 7.0, "best_F": 0.4877913571944758, "best_seed_Phi": 12.5, "best_mirror": false, "best_selected": 280, "n_bins": 601, "wall_s": 18.3}
+{"Phi": 10.0, "best_F": 0.47109483547546716, "best_seed_Phi": 3.0, "best_mirror": false, "best_selected": 369, "n_bins": 735, "wall_s": 22.9}
+{"Phi": 12.5, "best_F": 0.44994637141333804, "best_seed_Phi": 7.0, "best_mirror": false, "best_selected": 270, "n_bins": 839, "wall_s": 28.2}
+{"Phi": 15.0, "best_F": 0.43912149620132407, "best_seed_Phi": 5.0, "best_mirror": true, "best_selected": 333, "n_bins": 941, "wall_s": 42.8}
+{"Phi": 20.0, "best_F": 0.4004203347028407, "best_seed_Phi": 20.0, "best_mirror": false, "best_selected": 438, "n_bins": 1137, "wall_s": 71.0}
+{"Phi": 25.0, "best_F": 0.3218011062471881, "best_seed_Phi": 20.0, "best_mirror": false, "best_selected": 592, "n_bins": 1327, "wall_s": 98.1}
+{"Phi": 30.0, "best_F": 0.4005617273675993, "best_seed_Phi": 12.5, "best_mirror": true, "best_selected": 525, "n_bins": 1511, "wall_s": 150.1}
+{"Phi": 40.0, "best_F": 0.35898302921155023, "best_seed_Phi": 50.0, "best_mirror": false, "best_selected": 1366, "n_bins": 1871, "wall_s": 208.3}
+{"Phi": 50.0, "best_F": 0.3238424678360707, "best_seed_Phi": 7.0, "best_mirror": false, "best_selected": 1561, "n_bins": 2225, "wall_s": 257.4}

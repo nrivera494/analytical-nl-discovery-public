@@ -1,0 +1,18 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_radiation_onset.py
+mode: freeze
+delta: [0.65, 0.75, 0.85, 1.05]
+mu: 0
+potential: 0.75
+stationary_solver: DOP853
+stationary_rtol: 2.0e-11
+stationary_atol: 1.0e-13
+stationary_half_domain: 24
+propagation_nt: 16384
+propagation_window_tau: 2048
+propagation_dzeta: 0.02
+propagation_zeta_max: 400
+slope_interval: [200, 400]
+relative_tolerance_open_channel: 0.05

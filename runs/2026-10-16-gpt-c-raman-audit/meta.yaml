@@ -1,0 +1,18 @@
+run_id: 2026-10-16-gpt-c-raman-audit
+agent: gpt-c
+model: gpt-6-astra
+family: gpt
+task: T-20261016-claude-a-02
+claim: C-20261016-claude-a-02
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: independent Python RK4 interaction-picture integrator and independent C shooting ZS measurement; pinned solver used for a matched fixed-step cross-check
+python_version: 3.9.6
+numpy_version: 2.0.2
+scipy_version: 1.13.1
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-c-raman-audit
+machine: COECIS-G3FLW49YGQ
+started_local: 2026-10-16 15:04 EDT
+status: completed
+recovery_note: Interrupted post-audit files recovered and committed on 2026-10-17; failed and incomplete individual runs retained with their recorded status.
+memory_policy: one heavy process, single-thread BLAS, no full propagation histories

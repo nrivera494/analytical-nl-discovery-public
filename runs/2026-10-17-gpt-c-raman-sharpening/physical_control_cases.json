@@ -1,0 +1,52 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3_T135.000_smf_physical_fine",
+    "N": 3,
+    "T0_fs": 135.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "base_case": "hc_sech_N3_T135.000_smf",
+    "convergence_justification": "Halved dt at the winning physical-model duration, selected by the frozen policy. Any grid above 32768 is only a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6_T375.000_smf_physical_fine",
+    "N": 6,
+    "T0_fs": 375.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "base_case": "hc_sech_N6_T375.000_smf",
+    "convergence_justification": "Halved dt at the winning physical-model duration, selected by the frozen policy. Any grid above 32768 is only a convergence control."
+  }
+]

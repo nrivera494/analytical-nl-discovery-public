@@ -1,0 +1,129 @@
+run_id: 2026-10-10-claude-b.6-solver-nd-check
+date: 2026-10-10
+agent: claude-b.6
+model: claude-opus-5-5
+family: claude
+task: T-20261010-claude-interactive-05
+serves: "P-20261010-claude-interactive-01 (approach 2, normal dispersion): independent FastDifferentiableMMNLO computation of filtered photon-number Fano factors for claude-b's optimized binary and interval filters, for comparison with claude-b's numpy code (case A), and the effect of self-steepening (case B) and Raman (case C). No output of claude-b's numpy code was opened before summary.json was hashed."
+description: >-
+  Scalar single-mode NLSE in normal dispersion, i u_xi - (1/2) u_tautau + N^2 |u|^2 u = 0,
+  u(tau,0) = exp(-tau^2/2), z = zr * xi_wb(N) * L_D with xi_wb(N) = 1/sqrt(4 N^2 e^{-3/2} - 1).
+  Readout: photon number in the binary filters of filters_for_solver.json (copied from
+  runs/2026-10-10-claude-b-nd-oracle/, sha256 0e06d602...f7d), bin k meaning Omega T0 = k 2pi/40 on
+  the solver's centered frequency axis (window 40 T0; the axis has a unique Omega = 0 bin and every
+  bin lies on k 2pi/window to 1e-9; bins identified by rounding). F = Var(N_T)/<N_T> for linearized
+  vacuum noise of the coherent input, Var = sum |dN_T/dconj(B(0))|^2 from
+  solve_adjoint(...; adjoint_mode=:discrete_rk4ip) on a fixed-step RK4IP Float64 forward run with
+  equal adjoint step, as in example_notebooks/squeezing_spectral_filter.ipynb. Every point was also
+  run with the mirrored filter (bins -k), because the solver's Omega is the physical detuning
+  omega - omega0 (A(t) = sum_k A_k exp(-i Omega_k t), positive Omega = higher optical frequency) and
+  self-steepening and Raman break the Omega -> -Omega symmetry.
+  Case A (Kerr only): T0 = 1 ps, beta2 = +1 ps^2/m, gamma = 1 /W/m (L_D = 1 m, P0 = N^2 W),
+  NoRaman(), self-steepening suppressed by omega0 T0 = 1e6 (also 1e7, 1e8, 1e9). Points N = 10,
+  zr = 0.7 (key N10_zr0.7) and N = 20, zr = 0.3 (key N20_zr0.3). Nt = 512 over 40 T0, 4000 steps
+  (dz = xi_L/4000 L_D). Reported Kerr-only value F_s0 = mean of filter and mirrored filter at
+  omega0 T0 = 1e9 (parity maps (T, s) to (-T, -s) with s = 1/(omega0 T0), so the mean is F(s = 0) + O(s^2)).
+  Case B: beta2 = 0.020 ps^2/m, gamma = 0.010 /W/m, T0 = 0.100 ps (L_D = 0.5 m), N = 10 (P0 = 20 kW),
+  z = 0.7 xi_wb(10) L_D = 0.0372568 m (xi_L = 0.0745136), NoRaman(). B_ss: self-steepening on, omega0 = 2pi c/1550 nm
+  (omega0 T0 = 121.526), photons counted at the physical carrier. B_noss: omega0 T0 = 1e6 (n2 rescaled
+  to keep gamma), solver photon weights (uniform) -- the same dimensionless problem as case A. Extra
+  decomposition B_noss_physical_photon_weights: B_noss dynamics, but observable and input vacuum in
+  photon units at the physical 1550 nm carrier (filter multiplied by w_phys/w_run, sensitivity
+  divided by sqrt(w_phys)); it separates the photon-energy weighting from the self-steepening
+  dynamics. Nt = 512, 4000 steps.
+  Case C: as B_ss with raman = AgarwalRaman() (fraction 0.18, tau1 = 12.2 fs, tau2 = 32 fs; the
+  model the squeezing notebook passes to MMGNLSEParameters), Nt = 2048 over 4 ps (dt = 1.95 fs),
+  4000 steps, forward and adjoint saved at every step. C1: deterministic delayed response, F from
+  input vacuum only. C2: Raman Langevin variance by the notebook contraction
+  B = -2 Im(A conj(lambda)) (power units), Var_R = gamma^2 sum_z w_z sum_omega |ifftshift(ifft(B))|^2 C(omega) df,
+  with C(omega) from raman_langevin_spectrum_coth (symmetrized coth(hbar|omega|/2kT) spectrum,
+  300 K; copied verbatim from solver branch task/T-20261004-gpt-b-02, commit d79f150,
+  example_notebooks/raman_bath_spectrum.jl, sha256 cc621d0f...f31f). Reported variants: z weights
+  trapezoid ("trap", primary) and the notebook's nominal-dz rectangle ("rect"); "notebook" (noise
+  injected as i gamma A m, as in the notebook) and "ssweight" (noise injected through the solver's
+  full nonlinear prefactor (1 + Omega/omega0) * damped_freq_window, i.e. with the same
+  self-steepening operator as the delayed Kerr term); spectra coth 300 K, coth 0 K (zero point
+  only) and the legacy solver spectrum at 300 K (comparison only; not used for results).
+  Raman-kernel sampling converges as dt^2, so C was repeated at Nt = 1024, 4096 and 8192 and
+  extrapolated (Richardson, dt^2).
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_remote_check: "git -C solver ls-remote origin main on 2026-10-10 lists b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa as refs/heads/main (agents' copy). git -C solver status --porcelain printed nothing before and after the runs. The gpt-b branch was only fetched (FETCH_HEAD d79f150c4dabac6f461f0302eb06b1ec7900bd4e) to read raman_bath_spectrum.jl; the checkout was not changed."
+julia: "1.12.5, JULIA_NUM_THREADS=2, FFTW and BLAS threads 1 (set in run_nd.jl)"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0.1 (host COECIS-G3FLW49YGQ); three other agents' Julia jobs ran concurrently"
+commands:
+  - "~/agent-work/venv/bin/python runs/2026-10-10-claude-b.6-solver-nd-check/filters_to_toml.py"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-b.6-solver-nd-check/run_nd.jl A"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-b.6-solver-nd-check/run_nd.jl A_w0 A_conv A_conv2"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-b.6-solver-nd-check/run_nd.jl B B_conv C fd"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-b.6-solver-nd-check/run_nd.jl fd2 C_conv C_conv2"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-b.6-solver-nd-check/run_nd.jl C_conv3"
+  - "~/agent-work/venv/bin/python runs/2026-10-10-claude-b.6-solver-nd-check/summarize.py"
+  - "POST-FREEZE: JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-b.6-solver-nd-check/run_nd.jl post_B_ss_uniform"
+  - "POST-FREEZE: JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-10-claude-b.6-solver-nd-check/run_nd.jl post_B_ss_uniform_s0082"
+  - "POST-FREEZE: ~/agent-work/venv/bin/python runs/2026-10-10-claude-b.6-solver-nd-check/summarize_postfreeze.py"
+files:
+  library: nd_lib.jl (setup, filters, forward, discrete-adjoint F, Raman contraction, diagnostics)
+  driver: run_nd.jl (stages; one JSON line per (point, filter, mirror) appended to the raw results.jsonl)
+  summarizer: summarize.py (results.jsonl -> summary.json; headline block first)
+  summary: summary.json (every reported number; all_points holds all 112 computed records)
+  inputs: filters_for_solver.json (claude-b's filter definitions, copied unchanged), filters.toml (generated from it), raman_bath_spectrum.jl (copied unchanged from the gpt-b solver branch)
+  post_freeze: summarize_postfreeze.py -> summary_postfreeze.json (post-freeze solver points from results_postfreeze.jsonl and the comparison with claude-b's numpy covariances); not covered by the frozen hash
+post_freeze: >-
+  Everything in this block was done after summary.json was hashed and does not change it
+  (summary.json sha256 still 3c6879c7...4803; results.jsonl sha256 still 46bf7f0a...faa4).
+  (1) Read runs/2026-10-10-claude-b-nd-oracle/nd_cov.py for conventions only: its spectrum is
+  numpy fft(u), the coefficient of exp(+i w t), while the solver's is the coefficient of
+  exp(-i Omega t); both time-domain equations carry self-steepening as (1 + i s d/dtau)(|u|^2 u).
+  So claude-b's bin k is the solver's bin -k: for cases B and C the solver 'mirror' entries are the
+  ones with claude-b's filters as claude-b applies them. Its photon counting is uniform in frequency.
+  (2) Added stages post_B_ss_uniform (s = 1/121.526) and post_B_ss_uniform_s0082 (s = 0.0082):
+  self-steepening dynamics with photon counting and input vacuum uniform in frequency (Omega = 0
+  photon weight), Nt = 512, 4000 steps (8000 steps change F by <= 3.2e-12). F, solver labels
+  filter(+k)/mirror(-k): binary 0.465608/0.449802, interval 0.734734/0.729874 (s = 1/121.526);
+  binary 0.465539/0.449785, interval 0.734691/0.729851 (s = 0.0082). Records in results_postfreeze.jsonl.
+  (3) Compared with claude-b's covariance matrices (~/analytical-nl-discovery-data/2026-10-10-claude-b-nd-oracle/
+  N10_zr0.7.npz, N20_zr0.3.npz, N10_zr0.7_ss0.0082.npz; F = 1^T C_T 1 / sum nbar_T), opened for the
+  first time after the freeze. Case A, numpy minus solver F_s0: N10 binary +4.2e-7, N10 interval +1.4e-6,
+  N20 binary +9.7e-8, N20 interval +4.3e-7. Self-steepening, uniform weights, same physical bins,
+  s = 1/121.526: binary -4.2e-5 (claude-b's bins as given) and -5.0e-6 (its mirror), interval -6.3e-5
+  (as given; its mirror lacks 20 bins in the npz). With s = 0.0082 the differences are -2.5e-5, +6.5e-5,
+  -4.0e-5, so rounding s does not explain them. The solver numbers are converged to <= 2e-11, so the
+  differences presumably come from the numpy discretization; the numpy code was not run here.
+  run_nd.jl was edited after the freeze only to add the two post_ stages and to make the results
+  path a Ref (post_ stages write to results_postfreeze.jsonl); the pre-freeze stages are unchanged.
+independence: "summary.json was frozen at 2026-10-10 11:11:49 EDT with sha256 3c6879c7e7e364dfec47ab25430e824e634e74a60454ed35f2fd24cf6e7c4803 (raw results.jsonl sha256 46bf7f0a6f0791f11faac70840523621723c4f9b0cd60cab8caff424b9cefaa4, 112 records). Before that, only filters_for_solver.json was read from runs/2026-10-10-claude-b-nd-oracle/; no .py file or output there, and nothing in ~/analytical-nl-discovery-data/2026-10-10-claude-b-nd-oracle/, was opened. Nothing in summary.json was changed after the freeze."
+seeds: "none for F (deterministic linearized calculation); finite-difference directions use MersenneTwister(20261010)"
+wall_time_s: "about 1000 in five sequential Julia processes (10:53-11:11 EDT), including compilation. Nt = 512, 4000 steps: forward 0.5 s, discrete adjoint 2.4 s. Case C, Nt = 2048, 4000 steps, saved every step: forward 2.1 s, adjoint 9-10 s; Nt = 8192, 2000 steps: forward 9 s, adjoint 27-36 s."
+convergence: >-
+  Case A (relative to Nt = 512, 4000 steps, omega0 T0 = 1e6): 1000, 2000, 8000, 16000 steps change F
+  by at most 1.2e-10, 8.1e-12, 6.0e-13, 8.8e-13; Nt = 1024 and 2048 at fixed 40 T0 window by at most
+  2.8e-13. Self-steepening residual: F(T) - F(-T) = +1.469e-6, +1.469e-7, +1.469e-8, +1.469e-9 (N10
+  binary) at omega0 T0 = 1e6, 1e7, 1e8, 1e9 (exactly O(s)); the mirror mean at 1e6 and at 1e9 agree to
+  2.2e-10 (N10 binary), i.e. O(s^2). The N20 interval filter is symmetric (bins -42..42), so filter =
+  mirror. Steps: xi_L/4000 = 1.86e-5 L_D (N = 10) and 3.97e-6 L_D (N = 20).
+  Case B_ss: 8000 steps change F by <= 3.4e-12; Nt = 1024 and 2048 by <= 1.7e-11. B_noss reproduces
+  case A at omega0 T0 = 1e6 to 8.6e-13 (unit handling). Photon number with self-steepening conserved
+  to 2.1e-13 (B_ss) and 2.3e-13 (C).
+  Case C (relative to Nt = 2048, 4000 steps): 2000 and 8000 steps change F_C1 by <= 8.6e-12 and the
+  Raman variance/N by <= 2.7e-9. The Raman kernel is sampled at t_n = n dt with a kink at t = 0, so
+  F converges as dt^2: binary filter F_C1 = 0.4717384 (Nt 1024, dt 3.9 fs), 0.4730324 (2048), 0.4733621
+  (4096), 0.4734449 (8192); successive-difference ratios 3.92 and 3.98 (all filters and quantities:
+  3.66-4.03); Richardson (dt^2) values from (2048, 4096) and (4096, 8192) agree to <= 5.2e-7 for every
+  reported quantity. The dt -> 0 values in summary.json headline use (4096, 8192); Nt = 8192 used 2000
+  steps (dz converged to 1e-11 at Nt = 2048).
+  Adjoint versus central finite differences of the forward map (fixed random directions, photon
+  units): case A N10, eps = 0.01: 3.7e-10, 4.0e-9; case C (Raman + self-steepening, N_T ~ 1.2e10):
+  eps = 0.01: 1.7e-6, 2.5e-5; eps = 1: 4.8e-8, 1.2e-7; eps = 3: 1.8e-9, 1.7e-8 (the eps = 0.01 numbers
+  are limited by rounding of N_T, error ~ 1/eps).
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-10-claude-b.6-solver-nd-check/ (results.jsonl, log_*.txt)"
+caveats:
+  - "Bin sign convention. Filter bins were applied as Omega T0 = +k 2pi/40 with Omega the physical detuning (solver convention, positive = blue). If claude-b's numpy code uses the opposite sign (e.g. u(t) = sum U exp(+i Omega t)), the 'mirror' entries are the ones that correspond to its filters in cases B and C. Case A is parity symmetric and does not depend on this (filter and mirror agree to O(s))."
+  - "Case A at omega0 T0 = 1e6 (the value suggested in the task) leaves an O(s) = O(1e-6) self-steepening/photon-weight residual that changes the 6th digit for the asymmetric filters (0.451337 vs 0.451336, 0.727378 vs 0.727380, 0.453441 vs 0.453438). The Kerr-only values are F_s0 (mirror mean at omega0 T0 = 1e9); both are in summary.json."
+  - "Self-steepening cannot be switched off in MMGNLSEParameters: the nonlinear prefactor is n2 (omega0 + Omega)/c and the photon weights are 1/(hbar(omega0 + Omega)), both set by omega0. 'Self-steepening suppressed' therefore also makes photon counting uniform in frequency. With T0 = 0.1 ps the band of the filters spans |Omega| <= 0.18 omega0, so photon counting at the physical carrier alone changes F by up to 0.018 (B_noss_physical_photon_weights); the self-steepening dynamics account for the rest of B_ss - B_noss."
+  - "Case C at the specified grid (Nt = 2048, dt = 1.95 fs) is not converged to 6 digits: the deterministic Raman response converges as dt^2, and F_C1(dt -> 0) - F_C1(Nt = 2048) = +4.4e-4 (binary), -1.6e-4 (binary mirror), +2.5e-4 (interval), -8.5e-5 (interval mirror). Both the Nt = 2048 numbers and the dt -> 0 extrapolations are reported. varR/N changes by at most 4.3e-5 (absolute; 1.1e-3 relative, binary mirror) from Nt = 2048 to 8192."
+  - "The Raman Langevin contraction was not checked against a Monte Carlo in this run (the gpt-b branch did that for the notebook cases, without self-steepening on the noise term). The notebook formula injects the noise as i gamma A m without the self-steepening operator; injecting it through the solver's full nonlinear prefactor (ssweight) changes varR/N by -3.5% (binary), -3.0% (binary mirror), +4.4% (interval) and -10.9% (interval mirror). I regard ssweight as the consistent choice when self-steepening is on, but this is a modelling statement, not a check."
+  - "Legacy solver spectrum PulsePropagation.raman_langevin_spectrum (not used for results): coth/legacy variance ratio 1.27 (binary filter), 1.25 (binary mirror), 1.34 (interval), 1.35 (interval mirror) at Nt = 2048. Zero-point part alone (coth at 0 K): 43%, 40%, 51%, 52% of the 300 K variance."
+  - "At Nt >= 2048 with T0 = 0.1 ps the frequency grid extends past Omega = -omega0 (Nyquist 1608 rad/ps at Nt = 2048 vs omega0 = 1215 rad/ps). Those bins have zero photon weight and a negative self-steepening prefactor; the field there is below 1e-30 of the energy, so this has no effect here, but it would in a broader-band problem."
+  - "F is the linearized (first-order) vacuum-noise Fano factor; no beyond-linear corrections are included. Mean photon numbers are 7.2e5-6.5e6 (case A, omega0 T0 = 1e6, arbitrary units of the soliton-unit realization) and 1.2e10-1.9e10 (cases B, C)."
+  - "Other agents' Julia jobs ran on the same machine; timings are indicative only."

@@ -1,0 +1,128 @@
+{
+ "grid": {
+  "n": 256,
+  "T": 48.0,
+  "K": 12.0
+ },
+ "seed": 11,
+ "cases": [
+  {
+   "A": 2.0,
+   "eta_TL_grid": 1.5219451111173274,
+   "best_grid": {
+    "family": "sharp",
+    "start": "1",
+    "eta": 1.5219451111173208
+   },
+   "line_eta_TL": 1.521945111097602,
+   "line_eta_best": 1.5219451110975961,
+   "gain_line": -3.885780586188048e-15,
+   "all": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 1.5219451110337698
+    },
+    {
+     "family": "phase-cheb",
+     "start": "0.3",
+     "eta": 1.5219451103684527
+    },
+    {
+     "family": "phase-cheb",
+     "start": "0.8",
+     "eta": 1.5219451104646544
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 1.5219451106791306
+    },
+    {
+     "family": "passive-cheb",
+     "start": "0.5",
+     "eta": 1.5219450358404103
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 1.5219450873897507
+    },
+    {
+     "family": "passive-bins",
+     "start": "0.5",
+     "eta": 1.5219424004690174
+    },
+    {
+     "family": "sharp",
+     "start": "0",
+     "eta": 1.5219451042492371
+    },
+    {
+     "family": "sharp",
+     "start": "1",
+     "eta": 1.5219451111173208
+    }
+   ]
+  },
+  {
+   "A": 4.0,
+   "eta_TL_grid": 3.5209253697137917,
+   "best_grid": {
+    "family": "sharp",
+    "start": "1",
+    "eta": 3.5209253697137908
+   },
+   "line_eta_TL": 3.520925369631812,
+   "line_eta_best": 3.520925369631814,
+   "gain_line": 6.661338147750939e-16,
+   "all": [
+    {
+     "family": "phase-cheb",
+     "start": "nearTL",
+     "eta": 3.5209253696681873
+    },
+    {
+     "family": "phase-cheb",
+     "start": "0.3",
+     "eta": 3.5209253688949538
+    },
+    {
+     "family": "phase-cheb",
+     "start": "0.8",
+     "eta": 3.520925356008378
+    },
+    {
+     "family": "passive-cheb",
+     "start": "nearTL",
+     "eta": 3.5209253663361353
+    },
+    {
+     "family": "passive-cheb",
+     "start": "0.5",
+     "eta": 3.520922777449843
+    },
+    {
+     "family": "passive-bins",
+     "start": "nearTL",
+     "eta": 3.520925312930094
+    },
+    {
+     "family": "passive-bins",
+     "start": "0.5",
+     "eta": 3.5209199982064616
+    },
+    {
+     "family": "sharp",
+     "start": "0",
+     "eta": 3.5209202345804127
+    },
+    {
+     "family": "sharp",
+     "start": "1",
+     "eta": 3.5209253697137908
+    }
+   ]
+  }
+ ]
+}

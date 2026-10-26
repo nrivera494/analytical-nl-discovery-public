@@ -1,0 +1,39 @@
+# A pull request that touches results/ is a result candidate: label it, mention the PI, and post to
+# a webhook if the repository secret RESULT_WEBHOOK_URL is set. The webhook receives a plain-text
+# POST (an ntfy.sh topic URL works as is).
+name: notify-result
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+    paths:
+      - "results/**"
+
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label and mention the PI
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PI: ${{ vars.PI_HANDLE || 'nrivera494' }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh label create result-candidate --repo "$REPO" --color B60205 \
+            --description "Adds or changes a folder under results/" 2>/dev/null || true
+          gh pr edit "$PR" --repo "$REPO" --add-label result-candidate
+          gh pr comment "$PR" --repo "$REPO" \
+            --body "@$PI this pull request touches \`results/\`. Promotion needs your review (docs/PROMOTION.md)."
+      - name: Webhook
+        env:
+          HOOK: ${{ secrets.RESULT_WEBHOOK_URL }}
+          TITLE: ${{ github.event.pull_request.title }}
+          URL: ${{ github.event.pull_request.html_url }}
+        run: |
+          [ -n "$HOOK" ] || { echo "no webhook configured"; exit 0; }
+          curl -fsS -H "Title: Result candidate" -H "Click: $URL" -d "$TITLE" "$HOOK"

@@ -1,0 +1,719 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-wavebreaking"
+
+[defaults]
+window = 32.0
+length = 4.0
+save_interval = 0.02
+
+[[cases]]
+label = "gaussian_w0p5_qm0p5_n2048"
+nt = 2048
+shape = "gaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w0p5_q0_n2048"
+nt = 2048
+shape = "gaussian"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w0p5_q0p3333_n2048"
+nt = 2048
+shape = "gaussian"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w1_qm0p5_n2048"
+nt = 2048
+shape = "gaussian"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w1_q0_n2048"
+nt = 2048
+shape = "gaussian"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w1_q0p3333_n2048"
+nt = 2048
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w2_qm0p5_n2048"
+nt = 2048
+shape = "gaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w2_q0_n2048"
+nt = 2048
+shape = "gaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w2_q0p3333_n2048"
+nt = 2048
+shape = "gaussian"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w0p5_qm0p5_n2048"
+nt = 2048
+shape = "sech"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "sech_w0p5_q0_n2048"
+nt = 2048
+shape = "sech"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "sech_w0p5_q0p3333_n2048"
+nt = 2048
+shape = "sech"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w1_qm0p5_n2048"
+nt = 2048
+shape = "sech"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_w1_q0_n2048"
+nt = 2048
+shape = "sech"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_w1_q0p3333_n2048"
+nt = 2048
+shape = "sech"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w2_qm0p5_n2048"
+nt = 2048
+shape = "sech"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_w2_q0_n2048"
+nt = 2048
+shape = "sech"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_w2_q0p3333_n2048"
+nt = 2048
+shape = "sech"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w0p5_qm0p5_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w0p5_q0_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w0p5_q0p3333_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w1_qm0p5_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w1_q0_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w1_q0p3333_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w2_qm0p5_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w2_q0_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w2_q0p3333_n2048"
+nt = 2048
+shape = "supergaussian"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w0p5_qm0p5_n4096"
+nt = 4096
+shape = "gaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w0p5_q0_n4096"
+nt = 4096
+shape = "gaussian"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w0p5_q0p3333_n4096"
+nt = 4096
+shape = "gaussian"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w1_qm0p5_n4096"
+nt = 4096
+shape = "gaussian"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w1_q0_n4096"
+nt = 4096
+shape = "gaussian"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w1_q0p3333_n4096"
+nt = 4096
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w2_qm0p5_n4096"
+nt = 4096
+shape = "gaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w2_q0_n4096"
+nt = 4096
+shape = "gaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w2_q0p3333_n4096"
+nt = 4096
+shape = "gaussian"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w0p5_qm0p5_n4096"
+nt = 4096
+shape = "sech"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "sech_w0p5_q0_n4096"
+nt = 4096
+shape = "sech"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "sech_w0p5_q0p3333_n4096"
+nt = 4096
+shape = "sech"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w1_qm0p5_n4096"
+nt = 4096
+shape = "sech"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_w1_q0_n4096"
+nt = 4096
+shape = "sech"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_w1_q0p3333_n4096"
+nt = 4096
+shape = "sech"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w2_qm0p5_n4096"
+nt = 4096
+shape = "sech"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_w2_q0_n4096"
+nt = 4096
+shape = "sech"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_w2_q0p3333_n4096"
+nt = 4096
+shape = "sech"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w0p5_qm0p5_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w0p5_q0_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w0p5_q0p3333_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w1_qm0p5_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w1_q0_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w1_q0p3333_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w2_qm0p5_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w2_q0_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w2_q0p3333_n4096"
+nt = 4096
+shape = "supergaussian"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w0p5_qm0p5_n8192"
+nt = 8192
+shape = "gaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w0p5_q0_n8192"
+nt = 8192
+shape = "gaussian"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w0p5_q0p3333_n8192"
+nt = 8192
+shape = "gaussian"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w1_qm0p5_n8192"
+nt = 8192
+shape = "gaussian"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w1_q0_n8192"
+nt = 8192
+shape = "gaussian"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w1_q0p3333_n8192"
+nt = 8192
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "gaussian_w2_qm0p5_n8192"
+nt = 8192
+shape = "gaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w2_q0_n8192"
+nt = 8192
+shape = "gaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "gaussian_w2_q0p3333_n8192"
+nt = 8192
+shape = "gaussian"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w0p5_qm0p5_n8192"
+nt = 8192
+shape = "sech"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "sech_w0p5_q0_n8192"
+nt = 8192
+shape = "sech"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "sech_w0p5_q0p3333_n8192"
+nt = 8192
+shape = "sech"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w1_qm0p5_n8192"
+nt = 8192
+shape = "sech"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_w1_q0_n8192"
+nt = 8192
+shape = "sech"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_w1_q0p3333_n8192"
+nt = 8192
+shape = "sech"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "sech_w2_qm0p5_n8192"
+nt = 8192
+shape = "sech"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_w2_q0_n8192"
+nt = 8192
+shape = "sech"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_w2_q0p3333_n8192"
+nt = 8192
+shape = "sech"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w0p5_qm0p5_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w0p5_q0_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w0p5_q0p3333_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 0.5
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w1_qm0p5_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 1.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w1_q0_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 1.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w1_q0p3333_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 1.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "supergaussian_w2_qm0p5_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w2_q0_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w2_q0p3333_n8192"
+nt = 8192
+shape = "supergaussian"
+width = 2.0
+chirp = 0.3333333333333333
+
+[[cases]]
+label = "shock_n1024"
+nt = 1024
+shape = "shock_example"
+window = 6.0
+length = 0.12
+save_interval = 0.001
+k = 1.0
+ell = 0.025
+
+[[cases]]
+label = "shock_n2048"
+nt = 2048
+shape = "shock_example"
+window = 6.0
+length = 0.12
+save_interval = 0.001
+k = 1.0
+ell = 0.025
+
+[[cases]]
+label = "shock_n4096"
+nt = 4096
+shape = "shock_example"
+window = 6.0
+length = 0.12
+save_interval = 0.001
+k = 1.0
+ell = 0.025
+
+[[cases]]
+label = "shock_n8192"
+nt = 8192
+shape = "shock_example"
+window = 6.0
+length = 0.12
+save_interval = 0.001
+k = 1.0
+ell = 0.025
+
+[[cases]]
+label = "gaussian_step"
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 8192
+window = 32.0
+cfl = 0.15
+
+[[cases]]
+label = "gaussian_grid"
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 16384
+window = 32.0
+cfl = 0.3
+
+[[cases]]
+label = "gaussian_window"
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 16384
+window = 64.0
+cfl = 0.3
+
+[[cases]]
+label = "sech_step"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+nt = 8192
+window = 32.0
+cfl = 0.15
+
+[[cases]]
+label = "sech_grid"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+nt = 16384
+window = 32.0
+cfl = 0.3
+
+[[cases]]
+label = "sech_window"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+nt = 16384
+window = 64.0
+cfl = 0.3
+
+[[cases]]
+label = "supergaussian_step"
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+nt = 8192
+window = 32.0
+cfl = 0.15
+
+[[cases]]
+label = "supergaussian_grid"
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+nt = 16384
+window = 32.0
+cfl = 0.3
+
+[[cases]]
+label = "supergaussian_window"
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+nt = 16384
+window = 64.0
+cfl = 0.3
+
+[[cases]]
+label = "parabola_n2048"
+shape = "parabola_exact"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 2048
+
+[[cases]]
+label = "parabola_n4096"
+shape = "parabola_exact"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 4096
+
+[[cases]]
+label = "parabola_n8192"
+shape = "parabola_exact"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 8192

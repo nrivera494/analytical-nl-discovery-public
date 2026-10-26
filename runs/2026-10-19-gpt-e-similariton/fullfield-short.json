@@ -1,0 +1,45 @@
+[
+  {
+    "epsilon": 0.05,
+    "tau": 0.2,
+    "chirped": true,
+    "smoothing": 0.0,
+    "n": 1024,
+    "window": 16.0,
+    "steps": 512,
+    "nsp": 1.0,
+    "hydro_width": 1.0689391057472464,
+    "actual_width": 1.0688499733913108,
+    "full": {
+      "n0_variance": 0.5250085541877798,
+      "n2_variance": 1.855922589755098,
+      "p0_variance": 1.4109224913561278,
+      "p2_variance": 17.419752599343298,
+      "matched_phase_variance": 1.03804831154021,
+      "phase_energy_deficit": 0.3627334105500577,
+      "CAA": 1.442805516320934,
+      "CPP": 5.071500283274879,
+      "CAP": 2.159398021151803,
+      "lambda_LO": 0.43671742957632054
+    },
+    "intensity_only": {
+      "n0_variance": 0.5250085541877798,
+      "n2_variance": 1.8542268149953105,
+      "p0_variance": 0.6956826694195707,
+      "p2_variance": 7.053684567270283,
+      "matched_phase_variance": 0.7426999348223369,
+      "phase_energy_deficit": 0.1093125552276486,
+      "CAA": 1.442805516320934,
+      "CPP": 3.6285429955095228,
+      "CAP": 2.1593980211518002,
+      "lambda_LO": 0.11547552528653628
+    },
+    "exact_CAA": 1.4428055163203397,
+    "seconds": 0.2998669147491455,
+    "adjoint_defect": 3.0609485207813967e-15,
+    "symplectic_defect": 1.3038530150312592e-14,
+    "high_frequency_fraction": 2.2578570398468963e-05,
+    "edge_energy_fraction": 1.6252089211331123e-10,
+    "energy_relative_error": 1.5765166949677223e-13
+  }
+]

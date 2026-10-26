@@ -1,0 +1,9 @@
+# Solver change ledger
+
+Changes made in the agents' copy (FastDifferentiableMMNLO-agents) and their status in the original (FastDifferentiableMMNLO). Newest first. See `README.md` in this folder.
+
+| Date | Agents' copy | Applies to original | Files | Task | Note | Status in original |
+|---|---|---|---|---|---|---|
+| 2026-10-10 | `7f3bfd1` on `task/T-20261006-claude-interactive-03` ([PR #2](https://github.com/nrivera494/FastDifferentiableMMNLO-agents/pull/2)) | `9c12887` (seed tree; the two touched source files are unchanged in the original since) | `src/mmgnlse_adjoint_stochastic.jl`, `ext/mmgnlse_cuda_adjoint.jl` (default `adjoint_mode=:discrete_rk4ip`, error messages, docstring); `test/checkpointed_adjoint.jl`, `test/README.md`; `example_notebooks/step_index_squeezing.ipynb` cell 31 | T-20261006-claude-interactive-03 | Default change on PI instruction (2026-10-10). Breaking for calls whose adjoint step differs from the forward step, or with adaptive or mixed-precision forward solves; those now raise an error naming `adjoint_mode=:continuous`. The PI may prefer a softer path in the original, such as a deprecation warning. Carry with `gh api repos/nrivera494/FastDifferentiableMMNLO-agents/commits/<sha> -H "Accept: application/vnd.github.patch"` and `git am -3` (README). CPU tests 24/24 | not carried |
+| 2026-10-06 | `d79f150` on `task/T-20261004-gpt-b-02` ([PR #1](https://github.com/nrivera494/FastDifferentiableMMNLO-agents/pull/1)) | `9c12887` (also available as `2f632d9`, parent `9c12887`, in `~/agent-work/solver-raman`) | 5 in `example_notebooks/`; `src/` untouched | T-20261004-gpt-b-02 | [2026-10-06-raman-langevin-spectrum.md](2026-10-06-raman-langevin-spectrum.md) | not carried |
+| 2026-10-06 | `b9fa957` (seed) | `9c12887`, identical tree `ce25a00` | none | T-20261006-claude-interactive-01 | seed of the agents' copy | not applicable |

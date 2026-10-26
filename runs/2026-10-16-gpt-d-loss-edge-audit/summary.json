@@ -1,0 +1,1212 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "core": {
+    "z75-main": {
+      "run_id": "2026-10-16-gpt-d-z75-main",
+      "optima": {
+        "3.3": {
+          "eta": 0.9833158725291669,
+          "L_m": 1.625,
+          "boundary": false,
+          "alpha_z0": 0.00011392473316009042,
+          "loss_bandwidth_parameter": 0.5709724848018041,
+          "raman_longness": 3.092668564083703
+        },
+        "3.4": {
+          "eta": 0.9796963832190578,
+          "L_m": 2.275,
+          "boundary": false,
+          "alpha_z0": 0.00022711985734407339,
+          "loss_bandwidth_parameter": 0.45356330212059986,
+          "raman_longness": 3.4699404027040033
+        },
+        "3.5": {
+          "eta": 0.9710879500438514,
+          "L_m": 3.2,
+          "boundary": false,
+          "alpha_z0": 0.00041559964099715895,
+          "loss_bandwidth_parameter": 0.36889247461557845,
+          "raman_longness": 3.847610241669499
+        },
+        "3.6": {
+          "eta": 0.9513664773777589,
+          "L_m": 4.6000000000000005,
+          "boundary": false,
+          "alpha_z0": 0.0008458079867636785,
+          "loss_bandwidth_parameter": 0.28075951453742337,
+          "raman_longness": 4.410356830723766
+        },
+        "3.7": {
+          "eta": 0.904698818007812,
+          "L_m": 6.825,
+          "boundary": false,
+          "alpha_z0": 0.0016672487765367861,
+          "loss_bandwidth_parameter": 0.20909786259037072,
+          "raman_longness": 5.110532720376451
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9873988435532616,
+          "lambda_um": 3.5497887534279493
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.967447161938285,
+          "lambda_um": 3.6950754090568503
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.937009046129614,
+          "lambda_um": 3.7697436178534924
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.8950105750913352,
+          "lambda_um": 3.8154291114508583
+        }
+      ],
+      "total_photon_drift": -0.09309076936016314
+    },
+    "z75-window": {
+      "run_id": "2026-10-16-gpt-d-z75-window",
+      "optima": {
+        "3.3": {
+          "eta": 0.9833250783678218,
+          "L_m": 1.625,
+          "boundary": false,
+          "alpha_z0": 0.00011465762989069678,
+          "loss_bandwidth_parameter": 0.5694060956743434,
+          "raman_longness": 3.096919480470356
+        },
+        "3.4": {
+          "eta": 0.9796002354656629,
+          "L_m": 2.275,
+          "boundary": false,
+          "alpha_z0": 0.00022807368216766385,
+          "loss_bandwidth_parameter": 0.45262711188800764,
+          "raman_longness": 3.4735270706177444
+        },
+        "3.5": {
+          "eta": 0.9709163878427982,
+          "L_m": 3.25,
+          "boundary": false,
+          "alpha_z0": 0.0004326588774797953,
+          "loss_bandwidth_parameter": 0.363127633918539,
+          "raman_longness": 3.878031389484155
+        },
+        "3.6": {
+          "eta": 0.9512979494076677,
+          "L_m": 4.6000000000000005,
+          "boundary": false,
+          "alpha_z0": 0.0008480469338147692,
+          "loss_bandwidth_parameter": 0.2803426077157691,
+          "raman_longness": 4.413635006614612
+        },
+        "3.7": {
+          "eta": 0.9048253248220784,
+          "L_m": 6.75,
+          "boundary": false,
+          "alpha_z0": 0.0016373068576576888,
+          "loss_bandwidth_parameter": 0.21084916802341133,
+          "raman_longness": 5.089264516673194
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9825557344212006,
+          "lambda_um": 3.554276442224644
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9664725097222537,
+          "lambda_um": 3.696135989260954
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9359517343454429,
+          "lambda_um": 3.7708645424227405
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.8934400564109853,
+          "lambda_um": 3.817422888147764
+        }
+      ],
+      "total_photon_drift": -0.09303242608062634
+    },
+    "z75-wide": {
+      "run_id": "2026-10-16-gpt-d-z75-wide",
+      "optima": {
+        "3.3": {
+          "eta": 0.9833299669991543,
+          "L_m": 1.625,
+          "boundary": false,
+          "alpha_z0": 0.00011465771641859818,
+          "loss_bandwidth_parameter": 0.569405878691586,
+          "raman_longness": 3.0969200705398383
+        },
+        "3.4": {
+          "eta": 0.9796134295468647,
+          "L_m": 2.275,
+          "boundary": false,
+          "alpha_z0": 0.00022807760692462103,
+          "loss_bandwidth_parameter": 0.4526238815835631,
+          "raman_longness": 3.473539465599948
+        },
+        "3.5": {
+          "eta": 0.9709148092903866,
+          "L_m": 3.2,
+          "boundary": false,
+          "alpha_z0": 0.00043986663203675157,
+          "loss_bandwidth_parameter": 0.35944982882856763,
+          "raman_longness": 3.897820446128996
+        },
+        "3.6": {
+          "eta": 0.9512940503776054,
+          "L_m": 4.6000000000000005,
+          "boundary": false,
+          "alpha_z0": 0.0008498055535405284,
+          "loss_bandwidth_parameter": 0.2800280653611722,
+          "raman_longness": 4.4161131252243875
+        },
+        "3.7": {
+          "eta": 0.9045731474013526,
+          "L_m": 6.75,
+          "boundary": false,
+          "alpha_z0": 0.0016443250896929448,
+          "loss_bandwidth_parameter": 0.21042238782324613,
+          "raman_longness": 5.094422943853542
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9825555258574161,
+          "lambda_um": 3.5542766582130465
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9661617654563339,
+          "lambda_um": 3.6963629217727902
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9358344237475319,
+          "lambda_um": 3.770880820374416
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.8931889447826079,
+          "lambda_um": 3.8175988116942237
+        }
+      ],
+      "total_photon_drift": -0.09301464759476097
+    },
+    "z75-heldout": {
+      "run_id": "2026-10-16-gpt-d-z75-heldout",
+      "optima": {
+        "3.3": {
+          "eta": 0.9873489868879282,
+          "L_m": 5.8,
+          "boundary": false,
+          "alpha_z0": 0.0001443354923925368,
+          "loss_bandwidth_parameter": 0.30636923370857044,
+          "raman_longness": 4.2220016120100485
+        },
+        "3.4": {
+          "eta": 0.9784849443600099,
+          "L_m": 8.425,
+          "boundary": false,
+          "alpha_z0": 0.0002896152919982011,
+          "loss_bandwidth_parameter": 0.24263719974936038,
+          "raman_longness": 4.744192224086542
+        },
+        "3.5": {
+          "eta": 0.9083697429599891,
+          "L_m": 10.0,
+          "boundary": true,
+          "alpha_z0": 0.0003951177710840436,
+          "loss_bandwidth_parameter": 0.21741038294807674,
+          "raman_longness": 5.011881908290009
+        },
+        "3.6": {
+          "eta": 0.08534743427128391,
+          "L_m": 10.0,
+          "boundary": true,
+          "alpha_z0": 0.0003951177710840436,
+          "loss_bandwidth_parameter": 0.21741038294807674,
+          "raman_longness": 5.011881908290009
+        },
+        "3.7": {
+          "eta": 0.0008159760583325749,
+          "L_m": 10.0,
+          "boundary": true,
+          "alpha_z0": 0.0003951177710840436,
+          "loss_bandwidth_parameter": 0.21741038294807674,
+          "raman_longness": 5.011881908290009
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.992868007984694,
+          "lambda_um": 3.2484027175764405
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9917728251398641,
+          "lambda_um": 3.37993268103505
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9887640120759682,
+          "lambda_um": 3.456756343267641
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.9842272596999417,
+          "lambda_um": 3.5101576352503825
+        }
+      ],
+      "total_photon_drift": -0.01812149797518403
+    },
+    "z75-ownheldout": {
+      "run_id": "2026-10-16-gpt-d-z75-ownheldout",
+      "optima": {
+        "3.3": {
+          "eta": 0.9631524656362596,
+          "L_m": 12.0,
+          "boundary": true,
+          "alpha_z0": 0.00010853841079026752,
+          "loss_bandwidth_parameter": 0.22605386794702065,
+          "raman_longness": 4.915129883800197
+        },
+        "3.4": {
+          "eta": 0.14024301559667904,
+          "L_m": 12.0,
+          "boundary": true,
+          "alpha_z0": 0.00010853841079026752,
+          "loss_bandwidth_parameter": 0.22605386794702065,
+          "raman_longness": 4.915129883800197
+        },
+        "3.5": {
+          "eta": 0.0008761046269166625,
+          "L_m": 12.0,
+          "boundary": true,
+          "alpha_z0": 0.00010853841079026752,
+          "loss_bandwidth_parameter": 0.22605386794702065,
+          "raman_longness": 4.915129883800197
+        },
+        "3.6": {
+          "eta": 5.930569788886606e-06,
+          "L_m": 12.0,
+          "boundary": true,
+          "alpha_z0": 0.00010853841079026752,
+          "loss_bandwidth_parameter": 0.22605386794702065,
+          "raman_longness": 4.915129883800197
+        },
+        "3.7": {
+          "eta": 5.319789256118412e-08,
+          "L_m": 11.950000000000001,
+          "boundary": false,
+          "alpha_z0": 0.00010770968247428978,
+          "loss_bandwidth_parameter": 0.22659609617220022,
+          "raman_longness": 4.90924558466504
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9967646514699742,
+          "lambda_um": 3.0651576386420083
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9969259693521162,
+          "lambda_um": 3.1743907818489694
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.996167027316064,
+          "lambda_um": 3.2433711960740643
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.9952559865099603,
+          "lambda_um": 3.293609752761362
+        }
+      ],
+      "total_photon_drift": -0.005101494353977443
+    },
+    "z75-variablearea": {
+      "run_id": "2026-10-16-gpt-d-z75-variablearea",
+      "optima": {
+        "3.3": {
+          "eta": 0.982082052110834,
+          "L_m": 3.025,
+          "boundary": false,
+          "alpha_z0": 0.00014265782093194783,
+          "loss_bandwidth_parameter": 0.3670489391310481,
+          "raman_longness": 3.8572606193039576
+        },
+        "3.4": {
+          "eta": 0.9758637057974864,
+          "L_m": 4.6000000000000005,
+          "boundary": false,
+          "alpha_z0": 0.00027658318789374576,
+          "loss_bandwidth_parameter": 0.28376456929743044,
+          "raman_longness": 4.386941929084676
+        },
+        "3.5": {
+          "eta": 0.9582819441128064,
+          "L_m": 7.325,
+          "boundary": false,
+          "alpha_z0": 0.0005520531138548635,
+          "loss_bandwidth_parameter": 0.21341534773660134,
+          "raman_longness": 5.058574445159525
+        },
+        "3.6": {
+          "eta": 0.6623116423643721,
+          "L_m": 8.0,
+          "boundary": true,
+          "alpha_z0": 0.0006243671028804515,
+          "loss_bandwidth_parameter": 0.20235479121278022,
+          "raman_longness": 5.19498411664789
+        },
+        "3.7": {
+          "eta": 0.01549402043277036,
+          "L_m": 8.0,
+          "boundary": true,
+          "alpha_z0": 0.0006243671028804515,
+          "loss_bandwidth_parameter": 0.20235479121278022,
+          "raman_longness": 5.19498411664789
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9863253574100411,
+          "lambda_um": 3.4107135909699036
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9815820716974594,
+          "lambda_um": 3.5166369834034588
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9725869697438358,
+          "lambda_um": 3.575703842445678
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.9618257662708016,
+          "lambda_um": 3.6146726693922377
+        }
+      ],
+      "total_photon_drift": -0.026723557041050117
+    },
+    "z75-sourced": {
+      "run_id": "2026-10-16-gpt-d-z75-sourced",
+      "optima": {
+        "3.3": {
+          "eta": 0.9837043030957943,
+          "L_m": 1.625,
+          "boundary": false,
+          "alpha_z0": 9.095693167817844e-05,
+          "loss_bandwidth_parameter": 0.49948279942096074,
+          "raman_longness": 3.0961609218005566
+        },
+        "3.4": {
+          "eta": 0.9807391285774872,
+          "L_m": 2.4,
+          "boundary": false,
+          "alpha_z0": 0.0001934132533259465,
+          "loss_bandwidth_parameter": 0.38336560871946546,
+          "raman_longness": 3.534086852134596
+        },
+        "3.5": {
+          "eta": 0.9738736289416028,
+          "L_m": 3.375,
+          "boundary": false,
+          "alpha_z0": 0.00035560751356793826,
+          "loss_bandwidth_parameter": 0.3067399146643037,
+          "raman_longness": 3.95092374135476
+        },
+        "3.6": {
+          "eta": 0.9587160080691579,
+          "L_m": 4.7250000000000005,
+          "boundary": false,
+          "alpha_z0": 0.0006397242834861179,
+          "loss_bandwidth_parameter": 0.24350480679331288,
+          "raman_longness": 4.434350566267125
+        },
+        "3.7": {
+          "eta": 0.9240283639145433,
+          "L_m": 6.9,
+          "boundary": false,
+          "alpha_z0": 0.0011877311929055947,
+          "loss_bandwidth_parameter": 0.18613527861238155,
+          "raman_longness": 5.0718855701589245
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9832641251645255,
+          "lambda_um": 3.5544486042810544
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9713483762536413,
+          "lambda_um": 3.6973718559981212
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9491037969771349,
+          "lambda_um": 3.7742935497774326
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.9180005098030206,
+          "lambda_um": 3.8239079018046525
+        }
+      ],
+      "total_photon_drift": -0.06849278906523626
+    },
+    "z75-cubic": {
+      "run_id": "2026-10-16-gpt-d-z75-cubic",
+      "optima": {
+        "3.3": {
+          "eta": 0.9839968473885166,
+          "L_m": 1.325,
+          "boundary": false,
+          "alpha_z0": 0.00014636638019224389,
+          "loss_bandwidth_parameter": 0.8253746420222571,
+          "raman_longness": 2.5722632262548673
+        },
+        "3.4": {
+          "eta": 0.9808884113306873,
+          "L_m": 1.675,
+          "boundary": false,
+          "alpha_z0": 0.0002788696862102567,
+          "loss_bandwidth_parameter": 0.7138364459953992,
+          "raman_longness": 2.7659327147857367
+        },
+        "3.5": {
+          "eta": 0.9746126708253533,
+          "L_m": 2.075,
+          "boundary": false,
+          "alpha_z0": 0.0004968065928514392,
+          "loss_bandwidth_parameter": 0.6245929545386469,
+          "raman_longness": 2.9569394361650345
+        },
+        "3.6": {
+          "eta": 0.9626768465524519,
+          "L_m": 2.625,
+          "boundary": false,
+          "alpha_z0": 0.000919565249634411,
+          "loss_bandwidth_parameter": 0.5375593353531054,
+          "raman_longness": 3.187335396793125
+        },
+        "3.7": {
+          "eta": 0.9395079279206769,
+          "L_m": 3.275,
+          "boundary": false,
+          "alpha_z0": 0.001614459967137153,
+          "loss_bandwidth_parameter": 0.4618907043048982,
+          "raman_longness": 3.4385184497358634
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9785703108682137,
+          "lambda_um": 3.69498773825529
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9228703637159081,
+          "lambda_um": 3.908476265781156
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.8088236180038103,
+          "lambda_um": 4.002324948252282
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.6720339214615227,
+          "lambda_um": 4.041621827314731
+        }
+      ],
+      "total_photon_drift": -0.3147366729801624
+    },
+    "z75-lossless": {
+      "run_id": "2026-10-16-gpt-d-z75-lossless",
+      "optima": {
+        "3.3": {
+          "eta": 0.9860754755546669,
+          "L_m": 1.975,
+          "boundary": false,
+          "alpha_z0": 0.0,
+          "loss_bandwidth_parameter": 0.5002850214694923,
+          "raman_longness": 3.303940516734608
+        },
+        "3.4": {
+          "eta": 0.9802793060035442,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0,
+          "loss_bandwidth_parameter": 0.4960994848660334,
+          "raman_longness": 3.3178487335831344
+        },
+        "3.5": {
+          "eta": 0.8488811230913058,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0,
+          "loss_bandwidth_parameter": 0.4960994848660334,
+          "raman_longness": 3.3178487335831344
+        },
+        "3.6": {
+          "eta": 0.18681640762301982,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0,
+          "loss_bandwidth_parameter": 0.4960994848660334,
+          "raman_longness": 3.3178487335831344
+        },
+        "3.7": {
+          "eta": 0.009398554898307406,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0,
+          "loss_bandwidth_parameter": 0.4960994848660334,
+          "raman_longness": 3.3178487335831344
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.986077843274238,
+          "lambda_um": 3.555206733904326
+        }
+      ],
+      "total_photon_drift": -3.407802284804973e-08
+    },
+    "z75-sampled": {
+      "run_id": "2026-10-16-gpt-d-z75-sampled",
+      "optima": {
+        "3.3": {
+          "eta": 0.9832645951197283,
+          "L_m": 1.625,
+          "boundary": false,
+          "alpha_z0": 0.00011499734523793569,
+          "loss_bandwidth_parameter": 0.5688054287154046,
+          "raman_longness": 3.0985542454246184
+        },
+        "3.4": {
+          "eta": 0.9766884832759564,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0001766434185586571,
+          "loss_bandwidth_parameter": 0.4934498113016801,
+          "raman_longness": 3.326744720497347
+        },
+        "3.5": {
+          "eta": 0.8439228182869681,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0001766434185586571,
+          "loss_bandwidth_parameter": 0.4934498113016801,
+          "raman_longness": 3.326744720497347
+        },
+        "3.6": {
+          "eta": 0.1823857060090753,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0001766434185586571,
+          "loss_bandwidth_parameter": 0.4934498113016801,
+          "raman_longness": 3.326744720497347
+        },
+        "3.7": {
+          "eta": 0.009054100282706222,
+          "L_m": 2.0,
+          "boundary": true,
+          "alpha_z0": 0.0001766434185586571,
+          "loss_bandwidth_parameter": 0.4934498113016801,
+          "raman_longness": 3.326744720497347
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.982480737963697,
+          "lambda_um": 3.554574414741437
+        }
+      ],
+      "total_photon_drift": -0.0035313681145758835
+    },
+    "cutoff-edge": {
+      "run_id": "2026-10-16-gpt-d-cutoff-edge",
+      "optima": {
+        "2.002": {
+          "eta": 0.6669083664843206,
+          "L_m": 12.0,
+          "boundary": false,
+          "alpha_z0": 0.00644182290649301,
+          "loss_bandwidth_parameter": 0.03939607518349379,
+          "raman_longness": 10.523358277818854
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.963116713181,
+          "lambda_um": 2.0027373954718812
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9265868870588037,
+          "lambda_um": 2.004985342386276
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.8906148055473044,
+          "lambda_um": 2.0068806334850864
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.8553509234176504,
+          "lambda_um": 2.008475882533575
+        }
+      ],
+      "total_photon_drift": -0.9878023247716624
+    },
+    "cutoff-edge200": {
+      "run_id": "2026-10-16-gpt-d-cutoff-edge200",
+      "optima": {
+        "2.001": {
+          "eta": 0.6728313678849656,
+          "L_m": 98.0,
+          "boundary": false,
+          "alpha_z0": 0.0030130952561601087,
+          "loss_bandwidth_parameter": 0.010008275529070429,
+          "raman_longness": 20.87859206320217
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9953636346245576,
+          "lambda_um": 2.0001913098152726
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9907338265200164,
+          "lambda_um": 2.0003598195194474
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9861206139162924,
+          "lambda_um": 2.0005251053608286
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.9815212142885498,
+          "lambda_um": 2.00068775934552
+        }
+      ],
+      "total_photon_drift": -0.5856534269866069
+    },
+    "cutoff-edge300": {
+      "run_id": "2026-10-16-gpt-d-cutoff-edge300",
+      "optima": {
+        "2.0006666666666666": {
+          "eta": 0.6590064161097781,
+          "L_m": 350.9493670886076,
+          "boundary": false,
+          "alpha_z0": 0.0020239326141275583,
+          "loss_bandwidth_parameter": 0.004347208013681137,
+          "raman_longness": 31.67930349609513
+        }
+      },
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9985302919421182,
+          "lambda_um": 2.0000422255218235
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9971523690107621,
+          "lambda_um": 2.000076257063721
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9957732742129397,
+          "lambda_um": 2.000109812712738
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.9943937894688518,
+          "lambda_um": 2.0001432100052736
+        }
+      ],
+      "total_photon_drift": -0.5526960717790556
+    }
+  },
+  "convergence": {
+    "z75-step": {
+      "Ns_ratio": 1.7414577390129082e-06,
+      "soliton_lambda_um": 7.600360807380468e-07,
+      "max_eta_difference": 1.6009774177483393e-06
+    },
+    "z75-grid": {
+      "Ns_ratio": 1.6092022752101087e-06,
+      "soliton_lambda_um": 2.480891447387279e-06,
+      "max_eta_difference": 6.661338147750939e-15
+    },
+    "z75-window": {
+      "Ns_ratio": 0.004843109132060985,
+      "soliton_lambda_um": 0.004487688796694478,
+      "max_eta_difference": 0.0001715622010531881
+    },
+    "z75-wide": {
+      "Ns_ratio": 0.0048433176958454505,
+      "soliton_lambda_um": 0.0044879047850971965,
+      "max_eta_difference": 0.0001731407534647511
+    }
+  },
+  "path": {
+    "z75": [
+      {
+        "run_id": "2026-10-16-gpt-d-z75-path100",
+        "T_fs": 100,
+        "lambda_um": 3.62,
+        "z": 0.8672370062974712,
+        "N_ratio": 0.9940152573843325,
+        "Gordon_N_ratio": 0.993299409710928,
+        "lost_N4_scaled_1e44": 0.06953061811194289,
+        "Lambda_scaled_1e44": 0.0777636890407754,
+        "relative_invariant_residual": -0.10587294700634331,
+        "alpha_z0": 0.0005886283415938883,
+        "loss_bandwidth_parameter": 0.22168780740133665,
+        "raman_longness": 4.9633410679445005
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-z75-path100",
+        "T_fs": 100,
+        "lambda_um": 3.65,
+        "z": 2.439467069856265,
+        "N_ratio": 0.9815597782018731,
+        "Gordon_N_ratio": 0.9793974855645675,
+        "lost_N4_scaled_1e44": 0.21026478967447323,
+        "Lambda_scaled_1e44": 0.23415723791315654,
+        "relative_invariant_residual": -0.10203591591537486,
+        "alpha_z0": 0.0007919280793468977,
+        "loss_bandwidth_parameter": 0.19713391746026826,
+        "raman_longness": 5.263369244035557
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-z75-path100",
+        "T_fs": 100,
+        "lambda_um": 3.7,
+        "z": 5.9930977638743625,
+        "N_ratio": 0.9454836710454945,
+        "Gordon_N_ratio": 0.939205112238452,
+        "lost_N4_scaled_1e44": 0.5886966046133085,
+        "Lambda_scaled_1e44": 0.6502887019635407,
+        "relative_invariant_residual": -0.094715004526844,
+        "alpha_z0": 0.0013310609885383246,
+        "loss_bandwidth_parameter": 0.15692697233909172,
+        "raman_longness": 5.89919484953367
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-z75-path120",
+        "T_fs": 120,
+        "lambda_um": 3.62,
+        "z": 1.9301493797528286,
+        "N_ratio": 0.9871251743103475,
+        "Gordon_N_ratio": 0.9859492644478008,
+        "lost_N4_scaled_1e44": 0.07138169776147778,
+        "Lambda_scaled_1e44": 0.0777636890407754,
+        "relative_invariant_residual": -0.08206903965103185,
+        "alpha_z0": 0.0008595439217173073,
+        "loss_bandwidth_parameter": 0.15181133455907864,
+        "raman_longness": 5.997807672340236
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-z75-path120",
+        "T_fs": 120,
+        "lambda_um": 3.65,
+        "z": 5.55710434215665,
+        "N_ratio": 0.9593006944927547,
+        "Gordon_N_ratio": 0.9557193705550721,
+        "lost_N4_scaled_1e44": 0.21638603936635545,
+        "Lambda_scaled_1e44": 0.23415723791315649,
+        "relative_invariant_residual": -0.07589429524015845,
+        "alpha_z0": 0.0011939539082275001,
+        "loss_bandwidth_parameter": 0.1307497197450537,
+        "raman_longness": 6.462827757125296
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-z75-path120",
+        "T_fs": 120,
+        "lambda_um": 3.7,
+        "z": 15.075696673848094,
+        "N_ratio": 0.8680958102689604,
+        "Gordon_N_ratio": 0.8571620026478786,
+        "lost_N4_scaled_1e44": 0.6106150218251828,
+        "Lambda_scaled_1e44": 0.6502887019635407,
+        "relative_invariant_residual": -0.06100933326776792,
+        "alpha_z0": 0.00227389505096652,
+        "loss_bandwidth_parameter": 0.09186099608159405,
+        "raman_longness": 7.710411793835148
+      }
+    ],
+    "s28": [
+      {
+        "run_id": "2026-10-16-gpt-d-s28-path100",
+        "T_fs": 100,
+        "lambda_um": 2.01,
+        "z": 7.216601021689365,
+        "N_ratio": 0.991592091204247,
+        "Gordon_N_ratio": 0.9913611707601867,
+        "lost_N4_scaled_1e44": 4.794581511867505e-05,
+        "Lambda_scaled_1e44": 4.9245546542608744e-05,
+        "relative_invariant_residual": -0.026392872354637942,
+        "alpha_z0": 0.0002502794637303181,
+        "loss_bandwidth_parameter": 0.22001246186662096,
+        "raman_longness": 8.53509039625883
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-s28-path100",
+        "T_fs": 100,
+        "lambda_um": 2.02,
+        "z": 15.595132581274944,
+        "N_ratio": 0.9795738830311701,
+        "Gordon_N_ratio": 0.9790384796587748,
+        "lost_N4_scaled_1e44": 0.00011439340648943489,
+        "Lambda_scaled_1e44": 0.00011729729811478962,
+        "relative_invariant_residual": -0.024756679582787378,
+        "alpha_z0": 0.00033541091075089556,
+        "loss_bandwidth_parameter": 0.20147033722865657,
+        "raman_longness": 8.919249580177162
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-s28-path100",
+        "T_fs": 100,
+        "lambda_um": 2.04,
+        "z": 37.351302976822026,
+        "N_ratio": 0.9363695795301561,
+        "Gordon_N_ratio": 0.9350888786599243,
+        "lost_N4_scaled_1e44": 0.00033385051505306575,
+        "Lambda_scaled_1e44": 0.0003399100916131933,
+        "relative_invariant_residual": -0.017826998108143255,
+        "alpha_z0": 0.0006230872266059151,
+        "loss_bandwidth_parameter": 0.16227975686042145,
+        "raman_longness": 9.937973038922278
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-s28-path120",
+        "T_fs": 120,
+        "lambda_um": 2.01,
+        "z": 15.580884492838663,
+        "N_ratio": 0.9820759331393121,
+        "Gordon_N_ratio": 0.9818270973677993,
+        "lost_N4_scaled_1e44": 4.8589428772735184e-05,
+        "Lambda_scaled_1e44": 4.924554654260874e-05,
+        "relative_invariant_residual": -0.013323392995667094,
+        "alpha_z0": 0.00036739530866444347,
+        "loss_bandwidth_parameter": 0.1498637207680463,
+        "raman_longness": 10.341456339448774
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-s28-path120",
+        "T_fs": 120,
+        "lambda_um": 2.02,
+        "z": 34.54849133876186,
+        "N_ratio": 0.9554418713293885,
+        "Gordon_N_ratio": 0.9549225176157667,
+        "lost_N4_scaled_1e44": 0.00011603686218529096,
+        "Lambda_scaled_1e44": 0.00011729729811478962,
+        "relative_invariant_residual": -0.010745651858624083,
+        "alpha_z0": 0.0005076537832308237,
+        "loss_bandwidth_parameter": 0.13309750140553303,
+        "raman_longness": 10.97354721672825
+      },
+      {
+        "run_id": "2026-10-16-gpt-d-s28-path120",
+        "T_fs": 120,
+        "lambda_um": 2.04,
+        "z": 92.72168576117907,
+        "N_ratio": 0.8466733705602081,
+        "Gordon_N_ratio": 0.8458016520463315,
+        "lost_N4_scaled_1e44": 0.0003384389582361627,
+        "Lambda_scaled_1e44": 0.00033991009161319334,
+        "relative_invariant_residual": -0.004328007356441788,
+        "alpha_z0": 0.0010974427339278748,
+        "loss_bandwidth_parameter": 0.09213621521142147,
+        "raman_longness": 13.189151172754446
+      }
+    ]
+  },
+  "rates": [
+    {
+      "run_id": "2026-10-16-gpt-d-rate30",
+      "T_fs": 30,
+      "L_m": 0.004114644490051397,
+      "Gordon_initial_rate": 21.05509823581237,
+      "full_initial_rate": 32.48368480050748,
+      "Gordon_shift": 0.08660954857396064,
+      "GNLSE_shift": 0.1334330676695572,
+      "relative_shift_error": -0.3509139069750951,
+      "GNLSE_initial_rate": 32.47553188293389,
+      "relative_initial_rate_error": -0.3516627129707778,
+      "photon_drift": -2.4424906541753444e-15
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate50",
+      "T_fs": 50,
+      "L_m": 0.011429568027920552,
+      "Gordon_initial_rate": 2.7287407313612815,
+      "full_initial_rate": 3.431226819097375,
+      "Gordon_shift": 0.031185126571017463,
+      "GNLSE_shift": 0.039196581830765354,
+      "relative_shift_error": -0.2043916812526675,
+      "GNLSE_initial_rate": 3.430916951629151,
+      "relative_initial_rate_error": -0.2046613864944895,
+      "photon_drift": 2.220446049250313e-16
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate80",
+      "T_fs": 80,
+      "L_m": 0.02925969415147661,
+      "Gordon_initial_rate": 0.41637279226093804,
+      "full_initial_rate": 0.45576815270204013,
+      "Gordon_shift": 0.012182452044044112,
+      "GNLSE_shift": 0.01333449703884071,
+      "relative_shift_error": -0.08639583416164268,
+      "GNLSE_initial_rate": 0.4557520775893469,
+      "relative_initial_rate_error": -0.08640505938382435,
+      "photon_drift": 1.4876988529977098e-14
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate120",
+      "T_fs": 120,
+      "L_m": 0.06583431184082235,
+      "Gordon_initial_rate": 0.08224647748364207,
+      "full_initial_rate": 0.0855447062170981,
+      "Gordon_shift": 0.005414543747747302,
+      "GNLSE_shift": 0.005631638346585532,
+      "relative_shift_error": -0.03854910160732439,
+      "GNLSE_initial_rate": 0.08554336532623268,
+      "relative_initial_rate_error": -0.03854054408565085,
+      "photon_drift": -1.887379141862766e-15
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate200",
+      "T_fs": 200,
+      "L_m": 0.18287308844672884,
+      "Gordon_initial_rate": 0.010659143481880006,
+      "full_initial_rate": 0.01080902555309329,
+      "Gordon_shift": 0.00194925797813994,
+      "GNLSE_shift": 0.0019766648467793857,
+      "relative_shift_error": -0.013865207692695215,
+      "GNLSE_initial_rate": 0.010808964560739433,
+      "relative_initial_rate_error": -0.013860816918912921,
+      "photon_drift": 1.509903313490213e-14
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate300",
+      "T_fs": 300,
+      "L_m": 0.41146444900513973,
+      "Gordon_initial_rate": 0.002105509823581237,
+      "full_initial_rate": 0.0021185593362850765,
+      "Gordon_shift": 0.000866339968979446,
+      "GNLSE_shift": 0.0008717090088339319,
+      "relative_shift_error": -0.006159211158856728,
+      "GNLSE_initial_rate": 0.0021185540232508066,
+      "relative_initial_rate_error": -0.006157123928118735,
+      "photon_drift": -3.9190872769268026e-14
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate500",
+      "T_fs": 500,
+      "L_m": 1.142956802792055,
+      "Gordon_initial_rate": 0.0002728740731361283,
+      "full_initial_rate": 0.0002734803254362381,
+      "Gordon_shift": 0.0003118829579307203,
+      "GNLSE_shift": 0.0003125758378246246,
+      "relative_shift_error": -0.0022166777148433007,
+      "GNLSE_initial_rate": 0.0002734800785321234,
+      "relative_initial_rate_error": -0.002215903254261857,
+      "photon_drift": 2.4868995751603507e-14
+    }
+  ],
+  "terminal": {
+    "prediction": {
+      "omega_inf": 901.1225113859573,
+      "lambda_inf_um": 2.0903390421483676,
+      "w_eff": 17.325281227072466,
+      "alpha_inf": 0.007300924032623339,
+      "terminal_condition_ratio": 1.1040189725947598
+    },
+    "planes": [
+      {
+        "z": 0.0,
+        "N_ratio": 1.0,
+        "Ns_ratio": 0.9999999999998068,
+        "omega": 941.7903871471351,
+        "soliton_omega": 941.7903871471356,
+        "alpha_z0": 0.0001880182323734379,
+        "outside_isolation_fraction": 1.9273471707492718e-13,
+        "filtering_domega_dz": 0.001727211812896313,
+        "raman_domega_dz": -0.6909089344079932
+      },
+      {
+        "z": 50.0,
+        "N_ratio": 0.8949748584064938,
+        "Ns_ratio": 0.8949352703443604,
+        "omega": 915.9616484426506,
+        "soliton_omega": 915.9604882419136,
+        "alpha_z0": 0.0009264412957764733,
+        "outside_isolation_fraction": 4.423363718530915e-05,
+        "filtering_domega_dz": 0.004307569463613584,
+        "raman_domega_dz": -0.3515310614482236
+      },
+      {
+        "z": 100.0,
+        "N_ratio": 0.6976761140751014,
+        "Ns_ratio": 0.6976450529163504,
+        "omega": 905.251975429012,
+        "soliton_omega": 905.2503515401315,
+        "alpha_z0": 0.0026961399362171448,
+        "outside_isolation_fraction": 4.452044001923561e-05,
+        "filtering_domega_dz": 0.004143415730988998,
+        "raman_domega_dz": -0.11558810111810007
+      },
+      {
+        "z": 150.0,
+        "N_ratio": 0.5010919101503716,
+        "Ns_ratio": 0.5010661635724353,
+        "omega": 902.2245611199975,
+        "soliton_omega": 902.2226336819352,
+        "alpha_z0": 0.006141348130028043,
+        "outside_isolation_fraction": 5.1379023659370304e-05,
+        "filtering_domega_dz": 0.0024239193737983842,
+        "raman_domega_dz": -0.029590511151713485
+      },
+      {
+        "z": 200.0,
+        "N_ratio": 0.3511687961939908,
+        "Ns_ratio": 0.35110182986249533,
+        "omega": 901.5258587508879,
+        "soliton_omega": 901.5236063490067,
+        "alpha_z0": 0.012982596719649207,
+        "outside_isolation_fraction": 0.00019054425620601556,
+        "filtering_domega_dz": 0.0012300645628668875,
+        "raman_domega_dz": -0.0070504093299773325
+      },
+      {
+        "z": 250.0,
+        "N_ratio": 0.24485711500827415,
+        "Ns_ratio": 0.2442558592523392,
+        "omega": 901.3836595471375,
+        "soliton_omega": 901.3823973285961,
+        "alpha_z0": 0.027027454823983794,
+        "outside_isolation_fraction": 0.002453674333888989,
+        "filtering_domega_dz": 0.0006126736147913474,
+        "raman_domega_dz": -0.0016638221681579263
+      },
+      {
+        "z": 300.0,
+        "N_ratio": 0.1706206299327387,
+        "Ns_ratio": 0.16753386188445638,
+        "omega": 901.361792427626,
+        "soliton_omega": 901.3667843770148,
+        "alpha_z0": 0.0574977957793151,
+        "outside_isolation_fraction": 0.018081661073749755,
+        "filtering_domega_dz": 0.00031466789685912806,
+        "raman_domega_dz": -0.0003968398747343729
+      },
+      {
+        "z": 350.0,
+        "N_ratio": 0.11890646830054594,
+        "Ns_ratio": 0.11042056114542811,
+        "omega": 901.3629724892077,
+        "soliton_omega": 901.3819929585324,
+        "alpha_z0": 0.13225271242457837,
+        "outside_isolation_fraction": 0.07134015344048361,
+        "filtering_domega_dz": 0.00017637990989757024,
+        "raman_domega_dz": -9.82850180257646e-05
+      },
+      {
+        "z": 400.0,
+        "N_ratio": 0.08288071283912246,
+        "Ns_ratio": 0.06840438035792293,
+        "omega": 901.3673745330095,
+        "soliton_omega": 901.4091010466985,
+        "alpha_z0": 0.3441196042870808,
+        "outside_isolation_fraction": 0.1746216969104506,
+        "filtering_domega_dz": 0.00011775966014508009,
+        "raman_domega_dz": -2.6993222713959678e-05
+      },
+      {
+        "z": 450.0,
+        "N_ratio": 0.057776716045126554,
+        "Ns_ratio": 0.03994526682828281,
+        "omega": 901.3718788410114,
+        "soliton_omega": 901.4272144606135,
+        "alpha_z0": 1.008155370183011,
+        "outside_isolation_fraction": 0.3085748629926498,
+        "filtering_domega_dz": 9.995544646554973e-05,
+        "raman_domega_dz": -9.613114269253772e-06
+      },
+      {
+        "z": 500.0,
+        "N_ratio": 0.04027977866836699,
+        "Ns_ratio": 0.02265244063966383,
+        "omega": 901.3765881868553,
+        "soliton_omega": 901.450387397113,
+        "alpha_z0": 3.1310638854425643,
+        "outside_isolation_fraction": 0.4375720723095051,
+        "filtering_domega_dz": 0.00010485571702463861,
+        "raman_domega_dz": -4.874168953817389e-06
+      }
+    ],
+    "in_regime": {
+      "exponent": 0.21473232349855848,
+      "z_min": 5.0,
+      "z_max": 180.0,
+      "n_points": 36
+    },
+    "late": {
+      "exponent": -10.308401450655085,
+      "z_min": 250.0,
+      "z_max": 500.0,
+      "n_points": 51
+    },
+    "quarter_region": {
+      "exponent": 0.2996658798162039,
+      "z_min": 135.0,
+      "z_max": 180.0,
+      "n_points": 10
+    }
+  },
+  "exponent_50_200": {
+    "relative_shift_error": 1.9455951567470058,
+    "relative_initial_rate_error": 1.9467344046792587
+  },
+  "exponent_200_500": {
+    "relative_shift_error": 2.000851187606819,
+    "relative_initial_rate_error": 2.0008862462094292
+  }
+}

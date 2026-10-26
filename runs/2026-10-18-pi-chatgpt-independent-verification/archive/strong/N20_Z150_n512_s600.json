@@ -1,0 +1,38 @@
+{
+  "N": 20.0,
+  "Z": 1.5,
+  "Phi": 30.0,
+  "n": 512,
+  "window": 16.0,
+  "steps": 600,
+  "lambda_min": 0.0009047816213077796,
+  "lambda_2": 0.003548955543359775,
+  "N2_lambda_min": 0.36191264852311184,
+  "N2_lambda_2": 1.41958221734391,
+  "Lambda_C": 0.3632691849813006,
+  "Pi_C": 1.4456593222078806,
+  "delta_to_C": -0.0037342458823161895,
+  "largest_amplitude_singular": 2.1915745966577735,
+  "low_eigenvector_parities": [
+    0.9999999999999997,
+    -0.9999999999999994,
+    0.9999999999999996
+  ],
+  "global_phase_overlaps": [
+    0.029053629260132198,
+    -2.472639587389018e-15,
+    -0.03043157601156705
+  ],
+  "most_squeezed_mode_t_rms": 0.9915387260587258,
+  "c_input_t_rms": 0.4892014458702268,
+  "diagnostics": {
+    "adjoint_relative_error": 6.700343046622872e-16,
+    "symplectic_bilinear_error": 1.596117756878331e-14,
+    "number_gradient_error": 1.45803814528647e-12,
+    "mean_norm_error": 1.3697931677825181e-12,
+    "spectral_edge_energy_fraction": 1.045735481266837e-11
+  },
+  "direct_minimum_rayleigh": 0.0009047816213102564,
+  "reciprocity_relative_error": 2.737365889515786e-12,
+  "elapsed_seconds": 12.804595708847046
+}

@@ -1,0 +1,84 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-d-raman-conditional",
+  "source_runs": [
+    "2026-10-17-gpt-d-raman-sharpening",
+    "2026-10-17-gpt-d-raman-propagation"
+  ],
+  "maximum_profile_rho_over_F": 0.9801232956247787,
+  "profile_count": 82,
+  "primary_propagation_max_ratio": 0.5020019270249432,
+  "primary_propagation_violations": 0,
+  "levelset_max_relative_error": 1.3311574065255627e-13,
+  "core_energy_only_retention": 0.6321368027735402,
+  "core_Qmax_conditional_retention": 0.7557767268663272,
+  "core_path_conditional_retention": 0.8402314100099736,
+  "core_observed_retention": 0.9529627226688717,
+  "points": [
+    {
+      "case": "core",
+      "tau2_Q": 0.7568708450816185,
+      "rho": 0.22966841932467708,
+      "F_Q": 0.5548012495600302,
+      "held_out": false
+    },
+    {
+      "case": "h1_30",
+      "tau2_Q": 0.6267545507694533,
+      "rho": 0.15296829520392288,
+      "F_Q": 0.4950289733063038,
+      "held_out": true
+    },
+    {
+      "case": "h2_60",
+      "tau2_Q": 0.9313431867170175,
+      "rho": 0.3103773218181129,
+      "F_Q": 0.6182826128848998,
+      "held_out": true
+    },
+    {
+      "case": "h4_150",
+      "tau2_Q": 0.5470298475968641,
+      "rho": 0.1606838161395834,
+      "F_Q": 0.4519062281465843,
+      "held_out": true
+    },
+    {
+      "case": "h5_225",
+      "tau2_Q": 0.36964889753733177,
+      "rho": 0.11316019278355317,
+      "F_Q": 0.3349033170256991,
+      "held_out": true
+    },
+    {
+      "case": "h6_300",
+      "tau2_Q": 0.27110941249717063,
+      "rho": 0.0838016074682934,
+      "F_Q": 0.25630113201268273,
+      "held_out": true
+    },
+    {
+      "case": "h6_100",
+      "tau2_Q": 0.4888698204763143,
+      "rho": 0.08513644137834311,
+      "F_Q": 0.4169021802498431,
+      "held_out": true
+    },
+    {
+      "case": "h1_300",
+      "tau2_Q": 0.06270323219535225,
+      "rho": 0.00011669555700228328,
+      "F_Q": 0.06250164148620012,
+      "held_out": true
+    },
+    {
+      "case": "fluoride",
+      "tau2_Q": 0.24086929260638015,
+      "rho": 0.10255044471911753,
+      "F_Q": 0.23027185918739138,
+      "held_out": true
+    }
+  ]
+}

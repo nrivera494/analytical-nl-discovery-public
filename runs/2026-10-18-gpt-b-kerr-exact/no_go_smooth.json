@@ -1,0 +1,37 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "complete": true,
+  "rows": [
+    {
+      "cutoff": 1000,
+      "t": 10.0,
+      "thermal_weight": 0.01,
+      "norm": 0.9999999999999992,
+      "mean": 20.88999999999998,
+      "number_variance": 220.09789999999987,
+      "quadrature_variance": 42.77999999999996,
+      "peak": 10,
+      "strictly_positive_on_grid": true,
+      "unimodal": true,
+      "n1_mixed_poisson_residual": -5.273546888873711e-05,
+      "minimum_residual": -5.273546888873711e-05
+    },
+    {
+      "cutoff": 2000,
+      "t": 10.0,
+      "thermal_weight": 0.01,
+      "norm": 0.9999999999999992,
+      "mean": 20.88999999999998,
+      "number_variance": 220.09789999999987,
+      "quadrature_variance": 42.77999999999996,
+      "peak": 10,
+      "strictly_positive_on_grid": true,
+      "unimodal": true,
+      "n1_mixed_poisson_residual": -5.273546888873711e-05,
+      "minimum_residual": -5.273546888873711e-05
+    }
+  ],
+  "definition": "epsilon*rho_thermal(t)+(1-epsilon)*a_dag*rho_thermal(t)*a/(t+1); diagonal in number"
+}

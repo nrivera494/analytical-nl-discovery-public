@@ -1,0 +1,306 @@
+[
+  {
+    "id": "bw_N2_T40",
+    "N": 2,
+    "T0_fs": 40,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T60",
+    "N": 2,
+    "T0_fs": 60,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T80",
+    "N": 2,
+    "T0_fs": 80,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T80",
+    "N": 3,
+    "T0_fs": 80,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T100",
+    "N": 3,
+    "T0_fs": 100,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T120",
+    "N": 3,
+    "T0_fs": 120,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T160",
+    "N": 3,
+    "T0_fs": 160,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T180",
+    "N": 3,
+    "T0_fs": 180,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T140",
+    "N": 4,
+    "T0_fs": 140,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T170",
+    "N": 4,
+    "T0_fs": 170,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T230",
+    "N": 4,
+    "T0_fs": 230,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T260",
+    "N": 4,
+    "T0_fs": 260,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T300",
+    "N": 6,
+    "T0_fs": 300,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T350",
+    "N": 6,
+    "T0_fs": 350,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T450",
+    "N": 6,
+    "T0_fs": 450,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T500",
+    "N": 6,
+    "T0_fs": 500,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T450",
+    "N": 8,
+    "T0_fs": 450,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T600",
+    "N": 8,
+    "T0_fs": 600,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T800",
+    "N": 8,
+    "T0_fs": 800,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  }
+]

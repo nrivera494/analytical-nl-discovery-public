@@ -1,0 +1,28 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261008-gpt-a-01
+evaluator: evaluator/similariton_compare.py
+input_runs:
+- 2026-10-08-gpt-a-similariton-map
+- 2026-10-08-gpt-a-similariton-map-convergence
+- 2026-10-08-gpt-a-similariton-pilot
+- 2026-10-08-gpt-a-similariton-lens-pilot
+- 2026-10-08-gpt-a-similariton-rates-safe
+- 2026-10-08-gpt-a-similariton-rates-convergence
+- 2026-10-08-gpt-a-similariton-rates-fine
+- 2026-10-08-gpt-a-similariton-rates-final-controls
+- 2026-10-08-gpt-a-similariton-rates-lower-n-refinement
+- 2026-10-08-gpt-a-similariton-rates-prefix-control
+- 2026-10-08-gpt-a-similariton-physical-vacuum
+- 2026-10-08-gpt-a-similariton-physical-vacuum-direct
+- 2026-10-08-gpt-a-similariton-wavebreaking
+- 2026-10-08-gpt-a-similariton-long-inputs
+- 2026-10-08-gpt-a-similariton-long-refinement
+- 2026-10-08-gpt-a-similariton-long-additional
+metrics:
+- density_l1
+- width_ratio
+- chirp_ratio
+- core_scaled_velocity_rms
+- wing_mass_fraction

@@ -1,0 +1,57 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-radiation-onset-prediction",
+  "cases": [
+    {
+      "delta": 0.65,
+      "Omega": 0.07749999999999996,
+      "B0": 0.7145096190597557,
+      "Gamma": 0.0,
+      "channel": "closed"
+    },
+    {
+      "delta": 0.75,
+      "Omega": -0.0625,
+      "B0": 0.6421432785857586,
+      "k": 0.3535533905932738,
+      "Gamma": 0.024462132241539942,
+      "outgoing_amplitude": [
+        -1.0477993126893592,
+        0.4944345154817702
+      ],
+      "channel": "open"
+    },
+    {
+      "delta": 0.85,
+      "Omega": -0.22249999999999992,
+      "B0": 0.5698109949536228,
+      "k": 0.6670832032063165,
+      "Gamma": 0.023493630558220485,
+      "outgoing_amplitude": [
+        -0.6931287143475657,
+        0.6223586315998338
+      ],
+      "channel": "open"
+    },
+    {
+      "delta": 1.05,
+      "Omega": -0.6025,
+      "B0": 0.43328077555596756,
+      "k": 1.0977249200050074,
+      "Gamma": 0.010031683774245582,
+      "outgoing_amplitude": [
+        -0.3482043781853006,
+        0.5178663450955695
+      ],
+      "channel": "open"
+    }
+  ],
+  "free_ODE_rate": 0.12227218304358152,
+  "free_exact_rate": 0.12227218304562233,
+  "free_relative_error": 1.6690759885307216e-11,
+  "scope": "Frozen-source LP03 continuum-energy growth only; no full nonlinear depletion law asserted.",
+  "comparison": "For each open channel, slope of continuum energy over zeta 200--400 should agree with Gamma within 5%; closed channel has no secular linear growth.",
+  "nonlinear_pilot": "One co-launched full three-mode run at r=0.006, delta=0.85 to zeta=400. Its discrepancy from frozen-source flux is exploratory, not a fitted correction."
+}

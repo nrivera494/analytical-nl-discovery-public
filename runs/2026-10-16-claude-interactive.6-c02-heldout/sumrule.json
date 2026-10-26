@@ -1,0 +1,16 @@
+{
+ "silica": {
+  "integral_per_ps2": 3847.5932630462626,
+  "hprime0_over_2_per_ps2": 3847.5932628997575,
+  "rel_diff": 3.807709703096407e-11,
+  "min_W_Imh": 0.0,
+  "TR_fs": 1.4619528665461619
+ },
+ "fluoride_standin": {
+  "integral_per_ps2": 1322.661727059813,
+  "hprime0_over_2_per_ps2": 1322.6617270495733,
+  "rel_diff": 7.741807195316142e-12,
+  "min_W_Imh": 0.0,
+  "TR_fs": 2.853023436368734
+ }
+}

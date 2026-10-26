@@ -1,0 +1,10 @@
+# Run 2026-10-17-claude-interactive.7-ensemble-squeezing: squeezing ensembles (predictions.md, Q1-Q5; Q6 in the thermalization run).
+# Tangent-map Gaussian state (cond_kerr.run copied from runs/2026-10-17-claude-interactive.7-condensate-kerr-squeezability), K = 5, dz = 0.02,
+# white intra-group disorder; checkpoints z = 1, 2, 5, 10, 20, 50, 100, 200; lambda_best at n0 = 1e10 with crescent curvature.
+run_squeezing_ensembles.py: "Q-dis (dis_seed 101-112), Q-launch (phase_seed 201-212), Q-strong (sigma = 1, 3; dis_seed 101-106); output ensemble_squeezing.jsonl"
+summarize.py: "summary.json, summary.txt: per-checkpoint means and spreads, Q1-Q5 checks"
+fig_squeezing_ensembles.py: "fig_squeezing_ensembles.png"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore run_squeezing_ensembles.py | tee -a run_squeezing_ensembles_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore summarize.py"
+  - "~/agent-work/venv/bin/python -W ignore fig_squeezing_ensembles.py"

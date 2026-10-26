@@ -1,0 +1,16 @@
+script: validate_solver.py (library zs.py)
+command: OPENBLAS_NUM_THREADS=1 python validate_solver.py
+sech_TL:
+  N: [1, 2, 3, 4, 5, 6, 8, 2.5, 3.5, 4.5, 5.5, 7.5, 9.5]
+  fc_grids: [[512, 64.0], [768, 96.0]]       # [n, T]
+  bo_window: [-46, 46]
+  bo_cell_widths: [0.02, 0.01, 0.005]        # Romberg over three widths
+gauss_TL:
+  N: [1.5, 2, 3, 4, 5, 6, 8, 10]
+  fc_grids: [[256, 40.0], [512, 60.0]]
+  bo_window: [-14, 14]
+  bo_cell_widths: [0.01, 0.005, 0.0025]
+sharpness_A: {p: [1.5, 2, 3, 7], eta: [1.0, 2.3], fc_n: 1024, bo_cells_per_width: 50}
+random_potentials_A: {trials: 60, seed: 20261018, fc_grid: [512, 64.0], p: [1.2, 1.5, 2, 3, 4, 7, 12]}
+majorant_realp: {script: majorant_realp.py, output: summary_majorant_realp.json, seed: 31, bumps_k: [[0, 1, 3], [0, 1, 2, 4]], bump_width_s: 0.08, trials_per_case: 400, p_search: [3, 2.5, 5]}
+closed_forms: {sech_n_range: [1, 79], gauss_p_range: [2, 60]}

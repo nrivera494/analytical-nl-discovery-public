@@ -1,0 +1,5 @@
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+method: primary-paper searches and independent full-text reads
+source_ledger: ../2026-10-16-gpt-d-loss-edge-audit/novelty.md

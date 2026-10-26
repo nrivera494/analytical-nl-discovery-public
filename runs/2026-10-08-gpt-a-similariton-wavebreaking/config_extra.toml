@@ -1,0 +1,112 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-wavebreaking"
+
+[defaults]
+window = 32.0
+length = 4.0
+save_interval = 0.02
+
+[[cases]]
+label = "gaussian_step"
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 8192
+window = 32.0
+cfl = 0.15
+
+[[cases]]
+label = "gaussian_grid"
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 16384
+window = 32.0
+cfl = 0.3
+
+[[cases]]
+label = "gaussian_window"
+shape = "gaussian"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 16384
+window = 64.0
+cfl = 0.3
+
+[[cases]]
+label = "sech_step"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+nt = 8192
+window = 32.0
+cfl = 0.15
+
+[[cases]]
+label = "sech_grid"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+nt = 16384
+window = 32.0
+cfl = 0.3
+
+[[cases]]
+label = "sech_window"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+nt = 16384
+window = 64.0
+cfl = 0.3
+
+[[cases]]
+label = "supergaussian_step"
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+nt = 8192
+window = 32.0
+cfl = 0.15
+
+[[cases]]
+label = "supergaussian_grid"
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+nt = 16384
+window = 32.0
+cfl = 0.3
+
+[[cases]]
+label = "supergaussian_window"
+shape = "supergaussian"
+width = 0.5
+chirp = 0.0
+nt = 16384
+window = 64.0
+cfl = 0.3
+
+[[cases]]
+label = "parabola_n2048"
+shape = "parabola_exact"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 2048
+
+[[cases]]
+label = "parabola_n4096"
+shape = "parabola_exact"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 4096
+
+[[cases]]
+label = "parabola_n8192"
+shape = "parabola_exact"
+width = 1.0
+chirp = 0.3333333333333333
+nt = 8192

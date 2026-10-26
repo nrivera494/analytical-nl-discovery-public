@@ -1,0 +1,327 @@
+{
+ "run_id": "2026-10-05-claude-interactive-raman-stochastic",
+ "notes": "Fano factors are photon-number variance / mean for the notebook's optimal binary filter. Raman noise at 300 K unless stated. 'legacy' = PulsePropagation.raman_langevin_spectrum (2n+Theta, DC 0); 'coth' = raman_langevin_spectrum_coth.",
+ "squeezing_notebook_grid_continuous_adjoint": {
+  "source": "squeezing_spectral_filter.ipynb as committed (2^12, dz 1 mm, continuous adjoint)",
+  "mean_photon_number": 4736431057.3,
+  "fano_vacuum": 0.21594203646370688,
+  "fano_with_raman_legacy": 0.2670718760172193,
+  "fano_with_raman_coth": 0.282996716882655,
+  "raman_variance_coth_over_legacy": 1.3114588468201391,
+  "raman_fano_legacy_0K": 0.01592,
+  "raman_fano_coth_0K": 0.03185
+ },
+ "jitter_notebook_raman_timing_variance_s2": {
+  "source": "soliton_jitter.ipynb as committed (continuous adjoint, step L/201), 300 K",
+  "z_over_LD": [
+   0.1,
+   1.1,
+   2.1,
+   3.1,
+   4.1,
+   5.1,
+   6.1,
+   7.1
+  ],
+  "legacy": [
+   1.044142e-36,
+   1.389445e-33,
+   9.66404e-33,
+   3.10751e-32,
+   7.186398e-32,
+   1.382658e-31,
+   2.365125e-31,
+   3.728351e-31
+  ],
+  "coth": [
+   1.048627e-36,
+   1.395413e-33,
+   9.705541e-33,
+   3.120853e-32,
+   7.217251e-32,
+   1.388594e-31,
+   2.375277e-31,
+   3.744353e-31
+  ],
+  "spt_thermal_limit_formula": [
+   1.040239e-36,
+   1.384558e-33,
+   9.633656e-33,
+   3.098977e-32,
+   7.169433e-32,
+   1.379888e-31,
+   2.361146e-31,
+   3.723131e-31
+  ],
+  "coth_0K_at_7.1": 3.2003758471e-33,
+  "legacy_0K_at_7.1": 1.6001879236e-33
+ },
+ "monte_carlo_partial": {
+  "seeds": {
+   "jitter": "189-192",
+   "squeezing": "85-88"
+  },
+  "squeezing_mc_variance": {
+   "legacy_300K": 300976300.0,
+   "coth_300K": 388189500.0,
+   "legacy_0K": 82596360.0,
+   "coth_0K": 162472900.0
+  },
+  "squeezing_mc_over_discrete_adjoint_300K": {
+   "coth": [
+    1.4,
+    0.21
+   ],
+   "legacy": [
+    1.43,
+    0.22
+   ]
+  },
+  "squeezing_paired_ratio_coth_over_legacy_300K": {
+   "mc": [
+    1.2898,
+    0.0099
+   ],
+   "continuous_adjoint": 1.3115,
+   "discrete_adjoint": 1.3167
+  },
+  "squeezing_paired_ratio_coth_over_legacy_0K": {
+   "mc": [
+    1.9996,
+    0.0003
+   ],
+   "adjoint": 2.0
+  },
+  "jitter_mc_over_adjoint_range": [
+   0.85,
+   0.94
+  ],
+  "jitter_mc_over_adjoint_sigma": 0.09,
+  "jitter_paired_ratio_coth_over_legacy_300K": {
+   "z_over_LD": [
+    1.1,
+    3.1,
+    5.1,
+    7.1
+   ],
+   "mc": [
+    1.0048,
+    1.0042,
+    1.0043,
+    1.004
+   ],
+   "mc_sigma": [
+    0.0003,
+    0.0002,
+    0.0002,
+    0.0002
+   ],
+   "adjoint": 1.0043
+  }
+ },
+ "kick_test": {
+  "setup": "squeezing, 2^12, dz 1 mm; kick i*gamma*eps*A(z0,t)*cos(2 pi Omega t + phi), gamma*eps = 1e-6; z0 = 3, 7 m; Omega = 1, 5, 13.2, 30 THz; phi = 0, pi/2",
+  "fd_over_discrete_adjoint": {
+   "Omega_le_13.2THz": [
+    1.0,
+    1.0
+   ],
+   "Omega_30THz_range": [
+    0.999856,
+    1.000021
+   ]
+  },
+  "fd_over_continuous_adjoint_range": {
+   "z0_3m": [
+    0.419,
+    2.827
+   ],
+   "z0_7m": [
+    0.969,
+    1.037
+   ]
+  }
+ },
+ "sampler_covariance_ratio": [
+  1.0003,
+  0.0002
+ ],
+ "squeezing_convergence": {
+  "columns": [
+   "Nt",
+   "dt_fs",
+   "dz_m",
+   "adjoint_mode",
+   "raman_kernel_integral",
+   "mean_photon_number",
+   "fano_vacuum",
+   "fano_raman_legacy",
+   "fano_raman_coth",
+   "fano_raman_coth_with_shock",
+   "fano_total_coth",
+   "dB"
+  ],
+  "rows": [
+   [
+    4096,
+    12.21,
+    0.001,
+    "continuous",
+    0.90356,
+    4736431057.3,
+    0.215942,
+    0.05113,
+    0.067055,
+    0.072086,
+    0.282997,
+    -5.482
+   ],
+   [
+    4096,
+    12.21,
+    0.0005,
+    "continuous",
+    0.90356,
+    4736431040.3,
+    0.223507,
+    0.045719,
+    0.060124,
+    0.064452,
+    0.28363,
+    -5.472
+   ],
+   [
+    4096,
+    12.21,
+    0.00025,
+    "continuous",
+    0.90356,
+    4736431039.2,
+    0.22592,
+    0.044833,
+    0.059013,
+    0.063145,
+    0.284933,
+    -5.453
+   ],
+   [
+    4096,
+    12.21,
+    0.001,
+    "discrete_rk4ip",
+    0.90356,
+    4736431057.3,
+    0.22677,
+    0.044578,
+    0.058697,
+    0.062762,
+    0.285467,
+    -5.444
+   ],
+   [
+    4096,
+    12.21,
+    0.0005,
+    "discrete_rk4ip",
+    0.90356,
+    4736431040.3,
+    0.22677,
+    0.044578,
+    0.058697,
+    0.062762,
+    0.285467,
+    -5.444
+   ],
+   [
+    8192,
+    6.1,
+    0.001,
+    "continuous",
+    0.97606,
+    4697506662.7,
+    0.247523,
+    0.052627,
+    0.069472,
+    0.074938,
+    0.316995,
+    -4.989
+   ],
+   [
+    8192,
+    6.1,
+    0.001,
+    "discrete_rk4ip",
+    0.97606,
+    4697506662.7,
+    0.272259,
+    0.048803,
+    0.064873,
+    0.068592,
+    0.337132,
+    -4.722
+   ],
+   [
+    16384,
+    3.05,
+    0.001,
+    "discrete_rk4ip",
+    0.99402,
+    4687418729.7,
+    0.23161,
+    0.049879,
+    0.065712,
+    0.070401,
+    0.297322,
+    -5.268
+   ],
+   [
+    32768,
+    1.53,
+    0.001,
+    "discrete_rk4ip",
+    0.99851,
+    4684728691.9,
+    0.226607,
+    0.050974,
+    0.067055,
+    0.071807,
+    0.293662,
+    -5.322
+   ]
+  ],
+  "raman_z_quadrature_m": {
+   "default": 0.001,
+   "Nt_16384": 0.002,
+   "Nt_32768": 0.005
+  }
+ },
+ "excess_pump_noise_vacuum_only": {
+  "model": "notebook cell 28: input Fano 9*exp(-((lambda-1550 nm)/20 nm)^2)+1 per input bin",
+  "notebook_grid_continuous": {
+   "fano_vacuum": 0.215942,
+   "fano_excess": 0.275644,
+   "ratio": 1.2765
+  },
+  "converged_2p15_discrete": {
+   "fano_vacuum": 0.226607,
+   "fano_excess": 0.320424,
+   "ratio": 1.414
+  },
+  "common_mode_energy_noise_notebook_grid": {
+   "dln_n_dln_Nin": 0.15808,
+   "input_photons": 7120237000.0,
+   "fano": 0.365552,
+   "ratio": 1.6928
+  }
+ },
+ "jitter_adjoint_mode_check_s2": {
+  "z_over_LD_7.1_step_L_over_201": {
+   "continuous_coth_300K": 3.744353e-31,
+   "discrete_coth_300K": 3.744765e-31
+  },
+  "z_over_LD_7.1_step_0.025LD": {
+   "continuous_coth_300K": 3.736412e-31,
+   "discrete_coth_300K": 3.73662e-31
+  }
+ }
+}

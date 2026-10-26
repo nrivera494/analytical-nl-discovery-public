@@ -1,0 +1,3310 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-raman-sharpening",
+  "status_counts": {
+    "complete": 221,
+    "edge-terminated": 3,
+    "unrun": 58
+  },
+  "records": [
+    {
+      "id": "as2s3_sech_N12_T1075.963",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N12_T1285.178",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N12_T1494.393",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N12_T1703.608",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N12_T1942.711",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T1714.739",
+      "split": "calibration",
+      "status": "edge-terminated",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T1881.449",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T2048.160",
+      "split": "calibration",
+      "status": "edge-terminated",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T2048.160_response_fine",
+      "split": "control",
+      "status": "edge-terminated",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_control_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T2048.160_response_wide",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_control_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T2214.871",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T2381.582",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T2715.003",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N16_T3096.057",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N3_T113.883",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N3_T136.027",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N3_T147.099",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N3_T158.171",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N3_T169.243",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N3_T180.315",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N3_T205.623",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T181.493",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T216.784",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T216.784_long",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "length_extension_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 7,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T252.074",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T252.074_long",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "length_extension_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 7,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T287.365",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T287.365_long",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "length_extension_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 7,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N4_T327.696",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N6_T350.049",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N6_T418.114",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N6_T486.179",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N6_T554.244",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N6_T632.033",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N8_T1007.257",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N8_T557.865",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N8_T666.339",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N8_T774.813",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "as2s3_sech_N8_T883.287",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N4_T138.885",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N4_T168.646",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N4_T198.407",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N4_T228.168",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N4_T277.769",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N8_T426.897",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N8_T518.375",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N8_T609.853",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N8_T701.331",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_damped_sech_N8_T853.794",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "damped_control_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N12_T1011.559",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N12_T1176.232",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N12_T1340.904",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N12_T1529.101",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N12_T846.887",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T1349.666",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T1612.101",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T1743.318",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T1874.535",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T1874.535_response_fine",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_control_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T2005.753",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T2136.970",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N16_T2436.896",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N3_T107.067",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N3_T115.781",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N3_T124.496",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N3_T133.211",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N3_T141.926",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N3_T161.845",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N3_T89.637",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4.37181_T157.531_matchedNs4",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4.37181_T189.037_matchedNs4",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4.37181_T210.041_matchedNs4",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4.37181_T231.045_matchedNs4",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4.37181_T273.053_matchedNs4",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4_T142.853",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4_T170.630",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4_T198.407",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4_T226.184",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N4_T257.929",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6.55771_T303.832_matchedNs6",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6.55771_T364.598_matchedNs6",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6.55771_T405.109_matchedNs6",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6.55771_T445.620_matchedNs6",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6.55771_T526.641_matchedNs6",
+      "split": "matched_shape",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "matched_shape_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6_T275.522",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6_T329.096",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6_T382.670",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6_T436.244",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N6_T497.471",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N8_T439.094",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N8_T524.473",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N8_T609.853",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N8_T695.232",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_gaussian_N8_T792.809",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N10_T1033.002",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N10_T717.849",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N10_T796.637",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N10_T836.032",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N10_T875.426",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N10_T914.820",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N10_T954.214",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N11_T1021.587",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N11_T1067.559",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N11_T1113.530",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N11_T1205.473",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N11_T837.702",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N11_T929.644",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N11_T975.615",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N12_T1070.371",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N12_T1123.302",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N12_T1176.232",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N12_T1229.162",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N12_T1282.093",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N12_T1387.954",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N12_T964.510",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N13_T1098.048",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N13_T1218.566",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N13_T1278.825",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N13_T1339.083",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N13_T1399.342",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N13_T1459.601",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N13_T1580.118",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N14_T1238.114",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N14_T1374.004",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N14_T1441.949",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N14_T1509.895",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N14_T1577.840",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N14_T1645.785",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N14_T1781.676",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N15_T1384.526",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N15_T1536.486",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N15_T1612.466",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N15_T1688.446",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N15_T1764.426",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N15_T1840.406",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N15_T1992.366",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1537.119",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1705.827",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1790.181",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1874.535",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1875.000_baseline",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1875.000_fine",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1875.000_tight",
+      "split": "control",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1875.000_wide",
+      "split": "control",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T1958.889",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T2043.244",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N16_T2211.952",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N3_T102.087",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N3_T113.291",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N3_T118.893",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N3_T124.496",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N3_T130.099",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N3_T135.701",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N3_T146.905",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T162.694",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T180.550",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T189.478",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T198.407",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_baseline",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 2,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_fine",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 2,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_kernelanalytic_n16384",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_kernelanalytic_n32768",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_kernelanalytic_n8192",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n16384",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n32768",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n8192",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_step0.0001",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_step0.0002",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_step0.0004",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_step5e-05",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_tight",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 2,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T200.000_wide",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 2,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T207.335",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T216.263",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T234.120",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N4_T400.000_times2",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 2,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N5_T233.542",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N5_T259.174",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N5_T271.990",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N5_T284.807",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N5_T297.624",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N5_T310.440",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N5_T336.072",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N6_T313.789",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N6_T348.230",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N6_T365.450",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N6_T382.670",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N6_T399.890",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N6_T417.110",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N6_T451.551",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N7_T402.802",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N7_T447.012",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N7_T469.117",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N7_T491.222",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N7_T513.327",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N7_T535.432",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N7_T579.642",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T500.079",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T554.966",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T582.409",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T609.853",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T620.000_baseline",
+      "split": "control",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T620.000_fine",
+      "split": "control",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T620.000_tight",
+      "split": "control",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T620.000_wide",
+      "split": "control",
+      "status": "unrun",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T637.296",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "bw_refinement_cases.json",
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T664.740",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N8_T719.626",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N9_T605.210",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N9_T671.635",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N9_T704.848",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N9_T738.061",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N9_T771.274",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "bw_holdout_refinement_cases.json",
+        "closure_queue_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N9_T804.486",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "bw_sech_N9_T870.912",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "heldout_bw_cases.json",
+        "heldout_cases.json",
+        "next_core_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N12_T1011.559",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N12_T1176.232",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N12_T1340.904",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N12_T1529.101",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N12_T846.887",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T1349.666",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T1612.101",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T1874.535",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T2005.753",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T2136.970",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T2136.970_response_fine",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_control_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T2286.933",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N16_T2436.896",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3.8148_T150.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3.93991_T160.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T107.067",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T108.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T115.781",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T121.500_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T124.496",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T128.250_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_refinement_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T133.211",
+      "split": "calibration",
+      "status": "unrun",
+      "design_files": [
+        "final_queue_cases.json",
+        "post_holdout_queue_cases.json",
+        "response_refinement_cases.json"
+      ],
+      "saved_checkpoints": 0,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T135.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T135.000_smf_physical_fine",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_control_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T141.750_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_refinement_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T141.926",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T148.500_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T161.845",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T162.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N3_T89.637",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 5,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4.12046_T175.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4.40496_T200.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4.92489_T250.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T142.853",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T168.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T170.630",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T189.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T198.407",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T199.500_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_refinement_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T210.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T220.500_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_refinement_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T226.184",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T231.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T252.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N4_T257.929",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N5.39495_T300.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6.22955_T400.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6.96485_T500.000_E3nJ_L2m",
+      "split": "constrained",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T275.522",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T300.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T329.096",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T337.500_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T356.250_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_refinement_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T375.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T375.000_smf_physical_fine",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_control_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T382.670",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T393.750_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "physical_refinement_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T412.500_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T436.244",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T450.000_smf",
+      "split": "physical",
+      "status": "complete",
+      "design_files": [
+        "next_core_cases.json",
+        "physical_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N6_T497.471",
+      "split": "calibration",
+      "status": "complete",
+      "design_files": [
+        "calibration_cases.json"
+      ],
+      "saved_checkpoints": 4,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N8_T439.094",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N8_T524.473",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N8_T609.853",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N8_T695.232",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "hc_sech_N8_T792.809",
+      "split": "heldout",
+      "status": "complete",
+      "design_files": [
+        "final_queue_cases.json",
+        "heldout_cases.json",
+        "heldout_response_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 3,
+      "error": null
+    },
+    {
+      "id": "library_matched_gaussian_N4_T200",
+      "split": "control",
+      "status": "complete",
+      "design_files": [
+        "control_cases.json",
+        "essential_control_cases.json",
+        "final_queue_cases.json",
+        "next_core_cases.json",
+        "post_holdout_queue_cases.json"
+      ],
+      "saved_checkpoints": 1,
+      "error": null
+    }
+  ],
+  "maximum_process_rss_bytes": 1415577600,
+  "minimum_free_percentage": 52,
+  "total_recorded_case_wall_seconds": 12523.054339257003,
+  "implementation_hash_counts": {
+    "6c97a2b328bcfde2daa7a177f6927eef825f0b639ef5429c85664d36f34320d3": 224
+  },
+  "heldout_fit_commit_counts": {
+    "abe44ab382621ff706ca234ac7bac8fca06d6b02": 53
+  },
+  "notes": "Serial, single-thread propagations; sparse raw checkpoints stored outside git. Unrun cases are not evidence.",
+  "status_by_design_manifest": {
+    "bw_holdout_refinement_cases.json": {
+      "complete": 8
+    },
+    "bw_refinement_cases.json": {
+      "unrun": 20
+    },
+    "calibration_cases.json": {
+      "complete": 113,
+      "edge-terminated": 2
+    },
+    "closure_queue_cases.json": {
+      "complete": 8
+    },
+    "control_cases.json": {
+      "unrun": 16,
+      "complete": 18
+    },
+    "damped_control_cases.json": {
+      "unrun": 10
+    },
+    "essential_control_cases.json": {
+      "complete": 18,
+      "unrun": 6
+    },
+    "final_queue_cases.json": {
+      "unrun": 58,
+      "edge-terminated": 1,
+      "complete": 57
+    },
+    "heldout_bw_cases.json": {
+      "complete": 20
+    },
+    "heldout_cases.json": {
+      "complete": 45
+    },
+    "heldout_response_cases.json": {
+      "complete": 25
+    },
+    "length_extension_cases.json": {
+      "complete": 3
+    },
+    "matched_shape_cases.json": {
+      "unrun": 10
+    },
+    "next_core_cases.json": {
+      "complete": 61,
+      "unrun": 6
+    },
+    "physical_cases.json": {
+      "complete": 23
+    },
+    "physical_control_cases.json": {
+      "complete": 2
+    },
+    "physical_refinement_cases.json": {
+      "complete": 6
+    },
+    "post_holdout_queue_cases.json": {
+      "unrun": 58,
+      "edge-terminated": 1,
+      "complete": 65
+    },
+    "response_control_cases.json": {
+      "edge-terminated": 1,
+      "complete": 3
+    },
+    "response_refinement_cases.json": {
+      "unrun": 12
+    }
+  },
+  "python_maximum_process_rss_bytes": 158908416,
+  "julia_maximum_process_rss_bytes": 1415577600
+}

@@ -1,0 +1,2 @@
+N=4 T0=100 fs L=0.485 m: lead var_vac=7.6138e-35 var_ram=3.1162e-35 (t_pk=0.961 ps, amp_n=7.023, window photons 1.892e+10 of 3.667e+10) | isolated T1=14.24 fs: var_vac=1.7352e-34 var_ram=2.0122e-35 (photons 1.610e+10) | ratios vac 0.439 ram 1.549 total 0.554
+N=5 T0=100 fs L=0.388 m: lead var_vac=4.7561e-35 var_ram=2.3475e-35 (t_pk=1.064 ps, amp_n=8.218, window photons 2.328e+10 of 5.730e+10) | isolated T1=12.17 fs: var_vac=1.1914e-34 var_ram=1.3464e-35 (photons 1.884e+10) | ratios vac 0.399 ram 1.744 total 0.536

@@ -1,0 +1,19 @@
+{
+  "run_id": "2026-10-20-gpt-f-thermodynamic-ledger",
+  "agent": "gpt-f",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-20",
+  "task": "T-20261020-claude-interactive-01",
+  "problem": "P-20261020-gpt-f-01",
+  "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+  "solver_dirty": false,
+  "solver_used": false,
+  "hardware": "arm64",
+  "machine": "COECIS-G3FLW49YGQ",
+  "wall_time_seconds": 1.3791077500000002,
+  "python": "3.9.6",
+  "sympy": "1.14.0",
+  "raw_location": "none; only symbolic expressions and summary arithmetic",
+  "command": "~/agent-work/venv/bin/python -W ignore runs/2026-10-20-gpt-f-thermodynamic-ledger/check.py"
+}

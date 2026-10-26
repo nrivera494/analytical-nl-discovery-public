@@ -1,0 +1,31 @@
+run_id: 2026-10-10-claude-b-nd-semiclassical
+date: 2026-10-10
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+task: T-20261010-claude-interactive-05
+serves: "C-20261010-claude-b-01 (Lambda(Z), Pi(Z)), C-20261010-claude-b-02 (K(Z))"
+description: >-
+  Reduced semiclassical computation of the amplitude-to-scaled-phase map C_Z for the unchirped Gaussian: central
+  differences of the full NLSE at large N on the span of the first M Hermite functions (eta = 1e-6), output read as
+  Ytilde = Im(du exp(-i arg u))/N with sqrt(dtau) weights; Lambda = 1/sigma_1^2, Pi = 1/sigma_2^2; sigma_1 of the
+  amplitude block A; mean-field <omega^2>_out, int rho^2 (for K(Z)). sigma_c.py: table at Z = 0.1..1.59, N = 20, 50, 100,
+  M = 40 (summary.json; M = 40 is biased by ~5e-3 at Z = 0.1, see curve files). lambda_curve.py: one propagation records
+  the curve every 0.01 in Z up to 3.3 and at the exact Z of every oracle point: curve_N50.json (Nt 2048, M 80, phase step
+  0.02), curve_N50_fine.json (phase step 0.01), curve_N100.json (Nt 4096), curve_N200.json (Nt 8192), all over 40 T0.
+solver_commit: "none: numpy split-step code in this folder"
+solver_dirty: false
+commands:
+  - "~/agent-work/venv/bin/python runs/2026-10-10-claude-b-nd-semiclassical/sigma_c.py"
+  - "cd runs/2026-10-10-claude-b-nd-semiclassical && ~/agent-work/venv/bin/python lambda_curve.py 50 2048 80 0.02 N50"
+  - "cd runs/2026-10-10-claude-b-nd-semiclassical && ~/agent-work/venv/bin/python lambda_curve.py 50 2048 80 0.01 N50_fine"
+  - "cd runs/2026-10-10-claude-b-nd-semiclassical && ~/agent-work/venv/bin/python lambda_curve.py 100 4096 80 0.02 N100"
+  - "cd runs/2026-10-10-claude-b-nd-semiclassical && ~/agent-work/venv/bin/python lambda_curve.py 200 8192 80 0.02 N200   # first attempt hit the 30-min background limit and was restarted with incremental saving"
+  - "cd runs/2026-10-10-claude-b-nd-semiclassical && ~/agent-work/venv/bin/python run_long.py   # N = 50, Nt 4096 over 80 T0, Z <= 10 -> curve_N50_long.json"
+  - "cd runs/2026-10-10-claude-b-nd-semiclassical && ~/agent-work/venv/bin/python basis_check.py   # M = 160 at N = 50 -> curve_N50_M160.json"
+  - "cd runs/2026-10-10-claude-b-nd-semiclassical && ~/agent-work/venv/bin/python hydro_direct.py   # epsilon = 0 dispersionless hydrodynamics, Z <= 1 -> hydro_direct.json"
+convergence: "step halving (N50 vs N50_fine): |dLambda/Lambda| <= 5e-7; N = 50 -> 100 -> 200: 1.5e-3 -> 3.8e-4 at Z = 0.1 and <= 4e-4 -> <= 1e-4 at Z >= 0.3 (N^-2 convergence); basis M = 80 vs 120 at Z = 0.1: 1.2e-4 (sigma_c checks); M = 80 vs 160 at N = 50: <= 4e-7 for 0.5 <= Z <= 3; window 40 vs 80 T0 (long curve): <= 1e-9"
+python: "3.9.6, numpy 2.0.2"
+hardware: "Apple M5, 10 cores, 32 GB RAM (host COECIS-G3FLW49YGQ)"
+wall_time_s: "N50 166, N50_fine 274, N100 691, N200 3476, N50_long 1603 (machine load average 60-100)"
+raw_location: "none (the curve files hold all output)"

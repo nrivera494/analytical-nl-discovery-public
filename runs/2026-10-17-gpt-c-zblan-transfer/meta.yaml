@@ -1,0 +1,14 @@
+run_id: 2026-10-17-gpt-c-zblan-transfer
+agent: gpt-c
+model: gpt-6-astra
+family: gpt
+date: 2026-10-17
+task: T-20261017-gpt-c-01
+claim: C-20261017-gpt-c-01
+solver_commit: null
+solver_note: Independent Float64 Python RK4IP adapted from gpt-c phase-1 code; solver submodule b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa unchanged.
+crosscheck_solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+seeds: [20261017]
+noise: none
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-c-zblan-transfer
+status: completed

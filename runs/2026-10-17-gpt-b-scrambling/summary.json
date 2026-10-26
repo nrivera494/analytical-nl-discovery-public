@@ -1,0 +1,1136 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 10000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n10000_d7501_h0.04.npz",
+      "wall_seconds": 71.95158982276917,
+      "crossing": 99.11508106107968,
+      "crossing_se": 0.19409834626255126,
+      "weighted_crossing": 102.71429164860623,
+      "relative_phase_crossing": 101.06427016160796,
+      "max_final_N_drift": 1.3942992316273717e-08,
+      "max_final_E_drift": 7.857114292519896e-09,
+      "jackknife_crossings": [
+        99.20602363725318,
+        99.0555303498731,
+        99.2697057273515,
+        99.0747100301178,
+        99.08365833129103,
+        99.0763554321812,
+        99.0960991422751,
+        99.06165297039955
+      ],
+      "thermal_variance_crossing": 99.83439107707797,
+      "scaled_dephasing": {
+        "10": 119.8164284714398,
+        "25": 697.5018675211976,
+        "50": 1797.758451174432,
+        "100": 8143.917221253842
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 1000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+06_d7501_h0.04.npz",
+      "wall_seconds": 70.83425784111023,
+      "crossing": 212.58292430761267,
+      "crossing_se": 0.5661455569301804,
+      "weighted_crossing": 307.64273398763925,
+      "relative_phase_crossing": 201.9068907848967,
+      "max_final_N_drift": 1.2051729614270812e-08,
+      "max_final_E_drift": 6.999609003521812e-09,
+      "jackknife_crossings": [
+        212.49770183228003,
+        212.43915270487602,
+        212.65144920884714,
+        212.3956767890157,
+        212.80838483049487,
+        212.92988526915798,
+        212.66329809224865,
+        212.23482068851177
+      ],
+      "thermal_variance_crossing": 194.30370000463887,
+      "scaled_dephasing": {
+        "10": 122.51284619452487,
+        "25": 784.7067847605226,
+        "50": 2008.1337011807107,
+        "100": 25823.311829932907
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 10000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+07_d7501_h0.04.npz",
+      "wall_seconds": 70.65590810775757,
+      "crossing": 268.7707482701446,
+      "crossing_se": 0.28096043759936007,
+      "weighted_crossing": 343.2694488512606,
+      "relative_phase_crossing": 260.7882683586867,
+      "max_final_N_drift": 1.1995999971148308e-08,
+      "max_final_E_drift": 6.854262490918472e-09,
+      "jackknife_crossings": [
+        268.8835153159416,
+        268.60516441500556,
+        268.88228258703776,
+        268.7078965224106,
+        268.8199712121248,
+        268.8211261603221,
+        268.85640357662464,
+        268.6239799883176
+      ],
+      "thermal_variance_crossing": 258.460485325776,
+      "scaled_dephasing": {
+        "10": 122.4761182474275,
+        "25": 785.7894738832531,
+        "50": 2006.7957868910948,
+        "100": 27416.22233802178
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 100000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+08_d7501_h0.04.npz",
+      "wall_seconds": 71.06363487243652,
+      "crossing": 331.0472561751252,
+      "crossing_se": 0.30467415311508594,
+      "weighted_crossing": 356.247166725737,
+      "relative_phase_crossing": 313.6824327142207,
+      "max_final_N_drift": 1.1804367594514531e-08,
+      "max_final_E_drift": 6.917827644059571e-09,
+      "jackknife_crossings": [
+        331.06361179334624,
+        330.8107123333098,
+        331.1053318821887,
+        330.923115395732,
+        331.0545159703949,
+        331.18523652959794,
+        331.1537285844985,
+        331.01160074032583
+      ],
+      "thermal_variance_crossing": 300.63402807420266,
+      "scaled_dephasing": {
+        "10": 122.45705644480188,
+        "25": 785.9125506487165,
+        "50": 2005.739178815937,
+        "100": 27606.40807784919
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 10000000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+10_d7501_h0.04.npz",
+      "wall_seconds": 74.06631112098694,
+      "crossing": 381.09036215339387,
+      "crossing_se": 1.003754380705855,
+      "weighted_crossing": 424.4760991379922,
+      "relative_phase_crossing": 377.6874356088253,
+      "max_final_N_drift": 1.1541456901298375e-08,
+      "max_final_E_drift": 6.688228304518873e-09,
+      "jackknife_crossings": [
+        381.1770296744591,
+        380.3911299515802,
+        381.24972140587334,
+        380.70845702227405,
+        381.1215122203814,
+        381.35018622811174,
+        381.24163644319367,
+        380.34600585987675
+      ],
+      "thermal_variance_crossing": 370.96166515899125,
+      "scaled_dephasing": {
+        "10": 122.44806688071877,
+        "25": 785.9324822260014,
+        "50": 2005.210757531775,
+        "100": 27633.95436816794
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 1000000000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+12_d7501_h0.04.npz",
+      "wall_seconds": 75.48777174949646,
+      "crossing": 505.8887666150844,
+      "crossing_se": 7.827894337580723,
+      "weighted_crossing": 643.5581579125293,
+      "relative_phase_crossing": 497.3767263476256,
+      "max_final_N_drift": 1.1435946412063913e-08,
+      "max_final_E_drift": 6.119672324444991e-09,
+      "jackknife_crossings": [
+        506.01610537059037,
+        499.97655744933394,
+        505.96713932910967,
+        499.89997798638865,
+        505.98370991569124,
+        506.050790336297,
+        505.97773859628546,
+        499.7894998748917
+      ],
+      "thermal_variance_crossing": 449.5430883185874,
+      "scaled_dephasing": {
+        "10": 122.44727454952242,
+        "25": 785.9334297568392,
+        "50": 2005.1549329943996,
+        "100": 27635.01043993822
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 10000.0,
+      "disorder_seed": 7502,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n10000_d7502_h0.04.npz",
+      "wall_seconds": 74.85071086883545,
+      "crossing": 120.16113405461343,
+      "crossing_se": 0.8572663629053852,
+      "weighted_crossing": 88.61440985223612,
+      "relative_phase_crossing": 115.83125687057192,
+      "max_final_N_drift": 1.465767396346962e-08,
+      "max_final_E_drift": 7.654055833583584e-09,
+      "jackknife_crossings": [
+        120.48702701784934,
+        119.7980407904003,
+        120.58903186046825,
+        119.62529943040363,
+        120.0395072455258,
+        119.9277238494404,
+        120.41613154313693,
+        120.04382595689013
+      ],
+      "thermal_variance_crossing": 129.84128307981834,
+      "scaled_dephasing": {
+        "10": 132.18861677943084,
+        "25": 416.01955431110935,
+        "50": 1331.7783924230757,
+        "100": 4917.15359255088
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 1000000.0,
+      "disorder_seed": 7502,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+06_d7502_h0.04.npz",
+      "wall_seconds": 75.23734188079834,
+      "crossing": 295.80112923401305,
+      "crossing_se": 0.17441522488157202,
+      "weighted_crossing": 305.74856160895933,
+      "relative_phase_crossing": 293.83646850550844,
+      "max_final_N_drift": 1.2280052974489308e-08,
+      "max_final_E_drift": 6.8261264418723044e-09,
+      "jackknife_crossings": [
+        295.85141832911745,
+        295.8253735912844,
+        295.87831716995333,
+        295.7241622390746,
+        295.7072325583693,
+        295.8445089445827,
+        295.8469601675223,
+        295.7175117053868
+      ],
+      "thermal_variance_crossing": 285.9213042530208,
+      "scaled_dephasing": {
+        "10": 135.2057176037619,
+        "25": 420.11027023248755,
+        "50": 1377.8356720467889,
+        "100": 5308.66394834001
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 10000000.0,
+      "disorder_seed": 7502,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+07_d7502_h0.04.npz",
+      "wall_seconds": 74.50101780891418,
+      "crossing": 348.14839895390986,
+      "crossing_se": 0.19829566300560184,
+      "weighted_crossing": 403.01241640518924,
+      "relative_phase_crossing": 338.9622706838719,
+      "max_final_N_drift": 1.2084974354564793e-08,
+      "max_final_E_drift": 6.401171148695539e-09,
+      "jackknife_crossings": [
+        348.2172398434399,
+        348.08232986826795,
+        348.24428052847907,
+        348.1000938819741,
+        348.06659579635317,
+        348.1760463626519,
+        348.22963906183645,
+        348.0467888707279
+      ],
+      "thermal_variance_crossing": 332.77185961531603,
+      "scaled_dephasing": {
+        "10": 135.2932805869208,
+        "25": 420.1198433504159,
+        "50": 1378.3646565018685,
+        "100": 5322.294520818801
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 100000000.0,
+      "disorder_seed": 7502,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+08_d7502_h0.04.npz",
+      "wall_seconds": 74.57406067848206,
+      "crossing": 411.16916847869277,
+      "crossing_se": 3.994600064835022,
+      "weighted_crossing": 481.91957134505446,
+      "relative_phase_crossing": 405.4671725036401,
+      "max_final_N_drift": 1.178933395351578e-08,
+      "max_final_E_drift": 6.44384945402976e-09,
+      "jackknife_crossings": [
+        414.0968810324499,
+        410.8985618672396,
+        414.1962761911164,
+        410.97694283448305,
+        410.83497276117623,
+        411.5139976437963,
+        414.0392812820072,
+        410.8770939545774
+      ],
+      "thermal_variance_crossing": 378.218498385416,
+      "scaled_dephasing": {
+        "10": 135.31621961052676,
+        "25": 420.11378800708394,
+        "50": 1378.4401173583594,
+        "100": 5326.552610254984
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 10000000000.0,
+      "disorder_seed": 7502,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+10_d7502_h0.04.npz",
+      "wall_seconds": 74.82055807113647,
+      "crossing": 488.7261946631869,
+      "crossing_se": 0.1895590677918832,
+      "weighted_crossing": 597.194515607598,
+      "relative_phase_crossing": 487.640999106314,
+      "max_final_N_drift": 1.1871449490108432e-08,
+      "max_final_E_drift": 5.611638265179408e-09,
+      "jackknife_crossings": [
+        488.8229498226041,
+        488.72097054116017,
+        488.782234193166,
+        488.6210318235465,
+        488.6178013521613,
+        488.7737382466107,
+        488.76323590045547,
+        488.6793370960353
+      ],
+      "thermal_variance_crossing": 475.12992320725317,
+      "scaled_dephasing": {
+        "10": 135.32508760765035,
+        "25": 420.1099800799199,
+        "50": 1378.4585035370694,
+        "100": 5328.318783543885
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 1000000000000.0,
+      "disorder_seed": 7502,
+      "dt": 0.04,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+12_d7502_h0.04.npz",
+      "wall_seconds": 75.06126594543457,
+      "crossing": 593.6985652412482,
+      "crossing_se": 3.331035522098657,
+      "weighted_crossing": 646.1609817194116,
+      "relative_phase_crossing": 588.4903682237491,
+      "max_final_N_drift": 1.1885728623539649e-08,
+      "max_final_E_drift": 5.931323654451148e-09,
+      "jackknife_crossings": [
+        593.9251239781455,
+        593.963526430314,
+        593.6701977160321,
+        593.6823372963589,
+        589.9410886451604,
+        593.8545444440499,
+        593.3324431548324,
+        593.4395319517569
+      ],
+      "thermal_variance_crossing": 582.5643456886819,
+      "scaled_dephasing": {
+        "10": 135.32586163683413,
+        "25": 420.10950282942986,
+        "50": 1378.4599027297254,
+        "100": 5328.495103803519
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 100000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.02,
+      "dephased": false,
+      "shots": 256,
+      "sample": 1,
+      "zmax": 1200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/coherent_n1e+08_d7501_h0.02.npz",
+      "wall_seconds": 149.39085006713867,
+      "crossing": 382.60600533182867,
+      "crossing_se": 0.3382186882141807,
+      "weighted_crossing": 441.57354772611603,
+      "relative_phase_crossing": 382.70403066848297,
+      "max_final_N_drift": 4.0665926182015255e-10,
+      "max_final_E_drift": 2.2256929632646916e-10,
+      "jackknife_crossings": [
+        382.6752103091696,
+        382.4112912586955,
+        382.68520653312106,
+        382.47217262445423,
+        382.5636584997152,
+        382.85292924433395,
+        382.5947409043946,
+        382.57442267768477
+      ],
+      "thermal_variance_crossing": 380.946043417573,
+      "scaled_dephasing": {
+        "10": 124.5941083554844,
+        "25": 737.30534187695,
+        "50": 1783.640979008094,
+        "100": 32927.15724796408
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 10000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": true,
+      "shots": 256,
+      "sample": 0.2,
+      "zmax": 200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/dephased_n10000_d7501_h0.04.npz",
+      "wall_seconds": 13.053412199020386,
+      "fluctuation_onset": 1.134678378387573,
+      "launched_modes_onset": 2.096451783973972,
+      "max_final_N_drift": 2.51185450217406e-09,
+      "max_final_E_drift": 1.5902897887443146e-09,
+      "variance_definition": "legacy diagnostic: normally ordered g2-1; not photon-number relative variance",
+      "onset_left_censored_at_first_nonzero_sample": false,
+      "first_nonzero_sample_relative_variance": 0.03418812213835176,
+      "launched_onset_se": 0.03795950004953072,
+      "mean_I0_at_lengths": {
+        "2": 0.5635365386715597,
+        "10": 0.656015759180707,
+        "50": 0.7444226834759495,
+        "100": 0.7400497141149329,
+        "200": 0.7373561338505297
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 100000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": true,
+      "shots": 256,
+      "sample": 0.2,
+      "zmax": 200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/dephased_n1e+08_d7501_h0.04.npz",
+      "wall_seconds": 13.075655937194824,
+      "fluctuation_onset": 0.19989817413968425,
+      "launched_modes_onset": 2.0924134173847433,
+      "max_final_N_drift": 2.2987141079511275e-09,
+      "max_final_E_drift": 1.5101034867015528e-09,
+      "variance_definition": "legacy diagnostic: normally ordered g2-1; not photon-number relative variance",
+      "onset_left_censored_at_first_nonzero_sample": true,
+      "first_nonzero_sample_relative_variance": 0.4354528867732218,
+      "launched_onset_se": 0.03503945218088479,
+      "mean_I0_at_lengths": {
+        "2": 0.5628306259978231,
+        "10": 0.6552436032697578,
+        "50": 0.7437279914043532,
+        "100": 0.7378556544880871,
+        "200": 0.7378838858391099
+      }
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "n": 1000000000000.0,
+      "disorder_seed": 7501,
+      "dt": 0.04,
+      "dephased": true,
+      "shots": 256,
+      "sample": 0.2,
+      "zmax": 200,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling/dephased_n1e+12_d7501_h0.04.npz",
+      "wall_seconds": 13.319550037384033,
+      "fluctuation_onset": 0.2209567381852463,
+      "launched_modes_onset": 2.092371302805078,
+      "max_final_N_drift": 2.3000065185740937e-09,
+      "max_final_E_drift": 1.506907376658262e-09,
+      "variance_definition": "legacy diagnostic: normally ordered g2-1; not photon-number relative variance",
+      "onset_left_censored_at_first_nonzero_sample": false,
+      "first_nonzero_sample_relative_variance": 0.4306752442809595,
+      "launched_onset_se": 0.03503062230895782,
+      "mean_I0_at_lengths": {
+        "2": 0.562823552682049,
+        "10": 0.6552357179357332,
+        "50": 0.7437152649913388,
+        "100": 0.7378228283838127,
+        "200": 0.7387518506742322
+      }
+    }
+  ],
+  "fits": [
+    {
+      "disorder_seed": 7501,
+      "slope": 18.295462604019487,
+      "intercept": -28.77469481285177,
+      "slope_se": 4.288985161246903,
+      "lambda1": 0.0202749046312988,
+      "predicted_slope": 24.66102845328009,
+      "slope_shot_jackknife_se": 0.06751805369358616,
+      "residual_shot_jackknife_se": [
+        0.17974434506555834,
+        0.3106611468028266,
+        0.359488690130993,
+        0.1797443450654697,
+        6.784542718545272
+      ],
+      "slope_ratio": 0.7418775189639775,
+      "residuals": [
+        -11.403537648207333,
+        2.6574268528792686,
+        22.807075296414553,
+        -11.403537648207362,
+        29.141147890592606
+      ],
+      "n": [
+        1000000.0,
+        10000000.0,
+        100000000.0,
+        10000000000.0,
+        1000000000000.0
+      ],
+      "held_out": [
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "free_log_power": 1.0597157681728486,
+      "free_log_power_se": 1.0812756600667934,
+      "free_log_power_fit_role": "post-hoc diagnostic using all five points; not a held-out test",
+      "pass_slope": true,
+      "pass_held_out": true
+    },
+    {
+      "disorder_seed": 7502,
+      "slope": 20.9465728341785,
+      "intercept": 12.71536660028328,
+      "slope_se": 2.3701836943021295,
+      "lambda1": 0.018765134381029978,
+      "predicted_slope": 26.645159573461903,
+      "slope_shot_jackknife_se": 0.007800244117202161,
+      "residual_shot_jackknife_se": [
+        1.2853019235751135,
+        1.2381139791160378,
+        2.570603847150499,
+        1.285301923575233,
+        3.149466289143272
+      ],
+      "slope_ratio": 0.786130508110783,
+      "residuals": [
+        -6.301835510030969,
+        -2.185832147427618,
+        12.603671020061824,
+        -6.301835510030912,
+        2.208002353443476
+      ],
+      "n": [
+        1000000.0,
+        10000000.0,
+        100000000.0,
+        10000000000.0,
+        1000000000000.0
+      ],
+      "held_out": [
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "free_log_power": 0.7357222059606978,
+      "free_log_power_se": 0.451107441754646,
+      "free_log_power_fit_role": "post-hoc diagnostic using all five points; not a held-out test",
+      "pass_slope": true,
+      "pass_held_out": true
+    }
+  ],
+  "lyapunov": [
+    {
+      "seed": 7501,
+      "epsilon": 1e-06,
+      "lambda1": 0.02027491878183703,
+      "se": 0.0006685230493379785,
+      "blocks": [
+        0.01931857410163371,
+        0.022094514443246418,
+        0.022180013611006626,
+        0.01817106285173045,
+        0.021843244867089946,
+        0.019018761515656294,
+        0.018083099276808574,
+        0.02139324298651566,
+        0.018392382209369344,
+        0.0254869161617126,
+        0.019244539903280383,
+        0.018072673453994385
+      ],
+      "predicted_slope": 24.66101124153046
+    },
+    {
+      "seed": 7501,
+      "epsilon": 1e-07,
+      "lambda1": 0.0202749046312988,
+      "se": 0.0006685254844813641,
+      "blocks": [
+        0.019318471229312857,
+        0.022094594997090072,
+        0.02218003710558686,
+        0.018171039072832587,
+        0.02184318186752599,
+        0.019018738083699745,
+        0.018083094104968733,
+        0.02139333599069844,
+        0.018392365946920747,
+        0.025486865220268447,
+        0.019244441579991986,
+        0.018072690376689144
+      ],
+      "predicted_slope": 24.66102845328009
+    },
+    {
+      "seed": 7501,
+      "epsilon": 1e-08,
+      "lambda1": 0.02027490566415453,
+      "se": 0.0006685290038589468,
+      "blocks": [
+        0.01931846096162741,
+        0.02209461034664917,
+        0.02218004342419055,
+        0.018171029735331856,
+        0.021843212389852477,
+        0.019018701501229657,
+        0.018083135473297523,
+        0.021393378071864734,
+        0.018392323693762157,
+        0.025486872867431246,
+        0.019244441622473758,
+        0.018072657882143833
+      ],
+      "predicted_slope": 24.66102719698401
+    },
+    {
+      "seed": 7502,
+      "epsilon": 1e-06,
+      "lambda1": 0.01876514289128593,
+      "se": 0.0011225010203813955,
+      "blocks": [
+        0.017884399340871975,
+        0.012899384275368455,
+        0.01816691687141074,
+        0.022811856967879986,
+        0.01742763732934705,
+        0.021707485591715512,
+        0.02442222300171657,
+        0.019338276650658296,
+        0.01449509483089015,
+        0.021538929328530486,
+        0.021776687881935385,
+        0.012712822625106547
+      ],
+      "predicted_slope": 26.64514748950767
+    },
+    {
+      "seed": 7502,
+      "epsilon": 1e-07,
+      "lambda1": 0.018765134381029978,
+      "se": 0.0011224871398378292,
+      "blocks": [
+        0.017884284262837967,
+        0.012899453026937966,
+        0.018166962241015442,
+        0.022811716283074865,
+        0.017427575582462055,
+        0.021707534137312145,
+        0.024422291434669962,
+        0.019338245708614026,
+        0.014495186212624443,
+        0.021538784948489778,
+        0.021776627251588878,
+        0.012712951482732205
+      ],
+      "predicted_slope": 26.645159573461903
+    },
+    {
+      "seed": 7502,
+      "epsilon": 1e-08,
+      "lambda1": 0.018765122790820547,
+      "se": 0.0011224833621525545,
+      "blocks": [
+        0.017884275425688472,
+        0.012899466530982362,
+        0.018166951896475794,
+        0.02281160761801091,
+        0.01742758589704837,
+        0.02170755472504004,
+        0.024422276277803787,
+        0.01933821568520358,
+        0.014495224817441473,
+        0.021538744956858535,
+        0.021776651770328653,
+        0.012712917888964573
+      ],
+      "predicted_slope": 26.64517603074722
+    }
+  ],
+  "exact": {
+    "agent": "gpt-b",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "rows": [
+      {
+        "n": 16,
+        "cutoff": 180,
+        "captured_norm_before_normalizing": 0.9999999999999979,
+        "held_out": false,
+        "crossing": 3.3362592120397228,
+        "predicted_crossing": 3.336259212039722,
+        "probes": [
+          {
+            "s": 1.0,
+            "coherence": 0.9394321729271176,
+            "det": 0.6038768391734679,
+            "analytic_det": 0.6038768391734946,
+            "asymptotic_excess": 0.40625,
+            "norm": 1.0
+          },
+          {
+            "s": 2.0,
+            "coherence": 0.7790542081724875,
+            "det": 7.733463968002143,
+            "analytic_det": 7.733463968002171,
+            "asymptotic_excess": 12.5,
+            "norm": 1.0
+          },
+          {
+            "s": 1.5874010519681994,
+            "coherence": 0.8543955743814474,
+            "det": 2.9641989620492355,
+            "analytic_det": 2.9641989620492666,
+            "asymptotic_excess": 3.7858261834642226,
+            "norm": 1.0000000000000002
+          },
+          {
+            "s": 0.4,
+            "coherence": 0.9900503493895149,
+            "det": 0.2575368390139383,
+            "analytic_det": 0.2575368390139383,
+            "asymptotic_excess": 0.007712000000000002,
+            "norm": 1.0
+          }
+        ]
+      },
+      {
+        "n": 64,
+        "cutoff": 292,
+        "captured_norm_before_normalizing": 0.9999999999999669,
+        "held_out": false,
+        "crossing": 6.663446197322099,
+        "predicted_crossing": 6.663446197322109,
+        "probes": [
+          {
+            "s": 1.0,
+            "coherence": 0.9844967499659006,
+            "det": 0.3481208054324283,
+            "analytic_det": 0.3481208054324991,
+            "asymptotic_excess": 0.1015625,
+            "norm": 1.0000000000000002
+          },
+          {
+            "s": 2.0,
+            "coherence": 0.9394178407720143,
+            "det": 2.9915388801173854,
+            "analytic_det": 2.9915388801172753,
+            "asymptotic_excess": 3.125,
+            "norm": 1.0000000000000004
+          },
+          {
+            "s": 2.0,
+            "coherence": 0.9394178407720143,
+            "det": 2.9915388801173854,
+            "analytic_det": 2.9915388801172753,
+            "asymptotic_excess": 3.125,
+            "norm": 1.0000000000000004
+          },
+          {
+            "s": 0.8,
+            "coherence": 0.9900499626612439,
+            "det": 0.2861748881289088,
+            "analytic_det": 0.2861748881289963,
+            "asymptotic_excess": 0.03699200000000001,
+            "norm": 1.0000000000000002
+          }
+        ]
+      },
+      {
+        "n": 256,
+        "cutoff": 612,
+        "captured_norm_before_normalizing": 0.9999999999999143,
+        "held_out": true,
+        "crossing": 13.3223770564789,
+        "predicted_crossing": 13.322377056478832,
+        "probes": [
+          {
+            "s": 1.0,
+            "coherence": 0.9961013744178039,
+            "det": 0.2751728207861015,
+            "analytic_det": 0.27517282078591077,
+            "asymptotic_excess": 0.025390625,
+            "norm": 0.9999999999999998
+          },
+          {
+            "s": 2.0,
+            "coherence": 0.9844965152459995,
+            "det": 1.0059866660808083,
+            "analytic_det": 1.0059866660812347,
+            "asymptotic_excess": 0.78125,
+            "norm": 0.9999999999999998
+          },
+          {
+            "s": 2.5198420997897464,
+            "coherence": 0.9755021243880531,
+            "det": 2.823002407555876,
+            "analytic_det": 2.823002407556281,
+            "asymptotic_excess": 2.7087055905658666,
+            "norm": 0.9999999999999996
+          },
+          {
+            "s": 1.6,
+            "coherence": 0.9900498659773116,
+            "det": 0.4910644532199324,
+            "analytic_det": 0.4910644532204884,
+            "asymptotic_excess": 0.24627200000000007,
+            "norm": 0.9999999999999997
+          }
+        ]
+      },
+      {
+        "n": 1024,
+        "cutoff": 1636,
+        "captured_norm_before_normalizing": 0.9999999999998991,
+        "held_out": false,
+        "crossing": 26.642499024274453,
+        "predicted_crossing": 26.642499024274837,
+        "probes": [
+          {
+            "s": 1.0,
+            "coherence": 0.9990239142595105,
+            "det": 0.2563340010741324,
+            "analytic_det": 0.2563340010768551,
+            "asymptotic_excess": 0.00634765625,
+            "norm": 1.0000000000000004
+          },
+          {
+            "s": 2.0,
+            "coherence": 0.9961013707070399,
+            "det": 0.44371237770878125,
+            "analytic_det": 0.44371237771317595,
+            "asymptotic_excess": 0.1953125,
+            "norm": 1.0000000000000004
+          },
+          {
+            "s": 3.1748021039363987,
+            "coherence": 0.9902051596854329,
+            "det": 2.647542654192307,
+            "analytic_det": 2.647542654213069,
+            "asymptotic_excess": 2.446456545866055,
+            "norm": 1.0000000000000004
+          },
+          {
+            "s": 3.2,
+            "coherence": 0.9900498418062116,
+            "det": 2.756020603814804,
+            "analytic_det": 2.756020603838536,
+            "asymptotic_excess": 2.557952000000001,
+            "norm": 1.0000000000000004
+          }
+        ]
+      },
+      {
+        "n": 4096,
+        "cutoff": 5220,
+        "captured_norm_before_normalizing": 0.999999999999042,
+        "held_out": true,
+        "crossing": 53.2838708262451,
+        "predicted_crossing": 53.28387082624635,
+        "probes": [
+          {
+            "s": 1.0,
+            "coherence": 0.9997558891761092,
+            "det": 0.251586059958822,
+            "analytic_det": 0.2515860599504227,
+            "asymptotic_excess": 0.0015869140625,
+            "norm": 1.0
+          },
+          {
+            "s": 2.0,
+            "coherence": 0.9990239142013592,
+            "det": 0.2987277830637787,
+            "analytic_det": 0.29872778307602843,
+            "asymptotic_excess": 0.048828125,
+            "norm": 0.9999999999999999
+          },
+          {
+            "s": 3.9999999999999996,
+            "coherence": 0.9961013697793483,
+            "det": 2.513182403675671,
+            "analytic_det": 2.513182403765029,
+            "asymptotic_excess": 2.2812499999999987,
+            "norm": 1.0
+          },
+          {
+            "s": 6.4,
+            "coherence": 0.9900498357634293,
+            "det": 34.94221144798939,
+            "analytic_det": 34.94221144838116,
+            "asymptotic_excess": 35.397632000000016,
+            "norm": 0.9999999999999996
+          }
+        ]
+      }
+    ],
+    "ballistic_exponent": 0.4997090104110615,
+    "covariance_error_exponents": [
+      {
+        "s": 1.0,
+        "exponent": 0.9921898726308374
+      },
+      {
+        "s": 2.0,
+        "exponent": 0.9703368629209261
+      }
+    ]
+  },
+  "variance_clock_correction": {
+    "agent": "gpt-b",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "role": "post-production analysis correction, not a replacement frozen test",
+    "photon_variance_formula": "(mean_Wigner_I2-mean_Wigner_I**2-1/(4*n**2))/(mean_Wigner_I-1/(2*n))**2",
+    "identity": "photon_relative_variance = normally_ordered_g2_minus_1 + 1/(n*mean_photon_intensity)",
+    "initial_support": "five occupied excited modes, nine exactly empty excited modes",
+    "caveat": "The all-mode photon ratio is undefined on initial vacuum modes. Wigner vacuum intensity has relative variance one. First-cell crossings cannot establish a kinetic clock. Occupied-mode restriction is post hoc.",
+    "rows": [
+      {
+        "n": 10000.0,
+        "dt": 0.04,
+        "sample": 0.2,
+        "disorder_seed": 7501,
+        "diagnostics": {
+          "normally_ordered_excess": {
+            "all_excited_initial_estimate": -3.7276291819850296,
+            "all_excited_at_first_nonzero_sample": 0.03418812213835176,
+            "all_excited_numerical_upcrossing": 1.134678378387573,
+            "all_excited_first_sample_above_target": false,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.096451783973972,
+            "initially_occupied_onset_jackknife_se": 0.03795950004953072
+          },
+          "photon_number_relative_variance": {
+            "all_excited_initial_estimate": 0.0020254324316667637,
+            "all_excited_at_first_nonzero_sample": 2.7467540910285257,
+            "all_excited_numerical_upcrossing": 0.03142809031783541,
+            "all_excited_first_sample_above_target": true,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.0928509947768728,
+            "initially_occupied_onset_jackknife_se": 0.03728742187687604
+          },
+          "wigner_intensity_relative_variance": {
+            "all_excited_initial_estimate": 0.8435707986210794,
+            "all_excited_at_first_nonzero_sample": 0.819435123101287,
+            "all_excited_numerical_upcrossing": null,
+            "all_excited_first_sample_above_target": true,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.0944093107116637,
+            "initially_occupied_onset_jackknife_se": 0.03757667064457787
+          }
+        }
+      },
+      {
+        "n": 100000000.0,
+        "dt": 0.04,
+        "sample": 0.2,
+        "disorder_seed": 7501,
+        "diagnostics": {
+          "normally_ordered_excess": {
+            "all_excited_initial_estimate": -3.727641701016771,
+            "all_excited_at_first_nonzero_sample": 0.4354528867732218,
+            "all_excited_numerical_upcrossing": 0.19989817413968425,
+            "all_excited_first_sample_above_target": true,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.0924134173847433,
+            "initially_occupied_onset_jackknife_se": 0.03503945218088479
+          },
+          "photon_number_relative_variance": {
+            "all_excited_initial_estimate": 2.032607797241903e-07,
+            "all_excited_at_first_nonzero_sample": 0.4427214516964382,
+            "all_excited_numerical_upcrossing": 0.19575890319415326,
+            "all_excited_first_sample_above_target": true,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.092413058130959,
+            "initially_occupied_onset_jackknife_se": 0.03503942826701302
+          },
+          "wigner_intensity_relative_variance": {
+            "all_excited_initial_estimate": 0.8435707986210801,
+            "all_excited_at_first_nonzero_sample": 0.43953163313111476,
+            "all_excited_numerical_upcrossing": null,
+            "all_excited_first_sample_above_target": true,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.0924132137392712,
+            "initially_occupied_onset_jackknife_se": 0.035039436822701026
+          }
+        }
+      },
+      {
+        "n": 1000000000000.0,
+        "dt": 0.04,
+        "sample": 0.2,
+        "disorder_seed": 7501,
+        "diagnostics": {
+          "normally_ordered_excess": {
+            "all_excited_initial_estimate": -3.727641702337723,
+            "all_excited_at_first_nonzero_sample": 0.4306752442809595,
+            "all_excited_numerical_upcrossing": 0.2209567381852463,
+            "all_excited_first_sample_above_target": false,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.092371302805078,
+            "initially_occupied_onset_jackknife_se": 0.03503062230895782
+          },
+          "photon_number_relative_variance": {
+            "all_excited_initial_estimate": 2.0326962050144135e-11,
+            "all_excited_at_first_nonzero_sample": 0.4306759712558179,
+            "all_excited_numerical_upcrossing": 0.2209514560779178,
+            "all_excited_first_sample_above_target": false,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.092371302769153,
+            "initially_occupied_onset_jackknife_se": 0.03503062230661544
+          },
+          "wigner_intensity_relative_variance": {
+            "all_excited_initial_estimate": 0.8435707986210794,
+            "all_excited_at_first_nonzero_sample": 0.43067565800418195,
+            "all_excited_numerical_upcrossing": 0.2209537357966823,
+            "all_excited_first_sample_above_target": false,
+            "all_excited_valid_onset_clock": false,
+            "initially_occupied_onset": 2.0923713027847137,
+            "initially_occupied_onset_jackknife_se": 0.03503062230744645
+          }
+        }
+      }
+    ]
+  }
+}

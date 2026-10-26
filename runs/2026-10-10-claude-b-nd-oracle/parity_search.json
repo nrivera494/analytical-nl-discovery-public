@@ -1,0 +1,32 @@
+{
+ "N20_zr0.7": {
+  "F_transfer": 0.3402815484560534,
+  "F_parity_search": 0.3402815484560534,
+  "rel": 0.0,
+  "source": "transfer"
+ },
+ "N40_zr0.7": {
+  "F_transfer": 0.24340147754301034,
+  "F_parity_search": 0.24340147754301034,
+  "rel": 0.0,
+  "source": "transfer"
+ },
+ "N40_zr1": {
+  "F_transfer": 0.24395971989000892,
+  "F_parity_search": 0.24395971989000892,
+  "rel": 0.0,
+  "source": "transfer"
+ },
+ "N20_zr0.3": {
+  "F_transfer": 0.4504142477261384,
+  "F_parity_search": 0.4504142477261384,
+  "rel": 0.0,
+  "source": "transfer"
+ },
+ "N20_zr1.5": {
+  "F_transfer": 0.4211921896280416,
+  "F_parity_search": 0.4211921896280416,
+  "rel": 0.0,
+  "source": "transfer"
+ }
+}

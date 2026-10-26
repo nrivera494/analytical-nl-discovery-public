@@ -1,0 +1,54 @@
+{
+ "G1a": {
+  "pass_": true,
+  "detail": "n0 1e+08: -26.90 dB vs -26.91; n0 1e+10: -33.57 dB vs -33.58"
+ },
+ "G1b_n01e+08": {
+  "pass_": false,
+  "detail": "4/9 within 1 dB; deviations [-0.07, -1.77, -4.47, -0.14, -6.26, -0.03, -1.11, -0.11, -3.9]"
+ },
+ "G1c_n01e+08": {
+  "pass_": false,
+  "detail": "5/6 within 1.5 dB (inputs with V_P < V*); deviations [-0.07, -1.78, -0.14, -0.03, -1.11, -0.11]"
+ },
+ "G1b_n01e+10": {
+  "pass_": true,
+  "detail": "9/9 within 1 dB; deviations [0.0, -0.15, -0.23, -0.0, -0.67, 0.01, -0.05, -0.0, -0.42]"
+ },
+ "G1c_n01e+10": {
+  "pass_": true,
+  "detail": "9/9 within 1.5 dB (inputs with V_P < V*); deviations [0.0, -0.15, -0.23, -0.0, -0.67, 0.01, -0.05, -0.0, -0.42]"
+ },
+ "G2a_n1e+06": {
+  "pass_": true,
+  "detail": "z=5: TWA -18.0 vs lin -18.4"
+ },
+ "G2b_n1e+06": {
+  "pass_": true,
+  "detail": "z=10: TWA -18.3 vs lin -24.4; z=20: TWA -8.0 vs lin -30.4; z=50: TWA 8.2 vs lin -38.5; z=100: TWA 19.3 vs lin -44.1"
+ },
+ "G3a_n1e+06": {
+  "pass_": true,
+  "detail": "z=5: TWA -2.6 vs lin -2.2; z=10: TWA -8.5 vs lin -8.6"
+ },
+ "G3b_n1e+06": {
+  "pass_": false,
+  "detail": "z=50: TWA photon-number -14.0 vs lin -14.3 (criterion 1.35e+03; quadrature version 7.2); z=100: TWA photon-number -12.2 vs lin -12.6 (criterion 1.12e+04; quadrature version 16.9)"
+ },
+ "G2a_n1e+10": {
+  "pass_": true,
+  "detail": "z=5: TWA -18.3 vs lin -18.4; z=10: TWA -24.3 vs lin -24.4; z=20: TWA -30.1 vs lin -30.4"
+ },
+ "G2b_n1e+10": {
+  "pass_": true,
+  "detail": "z=50: TWA -30.8 vs lin -38.5; z=100: TWA -20.6 vs lin -44.1"
+ },
+ "G3a_n1e+10": {
+  "pass_": true,
+  "detail": "z=5: TWA -2.6 vs lin -2.2; z=10: TWA -8.5 vs lin -8.6; z=20: TWA -6.6 vs lin -6.6; z=50: TWA -13.9 vs lin -14.3"
+ },
+ "G4": {
+  "pass_": false,
+  "detail": "z=5: max n0* 9e+04 (median 3.7e+04); z=10: max n0* 3e+06 (median 1.2e+06); z=20: max n0* 4.6e+07 (median 1.8e+07); z=50: max n0* 3.1e+09 (median 5e+08)"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "nlse_soliton_nsteps500": {
+  "shape_err": 7.152119868683331e-09,
+  "energy_drift": 1.36685551765936e-10
+ },
+ "nlse_soliton_nsteps1000": {
+  "shape_err": 4.5165465537713707e-10,
+  "energy_drift": 4.269473663498502e-12
+ },
+ "kerr_shock_N3": {
+  "energy_drift": 4.801795294717692e-08,
+  "photon_drift": 3.663249903418375e-08,
+  "max_abs_dEdz_rhs_over_kappaE2": 2.384185791015625e-22
+ },
+ "raman_N3": {
+  "photon_drift": 4.448590606997982e-09,
+  "energy_ratio": 0.9327058275078072,
+  "max_identity_rel": 1.5903370251166098e-12,
+  "rho0_rhs": 0.0036950164430570353,
+  "rho0_spec": 0.003695016443057008,
+  "rho0_closed": 0.0036950164430570084,
+  "max_negfreq_frac": 6.926287186472664e-17,
+  "max_edge": 2.1549507215880736e-14
+ },
+ "wall_s": 24.16632890701294
+}

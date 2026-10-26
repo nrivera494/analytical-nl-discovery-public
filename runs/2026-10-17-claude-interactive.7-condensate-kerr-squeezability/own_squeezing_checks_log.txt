@@ -1,0 +1,14 @@
+A  sigma=0 z=    1: own min   -4.72 dB (dz 0.02) vs   -4.72 dB (dz 0.01); V_P 3.917 vs 3.917
+A  sigma=0 z=    2: own min   -5.36 dB (dz 0.02) vs   -5.36 dB (dz 0.01); V_P 12.61 vs 12.61
+A  sigma=0 z=    5: own min   -4.88 dB (dz 0.02) vs   -4.88 dB (dz 0.01); V_P 74.64 vs 74.64
+A  sigma=0 z=   10: own min  -11.33 dB (dz 0.02) vs  -11.33 dB (dz 0.01); V_P 314.7 vs 314.7
+A  sigma=0 z=   20: own min  -10.97 dB (dz 0.02) vs  -10.97 dB (dz 0.01); V_P 1270 vs 1270
+A  sigma=0 z=   50: own min  -13.45 dB (dz 0.02) vs  -13.45 dB (dz 0.01); V_P 7757 vs 7757
+A  sigma=0 z=  100: own min   -5.44 dB (dz 0.02) vs   -5.44 dB (dz 0.01); V_P 3.142e+04 vs 3.142e+04
+B/C z=   1: TWA min  -5.11 +- 0.24 dB vs tangent map  -4.91 dB | V_P TWA 3.801 vs tangent 3.916; V_P|X TWA 1.35 vs 1.46 | SPM-only: Phi_self 0.80, V_P 3.531, min -6.3 dB | V_X V_P|X / V_P = -4.21 dB | 4s
+B/C z=   2: TWA min  -6.07 +- 0.23 dB vs tangent map  -5.74 dB | V_P TWA 12.54 vs tangent 12.64; V_P|X TWA 3.06 vs 3.38 | SPM-only: Phi_self 1.58, V_P 11.05, min -10.8 dB | V_X V_P|X / V_P = -5.47 dB | 6s
+B/C z=   5: TWA min  -5.96 +- 0.22 dB vs tangent map  -5.69 dB | V_P TWA 76.73 vs tangent 76.1; V_P|X TWA 15.5 vs 16.6 | SPM-only: Phi_self 3.97, V_P 64.07, min -18.1 dB | V_X V_P|X / V_P = -5.63 dB | 16s
+B/C z=  10: TWA min  -8.08 +- 0.20 dB vs tangent map  -7.91 dB | V_P TWA 314.9 vs tangent 310; V_P|X TWA 39.7 vs 41 | SPM-only: Phi_self 8.12, V_P 264.9, min -24.2 dB | V_X V_P|X / V_P = -7.90 dB | 32s
+B/C z=  20: TWA min  -5.73 +- 0.20 dB vs tangent map  -5.79 dB | V_P TWA 1235 vs tangent 1205; V_P|X TWA 199 vs 192 | SPM-only: Phi_self 16.49, V_P 1089, min -30.4 dB | V_X V_P|X / V_P = -5.78 dB | 66s
+B/C z=  50: TWA min  -5.55 +- 0.23 dB vs tangent map  -5.59 dB | V_P TWA 7907 vs tangent 7723; V_P|X TWA 1.16e+03 vs 1.13e+03 | SPM-only: Phi_self 41.95, V_P 7042, min -38.5 dB | V_X V_P|X / V_P = -5.59 dB | 178s
+B/C z= 100: TWA min  -1.01 +- 0.25 dB vs tangent map  -1.38 dB | V_P TWA 3.267e+04 vs tangent 3.194e+04; V_P|X TWA 1.72e+04 vs 1.6e+04 | SPM-only: Phi_self 85.01, V_P 2.89e+04, min -44.6 dB | V_X V_P|X / V_P = -1.38 dB | 365s

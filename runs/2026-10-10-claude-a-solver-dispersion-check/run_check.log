@@ -1,0 +1,123 @@
+=== case b0: beta2=+0 ps^2/m, x=0, nt=512, dz=0.002 m, omega0=1.21517e+06 rad/ps ===
+    rows 128/1024  36.2 s
+    rows 256/1024  80.5 s
+    rows 384/1024  127.7 s
+    rows 512/1024  176.4 s
+    rows 640/1024  226.8 s
+    rows 768/1024  279.9 s
+    rows 896/1024  324.9 s
+    rows 1024/1024  361.9 s
+  lambda_min=0.0048057867 (svd 0.0048057867)  lambda_gen=0.044606166  nkept=289  FDerr=[2.71e-10, 1.36e-10]  sympl=2.04e+00  nonlocal=4.15e-01  wall=363 s
+=== case p0.1: beta2=+0.004 ps^2/m, x=0.1, nt=512, dz=0.002 m, omega0=1.21517e+06 rad/ps ===
+    rows 128/1024  34.6 s
+    rows 256/1024  68.7 s
+    rows 384/1024  108.2 s
+    rows 512/1024  150.7 s
+    rows 640/1024  196.5 s
+    rows 768/1024  250.1 s
+    rows 896/1024  296.5 s
+    rows 1024/1024  331.2 s
+  lambda_min=0.01106032 (svd 0.01106032)  lambda_gen=0.045480138  nkept=287  FDerr=[2.03e-10, 9.44e-10]  sympl=5.77e-02  nonlocal=9.65e-01  wall=332 s
+=== case m0.1: beta2=-0.004 ps^2/m, x=0.1, nt=512, dz=0.002 m, omega0=1.21517e+06 rad/ps ===
+    rows 128/1024  30.8 s
+    rows 256/1024  59.1 s
+    rows 384/1024  87.7 s
+    rows 512/1024  119.5 s
+    rows 640/1024  155.2 s
+    rows 768/1024  195.7 s
+    rows 896/1024  229.0 s
+    rows 1024/1024  263.1 s
+  lambda_min=5.476671e-05 (svd 5.4766711e-05)  lambda_gen=0.043639005  nkept=291  FDerr=[8.45e-9, 9.79e-9]  sympl=1.53e-01  nonlocal=7.78e-01  wall=264 s
+=== case p1: beta2=+0.04 ps^2/m, x=1, nt=512, dz=0.002 m, omega0=1.21517e+06 rad/ps ===
+    rows 128/1024  34.6 s
+    rows 256/1024  78.9 s
+    rows 384/1024  131.0 s
+    rows 512/1024  174.9 s
+    rows 640/1024  216.7 s
+    rows 768/1024  254.9 s
+    rows 896/1024  296.4 s
+    rows 1024/1024  339.8 s
+  lambda_min=0.014567731 (svd 0.014567731)  lambda_gen=0.05066112  nkept=277  FDerr=[2.94e-10, 4.85e-10]  sympl=1.77e-02  nonlocal=9.96e-01  wall=342 s
+=== case m1: beta2=-0.04 ps^2/m, x=1, nt=512, dz=0.002 m, omega0=1.21517e+06 rad/ps ===
+    rows 128/1024  43.5 s
+    rows 256/1024  95.5 s
+    rows 384/1024  154.0 s
+    rows 512/1024  213.4 s
+    rows 640/1024  263.2 s
+    rows 768/1024  301.8 s
+    rows 896/1024  351.9 s
+    rows 1024/1024  402.8 s
+  lambda_min=5.2079815e-05 (svd 5.2079814e-05)  lambda_gen=0.033700412  nkept=377  FDerr=[3.51e-10, 1.41e-9]  sympl=3.52e-02  nonlocal=9.52e-01  wall=405 s
+=== case m1_dzhalf: beta2=-0.04 ps^2/m, x=1, nt=512, dz=0.001 m, omega0=1.21517e+06 rad/ps ===
+    rows 128/1024  107.1 s
+    rows 256/1024  263.8 s
+    rows 384/1024  392.9 s
+    rows 512/1024  515.2 s
+    rows 640/1024  661.6 s
+    rows 768/1024  807.5 s
+    rows 896/1024  964.8 s
+    rows 1024/1024  1109.7 s
+  lambda_min=5.2079808e-05 (svd 5.2079809e-05)  lambda_gen=0.033700412  nkept=377  FDerr=[7.67e-10, 1.37e-9]  sympl=3.52e-02  nonlocal=9.52e-01  wall=1116 s
+=== case b0_selfsteep: beta2=+0 ps^2/m, x=0, nt=512, dz=0.002 m, omega0=1215.17 rad/ps ===
+    rows 128/1024  77.0 s
+    rows 256/1024  148.5 s
+    rows 384/1024  207.7 s
+    rows 512/1024  264.2 s
+    rows 640/1024  313.8 s
+    rows 768/1024  368.1 s
+    rows 896/1024  431.1 s
+    rows 1024/1024  498.6 s
+  lambda_min=0.004398666 (svd 0.004398666)  lambda_gen=0.044606419  nkept=289  FDerr=[1.02e-10, 1.11e-10]  sympl=2.30e+00  nonlocal=4.62e-01  wall=503 s
+=== case m0.1_nt400: beta2=-0.004 ps^2/m, x=0.1, nt=400, dz=0.002 m, omega0=1.21517e+06 rad/ps ===
+
+[81730] signal 15: Terminated: 15
+in expression starting at ~/agent-work/claude-a/runs/2026-10-10-claude-a-solver-dispersion-check/run_check.jl:130
+__psynch_cvwait at /usr/lib/system/libsystem_kernel.dylib (unknown line)
+unknown function (ip: 0x0) at (unknown file)
+__psynch_cvwait at /usr/lib/system/libsystem_kernel.dylib (unknown line)
+unknown function (ip: 0x0) at (unknown file)
+__psynch_cvwait at /usr/lib/system/libsystem_kernel.dylib (unknown line)
+unknown function (ip: 0x0) at (unknown file)
+fftw_md5putc at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_md5INT at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_tensor_md5 at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+hash at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_mkapiplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_plan_guru64_dft at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+macro expansion at ~/.julia/packages/FFTW/uNgRy/src/fft.jl:654 [inlined]
+cFFTWPlan at ~/.julia/packages/FFTW/uNgRy/src/FFTW.jl:90
+#plan_bfft#20 at ~/.julia/packages/FFTW/uNgRy/src/fft.jl:784
+plan_bfft at ~/.julia/packages/FFTW/uNgRy/src/fft.jl:774 [inlined]
+#plan_ifft#17 at ~/.julia/packages/AbstractFFTs/4iQz5/src/definitions.jl:282 [inlined]
+plan_ifft at ~/.julia/packages/AbstractFFTs/4iQz5/src/definitions.jl:282 [inlined]
+ifft at ~/.julia/packages/AbstractFFTs/4iQz5/src/definitions.jl:67 [inlined]
+_mmgnlse_vjp_nonlinear at ~/agent-work/claude-a/solver/src/mmgnlse_vjp.jl:58
+_mmgnlse_nonlinear_spectral_vjp at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:447
+_mmgnlse_rk4ip_step_vjp at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:498
+#_mmgnlse_solve_adjoint_discrete_cpu#458 at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:599
+_mmgnlse_solve_adjoint_discrete_cpu at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:527 [inlined]
+#solve_adjoint#462 at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:703
+solve_adjoint at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:668 [inlined]
+adjoint_row at ~/agent-work/claude-a/runs/2026-10-10-claude-a-solver-dispersion-check/sdc_lib.jl:45
+#build_S#2 at ~/agent-work/claude-a/runs/2026-10-10-claude-a-solver-dispersion-check/sdc_lib.jl:59
+build_S at ~/agent-work/claude-a/runs/2026-10-10-claude-a-solver-dispersion-check/sdc_lib.jl:52 [inlined]
+run_case at ~/agent-work/claude-a/runs/2026-10-10-claude-a-solver-dispersion-check/run_check.jl:59
+top-level scope at ~/agent-work/claude-a/runs/2026-10-10-claude-a-solver-dispersion-check/run_check.jl:131
+jl_toplevel_eval_flex at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:1024
+jl_toplevel_eval_flex at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:975
+ijl_toplevel_eval at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:1047 [inlined]
+ijl_toplevel_eval_in at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:1092
+eval at ./boot.jl:489
+include_string at ./loading.jl:2870
+_include at ./loading.jl:2930
+include at ./Base.jl:306
+exec_options at ./client.jl:317
+_start at ./client.jl:550
+jfptr__start_56280.1 at ~/.julia/juliaup/julia-1.12.5+0.aarch64.apple.darwin14/Julia-1.12.app/Contents/Resources/julia/lib/julia/sys.dylib (unknown line)
+jl_apply at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/./julia.h:2391 [inlined]
+true_main at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/jlapi.c:971
+jl_repl_entrypoint at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/jlapi.c:1139
+unknown function (ip: 0x0) at (unknown file)
+Allocations: 2286334597 (Pool: 2286332865; Big: 1732); GC: 100304

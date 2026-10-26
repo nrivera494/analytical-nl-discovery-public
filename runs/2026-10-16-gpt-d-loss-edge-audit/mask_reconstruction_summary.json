@@ -1,0 +1,32 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "purpose": "Check the earlier BLAS floating-point flags against a finite elementwise reconstruction of the stored inputs.",
+  "cases": [
+    {
+      "label": "coarse",
+      "relative_input_reconstruction_error": 1.0124180342848747e-15,
+      "all_finite": true,
+      "max_mask_amplitude": 0.9999999987864033
+    },
+    {
+      "label": "step",
+      "relative_input_reconstruction_error": 1.0124180342848747e-15,
+      "all_finite": true,
+      "max_mask_amplitude": 0.9999999987864033
+    },
+    {
+      "label": "window",
+      "relative_input_reconstruction_error": 1.0126775629816948e-15,
+      "all_finite": true,
+      "max_mask_amplitude": 0.9999999987864033
+    },
+    {
+      "label": "fine",
+      "relative_input_reconstruction_error": 1.0116993186409794e-15,
+      "all_finite": true,
+      "max_mask_amplitude": 0.9999999987864033
+    }
+  ]
+}

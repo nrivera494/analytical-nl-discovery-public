@@ -1,0 +1,25 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-noise
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: ea01cd9
+analysis_commit: cbd0063885658a35d7d4c5973239c20a7baaf7e8
+prediction_commit: 43bc96d
+hardware: COECIS-G3FLW49YGQ
+julia_threads: 2
+blas_threads: 1
+fft_threads: 1
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-noise
+wall_time_seconds: 2418.3204367160797
+randomness: none; deterministic propagation
+status: completed
+task: T-20261004-claude-interactive-02
+execution_history:
+- 'First nine completed cases (none all; agarwal delta=0): b34213c, sequential adjoints.'
+- 'Remaining nine: ea01cd9, two concurrent adjoints. Completed checkpoint files were
+  checked and reused.'
+- Initial in-progress agarwal physical-delta case was interrupted to change scheduling;
+  no completed output was overwritten. Both logs are retained in the material raw
+  folder.

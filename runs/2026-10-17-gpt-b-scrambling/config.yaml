@@ -1,0 +1,32 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+specification: predictions.md
+N: 1
+E: 0.6
+K: 5
+sigma: 0.3
+dt: 0.04
+zmax: 1200
+shots: 256
+batch: 32
+n:
+- 10000.0
+- 1000000.0
+- 10000000.0
+- 100000000.0
+- 10000000000.0
+- 1000000000000.0
+commands:
+- python run.py exact
+- python run.py lyapunov
+- python run.py coherent
+- python run.py convergence
+- python run.py dephased
+- python variance_clock_diagnostic.py
+- python summarize.py
+- python plot.py
+brownian_refinement: parent increment plus independent Brownian bridge; preserves
+  coarse increments
+memory: One heavy process at a time; require memory_pressure free percentage >=35;
+  no full trajectory histories.

@@ -1,0 +1,62 @@
+[
+  {
+    "family": "gpt",
+    "steps": 128,
+    "model": "gpt-6-astra",
+    "mean_relative_error": 3.818937503264471e-06,
+    "phi": 7.0,
+    "seconds": 5.210923194885254,
+    "dispersion": 1.4285714285714287e-05,
+    "relative_variance_errors": [
+      1.198239198263451e-05,
+      1.1644327837956325e-05
+    ],
+    "adjoint_variances": [
+      0.005091917714851643,
+      0.005174825784426707
+    ],
+    "file": "~/analytical-nl-discovery-data/2026-10-19-gpt-e-weak-dispersion/crosscheck.npz",
+    "agent": "gpt-e",
+    "n": 1024
+  },
+  {
+    "family": "gpt",
+    "steps": 256,
+    "model": "gpt-6-astra",
+    "mean_relative_error": 2.402652938189963e-07,
+    "phi": 7.0,
+    "seconds": 5.998844146728516,
+    "dispersion": 1.4285714285714287e-05,
+    "relative_variance_errors": [
+      6.28069276809029e-07,
+      6.148488946866593e-07
+    ],
+    "adjoint_variances": [
+      0.005091859900267474,
+      0.005174768709459282
+    ],
+    "file": "~/analytical-nl-discovery-data/2026-10-19-gpt-e-weak-dispersion/crosscheck.npz",
+    "agent": "gpt-e",
+    "n": 1024
+  },
+  {
+    "family": "gpt",
+    "steps": 512,
+    "model": "gpt-6-astra",
+    "mean_relative_error": 1.506232596949582e-08,
+    "phi": 7.0,
+    "seconds": 7.53259015083313,
+    "dispersion": 1.4285714285714287e-05,
+    "relative_variance_errors": [
+      3.8590463047327717e-08,
+      3.747614396587551e-08
+    ],
+    "adjoint_variances": [
+      0.005091856898725825,
+      0.0051747657216906755
+    ],
+    "file": "~/analytical-nl-discovery-data/2026-10-19-gpt-e-weak-dispersion/crosscheck.npz",
+    "agent": "gpt-e",
+    "n": 1024
+  }
+]

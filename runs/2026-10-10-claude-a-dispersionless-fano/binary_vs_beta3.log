@@ -1,0 +1,10 @@
+{"Phi": 10.0, "delta3": 0.0, "lam_gen": 0.01146, "lam_P": 0.01282, "binary_relax": 0.47493, "n_bins": 421, "wall_s": 9.6}
+{"Phi": 10.0, "delta3": 0.01, "lam_gen": 0.009, "lam_P": 0.00991, "binary_relax": 0.50833, "n_bins": 843, "wall_s": 15.2}
+{"Phi": 10.0, "delta3": 0.03, "lam_gen": 0.00471, "lam_P": 0.005, "binary_relax": 0.30561, "n_bins": 992, "wall_s": 18.9}
+{"Phi": 10.0, "delta3": 0.1, "lam_gen": 0.00638, "lam_P": 0.00701, "binary_relax": 0.34445, "n_bins": 742, "wall_s": 16.7}
+{"Phi": 10.0, "delta3": 0.2, "lam_gen": 0.00979, "lam_P": 0.01081, "binary_relax": 0.29596, "n_bins": 545, "wall_s": 13.4}
+{"Phi": 20.0, "delta3": 0.0, "lam_gen": 0.00305, "lam_P": 0.00324, "binary_relax": 0.43579, "n_bins": 649, "wall_s": 29.0}
+{"Phi": 20.0, "delta3": 0.01, "lam_gen": 0.00103, "lam_P": 0.00104, "binary_relax": 0.39984, "n_bins": 2206, "wall_s": 85.0}
+{"Phi": 20.0, "delta3": 0.03, "lam_gen": 0.00164, "lam_P": 0.00199, "binary_relax": 0.25257, "n_bins": 1276, "wall_s": 39.4}
+{"Phi": 20.0, "delta3": 0.1, "lam_gen": 0.00386, "lam_P": 0.00418, "binary_relax": 0.19073, "n_bins": 2557, "wall_s": 93.1}
+{"Phi": 20.0, "delta3": 0.2, "lam_gen": 0.00881, "lam_P": 0.00617, "binary_relax": 0.20669, "n_bins": 2513, "wall_s": 108.4}

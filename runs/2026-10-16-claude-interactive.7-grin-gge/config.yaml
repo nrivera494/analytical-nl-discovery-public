@@ -1,0 +1,10 @@
+# Run 2026-10-16-claude-interactive.7-grin-gge: claim C-03 with the exact GRIN Kerr tensor (K = 5, 15 HG modes), no disorder.
+grin_gge_predict.py: "H_res of the random-phase launch (phase_seed 1) and of a centre-focused launch (modes with psi_p(0,0) != 0 phased to add at r = 0; odd modes keep random phases) vs the RJ distribution; GGE shell (|H - h| < 0.002) and linear-response predictions; seed 31; E' in {0.6, 0.9}"
+grin_focused_runs.py: "disorder-free dynamics (grin_model_phases.py = grin_model.py with an explicit-phases option), zmax 10000, zburn 1000, dz 0.05"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore grin_gge_predict.py"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore grin_focused_runs.py"
+grin_gge_disorder.py: "centre-focused launch, E'=0.6, sigma in {0.03, 0.1, 0.3}: how intra-group disorder erases the phase memory (grin_gge_disorder.jsonl in raw_location)"
+grin_gge_screen.py: "screen of launches for the most atypical H_res (z_h)"
+grin_gge_predict3.py: "pre-registered GGE predictions for the 'groups 1+4' launch, E' = 0.9, centre-focused and random phases (seed 61)"
+grin_gge_run3.py: "their disorder-free dynamics (grin_model_phases.py with the backward-compatible I0_override option added after the earlier runs)"

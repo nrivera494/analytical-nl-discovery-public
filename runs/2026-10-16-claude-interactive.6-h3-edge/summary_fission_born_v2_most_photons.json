@@ -1,0 +1,32 @@
+{
+ "run_id": "2026-10-16-claude-interactive.6-h3-edge",
+ "case": "fission_born_N2_T40fs",
+ "leading_rule": "most photons among the 5 highest peaks (v2)",
+ "E_pJ": 18265.526764917027,
+ "dz_mm": 0.1,
+ "dt_fs": 3.0,
+ "nt": 16384,
+ "wall_s": 236.2252390384674,
+ "z_compression_m": 0.1,
+ "f1_final": 0.505316273931567,
+ "IST_fraction": 0.75,
+ "z_sep_m": 5.4,
+ "f1_at_sep": 0.5296280996701329,
+ "lam1_at_sep_um": 4.102271190247801,
+ "comparison": {
+  "6.0": {
+   "N1_rel_gnlse": 0.9222822805631367,
+   "N1_rel_model": 0.9189113577772674,
+   "lam1_gnlse_um": 4.098470796382816,
+   "lam1_model_um": 4.106600031068028
+  },
+  "8.0": {
+   "N1_rel_gnlse": 0.9540964201980445,
+   "N1_rel_model": 0.6882631150524552,
+   "lam1_gnlse_um": 3.696025668394375,
+   "lam1_model_um": 4.113091944011455
+  }
+ },
+ "max_abs_dN_rel": 0.26583330514558934,
+ "max_abs_dlam_um": 0.41706627561707954
+}

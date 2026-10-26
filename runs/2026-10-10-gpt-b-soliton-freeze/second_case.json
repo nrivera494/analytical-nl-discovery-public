@@ -1,0 +1,21 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "case": "second held-out material-bound check",
+  "T0_ps": 0.2,
+  "temperature_K": 150.0,
+  "z_over_LD": 4.25,
+  "beta2_ps2_per_m": -0.0206,
+  "beta3_ps3_per_m": -4.0519e-05,
+  "lambda0_nm": 1550.0,
+  "N": 1.0,
+  "raman_fraction": 0.18,
+  "nt": 4096,
+  "nsteps": 1400,
+  "window_over_T0": 40.0,
+  "frozen_before_any_evaluation": true,
+  "prediction_to_freeze_next": "linear-coth-cutoff and full oscillator formula values before physical propagation",
+  "physical_bound_inequality_is_a_test_not_a_theorem": true,
+  "acceptance_absolute_error_in_frozen_gen": 0.005
+}

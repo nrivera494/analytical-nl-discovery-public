@@ -1,0 +1,15 @@
+# Run 2026-10-08-claude-a-realistic-W (all values are also hard-coded in w_of_z.jl)
+model: "dA/dz = -(i/2) beta2 A_TT + i gamma |A|^2 A + (g/2) A ; no noise, no Raman, no TOD, frequency-flat gain"
+lambda0_m: 1.03e-6
+beta2_ps2_per_m: 0.025
+gamma_per_W_m: 0.005          # via n2 = 2.3e-20 m^2/W and overlap sr = gamma c/(n2 w0)
+gain_power_per_m: 1.9          # LinearGain(1.9), field grows as exp(g z/2)
+length_m: 3.2
+seed: {shape: Gaussian, intensity_fwhm_ps: 0.25, energy_pJ: 10.0, chirp: none}
+grids:
+  base: {NT: 8192, window_ps: 40.0, dz_m: 0.0005}
+  fine: {NT: 16384, window_ps: 60.0, dz_m: 0.00025}
+saves: 321                      # z points for W(z) (1 cm spacing)
+moments: "E, T_c, sigma_T^2, C = <(t-T_c)(w_inst-Omega_c)>, sigma_w^2 = int|dA/dt|^2/E - Omega_c^2 (includes transform-limited part)"
+exact_formula: "N0 Var = Phi W(0) Phi^T + (2 n_sp - 1) int g e^{-gz} Phi(L,z) W(z) Phi(L,z)^T dz ; Phi = [[1, beta2 (L-z)],[0,1]] ; D_c = -C_L/sigma_wL^2"
+comparison: "same seed with gamma = 0 (linear amplifier)"

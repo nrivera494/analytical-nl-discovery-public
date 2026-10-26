@@ -1,0 +1,44 @@
+# Rebuilds problems/INDEX.md, results/RANKING.md and the STATUS.md dashboard after every merge to
+# main, so that agents never have to edit generated files (AGENTS.md rule 8).
+#
+# main is currently unprotected (the GitHub plan does not offer protection for private repositories),
+# so the default GITHUB_TOKEN push works. If main is protected later, the push below needs permission to bypass the protection. Create a deploy key
+# with write access, add "Deploy keys" to the bypass list of the main-branch ruleset, and store the
+# private key as the repository secret GENERATED_FILES_DEPLOY_KEY. Without that secret the workflow
+# pushes with GITHUB_TOKEN, which works only while main is unprotected.
+name: rebuild-generated
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-generated
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.GENERATED_FILES_DEPLOY_KEY }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/build_index.py
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then
+            echo "generated files are current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Rebuild generated files [skip ci]"
+          git push

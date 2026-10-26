@@ -1,0 +1,192 @@
+{
+  "title": "Independent weak normal-dispersion covariance verification",
+  "repository_commit": "970bfe756b131094872de351ff91ab46a537d9b2",
+  "method": "Eighth-order periodic finite differences; adaptive DOP853 for mean and real tangent map",
+  "observable": "Inverse squared largest singular value; upper estimate of full minimum covariance eigenvalue when input columns are restricted",
+  "shot_noise": 1,
+  "inputs": {
+    "weak/weak_results.json": "5f7282669f96b1ffe3a10798fd18d15845bbd61bae68ab33890818eb1cdeeb02",
+    "weak/second_order_results.json": "008a00ab3f0efdc21256242788649312a322ff330c6dcac1710e24e452e14f5c",
+    "weak/second_order_phi10.json": "04d21e0607a9ca16bd48935f2b92025186268565168f524e0d98c98b497c9bcd",
+    "weak_theory/oscillator_constants.json": "3747f855149dedb9bbbd07852a73d7b1d7cacc1d806e10fc6ecf44c527059fd8",
+    "weak_theory/second_order_symbolic.json": "fdf8d0d6845492f7a02981c52bcc37783a6f925da347944895be45c1de5a5f99"
+  },
+  "base_record_count": 27,
+  "all_record_count": 31,
+  "primary_series": [
+    {
+      "m": 1,
+      "phi": 3.0,
+      "profile": "exp(-x^2)",
+      "number_of_points": 5,
+      "fit_y_range": [
+        1e-06,
+        0.0001
+      ],
+      "fit_points": 3,
+      "excess_exponent_expected": 0.5,
+      "excess_exponent_fitted": 0.5019137717261022,
+      "rms_exponent_expected": 0.25,
+      "rms_exponent_fitted": 0.2502395754982747,
+      "leading_ratio_low_y": 1.0009895324869953,
+      "leading_ratio_y_1e_2": 1.0942855435089969,
+      "maximum_rms_relative_error_y_le_1e_4": 0.0012171969612388978
+    },
+    {
+      "m": 1,
+      "phi": 10.0,
+      "profile": "exp(-x^2)",
+      "number_of_points": 5,
+      "fit_y_range": [
+        1e-06,
+        0.0001
+      ],
+      "fit_points": 3,
+      "excess_exponent_expected": 0.5,
+      "excess_exponent_fitted": 0.5018989497137933,
+      "rms_exponent_expected": 0.25,
+      "rms_exponent_fitted": 0.2501480179544985,
+      "leading_ratio_low_y": 1.0009770824166064,
+      "leading_ratio_y_1e_2": 1.0943676790337653,
+      "maximum_rms_relative_error_y_le_1e_4": 0.0007486190660328518
+    },
+    {
+      "m": 2,
+      "phi": 3.0,
+      "profile": "exp(-x^4)",
+      "number_of_points": 5,
+      "fit_y_range": [
+        1e-06,
+        0.0001
+      ],
+      "fit_points": 3,
+      "excess_exponent_expected": 0.6666666666666666,
+      "excess_exponent_fitted": 0.6672185516189445,
+      "rms_exponent_expected": 0.16666666666666666,
+      "rms_exponent_fitted": 0.16660944714154324,
+      "leading_ratio_low_y": 1.0001372043366819,
+      "leading_ratio_y_1e_2": 1.054509895768904,
+      "maximum_rms_relative_error_y_le_1e_4": 0.00027675693665518697
+    },
+    {
+      "m": 3,
+      "phi": 3.0,
+      "profile": "exp(-x^6)",
+      "number_of_points": 5,
+      "fit_y_range": [
+        1e-06,
+        0.0001
+      ],
+      "fit_points": 3,
+      "excess_exponent_expected": 0.75,
+      "excess_exponent_fitted": 0.7503166841575493,
+      "rms_exponent_expected": 0.125,
+      "rms_exponent_fitted": 0.12492647951013354,
+      "leading_ratio_low_y": 1.0000889206881873,
+      "leading_ratio_y_1e_2": 1.0447202315421562,
+      "maximum_rms_relative_error_y_le_1e_4": 0.00034970542845891295
+    }
+  ],
+  "convergence": {
+    "comparisons": [
+      {
+        "name": "grid_2048_vs_3072",
+        "first": "gaussian_phi3_y1e-06",
+        "second": "grid_gaussian_fine",
+        "lambda_relative_difference": 1.5193379887534775e-10,
+        "excess_absolute_difference": 1.5205170456056294e-10,
+        "rms_relative_difference": -4.1247719018144835e-08
+      },
+      {
+        "name": "tolerance_and_support_refinement",
+        "first": "gaussian_phi10_y0.0001",
+        "second": "tolerance_gaussian",
+        "lambda_relative_difference": -3.79896336610841e-10,
+        "excess_absolute_difference": -3.8301295468556873e-10,
+        "rms_relative_difference": -1.2713662345120724e-09
+      },
+      {
+        "name": "input_support_0.6_vs_1.2",
+        "first": "support_standard",
+        "second": "support_wide",
+        "lambda_relative_difference": 6.636913241209186e-13,
+        "excess_absolute_difference": 6.803446694902959e-13,
+        "rms_relative_difference": 1.254552017826427e-13
+      },
+      {
+        "name": "restricted_vs_full_same_grid",
+        "first": "support_standard",
+        "second": "full_tangent",
+        "lambda_relative_difference": -1.2085887846069454e-12,
+        "excess_absolute_difference": -1.2392309400865997e-12,
+        "rms_relative_difference": -2.158162537568842e-12
+      },
+      {
+        "name": "time_window_8_vs_12_same_dx",
+        "first": "gaussian_phi3_y0.001",
+        "second": "window_wide",
+        "lambda_relative_difference": 3.7909675398850595e-12,
+        "excess_absolute_difference": 3.886668764607748e-12,
+        "rms_relative_difference": -9.924483457268707e-11
+      }
+    ],
+    "max_symplectic_embedding_absolute_defect": 1.0367229297258973e-10,
+    "max_mean_energy_relative_error": 2.883360217253994e-12,
+    "full_map_reciprocity_relative_error": -4.773959005888173e-14,
+    "zero_dispersion_relative_error": 6.419964559967184e-10
+  },
+  "second_order": {
+    "formula": "c2=sqrt(6)*(45+81*Phi^2+56*Phi^4+40*Phi^3*sqrt(1+Phi^2))/(240*Phi^2*(1+Phi^2))",
+    "status": "Independently derived formal local expansion; full-NLSE numerical check, not a certified global remainder",
+    "cases": [
+      {
+        "phi": 3.0,
+        "y": 1e-06,
+        "n": 3072,
+        "rtol": 2e-13,
+        "c2_effective": 0.9890284731006727,
+        "c2_theory": 0.9894645630549394,
+        "difference": -0.00043608995426669406,
+        "source_file": "second_order_results.json"
+      },
+      {
+        "phi": 3.0,
+        "y": 1e-07,
+        "n": 4096,
+        "rtol": 2e-13,
+        "c2_effective": 0.9894325097925994,
+        "c2_theory": 0.9894645630549394,
+        "difference": -3.205326233990391e-05,
+        "source_file": "second_order_results.json"
+      },
+      {
+        "phi": 10.0,
+        "y": 1e-07,
+        "n": 4096,
+        "rtol": 2e-13,
+        "c2_effective": 0.9797576767383392,
+        "c2_theory": 0.9803416006274099,
+        "difference": -0.0005839238890706921,
+        "source_file": "second_order_results.json"
+      },
+      {
+        "phi": 10.0,
+        "y": 1e-06,
+        "n": 3072,
+        "rtol": 2e-13,
+        "c2_effective": 0.9799761236937155,
+        "c2_theory": 0.9803416006274099,
+        "difference": -0.0003654769336944863,
+        "source_file": "second_order_phi10.json"
+      }
+    ],
+    "extraction_caveat": "The y coefficient is obtained by subtracting a much larger anchor and square-root term; finite integration/grid errors are amplified as y decreases."
+  },
+  "caveats": [
+    "Fits use three points y=1e-6,1e-5,1e-4; these are deterministic regression slopes, not statistical confidence intervals.",
+    "Input-column truncation gives a variational upper estimate of lambda_min in the full finite-grid symplectic model; support and full-map checks quantify representative truncation error.",
+    "Reciprocity and symplectic checks validate normalization but do not certify spatial truncation or all continuum frequencies.",
+    "An ordinary covariance eigenvalue optimizes arbitrary homodyne mode; it is not the optimized binary-filter photon-counting Fano factor.",
+    "The all-mode small-dispersion limit assumes increasing resolved optical bandwidth and appropriate quantum linearization validity."
+  ]
+}

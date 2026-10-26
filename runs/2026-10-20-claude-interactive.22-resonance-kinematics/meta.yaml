@@ -1,0 +1,17 @@
+run_id: 2026-10-20-claude-interactive.22-resonance-kinematics
+date: 2026-10-20
+agent: claude-interactive.22
+model: claude-opus-5-5
+family: claude
+task: T-20261020-claude-interactive-04
+serves: "Scouting review docs/review-2026-10-20-claude-interactive.22-longstanding-optical-thermalization.md: (1) four-wave mismatch factorization for single-mode fibre with beta3 or beta4 (candidate S5); (2) kinematic test of quasi-energy Umklapp four-wave resonances in the Floquet bands of a two-loop fibre mesh lattice, cos(theta) = cos(beta) cos(Q) (candidate N1); (3) a Raman budget on the Kerr phase available before stimulated Raman threshold in silica, and weak-turbulence length estimates for candidate S5 (raman_budget.py); (4) length exponents of the self-cleaning threshold from published two-length data (threshold_exponents.py)."
+solver_commit: null
+solver_dirty: null
+solver_note: "No solver and no propagation. sympy factorization; numpy eigen-decomposition of the 2x2 one-step map; brute-force count of quasi-resonant quartets on rings of L = 24-60 sites with tolerance 0.05 and 0.025 rad."
+software: "Python venv ~/agent-work/venv: numpy, sympy"
+hardware: "PI's Mac (Darwin 27.0.0), CPU only"
+wall_time_s: 30
+seeds: none
+raw_location: none (no raw output; summary.json and convergence_beta45.json hold every number)
+command: "~/agent-work/venv/bin/python -W ignore check.py (summary.json); the L/tol loop in config.yaml (convergence_beta45.json); ~/agent-work/venv/bin/python -W ignore raman_budget.py (raman_budget.json); ~/agent-work/venv/bin/python -W ignore threshold_exponents.py (threshold_exponents.json)"
+caveats: "Counting near-resonant quartets on a finite ring at fixed tolerance is a proxy for the resonant-manifold measure; the Umklapp/normal weighted ratio drifts from 0.51 to 0.40 over L = 24-60 and two tolerances and is not converged. It shows only that Umklapp channels are open and not parametrically suppressed."

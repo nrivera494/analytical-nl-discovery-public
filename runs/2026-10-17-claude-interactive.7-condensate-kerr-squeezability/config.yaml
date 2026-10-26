@@ -1,0 +1,16 @@
+# Run 2026-10-17-claude-interactive.7-condensate-kerr-squeezability: can the thermalized condensate be Kerr-squeezed afterwards?
+# Linearized pre-scrambling state (exact GRIN tensor, K = 5, E' in {0.3, 0.6}, sigma in {0.3, 0}, dz = 0.02, same launch and disorder
+# seeds as runs/2026-10-16-claude-interactive.7-grin-gaussian-state). The condensate's reduced covariance in its own amplitude/phase
+# frame (vacuum = 1) at z = 1-300 L_NL; a subsequent single-mode Kerr stage of nonlinear phase Phi acts as P -> P + 2 Phi X.
+cond_kerr.py: "V_X, V_P, C, V_P|X = V_P - C^2/V_X, nu, the condensate's own squeezing, Phi needed for -3 and -10 dB, lambda_min at Phi = 1-100; balanced-Sagnac dark-port variance with a shot-to-shot pump spread eps (outputs cond_kerr.json, cond_kerr_log.txt)"
+kerr_curvature.py: "exact single-mode Kerr of a coherent state, n = 1e2-1e6: best quadrature variance against n (outputs kerr_curvature.json, kerr_curvature_log.txt)"
+phase_jitter.py: "condensate phase spread across shots from the shot-statistics run, against the linearized V_P/(4 n0) (output phase_jitter.txt)"
+best_squeezing.py: "best squeezing after the stage including the crescent curvature V'^2/(8 n0), for n0 = 1e8, 1e10, 1e12; closed form 0.945 (nu^4/n0)^(1/3) (output best_squeezing.txt)"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore own_squeezing_checks.py | tee own_squeezing_checks_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore cond_kerr.py | tee cond_kerr_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore kerr_curvature.py | tee kerr_curvature_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore best_squeezing.py"
+own_squeezing_checks.py: "checks of the condensate's own squeezing (E' = 0.3): (A) dz 0.02 vs 0.01 at sigma = 0; (B) independent truncated-Wigner ensemble, 768 trajectories at n = 1e10, full nonlinear propagation on the same fibre (sigma = 0.3, same seeds), bootstrap errors; (C) self-phase-only reference (outputs own_squeezing_checks.json, own_squeezing_checks_log.txt)"
+also_uses: "runs/2026-10-16-claude-interactive.7-grin-shot-statistics/shot_stats.json (condensate phase variance -ln coh_0 for the quiet-laser and 1% jitter ensembles)"
+  - "~/agent-work/venv/bin/python -W ignore phase_jitter.py"

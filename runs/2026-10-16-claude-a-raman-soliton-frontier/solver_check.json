@@ -1,0 +1,61 @@
+{
+ "rows": [
+  {
+   "N": 3,
+   "T0_fs": 100.0,
+   "raman": true,
+   "s": 0.008228698061258024,
+   "L_times_N": 4.0,
+   "numpy_f1": 0.6632033721571416,
+   "numpy_excess": 0.19376606988285494,
+   "numpy_t_peak": 6.875,
+   "numpy_shift_W": 10.897752593032587,
+   "solver_f1": 0.6633232859822722,
+   "solver_excess": 0.1939819147680899,
+   "solver_f1_conj": 0.6633232859822715,
+   "solver_t_peak": 6.875,
+   "solver_shift_W": 10.892494519544904,
+   "solver_t0_offset": 0.0,
+   "rel_L2_field_distance": 0.010302801482903584,
+   "rel_L2_field_distance_conj": 1.3553824518612314
+  },
+  {
+   "N": 4,
+   "T0_fs": 200.0,
+   "raman": true,
+   "s": 0.004114349030629012,
+   "L_times_N": 4.0,
+   "numpy_f1": 0.5718517561688707,
+   "numpy_excess": 0.30708972838599036,
+   "numpy_t_peak": 12.71484375,
+   "numpy_shift_W": 27.173403392688048,
+   "solver_f1": 0.5723127951258058,
+   "solver_excess": 0.3081435317161276,
+   "solver_f1_conj": 0.5723127951258059,
+   "solver_t_peak": 12.67578125,
+   "solver_shift_W": 27.122438996820918,
+   "solver_t0_offset": 0.0,
+   "rel_L2_field_distance": 0.19948222275422636,
+   "rel_L2_field_distance_conj": 1.4562335165806815
+  },
+  {
+   "N": 3,
+   "T0_fs": 100.0,
+   "raman": false,
+   "s": 0.008228698061258024,
+   "L_times_N": 4.0,
+   "numpy_f1": 0.5576782952520367,
+   "numpy_excess": 0.003820931453666132,
+   "numpy_t_peak": 0.21484375,
+   "numpy_shift_W": -0.021216344175222022,
+   "solver_f1": 0.5576782952520389,
+   "solver_excess": 0.003820931453670129,
+   "solver_f1_conj": 0.5576782952520377,
+   "solver_t_peak": 0.21484375,
+   "solver_shift_W": -0.02121634417522235,
+   "solver_t0_offset": 0.0,
+   "rel_L2_field_distance": 9.99839652265464e-12,
+   "rel_L2_field_distance_conj": 1.5485904726346298
+  }
+ ]
+}

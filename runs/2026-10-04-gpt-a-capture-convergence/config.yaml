@@ -1,0 +1,12 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_capture.jl
+mode: convergence
+checks:
+- half step
+- double window
+- double temporal resolution
+- double distance
+- three modes
+- physical beta2 and beta0 mismatch

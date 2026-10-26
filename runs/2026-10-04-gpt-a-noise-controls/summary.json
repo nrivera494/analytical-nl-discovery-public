@@ -1,0 +1,62 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-noise-controls",
+  "cases": [
+    {
+      "family": "gpt",
+      "scope": "Checks count adjoint and modal reservoir contractions; not an independent open-system quantum derivation.",
+      "model": "gpt-6-astra",
+      "Gram_relative_error": 2.010854446461733e-16,
+      "seed": 20261004,
+      "agent": "gpt-a",
+      "direct_spatial_phase_average": 9485264516.129648,
+      "spatial_phase_averaged_Gram": 9485264516.12965,
+      "directional_count_checks": [
+        {
+          "response": "none",
+          "predicted_derivative": -25111488.69752588,
+          "relative_input_step": 0.0001,
+          "finite_difference": -25111488.571478985,
+          "relative_error": 5.01949120308208e-09
+        },
+        {
+          "response": "none",
+          "predicted_derivative": -25111488.69752588,
+          "relative_input_step": 3e-05,
+          "finite_difference": -25111488.686191536,
+          "relative_error": 4.5136092432922597e-10
+        },
+        {
+          "response": "none",
+          "predicted_derivative": -25111488.69752588,
+          "relative_input_step": 1e-05,
+          "finite_difference": -25111488.69618773,
+          "relative_error": 5.328837204473498e-11
+        },
+        {
+          "response": "anisotropic",
+          "predicted_derivative": 5846562.350070812,
+          "relative_input_step": 0.0001,
+          "finite_difference": 5846562.345121056,
+          "relative_error": 8.466096270732359e-10
+        },
+        {
+          "response": "anisotropic",
+          "predicted_derivative": 5846562.350070812,
+          "relative_input_step": 3e-05,
+          "finite_difference": 5846562.349734207,
+          "relative_error": 5.757316933271927e-11
+        },
+        {
+          "response": "anisotropic",
+          "predicted_derivative": 5846562.350070812,
+          "relative_input_step": 1e-05,
+          "finite_difference": 5846562.350075691,
+          "relative_error": 8.345415093960855e-13
+        }
+      ]
+    }
+  ]
+}

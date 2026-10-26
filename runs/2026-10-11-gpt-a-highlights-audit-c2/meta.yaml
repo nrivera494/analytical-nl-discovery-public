@@ -1,0 +1,37 @@
+run_id: 2026-10-11-gpt-a-highlights-audit-c2
+date: '2026-10-11'
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261011-gpt-a-01
+status: complete-bounded-audit
+serves: highlights candidate 2
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: true
+backend: Independent scalar Fourier split-step/ASE contraction; fixed-step Float64
+  discrete-RK4IP and paired-perturbation RK4IP reproductions
+hardware: COECIS-G3FLW49YGQ
+wall_time_s: 461.29419445991516
+wall_time_scope: Sum of recorded case wall times, including retained failed attempts;
+  parallel runs may overlap. Untimed algebra, analysis and literature work are excluded.
+timed_files:
+- p8_lin.json
+- shape.json
+- convergence.json
+- asym_e05_u4.json
+- p8.json
+- p8_solver.json
+- sweep.json
+raw_location: ~/analytical-nl-discovery-data/2026-10-11-gpt-a-highlights-audit-c2
+config: config.md
+summary: summary.json
+software:
+  python: 3.9.6
+  numpy: 2.0.2
+  scipy: 1.13.1
+notes: C2/C3 raw output also remains in the c1 raw directory from the initial checkpoint.
+  No original solver repository was modified. See report for tested scope and exclusions.
+claims:
+- C-20261008-claude-a-01
+- C-20261008-claude-a-02

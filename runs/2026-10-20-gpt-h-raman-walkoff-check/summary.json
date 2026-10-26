@@ -1,0 +1,86 @@
+{
+  "agent": "gpt-h",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-20",
+  "task": "T-20261020-claude-interactive-06",
+  "run_id": "2026-10-20-gpt-h-raman-walkoff-check",
+  "gamma_per_W_m": 0.0019192060383772232,
+  "phi_max_rad": 24.56583729122845,
+  "lit_fraction": 0.3157894736842105,
+  "cases": [
+    {
+      "a": 0.25,
+      "T0_ps": 3,
+      "LW_m": 1.81,
+      "P_hot_W": 8249.93930652758,
+      "gamma_P_hot_per_m": 15.833333333333334,
+      "CW_Raman_length_m": 1.551526565761797,
+      "CW_Raman_coupling_length_CL": 15.515265657617968,
+      "gain_before_walkoff": 18.66548768101865,
+      "gain_to_assumed_threshold_ratio": 1.1665929800636656,
+      "walkoff_precedes_assumed_threshold": false
+    },
+    {
+      "a": 0.25,
+      "T0_ps": 10,
+      "LW_m": 6.03,
+      "P_hot_W": 8249.93930652758,
+      "gamma_P_hot_per_m": 15.833333333333334,
+      "CW_Raman_length_m": 1.551526565761797,
+      "CW_Raman_coupling_length_CL": 15.515265657617968,
+      "gain_before_walkoff": 62.183917522951646,
+      "gain_to_assumed_threshold_ratio": 3.886494845184478,
+      "walkoff_precedes_assumed_threshold": false
+    },
+    {
+      "a": 0.5,
+      "T0_ps": 3,
+      "LW_m": 1.81,
+      "P_hot_W": 16499.87861305516,
+      "gamma_P_hot_per_m": 31.666666666666668,
+      "CW_Raman_length_m": 0.7757632828808985,
+      "CW_Raman_coupling_length_CL": 7.757632828808984,
+      "gain_before_walkoff": 37.3309753620373,
+      "gain_to_assumed_threshold_ratio": 2.3331859601273313,
+      "walkoff_precedes_assumed_threshold": false
+    },
+    {
+      "a": 0.5,
+      "T0_ps": 10,
+      "LW_m": 6.03,
+      "P_hot_W": 16499.87861305516,
+      "gamma_P_hot_per_m": 31.666666666666668,
+      "CW_Raman_length_m": 0.7757632828808985,
+      "CW_Raman_coupling_length_CL": 7.757632828808984,
+      "gain_before_walkoff": 124.36783504590329,
+      "gain_to_assumed_threshold_ratio": 7.772989690368956,
+      "walkoff_precedes_assumed_threshold": false
+    },
+    {
+      "a": 1.0,
+      "T0_ps": 3,
+      "LW_m": 1.81,
+      "P_hot_W": 32999.75722611032,
+      "gamma_P_hot_per_m": 63.333333333333336,
+      "CW_Raman_length_m": 0.38788164144044923,
+      "CW_Raman_coupling_length_CL": 3.878816414404492,
+      "gain_before_walkoff": 74.6619507240746,
+      "gain_to_assumed_threshold_ratio": 4.6663719202546625,
+      "walkoff_precedes_assumed_threshold": false
+    },
+    {
+      "a": 1.0,
+      "T0_ps": 10,
+      "LW_m": 6.03,
+      "P_hot_W": 32999.75722611032,
+      "gamma_P_hot_per_m": 63.333333333333336,
+      "CW_Raman_length_m": 0.38788164144044923,
+      "CW_Raman_coupling_length_CL": 3.878816414404492,
+      "gain_before_walkoff": 248.73567009180658,
+      "gain_to_assumed_threshold_ratio": 15.545979380737911,
+      "walkoff_precedes_assumed_threshold": false
+    }
+  ],
+  "interpretation": "Every listed point reaches the assumed small-signal threshold before walkoff under the fixed-power approximation. This invalidates an automatic walkoff guarantee, not every possible fibre realization."
+}

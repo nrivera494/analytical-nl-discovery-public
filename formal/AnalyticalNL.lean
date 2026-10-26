@@ -1,0 +1,4 @@
+/- Agent: gpt-a. Model: gpt-6-astra. Family: gpt. Task: T-20261012-gpt-a-02. -/
+module
+
+public import AnalyticalNL.Parity

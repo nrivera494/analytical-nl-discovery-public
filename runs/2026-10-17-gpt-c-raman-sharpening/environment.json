@@ -1,0 +1,16 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-raman-sharpening",
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "scipy": "1.13.1",
+  "matplotlib": "3.9.4",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine_architecture": "arm64",
+  "independent_code_sha256": "6c97a2b328bcfde2daa7a177f6927eef825f0b639ef5429c85664d36f34320d3",
+  "shooting_code_sha256": "408031e0b1b9cd4e405444ec0b9edd382cec70bfd5eca34da811fc0d3568d079",
+  "shooting_library_sha256": "ab994ef11c89dd5c2dc93501288855c1f091d24e02001059f5ec3c3c4e5c6d6a",
+  "c_compiler": "Apple clang 21.0.0 (clang-2100.1.1.101), arm64-apple-darwin27.0.0"
+}

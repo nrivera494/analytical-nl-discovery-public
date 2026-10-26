@@ -1,0 +1,15 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "T_ps": 0.1,
+  "L_m": 0.9143654422336441,
+  "n": 4096,
+  "dt_ps": 0.003,
+  "steps": 2000,
+  "fR": 0.0,
+  "shock": false,
+  "loss": 0.0,
+  "dispersion": "quadratic",
+  "script": "../2026-10-16-gpt-d-loss-edge-audit/nlse_check.py"
+}

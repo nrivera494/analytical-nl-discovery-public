@@ -1,0 +1,44 @@
+{
+ "L36_tol0.05": {
+  "normal_nontrivial": 6522,
+  "umklapp": 3216,
+  "weighted_normal": 2352.96,
+  "weighted_umklapp": 1089.8875,
+  "umklapp_to_normal_weighted_ratio": 0.4632
+ },
+ "L36_tol0.025": {
+  "normal_nontrivial": 4930,
+  "umklapp": 2656,
+  "weighted_normal": 1690.2646,
+  "weighted_umklapp": 856.5804,
+  "umklapp_to_normal_weighted_ratio": 0.5068
+ },
+ "L48_tol0.05": {
+  "normal_nontrivial": 16082,
+  "umklapp": 7192,
+  "weighted_normal": 6047.3913,
+  "weighted_umklapp": 2555.376,
+  "umklapp_to_normal_weighted_ratio": 0.4226
+ },
+ "L48_tol0.025": {
+  "normal_nontrivial": 10650,
+  "umklapp": 5328,
+  "weighted_normal": 3878.8745,
+  "weighted_umklapp": 1808.1537,
+  "umklapp_to_normal_weighted_ratio": 0.4662
+ },
+ "L60_tol0.05": {
+  "normal_nontrivial": 30874,
+  "umklapp": 13128,
+  "weighted_normal": 11808.7611,
+  "weighted_umklapp": 4770.0015,
+  "umklapp_to_normal_weighted_ratio": 0.4039
+ },
+ "L60_tol0.025": {
+  "normal_nontrivial": 20554,
+  "umklapp": 9600,
+  "weighted_normal": 7803.7522,
+  "weighted_umklapp": 3398.5724,
+  "umklapp_to_normal_weighted_ratio": 0.4355
+ }
+}

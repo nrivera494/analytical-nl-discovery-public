@@ -1,0 +1,12 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-julia
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+implementation: Pinned PulsePropagation fixed-step RK4IP; flat or solver-window nonlinear
+  prefactor supplied explicitly
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-julia
+hardware: macOS-27.0.1-arm64-arm-64bit
+wall_seconds: 1630.5341646671295
+claim: C-20261016-claude-b-01

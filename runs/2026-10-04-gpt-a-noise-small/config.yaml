@@ -1,0 +1,12 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_noise.jl
+mode: small
+filters:
+- "abs(\u03A9T0)<=1"
+- "\u03A9T0>=0"
+- all
+temperature_K: 300.0
+photon_convention: constant carrier weight; no shock
+raman_reservoir: symmetric Wigner, analytic causal kernels, RWA pair Gram

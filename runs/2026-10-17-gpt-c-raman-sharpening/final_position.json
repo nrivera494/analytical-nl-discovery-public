@@ -1,0 +1,1498 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-raman-sharpening",
+  "note": "Post-test descriptive fits. training_fit.json alone supplies the frozen heldout predictions.",
+  "calibration": {
+    "prefactor_tau1": 1.7193991802809556,
+    "exponent": 1.6223393643261854,
+    "exponent_OLS_SE": 0.004417051332722945,
+    "exponent_OLS_95_interval": [
+      1.6121536256875173,
+      1.6325251029648535
+    ],
+    "max_relative_residual": 0.010771816940910117,
+    "N": [
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0
+    ],
+    "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+    "reference_time_fs": 12.2,
+    "prefactor_OLS_95_interval": [
+      1.6833939171461905,
+      1.7561745418223995
+    ],
+    "covariance_logprefactor_exponent": [
+      [
+        8.422347129797562e-05,
+        -3.9236456690700185e-05
+      ],
+      [
+        -3.9236456690700185e-05,
+        1.951034247590909e-05
+      ]
+    ],
+    "peak_bracket_full_corner_sensitivity": [
+      1.4727436742882878,
+      1.7672575519282168
+    ],
+    "uniform_bracket_sensitivity_95": [
+      1.5591145620045885,
+      1.6805102351754813
+    ],
+    "prefactor_uniform_bracket_sensitivity_95": [
+      1.515945800961559,
+      1.9522141129306092
+    ],
+    "prefactor_full_corner_sensitivity": [
+      1.263562848158237,
+      2.3258870804318064
+    ],
+    "T0_fs": [
+      123.33479605527583,
+      197.9407169023484,
+      286.878171418461,
+      387.0912105361855,
+      496.22318149996727,
+      616.2863902474043,
+      881.8928815844843,
+      1180.6466425317087,
+      1510.5255819520614,
+      1868.4964913067615
+    ],
+    "T_brackets_fs": [
+      [
+        113.291,
+        135.701
+      ],
+      [
+        180.55,
+        216.263
+      ],
+      [
+        259.174,
+        310.44
+      ],
+      [
+        348.23,
+        417.11
+      ],
+      [
+        447.012,
+        535.432
+      ],
+      [
+        554.966,
+        664.74
+      ],
+      [
+        796.637,
+        954.214
+      ],
+      [
+        1070.371,
+        1282.093
+      ],
+      [
+        1374.004,
+        1645.785
+      ],
+      [
+        1705.827,
+        2043.244
+      ]
+    ],
+    "original_position_law_max_relative_error": 0.01155380908571324,
+    "y_star": [
+      0.8902597118723101,
+      0.9861538497726038,
+      1.0631690744957558,
+      1.134616307592299,
+      1.2046998654778474,
+      1.2669434411598035,
+      1.3833879663571425,
+      1.4879981331525427,
+      1.5830251593023916,
+      1.6715043429467413
+    ],
+    "y_prefactor": 0.5815985092168048,
+    "y_exponent": 0.3776606356738146,
+    "y_exponent_OLS_95_interval": [
+      0.36747489703514646,
+      0.3878463743124827
+    ],
+    "common_constant_y_allowed_by_all_brackets": false,
+    "intersection_y_bracket_endpoints": [
+      1.5285496984207465,
+      0.9691855487196688
+    ],
+    "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+  },
+  "all_N": {
+    "prefactor_tau1": 1.7207224787507154,
+    "exponent": 1.6223214585997818,
+    "exponent_OLS_SE": 0.0035489117545863345,
+    "exponent_OLS_95_interval": [
+      1.614589044137546,
+      1.6300538730620178
+    ],
+    "max_relative_residual": 0.011513124784970241,
+    "N": [
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10.0,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0,
+      16.0
+    ],
+    "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+    "reference_time_fs": 12.2,
+    "prefactor_OLS_95_interval": [
+      1.6917197943085642,
+      1.7502223824768661
+    ],
+    "covariance_logprefactor_exponent": [
+      [
+        6.086769087886756e-05,
+        -2.6969652382099797e-05
+      ],
+      [
+        -2.6969652382099804e-05,
+        1.2594774641841592e-05
+      ]
+    ],
+    "peak_bracket_full_corner_sensitivity": [
+      1.4851574938300098,
+      1.7571399576910143
+    ],
+    "uniform_bracket_sensitivity_95": [
+      1.5693686568085372,
+      1.6705339307029738
+    ],
+    "prefactor_uniform_bracket_sensitivity_95": [
+      1.5314908052807663,
+      1.9252113729616258
+    ],
+    "prefactor_full_corner_sensitivity": [
+      1.274917053694759,
+      2.297871845254567
+    ],
+    "T0_fs": [
+      123.33479605527583,
+      197.9407169023484,
+      286.878171418461,
+      387.0912105361855,
+      496.22318149996727,
+      616.2863902474043,
+      747.4734364367639,
+      881.8928815844843,
+      1030.814395508213,
+      1180.6466425317087,
+      1346.1384080674175,
+      1510.5255819520614,
+      1691.7475999005917,
+      1868.4964913067615
+    ],
+    "T_brackets_fs": [
+      [
+        113.291,
+        135.701
+      ],
+      [
+        180.55,
+        216.263
+      ],
+      [
+        259.174,
+        310.44
+      ],
+      [
+        348.23,
+        417.11
+      ],
+      [
+        447.012,
+        535.432
+      ],
+      [
+        554.966,
+        664.74
+      ],
+      [
+        704.848,
+        771.274
+      ],
+      [
+        796.637,
+        954.214
+      ],
+      [
+        975.615,
+        1067.559
+      ],
+      [
+        1070.371,
+        1282.093
+      ],
+      [
+        1278.825,
+        1399.342
+      ],
+      [
+        1374.004,
+        1645.785
+      ],
+      [
+        1612.466,
+        1764.426
+      ],
+      [
+        1705.827,
+        2043.244
+      ]
+    ],
+    "original_position_law_max_relative_error": 0.012753151667911133,
+    "y_star": [
+      0.8902597118723101,
+      0.9861538497726038,
+      1.0631690744957558,
+      1.134616307592299,
+      1.2046998654778474,
+      1.2669434411598035,
+      1.322053670175611,
+      1.3833879663571425,
+      1.4320715799396675,
+      1.4879981331525427,
+      1.5316404224436484,
+      1.5830251593023916,
+      1.6225824704354823,
+      1.6715043429467413
+    ],
+    "y_prefactor": 0.5811512387087681,
+    "y_exponent": 0.37767854140021817,
+    "y_exponent_OLS_95_interval": [
+      0.36994612693798223,
+      0.3854109558624541
+    ],
+    "common_constant_y_allowed_by_all_brackets": false,
+    "intersection_y_bracket_endpoints": [
+      1.5557467414331914,
+      0.9691855487196688
+    ],
+    "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+  },
+  "subranges": [
+    {
+      "interval": [
+        3,
+        8
+      ],
+      "prefactor_tau1": 1.6679812650885406,
+      "exponent": 1.6418401108233502,
+      "exponent_OLS_SE": 0.004106152556089594,
+      "exponent_OLS_95_interval": [
+        1.6304396036578,
+        1.6532406179889005
+      ],
+      "max_relative_residual": 0.003835097460636483,
+      "N": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.6362410054012972,
+        1.700337231191702
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          4.788406035828968e-05,
+          -2.7851998055529903e-05
+        ],
+        [
+          -2.7851998055529903e-05,
+          1.6860488813880724e-05
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.3870055416307394,
+        1.8529969331632352
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.49752935043769,
+        1.7404057034680873
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.4058549817469064,
+        2.1054057738661283
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.1666414169535857,
+        2.5191106730817134
+      ],
+      "T0_fs": [
+        123.33479605527583,
+        197.9407169023484,
+        286.878171418461,
+        387.0912105361855,
+        496.22318149996727,
+        616.2863902474043
+      ],
+      "T_brackets_fs": [
+        [
+          113.291,
+          135.701
+        ],
+        [
+          180.55,
+          216.263
+        ],
+        [
+          259.174,
+          310.44
+        ],
+        [
+          348.23,
+          417.11
+        ],
+        [
+          447.012,
+          535.432
+        ],
+        [
+          554.966,
+          664.74
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.01155380908571324,
+      "y_star": [
+        0.8902597118723101,
+        0.9861538497726038,
+        1.0631690744957558,
+        1.134616307592299,
+        1.2046998654778474,
+        1.2669434411598035
+      ],
+      "y_prefactor": 0.5995271175584322,
+      "y_exponent": 0.35815988917664976,
+      "y_exponent_OLS_95_interval": [
+        0.34675938201109946,
+        0.36956039634220006
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.1745945783313776,
+        0.9691855487196688
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    },
+    {
+      "interval": [
+        6,
+        16
+      ],
+      "prefactor_tau1": 1.7897747479166253,
+      "exponent": 1.6061014408516352,
+      "exponent_OLS_SE": 0.002562713901945612,
+      "exponent_OLS_95_interval": [
+        1.6003041792420032,
+        1.6118987024612672
+      ],
+      "max_relative_residual": 0.00421634792705472,
+      "N": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.765322096340566,
+        1.8145661094484142
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          3.69808754936386e-05,
+          -1.545415045961312e-05
+        ],
+        [
+          -1.5454150459613123e-05,
+          6.567502543225304e-06
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.4013153177884106,
+        1.8413841726054432
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.5290038331963927,
+        1.7106638328286647
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.3791030793745722,
+        2.141415804473824
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.0193539184746168,
+        2.8712257805502346
+      ],
+      "T0_fs": [
+        387.0912105361855,
+        496.22318149996727,
+        616.2863902474043,
+        747.4734364367639,
+        881.8928815844843,
+        1030.814395508213,
+        1180.6466425317087,
+        1346.1384080674175,
+        1510.5255819520614,
+        1691.7475999005917,
+        1868.4964913067615
+      ],
+      "T_brackets_fs": [
+        [
+          348.23,
+          417.11
+        ],
+        [
+          447.012,
+          535.432
+        ],
+        [
+          554.966,
+          664.74
+        ],
+        [
+          704.848,
+          771.274
+        ],
+        [
+          796.637,
+          954.214
+        ],
+        [
+          975.615,
+          1067.559
+        ],
+        [
+          1070.371,
+          1282.093
+        ],
+        [
+          1278.825,
+          1399.342
+        ],
+        [
+          1374.004,
+          1645.785
+        ],
+        [
+          1612.466,
+          1764.426
+        ],
+        [
+          1705.827,
+          2043.244
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.012753151667911133,
+      "y_star": [
+        1.134616307592299,
+        1.2046998654778474,
+        1.2669434411598035,
+        1.322053670175611,
+        1.3833879663571425,
+        1.4320715799396675,
+        1.4879981331525427,
+        1.5316404224436484,
+        1.5830251593023916,
+        1.6225824704354823,
+        1.6715043429467413
+      ],
+      "y_prefactor": 0.5587295279274909,
+      "y_exponent": 0.3938985591483648,
+      "y_exponent_OLS_95_interval": [
+        0.3881012975387328,
+        0.3996958207579968
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.5557467414331914,
+        1.2612353904028946
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    },
+    {
+      "interval": [
+        8,
+        16
+      ],
+      "prefactor_tau1": 1.817462541181535,
+      "exponent": 1.6000634277398957,
+      "exponent_OLS_SE": 0.003219214847351099,
+      "exponent_OLS_95_interval": [
+        1.5924511942407618,
+        1.6076756612390297
+      ],
+      "max_relative_residual": 0.0024456283088845066,
+      "N": [
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.7835988731666395,
+        1.8519691497301323
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          6.326569109718871e-05,
+          -2.5501540303125386e-05
+        ],
+        [
+          -2.5501540303125386e-05,
+          1.0363344233405761e-05
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.3381542089040053,
+        1.9021901875039544
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.4906253730046382,
+        1.7492277269456398
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.2509006997455598,
+        2.3655853273647094
+      ],
+      "prefactor_full_corner_sensitivity": [
+        0.8658929089151006,
+        3.4004247600501016
+      ],
+      "T0_fs": [
+        616.2863902474043,
+        747.4734364367639,
+        881.8928815844843,
+        1030.814395508213,
+        1180.6466425317087,
+        1346.1384080674175,
+        1510.5255819520614,
+        1691.7475999005917,
+        1868.4964913067615
+      ],
+      "T_brackets_fs": [
+        [
+          554.966,
+          664.74
+        ],
+        [
+          704.848,
+          771.274
+        ],
+        [
+          796.637,
+          954.214
+        ],
+        [
+          975.615,
+          1067.559
+        ],
+        [
+          1070.371,
+          1282.093
+        ],
+        [
+          1278.825,
+          1399.342
+        ],
+        [
+          1374.004,
+          1645.785
+        ],
+        [
+          1612.466,
+          1764.426
+        ],
+        [
+          1705.827,
+          2043.244
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.012753151667911133,
+      "y_star": [
+        1.2669434411598035,
+        1.322053670175611,
+        1.3833879663571425,
+        1.4320715799396675,
+        1.4879981331525427,
+        1.5316404224436484,
+        1.5830251593023916,
+        1.6225824704354823,
+        1.6715043429467413
+      ],
+      "y_prefactor": 0.5502176674023216,
+      "y_exponent": 0.39993657226010426,
+      "y_exponent_OLS_95_interval": [
+        0.3923243387609703,
+        0.40754880575923824
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.5557467414331914,
+        1.4020044037863482
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    }
+  ],
+  "response_shape_descriptive_fits": [
+    {
+      "response": "bw",
+      "shape": "sech",
+      "prefactor_tau1": 1.7207224787507154,
+      "exponent": 1.6223214585997818,
+      "exponent_OLS_SE": 0.0035489117545863345,
+      "exponent_OLS_95_interval": [
+        1.614589044137546,
+        1.6300538730620178
+      ],
+      "max_relative_residual": 0.011513124784970241,
+      "N": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.6917197943085642,
+        1.7502223824768661
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          6.086769087886756e-05,
+          -2.6969652382099797e-05
+        ],
+        [
+          -2.6969652382099804e-05,
+          1.2594774641841592e-05
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.4851574938300098,
+        1.7571399576910143
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.5693686568085372,
+        1.6705339307029738
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.5314908052807663,
+        1.9252113729616258
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.274917053694759,
+        2.297871845254567
+      ],
+      "T0_fs": [
+        123.33479605527583,
+        197.9407169023484,
+        286.878171418461,
+        387.0912105361855,
+        496.22318149996727,
+        616.2863902474043,
+        747.4734364367639,
+        881.8928815844843,
+        1030.814395508213,
+        1180.6466425317087,
+        1346.1384080674175,
+        1510.5255819520614,
+        1691.7475999005917,
+        1868.4964913067615
+      ],
+      "T_brackets_fs": [
+        [
+          113.291,
+          135.701
+        ],
+        [
+          180.55,
+          216.263
+        ],
+        [
+          259.174,
+          310.44
+        ],
+        [
+          348.23,
+          417.11
+        ],
+        [
+          447.012,
+          535.432
+        ],
+        [
+          554.966,
+          664.74
+        ],
+        [
+          704.848,
+          771.274
+        ],
+        [
+          796.637,
+          954.214
+        ],
+        [
+          975.615,
+          1067.559
+        ],
+        [
+          1070.371,
+          1282.093
+        ],
+        [
+          1278.825,
+          1399.342
+        ],
+        [
+          1374.004,
+          1645.785
+        ],
+        [
+          1612.466,
+          1764.426
+        ],
+        [
+          1705.827,
+          2043.244
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.012753151667911133,
+      "y_star": [
+        0.8902597118723101,
+        0.9861538497726038,
+        1.0631690744957558,
+        1.134616307592299,
+        1.2046998654778474,
+        1.2669434411598035,
+        1.322053670175611,
+        1.3833879663571425,
+        1.4320715799396675,
+        1.4879981331525427,
+        1.5316404224436484,
+        1.5830251593023916,
+        1.6225824704354823,
+        1.6715043429467413
+      ],
+      "y_prefactor": 0.5811512387087681,
+      "y_exponent": 0.37767854140021817,
+      "y_exponent_OLS_95_interval": [
+        0.36994612693798223,
+        0.3854109558624541
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.5557467414331914,
+        0.9691855487196688
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    },
+    {
+      "response": "hc",
+      "shape": "sech",
+      "prefactor_tau1": 1.8200527618728564,
+      "exponent": 1.6247732987706538,
+      "exponent_OLS_SE": 0.0016171886609220637,
+      "exponent_OLS_95_interval": [
+        1.6202832632288553,
+        1.6292633343124523
+      ],
+      "max_relative_residual": 0.003507491785452288,
+      "N": [
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        12.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.8036054427585944,
+        1.836650066288578
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          1.0690144054186776e-05,
+          -5.062174385716117e-06
+        ],
+        [
+          -5.062174385716117e-06,
+          2.6152991650148976e-06
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.5127707936884414,
+        1.918410609796867
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.610168593424101,
+        1.818476172727447
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.2678275938765369,
+        1.9367334048383085
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.0391127465797094,
+        2.3304649859902584
+      ],
+      "T0_fs": [
+        132.1838873502472,
+        210.84801303959114,
+        409.52818990925437,
+        652.2639891334536,
+        1256.5421929555532,
+        2006.9573959917295
+      ],
+      "T_brackets_fs": [
+        [
+          107.067,
+          141.926
+        ],
+        [
+          170.63,
+          226.184
+        ],
+        [
+          382.67,
+          497.471
+        ],
+        [
+          609.853,
+          792.809
+        ],
+        [
+          1176.232,
+          1529.101
+        ],
+        [
+          1874.535,
+          2436.896
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.07064251879706807,
+      "y_star": [
+        0.8306609996198955,
+        0.9257853426550768,
+        1.0724536450038287,
+        1.1970613325400796,
+        1.3981225698977717,
+        1.5561864971511683
+      ],
+      "y_prefactor": 0.549434621318883,
+      "y_exponent": 0.3752267012293462,
+      "y_exponent_OLS_95_interval": [
+        0.3707366656875477,
+        0.3797167367711447
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.2816304019539608,
+        1.0255260724593012
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    },
+    {
+      "response": "as2s3",
+      "shape": "sech",
+      "prefactor_tau1": 1.8235522315246198,
+      "exponent": 1.5299983014560903,
+      "exponent_OLS_SE": 0.01620122659884389,
+      "exponent_OLS_95_interval": [
+        1.4850164851675298,
+        1.5749801177446507
+      ],
+      "max_relative_residual": 0.02573617346086421,
+      "N": [
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        12.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 15.5,
+      "prefactor_OLS_95_interval": [
+        1.6650308057741587,
+        1.9971658960101324
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          0.001072896861970566,
+          -0.000508055923816619
+        ],
+        [
+          -0.000508055923816619,
+          0.00026247974330708676
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.2855353150708217,
+        1.7452904965049094
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.397445502495595,
+        1.6329605852257585
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.5065383174983582,
+        2.383162407815982
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.2038226572927975,
+        2.944524893739259
+      ],
+      "T0_fs": [
+        147.88400124461415,
+        236.76051865792735,
+        449.5015322904312,
+        694.2462786975296,
+        1262.74604958916,
+        1925.7367304647616
+      ],
+      "T_brackets_fs": [
+        [
+          136.027,
+          180.315
+        ],
+        [
+          216.784,
+          287.365
+        ],
+        [
+          350.049,
+          486.179
+        ],
+        [
+          557.865,
+          774.813
+        ],
+        [
+          1075.963,
+          1494.393
+        ],
+        [
+          1714.739,
+          2381.582
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.19140438869165766,
+      "y_star": [
+        0.9433069082926271,
+        1.0474719408699704,
+        1.2413750786492668,
+        1.42888774551458,
+        1.7675763077827018,
+        2.060510108794754
+      ],
+      "y_prefactor": 0.548380234310003,
+      "y_exponent": 0.4700016985439097,
+      "y_exponent_OLS_95_interval": [
+        0.42501988225534926,
+        0.5149835148324702
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.666119411382854,
+        1.0255316959133114
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    },
+    {
+      "response": "bw",
+      "shape": "gaussian",
+      "prefactor_tau1": 1.6246537578396878,
+      "exponent": 1.6244243312007653,
+      "exponent_OLS_SE": 0.004186186664707506,
+      "exponent_OLS_95_interval": [
+        1.6128016137260939,
+        1.6360470486754368
+      ],
+      "max_relative_residual": 0.006328417478339565,
+      "N": [
+        3.0,
+        4.0,
+        6.0,
+        8.0,
+        12.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.586922006363377,
+        1.6632826454473024
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          7.16307275353146e-05,
+          -3.391977061501479e-05
+        ],
+        [
+          -3.391977061501479e-05,
+          1.752415879177495e-05
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.4092063803485626,
+        1.8307901068536794
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.5110621428878601,
+        1.726650327859753
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.3809076376424243,
+        2.130715494788782
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.1236295539626837,
+        2.585250123697495
+      ],
+      "T0_fs": [
+        117.34270876007932,
+        188.4778183029986,
+        366.3601358409218,
+        584.2368201155155,
+        1122.0081085211445,
+        1780.9918509076795
+      ],
+      "T_brackets_fs": [
+        [
+          107.067,
+          141.926
+        ],
+        [
+          170.63,
+          226.184
+        ],
+        [
+          329.096,
+          436.244
+        ],
+        [
+          524.473,
+          695.232
+        ],
+        [
+          1011.559,
+          1340.904
+        ],
+        [
+          1612.101,
+          2136.97
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.05745871548722303,
+      "y_star": [
+        0.9357206865276883,
+        1.035665638309728,
+        1.1988203874635153,
+        1.3364443546122615,
+        1.5657640855336943,
+        1.7536295847778676
+      ],
+      "y_prefactor": 0.6155157646203374,
+      "y_exponent": 0.37557566879923465,
+      "y_exponent_OLS_95_interval": [
+        0.3639529513245632,
+        0.3871983862739061
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.4615085845847158,
+        1.0255260724593012
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    }
+  ],
+  "output_checkpoint_sensitivity": [
+    {
+      "checkpoint_choice": "earliest",
+      "prefactor_tau1": 1.6953538166588953,
+      "exponent": 1.6281884439981522,
+      "exponent_OLS_SE": 0.004564208573184159,
+      "exponent_OLS_95_interval": [
+        1.6182438878016387,
+        1.6381330001946657
+      ],
+      "max_relative_residual": 0.017775310939366573,
+      "N": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.6586927234431414,
+        1.7328252080912978
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          0.0001006763333470532,
+          -4.4608324618029984e-05
+        ],
+        [
+          -4.460832461802999e-05,
+          2.0831999899527774e-05
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.4851574938300098,
+        1.7571399576910143
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.5693686568085372,
+        1.6705339307029738
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.5314908052807663,
+        1.9252113729616258
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.274917053694759,
+        2.297871845254567
+      ],
+      "T0_fs": [
+        121.52743695181314,
+        197.1199711650151,
+        286.02486174398683,
+        385.5360001668325,
+        496.05110908926844,
+        615.5334978062117,
+        746.4947576500825,
+        881.252318233821,
+        1030.1710133419208,
+        1180.6466425317087,
+        1345.32418962459,
+        1509.8773230478862,
+        1691.0279113120662,
+        1867.670865217599
+      ],
+      "T_brackets_fs": [
+        [
+          113.291,
+          135.701
+        ],
+        [
+          180.55,
+          216.263
+        ],
+        [
+          259.174,
+          310.44
+        ],
+        [
+          348.23,
+          417.11
+        ],
+        [
+          447.012,
+          535.432
+        ],
+        [
+          554.966,
+          664.74
+        ],
+        [
+          704.848,
+          771.274
+        ],
+        [
+          796.637,
+          954.214
+        ],
+        [
+          975.615,
+          1067.559
+        ],
+        [
+          1070.371,
+          1282.093
+        ],
+        [
+          1278.825,
+          1399.342
+        ],
+        [
+          1374.004,
+          1645.785
+        ],
+        [
+          1612.466,
+          1764.426
+        ],
+        [
+          1705.827,
+          2043.244
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.02384538640311129,
+      "y_star": [
+        0.9034996767317393,
+        0.9902598851163191,
+        1.066340870301678,
+        1.139193226598672,
+        1.2051177571148641,
+        1.268493108470628,
+        1.323786925323883,
+        1.384393521307367,
+        1.4329659647587454,
+        1.4879981331525427,
+        1.532567403382036,
+        1.583704823894598,
+        1.6232730291661233,
+        1.6722432512947731
+      ],
+      "y_prefactor": 0.5898473759128002,
+      "y_exponent": 0.3718115560018478,
+      "y_exponent_OLS_95_interval": [
+        0.3618669998053343,
+        0.38175611219836125
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.5557467414331914,
+        0.9691855487196688
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    },
+    {
+      "checkpoint_choice": "latest",
+      "prefactor_tau1": 1.7207224787507154,
+      "exponent": 1.6223214585997818,
+      "exponent_OLS_SE": 0.0035489117545863345,
+      "exponent_OLS_95_interval": [
+        1.614589044137546,
+        1.6300538730620178
+      ],
+      "max_relative_residual": 0.011513124784970241,
+      "N": [
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0
+      ],
+      "uncertainty_note": "Descriptive regression residual interval, not experimental confidence or asymptotic error.",
+      "reference_time_fs": 12.2,
+      "prefactor_OLS_95_interval": [
+        1.6917197943085642,
+        1.7502223824768661
+      ],
+      "covariance_logprefactor_exponent": [
+        [
+          6.086769087886756e-05,
+          -2.6969652382099797e-05
+        ],
+        [
+          -2.6969652382099804e-05,
+          1.2594774641841592e-05
+        ]
+      ],
+      "peak_bracket_full_corner_sensitivity": [
+        1.4851574938300098,
+        1.7571399576910143
+      ],
+      "uniform_bracket_sensitivity_95": [
+        1.5693686568085372,
+        1.6705339307029738
+      ],
+      "prefactor_uniform_bracket_sensitivity_95": [
+        1.5314908052807663,
+        1.9252113729616258
+      ],
+      "prefactor_full_corner_sensitivity": [
+        1.274917053694759,
+        2.297871845254567
+      ],
+      "T0_fs": [
+        123.33479605527583,
+        197.9407169023484,
+        286.878171418461,
+        387.0912105361855,
+        496.22318149996727,
+        616.2863902474043,
+        747.4734364367639,
+        881.8928815844843,
+        1030.814395508213,
+        1180.6466425317087,
+        1346.1384080674175,
+        1510.5255819520614,
+        1691.7475999005917,
+        1868.4964913067615
+      ],
+      "T_brackets_fs": [
+        [
+          113.291,
+          135.701
+        ],
+        [
+          180.55,
+          216.263
+        ],
+        [
+          259.174,
+          310.44
+        ],
+        [
+          348.23,
+          417.11
+        ],
+        [
+          447.012,
+          535.432
+        ],
+        [
+          554.966,
+          664.74
+        ],
+        [
+          704.848,
+          771.274
+        ],
+        [
+          796.637,
+          954.214
+        ],
+        [
+          975.615,
+          1067.559
+        ],
+        [
+          1070.371,
+          1282.093
+        ],
+        [
+          1278.825,
+          1399.342
+        ],
+        [
+          1374.004,
+          1645.785
+        ],
+        [
+          1612.466,
+          1764.426
+        ],
+        [
+          1705.827,
+          2043.244
+        ]
+      ],
+      "original_position_law_max_relative_error": 0.012753151667911133,
+      "y_star": [
+        0.8902597118723101,
+        0.9861538497726038,
+        1.0631690744957558,
+        1.134616307592299,
+        1.2046998654778474,
+        1.2669434411598035,
+        1.322053670175611,
+        1.3833879663571425,
+        1.4320715799396675,
+        1.4879981331525427,
+        1.5316404224436484,
+        1.5830251593023916,
+        1.6225824704354823,
+        1.6715043429467413
+      ],
+      "y_prefactor": 0.5811512387087681,
+      "y_exponent": 0.37767854140021817,
+      "y_exponent_OLS_95_interval": [
+        0.36994612693798223,
+        0.3854109558624541
+      ],
+      "common_constant_y_allowed_by_all_brackets": false,
+      "intersection_y_bracket_endpoints": [
+        1.5557467414331914,
+        0.9691855487196688
+      ],
+      "coordinate_note": "y is an empirical scaled inverse duration, not a measured compressed bandwidth."
+    }
+  ]
+}

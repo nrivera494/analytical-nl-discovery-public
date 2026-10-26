@@ -1,0 +1,27 @@
+run_id: 2026-10-16-claude-interactive.6-h1-conservation
+agent: claude-interactive.6
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-04
+serves: P-20261016-claude-interactive-02 (hypothesis H1, frozen in commit 4f0f1ff)
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa   # agents' copy, used by h1_julia_crosscheck.py only
+solver_dirty: false
+second_implementation: numpy RK4IP in ../2026-10-16-claude-interactive.6-lwir-common/lwir.py (written this session)
+julia_version: 1.12.5
+hardware: Apple M5 laptop (shared), JULIA_NUM_THREADS=2
+wall_time_s: {h1_numpy: 75, h1_julia_crosscheck: 46, h1_window_diagnosis: 35}
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-claude-interactive.6-h1-conservation/ (machine: PI MacBook, user <user>)
+commands:
+  - ~/agent-work/venv/bin/python h1_numpy.py
+  - ~/agent-work/venv/bin/python h1_julia_crosscheck.py      # calls ../2026-10-16-claude-interactive.6-lwir-common/jl_forward.jl
+  - ~/agent-work/venv/bin/python h1_window_diagnosis.py
+outputs: [summary_numpy.json, summary_julia_crosscheck.json, summary_window_diagnosis.json]
+config:
+  fibre: "S28: step index, core radius 4.1 um, NA 0.14, Boilard SiO2 two-term Sellmeier (arXiv:2109.13366 Table 2), LP01 scalar"
+  n2_m2_per_W: 2.6e-20
+  raman: {model: single damped oscillator, fR: 0.18, tau1_ps: 0.0122, tau2_ps: 0.032}
+  launch: {shape: sech, N: 3, T0_fs: 56.7, lambda_um: 1.55, transform_limited: true}
+  grid: {nt: 8192, dt_fs: 3.0, centre_um: 1.75, frame: group velocity at the grid centre}
+  L_m: 1.0
+  loss: none
+  steps_mm: [1.0, 0.5, 0.25, 0.125]

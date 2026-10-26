@@ -1,0 +1,11 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-d-nlse-limit",
+  "relative_field_error": 1.8519368971991063e-13,
+  "global_phase": 0.9999999999998171,
+  "predicted_phase": 1.0,
+  "energy_ratio": 1.0000000000000309,
+  "wall_s": 1.015748208
+}

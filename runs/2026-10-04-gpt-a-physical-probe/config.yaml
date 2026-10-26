@@ -1,0 +1,11 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_independent.py
+mode: physical
+prediction_commit: 705cfaf
+nt: 8192
+window_tau: 640.0
+dzeta: 0.005
+zeta: 40.0
+scope: Linear passive probe with physical unequal beta2; no Raman

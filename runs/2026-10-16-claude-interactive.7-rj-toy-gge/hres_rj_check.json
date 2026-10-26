@@ -1,0 +1,46 @@
+[
+ {
+  "K": 4,
+  "Eprime": 0.3,
+  "H_input_dephased": 0.48345117630733614,
+  "H_input_focused": 0.4917274343247264,
+  "H_RJ_mean": 0.4974085247079352,
+  "H_RJ_std": 0.011953904671638472,
+  "z_dephased": -1.1675974323029263,
+  "z_focused": -0.4752497647641115,
+  "frac_RJ_below_dephased_input": 0.13475
+ },
+ {
+  "K": 4,
+  "Eprime": 0.9,
+  "H_input_dephased": 0.3821131390495799,
+  "H_input_focused": 0.4177298567247383,
+  "H_RJ_mean": 0.4105198838772575,
+  "H_RJ_std": 0.020114650430128816,
+  "z_dephased": -1.4122415364041558,
+  "z_focused": 0.3584438552648806,
+  "frac_RJ_below_dephased_input": 0.07215
+ },
+ {
+  "K": 5,
+  "Eprime": 0.9,
+  "H_input_dephased": 0.3846155639738992,
+  "H_input_focused": 0.42046553236180323,
+  "H_RJ_mean": 0.43192761440074445,
+  "H_RJ_std": 0.018490823933460902,
+  "z_dephased": -2.558677244296812,
+  "z_focused": -0.6198794645488727,
+  "frac_RJ_below_dephased_input": 0.0055
+ },
+ {
+  "K": 4,
+  "Eprime": 0.6,
+  "H_input_dephased": 0.42354730314214334,
+  "H_input_focused": 0.44233616928897185,
+  "H_RJ_mean": 0.4473333950033377,
+  "H_RJ_std": 0.018251903968277635,
+  "z_dephased": -1.303211539055613,
+  "z_focused": -0.273792023180221,
+  "frac_RJ_below_dephased_input": 0.10775
+ }
+]

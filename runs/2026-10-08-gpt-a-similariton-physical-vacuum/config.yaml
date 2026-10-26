@@ -1,0 +1,17 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261008-gpt-a-01
+method: Chebyshev Lagrangian physical-vacuum collocation; DOP853
+degrees:
+- 32
+- 64
+rtol: 2.0e-11
+atol: 2.0e-13
+gain_length: 24
+quadrature_nodes: 256
+cases:
+- linear_l3
+- linear_l4
+- finite_mixed
+- heldout_asymmetric

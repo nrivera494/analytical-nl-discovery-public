@@ -1,0 +1,18 @@
+run_id: 2026-10-08-claude-b-gif625-fwm-mismatch
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+date: 2026-10-08
+task: T-20261008-claude-b-01
+serves: "Claim C-20261008-claude-b-01 (P-20261004-root-03): physical domain of the cross-phase-only two-mode model in nominal GIF625 at 1550 nm (phase mismatch of the leading intermodal four-wave mixing against the walk-off parameter)."
+description: "Uses beta(omega, order) of run 2026-10-04-claude-b-gif625-walkoff (analytic GRIN propagation constant of the solver, Malitson silica, a = 31.25 um, NA = 0.275) unchanged. dbeta(02+02 -> 01+03) = -25.6 /m and dbeta(11+11 -> 01+21) = -6.38 /m at 1550 nm; with L_D = T0^2/|beta2|, |dbeta| L_D = 912 T0^2 and 227 T0^2 (T0 in ps); delta_LP02 = 5.37 T0 and delta_LP11 = 2.59 T0. |dbeta| L_D = 10 is reached at delta_LP02 = 0.56 and delta_LP11 = 0.54. Propagation-constant offsets beta(LP01) - beta(LP02) = 12214 /m and beta(LP01) - beta(LP11) = 6104 /m give kappa = dbeta0 L_D = 22405 (LP02) and 11197 (LP11) at T0 = 0.227 ps. Table against T0 in summary.json."
+grid: "not applicable (mpmath, 50 digits)"
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_usage: "Not executed; re-implements the solver's analytic GRIN beta (as in run 2026-10-04-claude-b-gif625-walkoff, which checked it against a solver export to 2.2e-9)."
+software: "Python 3.9.6, mpmath"
+hardware: "Apple M5 (macOS)"
+wall_time_s: 1
+convergence: "not applicable"
+raw_location: "none (summary.json holds all numbers)"
+caveats: "Ideal parabolic profile; a measured index profile changes these numbers (T-20261004-claude-b-03). |beta2| = 0.02809 ps^2/m and dbeta1 = 0.1508 (LP02), 0.0727 (LP11) ps/m are the rounded values of the source run."

@@ -1,0 +1,126 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N3_T80_fixed130cm",
+    "N": 3,
+    "T0_fs": 80,
+    "n": 16384,
+    "width": 160,
+    "tol": 1E-9,
+    "zN": [
+      3,
+      4,
+      8,
+      12.248029652724857
+    ],
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_N4.5_T220",
+    "N": 4.5,
+    "T0_fs": 220,
+    "n": 16384,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_N4.5_T260",
+    "N": 4.5,
+    "T0_fs": 260,
+    "n": 16384,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_N2_T57.5_long",
+    "N": 2,
+    "T0_fs": 57.5,
+    "n": 16384,
+    "width": 160,
+    "tol": 1E-9,
+    "zN": [
+      6,
+      8,
+      16
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "rescale_bw_N4_T400_scale2",
+    "N": 4,
+    "T0_fs": 400,
+    "raman_scale": 2,
+    "n": 16384,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_fine_N4_T6400",
+    "N": 4,
+    "T0_fs": 6400,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      16,
+      32
+    ],
+    "tol": 1E-11,
+    "zs_points": 8192
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "conv_measured_wide_N3_T50_fixed130cm",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 65536,
+    "width": 320,
+    "zN": [
+      4,
+      16,
+      31.354955910975633
+    ],
+    "tol": 1E-9,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "zs_points": 4096
+  }
+]

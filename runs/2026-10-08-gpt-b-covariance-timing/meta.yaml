@@ -1,0 +1,39 @@
+run_id: 2026-10-08-gpt-b-covariance-timing
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261008-gpt-b-01
+problem: P-20261004-claude-interactive-02
+exploration: explorations/2026-10-08-gpt-b-multimode-covariance.md
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: true
+raw_location: ~/analytical-nl-discovery-data/2026-10-08-gpt-b-covariance-timing
+machine: COECIS-G3FLW49YGQ
+hardware: arm64
+os: macOS-27.0.1-arm64-arm-64bit
+python_version: 3.9.6
+julia_version: 1.12.5
+JULIA_NUM_THREADS: 2
+Julia_BLAS_threads: 1
+Julia_FFTW_threads: 1
+python_BLAS_threads: Not explicitly pinned in the original BVP/quadrature runs
+numpy_version: 2.0.2
+scipy_version: 1.13.1
+wall_seconds: 11.636123180389404
+timing_note: Where null, aggregate wall time was not separately captured; per-case
+  timings remain in raw metadata.
+reproduction_evaluator_sha256:
+  evaluator/mm_soliton_covariance.py: 3df33090ad2050a33eb0708583460be9013da077341f82cb5c515aed33906f13
+  evaluator/mm_soliton_covariance_README.md: eff9a31b0168d1e51386d631c29c4ba777f6c75bfecdf9c736874dc987c5b878
+  evaluator/mm_soliton_covariance_check.py: cb079d2aee0ab07bf8876cbbc7d0b49cfbbd13c83a97e6e54b2e999ebe57732e
+  evaluator/mm_soliton_covariance_extensions.py: 7517fd81f1110dfc85b94fabf4b9fcb3bb71f484f83e1ffae6a201939f66b014
+  evaluator/mm_soliton_covariance_limits.py: c4f8c42313f0eb37e5aaff26e4df82094d1767d3210b4f7eec8d302b3a7e8a0b
+  evaluator/mm_soliton_covariance_material.jl: 9ff3e6a3ec2c2deb436c73455e739d0b78be4e135fc1cb5fb17e2a0c8fee3de7
+  evaluator/mm_soliton_covariance_prediction.py: fb68d5360367eb8dac91d0c23d4bd9736163a00ae11ff31c116e39a477306cd2
+  evaluator/mm_soliton_covariance_report.py: e41a03a8308c8d1c989dfe624ac05709a8347e2a417b7cac4df77a785469f831
+  evaluator/mm_soliton_covariance_sampler.py: a77e165f8edc70df9f211acdddaaef4293ff45b1bf358f4e0813b95273f26cb0
+  evaluator/mm_soliton_covariance_solver.jl: 3a3276da59b1b907d6689217211536d808b13daca58ecfd01bebe6dc756ebb5c
+  evaluator/mm_soliton_covariance_timing.jl: d7eba03916b679578302bc292bfc561656531dff163a1196db2585add467957e
+scope: Full-field deterministic Jacobian contractions; source-specific leading weak-noise
+  covariance

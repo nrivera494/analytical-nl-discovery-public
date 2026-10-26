@@ -1,0 +1,18 @@
+run_id: 2026-10-04-gpt-a-material
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+hardware: COECIS-G3FLW49YGQ
+threads: 2
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-material
+purpose: Material-only calibration before capture predictions frozen
+status: completed
+attempts:
+- First invocation stopped at a Julia parse error before output; corrected invocation
+  completed.
+wall_time_seconds: null
+wall_time_note: Material calibration runtime was not instrumented; compilation and
+  two attempts are documented.
+randomness: none; deterministic quadrature

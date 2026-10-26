@@ -1,0 +1,50 @@
+# Everything needed to rerun. All scripts are in this folder; run them from here with ~/agent-work/venv/bin/python
+# (numpy 2.0.2, scipy 1.13.1) and OPENBLAS_NUM_THREADS=OMP_NUM_THREADS=VECLIB_MAXIMUM_THREADS=1.
+model:
+  equation: "d_xi u = (i/2) u_tt + d3 u_ttt + i N^2 (1 + i s d_t)[u((1-fR)|u|^2 + fR h*|u|^2)]   (gnlse.py)"
+  raman: {model: Blow-Wood, fR: 0.18, tau1_fs: 12.2, tau2_fs: 32.0, T_R_fs: 1.462, applied: "exact transfer function on the FFT grid"}
+  launch: "u(0) = sech(tau) (TL sech); ZS potential q = N u"
+  integrator: "RK4IP, fixed step h = hfac * 0.4 / (N (2N-1))^2"
+  grid: {width_T0: 160, n: "8192 (N<=4), 16384 (N=5,6), 32768 (N=7,8 fine reruns and dt/2 checks)"}
+  measurement: "h3_scan.measure: tallest peak, window half-width max(6/|q|max, 1) T0, centroid removed, 2x zero padding, leading ZS eigenvalue by shift-invert (zs.leading_fast)"
+  window_limited_flag: "|t_peak| > 0.4 width or |W_c| > 0.8 pi/dt"
+zs:
+  method: "Fourier collocation of [[i d, -i q], [-i conj q, -i d]] (zs.Grid), shift-invert at i(max|q| + 0.3)"
+seeds:
+  h1_tests_random_masks: 2026
+  h2_opt_starts: 7
+  h4_opt_starts: 11
+  zs_leading_fast_subspace: 0
+commands:
+  H1: ["python h1_tests.py h1_tests.json", "python h1c_lorentz_window.py", "python h1c_narrow.py h1c_narrow.json"]
+  H2: ["python h2_opt.py h2_sech.json sech 1.5,2,3,4 10 4", "python h2_opt.py h2_gauss.json gauss 1.5,2,3,4 10 4",
+       "python h2_opt.py h2_A6_sech.json sech 6 10 3", "python h2_opt.py h2_A6_gauss.json gauss 6 10 3",
+       "python h2_opt.py h2b_asym.json asym 2,4 10 3", "python h2_opt.py h2b_flattop.json flattop 2,4 10 3"]
+  H3: ["python h3_scan.py h3_main.json main", "python h3_scan.py h3_relaxed.json relaxed",
+       "python h3_ext.py h3_<mode>.json <mode>   for mode in small dense heldout conv conv_small n2long n5peak n7 n7fine n8fine n8peak n35 rshape gauss",
+       "python h3_beta3_measure.py h3_beta3.json", "python h3_peaks_diag.py h3_peaks_N8_T400.json 8 400 4",
+       "python h3_peaks_diag.py h3_peaks_N6_T400.json 6 400 4", "python h3_peaks_diag.py h3_peaks_N5_T280.json 5 280 4",
+       "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-16-claude-a-raman-soliton-frontier/solver_check.jl  (from repo root)",
+       "python solver_check_measure.py solver_check.json", "python h3_analysis.py",
+       "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-16-claude-a-raman-soliton-frontier/solver_check2.jl; python solver_check2_measure.py solver_check2.json",
+       "python sketch3_chirped_sech.py sketch3_chirped_sech.json", "python figure_collapse.py"]
+  H4: ["sh h4_chain.sh (after the N=2, N=3 runs: python h4_opt.py h4_N2_T100_d0_phi.json 2 100 0 phi 6 3 120, same for N=3)",
+       "python h4_opt.py h4_N4_T200_d0_phi.json 4 200 0 phi 6 2 80", "python h4_scan6.py h4_scan6_T100.json 100 0",
+       "python h4_grad.py h4grad_N3_T100.json 3 100 0 h4_N3_T100_d0_phi.json   (same for N = 4)",
+       "python h4_recheck.py h4_recheck.json h4_N3_T100_d005_phi.json h4_N3_T100_d0_phi.json h4_N4_T200_d0_phi.json",
+       "python h4_recheck.py h4_recheck_N4d005.json h4_N4_T100_d005_phi.json",
+       "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint.jl 3 100 16 2   (and 4 200 16 1)",
+       "python h4_adjoint_measure.py h4_adjoint_measure_N4_T200.json 4 200 16",
+       "julia ... h4_adjoint.jl 4 200 16 0 runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint_N4_T200_bestmask_coef.csv   (warm start -> mask B2)",
+       "julia ... h4_adjoint.jl 4 200 16 0 runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint_N4_T200_maskB2_coef.csv   (second warm start -> mask B3)",
+       "python h4_verify_solvermask.py h4_verify_maskB3.json h4_adjoint_N4_T200_maskB3_coef.csv 200 16",
+       "python h4_robust.py h4_robust_detune2.json best2 detune",
+       "python h4_verify_best.py h4_verify_N4_T100_best.json h4grad_N4_T100.json", "python h4_verify_solvermask.py h4_verify_maskB2.json h4_adjoint_N4_T200_maskB2_coef.csv 200 16",
+       "python h4_robust.py h4_robust.json; python h4_robust.py h4_robust_best2.json best2",
+       "python h4_grad.py h4grad_N3_T140.json 3 140 0; python h4_grad.py h4grad_N5_T280.json 5 280 0 none 8 12",
+       "python h2c_sharp.py h2c_sharp.json"]
+  H5: ["JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-16-claude-a-raman-soliton-frontier/h5_jitter.jl   (N = 1 validation, N = 2, 3)",
+       "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-16-claude-a-raman-soliton-frontier/h5_jitter.jl 4 5",
+       "JULIA_NUM_THREADS=2 julia --project=solver runs/2026-10-16-claude-a-raman-soliton-frontier/h5_jitter_fixedshift.jl 2 3 4 5",
+       "H5_T0_FS=140 julia ... h5_jitter_fixedshift.jl 3;  H5_T0_FS=200 julia ... h5_jitter_fixedshift.jl 4"]
+  summary: ["python make_summary.py"]

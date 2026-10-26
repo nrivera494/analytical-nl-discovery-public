@@ -1,0 +1,66 @@
+{
+ "assumptions": {
+  "n2_m2_per_W": 2.6e-20,
+  "gR_1064_m_per_W": 1e-13,
+  "gR_1550_m_per_W": 6e-14,
+  "smith_threshold_gain": 16
+ },
+ "phi_max_rad_at_1064nm": 24.6,
+ "phi_max_rad_at_1550nm": 28.1,
+ "S5_PM_DSF_gamma2_beta3_0.1ps3perkm_P1W": {
+  "0.06THz": {
+   "L_lin_m": 187000.0,
+   "L_NL_m": 500.0,
+   "eps": 373.0,
+   "L4_m_~LNL/eps": 1.34,
+   "L6_m_~LNL/eps^3_(delta=1)": 9.61e-06
+  },
+  "0.25THz": {
+   "L_lin_m": 2580.0,
+   "L_NL_m": 500.0,
+   "eps": 5.16,
+   "L4_m_~LNL/eps": 96.9,
+   "L6_m_~LNL/eps^3_(delta=1)": 3.64
+  },
+  "1.0THz": {
+   "L_lin_m": 40.3,
+   "L_NL_m": 500.0,
+   "eps": 0.0806,
+   "L4_m_~LNL/eps": 6200.0,
+   "L6_m_~LNL/eps^3_(delta=1)": 954000.0
+  },
+  "2.0THz": {
+   "L_lin_m": 5.04,
+   "L_NL_m": 500.0,
+   "eps": 0.0101,
+   "L4_m_~LNL/eps": 49600.0,
+   "L6_m_~LNL/eps^3_(delta=1)": 488000000.0
+  }
+ },
+ "S5_note": "L4 and L6 are scaling estimates without prefactors: four-wave kinetic length L_NL/eps and six-wave length L_NL/eps^3 (integrability-breaking parameter delta = 1). Compare with the Raman budget gamma P L <~ phi_max.",
+ "coupled_core_CW_max_coupling_lengths_CL_at_1064nm": {
+  "a=0.25,k/N=0.2": 9.8,
+  "a=0.25,k/N=0.33": 16.4,
+  "a=0.25,k/N=0.45": 22.1,
+  "a=0.5,k/N=0.2": 4.9,
+  "a=0.5,k/N=0.33": 8.2,
+  "a=0.5,k/N=0.45": 11.1,
+  "a=1.0,k/N=0.2": 2.5,
+  "a=1.0,k/N=0.33": 4.1,
+  "a=1.0,k/N=0.45": 5.5
+ },
+ "ps_pulse_walkoff_and_dispersion_lengths_1064nm": {
+  "T0=1ps": {
+   "L_W_m": 0.6,
+   "L_D_m": 50.0
+  },
+  "T0=3ps": {
+   "L_W_m": 1.81,
+   "L_D_m": 450.0
+  },
+  "T0=10ps": {
+   "L_W_m": 6.03,
+   "L_D_m": 5000.0
+  }
+ }
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "strong-edges",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-strong-dispersion/run.py",
+      "--suite",
+      "edges"
+    ],
+    "free_percentage_before": 50,
+    "seconds": 254.4386329650879,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-strong-edges.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "strong-rk4ip1024",
+    "command": [
+      "julia",
+      "--project=solver",
+      "runs/2026-10-19-gpt-e-weak-dispersion/solver_crosscheck.jl",
+      "~/analytical-nl-discovery-data/2026-10-19-gpt-e-strong-dispersion/crosscheck.npz",
+      "1024"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 25.813542127609253,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-strong-rk4ip1024.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "strong-rk4ip2048",
+    "command": [
+      "julia",
+      "--project=solver",
+      "runs/2026-10-19-gpt-e-weak-dispersion/solver_crosscheck.jl",
+      "~/analytical-nl-discovery-data/2026-10-19-gpt-e-strong-dispersion/crosscheck.npz",
+      "2048"
+    ],
+    "free_percentage_before": 69,
+    "seconds": 27.87870979309082,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-strong-rk4ip2048.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-reduced-main",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/reduced.py",
+      "--suite",
+      "main"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 2.663328170776367,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-reduced-main.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-reduced-checks",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/reduced.py",
+      "--suite",
+      "checks"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 1.9196081161499023,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-reduced-checks.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-fullfield-main",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/fullfield.py",
+      "--suite",
+      "main"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 8.69836688041687,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-fullfield-main.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-fullfield-checks",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/fullfield.py",
+      "--suite",
+      "checks"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 17.57831597328186,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-fullfield-checks.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-prepare-crosscheck",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/prepare_crosscheck.py"
+    ],
+    "free_percentage_before": 71,
+    "seconds": 0.1304490566253662,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-prepare-crosscheck.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-rk4ip1024",
+    "command": [
+      "julia",
+      "--project=solver",
+      "runs/2026-10-19-gpt-e-weak-dispersion/solver_crosscheck.jl",
+      "~/analytical-nl-discovery-data/2026-10-19-gpt-e-similariton/crosscheck.npz",
+      "1024"
+    ],
+    "free_percentage_before": 71,
+    "seconds": 25.987244844436646,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-rk4ip1024.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-rk4ip2048",
+    "command": [
+      "julia",
+      "--project=solver",
+      "runs/2026-10-19-gpt-e-weak-dispersion/solver_crosscheck.jl",
+      "~/analytical-nl-discovery-data/2026-10-19-gpt-e-similariton/crosscheck.npz",
+      "2048"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 27.644712924957275,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-rk4ip2048.txt"
+  }
+]

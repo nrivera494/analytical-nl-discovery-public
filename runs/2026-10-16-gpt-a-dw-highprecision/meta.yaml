@@ -1,0 +1,17 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-highprecision
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+implementation: independent Double64 RK4IP and GenericFFT, dependency versions in
+  Manifest.toml
+status: complete
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-highprecision
+hardware: macOS-27.0.1-arm64-arm-64bit
+wall_seconds: 3933.5240643024445
+deferred_cases:
+- lower_halfstep
+- quarterstep
+- middle
+budget_stopped_cases: []

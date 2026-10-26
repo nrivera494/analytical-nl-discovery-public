@@ -1,0 +1,33 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-d-raman-literature",
+  "queries": [
+    "ZBLAN Raman response tau1 tau2 9 134 fR nonlinear refractive index",
+    "Bonetti 10.1364/JOSAB.377891 photon number conservation generalized nonlinear Schr\u00f6dinger",
+    "Raman susceptibility passivity sum rule energy dissipation h derivative bound",
+    "\"ZBLAN\" \"16.67\" \"20.23\"",
+    "Raman response silica passivity Hollenbeck Cantrell multiple vibrational modes analytical model DOI",
+    "\"passivity\" \"Raman\" \"response\" susceptibility fiber",
+    "\"Raman\" \"energy\" \"bound\" \"sech\" photon conserving",
+    "\"sum rules\" \"passive\" \"susceptibility\" optical response Herglotz",
+    "\"Raman\" \"arctan\" \"bound\" energy loss",
+    "\"Raman\" \"trigamma\" sech",
+    "\"Raman\" \"energy-squared\" bound",
+    "\"Raman\" \"passive response\" energy bound",
+    "\"Raman\" \"sech\" \"polygamma\"",
+    "\"Raman\" \"energy loss\" \"upper bound\" fiber",
+    "Raman self frequency shift hyperbolic secant exact full response saturation ultrashort pulses",
+    "Gordon \"Theory of the soliton self-frequency shift\" pdf 662 1986",
+    "\"Theory of the soliton self-frequency shift\" Gordon pdf",
+    "\"Raman\" \"sech\" \"trigamma\"",
+    "\"soliton\" \"Raman\" \"polygamma\"",
+    "\"Raman\" \"energy\" \"arctangent\" bound",
+    "\"Soliton self-frequency shift for pulses with a duration\" pdf",
+    "\"Soliton self-frequency shift\" \"molecular oscillations\" DOI",
+    "Herrmann Nazarkin 1994 2065 2067 pdf soliton",
+    "\"10.1364/OL.19.002065\" pdf"
+  ],
+  "scope": "Primary-source search and read-only PDF/HTML inspection; no numerical production"
+}

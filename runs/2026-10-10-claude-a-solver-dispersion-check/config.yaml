@@ -1,0 +1,68 @@
+# Configuration of run 2026-10-10-claude-a-solver-dispersion-check (all parameters; cases also in run_check.jl CASES)
+model:
+  equation: "scalar NLSE, Agrawal convention: dA/dz = -(i/2) beta2 A_TT + i gamma |A|^2 A"
+  raman: "NoRaman() (raman_fraction = 0)"
+  loss_gain: "none (alpha = 0, gain = 0)"
+  self_steepening: >-
+    The solver's nonlinear prefactor is i n2 (omega0 + Omega)/c, i.e. it always contains the
+    shock term with s = 1/(omega0 T0). It is suppressed by setting omega0 = 2*pi*193.4*1000 rad/ps
+    (s = 8.2e-7) and n2 = gamma c / (omega0 S). Diagnostic case b0_selfsteep uses the physical
+    omega0 = 2*pi*193.4 rad/ps (1550 nm, s = 8.2e-4) to show the size of the shock-term effect.
+  nonlinear_antialias_window: >-
+    The solver multiplies the nonlinear term by damped_freq_window(nt) (src/backend/fft_utils.jl), which
+    is 1 for negative detuning and rolls off over the top ~32% of the positive-detuning band
+    (|k| > 0.34 nt). It cannot be switched off through the API and was left as is.
+pulse:
+  shape: "A(0,T) = sqrt(P0) exp(-T^2/(2 T0^2)), unchirped, coherent state"
+  T0_ps: 1.0
+  P0_W: 500.0
+  gamma_per_W_m: 0.01
+  Phi: 5.0            # gamma P0 L
+fiber:
+  L_m: 1.0
+  overlap_S_per_m2: 1.0e10
+  n2_m2_per_W: "gamma * c / (omega0 * S); 2.4674e-22 for omega0 = 2*pi*193.4e3 rad/ps"
+  beta2_ps2_per_m: "x T0^2 / (Phi^2 L) with sign; x = Phi^2 L |beta2| / T0^2"
+grid:
+  window_ps: 16.0     # -8 .. 8 ps (centered grid includes T = 0)
+  nt: 512             # dt = 0.03125 ps; diagnostic cases *_nt400 use nt = 400 (dt = 0.04 ps)
+integrator:
+  forward: "solve_mmgnlse(A0, pars, dz) -> RK4IP, fixed step, Float64, CPU"
+  dz_m: 0.002         # 500 steps; *_dzhalf cases use 0.001 (1000 steps)
+  adjoint: "solve_adjoint(lambda, pars, dz; forward_solution=sol, adjoint_mode=:discrete_rk4ip), dz_adj = dz_forward, checkpoint_stride = :auto"
+cases:   # run: b0 p0.1 m0.1 p1 m1 m1_dzhalf b0_selfsteep. Not run (time budget): m0.1_nt400 b0_nt400 b0_dzhalf m0.1_dzhalf
+  b0:           {beta2: 0.0,     x: 0.0, nt: 512, dz: 0.002, role: main}
+  p0.1:         {beta2: +0.004,  x: 0.1, nt: 512, dz: 0.002, role: main}
+  m0.1:         {beta2: -0.004,  x: 0.1, nt: 512, dz: 0.002, role: main}
+  p1:           {beta2: +0.04,   x: 1.0, nt: 512, dz: 0.002, role: main}
+  m1:           {beta2: -0.04,   x: 1.0, nt: 512, dz: 0.002, role: main}
+  m1_dzhalf:    {beta2: -0.04,   x: 1.0, nt: 512, dz: 0.001, role: "dz-convergence check of m1"}
+  b0_dzhalf:    {beta2: 0.0,     x: 0.0, nt: 512, dz: 0.001, role: "dz-convergence check of b0 (only if time allowed)"}
+  m0.1_dzhalf:  {beta2: -0.004,  x: 0.1, nt: 512, dz: 0.001, role: "dz-convergence check of m0.1 (only if time allowed)"}
+  b0_selfsteep: {beta2: 0.0,     x: 0.0, nt: 512, dz: 0.002, omega0: "2*pi*193.4", role: "diagnostic, shock term on"}
+  m0.1_nt400:   {beta2: -0.004,  x: 0.1, nt: 400, dz: 0.002, role: "diagnostic, time-grid sensitivity"}
+  b0_nt400:     {beta2: 0.0,     x: 0.0, nt: 400, dz: 0.002, role: "diagnostic, time-grid sensitivity"}
+quadratures:
+  time_bins: "X_j = 2 Re(dA_t[j])/sqrt(norm), Y_j = 2 Im(dA_t[j])/sqrt(norm), norm = hbar omega0 / dt (same for all bins), so V_in = I"
+  S: "2N x 2N real, [X(L); Y(L)] = S [X(0); Y(0)]; row r from one discrete-adjoint solve with terminal cotangent lambda = fftshift(mu conj(fft(e_j))), mu = 1 (X) or i (Y); input row d = fft(ifftshift(c))/N, row = [Re d, Im d]"
+  V: "S S^T; lambda_min = smallest eigenvalue (also checked as smallest singular value of S, squared)"
+  spectral_amplitude: >-
+    output time window zero-padded to 4N samples (window centered), unitary DFT; kept bins |Abar_k|^2 >= 1e-6 max;
+    x_k = 2 Re(exp(-i psi_k) dA_k)/sqrt(norm), psi_k = arg Abar_k; padded samples carry vacuum, so
+    V_amp = G1 V G1^T + (I - G1 G1^T) with G1 = [Re C, -Im C], C_km = exp(-i psi_k) U_km;
+    lambda_gen = smallest eigenvalue of V_amp
+post_processing:
+  bandlimited.py: >-
+    lambda_min_band(wB): smallest eigenvalue of V compressed to output quadratures Re/Im of unitary
+    N-point DFT bins with |omega| <= wB, wB in {10,20,30,40,50,60,80,100} rad/ps (all 2N input vacuum modes kept).
+    Also lambda_gen recomputed with every output mode outside |omega| <= 60 rad/ps replaced by uncorrelated vacuum.
+  ideal_b0_compare.py: >-
+    beta2 = 0 only: exact time-local Kerr map on the same grid, [a'; b'] = R(phi_j) [[1,0],[2 phi_j,1]] [a; b],
+    phi_j = Phi |A0_j|^2 / max|A0|^2; same lambda_min, lambda_min_band and lambda_gen procedure.
+  make_summary.py: "merges <raw>/<case>.json, bandlimited_<case>.json, ideal_compare_<case>.json into summary.json"
+checks:
+  fd: "central finite differences of the noise-free solver, h = 1e-6 sqrt(P0), two random input directions per case, compared with S d"
+  symplectic: "max |S J S^T - J|, J = [0 I; -I 0]"
+  dz: "lambda_min and lambda_gen at dz and dz/2 (cases m1, m1_dzhalf; b0, b0_dzhalf)"
+seeds: "MersenneTwister(20261010) for the FD check directions; MersenneTwister(7) in smoke.jl"
+threads: "JULIA_NUM_THREADS=2, BLAS 2 threads, FFTW 1 thread; one Julia process"

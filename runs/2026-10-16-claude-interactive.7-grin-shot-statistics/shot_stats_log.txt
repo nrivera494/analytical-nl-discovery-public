@@ -1,0 +1,14 @@
+z=   1: med relvar excited  q1e10 2.89e-07  q1e6 2.90e-03  q1e4 2.31e-01  rin 1.99e-03  deph 0.472 | f0 relvar q1e4 8.10e-05 rin 2.80e-07 deph 7.05e-04 | f0 mean deph 0.602 | 1s
+z=   2: med relvar excited  q1e10 7.48e-08  q1e6 8.24e-04  q1e4 9.03e-02  rin 2.30e-03  deph 0.487 | f0 relvar q1e4 9.79e-05 rin 2.28e-08 deph 2.27e-03 | f0 mean deph 0.608 | 2s
+z=   5: med relvar excited  q1e10 1.58e-08  q1e6 1.41e-04  q1e4 1.36e-02  rin 1.30e-03  deph 0.699 | f0 relvar q1e4 2.21e-04 rin 4.12e-06 deph 6.58e-03 | f0 mean deph 0.627 | 4s
+z=  10: med relvar excited  q1e10 2.01e-08  q1e6 1.70e-04  q1e4 1.56e-02  rin 1.33e-03  deph 0.644 | f0 relvar q1e4 8.82e-05 rin 1.71e-05 deph 4.45e-03 | f0 mean deph 0.679 | 8s
+z=  20: med relvar excited  q1e10 1.68e-08  q1e6 1.61e-04  q1e4 1.53e-02  rin 1.89e-03  deph 0.752 | f0 relvar q1e4 3.36e-05 rin 2.20e-05 deph 3.11e-03 | f0 mean deph 0.723 | 16s
+z=  30: med relvar excited  q1e10 1.82e-08  q1e6 2.01e-04  q1e4 1.87e-02  rin 1.11e-02  deph 0.764 | f0 relvar q1e4 4.04e-05 rin 7.44e-06 deph 2.52e-03 | f0 mean deph 0.733 | 23s
+z=  50: med relvar excited  q1e10 4.54e-08  q1e6 4.55e-04  q1e4 4.39e-02  rin 2.00e-02  deph 0.833 | f0 relvar q1e4 5.10e-05 rin 5.29e-05 deph 2.73e-03 | f0 mean deph 0.740 | 45s
+z=  75: med relvar excited  q1e10 5.61e-08  q1e6 6.46e-04  q1e4 5.89e-02  rin 2.19e-02  deph 0.971 | f0 relvar q1e4 5.93e-05 rin 3.04e-05 deph 2.97e-03 | f0 mean deph 0.738 | 64s
+z= 100: med relvar excited  q1e10 3.82e-07  q1e6 3.57e-03  q1e4 2.33e-01  rin 2.82e-01  deph 0.789 | f0 relvar q1e4 5.94e-04 rin 5.28e-04 deph 2.06e-03 | f0 mean deph 0.743 | 81s
+z= 150: med relvar excited  q1e10 1.71e-05  q1e6 7.78e-02  q1e4 7.01e-01  rin 4.94e-01  deph 0.874 | f0 relvar q1e4 3.17e-03 rin 1.32e-03 deph 2.55e-03 | f0 mean deph 0.741 | 118s
+z= 200: med relvar excited  q1e10 2.27e-05  q1e6 4.39e-01  q1e4 7.52e-01  rin 6.57e-01  deph 0.858 | f0 relvar q1e4 1.74e-03 rin 1.38e-03 deph 2.61e-03 | f0 mean deph 0.736 | 155s
+z= 250: med relvar excited  q1e10 1.48e-03  q1e6 5.20e-01  q1e4 8.72e-01  rin 5.85e-01  deph 0.993 | f0 relvar q1e4 2.67e-03 rin 1.41e-03 deph 2.55e-03 | f0 mean deph 0.737 | 194s
+z= 300: med relvar excited  q1e10 5.64e-03  q1e6 6.77e-01  q1e4 8.91e-01  rin 7.18e-01  deph 0.843 | f0 relvar q1e4 2.76e-03 rin 1.75e-03 deph 2.38e-03 | f0 mean deph 0.742 | 232s
+Dirichlet reference {'g2_excited': 1.8666666666666667, 'I0_mean': np.float64(0.7392857142857143), 'I0_relvar': np.float64(0.0027087368822298454)} wall 232.0133011341095

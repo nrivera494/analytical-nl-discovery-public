@@ -1,0 +1,74 @@
+run_id: 2026-10-08-claude-b.5-solver-twomode-check
+date: 2026-10-08
+agent: claude-b.5
+model: claude-opus-5-5
+family: claude
+task: T-20261008-claude-b-01
+serves: "Independent-code (FastDifferentiableMMNLO) computation of the bandpassed all-mode photon-number Fano factor F in the two-mode incoherent cross-phase soliton model (LP01 = mode 1, LP02 = mode 2), for comparison with claude-b's numpy code (P-20261004-root-03, round 2). The numpy numbers were not looked at before summary.json was written."
+description: >-
+  Model (normalized soliton units): i a_z + a_tt/2 + (|a|^2+|b|^2) a = 0,
+  i b_z + i delta b_t + b_tt/2 + (|a|^2 + C22 |b|^2) b = 0, equal beta2, no beta3,
+  no Raman (NoRaman()), self-steepening suppressed (omega0 T0 = 1e6). Launch a =
+  sqrt(p1/Sigma) sech, b = sqrt(p2/Sigma) sech, p1 + p2 = 1, Sigma = p1^2 + 2 p1 p2 +
+  C22 p2^2. Readout N = sum over both modes and |k| <= kmax of the photon-unit
+  spectrum, Omega_k = k 2pi/(40 T0), time window 40 T0 (the solver's centered
+  frequency axis has a bin at Omega = 0; bins identified by rounding). F = Var(N)/<N>
+  for linearized vacuum noise of coherent inputs, Var(N) = sum |dN/dconj(B(0))|^2
+  from solve_adjoint(...; adjoint_mode=:discrete_rk4ip) on an RK4IP fixed-step
+  Float64 forward solution, exactly as in example_notebooks/squeezing_spectral_filter.ipynb.
+  Physical scaling: T0 = 1 ps, beta2 = -1 ps^2/m (L_D = 1 m), gamma = n2 omega0 S0/c
+  = 1 /W/m (P0 = 1 W), S0 = 1e10 m^-2, n2 = gamma c/(omega0 S0).
+  Two overlap tensors were run. (i) "exact tensor": S1111 = S0, S2222 = C22 S0,
+  S1122 = S1212 = S2211 = S2121 = S0/2, and the two coherent elements S1221 =
+  S2112 = 0, so that the solver's N_p = sum S[p,l,m,n] A_l A_m conj(A_n) is exactly
+  the incoherent XPM model (no Delta beta0 needed; kappa = 0); dz = 5e-4 L_D, Nt = 256.
+  These are the reported numbers. (ii) "specified tensor": all two-1/two-2
+  elements S0/2 as in the task, coherent terms suppressed by a mode-2 offset
+  kappa = Delta beta0 L_D = 1e3 and 2e3 (TaylorBeta row 1), dz = 0.1/kappa L_D
+  (2 kappa dz = 0.2); these deviate from (i) by O(1/kappa) and are reported as a
+  measurement of that deviation.
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_remote_check: "git -C solver ls-remote origin on 2026-10-08 lists b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa as refs/heads/main (agents' copy)"
+julia: "1.12.5, JULIA_NUM_THREADS=2, FFTW and BLAS threads 1 (set in run_twomode.jl)"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0.1 (host COECIS-G3FLW49YGQ); other agents' Julia jobs ran concurrently"
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-08-claude-b.5-solver-twomode-check/run_twomode.jl exact_main exact_smallzeta exact_selfsteep"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-08-claude-b.5-solver-twomode-check/run_twomode.jl fd_check soliton_check exact_conv sym_case1 sym_case2 sym_conv sym_case5 sym_case6 sym_case4"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-08-claude-b.5-solver-twomode-check/run_twomode.jl exact_kappa sym_osc sym_kscan_locked sym_kscan_locked_long"
+  - "~/agent-work/venv/bin/python runs/2026-10-08-claude-b.5-solver-twomode-check/summarize.py"
+files:
+  library: twomode_lib.jl (problem setup, launch, bandpass, forward, discrete-adjoint Fano factor)
+  driver: run_twomode.jl (stages; appends one JSON line per (point, kmax) to the raw results.jsonl)
+  summarizer: summarize.py (results.jsonl -> summary.json)
+  summary: summary.json (every reported number plus all_points, the full list of computed points)
+independence: "No numpy number was opened before summary.json was written (sha256 53f3af39515f5132915e34e1b5910df5c9784f780f7cb39fcc28c597227bfa06 at 00:13 EDT, results.jsonl sha256 1be0ed47da583d03b7c8d1e60635c0da3b981e6701c427b7920355c2a60da0a5). Only afterwards were the round-1 numpy values in runs/2026-10-04-claude-b-manakov-deviation-edge-scan looked at, for the report to claude-b; nothing here was changed after that."
+seeds: none (deterministic linearized calculation; the finite-difference check uses a fixed LCG direction)
+wall_time_s: "about 4000 in three Julia processes (23:05-23:10, 23:10-00:04, 00:04-00:12 EDT). Forward RK4IP about 0.12 ms per step (Nt = 256, 2 modes); one discrete adjoint about 5 forward solves. Exact tensor, zeta = 2: 0.5 s forward + 2.8 s per kmax; specified tensor at kappa = 1e3: 2.5 s + 13 s per kmax, cost proportional to kappa."
+convergence: >-
+  Exact tensor (the reported numbers), maximum change of F over kmax = 3..7 at four
+  points (case 2 p2 = 0 and 0.3, case 4 p2 = 0.3, case 5 delta = 0.2): dz 5e-4 -> 2.5e-4
+  L_D: <= 1.5e-12; dz -> 1e-3: <= 6.7e-13; Nt 256 -> 512 at fixed 40 T0 window: <= 2.5e-12;
+  omega0 T0 1e6 -> 1e7: <= 1.7e-12; Delta beta0 L_D 0 -> 1e3 -> 2e3: <= 6.5e-14. Change of
+  dF = F(0.3) - F(0) (case 2) under every variant: <= 4e-14. Self-steepening scan (kmax = 5):
+  F(omega0 T0) - F(1e7) = 5.45e-7, 8.0e-9, 8.1e-11 at omega0 T0 = 1215 (1550 nm), 1e4, 1e5
+  (case 2, p2 = 0.3), i.e. 0.80 s^2 with s = 1/(omega0 T0); 5.3e-7, 7.8e-9, 7.8e-11 for case 5,
+  delta = 0.2. Adjoint versus central finite differences of the forward map (3 directions
+  each at 3 points, including the specified tensor): |relative difference| <= 2.2e-9.
+  Scalar soliton (p2 = 0), zeta 0 -> 5: max |P_peak/P0 - 1| = 3.7e-10, max |w_rms/w_rms(0) - 1|
+  = 4.8e-12, w_rms(0) = pi/sqrt(12) T0 to 12 digits. Specified tensor (case 2, p2 = 0.3,
+  kmax = 5): dz halved: -2.3e-10 (kappa = 1e3), -1.0e-10 (kappa = 2e3); Nt doubled: +1.1e-12;
+  kappa doubled 1e3 -> 2e3: -7.37e-5. Its deviation from the exact tensor is
+  (0.0884 + 0.030 cos(2 kappa zeta + phi0))/kappa (four end phases at kappa ~ 1e3); with the
+  end phase locked (kappa = m pi/2) kappa (F - F_exact) = 0.09537, 0.09533, 0.09531, 0.09530,
+  0.09530 for kappa = 1.0e3 ... 1.6e4 (local exponents -1.0005 ... -1.00007), and the pairwise
+  1/kappa extrapolations reach F_exact to -3.6e-8, -9.0e-9, -2.3e-9, -5.5e-10.
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-08-claude-b.5-solver-twomode-check/ (results.jsonl, log_batch*.txt, npz/<tag>.npz with Omega T0, bin index k and the final photon-unit spectrum of each point)"
+caveats:
+  - "The reported F values use the exact tensor (S1221 = S2112 = 0, kappa = 0), not the specified symmetric tensor with Delta beta0. The specified tensor converges to them as 1/kappa (shown above), but at kappa = 1e3 and 2e3 it differs by up to 1.1e-4 and 4.0e-5 in F; relative to |dF| that is 0.04-1.4 (kappa = 1e3) and 0.014-0.39 (kappa = 2e3) in case 2, up to 6.4 and 1.7 in case 6 (p2 = 0.1), 0.001-0.10 in case 4 and 0.003-0.022 in case 5; so the task's acceptance test 'doubling Delta beta0 does not change the numbers at 7 digits' fails for any affordable kappa (the step must resolve 2 kappa, cost proportional to kappa). Specified-tensor numbers for all cases at kappa = 1e3 and 2e3 are in summary.json; their naive Richardson extrapolation 2F(2kappa) - F(kappa) is not reliable because the 1/kappa coefficient depends on the end phase 2 kappa zeta mod 2pi."
+  - "F is the linearized (first-order) vacuum-noise Fano factor. At p2 = 0 the mode-2 vacuum contributes exactly zero to Var(N) in this approximation."
+  - "Self-steepening cannot be switched off in MMGNLSEParameters: the nonlinear prefactor is always n2 (omega0 + Omega)/c. It was suppressed with omega0 T0 = 1e6 (a numerical device, not a physical carrier); the residual effect on F is 0.8 s^2 < 1e-12, and the photon weights 1/(hbar(omega0+Omega)) are uniform to 2e-5."
+  - "The time window is fixed at 40 T0 by the required bin spacing, so no window-size convergence test was made (changing the window would move the band edges). The launched sech is 4e-9 of its peak amplitude at the window edge. The soliton is centred on the grid point t = 0."
+  - "The solver multiplies the nonlinear term by damped_freq_window(Nt), which tapers only positive detunings above about 0.4 of Nyquist (Omega T0 > 8.3 at Nt = 256; 0.9995 at 0.8 Nyquist, 0.04 at Nyquist) and leaves negative detunings untouched. Irrelevant here (Nt = 512 changes F by <= 2.5e-12) but asymmetric."
+  - "dF for cases 5 and 6 uses the case-2 p2 = 0 point as F(0); with b = 0 the result does not depend on C22 or delta (the C22 = 1 and C22 = 0.5 p2 = 0 points agree to all digits)."
+  - "Other agents' Julia jobs ran on the same machine; timings are indicative only."

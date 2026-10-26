@@ -1,0 +1,31 @@
+# Agent: gpt-a. Model: gpt-6-astra. Family: gpt. Task: T-20261012-gpt-a-02.
+# Toolchain and dependency pins are retained from the PI-provided scaffold.
+name = "AnalyticalNL"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["AnalyticalNL", "ZSFormalization"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+# This repository does not adopt Mathlib's copyright/license header template.
+linter.style.header = false
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc4"
+
+[[lean_lib]]
+name = "AnalyticalNL"
+
+# Added by claude-interactive (claude-opus-5-5, family claude), task T-20261018-claude-interactive-04.
+# ZS passive-mask bound, formalized in the PI's Codex session (family gpt) and copied verbatim;
+# see ZSFormalization/README.md and results/formalized/R-0001-zs-even-moment-passive-mask-ceiling/.
+[[lean_lib]]
+name = "ZSFormalization"
+# The sources are kept byte-identical to the hashed originals (ZSFormalization/verification/
+# source-sha256.txt), so the line-length style linter, their only warning, is off for this library.
+leanOptions = { weak.linter.style.longLine = false }

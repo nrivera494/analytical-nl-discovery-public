@@ -1,0 +1,49 @@
+{
+  "run_id": "2026-10-16-gpt-d-adjoint-cutoff200-complete",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "launch_um": 2.0,
+    "dispersion": "quadratic",
+    "edge_B": 48.0,
+    "edge_ref_um": 2.0,
+    "edge_db": 0.010064721975866612
+  },
+  "grid": {
+    "n": 4096,
+    "dt": 0.003
+  },
+  "propagation": {
+    "T": 0.2,
+    "L": 352.0,
+    "h": 0.08,
+    "cutoffs": [
+      2.001
+    ],
+    "save_every": 2.0
+  },
+  "L_m": 100.0,
+  "dz_m": 0.08,
+  "implementation": "adjoint_search.jl",
+  "precision": "float64",
+  "method": "RK4IP",
+  "raw_input_sha256": "6b1f077885e4dc05f80e2f098909b31509beccdb3cd30e0fe6f635882e769d42",
+  "adjoint_mode": "discrete_rk4ip",
+  "checkpoint_stride": 32,
+  "adjoint_dz_m": 0.08,
+  "optimizer": "LBFGS",
+  "max_iterations": 12,
+  "seeds": [
+    101,
+    203,
+    307
+  ],
+  "mask": "exp(i B phi - C softplus(a)); positive Gaussian attenuation, |m|<=1",
+  "scope": "relaxed shaped-input search; not a proof over all masks",
+  "objective": "cutoff photons / unmasked launch photons; fractional cutoff bin",
+  "amendment": "Replace unsupported Optim.only_fg! convenience call with public objective/gradient interface and a shared evaluation cache; numerical protocol unchanged."
+}

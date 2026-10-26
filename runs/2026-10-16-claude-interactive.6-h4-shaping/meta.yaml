@@ -1,0 +1,28 @@
+run_id: 2026-10-16-claude-interactive.6-h4-shaping
+agent: claude-interactive.6
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-04
+serves: P-20261016-claude-interactive-02 (hypothesis H4, frozen in commit 4f0f1ff)
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa   # agents' copy; forward RK4IP and solve_adjoint(...; adjoint_mode=:discrete_rk4ip)
+solver_dirty: false
+julia_version: 1.12.5
+hardware: Apple M5 laptop (shared), JULIA_NUM_THREADS=2, one optimizer start at a time (about 0.85 GB)
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-claude-interactive.6-h4-shaping/ (one folder per start: log.txt, history.txt, best_phase.txt, result.txt, numpy_eval.json; machine PI MacBook)
+commands:
+  - julia --project=solver h4_opt.jl <case_dir> <out_dir> 1.75 phase tl 0 600 0.0005 fdcheck      # adjoint vs finite differences
+  - julia --project=solver h4_opt.jl <case_dir> <out_dir> <lambda_c> <phase|passive> <tl|rand1> 60 540 0.0005
+  - ~/agent-work/venv/bin/python h4_eval_numpy.py <out_dir> <lambda_c> 0.25                       # independent re-evaluation
+  - ~/agent-work/venv/bin/python h4_chirp_scan.py                                                   # GDD and TOD scans, summary_chirp_scan.json
+  - ~/agent-work/venv/bin/python h4_collect.py                                                      # summary.json from the raw folders
+  - ~/agent-work/venv/bin/python h4_case_n2.py                                                      # N = 2 case and TL pilot
+config:
+  laser: "TL sech, N = 3, T0 = 56.7 fs (4.25 nJ) at 1.55 um; spectral amplitude |Q| fixed (phase masks) or |m| <= 1 (passive). Extension: N = 2, same T0 (1.89 nJ), case written by h4_case_n2.py (TL pilot in summary_case_n2_pilot.json), lambda_c = 1.62 um"
+  fibre: "S28, constant Aeff = 64.5 um^2, n2 = 2.6e-20 m^2/W, Raman fR 0.18 tau1 12.2 fs tau2 32 fs, lossless, L = 1 m"
+  grid: {nt: 8192, dt_fs: 3.0, centre_um: 1.75, frame: Julia default (group velocity at the grid centre)}
+  objective: "J = photons at lambda > lambda_c at L divided by the photon number of the unmasked laser"
+  parametrization: "one phase pixel per frequency bin where |Q| > 1e-3 max|Q| (668 pixels); passive amplitude m in [0, 1] by projected Adam (lr 0.05), starting at m = 1; an earlier m = sin^2(s) parametrization had zero gradient at m = 1 and was replaced before the passive start ran"
+  optimizer: "Adam ascent, lr 0.08, betas (0.9, 0.999), wall-clock budget 540 s per start (about 12 steps), starts: TL (phi = 0), rand1 (smooth random polynomial phase, seed 11), tod (TOD = -60000 fs^3, the best scan point), and file: (continuation from a saved mask, Adam state reset)"
+  step: "dz = 0.5 mm in the optimizer (forward and discrete adjoint equal); masks re-evaluated with the numpy code at dz = 0.25 mm"
+notes: "rand1 phase = smooth random polynomial scaled on the |Q| > 1e-3 band, so it is large mainly in the low-energy wings: a weak global test. Passive best mask: amplitude reduced only in the far wings (launched photon fraction 0.9999996). Passive gradient (dJ/dm = 2 Re[conj(lambda0) Q exp(i phi)]) not separately checked against finite differences."
+gradient_check: "finite differences along two random directions agree with the adjoint to 0.2% and 0.03% (fdcheck_phase_1.75/log.txt)"

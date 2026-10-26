@@ -1,0 +1,56 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+  "rows": [
+    {
+      "h": 0.01,
+      "epsilon": 1e-05,
+      "jacobian_max_error": 6.323458703242149e-09,
+      "field_error": 1.921779983483104e-15,
+      "quad_error_dB": 1.7908149289956923e-09,
+      "count_error_dB": -2.6928046123840723e-08
+    },
+    {
+      "h": 0.01,
+      "epsilon": 2e-05,
+      "jacobian_max_error": 2.4675855745399077e-08,
+      "field_error": 1.921779983483104e-15,
+      "quad_error_dB": 7.287837324942328e-10,
+      "count_error_dB": -1.0989202946768537e-07
+    },
+    {
+      "h": 0.005,
+      "epsilon": 1e-05,
+      "jacobian_max_error": 2.6138994490200805e-08,
+      "field_error": 2.7115122765307537e-09,
+      "quad_error_dB": -2.6949600771506822e-08,
+      "count_error_dB": -3.997977875085284e-08
+    },
+    {
+      "h": 0.005,
+      "epsilon": 2e-05,
+      "jacobian_max_error": 3.4786531253119695e-08,
+      "field_error": 2.7115122765307537e-09,
+      "quad_error_dB": -2.6002770538898187e-08,
+      "count_error_dB": -1.2164974960244165e-07
+    }
+  ],
+  "single_mode": [
+    {
+      "h": 0.01,
+      "field_error": 8.272006072113877e-09,
+      "lambda_solver": 0.33424989057812,
+      "lambda_classical_map": 0.33424989780803205,
+      "variance_error": -7.2299120579266685e-09
+    },
+    {
+      "h": 0.005,
+      "field_error": 5.174832935983273e-10,
+      "lambda_solver": 0.3342498973555916,
+      "lambda_classical_map": 0.33424989780803205,
+      "variance_error": -4.5244047397474674e-10
+    }
+  ]
+}

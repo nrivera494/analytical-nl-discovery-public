@@ -1,0 +1,7 @@
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+claim: C-20261016-claude-interactive.6-01
+purpose: Independent construction, frozen predictions, algebra and material sensitivity
+seed: 161016
+units: {time: ps, length: m, wavelength: um, power: W, energy: pJ}

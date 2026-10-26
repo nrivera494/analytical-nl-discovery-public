@@ -1,0 +1,39 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "name": "poisson",
+      "mean": 10.000000000000002,
+      "number_variance": 9.999999999999986,
+      "quadrature_variance": 21.000000000000004,
+      "minimum_mixed_poisson_logconvex_residual": -8.049116928532385e-16,
+      "violates_positive_P_necessary_condition": false
+    },
+    {
+      "name": "thermal",
+      "mean": 8.999999999178625,
+      "number_variance": 89.99999979383392,
+      "quadrature_variance": 18.99999999835725,
+      "minimum_mixed_poisson_logconvex_residual": 1.6321861969006556e-25,
+      "violates_positive_P_necessary_condition": false
+    },
+    {
+      "name": "number_mixture",
+      "mean": 5.0,
+      "number_variance": 25.0,
+      "quadrature_variance": 11.0,
+      "minimum_mixed_poisson_logconvex_residual": -2.5,
+      "violates_positive_P_necessary_condition": true
+    },
+    {
+      "name": "smooth_superpoisson",
+      "mean": 15.500000000000004,
+      "number_variance": 216.74999999999994,
+      "quadrature_variance": 32.00000000000001,
+      "minimum_mixed_poisson_logconvex_residual": -0.004762619283772224,
+      "violates_positive_P_necessary_condition": true
+    }
+  ]
+}

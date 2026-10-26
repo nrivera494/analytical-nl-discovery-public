@@ -1,0 +1,10 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+script = "scripts/p002_material.jl"
+wavelength_nm = 1550.0
+core_radius_um = 31.25
+NA = 0.275
+mode_count = 4
+grid_size = 129
+beta_order = 5

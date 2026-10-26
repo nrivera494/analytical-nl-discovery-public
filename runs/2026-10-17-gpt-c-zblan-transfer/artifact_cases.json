@@ -1,0 +1,80 @@
+[
+  {
+    "id": "window_reference_N6_r1.2",
+    "N": 6,
+    "T0_fs": 343.1677704880545,
+    "n": 32768,
+    "width": 120.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  },
+  {
+    "id": "window_reference_N6_r1.5",
+    "N": 6,
+    "T0_fs": 428.95971311006815,
+    "n": 32768,
+    "width": 120.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  },
+  {
+    "id": "window_reference_N6_r2",
+    "N": 6,
+    "T0_fs": 571.9462841467575,
+    "n": 32768,
+    "width": 120.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true
+  },
+  {
+    "id": "control_reference_N6_doublewindow",
+    "N": 6,
+    "T0_fs": 571.9462841467575,
+    "n": 65536,
+    "width": 240.0,
+    "tol": 2e-09,
+    "raman": "zblan",
+    "shape": "sech",
+    "dispersion": "constant",
+    "shock": false,
+    "loss_db_km": 0,
+    "zN": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "heldout": true,
+    "control_reference": "window_reference_N6_r2",
+    "grid_exception": "Temporal window convergence after observed edge failure; fixed dt at doubled window."
+  }
+]

@@ -1,0 +1,16 @@
+scripts: [cx_common.py, explore.py, search.py, verify_best.py, cubic_scan.py, mild_asym.py]
+libraries: ["../2026-10-18-claude-interactive.9-zs-solver-validation/zs.py", "../2026-10-18-claude-interactive.9-mask-adversary/masks.py"]
+commands:
+  - "OPENBLAS_NUM_THREADS=1 python explore.py"
+  - "OPENBLAS_NUM_THREADS=1 python search.py phase-cheb sharp"
+  - "OPENBLAS_NUM_THREADS=1 python search.py passive-cheb passive-bins"
+  - "OPENBLAS_NUM_THREADS=1 python verify_best.py"
+  - "OPENBLAS_NUM_THREADS=1 python cubic_scan.py"
+  - "OPENBLAS_NUM_THREADS=1 python mild_asym.py   # C-a-01 held-out spectrum sech(pi k/2)(1 + tanh(k)/2), A = 2, 4; seed 11; output mild_asym_summary.json"
+source: "S(k) = pi cos(1) e^k sech(pi k/2), q(t) = (1/2pi) int S e^{ikt} dk"
+search_grid: {n: 384, T: 64.0, basis_centre_kc: 8.0, basis_half_width_K: 13.0}
+seed: 7      # numpy default_rng in search.py, consumed in family order
+optimiser: {method: L-BFGS-B, maxiter: 400, full_spectrum_check_every: 50}
+families: "phase-cheb (J = 24, 4 starts), passive-cheb (J = 24, 4 starts), sharp (6 + 6 logistic steps, eps = 0.05, 4 starts), passive-bins (per-bin amplitude and phase on k in [-5, 18.8], 2 starts)"
+verification: "BO on the line, T = 96 (smooth) or 64 (per-bin), cells T/4096, T/8192, T/16384, Romberg; FC full eigensolver at (1024, 128) or (768, 64)"
+note: "explore.py and search.py ran before the S_src overflow fix in cx_common.py (only affects |k| > ~700, never reached on their grids); verify_best.py and cubic_scan.py ran after it"

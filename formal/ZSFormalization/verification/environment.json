@@ -1,0 +1,24 @@
+{
+  "lean_version": "Lean (version 4.35.0-rc4, arm64-apple-darwin24.6.0, commit c29b6dda4f7c20e3eeaa717c4e565663c5cfa364, Release)",
+  "toolchain": "leanprover/lean4:v4.35.0-rc4",
+  "dependency_revisions_verified_against_checkouts": {
+    "plausible": "aef59637faa9e85fa2486acaaf906ce3f572af7c",
+    "LeanSearchClient": "234d9e074fbd6e911b920baf32db5291c3125be0",
+    "importGraph": "579f558774c4ac6840e715ba60dabf3030619349",
+    "proofwidgets": "d5ad4a0b79fa7f9818fe1380d05a3f6143823c09",
+    "aesop": "04879b1e1de744d5c9777c8cf63fa55a8f652e5e",
+    "Qq": "e7c4cdd2f1bf9df361ef7f621b4d6867012ab65e",
+    "batteries": "b71aaf60877e673fdb921f06f20987d12ee8a290",
+    "Cli": "82c11b9717083154aefc5fe8d4cba4bbf046298f",
+    "mathlib": "1f414401f69059aa7eead47b53ee40bd38455eeb"
+  },
+  "build_exit_code": 0,
+  "audit_exit_code": 0,
+  "audited_theorem_count": 32,
+  "axioms_of_each_audited_theorem": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "project_lean_file_count": 15
+}

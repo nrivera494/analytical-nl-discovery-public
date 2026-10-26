@@ -1,0 +1,2 @@
+TL {'tau_soliton': 27.548828125, 'band': 0.15950996276379206, 'band_wz_2wz': 0.003458007043894595, 'band_above_2wz': 0.1560519557198975, 'frac_band_near_soliton': 0.02080740255703998, 'soliton_peak_w': -3.231352443692358, 'peak_power': 1.8450113499754879}
+phase {'tau_soliton': 30.283203125, 'band': 0.2240693915790927, 'band_wz_2wz': 0.05284244604562622, 'band_above_2wz': 0.1712269455334665, 'frac_band_near_soliton': 0.014125922555891037, 'soliton_peak_w': -3.994310659564165, 'peak_power': 1.3753457011573902}

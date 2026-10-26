@@ -1,0 +1,2 @@
+{"T0_fs": 1000.0, "T_K": 0.0, "chi": 0.392699, "Phi": 10.0, "split": "A", "lam_gen_insensitive": 0.01701, "binary_insensitive": 0.661527, "sigma_plus_peak_in": 0.853553, "sigma_plus_peak_out": 0.856203, "wall_s": 83.5}
+{"T0_fs": 1000.0, "T_K": 300.0, "chi": 0.392699, "Phi": 10.0, "split": "A", "lam_gen_insensitive": 0.058039, "binary_insensitive": 0.683457, "sigma_plus_peak_in": 0.853553, "sigma_plus_peak_out": 0.856203, "wall_s": 80.4}

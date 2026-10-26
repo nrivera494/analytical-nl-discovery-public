@@ -1,0 +1,6 @@
+[
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"bw_N4.5_T220","N":4.5,"T0_fs":220,"n":16384,"width":160,"tol":2e-8,"zN":[2.5,3,4]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"bw_N4.5_T260","N":4.5,"T0_fs":260,"n":16384,"width":160,"tol":2e-8,"zN":[2.5,3,4]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"conv_fine_N16_T1594","N":16,"T0_fs":1594,"n":131072,"width":160,"tol":2e-8,"zN":[1.25,1.5,1.75]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"conv_fine_N16_T2156","N":16,"T0_fs":2156,"n":131072,"width":160,"tol":2e-8,"zN":[1.25,1.5,1.75]}
+]

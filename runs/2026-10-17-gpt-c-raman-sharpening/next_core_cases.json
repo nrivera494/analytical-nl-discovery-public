@@ -1,0 +1,1462 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N9_T605.210",
+    "N": 9,
+    "T0_fs": 605.21,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N9_T671.635",
+    "N": 9,
+    "T0_fs": 671.635,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N9_T738.061",
+    "N": 9,
+    "T0_fs": 738.061,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N9_T804.486",
+    "N": 9,
+    "T0_fs": 804.486,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N9_T870.912",
+    "N": 9,
+    "T0_fs": 870.912,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N11_T837.702",
+    "N": 11,
+    "T0_fs": 837.702,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.25,
+      1.5,
+      1.75
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N11_T929.644",
+    "N": 11,
+    "T0_fs": 929.644,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 95.16933363739238,
+    "zN": [
+      1.25,
+      1.5,
+      1.75
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N11_T1021.587",
+    "N": 11,
+    "T0_fs": 1021.587,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 86.60407777311184,
+    "zN": [
+      1.25,
+      1.5,
+      1.75
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N11_T1113.530",
+    "N": 11,
+    "T0_fs": 1113.53,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 79.45327023070776,
+    "zN": [
+      1.25,
+      1.5,
+      1.75
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N11_T1205.473",
+    "N": 11,
+    "T0_fs": 1205.473,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 73.39326554804629,
+    "zN": [
+      1.25,
+      1.5,
+      1.75
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N13_T1098.048",
+    "N": 13,
+    "T0_fs": 1098.048,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 70,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N13_T1218.566",
+    "N": 13,
+    "T0_fs": 1218.566,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 70,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N13_T1339.083",
+    "N": 13,
+    "T0_fs": 1339.083,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 66.07028839885206,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N13_T1459.601",
+    "N": 13,
+    "T0_fs": 1459.601,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 60.61492147511546,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N13_T1580.118",
+    "N": 13,
+    "T0_fs": 1580.118,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 55.991767703424685,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N15_T1384.526",
+    "N": 15,
+    "T0_fs": 1384.526,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 63.90172521137198,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N15_T1536.486",
+    "N": 15,
+    "T0_fs": 1536.486,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 57.58178076467993,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N15_T1688.446",
+    "N": 15,
+    "T0_fs": 1688.446,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 52.399425270337346,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N15_T1840.406",
+    "N": 15,
+    "T0_fs": 1840.406,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 48.07287087740423,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N15_T1992.366",
+    "N": 15,
+    "T0_fs": 1992.366,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 44.406298842682524,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "heldout"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3_T108.000_smf",
+    "N": 3,
+    "T0_fs": 108.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 8192,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3_T121.500_smf",
+    "N": 3,
+    "T0_fs": 121.5,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 8192,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3_T135.000_smf",
+    "N": 3,
+    "T0_fs": 135.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 8192,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3_T148.500_smf",
+    "N": 3,
+    "T0_fs": 148.5,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3_T162.000_smf",
+    "N": 3,
+    "T0_fs": 162.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4_T168.000_smf",
+    "N": 4,
+    "T0_fs": 168.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4_T189.000_smf",
+    "N": 4,
+    "T0_fs": 189.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4_T210.000_smf",
+    "N": 4,
+    "T0_fs": 210.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4_T231.000_smf",
+    "N": 4,
+    "T0_fs": 231.00000000000003,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4_T252.000_smf",
+    "N": 4,
+    "T0_fs": 252.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6_T300.000_smf",
+    "N": 6,
+    "T0_fs": 300.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6_T337.500_smf",
+    "N": 6,
+    "T0_fs": 337.5,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6_T375.000_smf",
+    "N": 6,
+    "T0_fs": 375.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6_T412.500_smf",
+    "N": 6,
+    "T0_fs": 412.50000000000006,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6_T450.000_smf",
+    "N": 6,
+    "T0_fs": 450.0,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "physical",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3.8148_T150.000_E3nJ_L2m",
+    "N": 3.814803190353524,
+    "T0_fs": 150,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      6.815554748865181
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N3.93991_T160.000_E3nJ_L2m",
+    "N": 3.9399117934128323,
+    "T0_fs": 160,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      6.186686727543684
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4.12046_T175.000_E3nJ_L2m",
+    "N": 4.120458382023372,
+    "T0_fs": 175,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      5.408552209371128
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4.40496_T200.000_E3nJ_L2m",
+    "N": 4.4049552977121005,
+    "T0_fs": 200,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4.426832665050687
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N4.92489_T250.000_E3nJ_L2m",
+    "N": 4.92488974176604,
+    "T0_fs": 250,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3.167583604502366
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N5.39495_T300.000_E3nJ_L2m",
+    "N": 5.394946409582105,
+    "T0_fs": 300,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.4096624902353727
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6.22955_T400.000_E3nJ_L2m",
+    "N": 6.229547523671667,
+    "T0_fs": 400,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 16384,
+    "width": 100,
+    "zN": [
+      1.5651216983177285
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N6.96485_T500.000_E3nJ_L2m",
+    "N": 6.964845865997664,
+    "T0_fs": 500,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.1199099233594751
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "constrained",
+    "dispersion": "measured",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "constraint": {
+      "E_launch_nJ": 3,
+      "L_m": 2,
+      "Pmax_W": 10000,
+      "T0_interval_fs": [
+        150,
+        500
+      ]
+    }
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_baseline",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_fine",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "fine check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_wide",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "wide check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_tight",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 1.25e-10,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "tight check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_baseline",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_fine",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "fine check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_wide",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 200,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "wide check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N8_T620.000_tight",
+    "N": 8,
+    "T0_fs": 620,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 1.25e-10,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "tight check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_baseline",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 45,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_fine",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 45,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "fine check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_wide",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 65536,
+    "width": 90,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "wide check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N16_T1875.000_tight",
+    "N": 16,
+    "T0_fs": 1875,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 45,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 1.25e-10,
+    "zs_points": 2048,
+    "split": "control",
+    "convergence_justification": "tight check of production peak; larger grid used only as a convergence control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step0.0004",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0004
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step0.0002",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0002
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step0.0001",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0001
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_step5e-05",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 5e-05
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelanalytic_n8192",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 8192,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n8192",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 8192,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_sampling": "sampled_normalized"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelanalytic_n16384",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n16384",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_sampling": "sampled_normalized"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelanalytic_n32768",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T200.000_kernelsampled_normalized_n32768",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_sampling": "sampled_normalized"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_sech_N4_T400.000_times2",
+    "N": 4,
+    "T0_fs": 400,
+    "raman": "bw",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "raman_scale": 2.0
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "library_matched_gaussian_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "raman": "bw",
+    "shape": "gaussian",
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "fixed_step": 0.0001,
+    "shock": true,
+    "solver_filter": true,
+    "raman_sampling": "sampled_raw",
+    "convergence_justification": "Matched sampled response, shock and library filter; compares Gaussian field against agents solver."
+  }
+]

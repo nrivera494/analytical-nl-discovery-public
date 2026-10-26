@@ -1,0 +1,3 @@
+gradcheck N3_T0100_M16 coef 2: adjoint 8.939085e-04  finite-diff 8.939085e-04  rel.err 5.80e-09
+gradcheck N3_T0100_M16 coef 3: adjoint -8.749528e-04  finite-diff -8.749528e-04  rel.err 6.15e-09
+N3_T0100_M16 TL windowed fraction J_TL = 0.732208

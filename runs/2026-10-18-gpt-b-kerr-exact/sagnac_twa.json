@@ -1,0 +1,583 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 3,
+      "tracking_fixed": 0.02634196306885601,
+      "optimized": 0.026341963001457937
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 30,
+      "tracking_fixed": 0.00043956321642260615,
+      "optimized": 0.0004395632162985414
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 60,
+      "tracking_fixed": 0.002657021283218049,
+      "optimized": 0.0026570212777462902
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 3,
+      "tracking_fixed": 0.026334068344591167,
+      "optimized": 0.02633406465788588
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 30,
+      "tracking_fixed": 0.0004403118359827754,
+      "optimized": 0.00044030856369034813
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 60,
+      "tracking_fixed": 0.0026688659597239217,
+      "optimized": 0.0026688026671271782
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 3,
+      "tracking_fixed": 0.02634022035052899,
+      "optimized": 0.0263402198182455
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 30,
+      "tracking_fixed": 0.00043962808036019263,
+      "optimized": 0.0004396279088444034
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 60,
+      "tracking_fixed": 0.002658092930519082,
+      "optimized": 0.0026580892826741287
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 3,
+      "tracking_fixed": 0.026336317004942975,
+      "optimized": 0.026336316997772127
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 30,
+      "tracking_fixed": 0.000439913282956689,
+      "optimized": 0.00043991294762956996
+    },
+    {
+      "kind": "none",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 60,
+      "tracking_fixed": 0.0026609800315106186,
+      "optimized": 0.0026609750534438855
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 3,
+      "tracking_fixed": 0.02633384390454147,
+      "optimized": 0.02633384378382631
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 30,
+      "tracking_fixed": 0.0004400100933913841,
+      "optimized": 0.00044001008082047765
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 60,
+      "tracking_fixed": 0.0026637575428017975,
+      "optimized": 0.0026637574378286376
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 3,
+      "tracking_fixed": 0.026334364024950825,
+      "optimized": 0.026334363913860234
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 30,
+      "tracking_fixed": 0.00043998812724141195,
+      "optimized": 0.0004399881232153363
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 60,
+      "tracking_fixed": 0.002663824946965497,
+      "optimized": 0.002663824812182724
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 3,
+      "tracking_fixed": 0.02633365304071392,
+      "optimized": 0.026333653000696074
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 30,
+      "tracking_fixed": 0.0004397191601577865,
+      "optimized": 0.00043971915743733783
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 60,
+      "tracking_fixed": 0.0026595328949227783,
+      "optimized": 0.0026595328783202295
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 3,
+      "tracking_fixed": 0.026333424394629396,
+      "optimized": 0.026333424388256976
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 30,
+      "tracking_fixed": 0.0004399957480655732,
+      "optimized": 0.00043999573252037383
+    },
+    {
+      "kind": "none",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 60,
+      "tracking_fixed": 0.0026635705423727475,
+      "optimized": 0.0026635703322165937
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 3,
+      "tracking_fixed": 0.02881716102758026,
+      "optimized": 0.028810838915301885
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 30,
+      "tracking_fixed": 0.0030482722904336098,
+      "optimized": 0.003041311891254532
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 60,
+      "tracking_fixed": 0.005279640366389263,
+      "optimized": 0.005272690845541421
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 3,
+      "tracking_fixed": 0.028827940789694886,
+      "optimized": 0.02882162945993804
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 30,
+      "tracking_fixed": 0.003053083230030545,
+      "optimized": 0.003046777961408832
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 60,
+      "tracking_fixed": 0.0052987565384693056,
+      "optimized": 0.005293366479809224
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 3,
+      "tracking_fixed": 0.028746176999371757,
+      "optimized": 0.02874045559777041
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 30,
+      "tracking_fixed": 0.0030346829131299357,
+      "optimized": 0.003028223294699909
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 60,
+      "tracking_fixed": 0.005270618724722664,
+      "optimized": 0.0052644003351935715
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 3,
+      "tracking_fixed": 0.028825010513545933,
+      "optimized": 0.02881888616208056
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 30,
+      "tracking_fixed": 0.003064233953412215,
+      "optimized": 0.003057515100190103
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 60,
+      "tracking_fixed": 0.005301713460374707,
+      "optimized": 0.005295273154182843
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 3,
+      "tracking_fixed": 0.028741626059237687,
+      "optimized": 0.028735817390085197
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 30,
+      "tracking_fixed": 0.0030382683505950016,
+      "optimized": 0.0030315583613199906
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 60,
+      "tracking_fixed": 0.005280875990634138,
+      "optimized": 0.00527412831040622
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 3,
+      "tracking_fixed": 0.028739809400510484,
+      "optimized": 0.02873395880204761
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 30,
+      "tracking_fixed": 0.0030404529698805183,
+      "optimized": 0.003033698076284739
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 60,
+      "tracking_fixed": 0.005284236264289727,
+      "optimized": 0.00527751516344263
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 3,
+      "tracking_fixed": 0.028736201886833915,
+      "optimized": 0.028730411333004822
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 30,
+      "tracking_fixed": 0.0030390290858687825,
+      "optimized": 0.0030322916966682807
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 60,
+      "tracking_fixed": 0.0052792360380352656,
+      "optimized": 0.005272481987416246
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 3,
+      "tracking_fixed": 0.028733896616787418,
+      "optimized": 0.028728078969637024
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 30,
+      "tracking_fixed": 0.0030435442207728553,
+      "optimized": 0.003036708168929543
+    },
+    {
+      "kind": "gaussian052",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 60,
+      "tracking_fixed": 0.005293655517256607,
+      "optimized": 0.005286713899139795
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 3,
+      "tracking_fixed": 0.028850042246640575,
+      "optimized": 0.028843666182535383
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 30,
+      "tracking_fixed": 0.0031383198310356323,
+      "optimized": 0.0031309872426133483
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8811,
+      "Phi": 60,
+      "tracking_fixed": 0.005392098921689832,
+      "optimized": 0.005384628660466805
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 3,
+      "tracking_fixed": 0.028951333750157838,
+      "optimized": 0.028944546742711866
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 30,
+      "tracking_fixed": 0.003193002960375318,
+      "optimized": 0.003186128511523032
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8812,
+      "Phi": 60,
+      "tracking_fixed": 0.005444143998794969,
+      "optimized": 0.00543815166479166
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 3,
+      "tracking_fixed": 0.028880750477554284,
+      "optimized": 0.02887556456838302
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 30,
+      "tracking_fixed": 0.003172340549996578,
+      "optimized": 0.0031664686522010948
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8813,
+      "Phi": 60,
+      "tracking_fixed": 0.005407588552301224,
+      "optimized": 0.005401959076378946
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 3,
+      "tracking_fixed": 0.02883967180018832,
+      "optimized": 0.028833452951551278
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 30,
+      "tracking_fixed": 0.003184898035697224,
+      "optimized": 0.003177512149579425
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 16384,
+      "seed": 8814,
+      "Phi": 60,
+      "tracking_fixed": 0.005448042957527608,
+      "optimized": 0.005440810092778899
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 3,
+      "tracking_fixed": 0.028867730141579583,
+      "optimized": 0.028861322343460907
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 30,
+      "tracking_fixed": 0.003143604796672121,
+      "optimized": 0.0031363553567925026
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8811,
+      "Phi": 60,
+      "tracking_fixed": 0.005393349898535241,
+      "optimized": 0.0053859970383486845
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 3,
+      "tracking_fixed": 0.028852936741205593,
+      "optimized": 0.028846591638463353
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 30,
+      "tracking_fixed": 0.0031518403929677833,
+      "optimized": 0.0031445600310861434
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8812,
+      "Phi": 60,
+      "tracking_fixed": 0.0053928746841625744,
+      "optimized": 0.005385617004789735
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 3,
+      "tracking_fixed": 0.028821193409963954,
+      "optimized": 0.028815186130543274
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 30,
+      "tracking_fixed": 0.003136234829010461,
+      "optimized": 0.003129208997422768
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8813,
+      "Phi": 60,
+      "tracking_fixed": 0.005369281500012368,
+      "optimized": 0.005362289252685348
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 3,
+      "tracking_fixed": 0.028833068506780486,
+      "optimized": 0.02882690493858104
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 30,
+      "tracking_fixed": 0.0031534350883600255,
+      "optimized": 0.0031461744706295144
+    },
+    {
+      "kind": "dirichlet",
+      "shots": 65536,
+      "seed": 8814,
+      "Phi": 60,
+      "tracking_fixed": 0.005402094289097889,
+      "optimized": 0.005394742116320683
+    }
+  ]
+}

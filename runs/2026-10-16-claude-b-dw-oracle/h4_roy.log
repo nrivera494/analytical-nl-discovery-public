@@ -1,0 +1,3 @@
+sech 2.0 0.02 M0 etaB 7.0533e-03 NSR -23.0 dB | M1 etaB 9.1684e-06 NSR -51.2 dB etaDW 9.1514e-06 <w> -3.775 | conv M1 1.5e-08
+sech 2.0 0.03 M0 etaB 2.7911e-02 NSR -15.6 dB | M1 etaB 2.6684e-03 NSR -26.2 dB etaDW 2.6050e-03 <w> -3.323 | conv M1 8.3e-10
+sech 2.0 0.04 M0 etaB 6.2180e-02 NSR -12.8 dB | M1 etaB 1.6077e-02 NSR -18.1 dB etaDW 1.5664e-02 <w> -2.904 | conv M1 1.1e-10

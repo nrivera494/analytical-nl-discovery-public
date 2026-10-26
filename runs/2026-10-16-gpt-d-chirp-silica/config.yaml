@@ -1,0 +1,28 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-d-chirp-silica",
+  "T0_fs": 56.7,
+  "soliton_order": 3,
+  "launch_um": 1.55,
+  "fibre": "S28 full dispersion, constant mode area, no loss",
+  "L_m": 1.0,
+  "GDD_fs2": [
+    -300,
+    -150,
+    0,
+    75,
+    150,
+    225,
+    300,
+    450
+  ],
+  "cutoffs_um": [
+    1.75,
+    1.85
+  ],
+  "phase_convention": "Q -> Q exp(i GDD (omega-omega_launch)^2 / 2)",
+  "predicted_test": "Coarse discrete GDD scan cannot establish zero local improvement; no numerical optimum asserted before the scan.",
+  "script": "../2026-10-16-gpt-d-loss-edge-audit/chirp_check.py"
+}

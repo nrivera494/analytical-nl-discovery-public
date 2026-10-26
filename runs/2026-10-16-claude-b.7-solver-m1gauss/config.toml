@@ -1,0 +1,29 @@
+# Run 2026-10-16-claude-b.7-solver-m1gauss: configuration (deterministic; no seeds). run_m1g.jl is authoritative.
+[model]
+name = "M1: Kerr + beta2 + beta3 + AgarwalRaman(0.18, 12.2 fs, 32 fs), self-steepening suppressed"
+T0_ps = 0.05
+omega0T0 = 1.0e6
+N = 3.0
+xi_f = 2.0
+launch = "exp(-tau^2/2)"
+delta3 = [0.0055, 0.006, 0.0066, 0.0073]
+mapping = "L_D = 1 m; beta2 = -T0^2 ps^2/m; beta3 = 6 delta3 T0^3 ps^3/m; gamma = 1 /W/m; P0 = 9 W"
+
+[observables]
+eta_G = "band w >= 1/(6 delta3) energy after g = 1 - 0.5[tanh(tau+15) - tanh(tau-15)], over input energy"
+eta_B = "same without the gate"
+
+[grids]
+base = { window_T0 = 256.0, Nt = 32768, dt_fs = 0.390625, w_max = 402.1 }
+window_check = { window_T0 = 512.0, Nt = 65536 }
+dt_check = { window_T0 = 256.0, Nt = 65536, dt_fs = 0.1953125 }
+
+[steps]
+base = 8000
+levels = [4000, 8000, 16000, 32000]   # 16000 only at delta3 = 0.0055 and 0.0073
+
+[fit]
+form = "ln eta_G = c + p ln delta3 - d / delta3 (least squares, 4 points, 3 parameters)"
+
+[post_freeze]
+selfsteepening_check = { omega0T0 = 1.0e8, delta3 = [0.0055, 0.0073], nsteps = 8000 }

@@ -1,0 +1,82 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-zblan-transfer",
+  "checked_utc": "2026-10-18T01:46:09.682498+00:00",
+  "checks": {
+    "frozen_prediction_and_primary_code_unchanged": true,
+    "original_claim_sections_unchanged": true,
+    "all_cases_record_original_prediction_freeze": true,
+    "all_cases_record_frozen_forward_hash": true,
+    "all_planned_material_cases_attempted": true,
+    "all_eight_peaks_bracketed": true,
+    "all_40_prediction_scores_resolved": true,
+    "all_numerical_controls_pass": true,
+    "accuracy_script_matches_executed_hash": true,
+    "summary_contains_current_accuracy": true,
+    "source_shooting_matches_phase1": true,
+    "task_branch": true,
+    "solver_pin_and_worktree_unchanged": true,
+    "all_design_freezes_are_committed_ancestors": true,
+    "figures_single_panel_size_budget": true,
+    "no_raw_field_files_in_run_diff": true
+  },
+  "all_pass": true,
+  "frozen_files": {
+    "predictions.md": {
+      "sha256": "220a44da98309dfd2bb16cc5e843f26eb3ac1af45c3624ea78cebc304b2dfe15",
+      "unchanged": true
+    },
+    "material.py": {
+      "sha256": "737078677445079fdf71f9bf1163c2ac6699035a48eafe9f0ccd9738875c2b98",
+      "unchanged": true
+    },
+    "independent.py": {
+      "sha256": "b6a1ba70d8a553a63a71338ed007a2bf8f44b26f6a45271a5ab5b72c89c52d71",
+      "unchanged": true
+    },
+    "zs_shoot.c": {
+      "sha256": "408031e0b1b9cd4e405444ec0b9edd382cec70bfd5eca34da811fc0d3568d079",
+      "unchanged": true
+    }
+  },
+  "protected_original_sections": {
+    "Statement": {
+      "sha256": "efdf1d26c0a15a220e945b5388e21894c9e5975a64c9b82c0d148d5b0931bc2e",
+      "bytes": 6625,
+      "unchanged": true
+    },
+    "Derivation": {
+      "sha256": "2bf06da6a6574f41befc9716e29d318f9566e2c67e7a668d9e6293a9dea93b54",
+      "bytes": 2690,
+      "unchanged": true
+    }
+  },
+  "freeze_ancestry": {
+    "predictions_commit": true,
+    "artifact_and_additional_controls_commit": true,
+    "refinement1_commit": true,
+    "refinement2_commit": true,
+    "refinement3_and_library_design_commit": true,
+    "verification_cases_commit": true,
+    "refinement5_commit": true,
+    "refinement6_commit": true,
+    "refinement7_commit": true
+  },
+  "figures": {
+    "fig_summary.png": {
+      "width": 720,
+      "height": 540,
+      "bytes": 46564,
+      "sha256": "cee4af0ead7b20ecf0a39803d7431dfb785f71b3cbdc517701524d35863c4c20"
+    },
+    "fig_position.png": {
+      "width": 720,
+      "height": 540,
+      "bytes": 49723,
+      "sha256": "83d75de110700690dc5d59217534db9a4e06bfcdbec38276259748c91ae0db6b"
+    }
+  },
+  "visual_check": "Both final single-panel figures inspected by gpt-c on 2026-10-17."
+}

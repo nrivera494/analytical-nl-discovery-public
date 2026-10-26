@@ -1,0 +1,14 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-roy
+date: '2026-10-16'
+task: T-20261016-claude-b-01
+claim: C-20261016-claude-b-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+implementation: independent scipy FFT RK4IP/Yoshida; pinned Julia solver is cross-checked
+  separately
+hardware: macOS-27.0.1-arm64-arm-64bit
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-roy
+wall_seconds: 1769.894214335

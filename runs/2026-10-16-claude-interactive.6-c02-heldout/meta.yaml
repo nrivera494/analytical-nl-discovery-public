@@ -1,0 +1,22 @@
+run_id: 2026-10-16-claude-interactive.6-c02-heldout
+agent: claude-interactive.6
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-04
+serves: C-20261016-claude-interactive.6-02 (held-out prediction frozen in commit 87f4742, text corrected in 6eb3d1e before the run)
+solver_commit: none (numpy RK4IP, ../2026-10-16-claude-interactive.6-lwir-common/lwir.py)
+solver_dirty: false
+hardware: Apple M5 laptop (shared)
+wall_time_s: 80
+raw_location: none (all outputs in summary.json and sumrule.json)
+commands:
+  - ~/agent-work/venv/bin/python c02_heldout.py
+  - ~/agent-work/venv/bin/python c02_heldout.py fine      # 100 fs cases at dt = 1.5 fs, nt = 32768; summary_fine.json
+  - ~/agent-work/venv/bin/python sumrule_check.py
+config:
+  fibre: "S28 (core radius 4.1 um, NA 0.14), constant Aeff = 64.5 um^2, n2 = 2.6e-20 m^2/W, lossless"
+  raman: {fR: 0.18, tau1_ps: 0.0122, tau2_ps: 0.032}
+  launches: "TL sech at 1.55 um: (N, T0, L) = (4, 56.7 fs, 0.3 m), (6, 56.7 fs, 0.3 m), (6, 170.2 fs, 1.5 m)"
+  grid: {nt: 16384, dt_fs: 3.0, centre_um: 1.75}
+  saved_planes: 400
+artefact_notes: "Identity mismatch 1.3% (N=4, 100 fs) and 25.7% (N=6, 100 fs) at dt = 3 fs indicates aliasing; 2.9e-5 at 300 fs. The fine reruns (dt = 1.5 fs) restore it to 1.5e-4 and 7.5e-5; use summary_fine.json for the 100 fs cases."

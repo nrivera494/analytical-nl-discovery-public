@@ -1,0 +1,10 @@
+run_id: 2026-10-16-gpt-d-window-probe
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+claim: C-20261016-claude-interactive.6-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+hardware: COECIS-G3FLW49YGQ
+wall_time_s: 2.6298129558563232
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-d-window-probe

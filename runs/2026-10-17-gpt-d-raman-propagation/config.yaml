@@ -1,0 +1,445 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-d-raman-propagation",
+  "freeze_commit": "6df0927ef31369add037f36db21643b14d68bf51",
+  "seeds": [],
+  "cases": [
+    {
+      "name": "core",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 3,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.1483065089354853,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4001,
+      "held_out": false,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "h1_30",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 1,
+      "fwhm_fs": 30,
+      "T_ps": 0.017018889856597663,
+      "L_m": 0.026695171608387358,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4000,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "h2_60",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 2,
+      "fwhm_fs": 60,
+      "T_ps": 0.034037779713195326,
+      "L_m": 0.08008551482516207,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4000,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "h4_150",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 4,
+      "fwhm_fs": 150,
+      "T_ps": 0.0850944492829883,
+      "L_m": 0.25026723382863136,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4000,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "h5_225",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 5,
+      "fwhm_fs": 225,
+      "T_ps": 0.12764167392448247,
+      "L_m": 0.45048102089153663,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4000,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "h6_300",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 6,
+      "fwhm_fs": 300,
+      "T_ps": 0.1701888985659766,
+      "L_m": 0.6673792902096837,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4000,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "h6_100",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 6,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.07415325446774265,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4001,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "h1_300",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 1,
+      "fwhm_fs": 300,
+      "T_ps": 0.1701888985659766,
+      "L_m": 2.6695171608387347,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4000,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "fluoride",
+      "material": "ZBLAN published oscillator; surrogate dispersion",
+      "lambda_um": 2.0,
+      "n2_m2_W": 4.7e-20,
+      "Aeff_um2": 34.73227028084366,
+      "beta2_ps2_m": -0.04,
+      "beta3_ps3_m": 0.0001,
+      "fr": 0.3,
+      "oscillators": [
+        {
+          "tau1_ps": 0.01667,
+          "tau2_ps": 0.02023,
+          "fraction": 1.0
+        }
+      ],
+      "N": 3,
+      "fwhm_fs": 180,
+      "T_ps": 0.10211333913958597,
+      "L_m": 0.26067835075590245,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4000,
+      "held_out": true,
+      "alpha_m": 0.0
+    },
+    {
+      "name": "core_half",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 3,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.1483065089354853,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 8002,
+      "held_out": false,
+      "alpha_m": 0.0,
+      "convergence_of": "core"
+    },
+    {
+      "name": "core_quarter",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 3,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.1483065089354853,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 16004,
+      "held_out": false,
+      "alpha_m": 0.0,
+      "convergence_of": "core"
+    },
+    {
+      "name": "h6_100_half",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 6,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.07415325446774265,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 8002,
+      "held_out": true,
+      "alpha_m": 0.0,
+      "convergence_of": "h6_100"
+    },
+    {
+      "name": "h6_100_fine",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 6,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.07415325446774265,
+      "n": 32768,
+      "dt_ps": 0.000375,
+      "steps": 4001,
+      "held_out": true,
+      "alpha_m": 0.0,
+      "convergence_of": "h6_100"
+    },
+    {
+      "name": "h6_100_wide",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 6,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.07415325446774265,
+      "n": 32768,
+      "dt_ps": 0.00075,
+      "steps": 4001,
+      "held_out": true,
+      "alpha_m": 0.0,
+      "convergence_of": "h6_100"
+    },
+    {
+      "name": "loss",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 1.0
+        }
+      ],
+      "N": 3,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.1483065089354853,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4001,
+      "held_out": false,
+      "alpha_m": 0.046051701859880924,
+      "relaxation": "uniform loss"
+    },
+    {
+      "name": "mixture",
+      "material": "SMF-28 local surrogate",
+      "lambda_um": 1.55,
+      "n2_m2_W": 2.6e-20,
+      "Aeff_um2": 64.5,
+      "beta2_ps2_m": -0.0217,
+      "beta3_ps3_m": 0.00012,
+      "fr": 0.18,
+      "oscillators": [
+        {
+          "tau1_ps": 0.0122,
+          "tau2_ps": 0.032,
+          "fraction": 0.8
+        },
+        {
+          "tau1_ps": 0.02,
+          "tau2_ps": 0.05,
+          "fraction": 0.2
+        }
+      ],
+      "N": 3,
+      "fwhm_fs": 100,
+      "T_ps": 0.05672963285532554,
+      "L_m": 0.1483065089354853,
+      "n": 16384,
+      "dt_ps": 0.00075,
+      "steps": 4001,
+      "held_out": false,
+      "alpha_m": 0.0,
+      "relaxation": "two passive oscillators"
+    }
+  ],
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-17-gpt-d-raman-propagation",
+  "units": {
+    "time": "ps",
+    "energy": "pJ",
+    "length": "m",
+    "power": "W"
+  }
+}

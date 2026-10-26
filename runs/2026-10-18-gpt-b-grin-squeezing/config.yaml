@@ -1,0 +1,105 @@
+run_id: 2026-10-18-gpt-b-grin-squeezing
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+production_started: true
+serial: true
+memory_gate_free_percent: 35
+max_process_gb: 3
+raw_root: ~/analytical-nl-discovery-data
+predictions: predictions.md
+prediction_commits:
+  initial: 9db4bb6a67b640d79365810a984c3af5c6a9da92
+  disorder_refinement_and_orientation: e221a59c026e933deafe1ba16a12123eaca4f110
+  count_n1e6_confirmation: 7e0e9b97c51782bb0fa74fc2a04f8a3d19fc904a
+  phase_mechanism: 2ac8a9273aa2effb1e4df93f8b2d00628bf3f50b
+  pinned_solver: 851351d88aedc6a73554e65d8d20bbf1d0df1489
+  count_z300_confirmation: 368fd6b354128c9f606f2d0cf0e9a34ea91d05be
+  antithetic_scaling: f380d729ac06227ffcb937f031ecdaf4fd618add
+  nonlinear_ensemble: de19ac53551537a8ad4f0a888b814d16ec1c67d6
+  sagnac_integral: 3a500fe164d9f592df8d51c97a2c9a96999dc13e
+  count_resolution: 66012828c3dabca15d258af4c4808952af40b0ee
+  exact_n64: 58f39549d4e3b9e58765369bef4cc3acd45926ec
+  quantum_bright_reference: dbd35fd143caabdec1b0390cdf463f5dce4ab0e5
+  fixed_number_reference: bcc4dd669ba2dbd5c631892e38abf51c8ac905e9
+  fresh_count_resolution: c9725cab8690ef6acc5ce000b119bd6c023348a2
+  final_strong_resolution: b561662e63250818ce92a9a5af8a05dd3b6c40fb
+  sagnac_shot_rescaling: 9ff7001391f69bd55895cced2634e66e41b4c2e1
+  last_count_refinement: 7f1cb2ce5df94fdcb8fcc17bb325bfb0e5fb293d
+  unimodal_positive_P_counterexample: e1da2d58fb64f3bdd9a8f95da6752d963d5e24ef
+model_definition:
+  groups: q=nx+ny<K
+  K_core: 5
+  modes_core: 15
+  K_edge: 4
+  tensor: exact scalar Hermite-Gauss; S0000=1; Gauss-Hermite order2K+2, checked at
+    doubled order in independent prior run
+  resonance: q_p+q_q=q_r+q_s
+  N_classical: 1
+  Eprime: sum(q*abs(a)^2)
+  launch: equal energy Eprime/2 in each of groups1,2, uniform within a group; ground
+    power1-3Eprime/4
+  disorder: quenched full spatial-group Hermitian Brownian covariance dz/d; amplitude
+    sigma
+  Ld_over_LNL: sigma^-2 in this convention
+quantum_definition:
+  n: total coherent input photons per CW cell
+  vacuum_variance: 1
+  initial_wigner: Sobol Gaussian product vacuum
+  weyl_correction: true
+  count_covariance: n^2 Cov_W(Ip,Iq)-delta_pq/4
+  count_weights: both frozen physical weights and reoptimized cross-fitted weights
+steps:
+- 0.02
+- 0.01
+- 0.005
+- 0.0025
+checkpoints:
+- 0
+- 1
+- 2
+- 5
+- 10
+- 20
+- 50
+- 100
+- 200
+- 300
+large_grid_exception:
+  steps: 40000
+  case: h=.0025,z100,n1e6 counting convergence only
+  reason: resolve a large change between h=.02 and.01; only eight snapshots stored
+seeds:
+  launch_core:
+  - 4201
+  launch_held_out:
+  - 4202
+  - 4203
+  - 4213
+  disorder_core:
+  - 7601
+  disorder_ensemble: 7601..7612
+  fresh_disorder: 7701..7706
+  wigner_scrambles: 8701..8704
+  exact_three_mode_scrambles: 8751..8754
+solver_crosscheck:
+  commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+  method: Float64 fixed-step RK4IP
+  adjoint: false
+  raman: false
+  temporal_points: 2
+  constant_CW_field: true
+  index_probe: solver_probe.jl; initial failed convention preserved
+reproduce:
+- python runs/2026-10-18-gpt-b-grin-squeezing/run.py ensembles
+- python runs/2026-10-18-gpt-b-grin-squeezing/run.py twa
+- bash runs/2026-10-18-gpt-b-grin-squeezing/serial_checks.sh
+- bash runs/2026-10-18-gpt-b-grin-squeezing/final_checks.sh
+- bash runs/2026-10-18-gpt-b-grin-squeezing/after_checks.sh
+notes: Queues share cached raw trajectories. Refresh recomputes diagnostics without
+  propagating new trajectories. Keep all numerical stages serial.
+reproduce_note: Run from repository root. Execute numerical stages strictly serially;
+  serial_checks.sh, final_checks.sh, then after_checks.sh. Earlier core jobs are named
+  in this config and scripts.
+production_finished: true
+production_stopped_at: '2026-10-18T13:53:44.057759+00:00'

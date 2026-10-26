@@ -1,0 +1,51 @@
+# Run 2026-10-04-claude-b.4-pmin-gate-1250 (task T-20261004-claude-interactive-03, step 1 "reproduce").
+# Rebuilds the archive's 1250 nm LP01 power sweeps in 1 m GIF625 (2026-09-24_grin_wavelengths, "deepest" window)
+# and the 0.75 / 1.25 m length-forecast checks (2026-09-28_theory_campaign/validate_phaseflow_and_modal_reference.jl),
+# with the archive's own grids, then fits P_min by a local quadratic in ln P.
+# Model: scalar LP01 GNLSE, GIF625 (GRIN, core radius 31.25 um, NA 0.275), beta_0..beta_5 from the analytic GRIN
+# model (grid_size 81), n2 = 2.3e-20 m^2/W, self-steepening, causal Raman (exact Fourier kernels, "AnalyticRaman"),
+# linearized input vacuum through the discrete adjoint, scalar Raman reservoir at 300 K.
+# Input: archive 1550 nm measured spectrum (source_100mw.csv) translated in frequency to 1250 nm, GDD -0.015 ps^2,
+# coupled average power P at 80 MHz. Readout: flat unity-transmission band 1226 <= lambda < 1269 nm, all photons in
+# the band counted, no detector loss. No random numbers are drawn; there is no seed.
+# Driver: run_gate.jl. Library: pmin_lib.jl.
+
+wavelength_nm = 1250.0
+lo_nm = 1226.0
+hi_nm = 1269.0
+gdd_ps2 = -0.015
+temperature_K = 300.0
+source_spectrum = "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-23_squeezing/inputs/source_100mw.csv"
+
+[[sweeps]]
+tag = "L1.00_archive_curve"
+kind = "agarwal"
+length_m = 1.0
+nt = 8192
+window_ps = 40.0
+dz_m = 0.0025
+raman_z_spacing_m = 0.025
+powers_mw = [10.0, 30.0, 50.0, 75.0, 100.0, 125.0, 130.0, 140.0, 150.0, 160.0, 170.0, 175.0, 200.0, 220.0, 250.0, 300.0]
+archive_glob = "2026-09-24_grin_wavelengths/results/curve_1250_L1_deepest_agarwal_P{P}.toml"
+
+[[sweeps]]
+tag = "L0.75_archive_refined"
+kind = "agarwal"
+length_m = 0.75
+nt = 8192
+window_ps = 40.0
+dz_m = 0.0025
+raman_z_spacing_m = 0.0125
+powers_mw = [125.0, 150.0, 160.0, 170.0, 175.0, 180.0, 190.0, 200.0, 225.0, 250.0]
+archive_glob = "2026-09-28_theory_campaign/validation/opus_A2_L0.75_refined_1250_agarwal_n1_P{P:.1f}_lo1226.0_hi1269.0_delay0.0_edge0.0.toml"
+
+[[sweeps]]
+tag = "L1.25_archive_refined"
+kind = "agarwal"
+length_m = 1.25
+nt = 8192
+window_ps = 40.0
+dz_m = 0.0025
+raman_z_spacing_m = 0.0125
+powers_mw = [80.0, 90.0, 100.0, 110.0, 120.0, 125.0, 150.0, 175.0, 200.0, 225.0, 250.0]
+archive_glob = "2026-09-28_theory_campaign/validation/opus_A2_L1.25_refined_1250_agarwal_n1_P{P:.1f}_lo1226.0_hi1269.0_delay0.0_edge0.0.toml"

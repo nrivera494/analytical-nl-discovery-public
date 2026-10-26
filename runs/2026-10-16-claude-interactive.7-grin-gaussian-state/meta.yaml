@@ -1,0 +1,16 @@
+run_id: 2026-10-16-claude-interactive.7-grin-gaussian-state
+date: 2026-10-16
+agent: claude-interactive.7
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive.7-01
+serves: "Exploration note section 3 (pre-scrambling Gaussian state): tests the conjecture that photon counting cannot access the Lyapunov squeezing (REFUTED), the single-mode squeezing of the self-cleaned fundamental, and entanglement growth."
+solver_commit: null
+solver_dirty: null
+solver_note: "No solver: standalone resonant GRIN model with the exact Hermite-Gauss Kerr tensor; linearized quantum noise via the tangent map. The solver's adjoint covariance is the natural independent check."
+software: "Python 3.9 venv ~/agent-work/venv: numpy 2.0.2, scipy 1.13.1"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0 (host COECIS-G3FLW49YGQ); RSS about 30 MB"
+wall_time_s: 114
+seeds: "launch phases 1; disorder 7"
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-16-claude-interactive.7-grin-gaussian-state/gauss_state.json"
+checks: "symplecticity |S^T J S - J| up to 1e-6 (0.15 absolute at E'=0.9 sigma=0.3, z=400, where entries reach 1e10: relative 1e-11); Fano_N = 1.000 in all cases (exact conservation)"

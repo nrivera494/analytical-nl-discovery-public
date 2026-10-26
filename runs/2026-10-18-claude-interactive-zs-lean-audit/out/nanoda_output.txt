@@ -1,0 +1,41 @@
+theorem ZS.canonical_integer_sech_fraction_optimality (k : Nat) :
+  IsGreatest (ZS.attainableFractions (ZS.sechSource (HAdd.hAdd (Nat.cast k) (OfNat.ofNat 1))))
+    (HDiv.hDiv (HSub.hSub (HMul.hMul (OfNat.ofNat 2) (HAdd.hAdd (Nat.cast k) (OfNat.ofNat 1))) (OfNat.ofNat 1))
+      (HPow.hPow (HAdd.hAdd (Nat.cast k) (OfNat.ofNat 1)) (OfNat.ofNat 2))) :=
+  _
+
+def ZS.IsEigenvalue (q : Real → Complex)
+  (x._@.Mathlib.Basic.Complex.Basic.3983214305._hygCtx.16.Mathlib.Basic.Complex.Basic.3983214305._hygCtx._hyg.28 :
+    Complex) :
+  Prop :=
+  And
+    (LT.lt (OfNat.ofNat 0)
+      (Complex.im
+        x._@.Mathlib.Basic.Complex.Basic.3983214305._hygCtx.16.Mathlib.Basic.Complex.Basic.3983214305._hygCtx._hyg.28))
+    (Exists
+      (fun (v₁ : Real → Complex) =>
+      Exists
+        (fun (v₂ : Real → Complex) =>
+        And
+          (ZS.SolvesZS q
+            x._@.Mathlib.Basic.Complex.Basic.3983214305._hygCtx.16.Mathlib.Basic.Complex.Basic.3983214305._hygCtx._hyg.28
+            v₁ v₂)
+          (And (MeasureTheory.MemLp v₁ (OfNat.ofNat 2) MeasureTheory.MeasureSpace.volume)
+            (And (MeasureTheory.MemLp v₂ (OfNat.ofNat 2) MeasureTheory.MeasureSpace.volume)
+              (Exists (fun (t : Real) => Or (Ne (v₁ t) (OfNat.ofNat 0)) (Ne (v₂ t) (OfNat.ofNat 0)))))))))
+
+def ZS.SolvesZS (q : Real → Complex) (ζ : Complex) (v₁ v₂ : Real → Complex) : Prop :=
+  And
+    (forall (t : Real),
+    HasDerivAt v₁ (HAdd.hAdd (HMul.hMul (HMul.hMul (Neg.neg Complex.I) ζ) (v₁ t)) (HMul.hMul (q t) (v₂ t))) t)
+    (forall (t : Real),
+    HasDerivAt v₂
+      (HAdd.hAdd (HMul.hMul (Neg.neg (Star.star (q t))) (v₁ t)) (HMul.hMul (HMul.hMul Complex.I ζ) (v₂ t))) t)
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+
+Checked 54113 declarations with no errors

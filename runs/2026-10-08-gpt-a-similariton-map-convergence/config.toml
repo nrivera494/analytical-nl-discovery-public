@@ -1,0 +1,221 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-map-convergence"
+
+[defaults]
+nt = 8192
+window = 64.0
+length = 8.0
+dzmax = 0.005
+phase_step = 0.025
+save_interval = 0.1
+
+[[cases]]
+label = "gaussian_step"
+shape = "gaussian"
+Nstar = 10.0
+width = 1.0
+chirp = 0.0
+dzmax = 0.0025
+phase_step = 0.0125
+
+[[cases]]
+label = "gaussian_grid"
+shape = "gaussian"
+Nstar = 10.0
+width = 1.0
+chirp = 0.0
+nt = 16384
+
+[[cases]]
+label = "gaussian_window"
+shape = "gaussian"
+Nstar = 10.0
+width = 1.0
+chirp = 0.0
+nt = 16384
+window = 128.0
+
+[[cases]]
+label = "sech_step"
+shape = "sech"
+Nstar = 10.0
+width = 2.0
+chirp = 0.3333333333333333
+dzmax = 0.0025
+phase_step = 0.0125
+
+[[cases]]
+label = "sech_grid"
+shape = "sech"
+Nstar = 10.0
+width = 2.0
+chirp = 0.3333333333333333
+nt = 16384
+
+[[cases]]
+label = "sech_window"
+shape = "sech"
+Nstar = 10.0
+width = 2.0
+chirp = 0.3333333333333333
+nt = 16384
+window = 128.0
+
+[[cases]]
+label = "supergaussian_step"
+shape = "supergaussian"
+Nstar = 10.0
+width = 0.5
+chirp = -0.5
+dzmax = 0.0025
+phase_step = 0.0125
+
+[[cases]]
+label = "supergaussian_grid"
+shape = "supergaussian"
+Nstar = 10.0
+width = 0.5
+chirp = -0.5
+nt = 16384
+
+[[cases]]
+label = "supergaussian_window"
+shape = "supergaussian"
+Nstar = 10.0
+width = 0.5
+chirp = -0.5
+nt = 16384
+window = 128.0
+
+[[cases]]
+label = "N10_width_minus"
+shape = "parabola"
+Nstar = 10.0
+width = 0.99
+chirp = 0.3333333333333333
+nt = 16384
+
+[[cases]]
+label = "N10_chirp_minus"
+shape = "parabola"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3233333333333333
+nt = 16384
+
+[[cases]]
+label = "N10_width_plus"
+shape = "parabola"
+Nstar = 10.0
+width = 1.01
+chirp = 0.3333333333333333
+nt = 16384
+
+[[cases]]
+label = "N10_chirp_plus"
+shape = "parabola"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3433333333333333
+nt = 16384
+
+[[cases]]
+label = "heldout_base"
+shape = "supergaussian"
+order = 6
+Nstar = 15.0
+width = 1.4
+chirp = -0.2
+nt = 16384
+
+[[cases]]
+label = "heldout_step"
+shape = "supergaussian"
+order = 6
+Nstar = 15.0
+width = 1.4
+chirp = -0.2
+nt = 16384
+dzmax = 0.0025
+phase_step = 0.0125
+
+[[cases]]
+label = "heldout_grid"
+shape = "supergaussian"
+order = 6
+Nstar = 15.0
+width = 1.4
+chirp = -0.2
+nt = 32768
+
+[[cases]]
+label = "heldout_window"
+shape = "supergaussian"
+order = 6
+Nstar = 15.0
+width = 1.4
+chirp = -0.2
+nt = 32768
+window = 128.0
+
+[[cases]]
+label = "odd_base"
+shape = "odd"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3333333333333333
+nt = 16384
+
+[[cases]]
+label = "odd_grid"
+shape = "odd"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3333333333333333
+nt = 32768
+
+[[cases]]
+label = "odd_step"
+shape = "odd"
+Nstar = 10.0
+width = 1.0
+chirp = 0.3333333333333333
+nt = 16384
+dzmax = 0.0025
+phase_step = 0.0125
+
+[[cases]]
+label = "N5_supergaussian_step"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+nt = 8192
+window = 64.0
+dzmax = 0.0025
+phase_step = 0.0125
+
+[[cases]]
+label = "N5_supergaussian_grid"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+nt = 16384
+window = 64.0
+dzmax = 0.005
+phase_step = 0.025
+
+[[cases]]
+label = "N5_supergaussian_window"
+shape = "supergaussian"
+Nstar = 5.0
+width = 0.5
+chirp = -0.5
+nt = 16384
+window = 128.0
+dzmax = 0.005
+phase_step = 0.025

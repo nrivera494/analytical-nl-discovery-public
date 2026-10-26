@@ -1,0 +1,32 @@
+{
+  "family": "gpt",
+  "model": "gpt-6-astra",
+  "input_photons": 1000000.0,
+  "length": 1.0,
+  "nsp": 1.0,
+  "gain_intensity_rate": 0.7,
+  "noise_scale": 0.5,
+  "gain_power": 2.0137527074704766,
+  "seed": 2026100802,
+  "agent": "gpt-b",
+  "rows": [
+    {
+      "measured_linear_energy_variance": 2066056.0041601586,
+      "analytic_variance": 2041447.2593741983,
+      "input_noise": false,
+      "mean_quadrature": -0.00501620267884359,
+      "ratio": 1.0120545581929479,
+      "ntraj": 8192,
+      "relative_sampling_se": 0.01562595376163678
+    },
+    {
+      "measured_linear_energy_variance": 6032868.879067659,
+      "analytic_variance": 6096647.226218874,
+      "input_noise": true,
+      "mean_quadrature": 0.005845001187762905,
+      "ratio": 0.9895387834026327,
+      "ntraj": 8192,
+      "relative_sampling_se": 0.01562595376163678
+    }
+  ]
+}

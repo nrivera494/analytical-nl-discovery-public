@@ -1,0 +1,8 @@
+Pre-registered predictions for grin_twa.json (written 2026-10-16 ~16:25 EDT, before the run).
+Model: exact GRIN Kerr tensor, K = 5, E' = 0.6, sigma = 0.3 (same launch and disorder seeds as run 2026-10-16-claude-interactive.7-grin-lyapunov),
+coherent input, n = photons per cell in {1e6, 1e8, 1e10, 1e12}, 32 trajectories each.
+Independent input: lambda_1 = 0.0183 / L_NL (shadow trajectory, grin-lyapunov run, same case).
+Prediction (chaotic branch of claim C-20261016-claude-interactive.7-02): the mode-averaged mean-field half-collapse length grows by
+  ln(10)/(2 lambda_1) = 62.9 L_NL per decade of n;
+  increment from n = 1e6 to n = 1e12: 377 L_NL, tolerance +-25% (283-471).
+Ballistic branch expected negligible here (sqrt(ln2 n / A) >> chaotic length for n >= 1e6 if A = O(1)).

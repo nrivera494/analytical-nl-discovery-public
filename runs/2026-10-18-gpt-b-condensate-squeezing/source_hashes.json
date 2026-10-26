@@ -1,0 +1,23 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "recorded_at": "2026-10-18T13:53:44.057759+00:00",
+  "base_commit": "6a7b762706c8d9d59e032d5ac0878cdc7c619bc4",
+  "note": "Hashes identify the exact source bytes, including changes committed after base_commit.",
+  "sha256": {
+    "evaluator/kerr_squeezing.py": "2b2bd5d1b6b3d2df769e0b3ba691093c79ef71399841cb0be999b44671f748df",
+    "evaluator/serial_numerical.py": "ea4ac2b48f0337ef3bb8d6d03e53995ea50a9bfef47675285e0960f1382f2382",
+    "evaluator/squeezing.py": "09f14c2d8b07ed1ddba372d2fdfc6779801124e2ab81518f64bb6ec89a1e1910",
+    "evaluator/squeezing_core.c": "6b9b8047de57944dc6ca13f1b6273dace60d0e06da53f991b2b1d45046ab4dd1",
+    "evaluator/thermalized_light.py": "e75e2d5dd551bbb5592061d56c8a704d3144811c57b444d1ffaf3909c2503adc",
+    "evaluator/thermalized_light_core.c": "4aadee7df95eb87efe3a6e59708e7c8f9750e1022685f7ea4ec85974d2afaf16",
+    "runs/2026-10-18-gpt-b-condensate-squeezing/analyse.py": "01b47d9fa0013af6134d7ca21278850f1a8a528bf1394a9e89ae35f41fc5e188",
+    "runs/2026-10-18-gpt-b-condensate-squeezing/final_resolution.py": "070704e6ef9b96f591f335ab40a3d1c4ac0c4ca202197d66551dc528528f3092",
+    "runs/2026-10-18-gpt-b-condensate-squeezing/mechanism.py": "2f1c23fc7e6852f7f7e326e79429c7359203fb3b91b8e7168cd4c0c30d9e3249",
+    "runs/2026-10-18-gpt-b-condensate-squeezing/nonlinear_ensemble.py": "d661e2c3345777384a62b9227ec5a8048a496706388b648ab4c09f762ed05bb4",
+    "runs/2026-10-18-gpt-b-condensate-squeezing/refine.py": "cb3257dde3bc4208800c86813e0d589e7f214cfa759a73d0ef5162d484222dcd",
+    "runs/2026-10-18-gpt-b-condensate-squeezing/scaling.py": "ffa0f1998f5502f87e785ba855396ff5473e2137a078ceed74c1a9bf48021ef9",
+    "runs/2026-10-18-gpt-b-grin-squeezing/run.py": "0b48d061e912cd1ea839240b65b8beec61a41b3d9946122f0382191c1aafc846"
+  }
+}

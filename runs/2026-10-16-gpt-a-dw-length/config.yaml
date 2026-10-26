@@ -1,0 +1,82 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-length
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-length
+cases:
+- N: 2
+  shape: sech
+  raman: none
+  shock: 0
+  n: 16384
+  window: 512
+  center: 180
+  zmax: 12
+  outputs: &id001
+  - 8
+  - 12
+  h: 0.000125
+  name: sech2_long_d0.008
+  delta3: 0.008
+- N: 2
+  shape: sech
+  raman: none
+  shock: 0
+  n: 16384
+  window: 512
+  center: 180
+  zmax: 12
+  outputs: *id001
+  h: 0.000125
+  name: sech2_long_d0.009
+  delta3: 0.009
+- N: 2
+  shape: sech
+  raman: none
+  shock: 0
+  n: 16384
+  window: 512
+  center: 180
+  zmax: 12
+  outputs: *id001
+  h: 0.000125
+  name: sech2_long_d0.01
+  delta3: 0.01
+- N: 2
+  shape: sech
+  raman: none
+  shock: 0
+  n: 16384
+  window: 512
+  center: 180
+  zmax: 12
+  outputs: *id001
+  h: 0.000125
+  name: sech2_long_d0.011
+  delta3: 0.011
+- N: 2
+  shape: sech
+  raman: none
+  shock: 0
+  n: 16384
+  window: 512
+  center: 180
+  zmax: 12
+  outputs: *id001
+  h: 0.000125
+  name: sech2_long_d0.02
+  delta3: 0.02
+- N: 2
+  shape: sech
+  raman: none
+  shock: 0
+  n: 32768
+  window: 1024
+  center: 180
+  zmax: 12
+  outputs: *id001
+  h: 0.000125
+  name: sech2_long_d008_window
+  delta3: 0.008
+  grid_exception_reason: 'Long-fibre convergence: double the window at fixed time
+    spacing; retain only endpoint fields.'

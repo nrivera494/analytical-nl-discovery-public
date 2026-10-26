@@ -1,0 +1,283 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "case": {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T3200",
+    "N": 2,
+    "T0_fs": 3200,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1e-10,
+    "zs_points": 8192,
+    "zN": [
+      64,
+      128
+    ]
+  },
+  "checkpoints": [
+    {
+      "zN": 64,
+      "z_LD": 32.0,
+      "length_m": 15100.460829493088,
+      "mass_drift": 1.3715810709413745e-09,
+      "photon_drift": 1.3715819591197942e-09,
+      "steps": 12710,
+      "rejected": 0,
+      "max_spectral_edge_fraction": 3.224065284173459e-32,
+      "max_time_edge_fraction": 2.7231725934017596e-09,
+      "spectral_edge_fraction": 3.224995671842296e-32,
+      "time_edge_fraction": 2.7735474594574233e-09,
+      "nonpositive_frequency_fraction": 0.0,
+      "runtime_s": 187.96960183400006,
+      "dt_fs": 31.25,
+      "energy_launch_nJ": 0.041730769230769224,
+      "beta2_carrier_ps2_km": -21.7,
+      "global_spectral_fraction_1200_2300nm": 1.0,
+      "global_spectral_fraction_800_3000nm": 1.0,
+      "process_peak_rss_bytes": 146931712,
+      "peaks": [
+        {
+          "index": 16060,
+          "t_peak": -3.1640625,
+          "peak_power_normalized": 0.9896660952815898,
+          "red_w": -0.08356592874084058,
+          "red_shift_THz": -0.004156228322865582,
+          "lambda_nm": 1549.9666932115476,
+          "width_fs": 3244.2261992220097,
+          "bounds": [
+            -13.30078125,
+            3.69140625
+          ],
+          "boundary_intensity_ratio": 7.862804600162287e-06,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -1.3417625827525327e-06,
+            "eta": 0.4965783348222782,
+            "residual": 1.5323407610261817e-13,
+            "success": true,
+            "points": 8192
+          },
+          "f_zs": 0.2482891674111391,
+          "f_window": 0.24829621006852043,
+          "zs_window_ratio": 0.9999716360657323,
+          "f_photon_window": 0.24829088501509822,
+          "rms_bandwidth_normalized": 0.5761528725388855,
+          "relative_dispersion_variation_one_rms": 0.0,
+          "dispersion_variation_diagnostic_defined": true,
+          "spectral_fraction_1200_2300nm": 1.0,
+          "spectral_fraction_1300_2000nm": 1.0,
+          "spectral_fraction_1285_1625nm": 0.9999999973665908,
+          "energy_zs_nJ": 0.010361297947734072
+        },
+        {
+          "index": 17585,
+          "t_peak": 11.728515625,
+          "peak_power_normalized": 9.024142299393615,
+          "red_w": 0.683494423305174,
+          "red_shift_THz": 0.03399422376398837,
+          "lambda_nm": 1550.2724734306132,
+          "width_fs": 1081.408733074003,
+          "bounds": [
+            8.349609375,
+            15.1171875
+          ],
+          "boundary_intensity_ratio": 1.3902818136073928e-06,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -1.914594745777546e-06,
+            "eta": 1.5033511325824285,
+            "residual": 5.167443079337475e-15,
+            "success": true,
+            "points": 8192
+          },
+          "f_zs": 0.7516755662912142,
+          "f_window": 0.751682475255276,
+          "zs_window_ratio": 0.9999908086668384,
+          "f_photon_window": 0.7518147750206355,
+          "rms_bandwidth_normalized": 1.7324524641028762,
+          "relative_dispersion_variation_one_rms": 0.0,
+          "dispersion_variation_diagnostic_defined": true,
+          "spectral_fraction_1200_2300nm": 1.0,
+          "spectral_fraction_1300_2000nm": 1.0,
+          "spectral_fraction_1285_1625nm": 0.9999999977478902,
+          "energy_zs_nJ": 0.03136799959330644
+        }
+      ],
+      "leading": {
+        "index": 17585,
+        "t_peak": 11.728515625,
+        "peak_power_normalized": 9.024142299393615,
+        "red_w": 0.683494423305174,
+        "red_shift_THz": 0.03399422376398837,
+        "lambda_nm": 1550.2724734306132,
+        "width_fs": 1081.408733074003,
+        "bounds": [
+          8.349609375,
+          15.1171875
+        ],
+        "boundary_intensity_ratio": 1.3902818136073928e-06,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -1.914594745777546e-06,
+          "eta": 1.5033511325824285,
+          "residual": 5.167443079337475e-15,
+          "success": true,
+          "points": 8192
+        },
+        "f_zs": 0.7516755662912142,
+        "f_window": 0.751682475255276,
+        "zs_window_ratio": 0.9999908086668384,
+        "f_photon_window": 0.7518147750206355,
+        "rms_bandwidth_normalized": 1.7324524641028762,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 1.0,
+        "spectral_fraction_1300_2000nm": 1.0,
+        "spectral_fraction_1285_1625nm": 0.9999999977478902,
+        "energy_zs_nJ": 0.03136799959330644
+      }
+    },
+    {
+      "zN": 128,
+      "z_LD": 64.0,
+      "length_m": 30200.921658986175,
+      "mass_drift": 2.051177894202283e-09,
+      "photon_drift": 2.051177672157678e-09,
+      "steps": 25699,
+      "rejected": 0,
+      "max_spectral_edge_fraction": 6.984780625716868e-32,
+      "max_time_edge_fraction": 2.9918900065708126e-06,
+      "spectral_edge_fraction": 6.891883384119364e-32,
+      "time_edge_fraction": 3.015005832800007e-06,
+      "nonpositive_frequency_fraction": 0.0,
+      "runtime_s": 377.77285758399967,
+      "dt_fs": 31.25,
+      "energy_launch_nJ": 0.041730769230769224,
+      "beta2_carrier_ps2_km": -21.7,
+      "global_spectral_fraction_1200_2300nm": 1.0,
+      "global_spectral_fraction_800_3000nm": 1.0,
+      "process_peak_rss_bytes": 146931712,
+      "peaks": [
+        {
+          "index": 15799,
+          "t_peak": -5.712890625,
+          "peak_power_normalized": 0.9837700295533062,
+          "red_w": -0.07597641484548044,
+          "red_shift_THz": -0.0037787568690808354,
+          "lambda_nm": 1549.9697180973958,
+          "width_fs": 3261.954211239616,
+          "bounds": [
+            -15.8984375,
+            4.482421875
+          ],
+          "boundary_intensity_ratio": 4.947046580189181e-06,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 9.990436535570955e-08,
+            "eta": 0.49657840566487904,
+            "residual": 3.869467714990887e-15,
+            "success": true,
+            "points": 8192
+          },
+          "f_zs": 0.24828920283243952,
+          "f_window": 0.2482945403856489,
+          "zs_window_ratio": 0.9999785031390497,
+          "f_photon_window": 0.24828969840544057,
+          "rms_bandwidth_normalized": 0.5719890920611063,
+          "relative_dispersion_variation_one_rms": 0.0,
+          "dispersion_variation_diagnostic_defined": true,
+          "spectral_fraction_1200_2300nm": 1.0,
+          "spectral_fraction_1300_2000nm": 1.0,
+          "spectral_fraction_1285_1625nm": 0.9999999981281823,
+          "energy_zs_nJ": 0.010361299425892187
+        },
+        {
+          "index": 20869,
+          "t_peak": 43.798828125,
+          "peak_power_normalized": 9.033808869585828,
+          "red_w": 1.3211010066669093,
+          "red_shift_THz": 0.06570617360459925,
+          "lambda_nm": 1550.526740161388,
+          "width_fs": 1081.408733074003,
+          "bounds": [
+            40.888671875,
+            47.1875
+          ],
+          "boundary_intensity_ratio": 2.918252307379606e-07,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -5.343993760450896e-07,
+            "eta": 1.503352457932681,
+            "residual": 1.2770453661920604e-14,
+            "success": true,
+            "points": 8192
+          },
+          "f_zs": 0.7516762289663405,
+          "f_window": 0.7516776491367461,
+          "zs_window_ratio": 0.999998110665646,
+          "f_photon_window": 0.7519332453709602,
+          "rms_bandwidth_normalized": 1.7348936493819374,
+          "relative_dispersion_variation_one_rms": 0.0,
+          "dispersion_variation_diagnostic_defined": true,
+          "spectral_fraction_1200_2300nm": 1.0,
+          "spectral_fraction_1300_2000nm": 1.0,
+          "spectral_fraction_1285_1625nm": 0.9999999996330176,
+          "energy_zs_nJ": 0.03136802724724921
+        }
+      ],
+      "leading": {
+        "index": 20869,
+        "t_peak": 43.798828125,
+        "peak_power_normalized": 9.033808869585828,
+        "red_w": 1.3211010066669093,
+        "red_shift_THz": 0.06570617360459925,
+        "lambda_nm": 1550.526740161388,
+        "width_fs": 1081.408733074003,
+        "bounds": [
+          40.888671875,
+          47.1875
+        ],
+        "boundary_intensity_ratio": 2.918252307379606e-07,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -5.343993760450896e-07,
+          "eta": 1.503352457932681,
+          "residual": 1.2770453661920604e-14,
+          "success": true,
+          "points": 8192
+        },
+        "f_zs": 0.7516762289663405,
+        "f_window": 0.7516776491367461,
+        "zs_window_ratio": 0.999998110665646,
+        "f_photon_window": 0.7519332453709602,
+        "rms_bandwidth_normalized": 1.7348936493819374,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 1.0,
+        "spectral_fraction_1300_2000nm": 1.0,
+        "spectral_fraction_1285_1625nm": 0.9999999996330176,
+        "energy_zs_nJ": 0.03136802724724921
+      }
+    }
+  ],
+  "implementation_sha256": "7460ba8b8bd4cbd102170b3af82435f6c85fc89d5d1126c0ae59a44013f30b47",
+  "physical_dispersion": {
+    "D1550_ps_nm_km": 17.013627059563838,
+    "S0_ps_nm2_km": 0.08964480041257102,
+    "beta3_ps3_km": 0.12797502770925123
+  },
+  "complete": true,
+  "wall_seconds": 377.79875604200015,
+  "process_peak_rss_bytes": 146931712
+}

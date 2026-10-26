@@ -1,0 +1,6 @@
+{"laser": "sech", "A": 6.0, "class": "phi", "start": 0, "scale": 0.0, "eta_TL": 5.5, "eta_opt": 5.5, "ratio_to_TL": 1.0, "q_inf_final": 6.0, "bound_2N_over_2N1": null, "nit": 0, "wall_s": 3.4}
+{"laser": "sech", "A": 6.0, "class": "phi", "start": 1, "scale": 0.5, "eta_TL": 5.5, "eta_opt": 5.5, "ratio_to_TL": 1.0, "q_inf_final": 5.999999, "bound_2N_over_2N1": null, "nit": 29, "wall_s": 129.9}
+{"laser": "sech", "A": 6.0, "class": "phi", "start": 2, "scale": 1.0, "eta_TL": 5.5, "eta_opt": 5.499908, "ratio_to_TL": 0.999983, "q_inf_final": 5.999531, "bound_2N_over_2N1": null, "nit": 48, "wall_s": 235.0}
+{"laser": "sech", "A": 6.0, "class": "Aphi", "start": 0, "scale": 0.0, "eta_TL": 5.5, "eta_opt": 5.5, "ratio_to_TL": 1.0, "q_inf_final": 6.0, "bound_2N_over_2N1": null, "nit": 20, "wall_s": 90.4}
+{"laser": "sech", "A": 6.0, "class": "Aphi", "start": 1, "scale": 0.5, "eta_TL": 5.5, "eta_opt": 5.5, "ratio_to_TL": 1.0, "q_inf_final": 5.999996, "bound_2N_over_2N1": null, "nit": 43, "wall_s": 176.2}
+{"laser": "sech", "A": 6.0, "class": "Aphi", "start": 2, "scale": 1.0, "eta_TL": 5.5, "eta_opt": 5.5, "ratio_to_TL": 1.0, "q_inf_final": 5.999998, "bound_2N_over_2N1": null, "nit": 45, "wall_s": 165.0}

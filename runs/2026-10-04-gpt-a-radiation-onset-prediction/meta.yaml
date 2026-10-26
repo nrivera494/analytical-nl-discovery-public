@@ -1,0 +1,16 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-radiation-onset-prediction
+task: T-20261004-claude-interactive-07
+claim: null
+exploration: explorations/2026-10-04-gpt-a-radiative-boundary-lead.md
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+hardware: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-radiation-onset-prediction
+wall_time_seconds: 0.2335
+status: completed
+calculation: Stationary outgoing ODE; no propagation or fitted coefficient.
+prediction_commit: bf3a649
+harness_commit: bf3a649

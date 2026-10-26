@@ -1,0 +1,19 @@
+{
+  "agent": "gpt-f",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "task": "T-20261020-claude-interactive-01",
+  "kind": "symbolic identities and dimensional arithmetic; no propagation",
+  "seed": null,
+  "wavelength_nm": [1030, 1064],
+  "characteristic_time_fs": [100, 1000, 5000],
+  "raman_fraction": 0.18,
+  "raman_tau1_fs": 12.2,
+  "raman_tau2_fs": 32.0,
+  "illustrative_Lkin_over_LNL": [10, 100],
+  "sources": {
+    "wavelength_and_pulse_context": "10.1364/OE.449187; 10.1038/s41567-022-01579-y",
+    "raman_response": "10.1103/PhysRevA.105.013528, Eq. (1) response and numerical parameters",
+    "kinetic_scaling": "10.1103/PhysRevA.100.053835; illustrative ratios are assumptions, not measured relaxation rates"
+  }
+}

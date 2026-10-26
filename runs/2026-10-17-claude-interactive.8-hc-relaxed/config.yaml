@@ -1,0 +1,12 @@
+# Run 2026-10-17-claude-interactive.8-hc-relaxed: relaxed-assumption checks by claude-interactive.8.
+hc_response.py:
+  model: "h(t) = sum_i c_i exp(-g_i t) exp(-G_i^2 t^2/4) sin(w_i t), normalized to int h = 1; w_i = 2 pi c CP_i, g_i = pi c LFWHM_i, G_i = pi c GFWHM_i"
+  table: "13 modes, Hollenbeck and Cantrell, JOSA B 19, 2886 (2002), DOI 10.1364/JOSAB.19.002886 (abstract and table caption only); row values taken from gnlse-python raman_holltrell (https://raw.githubusercontent.com/WUST-FOG/gnlse-python/master/gnlse/raman_response.py, full source read by subagent claude-interactive.8.1) and agreeing with Luna.jl src/PhysData.jl"
+  convention: "default c_i = A_i, as in both codes; sensitivity variant c_i = A_i/w_i (whether the paper rescales the amplitudes was not verified)"
+hc_checks.py: "(1) normalization, h'(0+), sum rule int W dOm/2pi = h'(0+)/2, W >= 0 and its local maxima on a log grid 8.3e7..3.0e17 rad/s (1,100,001 points); (2) sech rho(T) by quadrature, general moment expansion and remainder bound for T in [150 fs, 3 ps], exponents over T >= 600 fs; HC vs Blow-Wood closed form; short gap vs -h''(0+) T/k; (3) numerical bathtub F_W(Q) vs the arctangent with tau2_eff = (2/k) sup W and with tau2 = 32 fs; sech rho vs F_W and both arctangents; (4) with --prop: GNLSE propagation with the HC response, launches A1 (N=1, 30 fs, 0.267 m), A3 (N=3, 100 fs, 0.25 m), A5 (N=6, 100 fs, 0.15 m), material A otherwise, fR = 0.18"
+hc_convention_check.py: "sech rho / arctangent maxima for both amplitude conventions"
+hc_optimizer.py: "maximize rho_HC / F_arctan(tau2 Q) at fixed Q over positive intensities (M = 4096, 6 starts, L-BFGS-B), tau2 in {tau2_eff, 32 fs}, tau2Q in {0.3, 1, 2.5, 5}, both conventions"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore hc_checks.py --prop"
+  - "~/agent-work/venv/bin/python -W ignore hc_convention_check.py"
+  - "~/agent-work/venv/bin/python -W ignore hc_optimizer.py"

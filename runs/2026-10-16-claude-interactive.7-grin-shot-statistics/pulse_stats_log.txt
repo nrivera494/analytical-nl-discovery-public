@@ -1,0 +1,5 @@
+z=  10: across the pulse (FWHM): launched relvar 0.022, all-excited 0.105 (Dirichlet 0.867); f0 mean 0.651 relvar 1.50e-03 (Dirichlet 0.739, 2.71e-03); integrated f0 0.656; max |pulse1 - pulse2| 3.9e-05; 3s
+z=  30: across the pulse (FWHM): launched relvar 0.316, all-excited 0.326 (Dirichlet 0.867); f0 mean 0.720 relvar 3.09e-04 (Dirichlet 0.739, 2.71e-03); integrated f0 0.722; max |pulse1 - pulse2| 2.0e-05; 9s
+z= 100: across the pulse (FWHM): launched relvar 0.342, all-excited 0.379 (Dirichlet 0.867); f0 mean 0.730 relvar 4.30e-03 (Dirichlet 0.739, 2.71e-03); integrated f0 0.734; max |pulse1 - pulse2| 1.0e-04; 30s
+z= 300: across the pulse (FWHM): launched relvar 0.683, all-excited 0.688 (Dirichlet 0.867); f0 mean 0.748 relvar 1.59e-03 (Dirichlet 0.739, 2.71e-03); integrated f0 0.749; max |pulse1 - pulse2| 1.0e-02; 91s
+RJ group fractions [np.float64(0.739), 0.086, 0.064, 0.057, 0.054]

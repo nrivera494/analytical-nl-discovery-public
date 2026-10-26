@@ -1,0 +1,77 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "as2s3_sech_N4_T216.784_long",
+    "N": 4,
+    "T0_fs": 216.784,
+    "raman": "as2s3",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      5.0,
+      6.0,
+      8
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration",
+    "design_note": "Length extension because no fully qualified plateau bracket was available. Same launch and numerical tolerance; original short run retained."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "as2s3_sech_N4_T252.074_long",
+    "N": 4,
+    "T0_fs": 252.074,
+    "raman": "as2s3",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      5.0,
+      6.0,
+      8
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration",
+    "design_note": "Length extension because no fully qualified plateau bracket was available. Same launch and numerical tolerance; original short run retained."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "as2s3_sech_N4_T287.365_long",
+    "N": 4,
+    "T0_fs": 287.365,
+    "raman": "as2s3",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      5.0,
+      6.0,
+      8
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration",
+    "design_note": "Length extension because no fully qualified plateau bracket was available. Same launch and numerical tolerance; original short run retained."
+  }
+]

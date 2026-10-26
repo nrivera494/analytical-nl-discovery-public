@@ -1,0 +1,7 @@
+# Run from a copy of the archive's verification/ directory, with OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1:
+commands:
+  - python weak_theory/effective_oscillator.py
+  - python weak_theory/second_order_symbolic.py
+  - python strong/verify_weak_cross.py
+  - python similariton/reproduce.py --suite quick
+scripts_read_before_running: "all four, plus a grep of every archive script for network, subprocess and out-of-tree writes (none)"

@@ -1,0 +1,13 @@
+ℹ [9033/9037] Replayed AnalyticalNL.Parity
+info: AnalyticalNL/Parity.lean:429:0: 'AnalyticalNL.parity_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:430:0: 'AnalyticalNL.parity_rayleigh_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:431:0: 'AnalyticalNL.parity_of_sector_rayleigh_minima' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:432:0: 'AnalyticalNL.attenuation_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:433:0: 'AnalyticalNL.binary_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:434:0: 'AnalyticalNL.binary_physicalFano_eq_rayleigh' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:435:0: 'AnalyticalNL.physicalFano_eq_identity_subtraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:436:0: 'AnalyticalNL.parity_attenuation_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:437:0: 'AnalyticalNL.parity_binary_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:438:0: 'AnalyticalNL.shortened_bound_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AnalyticalNL/Parity.lean:439:0: 'AnalyticalNL.partial_mask_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9037 jobs).

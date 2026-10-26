@@ -1,0 +1,89 @@
+{
+ "run_id": "2026-10-10-claude-b.6-solver-nd-check",
+ "status": "POST-FREEZE; not part of the hashed summary.json",
+ "convention": "claude-b numpy bin k == solver bin -k (solver 'mirror')",
+ "B_selfsteepening_uniform_photon_weights": {
+  "best_binary_bins": {
+   "s_1_over_121.526": {
+    "solver_filter(+k)": 0.4656084882419966,
+    "solver_mirror(-k)": 0.4498024887466045,
+    "dz_halved_change_filter": -1.4103718193325676e-12,
+    "dz_halved_change_mirror": -1.6076029396572267e-12
+   },
+   "s_0.0082": {
+    "solver_filter(+k)": 0.4655387173869396,
+    "solver_mirror(-k)": 0.4497847621933517
+   }
+  },
+  "best_interval_bins": {
+   "s_1_over_121.526": {
+    "solver_filter(+k)": 0.7347344605526209,
+    "solver_mirror(-k)": 0.7298738510394902,
+    "dz_halved_change_filter": -3.160693928805358e-12,
+    "dz_halved_change_mirror": -2.613798066875006e-12
+   },
+   "s_0.0082": {
+    "solver_filter(+k)": 0.7346908340466609,
+    "solver_mirror(-k)": 0.7298505127150781
+   }
+  }
+ },
+ "comparison_with_claude_b_numpy": {
+  "A/N10_zr0.7/best_binary_bins": {
+   "numpy_bins_as_given": 0.4513362353773322,
+   "missing_bins": 0,
+   "solver_F_s0": 0.4513358167133023,
+   "numpy_minus_solver": 4.1866402988866014e-07
+  },
+  "A/N10_zr0.7/best_interval_bins": {
+   "numpy_bins_as_given": 0.7273814818882333,
+   "missing_bins": 0,
+   "solver_F_s0": 0.7273801101691224,
+   "numpy_minus_solver": 1.3717191108542082e-06
+  },
+  "A/N20_zr0.3/best_binary_bins": {
+   "numpy_bins_as_given": 0.45343797199307695,
+   "missing_bins": 0,
+   "solver_F_s0": 0.4534378750694861,
+   "numpy_minus_solver": 9.692359087543068e-08
+  },
+  "A/N20_zr0.3/best_interval_bins": {
+   "numpy_bins_as_given": 0.9061857385780807,
+   "missing_bins": 0,
+   "solver_F_s0": 0.9061853104651745,
+   "numpy_minus_solver": 4.281129062366773e-07
+  },
+  "B_ss_uniform/best_binary_bins/numpy_as_given": {
+   "numpy": 0.44976018718779437,
+   "missing_bins": 0,
+   "solver_same_physical_bins_s=1/121.526": 0.4498024887466045,
+   "numpy_minus_solver": -4.2301558810131645e-05,
+   "solver_same_physical_bins_s=0.0082": 0.4497847621933517,
+   "numpy_minus_solver_s0082": -2.457500555730352e-05
+  },
+  "B_ss_uniform/best_binary_bins/numpy_mirror": {
+   "numpy": 0.46560346908545147,
+   "missing_bins": 0,
+   "solver_same_physical_bins_s=1/121.526": 0.4656084882419966,
+   "numpy_minus_solver": -5.019156545105208e-06,
+   "solver_same_physical_bins_s=0.0082": 0.4655387173869396,
+   "numpy_minus_solver_s0082": 6.4751698511889e-05
+  },
+  "B_ss_uniform/best_interval_bins/numpy_as_given": {
+   "numpy": 0.7298109938599708,
+   "missing_bins": 0,
+   "solver_same_physical_bins_s=1/121.526": 0.7298738510394902,
+   "numpy_minus_solver": -6.285717951937109e-05,
+   "solver_same_physical_bins_s=0.0082": 0.7298505127150781,
+   "numpy_minus_solver_s0082": -3.9518855107223416e-05
+  },
+  "B_ss_uniform/best_interval_bins/numpy_mirror": {
+   "numpy": 0.7346934449859335,
+   "missing_bins": 20,
+   "solver_same_physical_bins_s=1/121.526": 0.7347344605526209,
+   "numpy_minus_solver": -4.101556668745232e-05,
+   "solver_same_physical_bins_s=0.0082": 0.7346908340466609,
+   "numpy_minus_solver_s0082": 2.610939272562618e-06
+  }
+ }
+}

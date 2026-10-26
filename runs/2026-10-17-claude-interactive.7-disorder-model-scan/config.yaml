@@ -1,0 +1,14 @@
+# Run 2026-10-17-claude-interactive.7-disorder-model-scan: disorder strength and correlation length (predictions.md, D1-D5).
+# Same model and metrics as runs/2026-10-17-claude-interactive.7-ensemble-thermalization; dephased launch E' = 0.6 (phase_seed 1), dis_seed 101-106.
+# White: sigma in {0.1, 1, 3} (sigma = 0.3 is E1 of the ensemble run); dz = 0.05, and 0.02 at sigma = 3.
+# Piecewise-constant: H fixed over l_c, strength s = sigma_eff/sqrt(l_c); l_c in {0.1, 1, 10, 100} at sigma_eff = 0.3, {0.1, 1, 10} at sigma_eff = 1.
+# LP11-only launch with vacuum seed (n = 1e10, vac_seed 301-306): white sigma in {0.1, 1, 3}, piecewise l_c = 10 at sigma_eff = 0.3.
+run_disorder_scan.py: "output disorder_scan.jsonl"
+summarize.py: "summary.json, summary.txt: D1-D5 checks; post-hoc 10-L_NL relaxation metric from the raw series (labelled)"
+posthoc_dz_check.py: "POST HOC: step-size robustness of the strong-disorder slowing (same piecewise realization at dz = 0.02 and 0.01; white noise at dz = 0.01, 3 seeds); output posthoc_dz_check.json"
+fig_disorder_scan.py: "fig_disorder_scan.png"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore run_disorder_scan.py | tee -a run_disorder_scan_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore summarize.py"
+  - "~/agent-work/venv/bin/python -W ignore fig_disorder_scan.py"
+  - "~/agent-work/venv/bin/python -W ignore posthoc_dz_check.py > posthoc_dz_check_log.txt"

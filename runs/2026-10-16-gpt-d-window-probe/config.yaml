@@ -1,0 +1,20 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "purpose": "Black-box nonlinear four-wave-mixing transfer near frequency-grid edges; no source inspection",
+  "script": "../2026-10-16-gpt-d-loss-edge-audit/window_probe.jl",
+  "nt": 512,
+  "dt_ps": 0.003,
+  "dz_m": 0.0001,
+  "detuning_fraction": [
+    -0.9,
+    -0.7,
+    -0.4,
+    0,
+    0.4,
+    0.7,
+    0.85,
+    0.95
+  ]
+}

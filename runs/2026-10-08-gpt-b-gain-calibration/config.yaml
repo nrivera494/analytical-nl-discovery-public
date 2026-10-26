@@ -1,0 +1,19 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance_solver.jl
+mode: gain
+command: JULIA_NUM_THREADS=2 julia --project=solver evaluator/mm_soliton_covariance_solver.jl
+  gain <raw_location>
+seed: 2026100802
+ntraj: 8192
+nt: 16
+dt_ps: 0.25
+dz_m: 0.125
+length_m: 1.0
+gain_per_m: 0.7
+nsp: 1.0
+noise_scale: 0.5
+input_photons: 1000000.0
+scope: Unmodified scalar gain-noise backend versus a quantum-limited amplifier; no
+  multimode ASE claim

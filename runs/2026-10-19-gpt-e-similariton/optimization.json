@@ -1,0 +1,218 @@
+{
+  "agent": "gpt-e",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "seed": 191010,
+  "bounds": [
+    [
+      0.5,
+      10.0
+    ],
+    [
+      12.0,
+      18.0
+    ]
+  ],
+  "objective": "minimize G^(2/3)*(1-r^2), seeking failure of a positive Theta prefactor",
+  "optimizer_success": false,
+  "message": "Maximum number of iterations has been exceeded.",
+  "minimum_scaled_deficit": 0.11563038590740543,
+  "location": [
+    0.7534447847362618,
+    17.94974807364606
+  ],
+  "evaluations": [
+    {
+      "Gamma": 8.731887605860361,
+      "tau": 15.461727001733754,
+      "scaled_deficit": 0.4280272206175284,
+      "scaled_spectral_ratio": 6.46118223511301
+    },
+    {
+      "Gamma": 0.7534447847362618,
+      "tau": 17.94974807364606,
+      "scaled_deficit": 0.11563038590740543,
+      "scaled_spectral_ratio": 6.90179772551547
+    },
+    {
+      "Gamma": 4.849850319180646,
+      "tau": 12.11135237444605,
+      "scaled_deficit": 0.1672778379615645,
+      "scaled_spectral_ratio": 6.466567653052721
+    },
+    {
+      "Gamma": 7.305326899212904,
+      "tau": 13.989115761327064,
+      "scaled_deficit": 0.2902127678672986,
+      "scaled_spectral_ratio": 10.974375791201293
+    },
+    {
+      "Gamma": 1.7146942397511409,
+      "tau": 14.478576742493534,
+      "scaled_deficit": 0.3090990910541524,
+      "scaled_spectral_ratio": 6.4083595059568
+    },
+    {
+      "Gamma": 8.980304268355791,
+      "tau": 12.76203689993493,
+      "scaled_deficit": 0.1435391089199716,
+      "scaled_spectral_ratio": 5.615593340186404
+    },
+    {
+      "Gamma": 3.5789618552787337,
+      "tau": 16.670939144155955,
+      "scaled_deficit": 0.18548131140600033,
+      "scaled_spectral_ratio": 6.369227424177023
+    },
+    {
+      "Gamma": 5.356764223945657,
+      "tau": 16.093918341374344,
+      "scaled_deficit": 0.281500108305067,
+      "scaled_spectral_ratio": 10.15179529484511
+    },
+    {
+      "Gamma": 4.3753111188816165,
+      "tau": 14.619405625594666,
+      "scaled_deficit": 0.3106994844294402,
+      "scaled_spectral_ratio": 4.731980754616068
+    },
+    {
+      "Gamma": 2.0237462262674106,
+      "tau": 13.39226737343893,
+      "scaled_deficit": 0.2816971921451305,
+      "scaled_spectral_ratio": 5.028808031498457
+    },
+    {
+      "Gamma": 9.516272626561562,
+      "tau": 12.29324116930436,
+      "scaled_deficit": 0.13858530333599703,
+      "scaled_spectral_ratio": 4.616695001722319
+    },
+    {
+      "Gamma": 7.305326899212904,
+      "tau": 12.764433099600382,
+      "scaled_deficit": 0.16646242090475397,
+      "scaled_spectral_ratio": 7.584017503453512
+    },
+    {
+      "Gamma": 8.188891139308254,
+      "tau": 15.481524267928874,
+      "scaled_deficit": 0.4129380586338641,
+      "scaled_spectral_ratio": 5.74614793444879
+    },
+    {
+      "Gamma": 2.023159475041814,
+      "tau": 13.394372470149879,
+      "scaled_deficit": 0.28181145312305994,
+      "scaled_spectral_ratio": 5.024608152064744
+    },
+    {
+      "Gamma": 8.251075669805662,
+      "tau": 15.249344996144163,
+      "scaled_deficit": 0.4077576646547215,
+      "scaled_spectral_ratio": 6.688389014090488
+    },
+    {
+      "Gamma": 9.835789659014596,
+      "tau": 15.40366772406039,
+      "scaled_deficit": 0.45198103381103333,
+      "scaled_spectral_ratio": 7.990055545353653
+    },
+    {
+      "Gamma": 2.1453673921394016,
+      "tau": 15.185805234611767,
+      "scaled_deficit": 0.2662890592382826,
+      "scaled_spectral_ratio": 7.7021346951617025
+    },
+    {
+      "Gamma": 4.606052927552308,
+      "tau": 17.26347255164824,
+      "scaled_deficit": 0.16734997085638936,
+      "scaled_spectral_ratio": 5.4938164646295915
+    },
+    {
+      "Gamma": 8.11650845871608,
+      "tau": 13.306731164179402,
+      "scaled_deficit": 0.19983155370153682,
+      "scaled_spectral_ratio": 10.794116567376598
+    },
+    {
+      "Gamma": 4.47621716001455,
+      "tau": 14.548130715538397,
+      "scaled_deficit": 0.3118690723447482,
+      "scaled_spectral_ratio": 4.6525923805858325
+    },
+    {
+      "Gamma": 9.673273534959357,
+      "tau": 14.478576742493534,
+      "scaled_deficit": 0.33934736653730296,
+      "scaled_spectral_ratio": 12.520206391854211
+    },
+    {
+      "Gamma": 1.5316807375594457,
+      "tau": 12.76203689993493,
+      "scaled_deficit": 0.2516939680853489,
+      "scaled_spectral_ratio": 6.123416897956124
+    },
+    {
+      "Gamma": 7.556232934473181,
+      "tau": 16.50401254461829,
+      "scaled_deficit": 0.3358417596535152,
+      "scaled_spectral_ratio": 11.823107032963195
+    },
+    {
+      "Gamma": 2.5280282135732017,
+      "tau": 13.885802641401147,
+      "scaled_deficit": 0.2902914539599508,
+      "scaled_spectral_ratio": 4.7117173694014856
+    },
+    {
+      "Gamma": 7.1105145609836224,
+      "tau": 17.571205081638347,
+      "scaled_deficit": 0.19645802757627517,
+      "scaled_spectral_ratio": 7.969579105789627
+    },
+    {
+      "Gamma": 3.7486864227987984,
+      "tau": 17.26347255164824,
+      "scaled_deficit": 0.1570475283135762,
+      "scaled_spectral_ratio": 4.941068448037404
+    },
+    {
+      "Gamma": 1.90251094875183,
+      "tau": 12.29324116930436,
+      "scaled_deficit": 0.21051257886749353,
+      "scaled_spectral_ratio": 7.6635171800672515
+    },
+    {
+      "Gamma": 8.309250548780886,
+      "tau": 14.405095592321873,
+      "scaled_deficit": 0.3343181420085134,
+      "scaled_spectral_ratio": 10.3413146895819
+    },
+    {
+      "Gamma": 5.479073774821553,
+      "tau": 17.316772832598367,
+      "scaled_deficit": 0.17968681722612145,
+      "scaled_spectral_ratio": 6.548744753656569
+    },
+    {
+      "Gamma": 5.1740971356216905,
+      "tau": 15.09616576028303,
+      "scaled_deficit": 0.32594811482624847,
+      "scaled_spectral_ratio": 5.452639096682801
+    },
+    {
+      "Gamma": 3.3926799888685264,
+      "tau": 15.678873596216992,
+      "scaled_deficit": 0.24911577412972066,
+      "scaled_spectral_ratio": 8.689531255293902
+    },
+    {
+      "Gamma": 5.823708132345165,
+      "tau": 17.18546669880346,
+      "scaled_deficit": 0.19874699567584175,
+      "scaled_spectral_ratio": 7.969394212435274
+    }
+  ]
+}

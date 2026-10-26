@@ -1,0 +1,21 @@
+run_id: 2026-10-10-claude-b-nd-parabola
+date: 2026-10-10
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+task: T-20261010-claude-interactive-05
+serves: "Cross-check of C-20261010-claude-b-01's reduced method against the Legendre-block propagator of C-20261004-claude-a-01 (unchirped passive parabola, normal dispersion)"
+description: >-
+  (1) Legendre blocks: from statement (a) of C-20261004-claude-a-01, the amplitude-to-phase block of mode l is
+  m_l(mu) = P_l(0) Q_l(mu) - Q_l(0) P_l(mu) (Ferrers functions; Wronskian 1 at mu = 0). Input amplitude quadrature on
+  orthonormal Legendre functions, n = 2 sqrt(1 - xi^2) X0, output norm int (1 - xi^2) p^2; sigma_k(C)^2 from
+  K^T D G D K (L = 40, 80, 120 identical to 6 digits; 800-point Gauss-Legendre). (2) Reduced numerics: the method of
+  lambda_curve.py (run 2026-10-10-claude-b-nd-semiclassical) with u0 = sqrt(max(1 - tau^2, 0)), M = 80 Hermite
+  functions, N = 50 (Nt 2048) to zeta = 4.737 and N = 100 (Nt 4096) to zeta = 2, 40 T0 window, peak phase step 0.02.
+solver_commit: "none: numpy/scipy code in this folder"
+solver_dirty: false
+commands:
+  - "cd runs/2026-10-10-claude-b-nd-parabola && ~/agent-work/venv/bin/python parabola.py"
+python: "3.9.6, numpy 2.0.2, scipy 1.13.1"
+hardware: "Apple M5, 10 cores, 32 GB RAM (host COECIS-G3FLW49YGQ)"
+raw_location: "none (summary.json holds all output)"

@@ -1,0 +1,47 @@
+{
+  "agent": "gpt-h",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-20",
+  "task": "T-20261020-claude-interactive-06",
+  "source_run": "2026-10-20-claude-interactive.22-resonance-kinematics",
+  "n2_m2_per_W": 2.6e-20,
+  "gR_m_per_W": 1e-13,
+  "wavelength_m": 1.064e-06,
+  "threshold_gain": 16,
+  "effective_area_m2": 8e-11,
+  "effective_area_status": "illustrative assumption, not a measured fibre",
+  "N": 19,
+  "k": 6,
+  "coupling_C_per_m": 10,
+  "a_values": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "pulse_cases": [
+    {
+      "T0_ps": 3,
+      "LW_m": 1.81
+    },
+    {
+      "T0_ps": 10,
+      "LW_m": 6.03
+    }
+  ],
+  "formulas": {
+    "gamma": "2*pi*n2/(wavelength*effective_area)",
+    "phi_max": "threshold_gain*2*pi*n2/(wavelength*gR)",
+    "hot_gamma_P": "2*a*C/(k/N)",
+    "P_hot": "hot_gamma_P/gamma",
+    "CW_L_R": "phi_max/hot_gamma_P",
+    "CW_CL_R": "C*CW_L_R",
+    "walkoff_gain": "gR*P_hot*LW/effective_area"
+  },
+  "caveats": [
+    "Undepleted fixed hot-core power; no propagation simulation.",
+    "Neglects temporal reshaping, changing localization, pump-Stokes coupling differences, noise-seed and polarization dependence.",
+    "LW and silica coefficients inherited assumptions; actual device dispersion/couplings not calibrated.",
+    "Threshold gain 16 is an estimate, not universal."
+  ]
+}

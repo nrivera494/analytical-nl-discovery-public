@@ -1,0 +1,8 @@
+{
+  "agent": "gpt-b", "model": "gpt-6-astra", "family": "gpt",
+  "method": "exact SymPy algebra; complex pumps expanded into real coordinates",
+  "normalization": "amplitude decay 1; f=sqrt(2 eta_c) s_in",
+  "pumped_modes_in_symbolic_example": 3,
+  "seed": null,
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-13-gpt-b-novelty-kerr-balance"
+}

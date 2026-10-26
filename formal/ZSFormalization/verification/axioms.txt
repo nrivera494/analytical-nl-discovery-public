@@ -1,0 +1,101 @@
+@[expose] def ZS.SolvesZS : (ℝ → ℂ) → ℂ → (ℝ → ℂ) → (ℝ → ℂ) → Prop :=
+fun q ζ v₁ v₂ =>
+  (∀ (t : ℝ), HasDerivAt v₁ (-Complex.I * ζ * v₁ t + q t * v₂ t) t) ∧
+    ∀ (t : ℝ), HasDerivAt v₂ (-star (q t) * v₁ t + Complex.I * ζ * v₂ t) t
+@[expose] def ZS.IsEigenvalue : (ℝ → ℂ) → ℂ → Prop :=
+fun q ζ =>
+  0 < ζ.im ∧
+    ∃ v₁ v₂,
+      ZS.SolvesZS q ζ v₁ v₂ ∧
+        MeasureTheory.MemLp v₁ 2 MeasureTheory.volume ∧
+          MeasureTheory.MemLp v₂ 2 MeasureTheory.volume ∧ ∃ t, v₁ t ≠ 0 ∨ v₂ t ≠ 0
+@[expose] def ZS.IsSechSource : ℝ → SchwartzMap ℝ ℂ → Prop :=
+fun N g => ZS.PositiveSpectrum g ∧ ∀ (t : ℝ), (FourierTransformInv.fourierInv g) t = ↑(N * ZS.sech t)
+@[expose] def ZS.IsGaussianSource : ℝ → SchwartzMap ℝ ℂ → Prop :=
+fun N g => ZS.PositiveSpectrum g ∧ ∀ (t : ℝ), (FourierTransformInv.fourierInv g) t = ↑(ZS.gaussianPulse N t)
+@[expose] def ZS.sechSource : ℝ → SchwartzMap ℝ ℂ :=
+fun N => FourierTransform.fourier (ZS.sechSchwartz N)
+@[expose] def ZS.gaussianSource : ℝ → SchwartzMap ℝ ℂ :=
+fun N => FourierTransform.fourier (ZS.gaussianSchwartz N)
+@[expose] def ZS.attainableHeights : SchwartzMap ℝ ℂ → Set ℝ :=
+fun g =>
+  {η |
+    ∃ f m ζ,
+      (∀ (ξ : ℝ), ‖m ξ‖ ≤ 1) ∧
+        (∀ (ξ : ℝ), f ξ = m ξ * g ξ) ∧ ZS.IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ ∧ ζ.im = η}
+@[expose] def ZS.sourceEnergy : SchwartzMap ℝ ℂ → ℝ :=
+fun g => ∫ (t : ℝ), ‖(FourierTransformInv.fourierInv g) t‖ ^ 2
+@[expose] def ZS.attainableFractions : SchwartzMap ℝ ℂ → Set ℝ :=
+fun g => {y | ∃ η ∈ ZS.attainableHeights g, y = 4 * η / ZS.sourceEnergy g}
+ZS.passive_source_eigenvalue_bound (k : ℕ) {f g : SchwartzMap ℝ ℂ} (m : ℝ → ℂ) (hg : ZS.PositiveSpectrum g)
+  (hm : ∀ (ξ : ℝ), ‖m ξ‖ ≤ 1) (hf : ∀ (ξ : ℝ), f ξ = m ξ * g ξ) {ζ : ℂ}
+  (hz : ZS.IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ) :
+  (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) * ∫ (s : ℝ) in -1..1, (1 - s ^ 2) ^ k ≤
+    2 * (2 * ↑k + 1) ^ (2 * k + 1) * ∫ (t : ℝ), ‖(FourierTransformInv.fourierInv g) t‖ ^ (2 * k + 2)
+ZS.integer_sech_fraction_optimality (k : ℕ) {g : SchwartzMap ℝ ℂ} (hs : ZS.IsSechSource (↑k + 1) g) :
+  IsGreatest (ZS.attainableFractions g) ((2 * (↑k + 1) - 1) / (↑k + 1) ^ 2)
+ZS.gaussian_source_polynomial_ceiling (k : ℕ) {N : ℝ} (hN : 0 ≤ N) {f g : SchwartzMap ℝ ℂ}
+  (hs : ZS.IsGaussianSource N g) (m : ℝ → ℂ) (hm : ∀ (ξ : ℝ), ‖m ξ‖ ≤ 1) (hf : ∀ (ξ : ℝ), f ξ = m ξ * g ξ) {ζ : ℂ}
+  (hz : ZS.IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ) :
+  (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) * ∫ (s : ℝ) in -1..1, (1 - s ^ 2) ^ k ≤
+    2 * (2 * ↑k + 1) ^ (2 * k + 1) * N ^ (2 * k + 2) * √(Real.pi / (↑k + 1))
+ZS.canonical_integer_sech_optimality (k : ℕ) :
+  IsGreatest (ZS.attainableHeights (ZS.sechSource (↑k + 1))) (↑k + 1 - 1 / 2)
+ZS.canonical_integer_sech_fraction_optimality (k : ℕ) :
+  IsGreatest (ZS.attainableFractions (ZS.sechSource (↑k + 1))) ((2 * (↑k + 1) - 1) / (↑k + 1) ^ 2)
+ZS.canonical_order_four_fraction_optimum : IsGreatest (ZS.attainableFractions (ZS.sechSource 4)) (7 / 16)
+ZS.canonical_sech_polynomial_ceiling (k : ℕ) {N : ℝ} (hN : 0 ≤ N) {f : SchwartzMap ℝ ℂ} (m : ℝ → ℂ)
+  (hm : ∀ (ξ : ℝ), ‖m ξ‖ ≤ 1) (hf : ∀ (ξ : ℝ), f ξ = m ξ * (ZS.sechSource N) ξ) {ζ : ℂ}
+  (hz : ZS.IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ) :
+  (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) ≤ 2 * (2 * ↑k + 1) ^ (2 * k + 1) * N ^ (2 * k + 2)
+ZS.canonical_sech_five_halves_enclosure :
+  2 ∈ ZS.attainableHeights (ZS.sechSource (5 / 2)) ∧
+    ∀ η ∈ ZS.attainableHeights (ZS.sechSource (5 / 2)), η ≤ 2 * (1 + 43672 / 10000000)
+ZS.canonical_sech_seven_halves_enclosure :
+  3 ∈ ZS.attainableHeights (ZS.sechSource (7 / 2)) ∧
+    ∀ η ∈ ZS.attainableHeights (ZS.sechSource (7 / 2)), η ≤ 3 * (1 + 15446 / 10000000)
+ZS.canonical_sech_eleven_halves_enclosure :
+  5 ∈ ZS.attainableHeights (ZS.sechSource (11 / 2)) ∧
+    ∀ η ∈ ZS.attainableHeights (ZS.sechSource (11 / 2)), η ≤ 5 * (1 + 3888 / 10000000)
+ZS.canonical_sech_nineteen_halves_enclosure :
+  9 ∈ ZS.attainableHeights (ZS.sechSource (19 / 2)) ∧
+    ∀ η ∈ ZS.attainableHeights (ZS.sechSource (19 / 2)), η ≤ 9 * (1 + 743 / 10000000)
+ZS.gaussianSource_apply (N ξ : ℝ) :
+  (ZS.gaussianSource N) ξ = ↑(N * √(2 * Real.pi) * Real.exp (-2 * Real.pi ^ 2 * ξ ^ 2))
+ZS.canonical_gaussian_ceiling (k : ℕ) {N : ℝ} (hN : 0 ≤ N) {f : SchwartzMap ℝ ℂ} (m : ℝ → ℂ) (hm : ∀ (ξ : ℝ), ‖m ξ‖ ≤ 1)
+  (hf : ∀ (ξ : ℝ), f ξ = m ξ * (ZS.gaussianSource N) ξ) {ζ : ℂ}
+  (hz : ZS.IsEigenvalue (⇑(FourierTransformInv.fourierInv f)) ζ) :
+  (2 * ↑k + 2) ^ (2 * k + 2) * ζ.im ^ (2 * k + 1) * ∫ (s : ℝ) in -1..1, (1 - s ^ 2) ^ k ≤
+    2 * (2 * ↑k + 1) ^ (2 * k + 1) * N ^ (2 * k + 2) * √(Real.pi / (↑k + 1))
+'ZS.sharp_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.passive_mask_even_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.spinorMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.polarization_differential_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.polarization_tendsto_atBot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.polarization_tendsto_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.eigenvalue_even_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.passive_source_eigenvalue_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sech_even_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sech_source_polynomial_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sech_has_top_eigenvalue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.integer_sech_optimality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.integer_sech_fraction_optimality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.order_four_fraction_optimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sech_five_halves_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sech_seven_halves_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sech_eleven_halves_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sech_nineteen_halves_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.gaussian_source_polynomial_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.sechSource_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_integer_sech_optimality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_integer_sech_fraction_optimality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_order_four_fraction_optimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_sech_polynomial_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.real_sech_has_eigenvalue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_sech_five_halves_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_sech_seven_halves_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_sech_eleven_halves_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_sech_nineteen_halves_enclosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.gaussianSource_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.gaussianSource_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ZS.canonical_gaussian_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,329 @@
+{
+  "run_id": "2026-10-10-gpt-b-soliton-anchor",
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "sources": {
+    "native_50ps/batch_cells03.json": {
+      "best_binary_found": 0.1213382559711846,
+      "best_interval": 0.12551173885131417,
+      "active_bins": 80,
+      "discarded_mean_fraction": 0.0,
+      "starts": 64,
+      "annealing_sweeps": 4,
+      "steps_per_sweep": 10000,
+      "seed": 20261010,
+      "global_optimality_certified": false,
+      "lambda_min": 0.03941012393529419,
+      "lambda_gen": 0.07600559228618198,
+      "lambda_pass": 0.039629072632791945,
+      "lambda_min_dB": -14.043921993812951,
+      "lambda_gen_dB": -11.191544523286915,
+      "lambda_pass_dB": -14.019860905518446,
+      "best_binary_found_dB": -9.160022515836147,
+      "best_interval_dB": -9.013156536257,
+      "gap_gen_to_binary_dB": 2.031522007450768,
+      "gap_min_to_binary_dB": 4.883899477976804,
+      "best_binary_Raman_part": 0.06760915932103385,
+      "best_binary_vacuum_part": 0.05372909665015145,
+      "full_selected_F": 0.9999836294334704,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "output_band_halfwidth": 12.0,
+      "output_band_center": -5.44302477633898,
+      "output_bins": 80,
+      "underlying_output_bins": 1531,
+      "filter_cell_width": 0.3,
+      "output_mean_fraction": 0.9999995155736363,
+      "n": 32768,
+      "dt_fs": 1.5258789062499998,
+      "nsteps": 2500,
+      "source_stride": 5,
+      "wall_time_s": 4955.491894625,
+      "validation": {
+        "discrete_adjoint_dot_relative_error": 3.628077621686998e-10,
+        "native_mean_relative_error": 3.861671859479687e-11
+      },
+      "eigenvalues_are_for_declared_output_band": true,
+      "config": {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "raw_location": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/native_50ps",
+        "raman_helper": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/raman_bath_spectrum.jl",
+        "nt": 32768,
+        "T0_ps": 0.12480519228171619,
+        "window_over_T0": 400.62435773615596,
+        "z_over_LD": 13.225189783348219,
+        "beta2_ps2_per_m": -0.0206,
+        "beta3_ps3_per_m": 8.1038e-05,
+        "lambda0_nm": 1550.0,
+        "raman_fraction": 0.18,
+        "temperature_K": 300.0,
+        "nsteps": 2500,
+        "source_slices": 500,
+        "edge": 0.7368,
+        "N": 1.9689720577167,
+        "mask_file": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/archive_masks_50ps.csv"
+      }
+    },
+    "optimized_readout_2mm.json": {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "config": {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "raw_location": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/native_50ps",
+        "raman_helper": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/raman_bath_spectrum.jl",
+        "nt": 32768,
+        "T0_ps": 0.12480519228171619,
+        "window_over_T0": 400.62435773615596,
+        "z_over_LD": 13.225189783348219,
+        "beta2_ps2_per_m": -0.0206,
+        "beta3_ps3_per_m": 8.1038e-05,
+        "lambda0_nm": 1550.0,
+        "raman_fraction": 0.18,
+        "temperature_K": 300.0,
+        "nsteps": 5000,
+        "source_slices": 500,
+        "edge": 0.7368,
+        "N": 1.9689720577167,
+        "mask_file": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/archive_masks_50ps.csv"
+      },
+      "mask_path": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/native_50ps/batch_cells03_masks.csv",
+      "nsteps": 5000,
+      "source_stride": 2,
+      "wall_time_s": 153.439061709,
+      "validation": {
+        "discrete_adjoint_dot_relative_error": 1.0523163802325862e-09
+      },
+      "rows": [
+        {
+          "column": 3,
+          "F_vacuum": 0.05373613915766071,
+          "F_Raman": 0.06760833484350891,
+          "F_total": 0.12134447400116963,
+          "dB": -9.159799965503728
+        }
+      ]
+    },
+    "readout_2mm.json": {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "config": {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "raw_location": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/native_50ps",
+        "raman_helper": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/raman_bath_spectrum.jl",
+        "nt": 32768,
+        "T0_ps": 0.12480519228171619,
+        "window_over_T0": 400.62435773615596,
+        "z_over_LD": 13.225189783348219,
+        "beta2_ps2_per_m": -0.0206,
+        "beta3_ps3_per_m": 8.1038e-05,
+        "lambda0_nm": 1550.0,
+        "raman_fraction": 0.18,
+        "temperature_K": 300.0,
+        "nsteps": 5000,
+        "source_slices": 500,
+        "edge": 0.7368,
+        "N": 1.9689720577167,
+        "mask_file": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/archive_masks_50ps.csv"
+      },
+      "mask_path": "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-anchor/archive_masks_50ps.csv",
+      "nsteps": 5000,
+      "source_stride": 2,
+      "wall_time_s": 385.59379629100005,
+      "validation": {
+        "discrete_adjoint_dot_relative_error": 1.0523163802325862e-09
+      },
+      "rows": [
+        {
+          "column": 2,
+          "F_vacuum": 0.2266080370170696,
+          "F_Raman": 0.07180039056516188,
+          "F_total": 0.2984084275822315,
+          "dB": -5.2518891578122116
+        }
+      ]
+    },
+    "window10ps_status.json": {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "status": "diagnostic only; batch interrupted after native disagreement with archive",
+      "reason": "50 ps window and original filter frequency bins required for comparison; source and mask/window errors not yet separated"
+    },
+    "window_mean_check.json": {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "time_grid_max_mismatch": 0.0,
+      "central_window_relative_field_error": 3.378838404203336e-09,
+      "central_window_phase_aligned_error": 3.3788380867158463e-09,
+      "phase_alignment_radians": -1.4648287104388487e-12,
+      "power_fraction_outside_50ps": 1.1417377264840224e-17,
+      "scope": "50 versus 100 ps at the same 0.76294 fs sample and 2 mm step. Filter outputs also differ in frequency-bin spacing, so this mean check alone cannot attribute their Fano difference.",
+      "outside_fraction_by_total_subtraction": 0.0
+    },
+    "native_100ps_optimized/native_summary.toml": {
+      "family": "gpt",
+      "dt_fs": 0.7629394531249999,
+      "model": "gpt-6-astra",
+      "adjoint_mode": "discrete_rk4ip",
+      "solver_dirty": false,
+      "L_m": 10.000000000000002,
+      "wall_time_s": 946.5599980354309,
+      "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+      "agent": "gpt-b",
+      "dz_m": 0.0020000000000000005,
+      "P0_W": 942.956031552728,
+      "rows": [
+        {
+          "F_Raman": 0.06756311433082311,
+          "F_total": 0.12113803414924135,
+          "dB": -9.167194784279108,
+          "mask_column": 1,
+          "mean_photons": 5671211840.953572,
+          "F_vacuum": 0.05357491981841823
+        }
+      ]
+    },
+    "native_10ps/native_summary.toml": {
+      "family": "gpt",
+      "dt_fs": 2.44140625,
+      "model": "gpt-6-astra",
+      "adjoint_mode": "discrete_rk4ip",
+      "solver_dirty": false,
+      "L_m": 10.000000000000002,
+      "wall_time_s": 113.07284617424011,
+      "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+      "agent": "gpt-b",
+      "dz_m": 0.0020000000000000005,
+      "P0_W": 942.956031552728,
+      "rows": [
+        {
+          "F_Raman": 9.86818771494156e-15,
+          "F_total": 1.000000427494524,
+          "dB": 1.8565847313409896e-06,
+          "mask_column": 1,
+          "mean_photons": 7120237269.347385,
+          "F_vacuum": 1.0000004274945142
+        },
+        {
+          "F_Raman": 0.12458884329381162,
+          "F_total": 0.484673014718907,
+          "dB": -3.1455115994491534,
+          "mask_column": 2,
+          "mean_photons": 5118674894.334246,
+          "F_vacuum": 0.3600841714250954
+        }
+      ]
+    },
+    "native_50ps/native_summary.toml": {
+      "family": "gpt",
+      "dt_fs": 1.5258789062499998,
+      "model": "gpt-6-astra",
+      "adjoint_mode": "discrete_rk4ip",
+      "solver_dirty": false,
+      "L_m": 10.000000000000002,
+      "wall_time_s": 429.58257699012756,
+      "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+      "agent": "gpt-b",
+      "dz_m": 0.004000000000000001,
+      "P0_W": 942.956031552728,
+      "rows": [
+        {
+          "F_Raman": 2.2081298368544365e-12,
+          "F_total": 1.0000069835989407,
+          "dB": 3.0329278934037164e-05,
+          "mask_column": 1,
+          "mean_photons": 7120240569.991363,
+          "F_vacuum": 1.0000069835967325
+        },
+        {
+          "F_Raman": 0.07179361042598728,
+          "F_total": 0.2984224742074102,
+          "dB": -5.25168473234472,
+          "mask_column": 2,
+          "mean_photons": 4684735138.401782,
+          "F_vacuum": 0.2266288637814229
+        }
+      ]
+    },
+    "native_50ps_optimized/native_summary.toml": {
+      "family": "gpt",
+      "dt_fs": 1.5258789062499998,
+      "model": "gpt-6-astra",
+      "adjoint_mode": "discrete_rk4ip",
+      "solver_dirty": false,
+      "L_m": 10.000000000000002,
+      "wall_time_s": 202.08056807518005,
+      "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+      "agent": "gpt-b",
+      "dz_m": 0.004000000000000001,
+      "P0_W": 942.956031552728,
+      "rows": [
+        {
+          "F_Raman": 0.06760915932189464,
+          "F_total": 0.12133825596964865,
+          "dB": -9.160022515891121,
+          "mask_column": 1,
+          "mean_photons": 5671083159.467905,
+          "F_vacuum": 0.053729096647754014
+        }
+      ]
+    },
+    "native_50ps_optimized_fine/native_summary.toml": {
+      "family": "gpt",
+      "dt_fs": 0.7629394531249999,
+      "model": "gpt-6-astra",
+      "adjoint_mode": "discrete_rk4ip",
+      "solver_dirty": false,
+      "L_m": 10.000000000000002,
+      "wall_time_s": 487.5014979839325,
+      "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+      "agent": "gpt-b",
+      "dz_m": 0.0020000000000000005,
+      "P0_W": 942.956031552728,
+      "rows": [
+        {
+          "F_Raman": 0.06754953769109166,
+          "F_total": 0.12170967041170733,
+          "dB": -9.146749136385422,
+          "mask_column": 1,
+          "mean_photons": 5670229530.304441,
+          "F_vacuum": 0.054160132720615664
+        }
+      ]
+    },
+    "native_50ps_optimized_finest/native_summary.toml": {
+      "family": "gpt",
+      "dt_fs": 0.38146972656249994,
+      "model": "gpt-6-astra",
+      "adjoint_mode": "discrete_rk4ip",
+      "solver_dirty": false,
+      "L_m": 10.000000000000002,
+      "wall_time_s": 981.9745798110962,
+      "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+      "agent": "gpt-b",
+      "dz_m": 0.0020000000000000005,
+      "P0_W": 942.956031552728,
+      "rows": [
+        {
+          "F_Raman": 0.06752913554502893,
+          "F_total": 0.1218100815973043,
+          "dB": -9.143167658830704,
+          "mask_column": 1,
+          "mean_photons": 5670018510.725357,
+          "F_vacuum": 0.054280946052275375
+        }
+      ]
+    }
+  }
+}

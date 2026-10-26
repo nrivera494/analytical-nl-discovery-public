@@ -1,0 +1,95 @@
+agent = "gpt-b"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261004-claude-interactive-08"
+raw_location = "~/analytical-nl-discovery-data/2026-10-04-gpt-b-soliton-baselines"
+
+[[trace]]
+name = "base"
+n = 256
+window = 40.0
+h = 0.02
+epsilon = 0.00003
+zmax = 12.0
+save_every = 0.2
+
+[[trace]]
+name = "step"
+n = 256
+window = 40.0
+h = 0.01
+epsilon = 0.00003
+zmax = 12.0
+save_every = 0.2
+
+[[trace]]
+name = "resolution"
+n = 512
+window = 40.0
+h = 0.02
+epsilon = 0.00003
+zmax = 12.0
+save_every = 0.2
+
+[[trace]]
+name = "window"
+n = 384
+window = 60.0
+h = 0.02
+epsilon = 0.00003
+zmax = 12.0
+save_every = 0.2
+
+[[trace]]
+name = "epsilon"
+n = 256
+window = 40.0
+h = 0.02
+epsilon = 0.000015
+zmax = 12.0
+save_every = 0.2
+
+[drift]
+n = 512
+window = 40.0
+h = 0.01
+h_splitstep = 0.0025
+t0_ps = [0.1, 0.2, 0.4, 0.8, 1.6]
+zmax = 4.0
+save_every = 0.1
+
+[source_checks]
+n = 256
+window = 40.0
+t0_ps = 0.5
+gamma_W_m = 0.0013
+beta2_ps2_m = -0.021
+temperatures_K = [0, 77, 300]
+n_samples = 8192
+seed = 2026100408
+
+[stochastic]
+n = 256
+window = 40.0
+h = 0.02
+t0_ps = 0.5
+gamma_W_m = 0.0013
+beta2_ps2_m = -0.021
+temperature_K = 300
+alpha_G = 0.1
+ntraj = 2048
+seed = 820261004
+sources = ["vacuum", "gain", "raman", "raman_delayed"]
+zmax = 8.0
+save_every = 0.2
+
+[crosscheck]
+n = 256
+window = 40.0
+h = 0.01
+h_splitstep = 0.0025
+zmax = 12.0
+save_every = 0.2
+epsilon = 0.00003
+nprobes = 24
+seed = 8261004

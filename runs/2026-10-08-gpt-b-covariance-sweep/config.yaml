@@ -1,0 +1,35 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance.py
+inputs: 2026-10-08-gpt-b-covariance-material
+nt: 512
+window: 48.0
+T0_ps: 0.5
+temperature_K: 300.0
+seed: null
+ntraj: null
+scope: Stationary unequal-shape family and source quadratures; proposer calculation
+fractions:
+- 0.03
+- 0.1
+- 0.2
+- 0.4
+energy: 2.0
+gain_complex_psd_over_q:
+- 0.1
+- 0.1
+mode_pairs:
+- grin02
+- grin11
+- step11
+- declared Manakov
+parameter_sets:
+- equal GVD, delta=1
+- actual modal GVD and walk-off
+secondary_Manakov_comparison: kappa=(p^T C p)/(sum p_m b_m); C_M=kappa, b_M=1, isotropic
+  Raman Gram scaled by kappa
+BVP_tolerance: 2.0e-10
+half_window: 24.0
+max_BVP_nodes: 30000
+constrained_Hessian_cases: All three physical pairs at fractions 0.2 and 0.4

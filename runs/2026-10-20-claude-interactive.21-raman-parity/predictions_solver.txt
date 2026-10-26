@@ -1,0 +1,5 @@
+# closed-form first-order slopes dN_p/dz (W/m) with the solver's own sampled Raman kernel, written before any solver propagation
+# sum(h)*dt of the solver kernel = 0.9897294010543781
+b_symmetric_photon_shock -43.9846 21.9923 21.9923
+c_centroid_offset 538.4920 -269.2460 -269.2460
+d_heldout_offset_widths -210.6890 152.3711 58.3179

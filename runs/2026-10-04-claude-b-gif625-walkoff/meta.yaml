@@ -1,0 +1,19 @@
+run_id: 2026-10-04-claude-b-gif625-walkoff
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+date: 2026-10-04
+task: T-20261004-root-02
+serves: "Review of P-20261004-root-03 and P-20261004-claude-interactive-01: walk-off parameter delta of the proposed lab configuration (GIF625, 1550 nm, 0.4 ps sech); partial input to T-20261004-claude-b-03"
+description: "Modal group-delay differences, beta2, walk-off parameter delta = dbeta1*T0/|beta2| and weak-sech captured fraction for nominal GIF625 (ideal parabolic GRIN, a = 31.25 um, NA = 0.275, Malitson silica) at 1400 and 1550 nm. Python/mpmath re-implementation of the solver's analytic _grin_beta; checked against the archive's solver export at 1400 nm."
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_usage: "Formula re-implemented from solver/src/mmgnlse_fibers.jl (_grin_beta, silica_refractive_index) at this commit; the solver itself was not executed."
+software: "Python 3.9.6, mpmath 1.3.0 (50 digits)"
+hardware: "Apple M5 (macOS), single core"
+wall_time_s: 1
+inputs: "None besides constants in config.py; archive comparison values copied from research_runs/2026-09-26_analytics/inputs/multimode_1400.toml (read-only archive)."
+outputs: "summary.json (all numbers); no raw data"
+raw_location: "none (no raw output; summary.json holds everything)"
+checks: "max relative difference from the archive's 1400 nm solver export (dbeta1 of LP02 and LP03; beta2 of LP01, LP02, LP03): 2.2e-9"
+caveats: "Nominal ideal-parabolic profile without profile dispersion; a measured GIF625 index profile can give different modal group delays (T-20261004-claude-b-03)."

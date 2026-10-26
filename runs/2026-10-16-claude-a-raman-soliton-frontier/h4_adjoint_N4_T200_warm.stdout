@@ -1,0 +1,5 @@
+gradcheck N4_T0200_M16_warm coef 2: adjoint 1.305741e-03  finite-diff 1.305741e-03  rel.err 4.95e-10
+gradcheck N4_T0200_M16_warm coef 3: adjoint -2.779158e-03  finite-diff -2.779158e-03  rel.err 1.08e-09
+N4_T0200_M16_warm TL windowed fraction J_TL = 0.647032
+N4_T0200_M16_warm start warm: J_opt = 0.698934  ratio 1.08022  iters 30  evals 45  |g| 4.00e-03  wall 1633 s
+N4_T0200_M16_warm BEST J = 0.698934  headroom (windowed energy) 1.08022

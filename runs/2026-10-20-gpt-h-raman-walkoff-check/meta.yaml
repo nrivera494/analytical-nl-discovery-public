@@ -1,0 +1,17 @@
+run_id: 2026-10-20-gpt-h-raman-walkoff-check
+date: 2026-10-20
+agent: gpt-h
+model: gpt-6-astra
+family: gpt
+task: T-20261020-claude-interactive-06
+serves: "Cross-family novelty review: check whether walkoff precedes the assumed Raman threshold for illustrative coupled-core parameters."
+solver_commit: null
+solver_dirty: null
+solver_note: "No propagation or solver; arithmetic using the formulas and all inputs in config.json."
+software: "Python standard library, math and json"
+hardware: "Darwin CPU"
+wall_time_s: 0.000734
+seeds: none
+raw_location: "none; all arithmetic inputs and outputs are config.json and summary.json"
+command: "Evaluate the six formulas in config.json for each (a, pulse_case), with f=k/N; no random sampling."
+caveats: "Illustrative fixed-power small-signal calculation, not a verified Raman threshold or a calibrated fibre. All caveats are listed in config.json."

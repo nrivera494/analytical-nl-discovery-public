@@ -1,0 +1,15 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-d-julia-cutoff-edge",
+  "input_data": "~/analytical-nl-discovery-data/2026-10-16-gpt-d-julia-cutoff-edge/inputs.npz",
+  "script": "../2026-10-16-gpt-d-loss-edge-audit/julia_check.jl",
+  "nt": 8192,
+  "dt_ps": 0.003,
+  "L_m": 20.0,
+  "dz_m": 0.02,
+  "method": "RK4IP",
+  "precision": "float64",
+  "source_config": "../2026-10-16-gpt-d-cutoff-edge/config.yaml"
+}

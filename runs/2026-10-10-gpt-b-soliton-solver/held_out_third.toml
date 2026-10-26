@@ -1,0 +1,19 @@
+agent = "gpt-b"
+model = "gpt-6-astra"
+family = "gpt"
+raw_location = "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/held_out_third"
+raman_helper = "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/raman_bath_spectrum.jl"
+nt = 8192
+T0_ps = 0.4
+window_over_T0 = 40.0
+z_over_LD = 5.1
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.000081038
+lambda0_nm = 1550.0
+raman_fraction = 0.18
+temperature_K = 225.0
+nsteps = 1600
+source_slices = 400
+edge = 0.7368
+
+export_only = true

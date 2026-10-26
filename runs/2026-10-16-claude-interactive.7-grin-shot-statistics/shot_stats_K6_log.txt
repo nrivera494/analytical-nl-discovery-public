@@ -1,0 +1,14 @@
+z=   1: med relvar excited q1e10 1.50e-06  q1e4 5.76e-01  deph 5.80e-01 | f0 relvar q1e10 9.12e-11 q1e4 7.63e-05 deph 7.73e-04 | 1s
+z=   2: med relvar excited q1e10 4.11e-07  q1e4 3.19e-01  deph 6.82e-01 | f0 relvar q1e10 1.23e-10 q1e4 1.00e-04 deph 2.65e-03 | 2s
+z=   5: med relvar excited q1e10 2.43e-07  q1e4 2.45e-01  deph 7.57e-01 | f0 relvar q1e10 2.48e-10 q1e4 2.12e-04 deph 5.71e-03 | 6s
+z=  10: med relvar excited q1e10 5.19e-08  q1e4 5.44e-02  deph 7.95e-01 | f0 relvar q1e10 1.32e-10 q1e4 1.33e-04 deph 4.67e-03 | 12s
+z=  20: med relvar excited q1e10 2.24e-08  q1e4 2.43e-02  deph 7.97e-01 | f0 relvar q1e10 1.18e-10 q1e4 1.19e-04 deph 2.25e-03 | 24s
+z=  30: med relvar excited q1e10 3.26e-08  q1e4 3.73e-02  deph 8.72e-01 | f0 relvar q1e10 7.83e-11 q1e4 7.16e-05 deph 2.02e-03 | 36s
+z=  50: med relvar excited q1e10 5.97e-08  q1e4 6.22e-02  deph 8.86e-01 | f0 relvar q1e10 4.37e-11 q1e4 4.15e-05 deph 1.79e-03 | 59s
+z=  75: med relvar excited q1e10 7.29e-08  q1e4 8.60e-02  deph 8.10e-01 | f0 relvar q1e10 3.61e-10 q1e4 3.18e-04 deph 1.88e-03 | 87s
+z= 100: med relvar excited q1e10 8.15e-08  q1e4 9.01e-02  deph 8.66e-01 | f0 relvar q1e10 1.44e-10 q1e4 1.62e-04 deph 1.07e-03 | 120s
+z= 150: med relvar excited q1e10 2.97e-07  q1e4 2.76e-01  deph 8.48e-01 | f0 relvar q1e10 6.25e-10 q1e4 5.28e-04 deph 1.67e-03 | 209s
+z= 200: med relvar excited q1e10 1.45e-06  q1e4 7.69e-01  deph 8.90e-01 | f0 relvar q1e10 3.41e-09 q1e4 1.37e-03 deph 1.43e-03 | 294s
+z= 250: med relvar excited q1e10 1.51e-05  q1e4 8.67e-01  deph 8.71e-01 | f0 relvar q1e10 4.50e-09 q1e4 3.54e-03 deph 1.55e-03 | 372s
+z= 300: med relvar excited q1e10 6.00e-05  q1e4 8.14e-01  deph 8.62e-01 | f0 relvar q1e10 3.67e-09 q1e4 1.48e-03 deph 1.15e-03 | 448s
+Dirichlet reference {'g2_excited': 1.9047619047619047, 'I0_mean': np.float64(0.7815), 'I0_relvar': np.float64(0.0015362064610335879)} wall 448.3663318157196

@@ -1,0 +1,14 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-roy-reference
+source: https://journals.aps.org/pra/pdf/10.1103/PhysRevA.79.023824
+page_index: 3
+frame_drawing: 18
+full_drawing: 32
+tod_drawing: 30
+frequency_frame_drawing: 2
+frequency_full_drawing: 14
+frequency_axis:
+- 1
+- 5.5

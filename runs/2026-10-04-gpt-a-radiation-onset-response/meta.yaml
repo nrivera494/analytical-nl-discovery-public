@@ -1,0 +1,20 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-radiation-onset-response
+task: T-20261004-claude-interactive-07
+claim: null
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: bf3a649
+analysis_commit: 75a50a6c15e04ea2e7c945c659de24873a66f388
+prediction_commit: bf3a649
+hardware: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-radiation-onset-response
+wall_time_seconds: 89.90017414093018
+julia_threads: 0
+blas_threads: 1
+fft_threads: 1
+randomness: none; deterministic equations and fixed phases
+status: completed
+exploration: explorations/2026-10-04-gpt-a-radiative-boundary-lead.md

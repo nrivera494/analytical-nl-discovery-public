@@ -1,0 +1,19 @@
+# Run 2026-10-17-claude-interactive.8-sech-tightness: verification of C-20261017-gpt-d-01 by claude-interactive.8.
+# Units tau1 = 1, r = tau1/tau2, x = T/tau1, T = sech scale. Oscillator h = (a^2+b^2) e^{-at} sin(bt)/b, a = r, b = 1.
+# Held-out points and tolerances frozen in predictions.md / predictions.json at commit f784fed, before any check ran.
+freeze_predictions.py: "evaluates only the claimed closed form and asymptotes at the verifier's held-out points -> predictions.json"
+check_exact.py: "(0) Laplace transform of the sech difference density q(v) = (v coth v - 1)/sinh^2 v against (1-s)/2 + s^2 psi_1(1+s/2)/4 at 5 complex s, and int v q = 1/2; (1) closed form vs spectral quadrature (positive integrand) and autocorrelation quadrature at 48 held-out (r, x); (2) long-pulse exponents, 8 log-spaced x in [50, 400], r in {0.1, 0.2275, 0.45, 1, 2.5, 5}; C3 extrapolation; general remainder bound |R| <= 16 mu5abs/(225 k T^7) at r in {0.2275, 1, 5}, x in {3, 10, 30}; (3) short-pulse exponents, 8 log-spaced x in [1e-4, 1e-2]"
+check_exact_bugfix: "first execution had a sign error in the verifier's short residual (1-rho-2rx-c2 x^2 instead of +c2 x^2), giving slope 2; fixed and rerun; the frozen prediction was not changed"
+solver_selftest.py: "gnlse_pc.py tests: NLSE soliton over 5 soliton periods (shape error vs step), Kerr+shock energy and photon conservation, Raman N=3 photon conservation, identity residual, launch-plane rho vs closed form"
+run_sech_snapshots.py: "sech launches, N=1, material A (SMF-28 surrogate: 1550 nm, n2 2.6e-20, Aeff 80 um^2, beta2 -21.7 ps^2/km, beta3 0.127 ps^3/km, fR 0.18, tau1 12.2 fs, tau2 32 fs) and material B (fluoride surrogate, all assumed: 2.8 um, n2 2.1e-20, Aeff 50 um^2, beta2 -60 ps^2/km, beta3 0.3 ps^3/km, fR 0.2, tau1 9.1 fs, tau2 40 fs); FWHM {5,10,20,30,50,100,200,300} fs; grid n = 8192, dt = FWHM/40; rho from the nonlinear RHS at z = 0 and from a 3-point Richardson finite difference of E(z) over steps h, 2h, 4h with h = 2e-3 L_D; sampled-kernel repeats at 100 and 300 fs. Held out: A 10, 50, 200 fs and all of B. 5 fs is formal (omega0 T0 = 1.9-3.4)"
+extra_checks.py: "Chen et al. arXiv:2603.21734 Eq. (2) kernel (as transcribed by subagent claude-interactive.8.1) against (15/4)(-q'); closed form vs quadrature at r = 0.01, 20"
+cancellation_check.py: "gap-ratio slope (1-rho)/(2 r x) - 1 near the short-pulse cancellation r = 1/sqrt3 and at r = 0.6 (the proposer's retained finite-window failure), four x windows from [1e-5, 1e-4] to [2e-3, 1.6e-2]; run after the audit report was committed"
+make_figure.py: "fig_summary.png; sech tracking of propagated N=1 solitons A1 (30 fs) and A2 (300 fs): rho(z)/rho_closed(T_eff), T_eff = 1/(3Q), 81 planes each"
+commands:
+  - "~/agent-work/venv/bin/python freeze_predictions.py"
+  - "~/agent-work/venv/bin/python check_exact.py"
+  - "~/agent-work/venv/bin/python solver_selftest.py"
+  - "~/agent-work/venv/bin/python -W ignore run_sech_snapshots.py"
+  - "~/agent-work/venv/bin/python extra_checks.py"
+  - "~/agent-work/venv/bin/python cancellation_check.py"
+  - "~/agent-work/venv/bin/python -W ignore make_figure.py   # after run ...-concentration"

@@ -1,0 +1,127 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-13-gpt-b-novelty-literature",
+  "run_type": "literature-source-audit",
+  "interpretation": "Source-reported quantities transcribed and their metric/scope checked; no experimental data or author simulations reproduced. Original unregistered scratch values remain superseded, not active evidence.",
+  "counts": {
+    "active_bibliography_rows": 98,
+    "cached_pdf_files": 67,
+    "recorded_query_batches": 24
+  },
+  "reported_literature_values": [
+    {
+      "source": "arXiv:2608.09346",
+      "access": "full text",
+      "location": "PDF pp. 7-8, Eq. (4), Fig. 4 and conversion measurement",
+      "values": {
+        "mean_mode_fraction_percent": 96.8,
+        "mode_fraction_uncertainty_percent": 1.7,
+        "mode_fraction_pump_mW": 2.0,
+        "tested_HG_orders": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "output_filter_THz": 0.1,
+        "internal_conversion_percent": 89.6,
+        "conversion_uncertainty_percent": 0.1,
+        "conversion_pump_mW": 20
+      },
+      "interpretation": "Different pump settings; finite input basis and output filtering; conversion inferred from input depletion. These values cannot be multiplied to infer full-operator Reddy selectivity."
+    },
+    {
+      "source": "arXiv:1305.2165; DOI 10.1364/OE.21.013840",
+      "access": "full text",
+      "location": "PDF pp. 7, 10, 18 and 21",
+      "values": {
+        "low_conversion_coefficient": 0.967,
+        "specific_Gaussian_maximum": 0.81,
+        "survey_best_approximate": 0.83,
+        "short_pump_asymptote_approximate": 0.85
+      },
+      "interpretation": "Author numerical examples and asymptotic numerical observations; not reproduced here and not a proven all-pump constant."
+    },
+    {
+      "source": "arXiv:2109.01280; DOI 10.1038/s41467-022-30774-x",
+      "access": "full text",
+      "location": "PDF p. 14, supplementary section V and Eq. (6)",
+      "values": {
+        "internal_efficiency_ceiling": 0.25
+      },
+      "interpretation": "External efficiency equals (2K/(K+1))^2 times internal efficiency, giving the squared external-coupling fraction ceiling."
+    },
+    {
+      "source": "arXiv:1805.11228; DOI 10.1038/s41566-019-0436-0",
+      "access": "full text",
+      "location": "PDF pp. 10-11, Fig. 5 and discussion",
+      "values": {
+        "lossless_simulated_pump_excluded_conversion_percent": 94.2,
+        "finite_loss_projection_percent_approximate": 80,
+        "intrinsic_Q_for_projection": 10000000.0
+      },
+      "interpretation": "Coupled-cavity simulations/projections; not a uniform single-ring efficiency test. Simulation not reproduced."
+    },
+    {
+      "source": "arXiv:2209.03707; DOI 10.1103/PhysRevA.107.063508",
+      "access": "full text",
+      "location": "PDF pp. 3-4",
+      "values": {
+        "dispersion_threshold_quoted": 0.45,
+        "drive_below_which_ansatz_inaccurate": 2
+      },
+      "interpretation": "Author explicitly limits soliton-ansatz accuracy at low drive; formal unity is not a certified exact-state optimum."
+    },
+    {
+      "source": "arXiv:1505.02880; DOI 10.1364/OPTICA.3.000233",
+      "access": "full text",
+      "location": "PDF p. 2, Table I",
+      "values": {
+        "reported_dimensionless_overlap": [
+          0.018,
+          0.02,
+          0.03
+        ]
+      },
+      "interpretation": "Achieved designs under the paper normalization, not universal bounds; no Maxwell replication."
+    },
+    {
+      "source": "arXiv:2412.11111; DOI 10.1126/sciadv.adu7605",
+      "access": "full text",
+      "location": "PDF pp. 2-3",
+      "values": {
+        "on_chip_SHG_efficiency_percent": 61.3
+      },
+      "interpretation": "Source-reported experiment in a particular microresonator; not an all-geometry limit."
+    },
+    {
+      "source": "arXiv:2312.10719",
+      "access": "full text",
+      "location": "PDF p. 3, Eqs. (11)-(12) and Table I",
+      "values": {
+        "cavities": 4,
+        "F1": 0.998,
+        "F2": 0.991,
+        "FCZ": 0.991
+      },
+      "interpretation": "Paper uses overlap-amplitude fidelity definitions. Do not equate directly with average process fidelity from other papers; emitter/cavity model outside bulk Kerr."
+    },
+    {
+      "source": "arXiv:1604.04278; DOI 10.1103/PhysRevLett.117.080502",
+      "access": "full text",
+      "location": "Abstract and main gate-fidelity discussion",
+      "values": {
+        "sites": 12,
+        "average_gate_fidelity_exceeds": 0.99
+      },
+      "interpretation": "Discrete counterpropagating interaction-site model with specified waveform corrections, not a universal transparent-bulk result."
+    }
+  ],
+  "numerical_audit_runs": [
+    "2026-10-13-gpt-b-novelty-poling-trace",
+    "2026-10-13-gpt-b-novelty-kerr-balance"
+  ]
+}

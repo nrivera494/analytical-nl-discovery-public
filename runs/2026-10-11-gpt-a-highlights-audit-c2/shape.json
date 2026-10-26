@@ -1,0 +1,160 @@
+{
+  "provenance": {
+    "agent": "gpt-a",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "raw": "~/analytical-nl-discovery-data/2026-10-11-gpt-a-highlights-audit-c2/c2-shape-e05-u6.json",
+  "eps": 0.05,
+  "gL": 6.0,
+  "nt": 8192.0,
+  "steps": 11370.0,
+  "forward_wall_seconds": 199.58182907104492,
+  "energy_error": 1.2504899269183412e-05,
+  "edge_time": 2.236829160411454e-18,
+  "edge_freq": 1.8796044941538345e-31,
+  "modes": [
+    {
+      "l": 0,
+      "max_block_relative_error": 0.00073020982621426,
+      "endpoint_block_relative_error": 0.0006915359788402823,
+      "endpoint_determinant": 1.0000411078188391,
+      "endpoint_map": [
+        [
+          1.0000000436592795,
+          18.99761116310995
+        ],
+        [
+          1.1399265836307031e-10,
+          1.000041066323355
+        ]
+      ],
+      "endpoint_prediction": [
+        [
+          1.0,
+          19.010794073013308
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "l": 1,
+      "max_block_relative_error": 0.002069082725882485,
+      "endpoint_block_relative_error": 0.0009216827908693139,
+      "endpoint_determinant": 0.9999990416227463,
+      "endpoint_map": [
+        [
+          -7.293483494364459,
+          10.555396922050008
+        ],
+        [
+          -0.3780443276058299,
+          0.4100110588715159
+        ]
+      ],
+      "endpoint_prediction": [
+        [
+          -7.301929539224727,
+          10.563702628629178
+        ],
+        [
+          -0.3781702664099856,
+          0.4101488820531809
+        ]
+      ]
+    },
+    {
+      "l": 2,
+      "max_block_relative_error": 0.0032276330938423112,
+      "endpoint_block_relative_error": 0.0022218716082282484,
+      "endpoint_determinant": 1.0043161174918163,
+      "endpoint_map": [
+        [
+          -8.657851309083798,
+          1.2227374396178738
+        ],
+        [
+          -0.1301184560362813,
+          -0.0976241540235491
+        ]
+      ],
+      "endpoint_prediction": [
+        [
+          -8.66500502137525,
+          1.2407989945287936
+        ],
+        [
+          -0.1294696388302732,
+          -0.09686713397703103
+        ]
+      ],
+      "measured_decay": 0.333161879575719,
+      "measured_frequency": 0.4700321951552458,
+      "predicted_decay": 0.3333333333333333,
+      "predicted_frequency": 0.47140452079103173
+    },
+    {
+      "l": 3,
+      "max_block_relative_error": 0.07454011989220148,
+      "endpoint_block_relative_error": 0.06571749644167867,
+      "endpoint_determinant": 0.9838459043854173,
+      "endpoint_map": [
+        [
+          1.0874963117710703,
+          -2.2315585667305253
+        ],
+        [
+          0.48613504652276684,
+          -0.09286737083818795
+        ]
+      ],
+      "endpoint_prediction": [
+        [
+          1.2569030902749176,
+          -2.2688409022635385
+        ],
+        [
+          0.49332040428356216,
+          -0.0948883904285959
+        ]
+      ],
+      "measured_decay": 0.3337549345454317,
+      "measured_frequency": 0.7447423628371264,
+      "predicted_decay": 0.3333333333333333,
+      "predicted_frequency": 0.7453559924999299
+    },
+    {
+      "l": 4,
+      "max_block_relative_error": 0.2021854070229227,
+      "endpoint_block_relative_error": 0.05213686383729569,
+      "endpoint_determinant": 0.9549541307296902,
+      "endpoint_map": [
+        [
+          7.3688252089671655,
+          -0.5087788154154932
+        ],
+        [
+          0.21577392076334467,
+          0.11469574958809761
+        ]
+      ],
+      "endpoint_prediction": [
+        [
+          7.772466309632364,
+          -0.552201333817387
+        ],
+        [
+          0.19651425100236028,
+          0.11469777197683206
+        ]
+      ],
+      "measured_decay": 0.33258793948030757,
+      "measured_frequency": 1.0021511767081912,
+      "predicted_decay": 0.3333333333333333,
+      "predicted_frequency": 1.0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "complete": true,
+  "rows": [
+    {
+      "n_per_arm": 10000000000.0,
+      "n_total_pump": 20000000000.0,
+      "Phi": 30,
+      "pump_samples": 16384,
+      "seed": 8881,
+      "epsilon2": 0.002711280898572779,
+      "exact_coherent": 0.00043993841186521865,
+      "tracking_fixed": 0.003150096990380101,
+      "prediction": 0.0031512193104379976,
+      "relative_error": -0.0003561542207420887,
+      "jitter_increment_relative_error": -0.00041394458924837174
+    },
+    {
+      "n_per_arm": 10000000000.0,
+      "n_total_pump": 20000000000.0,
+      "Phi": 30,
+      "pump_samples": 16384,
+      "seed": 8882,
+      "epsilon2": 0.0027031499692171477,
+      "exact_coherent": 0.00043993841186521865,
+      "tracking_fixed": 0.003141969012502035,
+      "prediction": 0.0031430883810823662,
+      "relative_error": -0.00035613652707588983,
+      "jitter_increment_relative_error": -0.00041409784624535373
+    },
+    {
+      "n_per_arm": 10000000000.0,
+      "n_total_pump": 20000000000.0,
+      "Phi": 30,
+      "pump_samples": 65536,
+      "seed": 8881,
+      "epsilon2": 0.002708983607530754,
+      "exact_coherent": 0.00043993841186521865,
+      "tracking_fixed": 0.003147924478490439,
+      "prediction": 0.0031489220193959724,
+      "relative_error": -0.00031678806251445035,
+      "jitter_increment_relative_error": -0.00036823438235666917
+    },
+    {
+      "n_per_arm": 10000000000.0,
+      "n_total_pump": 20000000000.0,
+      "Phi": 30,
+      "pump_samples": 65536,
+      "seed": 8882,
+      "epsilon2": 0.0027085826046042327,
+      "exact_coherent": 0.00043993841186521865,
+      "tracking_fixed": 0.0031475237990684453,
+      "prediction": 0.0031485210164694513,
+      "relative_error": -0.0003167256612833791,
+      "jitter_increment_relative_error": -0.000368169462253376
+    },
+    {
+      "n_per_arm": 5000000000.0,
+      "n_total_pump": 10000000000.0,
+      "Phi": 30,
+      "pump_samples": 16384,
+      "seed": 8881,
+      "epsilon2": 0.002711280898572779,
+      "exact_coherent": 0.0006022532306301483,
+      "tracking_fixed": 0.0033137106301464737,
+      "prediction": 0.0033135341292029274,
+      "relative_error": 5.3266674391760915e-05,
+      "jitter_increment_relative_error": 6.509873013871292e-05
+    },
+    {
+      "n_per_arm": 5000000000.0,
+      "n_total_pump": 10000000000.0,
+      "Phi": 30,
+      "pump_samples": 16384,
+      "seed": 8882,
+      "epsilon2": 0.0027031499692171477,
+      "exact_coherent": 0.0006022532306301483,
+      "tracking_fixed": 0.0033055862628311545,
+      "prediction": 0.003305403199847296,
+      "relative_error": 5.5382951122950885e-05,
+      "jitter_increment_relative_error": 6.772209679195562e-05
+    },
+    {
+      "n_per_arm": 5000000000.0,
+      "n_total_pump": 10000000000.0,
+      "Phi": 30,
+      "pump_samples": 65536,
+      "seed": 8881,
+      "epsilon2": 0.002708983607530754,
+      "exact_coherent": 0.0006022532306301483,
+      "tracking_fixed": 0.003311539230183357,
+      "prediction": 0.003311236838160902,
+      "relative_error": 9.132298208625045e-05,
+      "jitter_increment_relative_error": 0.0001116256376059166
+    },
+    {
+      "n_per_arm": 5000000000.0,
+      "n_total_pump": 10000000000.0,
+      "Phi": 30,
+      "pump_samples": 65536,
+      "seed": 8882,
+      "epsilon2": 0.0027085826046042327,
+      "exact_coherent": 0.0006022532306301483,
+      "tracking_fixed": 0.0033111380903928463,
+      "prediction": 0.003310835835234381,
+      "relative_error": 9.129270477514773e-05,
+      "jitter_increment_relative_error": 0.00011159163392382432
+    }
+  ]
+}

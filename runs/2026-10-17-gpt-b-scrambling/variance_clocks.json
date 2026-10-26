@@ -1,0 +1,117 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "role": "post-production analysis correction, not a replacement frozen test",
+  "photon_variance_formula": "(mean_Wigner_I2-mean_Wigner_I**2-1/(4*n**2))/(mean_Wigner_I-1/(2*n))**2",
+  "identity": "photon_relative_variance = normally_ordered_g2_minus_1 + 1/(n*mean_photon_intensity)",
+  "initial_support": "five occupied excited modes, nine exactly empty excited modes",
+  "caveat": "The all-mode photon ratio is undefined on initial vacuum modes. Wigner vacuum intensity has relative variance one. First-cell crossings cannot establish a kinetic clock. Occupied-mode restriction is post hoc.",
+  "rows": [
+    {
+      "n": 10000.0,
+      "dt": 0.04,
+      "sample": 0.2,
+      "disorder_seed": 7501,
+      "diagnostics": {
+        "normally_ordered_excess": {
+          "all_excited_initial_estimate": -3.7276291819850296,
+          "all_excited_at_first_nonzero_sample": 0.03418812213835176,
+          "all_excited_numerical_upcrossing": 1.134678378387573,
+          "all_excited_first_sample_above_target": false,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.096451783973972,
+          "initially_occupied_onset_jackknife_se": 0.03795950004953072
+        },
+        "photon_number_relative_variance": {
+          "all_excited_initial_estimate": 0.0020254324316667637,
+          "all_excited_at_first_nonzero_sample": 2.7467540910285257,
+          "all_excited_numerical_upcrossing": 0.03142809031783541,
+          "all_excited_first_sample_above_target": true,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.0928509947768728,
+          "initially_occupied_onset_jackknife_se": 0.03728742187687604
+        },
+        "wigner_intensity_relative_variance": {
+          "all_excited_initial_estimate": 0.8435707986210794,
+          "all_excited_at_first_nonzero_sample": 0.819435123101287,
+          "all_excited_numerical_upcrossing": null,
+          "all_excited_first_sample_above_target": true,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.0944093107116637,
+          "initially_occupied_onset_jackknife_se": 0.03757667064457787
+        }
+      }
+    },
+    {
+      "n": 100000000.0,
+      "dt": 0.04,
+      "sample": 0.2,
+      "disorder_seed": 7501,
+      "diagnostics": {
+        "normally_ordered_excess": {
+          "all_excited_initial_estimate": -3.727641701016771,
+          "all_excited_at_first_nonzero_sample": 0.4354528867732218,
+          "all_excited_numerical_upcrossing": 0.19989817413968425,
+          "all_excited_first_sample_above_target": true,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.0924134173847433,
+          "initially_occupied_onset_jackknife_se": 0.03503945218088479
+        },
+        "photon_number_relative_variance": {
+          "all_excited_initial_estimate": 2.032607797241903e-07,
+          "all_excited_at_first_nonzero_sample": 0.4427214516964382,
+          "all_excited_numerical_upcrossing": 0.19575890319415326,
+          "all_excited_first_sample_above_target": true,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.092413058130959,
+          "initially_occupied_onset_jackknife_se": 0.03503942826701302
+        },
+        "wigner_intensity_relative_variance": {
+          "all_excited_initial_estimate": 0.8435707986210801,
+          "all_excited_at_first_nonzero_sample": 0.43953163313111476,
+          "all_excited_numerical_upcrossing": null,
+          "all_excited_first_sample_above_target": true,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.0924132137392712,
+          "initially_occupied_onset_jackknife_se": 0.035039436822701026
+        }
+      }
+    },
+    {
+      "n": 1000000000000.0,
+      "dt": 0.04,
+      "sample": 0.2,
+      "disorder_seed": 7501,
+      "diagnostics": {
+        "normally_ordered_excess": {
+          "all_excited_initial_estimate": -3.727641702337723,
+          "all_excited_at_first_nonzero_sample": 0.4306752442809595,
+          "all_excited_numerical_upcrossing": 0.2209567381852463,
+          "all_excited_first_sample_above_target": false,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.092371302805078,
+          "initially_occupied_onset_jackknife_se": 0.03503062230895782
+        },
+        "photon_number_relative_variance": {
+          "all_excited_initial_estimate": 2.0326962050144135e-11,
+          "all_excited_at_first_nonzero_sample": 0.4306759712558179,
+          "all_excited_numerical_upcrossing": 0.2209514560779178,
+          "all_excited_first_sample_above_target": false,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.092371302769153,
+          "initially_occupied_onset_jackknife_se": 0.03503062230661544
+        },
+        "wigner_intensity_relative_variance": {
+          "all_excited_initial_estimate": 0.8435707986210794,
+          "all_excited_at_first_nonzero_sample": 0.43067565800418195,
+          "all_excited_numerical_upcrossing": 0.2209537357966823,
+          "all_excited_first_sample_above_target": false,
+          "all_excited_valid_onset_clock": false,
+          "initially_occupied_onset": 2.0923713027847137,
+          "initially_occupied_onset_jackknife_se": 0.03503062230744645
+        }
+      }
+    }
+  ]
+}

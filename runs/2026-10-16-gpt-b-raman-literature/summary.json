@@ -1,0 +1,210 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "source": "arXiv:2301.02945v1; DOI 10.1364/JOSAB.478975",
+  "access": "full text: arXiv preprint and published HTML; published Fig. 3 visually compared",
+  "calibration": {
+    "image_pixels": [
+      746,
+      572
+    ],
+    "y_ticks": [
+      [
+        27,
+        80
+      ],
+      [
+        456,
+        30
+      ]
+    ],
+    "uncertainty_ECE_percentage_points": 0.4,
+    "uncertainty_T_reading_fs": 15,
+    "peak_sampling_resolution_fs": 100,
+    "method": "manual symbol centres, linear axes; symbols, not analytical lines"
+  },
+  "comparison": [
+    {
+      "N": 2,
+      "largest_sample_T_FWHM_fs": 500,
+      "largest_sample_fraction": 0.7743589743589743,
+      "sample_fraction_times_sqrt_N": 1.0951089636837812,
+      "two_sided_peak_bracket": false,
+      "predicted_T0_star_fs": 64.54875761409652,
+      "predicted_T_FWHM_star_fs": 113.79945967365215,
+      "predicted_fraction_star": null
+    },
+    {
+      "N": 3,
+      "largest_sample_T_FWHM_fs": 500,
+      "largest_sample_fraction": 0.6601398601398601,
+      "sample_fraction_times_sqrt_N": 1.1433957778636503,
+      "two_sided_peak_bracket": false,
+      "predicted_T0_star_fs": 124.49609442915457,
+      "predicted_T_FWHM_star_fs": 219.48661447859948,
+      "predicted_fraction_star": 0.7447818472546173
+    },
+    {
+      "N": 4,
+      "largest_sample_T_FWHM_fs": 500,
+      "largest_sample_fraction": 0.6275058275058275,
+      "sample_fraction_times_sqrt_N": 1.255011655011655,
+      "two_sided_peak_bracket": false,
+      "predicted_T0_star_fs": 198.40676712016113,
+      "predicted_T_FWHM_star_fs": 349.79113043284406,
+      "predicted_fraction_star": 0.645
+    },
+    {
+      "N": 5,
+      "largest_sample_T_FWHM_fs": 500,
+      "largest_sample_fraction": 0.5808857808857809,
+      "sample_fraction_times_sqrt_N": 1.298900093223654,
+      "two_sided_peak_bracket": false,
+      "predicted_T0_star_fs": 284.8070279051662,
+      "predicted_T_FWHM_star_fs": 502.1147901968079,
+      "predicted_fraction_star": 0.5769055381949457
+    },
+    {
+      "N": 6,
+      "largest_sample_T_FWHM_fs": 700,
+      "largest_sample_fraction": 0.5296037296037297,
+      "sample_fraction_times_sqrt_N": 1.2972589034040516,
+      "two_sided_peak_bracket": true,
+      "predicted_T0_star_fs": 382.6699153909129,
+      "predicted_T_FWHM_star_fs": 674.6470608341793,
+      "predicted_fraction_star": 0.5266402946983834
+    }
+  ],
+  "peak_position_fit": {
+    "identifiable": false,
+    "reason": "Only N=6 is bracketed. N=2-5 maxima are not bracketed by the plotted range.",
+    "conditional_N5_N6_exponent": 1.8454879529219204,
+    "conditional_N5_N6_T0_prefactor_fs": 14.547118265295175
+  },
+  "conditional_N5_N6_fraction_sqrtN": [
+    1.298900093223654,
+    1.2972589034040516
+  ],
+  "long_pulse_digitised_fits": [
+    {
+      "N": 3,
+      "T_FWHM_fs": [
+        1900.0,
+        2300.0,
+        2700.0,
+        3100.0
+      ],
+      "epsilon": [
+        0.033006993006992946,
+        0.024615384615384484,
+        0.018321678321678414,
+        0.016223776223776243
+      ],
+      "c_estimate": [
+        24.33099543251756,
+        21.96518053319151,
+        19.192402061733986,
+        19.512546738477564
+      ],
+      "log_log_exponent": 1.4978913745839482,
+      "reading_bound_exponent_range": [
+        -0.047634961790311625,
+        3.472945341366804
+      ],
+      "warning": "Four finite-duration points; no asymptotic extrapolation. N=2 omitted because excess is at the symbol-reading tolerance."
+    },
+    {
+      "N": 4,
+      "T_FWHM_fs": [
+        1900.0,
+        2300.0,
+        2700.0,
+        3100.0
+      ],
+      "epsilon": [
+        0.10396270396270402,
+        0.08265068265068254,
+        0.06933066933066923,
+        0.05867465867465871
+      ],
+      "c_estimate": [
+        76.63576244987892,
+        73.75213485305945,
+        72.62555632957087,
+        70.56877535549557
+      ],
+      "log_log_exponent": 1.1615598149649937,
+      "reading_bound_exponent_range": [
+        0.5645104046720024,
+        1.8219289612662806
+      ],
+      "warning": "Four finite-duration points; no asymptotic extrapolation. N=2 omitted because excess is at the symbol-reading tolerance."
+    },
+    {
+      "N": 5,
+      "T_FWHM_fs": [
+        1900.0,
+        2300.0,
+        2700.0,
+        3100.0
+      ],
+      "epsilon": [
+        0.20564620564620562,
+        0.16679616679616682,
+        0.1408961408961409,
+        0.12147112147112149
+      ],
+      "c_estimate": [
+        151.59141849826563,
+        148.8381340843372,
+        147.59212215978562,
+        146.09489815367127
+      ],
+      "log_log_exponent": 1.0736349208441747,
+      "reading_bound_exponent_range": [
+        0.7020836958476752,
+        1.474343327566013
+      ],
+      "warning": "Four finite-duration points; no asymptotic extrapolation. N=2 omitted because excess is at the symbol-reading tolerance."
+    },
+    {
+      "N": 6,
+      "T_FWHM_fs": [
+        1900.0,
+        2300.0,
+        2700.0,
+        3100.0
+      ],
+      "epsilon": [
+        0.2717101080737443,
+        0.214494596312778,
+        0.1763509218054673,
+        0.13820724729815614
+      ],
+      "c_estimate": [
+        200.29020508201114,
+        191.40113408829677,
+        184.73186439711944,
+        166.2236544257449
+      ],
+      "log_log_exponent": 1.3574769550240224,
+      "reading_bound_exponent_range": [
+        0.9893738875727311,
+        1.757089642704172
+      ],
+      "warning": "Four finite-duration points; no asymptotic extrapolation. N=2 omitted because excess is at the symbol-reading tolerance."
+    }
+  ],
+  "N6_text_values": {
+    "T_FWHM_fs": [
+      400,
+      700
+    ],
+    "ECE_percent": [
+      50.0,
+      53.0
+    ]
+  },
+  "no_fibre_simulation": true
+}

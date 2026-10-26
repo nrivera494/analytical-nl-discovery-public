@@ -1,0 +1,614 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "recorded_at": "2026-10-18T13:53:44.057759+00:00",
+  "children": [
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-kerr-exact/no_go_smooth.py"
+      ],
+      "wall_seconds": 0.42931294441223145,
+      "child_peak_rss_bytes": 45187072,
+      "user_seconds": 0.27821,
+      "system_seconds": 0.091527,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-kerr-exact/qmc_completion.py"
+      ],
+      "wall_seconds": 1.2379450798034668,
+      "child_peak_rss_bytes": 121749504,
+      "user_seconds": 0.96334,
+      "system_seconds": 0.17260799999999998,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/count_resolution.py",
+        "last"
+      ],
+      "wall_seconds": 855.835512638092,
+      "child_peak_rss_bytes": 107397120,
+      "user_seconds": 829.321924,
+      "system_seconds": 3.786181,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/final_resolution.py"
+      ],
+      "wall_seconds": 525.0041837692261,
+      "child_peak_rss_bytes": 101744640,
+      "user_seconds": 517.024156,
+      "system_seconds": 2.813184,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/refresh.py"
+      ],
+      "wall_seconds": 2.164097785949707,
+      "child_peak_rss_bytes": 115097600,
+      "user_seconds": 1.867216,
+      "system_seconds": 0.105,
+      "returncode": 0,
+      "timed_out": false,
+      "deadline_UTC": null
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/analyse.py"
+      ],
+      "wall_seconds": 0.7775309085845947,
+      "child_peak_rss_bytes": 79855616,
+      "user_seconds": 0.603294,
+      "system_seconds": 0.062442,
+      "returncode": 0,
+      "timed_out": false,
+      "deadline_UTC": null
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/analyse.py"
+      ],
+      "wall_seconds": 0.8468430042266846,
+      "child_peak_rss_bytes": 139558912,
+      "user_seconds": 0.951939,
+      "system_seconds": 2.016842,
+      "returncode": 0,
+      "timed_out": false,
+      "deadline_UTC": null
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/after_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-kerr-exact/analyse.py"
+      ],
+      "wall_seconds": 0.42943787574768066,
+      "child_peak_rss_bytes": 67649536,
+      "user_seconds": 0.387493,
+      "system_seconds": 0.028135,
+      "returncode": 0,
+      "timed_out": false,
+      "deadline_UTC": null
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "julia",
+        "--project=solver",
+        "runs/2026-10-18-gpt-b-grin-squeezing/solver_probe.jl",
+        "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing"
+      ],
+      "wall_seconds": 11.55940294265747,
+      "child_peak_rss_bytes": 1134477312,
+      "user_seconds": 10.45759,
+      "system_seconds": 1.54356,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.py",
+        "diagnose"
+      ],
+      "wall_seconds": 0.8147830963134766,
+      "child_peak_rss_bytes": 102481920,
+      "user_seconds": 0.5428999999999999,
+      "system_seconds": 0.143238,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "julia",
+        "--project=solver",
+        "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.jl",
+        "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing"
+      ],
+      "wall_seconds": 384.25445318222046,
+      "child_peak_rss_bytes": 1328021504,
+      "user_seconds": 485.893707,
+      "system_seconds": 5.633193,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.py",
+        "compare"
+      ],
+      "wall_seconds": 1.151620864868164,
+      "child_peak_rss_bytes": 102350848,
+      "user_seconds": 0.7778849999999999,
+      "system_seconds": 0.189294,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/exact_three_mode.py",
+        "fock"
+      ],
+      "wall_seconds": 105.43285393714905,
+      "child_peak_rss_bytes": 1298644992,
+      "user_seconds": 100.781776,
+      "system_seconds": 1.198077,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/exact_three_mode.py",
+        "twa"
+      ],
+      "wall_seconds": 43.339624881744385,
+      "child_peak_rss_bytes": 114294784,
+      "user_seconds": 42.303325,
+      "system_seconds": 0.336814,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/count_resolution.py"
+      ],
+      "wall_seconds": 3232.1212627887726,
+      "child_peak_rss_bytes": 105988096,
+      "user_seconds": 3109.349608,
+      "system_seconds": 13.894779,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/nonlinear_ensemble.py"
+      ],
+      "wall_seconds": 1131.3071339130402,
+      "child_peak_rss_bytes": 105857024,
+      "user_seconds": 1088.710781,
+      "system_seconds": 5.74315,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-kerr-exact/sagnac_resolution.py"
+      ],
+      "wall_seconds": 127.85410904884338,
+      "child_peak_rss_bytes": 133152768,
+      "user_seconds": 116.05347,
+      "system_seconds": 1.018043,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/final_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-kerr-exact/sagnac_quantum_reference.py"
+      ],
+      "wall_seconds": 3.773005962371826,
+      "child_peak_rss_bytes": 187252736,
+      "user_seconds": 2.569104,
+      "system_seconds": 0.2014,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/last_confirmation.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/final_resolution.py",
+        "--unlimited"
+      ],
+      "wall_seconds": 359.50531482696533,
+      "child_peak_rss_bytes": 108101632,
+      "user_seconds": 347.179274,
+      "system_seconds": 1.98875,
+      "returncode": 0,
+      "timed_out": false,
+      "deadline_UTC": "2026-10-18T13:56:00+00:00"
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-kerr-exact/sagnac.py"
+      ],
+      "wall_seconds": 5.410731077194214,
+      "child_peak_rss_bytes": 183287808,
+      "user_seconds": 5.284187,
+      "system_seconds": 0.117742,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-kerr-exact/gaussian_edges.py"
+      ],
+      "wall_seconds": 16.94452977180481,
+      "child_peak_rss_bytes": 151306240,
+      "user_seconds": 16.786447,
+      "system_seconds": 0.116947,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/exact_three_mode.py",
+        "fock"
+      ],
+      "wall_seconds": 51.95013093948364,
+      "child_peak_rss_bytes": 868384768,
+      "user_seconds": 51.144534,
+      "system_seconds": 0.572085,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/exact_three_mode.py",
+        "twa"
+      ],
+      "wall_seconds": 32.60302495956421,
+      "child_peak_rss_bytes": 113786880,
+      "user_seconds": 32.218219,
+      "system_seconds": 0.227734,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/scaling.py"
+      ],
+      "wall_seconds": 141.52866291999817,
+      "child_peak_rss_bytes": 106381312,
+      "user_seconds": 140.531934,
+      "system_seconds": 0.474972,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/refine.py"
+      ],
+      "wall_seconds": 642.2052252292633,
+      "child_peak_rss_bytes": 103677952,
+      "user_seconds": 631.027734,
+      "system_seconds": 3.110802,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.py",
+        "prepare"
+      ],
+      "wall_seconds": 0.7185001373291016,
+      "child_peak_rss_bytes": 101892096,
+      "user_seconds": 0.519026,
+      "system_seconds": 0.122152,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "julia",
+        "--project=solver",
+        "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.jl",
+        "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing"
+      ],
+      "wall_seconds": 367.3227620124817,
+      "child_peak_rss_bytes": 1335246848,
+      "user_seconds": 474.006056,
+      "system_seconds": 5.47642,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.py",
+        "compare"
+      ],
+      "wall_seconds": 0.9175741672515869,
+      "child_peak_rss_bytes": 102367232,
+      "user_seconds": 0.653337,
+      "system_seconds": 0.143445,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/mechanism.py",
+        "spm"
+      ],
+      "wall_seconds": 1.5698370933532715,
+      "child_peak_rss_bytes": 116817920,
+      "user_seconds": 1.396893,
+      "system_seconds": 0.129975,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/mechanism.py",
+        "diagonal"
+      ],
+      "wall_seconds": 0.6654350757598877,
+      "child_peak_rss_bytes": 104988672,
+      "user_seconds": 0.5622539999999999,
+      "system_seconds": 0.09759799999999999,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-condensate-squeezing/mechanism.py",
+        "extracted"
+      ],
+      "wall_seconds": 1.0723700523376465,
+      "child_peak_rss_bytes": 111214592,
+      "user_seconds": 0.912519,
+      "system_seconds": 0.120822,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/confirm_counts.py"
+      ],
+      "wall_seconds": 1722.5456640720367,
+      "child_peak_rss_bytes": 116948992,
+      "user_seconds": 1704.752245,
+      "system_seconds": 3.30852,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/run.py",
+        "convergence"
+      ],
+      "wall_seconds": 887.6883111000061,
+      "child_peak_rss_bytes": 111476736,
+      "user_seconds": 884.652333,
+      "system_seconds": 0.97424,
+      "returncode": 0
+    },
+    {
+      "log": "~/analytical-nl-discovery-data/2026-10-18-gpt-b-grin-squeezing/serial_checks.log",
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "command": [
+        "~/agent-work/venv/bin/python",
+        "-W",
+        "ignore",
+        "runs/2026-10-18-gpt-b-grin-squeezing/run.py",
+        "loss"
+      ],
+      "wall_seconds": 319.08651304244995,
+      "child_peak_rss_bytes": 109412352,
+      "user_seconds": 314.812231,
+      "system_seconds": 0.7836369999999999,
+      "returncode": 0
+    }
+  ],
+  "recorded_child_peak_bytes": 1335246848,
+  "minimum_logged_free_percent": 44,
+  "scope": "Resource-wrapper children only; every production launcher separately gates free memory. Logs and raw trajectories remain outside git."
+}

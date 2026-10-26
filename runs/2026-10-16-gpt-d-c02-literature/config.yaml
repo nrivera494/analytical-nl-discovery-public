@@ -1,0 +1,15 @@
+run_id: 2026-10-16-gpt-d-c02-literature
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+claim: C-20261016-claude-interactive.6-02
+purpose: Primary-source novelty and identity comparison
+queries:
+  - 'Bonetti 377891 pdf'
+  - 'Photon-conserving Raman energy bound'
+  - 'Raman pulse energy upper bound photon conserving nonlinear Schrodinger Bonetti'
+  - 'Raman speed limit fiber energy bound'
+  - 'Raman h_R bound energy fiber inequality'
+  - 'Linale Measuring self-steepening photon-conserving nonlinear Schrodinger equation'
+  - 'Revisiting Soliton Dynamics Linale Fierens Grosz'
+  - 'Institutional DSpace search API: Revisiting Soliton'

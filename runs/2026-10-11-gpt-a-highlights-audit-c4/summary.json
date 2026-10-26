@@ -1,0 +1,41 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-11-gpt-a-highlights-audit-c4",
+  "status": "complete-bounded-check",
+  "scalar_F": 0.6347458752535355,
+  "grin_F": 0.6242018178546397,
+  "grin_minus_scalar": -0.010544057398895856,
+  "manakov_max_difference": 7.105427357601002e-15,
+  "fractional_manakov_difference": 4.773959005888173e-15,
+  "asymmetric_manakov_difference": 1.4432899320127035e-15,
+  "refined_scalar_F": 0.6347450987280238,
+  "refined_grin_F": 0.6242010333843231,
+  "walkoff_0p6_F": 0.6588118962528423,
+  "unequal_dispersion_1p02_F": 0.6316047692341306,
+  "near_manakov": [
+    {
+      "epsilon": 0.02,
+      "even_delta_F": -2.839075000871105e-06,
+      "odd_delta_F": 2.0923312471499145e-08,
+      "coefficient_over_q_squared": -0.3755390212792461
+    },
+    {
+      "epsilon": 0.04,
+      "even_delta_F": -1.1355925308764725e-05,
+      "odd_delta_F": 1.67382027072005e-07,
+      "coefficient_over_q_squared": -0.37552663058084346
+    },
+    {
+      "epsilon": 0.08,
+      "even_delta_F": -4.541770640753562e-05,
+      "odd_delta_F": 1.3389129990826198e-06,
+      "coefficient_over_q_squared": -0.37547707016811793
+    }
+  ],
+  "even_power": 1.9998809924820224,
+  "odd_power": 2.999903569595682,
+  "max_energy_error": 1.0813572259849025e-12,
+  "case_wall_time_sum_s": 3.0563766956329346
+}

@@ -1,0 +1,1217 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "n": 32,
+  "shots_per_step": 32768,
+  "records": [
+    {
+      "dt": 0.02,
+      "batch": 0,
+      "rows": [
+        {
+          "count_frozen_weights": 1.000482908460071,
+          "count_frozen_shot_denominator": 1.000006952670491,
+          "min_mean_photons": 3.2002986526241894,
+          "max_mean_photons": 22.400155739819,
+          "condensate_coherence": 0.9999957154131937,
+          "total_coherent_fraction": 0.9999843098629304,
+          "lambda_quad": 0.9995192444063192,
+          "quad_fixed": 0.9998804621666874,
+          "lambda_gen": 1.0002537867612495,
+          "count_fixed": 1.0004829084600715,
+          "lambda_own": 0.9998265180182822,
+          "own": [
+            [
+              0.999984203433951,
+              0.0003590148515595684
+            ],
+            [
+              0.0003590148515595684,
+              1.0006439155124867
+            ]
+          ],
+          "Fano_N": 1.0003506365213162,
+          "quad_fixed_control": 1.0,
+          "count_frozen_weights_control": 1.000498707834462,
+          "own_fixed": 0.9999842005157611,
+          "own_fixed_control": 1.0,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.9532801692249109,
+          "count_frozen_shot_denominator": 0.9995400270479173,
+          "min_mean_photons": 2.855287069302764,
+          "max_mean_photons": 22.055144156768876,
+          "condensate_coherence": 0.9690195581140182,
+          "total_coherent_fraction": 0.9694446243954405,
+          "lambda_quad": 0.32809126419518686,
+          "quad_fixed": 0.3325638392572652,
+          "lambda_gen": 0.9532782994815958,
+          "count_fixed": 0.9532800762121179,
+          "lambda_own": 0.5437018232957711,
+          "own": [
+            [
+              1.0058742845782287,
+              -1.2130992905531044
+            ],
+            [
+              -1.2130992905531044,
+              3.7278160058174943
+            ]
+          ],
+          "Fano_N": 1.0003506370647677,
+          "quad_fixed_control": 0.3324029946118511,
+          "count_frozen_weights_control": 0.9534563661183576,
+          "own_fixed": 0.5468246304161721,
+          "own_fixed_control": 0.5465775477127103,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.8857779662422629,
+          "count_frozen_shot_denominator": 0.9985805348944455,
+          "min_mean_photons": 2.4186852554069773,
+          "max_mean_photons": 21.61854234302219,
+          "condensate_coherence": 0.8812332511372349,
+          "total_coherent_fraction": 0.8833823132533786,
+          "lambda_quad": 0.874881250673414,
+          "quad_fixed": 1.3361898165114905,
+          "lambda_gen": 0.8857450373775797,
+          "count_fixed": 0.8857758458045346,
+          "lambda_own": 1.2569498022779906,
+          "own": [
+            [
+              1.5328625742707231,
+              -1.6174636904621431
+            ],
+            [
+              -1.6174636904621427,
+              10.738891399502501
+            ]
+          ],
+          "Fano_N": 1.000350637609112,
+          "quad_fixed_control": 1.3361361193929833,
+          "count_frozen_weights_control": 0.8859093283443309,
+          "own_fixed": 1.286630792756955,
+          "own_fixed_control": 1.2864207245833776,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.6783817085338337,
+          "count_frozen_shot_denominator": 1.0232850373132445,
+          "min_mean_photons": 1.0330737862769321,
+          "max_mean_photons": 20.232930874479596,
+          "condensate_coherence": 0.44841867294264814,
+          "total_coherent_fraction": 0.46312993391695667,
+          "lambda_quad": 0.9532418165893518,
+          "quad_fixed": 19.90458707522492,
+          "lambda_gen": 0.6781197982145363,
+          "count_fixed": 0.678535130820279,
+          "lambda_own": 13.539986543716022,
+          "own": [
+            [
+              13.546586914724443,
+              0.35930526602332724
+            ],
+            [
+              0.3593052660233282,
+              33.099534639931164
+            ]
+          ],
+          "Fano_N": 1.0003506392369437,
+          "quad_fixed_control": 19.90457781013954,
+          "count_frozen_weights_control": 0.6781724566969198,
+          "own_fixed": 13.637810723960062,
+          "own_fixed_control": 13.637507232393828,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.6319206858823873,
+          "count_frozen_shot_denominator": 1.0411531316739098,
+          "min_mean_photons": 0.8413957490235885,
+          "max_mean_photons": 20.041252841597206,
+          "condensate_coherence": 0.040699739060689216,
+          "total_coherent_fraction": 0.05104531954668196,
+          "lambda_quad": 1.1424488581968926,
+          "quad_fixed": 57.617322105321215,
+          "lambda_gen": 0.6256273100269316,
+          "count_fixed": 0.6262315629276303,
+          "lambda_own": 37.57551542815223,
+          "own": [
+            [
+              37.622772796753594,
+              0.4189246258824269
+            ],
+            [
+              0.41892462588242807,
+              41.289176331515925
+            ]
+          ],
+          "Fano_N": 1.0003506419163166,
+          "quad_fixed_control": 57.61731979470604,
+          "count_frozen_weights_control": 0.632065121697176,
+          "own_fixed": 37.583549257239866,
+          "own_fixed_control": 37.5833451053487,
+          "z": 10
+        }
+      ]
+    },
+    {
+      "dt": 0.02,
+      "batch": 1,
+      "rows": [
+        {
+          "count_frozen_weights": 0.9999086099218847,
+          "count_frozen_shot_denominator": 0.9999983612140505,
+          "min_mean_photons": 3.199834396355139,
+          "max_mean_photons": 22.399963291194734,
+          "condensate_coherence": 1.0000039194856716,
+          "total_coherent_fraction": 1.0000085492036899,
+          "lambda_quad": 0.9992043870893926,
+          "quad_fixed": 0.9995042731836797,
+          "lambda_gen": 0.9988055424208754,
+          "count_fixed": 0.9999086099218844,
+          "lambda_own": 0.9998689312440151,
+          "own": [
+            [
+              0.9998771383227313,
+              -3.471880462587114e-05
+            ],
+            [
+              -3.471880462587114e-05,
+              1.0000158038933855
+            ]
+          ],
+          "Fano_N": 0.9994648355224645,
+          "quad_fixed_control": 1.0,
+          "count_frozen_weights_control": 1.0000314717554604,
+          "own_fixed": 0.9998771383677685,
+          "own_fixed_control": 0.9999999999999999,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.9521469427746792,
+          "count_frozen_shot_denominator": 0.9994529756254871,
+          "min_mean_photons": 2.854822502299984,
+          "max_mean_photons": 22.054951397411905,
+          "condensate_coherence": 0.9690434772986642,
+          "total_coherent_fraction": 0.9694939968248909,
+          "lambda_quad": 0.32978026701167634,
+          "quad_fixed": 0.3340869050441654,
+          "lambda_gen": 0.9521277857555601,
+          "count_fixed": 0.9521464697434664,
+          "lambda_own": 0.5439617328707399,
+          "own": [
+            [
+              1.006806209388451,
+              -1.2133466866864342
+            ],
+            [
+              -1.2133466866864342,
+              3.724749787574063
+            ]
+          ],
+          "Fano_N": 0.9994648360640181,
+          "quad_fixed_control": 0.33409468334575504,
+          "count_frozen_weights_control": 0.9524651638366414,
+          "own_fixed": 0.5469895422554201,
+          "own_fixed_control": 0.5470330093584208,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.88500356564996,
+          "count_frozen_shot_denominator": 0.9984730414117049,
+          "min_mean_photons": 2.4181985054625597,
+          "max_mean_photons": 21.618327400724123,
+          "condensate_coherence": 0.8813417924728623,
+          "total_coherent_fraction": 0.8835225569241051,
+          "lambda_quad": 0.8745172622430261,
+          "quad_fixed": 1.3342948252083873,
+          "lambda_gen": 0.8849438523237618,
+          "count_fixed": 0.8850003905580993,
+          "lambda_own": 1.2553708916265733,
+          "own": [
+            [
+              1.5342467151830732,
+              -1.6253283607520133
+            ],
+            [
+              -1.6253283607520133,
+              10.728018059729413
+            ]
+          ],
+          "Fano_N": 0.9994648366063952,
+          "quad_fixed_control": 1.33429240880217,
+          "count_frozen_weights_control": 0.8852522358503904,
+          "own_fixed": 1.283972746986901,
+          "own_fixed_control": 1.2840695408231597,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.6778605557644549,
+          "count_frozen_shot_denominator": 1.0229450625882186,
+          "min_mean_photons": 1.0324167209372561,
+          "max_mean_photons": 20.23254561678563,
+          "condensate_coherence": 0.4486492500655552,
+          "total_coherent_fraction": 0.4634152461529111,
+          "lambda_quad": 0.9559159440671035,
+          "quad_fixed": 19.79832451597494,
+          "lambda_gen": 0.6775036296570717,
+          "count_fixed": 0.6780279203831867,
+          "lambda_own": 13.450475372332884,
+          "own": [
+            [
+              13.45816102925052,
+              0.3892885418499779
+            ],
+            [
+              0.3892885418499778,
+              33.168447491012444
+            ]
+          ],
+          "Fano_N": 0.9994648382280754,
+          "quad_fixed_control": 19.79832346391823,
+          "count_frozen_weights_control": 0.677838951656769,
+          "own_fixed": 13.553752933399162,
+          "own_fixed_control": 13.553950116965922,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.633078975389167,
+          "count_frozen_shot_denominator": 1.041068500671958,
+          "min_mean_photons": 0.8411185005891447,
+          "max_mean_photons": 20.041247400803943,
+          "condensate_coherence": 0.040357365523774946,
+          "total_coherent_fraction": 0.050844241526813175,
+          "lambda_quad": 1.1415783832810038,
+          "quad_fixed": 58.105423456277705,
+          "lambda_gen": 0.6266136090183176,
+          "count_fixed": 0.6273656954099673,
+          "lambda_own": 37.85519463056479,
+          "own": [
+            [
+              37.87265931716594,
+              0.23682960237944892
+            ],
+            [
+              0.23682960237945058,
+              41.06671865296033
+            ]
+          ],
+          "Fano_N": 0.999464840897811,
+          "quad_fixed_control": 58.10542313935054,
+          "count_frozen_weights_control": 0.6332218054742148,
+          "own_fixed": 37.88005211175092,
+          "own_fixed_control": 37.8803584877569,
+          "z": 10
+        }
+      ]
+    },
+    {
+      "dt": 0.02,
+      "batch": 2,
+      "rows": [
+        {
+          "count_frozen_weights": 0.9998176938667542,
+          "count_frozen_shot_denominator": 0.999999985967186,
+          "min_mean_photons": 3.200244018521928,
+          "max_mean_photons": 22.39999968566497,
+          "condensate_coherence": 1.0000003356762859,
+          "total_coherent_fraction": 0.9999880767081847,
+          "lambda_quad": 0.9992120983214398,
+          "quad_fixed": 1.001773216855855,
+          "lambda_gen": 0.999457792570632,
+          "count_fixed": 0.9998176938667546,
+          "lambda_own": 0.9999217832781047,
+          "own": [
+            [
+              0.9999672171176386,
+              0.00012153220308481212
+            ],
+            [
+              0.00012153220308481214,
+              1.0002468730468346
+            ]
+          ],
+          "Fano_N": 0.999787752313936,
+          "quad_fixed_control": 1.0000000000000002,
+          "count_frozen_weights_control": 0.9998504761498759,
+          "own_fixed": 0.9999672177173383,
+          "own_fixed_control": 0.9999999999999999,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.9536900277000079,
+          "count_frozen_shot_denominator": 0.9995309462606814,
+          "min_mean_photons": 2.855253098096827,
+          "max_mean_photons": 22.05500876551101,
+          "condensate_coherence": 0.9690426515844013,
+          "total_coherent_fraction": 0.9694759857513224,
+          "lambda_quad": 0.3299618603026113,
+          "quad_fixed": 0.33439054653460404,
+          "lambda_gen": 0.9536843084894964,
+          "count_fixed": 0.9536902802347209,
+          "lambda_own": 0.54461929906098,
+          "own": [
+            [
+              1.0059795138213499,
+              -1.211447059931462
+            ],
+            [
+              -1.2114470599314622,
+              3.725656441110292
+            ]
+          ],
+          "Fano_N": 0.9997877528574526,
+          "quad_fixed_control": 0.334296688166991,
+          "count_frozen_weights_control": 0.9526799430465507,
+          "own_fixed": 0.5477639369870966,
+          "own_fixed_control": 0.5475260029060622,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.886246955695121,
+          "count_frozen_shot_denominator": 0.9985662483095652,
+          "min_mean_photons": 2.4186340143419547,
+          "max_mean_photons": 21.61838968190487,
+          "condensate_coherence": 0.88134053313372,
+          "total_coherent_fraction": 0.8835021629632436,
+          "lambda_quad": 0.8739461057952548,
+          "quad_fixed": 1.3405472866824244,
+          "lambda_gen": 0.8862322723258513,
+          "count_fixed": 0.8862459321707455,
+          "lambda_own": 1.2598514152930413,
+          "own": [
+            [
+              1.5364859453114181,
+              -1.6182214585779096
+            ],
+            [
+              -1.618221458577909,
+              10.725917306734942
+            ]
+          ],
+          "Fano_N": 0.9997877534017033,
+          "quad_fixed_control": 1.3405156239030103,
+          "count_frozen_weights_control": 0.8852597391656537,
+          "own_fixed": 1.2890705225538694,
+          "own_fixed_control": 1.2887861237177118,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.676973183835902,
+          "count_frozen_shot_denominator": 1.0232006260920037,
+          "min_mean_photons": 1.0329176893938277,
+          "max_mean_photons": 20.232673357542048,
+          "condensate_coherence": 0.44881315154692886,
+          "total_coherent_fraction": 0.4635476381023628,
+          "lambda_quad": 0.9549381032618228,
+          "quad_fixed": 19.78029643953259,
+          "lambda_gen": 0.6767352208555569,
+          "count_fixed": 0.6771628206918124,
+          "lambda_own": 13.45447326981678,
+          "own": [
+            [
+              13.462054048504314,
+              0.38641859516512045
+            ],
+            [
+              0.3864185951651204,
+              33.15156994603989
+            ]
+          ],
+          "Fano_N": 0.9997877550289351,
+          "quad_fixed_control": 19.780290978382016,
+          "count_frozen_weights_control": 0.6764368772161304,
+          "own_fixed": 13.556909879268648,
+          "own_fixed_control": 13.556426293235408,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.635157226812217,
+          "count_frozen_shot_denominator": 1.0411386533135543,
+          "min_mean_photons": 0.8413734994851351,
+          "max_mean_photons": 20.041129172002996,
+          "condensate_coherence": 0.04045144852038638,
+          "total_coherent_fraction": 0.0508407502949505,
+          "lambda_quad": 1.1318042643421848,
+          "quad_fixed": 58.669857469913765,
+          "lambda_gen": 0.628262370501427,
+          "count_fixed": 0.6289716624045121,
+          "lambda_own": 38.208663218788686,
+          "own": [
+            [
+              38.24036857633246,
+              -0.2805419229993392
+            ],
+            [
+              -0.2805419229993398,
+              40.69101247006287
+            ]
+          ],
+          "Fano_N": 0.9997877577087129,
+          "quad_fixed_control": 58.66985611161826,
+          "count_frozen_weights_control": 0.6346287539634611,
+          "own_fixed": 38.39413949142031,
+          "own_fixed_control": 38.3932975672104,
+          "z": 10
+        }
+      ]
+    },
+    {
+      "dt": 0.02,
+      "batch": 3,
+      "rows": [
+        {
+          "count_frozen_weights": 1.0002471286092556,
+          "count_frozen_shot_denominator": 1.000008956632352,
+          "min_mean_photons": 3.199939229996375,
+          "max_mean_photons": 22.40020062856469,
+          "condensate_coherence": 1.0000005098070859,
+          "total_coherent_fraction": 1.000005849403403,
+          "lambda_quad": 0.9992129864184727,
+          "quad_fixed": 1.0000756482716286,
+          "lambda_gen": 0.9993447922958719,
+          "count_fixed": 1.0002471286092556,
+          "lambda_own": 1.0000007883238318,
+          "own": [
+            [
+              1.0000198869196473,
+              5.827461380508241e-05
+            ],
+            [
+              5.82746138050824e-05,
+              1.0001785988103682
+            ]
+          ],
+          "Fano_N": 1.0000367746315757,
+          "quad_fixed_control": 1.0000000000000002,
+          "count_frozen_weights_control": 1.0002272419277187,
+          "own_fixed": 1.000019886859655,
+          "own_fixed_control": 1.0000000000000004,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.9531662160093841,
+          "count_frozen_shot_denominator": 0.9994935356002785,
+          "min_mean_photons": 2.855010561191502,
+          "max_mean_photons": 22.055271960033924,
+          "condensate_coherence": 0.9690024237581476,
+          "total_coherent_fraction": 0.9694534202903294,
+          "lambda_quad": 0.33151103790878933,
+          "quad_fixed": 0.33611603845081695,
+          "lambda_gen": 0.9531577151545988,
+          "count_fixed": 0.9531659130376479,
+          "lambda_own": 0.5468161212308204,
+          "own": [
+            [
+              1.0071796163835591,
+              -1.2101729485908435
+            ],
+            [
+              -1.2101729485908435,
+              3.7280383096129817
+            ]
+          ],
+          "Fano_N": 1.0000367751823898,
+          "quad_fixed_control": 0.33611106538673985,
+          "count_frozen_weights_control": 0.9529929980983759,
+          "own_fixed": 0.5500364728708529,
+          "own_fixed_control": 0.5498709405928415,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.8860450454856719,
+          "count_frozen_shot_denominator": 0.998522681890336,
+          "min_mean_photons": 2.418399742078187,
+          "max_mean_photons": 21.618661141071836,
+          "condensate_coherence": 0.8812609683273612,
+          "total_coherent_fraction": 0.8834260388622824,
+          "lambda_quad": 0.8737349768244839,
+          "quad_fixed": 1.3529225094032578,
+          "lambda_gen": 0.8860002217598838,
+          "count_fixed": 0.8860424568773978,
+          "lambda_own": 1.2686184546515515,
+          "own": [
+            [
+              1.5447507170859485,
+              -1.6158956823717212
+            ],
+            [
+              -1.6158956823717219,
+              10.724662573827665
+            ]
+          ],
+          "Fano_N": 1.0000367757339965,
+          "quad_fixed_control": 1.3529183083336045,
+          "count_frozen_weights_control": 0.8858672572418186,
+          "own_fixed": 1.297805434690181,
+          "own_fixed_control": 1.297713233486956,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.678198191626842,
+          "count_frozen_shot_denominator": 1.0229423637263366,
+          "min_mean_photons": 1.0324053373532083,
+          "max_mean_photons": 20.232666736938604,
+          "condensate_coherence": 0.44888207845175393,
+          "total_coherent_fraction": 0.4636188109197557,
+          "lambda_quad": 0.9526525550046077,
+          "quad_fixed": 19.60722696256932,
+          "lambda_gen": 0.6778632192847887,
+          "count_fixed": 0.6783587212228283,
+          "lambda_own": 13.3039935253146,
+          "own": [
+            [
+              13.3133695953224,
+              0.43293636489762133
+            ],
+            [
+              0.4329363648976203,
+              33.29466081927522
+            ]
+          ],
+          "Fano_N": 1.000036777383429,
+          "quad_fixed_control": 19.607225960300433,
+          "count_frozen_weights_control": 0.6780713268115663,
+          "own_fixed": 13.41326487696743,
+          "own_fixed_control": 13.413196195294653,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.6363673852684079,
+          "count_frozen_shot_denominator": 1.041073069233548,
+          "min_mean_photons": 0.8411163388953442,
+          "max_mean_photons": 20.041377742857996,
+          "condensate_coherence": 0.039338781835687245,
+          "total_coherent_fraction": 0.04985680996831405,
+          "lambda_quad": 1.1300762787240517,
+          "quad_fixed": 58.257042630796974,
+          "lambda_gen": 0.6298497647009452,
+          "count_fixed": 0.6306341991336933,
+          "lambda_own": 37.89466535119369,
+          "own": [
+            [
+              37.89973117659984,
+              -0.12785993772045182
+            ],
+            [
+              -0.1278599377204519,
+              41.121812432503226
+            ]
+          ],
+          "Fano_N": 1.0000367801001817,
+          "quad_fixed_control": 58.257042359494285,
+          "count_frozen_weights_control": 0.636204012370298,
+          "own_fixed": 38.03021702102883,
+          "own_fixed_control": 38.030069996049654,
+          "z": 10
+        }
+      ]
+    },
+    {
+      "dt": 0.01,
+      "batch": 0,
+      "rows": [
+        {
+          "count_frozen_weights": 1.000482908460071,
+          "count_frozen_shot_denominator": 1.000006952670491,
+          "min_mean_photons": 3.2002986526241894,
+          "max_mean_photons": 22.400155739819,
+          "condensate_coherence": 0.9999957154131937,
+          "total_coherent_fraction": 0.9999843098629304,
+          "lambda_quad": 0.9995192444063192,
+          "quad_fixed": 0.9998804621666874,
+          "lambda_gen": 1.0002537867612495,
+          "count_fixed": 1.0004829084600715,
+          "lambda_own": 0.9998265180182822,
+          "own": [
+            [
+              0.999984203433951,
+              0.0003590148515595684
+            ],
+            [
+              0.0003590148515595684,
+              1.0006439155124867
+            ]
+          ],
+          "Fano_N": 1.0003506365213162,
+          "quad_fixed_control": 1.0,
+          "count_frozen_weights_control": 1.000498707834462,
+          "own_fixed": 0.9999842005157611,
+          "own_fixed_control": 1.0,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.9532801613884373,
+          "count_frozen_shot_denominator": 0.9995400263064376,
+          "min_mean_photons": 2.855287058481002,
+          "max_mean_photons": 22.05514414566879,
+          "condensate_coherence": 0.9690195514654963,
+          "total_coherent_fraction": 0.9694446178639536,
+          "lambda_quad": 0.3280913145584655,
+          "quad_fixed": 0.3325639005318518,
+          "lambda_gen": 0.9532782916465514,
+          "count_fixed": 0.9532800683754684,
+          "lambda_own": 0.5437018605328199,
+          "own": [
+            [
+              1.005874270409988,
+              -1.21309933017739
+            ],
+            [
+              -1.21309933017739,
+              3.7278166052185604
+            ]
+          ],
+          "Fano_N": 1.0003506365385777,
+          "quad_fixed_control": 0.33240305590322317,
+          "count_frozen_weights_control": 0.9534563582854723,
+          "own_fixed": 0.5468246753796778,
+          "own_fixed_control": 0.5465775926889975,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.8857779486354865,
+          "count_frozen_shot_denominator": 0.9985805329411929,
+          "min_mean_photons": 2.418685230179395,
+          "max_mean_photons": 21.61854231735234,
+          "condensate_coherence": 0.8812332272140584,
+          "total_coherent_fraction": 0.8833822898011426,
+          "lambda_quad": 0.874881254858671,
+          "quad_fixed": 1.3361905115420682,
+          "lambda_gen": 0.8857450197723484,
+          "count_fixed": 0.8857758281946424,
+          "lambda_own": 1.2569502221746647,
+          "own": [
+            [
+              1.5328628289053339,
+              -1.617463323955644
+            ],
+            [
+              -1.6174633239556442,
+              10.738893201660995
+            ]
+          ],
+          "Fano_N": 1.0003506365558967,
+          "quad_fixed_control": 1.3361368144311294,
+          "count_frozen_weights_control": 0.8859093107368038,
+          "own_fixed": 1.2866312776269169,
+          "own_fixed_control": 1.2864212094585787,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.678381684372997,
+          "count_frozen_shot_denominator": 1.0232850358595669,
+          "min_mean_photons": 1.0330737449372625,
+          "max_mean_photons": 20.232930832074288,
+          "condensate_coherence": 0.44841860354022794,
+          "total_coherent_fraction": 0.4631298653425327,
+          "lambda_quad": 0.9532418331454334,
+          "quad_fixed": 19.904593101337603,
+          "lambda_gen": 0.6781197740217362,
+          "count_fixed": 0.6785351066936804,
+          "lambda_own": 13.539990275941564,
+          "own": [
+            [
+              13.546590687654254,
+              0.3593063557363305
+            ],
+            [
+              0.3593063557363308,
+              33.09953639097329
+            ]
+          ],
+          "Fano_N": 1.0003506366074941,
+          "quad_fixed_control": 19.904583836253675,
+          "count_frozen_weights_control": 0.6781724325264431,
+          "own_fixed": 13.63781458446231,
+          "own_fixed_control": 13.63751109289769,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.6319206383997154,
+          "count_frozen_shot_denominator": 1.0411531267918384,
+          "min_mean_photons": 0.8413958440152947,
+          "max_mean_photons": 20.04125293130431,
+          "condensate_coherence": 0.04069972184319072,
+          "total_coherent_fraction": 0.051045300258200865,
+          "lambda_quad": 1.1424489337699406,
+          "quad_fixed": 57.617324601956355,
+          "lambda_gen": 0.6256272583657222,
+          "count_fixed": 0.626231511158044,
+          "lambda_own": 37.57551712249961,
+          "own": [
+            [
+              37.622774527541374,
+              0.41892469148847933
+            ],
+            [
+              0.41892469148847983,
+              41.28917632540403
+            ]
+          ],
+          "Fano_N": 1.0003506366913641,
+          "quad_fixed_control": 57.617322291341544,
+          "count_frozen_weights_control": 0.6320650742000303,
+          "own_fixed": 37.583550973953706,
+          "own_fixed_control": 37.58334682207229,
+          "z": 10
+        }
+      ]
+    },
+    {
+      "dt": 0.01,
+      "batch": 1,
+      "rows": [
+        {
+          "count_frozen_weights": 0.9999086099218847,
+          "count_frozen_shot_denominator": 0.9999983612140505,
+          "min_mean_photons": 3.199834396355139,
+          "max_mean_photons": 22.399963291194734,
+          "condensate_coherence": 1.0000039194856716,
+          "total_coherent_fraction": 1.0000085492036899,
+          "lambda_quad": 0.9992043870893926,
+          "quad_fixed": 0.9995042731836797,
+          "lambda_gen": 0.9988055424208754,
+          "count_fixed": 0.9999086099218844,
+          "lambda_own": 0.9998689312440151,
+          "own": [
+            [
+              0.9998771383227313,
+              -3.471880462587114e-05
+            ],
+            [
+              -3.471880462587114e-05,
+              1.0000158038933855
+            ]
+          ],
+          "Fano_N": 0.9994648355224645,
+          "quad_fixed_control": 1.0,
+          "count_frozen_weights_control": 1.0000314717554604,
+          "own_fixed": 0.9998771383677685,
+          "own_fixed_control": 0.9999999999999999,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.9521469349974793,
+          "count_frozen_shot_denominator": 0.9994529748879586,
+          "min_mean_photons": 2.8548224914969373,
+          "max_mean_photons": 22.054951386329524,
+          "condensate_coherence": 0.9690434706602208,
+          "total_coherent_fraction": 0.9694939903068669,
+          "lambda_quad": 0.3297803191401141,
+          "quad_fixed": 0.3340869678323066,
+          "lambda_gen": 0.9521277779826841,
+          "count_fixed": 0.9521464619656179,
+          "lambda_own": 0.5439617714838247,
+          "own": [
+            [
+              1.0068061964901889,
+              -1.2133467257150128
+            ],
+            [
+              -1.213346725715013,
+              3.7247503848134547
+            ]
+          ],
+          "Fano_N": 0.9994648355396687,
+          "quad_fixed_control": 0.33409474613099144,
+          "count_frozen_weights_control": 0.9524651560537113,
+          "own_fixed": 0.5469895884409471,
+          "own_fixed_control": 0.5470330555485443,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.885003548200637,
+          "count_frozen_shot_denominator": 0.9984730394646075,
+          "min_mean_photons": 2.4181984802615806,
+          "max_mean_photons": 21.61832737507946,
+          "condensate_coherence": 0.8813417686097432,
+          "total_coherent_fraction": 0.8835225335348724,
+          "lambda_quad": 0.8745172660245157,
+          "quad_fixed": 1.334295515478466,
+          "lambda_gen": 0.8849438348776837,
+          "count_fixed": 0.8850003731046242,
+          "lambda_own": 1.255371310471621,
+          "own": [
+            [
+              1.5342469701762098,
+              -1.6253280014747518
+            ],
+            [
+              -1.6253280014747518,
+              10.728019856336964
+            ]
+          ],
+          "Fano_N": 0.9994648355569223,
+          "quad_fixed_control": 1.3342930990721045,
+          "count_frozen_weights_control": 0.8852522183929432,
+          "own_fixed": 1.2839732288334476,
+          "own_fixed_control": 1.284070022674373,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.6778605312678231,
+          "count_frozen_shot_denominator": 1.0229450611158077,
+          "min_mean_photons": 1.0324166795744587,
+          "max_mean_photons": 20.232545574356493,
+          "condensate_coherence": 0.4486491805905406,
+          "total_coherent_fraction": 0.463415177518949,
+          "lambda_quad": 0.9559159622053764,
+          "quad_fixed": 19.7983305444893,
+          "lambda_gen": 0.6775036051214802,
+          "count_fixed": 0.6780278959262381,
+          "lambda_own": 13.450479093576016,
+          "own": [
+            [
+              13.458164796604843,
+              0.389289690307317
+            ],
+            [
+              0.3892896903073159,
+              33.1684492533855
+            ]
+          ],
+          "Fano_N": 0.9994648356083135,
+          "quad_fixed_control": 19.798329492432725,
+          "count_frozen_weights_control": 0.6778389271504925,
+          "own_fixed": 13.553756795173502,
+          "own_fixed_control": 13.55395397874389,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.6330789293433646,
+          "count_frozen_shot_denominator": 1.041068495800453,
+          "min_mean_photons": 0.8411185955814059,
+          "max_mean_photons": 20.041247490515044,
+          "condensate_coherence": 0.04035734842878342,
+          "total_coherent_fraction": 0.05084422237242591,
+          "lambda_quad": 1.141578457039667,
+          "quad_fixed": 58.10542578170418,
+          "lambda_gen": 0.6266135585537226,
+          "count_fixed": 0.6273656448807228,
+          "lambda_own": 37.855196175991374,
+          "own": [
+            [
+              37.87266088590873,
+              0.23682970887861174
+            ],
+            [
+              0.23682970887861243,
+              41.066718799209696
+            ]
+          ],
+          "Fano_N": 0.9994648356918855,
+          "quad_fixed_control": 58.10542546477713,
+          "count_frozen_weights_control": 0.6332217594144921,
+          "own_fixed": 37.88005369335612,
+          "own_fixed_control": 37.8803600693594,
+          "z": 10
+        }
+      ]
+    },
+    {
+      "dt": 0.01,
+      "batch": 2,
+      "rows": [
+        {
+          "count_frozen_weights": 0.9998176938667542,
+          "count_frozen_shot_denominator": 0.999999985967186,
+          "min_mean_photons": 3.200244018521928,
+          "max_mean_photons": 22.39999968566497,
+          "condensate_coherence": 1.0000003356762859,
+          "total_coherent_fraction": 0.9999880767081847,
+          "lambda_quad": 0.9992120983214398,
+          "quad_fixed": 1.001773216855855,
+          "lambda_gen": 0.999457792570632,
+          "count_fixed": 0.9998176938667546,
+          "lambda_own": 0.9999217832781047,
+          "own": [
+            [
+              0.9999672171176386,
+              0.00012153220308481212
+            ],
+            [
+              0.00012153220308481214,
+              1.0002468730468346
+            ]
+          ],
+          "Fano_N": 0.999787752313936,
+          "quad_fixed_control": 1.0000000000000002,
+          "count_frozen_weights_control": 0.9998504761498759,
+          "own_fixed": 0.9999672177173383,
+          "own_fixed_control": 0.9999999999999999,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.953690019835729,
+          "count_frozen_shot_denominator": 0.9995309455193647,
+          "min_mean_photons": 2.8552530872758273,
+          "max_mean_photons": 22.05500875441181,
+          "condensate_coherence": 0.9690426449342243,
+          "total_coherent_fraction": 0.9694759792205169,
+          "lambda_quad": 0.32996191303386585,
+          "quad_fixed": 0.3343906101651394,
+          "lambda_gen": 0.953684300627992,
+          "count_fixed": 0.9536902723708177,
+          "lambda_own": 0.5446193380293766,
+          "own": [
+            [
+              1.0059795006543246,
+              -1.2114470980349221
+            ],
+            [
+              -1.2114470980349221,
+              3.725657039653148
+            ]
+          ],
+          "Fano_N": 0.9997877523312005,
+          "quad_fixed_control": 0.33429675180708995,
+          "count_frozen_weights_control": 0.9526799351869552,
+          "own_fixed": 0.5477639837389896,
+          "own_fixed_control": 0.5475260496564227,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.8862469381875021,
+          "count_frozen_shot_denominator": 0.9985662463562244,
+          "min_mean_photons": 2.418633989114032,
+          "max_mean_photons": 21.618389656235095,
+          "condensate_coherence": 0.8813405092450409,
+          "total_coherent_fraction": 0.8835021395461451,
+          "lambda_quad": 0.873946109438085,
+          "quad_fixed": 1.3405479856324203,
+          "lambda_gen": 0.8862322548182404,
+          "count_fixed": 0.8862459146616152,
+          "lambda_own": 1.2598518391383318,
+          "own": [
+            [
+              1.5364862051581383,
+              -1.6182210960191215
+            ],
+            [
+              -1.6182210960191223,
+              10.725919100694117
+            ]
+          ],
+          "Fano_N": 0.9997877523485159,
+          "quad_fixed_control": 1.340516322857443,
+          "count_frozen_weights_control": 0.8852597216715605,
+          "own_fixed": 1.2890710102313234,
+          "own_fixed_control": 1.2887866113928768,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.676973158963383,
+          "count_frozen_shot_denominator": 1.023200624666303,
+          "min_mean_photons": 1.032917648110854,
+          "max_mean_photons": 20.232673315195953,
+          "condensate_coherence": 0.44881308220358646,
+          "total_coherent_fraction": 0.463547569597215,
+          "lambda_quad": 0.9549381235449335,
+          "quad_fixed": 19.780302409830238,
+          "lambda_gen": 0.6767351959418909,
+          "count_fixed": 0.6771627958797736,
+          "lambda_own": 13.454476960353386,
+          "own": [
+            [
+              13.462057785938352,
+              0.386419771703702
+            ],
+            [
+              0.3864197717037016,
+              33.151571727921635
+            ]
+          ],
+          "Fano_N": 0.999787752400074,
+          "quad_fixed_control": 19.780296948680526,
+          "count_frozen_weights_control": 0.676436852380209,
+          "own_fixed": 13.556913714092554,
+          "own_fixed_control": 13.556430128052156,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.6351571794554323,
+          "count_frozen_shot_denominator": 1.0411386484066982,
+          "min_mean_photons": 0.8413735942926277,
+          "max_mean_photons": 20.04112926152973,
+          "condensate_coherence": 0.040451431301591685,
+          "total_coherent_fraction": 0.050840731005093294,
+          "lambda_quad": 1.1318043342619655,
+          "quad_fixed": 58.6698597486194,
+          "lambda_gen": 0.6282623190184379,
+          "count_fixed": 0.6289716109045578,
+          "lambda_own": 38.2086643521819,
+          "own": [
+            [
+              38.24036978289402,
+              -0.280542211914281
+            ],
+            [
+              -0.2805422119142827,
+              40.69101298766923
+            ]
+          ],
+          "Fano_N": 0.9997877524839632,
+          "quad_fixed_control": 58.66985839032415,
+          "count_frozen_weights_control": 0.6346287066397666,
+          "own_fixed": 38.394140971659425,
+          "own_fixed_control": 38.39329904745327,
+          "z": 10
+        }
+      ]
+    },
+    {
+      "dt": 0.01,
+      "batch": 3,
+      "rows": [
+        {
+          "count_frozen_weights": 1.0002471286092556,
+          "count_frozen_shot_denominator": 1.000008956632352,
+          "min_mean_photons": 3.199939229996375,
+          "max_mean_photons": 22.40020062856469,
+          "condensate_coherence": 1.0000005098070859,
+          "total_coherent_fraction": 1.000005849403403,
+          "lambda_quad": 0.9992129864184727,
+          "quad_fixed": 1.0000756482716286,
+          "lambda_gen": 0.9993447922958719,
+          "count_fixed": 1.0002471286092556,
+          "lambda_own": 1.0000007883238318,
+          "own": [
+            [
+              1.0000198869196473,
+              5.827461380508241e-05
+            ],
+            [
+              5.82746138050824e-05,
+              1.0001785988103682
+            ]
+          ],
+          "Fano_N": 1.0000367746315757,
+          "quad_fixed_control": 1.0000000000000002,
+          "count_frozen_weights_control": 1.0002272419277187,
+          "own_fixed": 1.000019886859655,
+          "own_fixed_control": 1.0000000000000004,
+          "z": 0
+        },
+        {
+          "count_frozen_weights": 0.9531662081538071,
+          "count_frozen_shot_denominator": 0.999493534861027,
+          "min_mean_photons": 2.855010550380148,
+          "max_mean_photons": 22.055271948941503,
+          "condensate_coherence": 0.9690024170642363,
+          "total_coherent_fraction": 0.9694534137166745,
+          "lambda_quad": 0.33151109490514163,
+          "quad_fixed": 0.33611610678036974,
+          "lambda_gen": 0.9531577073012137,
+          "count_fixed": 0.9531659051816179,
+          "lambda_own": 0.5468161639110978,
+          "own": [
+            [
+              1.007179605026996,
+              -1.2101729836853912
+            ],
+            [
+              -1.2101729836853912,
+              3.7280389102092855
+            ]
+          ],
+          "Fano_N": 1.0000367746490721,
+          "quad_fixed_control": 0.33611113371571777,
+          "count_frozen_weights_control": 0.952992990237191,
+          "own_fixed": 0.5500365235600329,
+          "own_fixed_control": 0.5498709912903497,
+          "z": 1
+        },
+        {
+          "count_frozen_weights": 0.8860450279315698,
+          "count_frozen_shot_denominator": 0.9985226799364552,
+          "min_mean_photons": 2.418399716847914,
+          "max_mean_photons": 21.618661115394477,
+          "condensate_coherence": 0.8812609443672105,
+          "total_coherent_fraction": 0.8834260153633196,
+          "lambda_quad": 0.8737349810799505,
+          "quad_fixed": 1.352923231521147,
+          "lambda_gen": 0.8860002042077232,
+          "count_fixed": 0.8860424393198139,
+          "lambda_own": 1.2686188933978022,
+          "own": [
+            [
+              1.5447509929495775,
+              -1.6158953207396507
+            ],
+            [
+              -1.6158953207396514,
+              10.724664357966153
+            ]
+          ],
+          "Fano_N": 1.000036774666617,
+          "quad_fixed_control": 1.3529190304518626,
+          "count_frozen_weights_control": 0.885867239684773,
+          "own_fixed": 1.2978059365822194,
+          "own_fixed_control": 1.2977137353870014,
+          "z": 2
+        },
+        {
+          "count_frozen_weights": 0.6781981669801993,
+          "count_frozen_shot_denominator": 1.0229423622616332,
+          "min_mean_photons": 1.0324052960057306,
+          "max_mean_photons": 20.232666694516595,
+          "condensate_coherence": 0.44888200941941087,
+          "total_coherent_fraction": 0.46361874276512866,
+          "lambda_quad": 0.9526525726964397,
+          "quad_fixed": 19.6072327948461,
+          "lambda_gen": 0.6778631946049041,
+          "count_fixed": 0.6783586966253553,
+          "lambda_own": 13.303997114387021,
+          "own": [
+            [
+              13.313373240445292,
+              0.43293764010620744
+            ],
+            [
+              0.4329376401062074,
+              33.294662668138024
+            ]
+          ],
+          "Fano_N": 1.0000367747188799,
+          "quad_fixed_control": 19.607231792577362,
+          "count_frozen_weights_control": 0.6780713021692921,
+          "own_fixed": 13.41326862968078,
+          "own_fixed_control": 13.413199948010158,
+          "z": 5
+        },
+        {
+          "count_frozen_weights": 0.6363673383167049,
+          "count_frozen_shot_denominator": 1.0410730643235488,
+          "min_mean_photons": 0.8411164336188433,
+          "max_mean_photons": 20.04137783228183,
+          "condensate_coherence": 0.0393387644188556,
+          "total_coherent_fraction": 0.04985679041391211,
+          "lambda_quad": 1.130076352970974,
+          "quad_fixed": 58.257044670682404,
+          "lambda_gen": 0.6298497136868484,
+          "count_fixed": 0.6306341480355697,
+          "lambda_own": 37.89466653852299,
+          "own": [
+            [
+              37.8997323554757,
+              -0.1278598186352937
+            ],
+            [
+              -0.12785981863529172,
+              41.12181299369256
+            ]
+          ],
+          "Fano_N": 1.0000367748039485,
+          "quad_fixed_control": 58.257044399379815,
+          "count_frozen_weights_control": 0.6362039654283382,
+          "own_fixed": 38.03021835428076,
+          "own_fixed_control": 38.0300713293055,
+          "z": 10
+        }
+      ]
+    }
+  ]
+}

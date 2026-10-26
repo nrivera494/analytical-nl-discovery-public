@@ -1,0 +1,96 @@
+{
+ "beta3_mismatch_factored": "-(w1 - w3)*(w2 - w3)*(2*b2 + b3*w1 + b3*w2)/2",
+ "beta3_equals_-(w1-w3)(w2-w3)(2b2+b3(w1+w2))/2": true,
+ "beta4_mismatch_factored": "-(w1 - w3)*(w2 - w3)*(12*b2 + 2*b4*w1**2 + 3*b4*w1*w2 - b4*w1*w3 + 2*b4*w2**2 - b4*w2*w3 + b4*w3**2)/12",
+ "mesh_lattice_kinematics": {
+  "15": {
+   "upper_band_rad": [
+    0.2617993877991494,
+    2.8797932657906435
+   ],
+   "max_mismatch_over_2pi": 1.8333333333333333,
+   "umklapp_open": true,
+   "edge_quartet_(Q=pi,Q=pi)->(Q=0,Q=0)_mismatch_over_2pi": 1.0
+  },
+  "30": {
+   "upper_band_rad": [
+    0.5235987755982988,
+    2.6179938779914944
+   ],
+   "max_mismatch_over_2pi": 1.6666666666666667,
+   "umklapp_open": true,
+   "edge_quartet_(Q=pi,Q=pi)->(Q=0,Q=0)_mismatch_over_2pi": 1.0
+  },
+  "45": {
+   "upper_band_rad": [
+    0.7853981633974483,
+    2.356194490192345
+   ],
+   "max_mismatch_over_2pi": 1.5,
+   "umklapp_open": true,
+   "edge_quartet_(Q=pi,Q=pi)->(Q=0,Q=0)_mismatch_over_2pi": 1.0
+  },
+  "60": {
+   "upper_band_rad": [
+    1.0471975511965976,
+    2.0943951023931957
+   ],
+   "max_mismatch_over_2pi": 1.3333333333333335,
+   "umklapp_open": true,
+   "edge_quartet_(Q=pi,Q=pi)->(Q=0,Q=0)_mismatch_over_2pi": 1.0
+  },
+  "75": {
+   "upper_band_rad": [
+    1.3089969389957472,
+    1.832595714594046
+   ],
+   "max_mismatch_over_2pi": 1.1666666666666665,
+   "umklapp_open": true,
+   "edge_quartet_(Q=pi,Q=pi)->(Q=0,Q=0)_mismatch_over_2pi": 1.0
+  }
+ },
+ "ring_counts_tol_0.05rad": {
+  "L24_beta30deg": {
+   "normal_nontrivial": 2258,
+   "umklapp": 1232,
+   "weighted_normal": 980.4272,
+   "weighted_umklapp": 496.2273,
+   "umklapp_to_normal_weighted_ratio": 0.5061
+  },
+  "L24_beta45deg": {
+   "normal_nontrivial": 2178,
+   "umklapp": 1200,
+   "weighted_normal": 731.3711,
+   "weighted_umklapp": 382.5593,
+   "umklapp_to_normal_weighted_ratio": 0.5231
+  },
+  "L24_beta60deg": {
+   "normal_nontrivial": 2298,
+   "umklapp": 1248,
+   "weighted_normal": 645.7104,
+   "weighted_umklapp": 342.2554,
+   "umklapp_to_normal_weighted_ratio": 0.53
+  },
+  "L36_beta30deg": {
+   "normal_nontrivial": 7074,
+   "umklapp": 3408,
+   "weighted_normal": 3450.8535,
+   "weighted_umklapp": 1521.5516,
+   "umklapp_to_normal_weighted_ratio": 0.4409
+  },
+  "L36_beta45deg": {
+   "normal_nontrivial": 6522,
+   "umklapp": 3216,
+   "weighted_normal": 2352.96,
+   "weighted_umklapp": 1089.8875,
+   "umklapp_to_normal_weighted_ratio": 0.4632
+  },
+  "L36_beta60deg": {
+   "normal_nontrivial": 7754,
+   "umklapp": 3632,
+   "weighted_normal": 2267.3739,
+   "weighted_umklapp": 1032.5854,
+   "umklapp_to_normal_weighted_ratio": 0.4554
+  }
+ }
+}

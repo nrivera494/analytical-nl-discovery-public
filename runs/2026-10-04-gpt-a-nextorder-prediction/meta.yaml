@@ -1,0 +1,19 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-nextorder-prediction
+task: T-20261004-claude-interactive-07
+claim: C-20261004-gpt-a-01
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: 751cddf
+analysis_commit: d76e08e00a7f2b7b26c2113c1b2769f58c3014c0
+prediction_commit: 6d5b1ffdf5bcffe806494ee179c7cf38db0ac130
+hardware: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-nextorder-prediction
+wall_time_seconds: 37.21460700035095
+julia_threads: 0
+blas_threads: 1
+fft_threads: 1
+randomness: none; deterministic equations and fixed phases
+status: completed

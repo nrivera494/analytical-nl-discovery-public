@@ -1,0 +1,54 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "kind": "literature_transcription_not_simulation",
+  "werner_friberg": {
+    "source": "arXiv:quant-ph/9904104",
+    "access": "full text",
+    "T0_ps": 1.0,
+    "temperature_K": 300,
+    "reported_squeezing_dB_below_shot_noise": 4.8,
+    "reported_cutoff_GHz": 125,
+    "reported_cutoff_resolution_GHz": 12.5,
+    "reported_distance_soliton_periods": 3.0,
+    "reported_distance_resolution_soliton_periods": 0.2,
+    "filter": "symmetric central passband",
+    "global_binary_optimum": false,
+    "angular_dimensionless_cutoff": "pi/4"
+  },
+  "levandovsky_et_al": {
+    "source": "10.1364/OL.24.000043",
+    "access": "abstract only; indexed partial preview also inspected",
+    "square_filter_approximately_optimal_until_soliton_periods": 3,
+    "full_correlator_read": false,
+    "numerical_global_minimum_verified_from_full_text": false
+  },
+  "mecozzi_kumar": {
+    "source": "10.1364/OL.22.001232",
+    "access": "abstract only",
+    "primary_closed_form_read": false
+  },
+  "kaertner_et_al": {
+    "source": "10.1364/JOSAB.11.001267",
+    "access": "abstract only",
+    "numerical_floor_verified_from_full_text": false
+  },
+  "uddin_noise_immune": {
+    "source": "10.1038/s41566-025-01677-2; arXiv:2311.05535v4",
+    "access": "full main text; supplement not accessed",
+    "figure_launch_shape": "sech",
+    "figure_launch_FWHM_fs": 185,
+    "not_reproduced_here": true
+  },
+  "uddin_dft": {
+    "source": "arXiv:2503.12646v1",
+    "access": "full text",
+    "phonon_Langevin_noise": "explicitly omitted after an estimate; not a source for the present floor law"
+  },
+  "werner_ssfs": {
+    "source": "10.1103/PhysRevA.60.R781",
+    "access": "abstract only",
+    "scope": "edge-filtered subpicosecond solitons; deterministic Raman shift is essential"
+  }
+}

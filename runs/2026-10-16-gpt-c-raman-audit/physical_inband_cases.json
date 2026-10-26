@@ -1,0 +1,3 @@
+[
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"measured_hc_s1_N3_T80_fixed130cm","N":3,"T0_fs":80,"n":16384,"width":160,"tol":1e-9,"zN":[3,4,8,12.248029652724857],"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2}
+]

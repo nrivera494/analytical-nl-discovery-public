@@ -1,0 +1,4 @@
+sech2a sech 2.0 0.008 Nt 32768 TW 300.0 etaB(xif) 3.6065e-07 etaDW 2.4840e-14 conv 1.9e-02 NSR dB -65.04 dnuT0 3.317 dH -4.5e-10 dP 4.8e-12 wall 46.0
+sech2a sech 2.0 0.01 Nt 16384 TW 250.0 etaB(xif) 9.0104e-06 etaDW 1.4986e-10 conv 3.8e-03 NSR dB -51.22 dnuT0 2.656 dH -2.4e-10 dP 3.9e-12 wall 19.3
+sech2a sech 2.0 0.012 Nt 16384 TW 216.66666666666666 etaB(xif) 7.8776e-05 etaDW 4.4185e-08 conv 1.0e-03 NSR dB -41.98 dnuT0 2.211 dH 6.8e-11 dP 3.7e-12 wall 16.3
+sech2a sech 2.0 0.016 Nt 8192 TW 175.0 etaB(xif) 1.2240e-03 etaDW 4.2952e-05 conv 1.4e-04 NSR dB -30.7 dnuT0 1.663 dH 1.8e-09 dP 2.9e-12 wall 6.7

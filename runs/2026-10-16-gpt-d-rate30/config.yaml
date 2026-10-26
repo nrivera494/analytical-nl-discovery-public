@@ -1,0 +1,24 @@
+{
+  "run_id": "2026-10-16-gpt-d-rate30",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "dispersion": "quadratic",
+    "loss_scale": 0.0
+  },
+  "grid": {
+    "n": 8192,
+    "dt": 0.0015
+  },
+  "propagation": {
+    "T": 0.03,
+    "L": 0.004114644490051397,
+    "h": 8.229288980102794e-06,
+    "cutoffs": [],
+    "save_every": 0.00020573222450256983
+  }
+}

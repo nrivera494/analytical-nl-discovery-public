@@ -1,0 +1,2873 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "deterministic": [
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.6_p4101_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4101,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.6_p4101_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.4201807655082599,
+        0.3122774196088271,
+        6.709363189472128e-06,
+        3.6466829732573203e-06,
+        5.782539304499679e-06,
+        1.6637864406199299e-06,
+        1.0000067093631897,
+        0.6000036466829732,
+        0.4201865480475644,
+        0.3122790786575862
+      ],
+      "wall_seconds": 2.1712732315063477,
+      "mean": 0.7253778208255524,
+      "se": 0.009250079109745332,
+      "half_shift": 0.029602936356529552,
+      "last_half_mean": 0.740179289003817,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.7456818289803822,
+          "se": 0.0007383768365044725,
+          "bandwidth_shift": 0.00037458653439281786,
+          "residual": -0.0203040081548298,
+          "tolerance": 0.027838507054134567,
+          "pass_endpoint": true,
+          "pass_stationarity": false
+        },
+        {
+          "include_L": true,
+          "mean": 0.71647096028314,
+          "se": 0.0015077823122057487,
+          "bandwidth_shift": 0.002132982461445665,
+          "residual": 0.00890686054241241,
+          "tolerance": 0.02811647807492837,
+          "pass_endpoint": true,
+          "pass_stationarity": false
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6281824194917108,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.575496873244276,
+      "Y_max_drift": 0.7932287987014341,
+      "B_max_drift": 0.6364682933269175
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.6_p4102_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4102,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.6_p4102_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        1.0,
+        0.6,
+        0.41058186824028836,
+        0.23207369497112773,
+        5.977616776453587e-06,
+        2.9455132206646084e-06,
+        5.066762107708289e-06,
+        1.0772875907449908e-06,
+        1.0000059776167765,
+        0.6000029455132206,
+        0.41058693473665575,
+        0.23207477225871848
+      ],
+      "wall_seconds": 2.176182985305786,
+      "mean": 0.7561889799993571,
+      "se": 0.004310914514617133,
+      "half_shift": 0.007661610738757374,
+      "last_half_mean": 0.7600197853687358,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.7532494993548025,
+          "se": 0.0006901678060297453,
+          "bandwidth_shift": 0.0006646558769713984,
+          "residual": 0.002939480644554626,
+          "tolerance": 0.013097436389437028,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.7482783651319744,
+          "se": 0.001152202117385204,
+          "bandwidth_shift": 0.0026366538319148036,
+          "residual": 0.007910614867382648,
+          "tolerance": 0.013386709194002554,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.46412472683410194,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.45899942919336323,
+      "Y_max_drift": 0.579814647173951,
+      "B_max_drift": 0.834650577152443
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.6_p4103_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4103,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.6_p4103_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.47364974700225454,
+        -0.019038067489066765,
+        1.2498569098351453e-05,
+        7.905228850302315e-06,
+        1.191670907335629e-05,
+        1.6191600394482863e-07,
+        1.0000124985690986,
+        0.6000079052288503,
+        0.4736616637113279,
+        -0.019038224366232336
+      ],
+      "wall_seconds": 2.2581770420074463,
+      "mean": 0.6290092716247105,
+      "se": 0.00680462025125301,
+      "half_shift": 0.0008405128035199327,
+      "last_half_mean": 0.6294295280264705,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.6247673624544257,
+          "se": 0.002174637412788521,
+          "bandwidth_shift": 0.0039057307972758526,
+          "residual": 0.0042419091702848855,
+          "tolerance": 0.021430985552880182,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.6435955774910957,
+          "se": 0.0020494902887338326,
+          "bandwidth_shift": 0.0005970621233523099,
+          "residual": -0.014586305866385207,
+          "tolerance": 0.021319695233900315,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6095321395494205,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": false,
+      "X_max_drift": 1.0142520411322637,
+      "Y_max_drift": 0.8928357036151809,
+      "B_max_drift": 1.2628186092616638
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.6_p4104_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4104,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.6_p4104_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.41772159712087237,
+        -0.41924025433004847,
+        6.719570666113839e-06,
+        3.4427118701385595e-06,
+        5.820734552186568e-06,
+        2.2248662045476486e-06,
+        1.0000067195706663,
+        0.6000034425202767,
+        0.41772741785542455,
+        -0.4192424762677449
+      ],
+      "wall_seconds": 2.176162004470825,
+      "mean": 0.6967182716249428,
+      "se": 0.0047850281330054836,
+      "half_shift": 0.005544139840581996,
+      "last_half_mean": 0.6994903415452337,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.7479234976070204,
+          "se": 0.0007304285008286309,
+          "bandwidth_shift": 0.0020494596391488207,
+          "residual": -0.05120522598207755,
+          "tolerance": 0.014521369778925482,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.693670671680662,
+          "se": 0.001437924012883515,
+          "bandwidth_shift": 0.0016462739029912132,
+          "residual": 0.003047599944280832,
+          "tolerance": 0.014989232045182595,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.5555407018354545,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.6812097979720247,
+      "Y_max_drift": 0.5791373127428537,
+      "B_max_drift": 0.7150254380011106
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.6_p4105_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4105,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.6_p4105_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.4510631581760649,
+        -0.411096638171429,
+        1.0101755156810555e-05,
+        5.721914046241672e-06,
+        9.346774813900893e-06,
+        4.004758111408879e-06,
+        1.000010101755157,
+        0.6000057209625362,
+        0.4510725049508788,
+        -0.4111006398848526
+      ],
+      "wall_seconds": 2.1822991371154785,
+      "mean": 0.6268040636337756,
+      "se": 0.002987628447028795,
+      "half_shift": -0.009787419144024034,
+      "last_half_mean": 0.6219103540617636,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.6848383177539299,
+          "se": 0.0016168316305421222,
+          "bandwidth_shift": 0.0007190285060288959,
+          "residual": -0.05803425412015428,
+          "tolerance": 0.010191202791189796,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.631348449622607,
+          "se": 0.0017592470532449289,
+          "bandwidth_shift": 0.0001501864226620686,
+          "residual": -0.004544385988831445,
+          "tolerance": 0.010401339595774186,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.5807829339236065,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": false,
+      "X_max_drift": 0.7946020673351115,
+      "Y_max_drift": 0.8779283733658055,
+      "B_max_drift": 0.7616790628555673
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.6_p4106_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4106,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.6_p4106_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.5999999999999999,
+        0.4474241740089412,
+        0.009028780671659284,
+        9.22778964440596e-06,
+        5.54878526193292e-06,
+        8.376550754363166e-06,
+        6.168252746074909e-08,
+        1.0000092277896446,
+        0.6000055428870249,
+        0.44743255055969555,
+        0.009028829851215421
+      ],
+      "wall_seconds": 2.197112798690796,
+      "mean": 0.6851092162326373,
+      "se": 0.007087206428131911,
+      "half_shift": 0.01486022877206572,
+      "last_half_mean": 0.6925393306186701,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.692780774045781,
+          "se": 0.0015957352873146328,
+          "bandwidth_shift": 0.002136553422226406,
+          "residual": -0.007671557813143659,
+          "tolerance": 0.021793893515368444,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.7059315812223029,
+          "se": 0.0014457160927769104,
+          "bandwidth_shift": 0.0004239691727285777,
+          "residual": -0.02082236498966561,
+          "tolerance": 0.021699477177637615,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6299388820537,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.9646061565408403,
+      "Y_max_drift": 0.6766241562802734,
+      "B_max_drift": 0.9747595279556469
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.6_p0_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 0,
+        "aligned": true,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.6_p0_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.48743441264546383,
+        0.0,
+        1.4619168181573272e-05,
+        8.88039226554227e-06,
+        1.4302296968915496e-05,
+        5.277591130174036e-09,
+        1.0000146191681818,
+        0.6000088803922655,
+        0.48744871494243275,
+        8.172488770788466e-10
+      ],
+      "wall_seconds": 2.1818270683288574,
+      "mean": 0.5620062866302813,
+      "se": 0.0014225176940012155,
+      "half_shift": -0.003914522556547562,
+      "last_half_mean": 0.5600490253520075,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5843101642809343,
+          "se": 0.0014716215407499073,
+          "bandwidth_shift": 0.0006939486746181389,
+          "residual": -0.022303877650653003,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5850724688171199,
+          "se": 0.0015525432748421447,
+          "bandwidth_shift": 0.005366777401367928,
+          "residual": -0.023066182186838646,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6185783260928421,
+      "reflection_first_above_1e-8": 12200.0,
+      "pass_invariant_drift": false,
+      "X_max_drift": 1.1913681577533883,
+      "Y_max_drift": 0.9915939273844347,
+      "B_max_drift": 1.1087875230552426
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.9_p4201_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 4201,
+        "aligned": false,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.9_p4201_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999998,
+        0.4031510722397321,
+        -0.21690903045056353,
+        5.127588246223169e-06,
+        5.153032406335356e-06,
+        4.182195030288938e-06,
+        1.2337573161436133e-06,
+        1.000005127588246,
+        0.9000051474707091,
+        0.4031552544347624,
+        -0.21691025443112238
+      ],
+      "wall_seconds": 2.1777238845825195,
+      "mean": 0.5847531989438935,
+      "se": 0.006586997478911164,
+      "half_shift": 0.0038799935590586587,
+      "last_half_mean": 0.5866931957234228,
+      "block": 100.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5886668369589758,
+          "se": 0.0019781102928880753,
+          "bandwidth_shift": 0.002349373225622453,
+          "residual": -0.003913638015082266,
+          "tolerance": 0.020632816217426693,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5836632050110946,
+          "se": 0.001883122812768833,
+          "bandwidth_shift": 0.0038301301000794874,
+          "residual": 0.0010899939327989605,
+          "tolerance": 0.020552668581874517,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.647295171828981,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.788743603199688,
+      "Y_max_drift": 0.7767736256216108,
+      "B_max_drift": 0.8462671780238066
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.9_p4202_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 4202,
+        "aligned": false,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.9_p4202_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999998,
+        0.40478015578995874,
+        0.16835376700358406,
+        5.187841863207865e-06,
+        5.346802359640357e-06,
+        4.225943913915842e-06,
+        9.636021029435504e-07,
+        1.000005187841863,
+        0.9000053459530823,
+        0.40478438173387266,
+        0.16835472803045204
+      ],
+      "wall_seconds": 2.1789629459381104,
+      "mean": 0.591470470565644,
+      "se": 0.005443269483052209,
+      "half_shift": -0.013105284903783931,
+      "last_half_mean": 0.584917828113752,
+      "block": 100.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5840968309286105,
+          "se": 0.001965214381165249,
+          "bandwidth_shift": 0.002382582110346365,
+          "residual": 0.007373639637033413,
+          "tolerance": 0.01736148761084705,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.587322624900209,
+          "se": 0.0008982363573485131,
+          "bandwidth_shift": 0.0025133330038978885,
+          "residual": 0.004147845665434913,
+          "tolerance": 0.016550652584388075,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6764011330880342,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.770374594990292,
+      "Y_max_drift": 0.7772003416092225,
+      "B_max_drift": 0.7725309939801346
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.9_p4203_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 4203,
+        "aligned": false,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.9_p4203_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        0.9999999999999999,
+        0.8999999999999998,
+        0.38584668078255285,
+        -0.17701324262241946,
+        4.049859176569193e-06,
+        3.8478880372005975e-06,
+        3.172434676346203e-06,
+        7.264336222556622e-07,
+        1.0000040498591765,
+        0.900003847888037,
+        0.38584985301909136,
+        -0.1770139687203084
+      ],
+      "wall_seconds": 2.183182954788208,
+      "mean": 0.6191324709699526,
+      "se": 0.005944317975572962,
+      "half_shift": 0.014045082696037992,
+      "last_half_mean": 0.6261550123179717,
+      "block": 100.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.6146190015894238,
+          "se": 0.0013624446094825582,
+          "bandwidth_shift": 0.0017976565736772532,
+          "residual": 0.004513469380528767,
+          "tolerance": 0.01829536945726025,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.6131245658112993,
+          "se": 0.0016295760704951867,
+          "bandwidth_shift": 0.0027206276394916573,
+          "residual": 0.006007905158653348,
+          "tolerance": 0.018490914235868745,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6651513011957882,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.7484440798833147,
+      "Y_max_drift": 0.6744423551757053,
+      "B_max_drift": 0.7652855788295005
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.9_p4204_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 4204,
+        "aligned": false,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.9_p4204_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999998,
+        0.4314504870442129,
+        0.16579398035597742,
+        7.556278482478973e-06,
+        7.44217563697358e-06,
+        6.616657731051134e-06,
+        1.6029702988862304e-06,
+        1.0000075562784823,
+        0.9000074421756368,
+        0.43145710370194396,
+        0.16579558102545094
+      ],
+      "wall_seconds": 2.202507972717285,
+      "mean": 0.5194624187031277,
+      "se": 0.004902280706167167,
+      "half_shift": -0.0010705921968046095,
+      "last_half_mean": 0.5189271226047255,
+      "block": 100.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5310116923765129,
+          "se": 0.0015470644915038473,
+          "bandwidth_shift": 0.002159319205290555,
+          "residual": -0.011549273673385207,
+          "tolerance": 0.015421798921214678,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5310370895937825,
+          "se": 0.0009652452275761104,
+          "bandwidth_shift": 0.002166664939176721,
+          "residual": -0.011574670890654781,
+          "tolerance": 0.01498921246239294,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6759181291978211,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.9034983206599059,
+      "Y_max_drift": 0.9302665119144029,
+      "B_max_drift": 0.9167172177431152
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "deterministic_E0.9_p0_s0_d7101_h0.04_z24000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 0,
+        "aligned": true,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.04,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/deterministic_E0.9_p0_s0_d7101_h0.04_z24000.npz",
+      "checks": [
+        0.9999999999999999,
+        0.8999999999999998,
+        0.4352236191104563,
+        0.0,
+        7.903241594608978e-06,
+        7.940113948334826e-06,
+        6.9715903850409155e-06,
+        7.36139371343772e-08,
+        1.0000079032415945,
+        0.9000079401139481,
+        0.43523059070084136,
+        -3.658340580817154e-08
+      ],
+      "wall_seconds": 2.1939430236816406,
+      "mean": 0.5275165165614896,
+      "se": 0.015412990811138894,
+      "half_shift": -0.023672019241751996,
+      "last_half_mean": 0.5156805069406137,
+      "block": 100.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5214786820615734,
+          "se": 0.0017174095824047807,
+          "bandwidth_shift": 0.0008437464686904539,
+          "residual": 0.006037834499916128,
+          "tolerance": 0.046525133344912505,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5368571657419969,
+          "se": 0.001142187954321587,
+          "bandwidth_shift": 0.00017387372071941964,
+          "residual": -0.009340649180507365,
+          "tolerance": 0.04636576227784078,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6668673178015313,
+      "reflection_first_above_1e-8": 3100.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.962320912572416,
+      "Y_max_drift": 0.9196913917614217,
+      "B_max_drift": 1.0171524404495385
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "stepcheck_E0.6_p4101_s0_d7101_h0.02_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4101,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/stepcheck_E0.6_p4101_s0_d7101_h0.02_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.4201807655082599,
+        0.3122774196088271,
+        2.1240189007620813e-07,
+        1.1354011952846577e-07,
+        1.8313251304302725e-07,
+        5.0314641120152714e-08,
+        1.0000002124018903,
+        0.6000001133031161,
+        0.42018094864077293,
+        0.31227746959783365
+      ],
+      "wall_seconds": 4.36310601234436,
+      "mean": 0.7310401211786595,
+      "se": 0.004540214745652678,
+      "half_shift": 0.008898942780182217,
+      "last_half_mean": 0.7354895925687507,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.7456818289803822,
+          "se": 0.0007383768365044725,
+          "bandwidth_shift": 0.00037458653439281786,
+          "residual": -0.014641707801722692,
+          "tolerance": 0.013799592479633423,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.71647096028314,
+          "se": 0.0015077823122057487,
+          "bandwidth_shift": 0.002132982461445665,
+          "residual": 0.014569160895519517,
+          "tolerance": 0.014352094513999786,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6281824194917108,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.5404751451263519,
+      "Y_max_drift": 0.6745019655461681,
+      "B_max_drift": 0.5708727985409907
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "stepcheck_E0.6_p4103_s0_d7101_h0.02_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4103,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/stepcheck_E0.6_p4103_s0_d7101_h0.02_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.47364974700225454,
+        -0.019038067489066765,
+        3.989360972678213e-07,
+        2.4028921274954484e-07,
+        3.8129945800768894e-07,
+        6.782725200937811e-09,
+        1.0000003989360975,
+        0.6000002402883571,
+        0.47365012830171255,
+        -0.01903807422080576
+      ],
+      "wall_seconds": 4.395311117172241,
+      "mean": 0.596381513731834,
+      "se": 0.0020499639566230704,
+      "half_shift": -0.0018293821434002266,
+      "last_half_mean": 0.5954668226601338,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.6247673624544257,
+          "se": 0.002174637412788521,
+          "bandwidth_shift": 0.0039057307972758526,
+          "residual": -0.028385848722591644,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.6435955774910957,
+          "se": 0.0020494902887338326,
+          "bandwidth_shift": 0.0005970621233523099,
+          "residual": -0.04721406375926174,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.638250966709857,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 1.0539289119446646,
+      "Y_max_drift": 0.9918561654894816,
+      "B_max_drift": 1.1243707447427305
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "stepcheck_E0.6_p0_s0_d7101_h0.02_z24000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 0,
+        "aligned": true,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/stepcheck_E0.6_p0_s0_d7101_h0.02_z24000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.48743441264546383,
+        0.0,
+        4.6286593202715665e-07,
+        2.8078954850130344e-07,
+        4.5275204879624553e-07,
+        3.738335405123472e-10,
+        1.0000004628659322,
+        0.6000002807895485,
+        0.48743486539751263,
+        2.1357663033960694e-11
+      ],
+      "wall_seconds": 4.455972194671631,
+      "mean": 0.5620981136805622,
+      "se": 0.002027426436458267,
+      "half_shift": -0.0032205819969131078,
+      "last_half_mean": 0.5604878226821056,
+      "block": 100.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5843101642809343,
+          "se": 0.0014716215407499073,
+          "bandwidth_shift": 0.0006939486746181389,
+          "residual": -0.022212050600372124,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5850724688171199,
+          "se": 0.0015525432748421447,
+          "bandwidth_shift": 0.005366777401367928,
+          "residual": -0.022974355136557767,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.5701238293166432,
+      "reflection_first_above_1e-8": 12100.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.9936955932866804,
+      "Y_max_drift": 1.1921676414428732,
+      "B_max_drift": 1.0897052946381167
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "stepcheck_E0.9_p4201_s0_d7101_h0.02_z24000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 4201,
+        "aligned": false,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/stepcheck_E0.9_p4201_s0_d7101_h0.02_z24000.npz",
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999998,
+        0.4031510722397321,
+        -0.21690903045056353,
+        1.606060462400194e-07,
+        1.6757664600408617e-07,
+        1.303403484587129e-07,
+        3.737959342053898e-08,
+        1.000000160606046,
+        0.9000001675766458,
+        0.4031512025794095,
+        -0.21690906772733376
+      ],
+      "wall_seconds": 4.7249298095703125,
+      "mean": 0.601918600237628,
+      "se": 0.011482134343673511,
+      "half_shift": 0.012180090885553496,
+      "last_half_mean": 0.6080086456804048,
+      "block": 100.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5886668369589758,
+          "se": 0.0019781102928880753,
+          "bandwidth_shift": 0.002349373225622453,
+          "residual": 0.013251763278652184,
+          "tolerance": 0.03495384048646112,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5836632050110946,
+          "se": 0.001883122812768833,
+          "bandwidth_shift": 0.0038301301000794874,
+          "residual": 0.01825539522653341,
+          "tolerance": 0.03490659028789885,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6301294125486381,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.7283174242568534,
+      "Y_max_drift": 0.7623532687357907,
+      "B_max_drift": 0.8213962043037392
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "stepcheck_E0.9_p0_s0_d7101_h0.02_z24000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 0,
+        "aligned": true,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 24000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/stepcheck_E0.9_p0_s0_d7101_h0.02_z24000.npz",
+      "checks": [
+        0.9999999999999999,
+        0.8999999999999998,
+        0.4352236191104563,
+        0.0,
+        2.4829669975634516e-07,
+        2.557123901514302e-07,
+        2.1854709097990366e-07,
+        5.514040626874994e-09,
+        1.0000002482966996,
+        0.90000025571239,
+        0.4352238376575473,
+        -4.388606665572947e-09
+      ],
+      "wall_seconds": 4.393847703933716,
+      "mean": 0.5510997038086132,
+      "se": 0.019813678905550698,
+      "half_shift": -0.02677399518527246,
+      "last_half_mean": 0.5377127062159769,
+      "block": 100.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5214786820615734,
+          "se": 0.0017174095824047807,
+          "bandwidth_shift": 0.0008437464686904539,
+          "residual": 0.029621021747039733,
+          "tolerance": 0.05966391126144852,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5368571657419969,
+          "se": 0.001142187954321587,
+          "bandwidth_shift": 0.00017387372071941964,
+          "residual": 0.01424253806661624,
+          "tolerance": 0.05953971939686446,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6843170308005532,
+      "reflection_first_above_1e-8": 3000.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.9044021825331283,
+      "Y_max_drift": 0.9443458715277133,
+      "B_max_drift": 1.0427066248098529
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.6_p4101_s0_d7101_h0.02_z240000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4101,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.6_p4101_s0_d7101_h0.02_z240000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.4201807655082599,
+        0.3122774196088271,
+        2.152494552598583e-06,
+        1.1306779200692674e-06,
+        1.864679152585591e-06,
+        5.336183426796204e-07,
+        1.0000021524945528,
+        0.6000011305166885,
+        0.4201826301874125,
+        0.3122779528847065
+      ],
+      "wall_seconds": 42.69792985916138,
+      "mean": 0.7158305207850753,
+      "se": 0.003495238656926123,
+      "half_shift": -3.292655126607702e-05,
+      "last_half_mean": 0.7158140575094422,
+      "block": 1000.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.7456818289803822,
+          "se": 0.0007383768365044725,
+          "bandwidth_shift": 0.00037458653439281786,
+          "residual": -0.029851308195306903,
+          "tolerance": 0.010717137798592203,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.71647096028314,
+          "se": 0.0015077823122057487,
+          "bandwidth_shift": 0.002132982461445665,
+          "residual": -0.0006404394980646932,
+          "tolerance": 0.011419759495227612,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6281824194917108,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.49968029723121743,
+      "Y_max_drift": 0.6984618339981788,
+      "B_max_drift": 0.5214915301328024
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.6_p4103_s0_d7101_h0.02_z240000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4103,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.6_p4103_s0_d7101_h0.02_z240000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.47364974700225454,
+        -0.019038067489066765,
+        3.996294619668106e-06,
+        2.4404288923030037e-06,
+        3.820791193043238e-06,
+        7.553596891723968e-08,
+        1.00000399629462,
+        0.6000024404288923,
+        0.4736535677934476,
+        -0.01903814290339255
+      ],
+      "wall_seconds": 43.154428243637085,
+      "mean": 0.6150711318308858,
+      "se": 0.010062306751109099,
+      "half_shift": 0.012453906205786125,
+      "last_half_mean": 0.6212980849337788,
+      "block": 1000.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.6247673624544257,
+          "se": 0.002174637412788521,
+          "bandwidth_shift": 0.0039057307972758526,
+          "residual": -0.009696230623539859,
+          "tolerance": 0.03088384019636544,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.6435955774910957,
+          "se": 0.0020494902887338326,
+          "bandwidth_shift": 0.0005970621233523099,
+          "residual": -0.02852444566020995,
+          "tolerance": 0.03080671758518376,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6319028708566017,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 1.0595528740249134,
+      "Y_max_drift": 0.9558394734885797,
+      "B_max_drift": 1.2338856756011025
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.6_p4104_s0_d7101_h0.02_z240000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4104,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.6_p4104_s0_d7101_h0.02_z240000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.41772159712087237,
+        -0.41924025433004847,
+        2.122002404680856e-06,
+        1.0745610170559416e-06,
+        1.8380497732173318e-06,
+        7.200943326624021e-07,
+        1.000002122002405,
+        0.600001074561017,
+        0.4177234351706456,
+        -0.41924097442438113
+      ],
+      "wall_seconds": 42.9370539188385,
+      "mean": 0.6918803418787715,
+      "se": 0.0025295236517274646,
+      "half_shift": -0.004297915760664628,
+      "last_half_mean": 0.6897313839984391,
+      "block": 1000.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.7479234976070204,
+          "se": 0.0007304285008286309,
+          "bandwidth_shift": 0.0020494596391488207,
+          "residual": -0.05604315572824892,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.693670671680662,
+          "se": 0.001437924012883515,
+          "bandwidth_shift": 0.0016462739029912132,
+          "residual": -0.0017903298018905334,
+          "tolerance": 0.01,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.5591675618082647,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.7298597859660557,
+      "Y_max_drift": 0.5274549571539306,
+      "B_max_drift": 0.8200978043581173
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.6_p0_s0_d7101_h0.02_z240000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 0,
+        "aligned": true,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.6_p0_s0_d7101_h0.02_z240000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.48743441264546383,
+        0.0,
+        4.664156229683414e-06,
+        2.7791612566829826e-06,
+        4.5723978908118745e-06,
+        8.354754093414796e-09,
+        1.00000466415623,
+        0.6000027791612567,
+        0.48743898504335464,
+        6.5582298053572935e-09
+      ],
+      "wall_seconds": 41.66937708854675,
+      "mean": 0.5566974611187964,
+      "se": 0.0012055657556614338,
+      "half_shift": -0.0029953234015029917,
+      "last_half_mean": 0.5551997994180449,
+      "block": 1000.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5843101642809343,
+          "se": 0.0014716215407499073,
+          "bandwidth_shift": 0.0006939486746181389,
+          "residual": -0.02761270316213793,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5850724688171199,
+          "se": 0.0015525432748421447,
+          "bandwidth_shift": 0.005366777401367928,
+          "residual": -0.028375007698323573,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6494524642259573,
+      "reflection_first_above_1e-8": 13000.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 1.2013733781495586,
+      "Y_max_drift": 1.2010365500881512,
+      "B_max_drift": 1.0093731166211635
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.9_p4201_s0_d7101_h0.02_z240000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 4201,
+        "aligned": false,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.9_p4201_s0_d7101_h0.02_z240000.npz",
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999998,
+        0.4031510722397321,
+        -0.21690903045056353,
+        1.6301382341765702e-06,
+        1.6133080624758378e-06,
+        1.3321826602963327e-06,
+        3.82641274332407e-07,
+        1.000001630138234,
+        0.9000016133080623,
+        0.4031524044223924,
+        -0.21690941309183787
+      ],
+      "wall_seconds": 43.8285071849823,
+      "mean": 0.5785236555611707,
+      "se": 0.004805975181904759,
+      "half_shift": -0.00791209093651768,
+      "last_half_mean": 0.5745676100929119,
+      "block": 1000.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5886668369589758,
+          "se": 0.0019781102928880753,
+          "bandwidth_shift": 0.002349373225622453,
+          "residual": -0.010143181397805123,
+          "tolerance": 0.015591435470130005,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5836632050110946,
+          "se": 0.001883122812768833,
+          "bandwidth_shift": 0.0038301301000794874,
+          "residual": -0.005139549449923897,
+          "tolerance": 0.015485216846834723,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6697236309636198,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.861030950494999,
+      "Y_max_drift": 0.8206077227395845,
+      "B_max_drift": 0.8015701987977794
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.9_p4204_s0_d7101_h0.02_z240000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 4204,
+        "aligned": false,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.9_p4204_s0_d7101_h0.02_z240000.npz",
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999998,
+        0.4314504870442129,
+        0.16579398035597742,
+        2.3684211107877218e-06,
+        2.4018974018602535e-06,
+        2.0666250777900963e-06,
+        4.569075983118509e-07,
+        1.0000023684211106,
+        0.9000024018974017,
+        0.4314525536692907,
+        0.16579443708750616
+      ],
+      "wall_seconds": 42.760875940322876,
+      "mean": 0.5377934594376045,
+      "se": 0.006593081760502259,
+      "half_shift": 0.011865289720154548,
+      "last_half_mean": 0.5437261042976818,
+      "block": 1000.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5310116923765129,
+          "se": 0.0015470644915038473,
+          "bandwidth_shift": 0.002159319205290555,
+          "residual": 0.00678176706109157,
+          "tolerance": 0.020316476583646503,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5310370895937825,
+          "se": 0.0009652452275761104,
+          "bandwidth_shift": 0.002166664939176721,
+          "residual": 0.006756369843821997,
+          "tolerance": 0.0199900932726747,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6528587181075365,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.8358692701854653,
+      "Y_max_drift": 0.959721623599338,
+      "B_max_drift": 0.999216723977397
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.9_p0_s0_d7101_h0.02_z240000",
+      "case": {
+        "E": 0.9,
+        "groups": [
+          1,
+          4
+        ],
+        "seed": 0,
+        "aligned": true,
+        "held_out": true
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.02,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.9_p0_s0_d7101_h0.02_z240000.npz",
+      "checks": [
+        0.9999999999999999,
+        0.8999999999999998,
+        0.4352236191104563,
+        0.0,
+        2.4889371535996574e-06,
+        2.5142488913054706e-06,
+        2.191268472673258e-06,
+        1.2964131088089026e-08,
+        1.0000024889371535,
+        0.9000025142488911,
+        0.435225810378929,
+        -8.013159143172022e-09
+      ],
+      "wall_seconds": 42.822206020355225,
+      "mean": 0.5336259692819056,
+      "se": 0.0044596318664090456,
+      "half_shift": 0.0123219043349585,
+      "last_half_mean": 0.5397869214493849,
+      "block": 1000.0,
+      "RJ": 0.6089285714285715,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5214786820615734,
+          "se": 0.0017174095824047807,
+          "bandwidth_shift": 0.0008437464686904539,
+          "residual": 0.012147287220332204,
+          "tolerance": 0.014336677038932037,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5368571657419969,
+          "se": 0.001142187954321587,
+          "bandwidth_shift": 0.00017387372071941964,
+          "residual": -0.00323119646009129,
+          "tolerance": 0.01381072725681002,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.7565267077776472,
+      "reflection_first_above_1e-8": 3000.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 0.9044021825331283,
+      "Y_max_drift": 0.9181464883281863,
+      "B_max_drift": 1.0155961322211968
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.6_p4103_s0_d7101_h0.01_z240000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 4103,
+        "aligned": false,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.01,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.6_p4103_s0_d7101_h0.01_z240000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.47364974700225454,
+        -0.019038067489066765,
+        1.241615217306702e-07,
+        8.100515846987122e-08,
+        1.1834831192825135e-07,
+        2.7127761460798983e-09,
+        1.000000124161522,
+        0.6000000810051584,
+        0.47364986535056647,
+        -0.019038070197720334
+      ],
+      "wall_seconds": 85.2431128025055,
+      "mean": 0.6827962532589937,
+      "se": 0.019473085990970758,
+      "half_shift": 0.03758385163418654,
+      "last_half_mean": 0.701588179076087,
+      "block": 1000.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.6247673624544257,
+          "se": 0.002174637412788521,
+          "bandwidth_shift": 0.0039057307972758526,
+          "residual": 0.05802889080456808,
+          "tolerance": 0.05878240496100487,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.6435955774910957,
+          "se": 0.0020494902887338326,
+          "bandwidth_shift": 0.0005970621233523099,
+          "residual": 0.039200675767897986,
+          "tolerance": 0.05874192196462593,
+          "pass_endpoint": true,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.5976638728783205,
+      "reflection_first_above_1e-8": 0.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 1.0345240753319478,
+      "Y_max_drift": 0.9359743316803338,
+      "B_max_drift": 1.3992767713548404
+    },
+    {
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "key": "extended_E0.6_p0_s0_d7101_h0.01_z240000",
+      "case": {
+        "E": 0.6,
+        "groups": [
+          1,
+          2
+        ],
+        "seed": 0,
+        "aligned": true,
+        "held_out": false
+      },
+      "sigma": 0,
+      "disorder_seed": 7101,
+      "dt": 0.01,
+      "zmax": 240000,
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/extended_E0.6_p0_s0_d7101_h0.01_z240000.npz",
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.48743441264546383,
+        0.0,
+        1.459864027442137e-07,
+        8.75089990470812e-08,
+        1.430500243260191e-07,
+        9.63352453364763e-11,
+        1.000000145986403,
+        0.600000087508999,
+        0.48743455569548816,
+        3.691634931773935e-11
+      ],
+      "wall_seconds": 85.26640677452087,
+      "mean": 0.5579117558454734,
+      "se": 0.0010044109446342082,
+      "half_shift": 0.0025262566272520326,
+      "last_half_mean": 0.5591748841590993,
+      "block": 1000.0,
+      "RJ": 0.7392857142857143,
+      "shells": [
+        {
+          "include_L": false,
+          "mean": 0.5843101642809343,
+          "se": 0.0014716215407499073,
+          "bandwidth_shift": 0.0006939486746181389,
+          "residual": -0.02639840843546093,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        },
+        {
+          "include_L": true,
+          "mean": 0.5850724688171199,
+          "se": 0.0015525432748421447,
+          "bandwidth_shift": 0.005366777401367928,
+          "residual": -0.027160712971646572,
+          "tolerance": 0.01,
+          "pass_endpoint": false,
+          "pass_stationarity": true
+        }
+      ],
+      "reflection_antisymmetric_norm_max": 0.6322962261515779,
+      "reflection_first_above_1e-8": 12000.0,
+      "pass_invariant_drift": true,
+      "X_max_drift": 1.1848574159179108,
+      "Y_max_drift": 1.2045272981107495,
+      "B_max_drift": 1.1086660374576607
+    }
+  ],
+  "memory": [
+    {
+      "sigma": 0.003,
+      "Ld": 111111.11111111111,
+      "start": 2000,
+      "end": 8000,
+      "means": [
+        0.7353230101942354,
+        0.5711684390514842
+      ],
+      "se": [
+        0.00798472574886547,
+        0.0037806270272925015
+      ],
+      "differences": [
+        0.13926649774879984,
+        0.16386157047832928,
+        0.17623537765472785,
+        0.17725483868914793
+      ],
+      "difference": 0.16415457114275123,
+      "difference_se": 0.008836783645738299,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": false,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 0.003,
+      "Ld": 111111.11111111111,
+      "start": 6000,
+      "end": 8000,
+      "means": [
+        0.7295167718219631,
+        0.5804579417019072
+      ],
+      "se": [
+        0.011787523770508011,
+        0.00701492702972407
+      ],
+      "differences": [
+        0.10955383650426342,
+        0.1461242003448875,
+        0.18033465729194964,
+        0.16022262633912254
+      ],
+      "difference": 0.14905883012005577,
+      "difference_se": 0.014922199021949712,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": false,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 0.01,
+      "Ld": 10000.0,
+      "start": 2000,
+      "end": 8000,
+      "means": [
+        0.7087154830160874,
+        0.6614237783100283
+      ],
+      "se": [
+        0.01609101670151926,
+        0.017437334319383536
+      ],
+      "differences": [
+        0.017009601590724288,
+        0.11306402607013921,
+        0.03880073531626049,
+        0.020292455847113033
+      ],
+      "difference": 0.04729170470605926,
+      "difference_se": 0.022442630614586675,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": false,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 0.01,
+      "Ld": 10000.0,
+      "start": 6000,
+      "end": 8000,
+      "means": [
+        0.7287220611368528,
+        0.6947298563756574
+      ],
+      "se": [
+        0.014132442511791516,
+        0.021304060194132415
+      ],
+      "differences": [
+        -0.023287489287060592,
+        0.10857046930609782,
+        0.04496455783688791,
+        0.005721281188856175
+      ],
+      "difference": 0.03399220476119533,
+      "difference_se": 0.02852267890708779,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 0.03,
+      "Ld": 1111.111111111111,
+      "start": 2000,
+      "end": 8000,
+      "means": [
+        0.7425053562990548,
+        0.7451380589221845
+      ],
+      "se": [
+        0.002890729523711707,
+        0.009059779013470364
+      ],
+      "differences": [
+        -0.029246338425271134,
+        -0.009261772442612948,
+        0.016945682189825284,
+        0.011031618185539327
+      ],
+      "difference": -0.002632702623129868,
+      "difference_se": 0.010497051142769335,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 0.03,
+      "Ld": 1111.111111111111,
+      "start": 6000,
+      "end": 8000,
+      "means": [
+        0.7562263202789407,
+        0.7382274070552843
+      ],
+      "se": [
+        0.009307711511361953,
+        0.016110652115686897
+      ],
+      "differences": [
+        0.011583399808222983,
+        -0.028365486867487633,
+        0.054661405677076,
+        0.034116334276814375
+      ],
+      "difference": 0.017998913223656432,
+      "difference_se": 0.017782777301125548,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 0.1,
+      "Ld": 99.99999999999999,
+      "start": 2000,
+      "end": 8000,
+      "means": [
+        0.7370552018556292,
+        0.739853585720131
+      ],
+      "se": [
+        0.0016547038312810125,
+        0.0014315862117917836
+      ],
+      "differences": [
+        -0.0038558312170026143,
+        -0.0011853813805997593,
+        -0.0028512664380917485,
+        -0.0033010564223129313
+      ],
+      "difference": -0.0027983838645017634,
+      "difference_se": 0.0005755756671477562,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": true
+    },
+    {
+      "sigma": 0.1,
+      "Ld": 99.99999999999999,
+      "start": 6000,
+      "end": 8000,
+      "means": [
+        0.732998272946332,
+        0.7452861262559995
+      ],
+      "se": [
+        0.0032073378865406597,
+        0.004714509730409093
+      ],
+      "differences": [
+        -0.004124808158158966,
+        -0.02841414362649486,
+        -0.0045044243094645164,
+        -0.012108037144551886
+      ],
+      "difference": -0.012287853309667557,
+      "difference_se": 0.0056811577926701735,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 0.3,
+      "Ld": 11.11111111111111,
+      "start": 2000,
+      "end": 8000,
+      "means": [
+        0.7408954019483298,
+        0.7424955824642208
+      ],
+      "se": [
+        0.001662602977687859,
+        0.000535716188535822
+      ],
+      "differences": [
+        -0.005323403806698157,
+        -0.0014217704141619159,
+        0.0008207622003163495,
+        -0.0004763100430201783
+      ],
+      "difference": -0.0016001805158909754,
+      "difference_se": 0.0013234509911766083,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": true
+    },
+    {
+      "sigma": 0.3,
+      "Ld": 11.11111111111111,
+      "start": 6000,
+      "end": 8000,
+      "means": [
+        0.7372821655303997,
+        0.7427270312639479
+      ],
+      "se": [
+        0.002569783856991184,
+        0.0027070197536394687
+      ],
+      "differences": [
+        -0.016975202314444715,
+        -0.007885951265040991,
+        0.0055063641427556265,
+        -0.0024246734974626705
+      ],
+      "difference": -0.005444865733548188,
+      "difference_se": 0.004725450218298293,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": true
+    },
+    {
+      "sigma": 1.0,
+      "Ld": 1.0,
+      "start": 2000,
+      "end": 8000,
+      "means": [
+        0.7431001107538165,
+        0.7405593453166817
+      ],
+      "se": [
+        0.0028417829816625335,
+        0.0013035409558723396
+      ],
+      "differences": [
+        -0.0015849361150519492,
+        0.0002710193936915628,
+        0.0036720349582911593,
+        0.007804943511608764
+      ],
+      "difference": 0.0025407654371348842,
+      "difference_se": 0.0020648749342416224,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": true
+    },
+    {
+      "sigma": 1.0,
+      "Ld": 1.0,
+      "start": 6000,
+      "end": 8000,
+      "means": [
+        0.7442092097431638,
+        0.7407634443135039
+      ],
+      "se": [
+        0.004802059861763563,
+        0.003936150745380828
+      ],
+      "differences": [
+        -0.009527878884136198,
+        0.0033170225261075492,
+        0.0020408926141651795,
+        0.01795302546250299
+      ],
+      "difference": 0.0034457654296598805,
+      "difference_se": 0.005632985315712202,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": true
+    },
+    {
+      "sigma": 3.0,
+      "Ld": 0.1111111111111111,
+      "start": 2000,
+      "end": 8000,
+      "means": [
+        0.7303311157772574,
+        0.7502194772226145
+      ],
+      "se": [
+        0.0083041800195543,
+        0.0047659072954063285
+      ],
+      "differences": [
+        -0.031858853938850795,
+        0.005986398409370652,
+        -0.034333505294053546,
+        -0.019347484957894956
+      ],
+      "difference": -0.01988836144535716,
+      "difference_se": 0.009227452773566684,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 3.0,
+      "Ld": 0.1111111111111111,
+      "start": 6000,
+      "end": 8000,
+      "means": [
+        0.7235136469555696,
+        0.7682709376065926
+      ],
+      "se": [
+        0.011200268074891499,
+        0.003636245114769193
+      ],
+      "differences": [
+        -0.017358181450150778,
+        -0.06346488559277708,
+        -0.029977020617311556,
+        -0.06822907494385289
+      ],
+      "difference": -0.044757290651023074,
+      "difference_se": 0.01248354361304189,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": false,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 3.0,
+      "Ld": 0.1111111111111111,
+      "start": 8000,
+      "end": 24000,
+      "means": [
+        0.7371466344415635,
+        0.7505350082203986
+      ],
+      "se": [
+        0.0034317786755804756,
+        0.0031699213632891583
+      ],
+      "differences": [
+        -0.02839958526494768,
+        -0.002865288019678225,
+        -0.008061508648465998,
+        -0.014227113182248896
+      ],
+      "difference": -0.0133883737788352,
+      "difference_se": 0.0055162697244858444,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": false,
+      "resolved_erasure": false
+    },
+    {
+      "sigma": 3.0,
+      "Ld": 0.1111111111111111,
+      "start": 18000,
+      "end": 24000,
+      "means": [
+        0.7312562479927716,
+        0.7498688330699597
+      ],
+      "se": [
+        0.004973584999951737,
+        0.007903045574599593
+      ],
+      "differences": [
+        -0.04472331338617441,
+        -0.009883169725926955,
+        0.003193515761757526,
+        -0.023037372958408575
+      ],
+      "difference": -0.018612585077188104,
+      "difference_se": 0.010218682264984862,
+      "RJ": 0.7392857142857143,
+      "compatible_with_erasure": true,
+      "resolved_erasure": false
+    }
+  ],
+  "reflection": [
+    {
+      "E": 0.6,
+      "variant": "exact_sector",
+      "initial_invariants": [
+        1.0,
+        0.5999999999999999,
+        0.48743441264546356,
+        0.0
+      ],
+      "mean": 0.5866209733187853,
+      "half_shift": -0.03554136025227872,
+      "checks": [
+        1.0,
+        0.5999999999999999,
+        0.4874344126454636,
+        0.0,
+        4.645466203490045e-06,
+        2.868604565664512e-06,
+        4.548501935319749e-06,
+        0.0,
+        1.0000046454662035,
+        0.6000028686045655,
+        0.48743896114739893,
+        0.0
+      ],
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/reflection_dynamics_E0.6_exact_sector.npz",
+      "se_fixed_10000_block": 0.0055209388781270585,
+      "se": 0.011458737946719677,
+      "last_half_mean": 0.568850293192646,
+      "block": 1000.0,
+      "reference": "reflection-even reduced Hamiltonian shell",
+      "prediction": {
+        "mean": 0.6105717625321482,
+        "se": 0.001335389189200488,
+        "bandwidth_shift": 0.005549169898054318
+      },
+      "tolerance": 0.03460886384387738,
+      "pass_endpoint": true,
+      "pass_stationarity": false,
+      "pass_invariant_drift": true
+    },
+    {
+      "E": 0.6,
+      "variant": "perturbed_1e-6",
+      "initial_invariants": [
+        1.0000000000000002,
+        0.6,
+        0.4874344126454347,
+        2.9999999999995e-07
+      ],
+      "mean": 0.5712412965158569,
+      "half_shift": 0.002619723139193897,
+      "checks": [
+        1.0,
+        0.6,
+        0.48743441264543463,
+        2.9999999999995e-07,
+        4.648960316711026e-06,
+        2.8288666266140794e-06,
+        4.553131562834434e-06,
+        3.6786921174158764e-09,
+        1.0000046489603167,
+        0.6000028288666266,
+        0.48743896577699747,
+        2.9670946077690885e-07
+      ],
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/reflection_dynamics_E0.6_perturbed_1e-6.npz",
+      "se_fixed_10000_block": 0.0019309052745673334,
+      "se": 0.0039238456325876225,
+      "last_half_mean": 0.5725511580854538,
+      "block": 1000.0,
+      "reference": "unperturbed full (H,L) shell; actual perturbed charges recorded",
+      "prediction": {
+        "mean": 0.5850724688171199,
+        "se": 0.0015525432748421447,
+        "bandwidth_shift": 0.005366777401367928
+      },
+      "tolerance": 0.012659486423931691,
+      "pass_endpoint": false,
+      "pass_stationarity": true,
+      "pass_invariant_drift": true
+    },
+    {
+      "E": 0.6,
+      "variant": "perturbed_1e-4",
+      "initial_invariants": [
+        1.0000000000000002,
+        0.6,
+        0.4874344123555573,
+        2.999999995000001e-05
+      ],
+      "mean": 0.5704694725575126,
+      "half_shift": 0.00359379783390934,
+      "checks": [
+        1.0000000000000002,
+        0.6,
+        0.4874344123555573,
+        2.999999995000001e-05,
+        4.648259960715606e-06,
+        2.826779872289187e-06,
+        4.551991184653659e-06,
+        2.8138843791126415e-09,
+        1.000004648259961,
+        0.6000028267798723,
+        0.48743896434674194,
+        3.0001211654818657e-05
+      ],
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/reflection_dynamics_E0.6_perturbed_1e-4.npz",
+      "se_fixed_10000_block": 0.0016982716211908443,
+      "se": 0.0032443686141698505,
+      "last_half_mean": 0.5722663714744671,
+      "block": 1000.0,
+      "reference": "unperturbed full (H,L) shell; actual perturbed charges recorded",
+      "prediction": {
+        "mean": 0.5850724688171199,
+        "se": 0.0015525432748421447,
+        "bandwidth_shift": 0.005366777401367928
+      },
+      "tolerance": 0.010790128123605006,
+      "pass_endpoint": false,
+      "pass_stationarity": true,
+      "pass_invariant_drift": true
+    },
+    {
+      "E": 0.9,
+      "variant": "exact_sector",
+      "initial_invariants": [
+        0.9999999999999999,
+        0.8999999999999997,
+        0.43522361911045615,
+        0.0
+      ],
+      "mean": 0.5540468906889174,
+      "half_shift": -0.006713760750803988,
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999997,
+        0.43522361911045615,
+        0.0,
+        2.46179507246147e-06,
+        2.5993279660907476e-06,
+        2.1573089237225673e-06,
+        0.0,
+        1.0000024617950722,
+        0.9000025993204388,
+        0.4352257764193799,
+        0.0
+      ],
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/reflection_dynamics_E0.9_exact_sector.npz",
+      "se_fixed_10000_block": 0.004057759868848576,
+      "se": 0.004731903013686027,
+      "last_half_mean": 0.5506900103135154,
+      "block": 1000.0,
+      "reference": "reflection-even reduced Hamiltonian shell",
+      "prediction": {
+        "mean": 0.554464454376917,
+        "se": 0.0013390041141142874,
+        "bandwidth_shift": 0.004780279888501271
+      },
+      "tolerance": 0.014753119783181896,
+      "pass_endpoint": true,
+      "pass_stationarity": true,
+      "pass_invariant_drift": true
+    },
+    {
+      "E": 0.9,
+      "variant": "perturbed_1e-6",
+      "initial_invariants": [
+        0.9999999999999999,
+        0.8999999999999998,
+        0.4352236191104258,
+        4.499999999999249e-07
+      ],
+      "mean": 0.5572556687837051,
+      "half_shift": -0.002103657109060575,
+      "checks": [
+        0.9999999999999998,
+        0.8999999999999998,
+        0.4352236191104258,
+        4.499999999999249e-07,
+        2.4708058063982463e-06,
+        2.5797487562817523e-06,
+        2.1690128518270235e-06,
+        6.054973582416696e-09,
+        1.0000024708058062,
+        0.9000025797487561,
+        0.4352257881232776,
+        4.507935245263994e-07
+      ],
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/reflection_dynamics_E0.9_perturbed_1e-6.npz",
+      "se_fixed_10000_block": 0.005777641319405385,
+      "se": 0.007822354520079762,
+      "last_half_mean": 0.5562038402291748,
+      "block": 1000.0,
+      "reference": "unperturbed full (H,L) shell; actual perturbed charges recorded",
+      "prediction": {
+        "mean": 0.5368571657419969,
+        "se": 0.001142187954321587,
+        "bandwidth_shift": 0.00017387372071941964
+      },
+      "tolerance": 0.023715910525368547,
+      "pass_endpoint": true,
+      "pass_stationarity": true,
+      "pass_invariant_drift": true
+    },
+    {
+      "E": 0.9,
+      "variant": "perturbed_1e-4",
+      "initial_invariants": [
+        0.9999999999999999,
+        0.8999999999999998,
+        0.4352236188052841,
+        4.4999999925e-05
+      ],
+      "mean": 0.5366253273722761,
+      "half_shift": 0.004258909187118021,
+      "checks": [
+        0.9999999999999999,
+        0.8999999999999998,
+        0.4352236188052841,
+        4.4999999925e-05,
+        2.4786134688037365e-06,
+        2.5384487368773634e-06,
+        2.179032956572957e-06,
+        6.439112381316503e-09,
+        1.0000024786134687,
+        0.9000025384487367,
+        0.43522579783824067,
+        4.499514306260076e-05
+      ],
+      "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/reflection_dynamics_E0.9_perturbed_1e-4.npz",
+      "se_fixed_10000_block": 0.004233573891870574,
+      "se": 0.005720093195674137,
+      "last_half_mean": 0.538754781965835,
+      "block": 1000.0,
+      "reference": "unperturbed full (H,L) shell; actual perturbed charges recorded",
+      "prediction": {
+        "mean": 0.5368571657419969,
+        "se": 0.001142187954321587,
+        "bandwidth_shift": 0.00017387372071941964
+      },
+      "tolerance": 0.017499043842786215,
+      "pass_endpoint": true,
+      "pass_stationarity": true,
+      "pass_invariant_drift": true
+    }
+  ],
+  "resolution": {
+    "agent": "gpt-b",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "complete": true,
+    "base_plan_complete": true,
+    "sector_refinement_complete": true,
+    "deterministic": [
+      {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "tag": "phase4103",
+        "dt": 0.01,
+        "zmax": 1200000,
+        "sigma": 0,
+        "disorder_seed": 7101,
+        "initial_invariants": [
+          1.0000000000000002,
+          0.6000000000000001,
+          0.47364974700225465,
+          -0.019038067489066758
+        ],
+        "checks": [
+          1.0000000000000002,
+          0.6,
+          0.47364974700225454,
+          -0.019038067489066765,
+          6.232239602166345e-07,
+          4.013699415050809e-07,
+          5.947196832778445e-07,
+          1.4457121135652562e-08,
+          1.0000006232239604,
+          0.6000004013699415,
+          0.4736503417219378,
+          -0.019038081941451228
+        ],
+        "wall_seconds": 558.0304272174835,
+        "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/resolution_phase4103_h0.01_s0_d7101_z1200000.npz",
+        "mean": 0.6407683786909186,
+        "se": 0.013704906018626627,
+        "half_shift": 0.024223500959819178,
+        "last_half_mean": 0.6528801291708283,
+        "block": 4000.0,
+        "prediction": 0.6338567350044237,
+        "prediction_se": 0.0043621549697972824,
+        "bandwidth_shift": 0.005090045810699828,
+        "shell_resolved": false,
+        "tolerance": 0.043147139008736596,
+        "pass_endpoint": true,
+        "pass_precision": false,
+        "pass_stationarity": true,
+        "pass_invariant_drift": true,
+        "pass_all_frozen_gates": false
+      },
+      {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "tag": "phase4103",
+        "dt": 0.005,
+        "zmax": 1200000,
+        "sigma": 0,
+        "disorder_seed": 7101,
+        "initial_invariants": [
+          1.0000000000000002,
+          0.6000000000000001,
+          0.47364974700225465,
+          -0.019038067489066758
+        ],
+        "checks": [
+          1.0000000000000002,
+          0.6,
+          0.47364974700225454,
+          -0.019038067489066765,
+          1.9548246577016926e-08,
+          1.2181982311787465e-08,
+          1.8673822377301974e-08,
+          4.0182324134718783e-10,
+          1.0000000195482468,
+          0.6000000121819823,
+          0.4736497656760769,
+          -0.019038067890529534
+        ],
+        "wall_seconds": 1051.7313301563263,
+        "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/resolution_phase4103_h0.005_s0_d7101_z1200000.npz",
+        "mean": 0.6267478462619652,
+        "se": 0.011341854788679275,
+        "half_shift": -0.026771245895417795,
+        "last_half_mean": 0.6133622233142563,
+        "block": 4000.0,
+        "prediction": 0.6338567350044237,
+        "prediction_se": 0.0043621549697972824,
+        "bandwidth_shift": 0.005090045810699828,
+        "shell_resolved": false,
+        "tolerance": 0.0364553781252112,
+        "pass_endpoint": true,
+        "pass_precision": false,
+        "pass_stationarity": true,
+        "pass_invariant_drift": true,
+        "pass_all_frozen_gates": false
+      },
+      {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "tag": "perturbed_1e-4",
+        "dt": 0.01,
+        "zmax": 1200000,
+        "sigma": 0,
+        "disorder_seed": 7101,
+        "initial_invariants": [
+          1.0000000000000002,
+          0.6,
+          0.4874344123555573,
+          2.999999995000001e-05
+        ],
+        "checks": [
+          1.0000000000000002,
+          0.6,
+          0.4874344123555573,
+          2.999999995000001e-05,
+          7.284594096823582e-07,
+          4.487455597113055e-07,
+          7.132873025006425e-07,
+          3.1504806529965117e-10,
+          1.00000072845941,
+          0.6000004487455597,
+          0.4874351256428598,
+          3.000016720736999e-05
+        ],
+        "wall_seconds": 520.3239259719849,
+        "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/resolution_perturbed_1e-4_h0.01_s0_d7101_z1200000.npz",
+        "mean": 0.5873457315448651,
+        "se": 0.009947502107726495,
+        "half_shift": -0.034224111434722704,
+        "last_half_mean": 0.5702336758275037,
+        "block": 4000.0,
+        "prediction": 0.5812664039343121,
+        "prediction_se": 0.0020411226342996205,
+        "bandwidth_shift": 0.0003861311939984402,
+        "shell_resolved": true,
+        "tolerance": 0.03046425476067418,
+        "pass_endpoint": true,
+        "pass_precision": false,
+        "pass_stationarity": false,
+        "pass_invariant_drift": true,
+        "pass_all_frozen_gates": false
+      },
+      {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "tag": "perturbed_1e-4",
+        "dt": 0.005,
+        "zmax": 1200000,
+        "sigma": 0,
+        "disorder_seed": 7101,
+        "initial_invariants": [
+          1.0000000000000002,
+          0.6,
+          0.4874344123555573,
+          2.999999995000001e-05
+        ],
+        "checks": [
+          1.0000000000000002,
+          0.6,
+          0.4874344123555573,
+          2.999999995000001e-05,
+          2.2786562414722766e-08,
+          1.3845543600510268e-08,
+          2.231325085810809e-08,
+          6.6478188784965114e-12,
+          1.0000000227865626,
+          0.6000000138455436,
+          0.48743443466880815,
+          2.999999690807536e-05
+        ],
+        "wall_seconds": 1039.183043718338,
+        "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/resolution_perturbed_1e-4_h0.005_s0_d7101_z1200000.npz",
+        "mean": 0.5688086236612533,
+        "se": 0.0019304763936492733,
+        "half_shift": -0.0023487933352955848,
+        "last_half_mean": 0.5676342269936054,
+        "block": 4000.0,
+        "prediction": 0.5812664039343121,
+        "prediction_se": 0.0020411226342996205,
+        "bandwidth_shift": 0.0003861311939984402,
+        "shell_resolved": true,
+        "tolerance": 0.01,
+        "pass_endpoint": false,
+        "pass_precision": true,
+        "pass_stationarity": true,
+        "pass_invariant_drift": true,
+        "pass_all_frozen_gates": false
+      },
+      {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "tag": "exact_sector",
+        "dt": 0.01,
+        "zmax": 1200000,
+        "sigma": 0,
+        "disorder_seed": 7101,
+        "initial_invariants": [
+          1.0,
+          0.5999999999999999,
+          0.48743441264546356,
+          0.0
+        ],
+        "checks": [
+          1.0,
+          0.5999999999999999,
+          0.4874344126454636,
+          0.0,
+          7.298097397523406e-07,
+          4.3895628110135476e-07,
+          7.151097574653598e-07,
+          0.0,
+          1.0000007298097398,
+          0.600000438956281,
+          0.4874351277552211,
+          0.0
+        ],
+        "wall_seconds": 153.6448040008545,
+        "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/resolution_exact_sector_h0.01_s0_d7101_z1200000.npz",
+        "mean": 0.5620108261450848,
+        "se": 0.001733047667820419,
+        "half_shift": 0.0022162534379692733,
+        "last_half_mean": 0.5631189528640694,
+        "block": 4000.0,
+        "prediction": 0.6105717625321482,
+        "prediction_se": 0.001335389189200488,
+        "bandwidth_shift": 0.005549169898054318,
+        "shell_resolved": true,
+        "tolerance": 0.01,
+        "pass_endpoint": false,
+        "pass_precision": true,
+        "pass_stationarity": true,
+        "pass_invariant_drift": true,
+        "pass_all_frozen_gates": false
+      },
+      {
+        "agent": "gpt-b",
+        "model": "gpt-6-astra",
+        "family": "gpt",
+        "tag": "exact_sector",
+        "dt": 0.005,
+        "zmax": 1200000,
+        "sigma": 0,
+        "disorder_seed": 7101,
+        "initial_invariants": [
+          1.0,
+          0.5999999999999999,
+          0.48743441264546356,
+          0.0
+        ],
+        "checks": [
+          1.0,
+          0.5999999999999999,
+          0.4874344126454636,
+          0.0,
+          2.2748324557397837e-08,
+          1.4023822880737669e-08,
+          2.2265997989823205e-08,
+          0.0,
+          1.0000000227483246,
+          0.6000000140238227,
+          0.4874344349114616,
+          0.0
+        ],
+        "wall_seconds": 309.0409622192383,
+        "raw_file": "~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge/resolution_exact_sector_h0.005_s0_d7101_z1200000.npz",
+        "mean": 0.5835869498998253,
+        "se": 0.0074320226530097,
+        "half_shift": -0.013803650608116946,
+        "last_half_mean": 0.5766851245957668,
+        "block": 4000.0,
+        "prediction": 0.6105717625321482,
+        "prediction_se": 0.001335389189200488,
+        "bandwidth_shift": 0.005549169898054318,
+        "shell_resolved": true,
+        "tolerance": 0.022653123957047203,
+        "pass_endpoint": false,
+        "pass_precision": false,
+        "pass_stationarity": true,
+        "pass_invariant_drift": true,
+        "pass_all_frozen_gates": false
+      }
+    ],
+    "convergence": [
+      {
+        "tag": "phase4103",
+        "difference": 0.014020532428953403,
+        "tolerance": 0.05336814659740281,
+        "pass_step": true
+      },
+      {
+        "tag": "perturbed_1e-4",
+        "difference": 0.018537107883611847,
+        "tolerance": 0.030399273603277783,
+        "pass_step": true
+      },
+      {
+        "tag": "exact_sector",
+        "difference": -0.021576123754740495,
+        "tolerance": 0.022894229281722592,
+        "pass_step": true
+      }
+    ],
+    "memory": [
+      {
+        "dt": 0.04,
+        "start": 32000,
+        "end": 96000,
+        "disorder_realizations": 12,
+        "means": [
+          0.7403407186473508,
+          0.7392273580592144
+        ],
+        "se": [
+          0.0014623903211700548,
+          0.0013732616438381132
+        ],
+        "difference": 0.0011133605881364454,
+        "difference_se": 0.002256542423579577,
+        "RJ": 0.7392857142857143,
+        "resolved_erasure": true,
+        "max_N_drift": 8.798793635911295e-07,
+        "max_E_drift": 4.945669662692609e-07
+      },
+      {
+        "dt": 0.04,
+        "start": 72000,
+        "end": 96000,
+        "disorder_realizations": 12,
+        "means": [
+          0.739408461818334,
+          0.7385059356719875
+        ],
+        "se": [
+          0.0031940523475390394,
+          0.0030588784099012034
+        ],
+        "difference": 0.0009025261463465514,
+        "difference_se": 0.00520613370739602,
+        "RJ": 0.7392857142857143,
+        "resolved_erasure": true,
+        "max_N_drift": 8.798793635911295e-07,
+        "max_E_drift": 4.945669662692609e-07
+      },
+      {
+        "dt": 0.02,
+        "start": 32000,
+        "end": 96000,
+        "disorder_realizations": 4,
+        "means": [
+          0.7355801920775491,
+          0.744532561903725
+        ],
+        "se": [
+          0.0024951378320809256,
+          0.0037105433759959845
+        ],
+        "difference": -0.008952369826175782,
+        "difference_se": 0.0029944760199993744,
+        "RJ": 0.7392857142857143,
+        "resolved_erasure": true,
+        "max_N_drift": 2.7423241677482224e-08,
+        "max_E_drift": 1.5297152877735698e-08
+      },
+      {
+        "dt": 0.02,
+        "start": 72000,
+        "end": 96000,
+        "disorder_realizations": 4,
+        "means": [
+          0.7330454828878332,
+          0.7450370876354555
+        ],
+        "se": [
+          0.004779300894398647,
+          0.0054555232708573395
+        ],
+        "difference": -0.011991604747622259,
+        "difference_se": 0.0011917347545666547,
+        "RJ": 0.7392857142857143,
+        "resolved_erasure": true,
+        "max_N_drift": 2.7423241677482224e-08,
+        "max_E_drift": 1.5297152877735698e-08
+      }
+    ],
+    "memory_resolved_all_steps_windows": true
+  },
+  "prediction_commit": "925e15923f30798e64e263537490a59978157353"
+}

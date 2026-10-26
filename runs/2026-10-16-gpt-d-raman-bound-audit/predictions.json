@@ -1,0 +1,73 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": [
+    {
+      "run_id": "2026-10-16-gpt-d-c02-core",
+      "E0_pJ": 4250.383673928476,
+      "kappa_pJinv_minv": 0.0009310313198585331,
+      "identity_relative_integrated_mismatch_max": 0.001,
+      "max_rate_over_bound": 0.5,
+      "retention_bound": 0.20172514041608192,
+      "qualification": "Lossless exact model"
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-heldout4",
+      "E0_pJ": 7556.237642539513,
+      "kappa_pJinv_minv": 0.0009310313198585331,
+      "identity_relative_integrated_mismatch_max": 0.001,
+      "max_rate_over_bound": 0.5,
+      "retention_bound": 0.3214888098794193,
+      "qualification": "Lossless exact model"
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-heldout6",
+      "E0_pJ": 17001.534695713905,
+      "kappa_pJinv_minv": 0.0009310313198585331,
+      "identity_relative_integrated_mismatch_max": 0.001,
+      "max_rate_over_bound": 0.5,
+      "retention_bound": 0.1739527232678977,
+      "qualification": "Lossless exact model"
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-heldout6long",
+      "E0_pJ": 5663.848514964621,
+      "kappa_pJinv_minv": 0.0009310313198585331,
+      "identity_relative_integrated_mismatch_max": 0.001,
+      "max_rate_over_bound": 0.5,
+      "retention_bound": 0.11223558021509106,
+      "qualification": "Lossless exact model"
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-area",
+      "E0_pJ": 4250.383673928476,
+      "kappa_pJinv_minv": 0.0009310313198585331,
+      "identity_relative_integrated_mismatch_max": 0.001,
+      "max_rate_over_bound": 1.0,
+      "retention_bound": 0.20172514041608192,
+      "qualification": "Original unweighted E-squared bound is not asserted after variable-area relaxation"
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-own",
+      "max_rate_over_bound": 1.0,
+      "retention_bound": 0.9926068157300026,
+      "identity_relative_integrated_mismatch_max": 0.001
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-short2p0",
+      "max_rate_over_bound": 1.0,
+      "retention_bound": 0.9999069055354003
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-short1p0",
+      "max_rate_over_bound": 1.0,
+      "retention_bound": 0.9999069055354003
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-c02-short0p5",
+      "max_rate_over_bound": 1.0,
+      "retention_bound": 0.9999069055354003
+    }
+  ]
+}

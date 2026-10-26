@@ -1,0 +1,222 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "constant_ode": [
+    {
+      "N0": 1.0,
+      "N": 0.9959757735060525,
+      "lost_N": 0.004024226493947514,
+      "lost_N4": 0.016000000000000014,
+      "z": 0.20161727412354516,
+      "delta_omega": 0.2
+    },
+    {
+      "N0": 1.4,
+      "N": 1.3985399917569836,
+      "lost_N": 0.0014600082430162864,
+      "lost_N4": 0.01600000000000046,
+      "z": 0.052170359536604864,
+      "delta_omega": 0.2
+    }
+  ],
+  "finite_launch": [
+    {
+      "initial_detuning_over_weff": 0.25,
+      "claimed_launch_N_ratio": 0.6857974979262269,
+      "correct_launch_N_ratio": 1.0,
+      "terminal_condition_factor": 4.520811664187799
+    },
+    {
+      "initial_detuning_over_weff": 0.5,
+      "claimed_launch_N_ratio": 0.7920046369960982,
+      "correct_launch_N_ratio": 1.0,
+      "terminal_condition_factor": 2.5414940825367984
+    },
+    {
+      "initial_detuning_over_weff": 1.0,
+      "claimed_launch_N_ratio": 0.8916614254416584,
+      "correct_launch_N_ratio": 1.0,
+      "terminal_condition_factor": 1.5819767068693265
+    },
+    {
+      "initial_detuning_over_weff": 2.0,
+      "claimed_launch_N_ratio": 0.9642994840982722,
+      "correct_launch_N_ratio": 1.0,
+      "terminal_condition_factor": 1.1565176427496657
+    },
+    {
+      "initial_detuning_over_weff": 4.0,
+      "claimed_launch_N_ratio": 0.9953893003548021,
+      "correct_launch_N_ratio": 1.0,
+      "terminal_condition_factor": 1.018657360363774
+    },
+    {
+      "initial_detuning_over_weff": 8.0,
+      "claimed_launch_N_ratio": 0.9999161237907868,
+      "correct_launch_N_ratio": 1.0,
+      "terminal_condition_factor": 1.0003355752008412
+    }
+  ],
+  "long_pulse_rate": {
+    "S28": {
+      "cases": [
+        {
+          "T_fs": 30.0,
+          "exact_rate": 32.48368480050748,
+          "gordon_rate": 21.05509823581237,
+          "relative_error": -0.3518254359036438
+        },
+        {
+          "T_fs": 50.0,
+          "exact_rate": 3.431226819097375,
+          "gordon_rate": 2.7287407313612815,
+          "relative_error": -0.20473321198885092
+        },
+        {
+          "T_fs": 80.0,
+          "exact_rate": 0.45576815270204013,
+          "gordon_rate": 0.41637279226093804,
+          "relative_error": -0.08643728221804241
+        },
+        {
+          "T_fs": 100.0,
+          "exact_rate": 0.18056931613805788,
+          "gordon_rate": 0.1705462957100801,
+          "relative_error": -0.05550788274744578
+        },
+        {
+          "T_fs": 120.0,
+          "exact_rate": 0.0855447062170981,
+          "gordon_rate": 0.08224647748364207,
+          "relative_error": -0.03855561471081193
+        },
+        {
+          "T_fs": 200.0,
+          "exact_rate": 0.01080902555309329,
+          "gordon_rate": 0.010659143481880006,
+          "relative_error": -0.013866381430691622
+        },
+        {
+          "T_fs": 300.0,
+          "exact_rate": 0.0021185593362850765,
+          "gordon_rate": 0.002105509823581237,
+          "relative_error": -0.006159616339432898
+        },
+        {
+          "T_fs": 500.0,
+          "exact_rate": 0.0002734803254362381,
+          "gordon_rate": 0.0002728740731361283,
+          "relative_error": -0.0022168040759158337
+        },
+        {
+          "T_fs": 800.0,
+          "exact_rate": 4.1673362002782845e-05,
+          "gordon_rate": 4.163727922609377e-05,
+          "relative_error": -0.0008658475091753464
+        },
+        {
+          "T_fs": 1200.0,
+          "exact_rate": 8.227813864099584e-06,
+          "gordon_rate": 8.224647748364206e-06,
+          "relative_error": -0.00038480643676104824
+        }
+      ],
+      "exponent_50_200": 1.9465353818092666,
+      "exponent_300_1200": 2.000313805450544
+    },
+    "Z75": {
+      "cases": [
+        {
+          "T_fs": 30.0,
+          "exact_rate": 217.45661774404928,
+          "gordon_rate": 164.06975687791066,
+          "relative_error": -0.24550579982337445
+        },
+        {
+          "T_fs": 50.0,
+          "exact_rate": 32.179045313439296,
+          "gordon_rate": 21.263440491377196,
+          "relative_error": -0.33921468818415484
+        },
+        {
+          "T_fs": 80.0,
+          "exact_rate": 4.150016492000152,
+          "gordon_rate": 3.2445435320094624,
+          "relative_error": -0.21818538835595935
+        },
+        {
+          "T_fs": 100.0,
+          "exact_rate": 1.566288234746365,
+          "gordon_rate": 1.3289650307110747,
+          "relative_error": -0.15151949607392717
+        },
+        {
+          "T_fs": 120.0,
+          "exact_rate": 0.7185643935063366,
+          "gordon_rate": 0.6408974878043385,
+          "relative_error": -0.10808621524232703
+        },
+        {
+          "T_fs": 200.0,
+          "exact_rate": 0.08647403916741078,
+          "gordon_rate": 0.08306031441944217,
+          "relative_error": -0.039476873994052204
+        },
+        {
+          "T_fs": 300.0,
+          "exact_rate": 0.01670006829657865,
+          "gordon_rate": 0.016406975687791068,
+          "relative_error": -0.017550383841701243
+        },
+        {
+          "T_fs": 500.0,
+          "exact_rate": 0.002139860398550883,
+          "gordon_rate": 0.0021263440491377213,
+          "relative_error": -0.006316463177838704
+        },
+        {
+          "T_fs": 800.0,
+          "exact_rate": 0.0003252567694921082,
+          "gordon_rate": 0.000324454353200946,
+          "relative_error": -0.002467024106570383
+        },
+        {
+          "T_fs": 1200.0,
+          "exact_rate": 6.416009357720569e-05,
+          "gordon_rate": 6.408974878043386e-05,
+          "relative_error": -0.001096394859324495
+        }
+      ],
+      "exponent_50_200": 1.5695904453148055,
+      "exponent_300_1200": 2.000332336332958
+    }
+  },
+  "quarter_power_exact_ODE_fit": 0.24928607850231724,
+  "xia2006_loss_fit": {
+    "DOI": "10.1364/OL.31.002553",
+    "access": "full text",
+    "lambda_um": [
+      4.3,
+      4.5,
+      4.8
+    ],
+    "alpha_db_m": [
+      1.0,
+      2.25,
+      8.0
+    ],
+    "B_um": 86.14511415572466,
+    "A_db_m": 487495803.3710524,
+    "predicted_db_m": [
+      0.971459947808708,
+      2.3665508051806867,
+      7.829459337201861
+    ],
+    "at_4p2_db_m": 0.6029329841947859,
+    "pairwise_B_um": [
+      78.45749841892975,
+      91.33281543337266
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-a-phase-headroom",
+  "frozen_utc": "2026-10-17T23:51:39.692461+00:00",
+  "selection_information": "Training cases and training-only gradient checks; no selected-mask held-out output.",
+  "phase": "sum c_m P_m(clip(k/(2*pi),-1,1)), m=2,...,31; standard FFT; fixed physical frequency in duration tests",
+  "masks": {
+    "3": {
+      "N": 3,
+      "T0_fs": 140,
+      "coefficient_file": "selected_N3_coef.csv",
+      "coefficient_sha256": "afd733c5297153d2356e5ba3b3455f1feccf5d4bd8a28515aa7c5442ce2d2c16",
+      "source_optimizer": "pyopt_N3_T140_polish",
+      "training_f_zs": 0.7456132730528653,
+      "training_H": 1.0221033796015337,
+      "optimizer_raw_gradient": 8.60781677375496e-07,
+      "leading_identity_checked_on_training_only": true,
+      "stationarity_preference_satisfied": true
+    },
+    "4": {
+      "N": 4,
+      "T0_fs": 200,
+      "coefficient_file": "selected_N4_coef.csv",
+      "coefficient_sha256": "f9e33674924ae340b46b203bfc6abf65d53301cdb63a9ed3de80e3cd0c5375d7",
+      "source_optimizer": "pyopt_N4_T200_polish",
+      "training_f_zs": 0.7123996488384217,
+      "training_H": 1.1059422893847783,
+      "optimizer_raw_gradient": 6.431456366136302e-07,
+      "leading_identity_checked_on_training_only": true,
+      "stationarity_preference_satisfied": true
+    },
+    "5": {
+      "N": 5,
+      "T0_fs": 280,
+      "coefficient_file": "selected_N5_coef.csv",
+      "coefficient_sha256": "4eee98e9263bcb03125d6074df1299f2d235aac77caaca632fb5d1e6688e4ccb",
+      "source_optimizer": "pyopt_N5_T280_polish",
+      "training_f_zs": 0.6862744668893526,
+      "training_H": 1.1855070865833484,
+      "optimizer_raw_gradient": 0.008146959669978074,
+      "leading_identity_checked_on_training_only": true,
+      "stationarity_preference_satisfied": false
+    }
+  }
+}

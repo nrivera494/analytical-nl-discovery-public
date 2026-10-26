@@ -1,0 +1,66 @@
+# Run 2026-10-10-claude-a-dispersionless-fano: everything needed to rerun.
+# All scripts are deterministic (fixed numpy seeds where random starts are used: default_rng(11) in dlfano
+# searches, default_rng(5) in binary_relax.py). Python: ~/agent-work/venv/bin/python (numpy, scipy).
+# Run from this folder; the scripts import dlfano.py and lin_ssfm.py from here. Threads: VECLIB_MAXIMUM_THREADS<=2.
+units: "time in T0 (Kerr scans) or fs (Raman scans); Phi = gamma P0 L; quadratures normalized to shot noise 1"
+model: "dispersionless scalar Kerr (+ Blow-Wood Raman, fR = 0.18, tau1 = 12.2 fs, tau2 = 32 fs, symmetrized coth reservoir)"
+spectral_bins: "unitary DFT of the zero-padded window (pad 8 unless stated), bins kept if nbar >= 1e-6 max nbar"
+binary_search: >-
+  binary_search4 (dlfano.py): nested bright subsets c = 1e-2..0, brightness-threshold starts, eigenvector-threshold
+  starts, tabu search with exact recomputation; binary_relax.py: L-BFGS-B local minima of the box extension
+  J(d) = 1 + d'(Sig - D)d / nbar'd from 6-9 starts, error-diffusion dithering, best-improvement + tabu polish.
+  Reported 'best binary' = minimum over all methods run at that point.
+commands:
+  - {script: scan_kerr.py, args: "scan_kerr_gaussian.json gaussian 1,2,3,5,7,10,15,20,30", grid: "dt = min(0.04, 0.8/Phi) T0, |t| < 7 T0, pad 4 and 8"}
+  - {script: continuation.py, args: "continuation_kerr.json", note: "killed after the first upward sweep (machine load); results in continuation_kerr.log"}
+  - {script: scan_raman.py, args: "scan_raman_gaussian_firstpass.json gaussian 50,100,200,500,1000 0,300 2,5,10,20", note: "first pass, killed after 12 rows (no band-limited lambda_min)"}
+  - {script: scan_raman.py, args: "scan_raman_gaussian.json gaussian 50,200,1000 0,300 5,10,20", grid: "dt = min(0.8/Phi, 0.04) T0, |t| < 7 T0, Raman kernels bin-averaged"}
+  - {script: scan_dispersion.py, args: "scan_dispersion.json", grid: "lin_ssfm.propagate, dt = 0.04 T0, |t| < 8 T0, nz = max(200, 25 Phi), pad 4", note: "killed during Phi = 20 (rows up to x = 0.3 normal)"}
+  - {script: momentum_dispersion.py, args: "", note: "mean-field-only lambda_P(beta2) for every scan_dispersion row"}
+  - {script: lam_min_dispersion.py, args: "lam_min_dispersion.json", grid: "dt in {0.04, 0.02, 0.01, 0.005} T0, |t| <= 6 T0, input cut |t| <= 1 T0 (checks 0.6, 2), nz = 200 (check 400)"}
+  - {script: lam_min_dispersion_sech.py, args: "lam_min_dispersion_sech.json", grid: "dt in {0.01, 0.005} T_s, |t| <= 12 T_s"}
+  - {script: scan_selfsteep.py, args: "scan_selfsteep.json", grid: "RK4 tangent map, canonical photon-flux normalization b = A~/sqrt(1 + s w)"}
+  - {script: polarization.py, args: "polarization.json", grid: "dt = 0.04 T0, |t| < 7 T0, pad 4, Phi = 10"}
+  - {script: heldout_eval.py, args: "", note: "frozen case in HELDOUT.md; writes heldout_results.json"}
+  - {script: dither_ramp.py, args: "dither_ramp.json 10,20,5,30", note: "killed after Phi = 10 (22 shapes); the result needed was the formula check"}
+  - {script: parity_bound.py, args: "parity_bound.json 1,2,3,5,7,10,12.5,15,20,25,30,40 gaussian"}
+  - {script: parity_bound.py, args: "parity_bound_sech.json 5,15 sech"}
+  - {script: binary_relax.py, args: "binary_relax.json 10,5,20", note: "first version, 8 starts"}
+  - {script: binary_relax.py, args: "binary_relax_gaussian.json 1,2,3,5,7,10,12.5,15,20,25,30,40,50 gaussian"}
+  - {script: binary_relax.py, args: "binary_relax_sech.json 5,15 sech"}
+  - {script: raman_momentum_compare.py, args: "", note: "1D-integral lambda_P,R and long-pulse thermal limit vs scan_raman_gaussian.json"}
+  - {script: binary_relax2.py, args: "binary_relax2_gaussian.json 7,10,12.5,15,20,25,30,40,50", note: "continuation seeds: every saved best density mapped by nu = w/Phi, and its mirror"}
+  - {script: binary_relax2.py, args: "binary_relax2_pad16.json 20,30 16 4", note: "pad 16, all saved seeds + 4 random starts"}
+  - {script: binary_relax.py, args: "binary_relax_pad4.json 10,20 gaussian 4 ; binary_relax_pad16.json 10,20 gaussian 16", note: "bin-width check"}
+  - {script: lam_gen_dense.py, args: "lam_gen_dense.json", note: "Phi = 2..30 step 1, 32..60 step 2; bin threshold 1e-6 (not converged in threshold for Phi >= 44)"}
+  - {script: grid_check_lamgen.py, args: "grid_check_lamgen.json", note: "dt and threshold at Phi = 10, 20"}
+  - {script: grid_check2.py, args: "grid_check2.json", note: "threshold 1e-6/1e-9/1e-12 and dt 0.8/Phi vs 0.4/Phi at Phi = 20, 30, 40, 60"}
+  - {script: birefringence_lammin.py, args: "birefringence_lammin.json", grid: "dt = 0.04 T0, |t| < 7, RK4 nz = max(400, 60 b Phi/2pi, 40 Phi)"}
+  - {script: birefringence.py, args: "birefringence_Phi10_45deg.json 10 45 0,0.1,0.3,0.667,1,2,3,10,100", grid: "pad 4, thr 1e-6"}
+  - {script: lam_min_dispersion_flattop.py, args: "lam_min_dispersion_flattop.json", note: "held-out frozen at commit 326c335"}
+  - {script: scan_raman.py, args: "scan_raman_temperature.json gaussian 1000 77,150 10"}
+  - {script: make_summary.py, args: ""}
+  - {script: make_figure.py, args: "", note: "summary.png"}
+  - {script: binary_structure.py, args: "binary_structure.json", note: "structure of the best binary filters (sides, parity fractions, noise budget)"}
+  - {script: momentum_beta3.py, args: "momentum_beta3.json", note: "held-out frozen at commit 98430d6; pad 8, threshold 1e-9"}
+  - {script: vector_raman_exact.py, args: "vector_raman_exact.json", note: "exact scalar reductions for linear and circular input with a vector (isotropic + anisotropic) delayed response; Lin-Agrawal-type kernels from the gnlse-python source; two splits"}
+  - {script: vector_raman_prop.py, args: "vector_raman_prop.json [case indices]", note: "two-polarization dispersionless Kerr + three-channel vector Raman with reservoir, z-propagated Lyapunov covariance (RK4, nz = 400); validation cases: Kerr-only elliptical (vs polarization.json), circular and linear (vs vector_raman_exact.json); then elliptical chi = pi/8"}
+  - {script: vector_raman_chiscan.py, args: "vector_raman_chiscan.json", note: "ellipticity scan, 300 K, T0 = 200 fs, Phi = 10, split A"}
+  - {script: heldout_thermal.py, args: "heldout_thermal.json", note: "held-out frozen at commits 7398320 and 7ea70c7"}
+  - {script: raman_dt_convergence.py, args: "raman_dt_convergence.json", note: "Raman time-step convergence (T0 = 200 fs: dt 8/4/2 fs; 1 ps: 40/20/10 fs)"}
+  - {script: binary_relax_raman.py, args: "binary_relax_raman.json", note: "relaxation binary search for the Raman held-out (sech) and Gaussian points"}
+  - {script: open_prediction_phi50.py, args: "open_prediction_phi50.json", note: "test of the open prediction registered in C-20261010-claude-a-02 at commit ac94f7e"}
+  - {script: parity_pad16.py, args: "parity_pad16.json", note: "parity bound at padding 16 vs the padding-16 binary optima"}
+  - {script: open_prediction_lameven.py, args: "open_prediction_lameven.json", note: "test of the open prediction registered in C-20261010-claude-a-03 at commit cb7ad63"}
+  - {script: open_prediction_5ps.py, args: "open_prediction_5ps.json", note: "open prediction registered in C-20261010-claude-a-01 at cb7ad63; refuted"}
+  - {script: band_cost_check.py, args: "band_cost_check.json", note: "band-limited lambda_min vs band width at T0 = 5 ps, Phi = 10, 300 K"}
+  - {script: scan_dispersion_phi20_rest.py, args: "scan_dispersion_phi20_rest.json", note: "Phi = 20 rows of the dispersion scan lost when it was stopped; relaxation binary search"}
+  - {script: binary_vs_dispersion.py, args: "binary_vs_dispersion.json", note: "onset of the dispersion effect on the best binary filter (relaxation search, pad 4)"}
+  - {script: c2_symbol_model.py, args: "c2_symbol_model.json", note: "local-symbol model for the next-order coefficient of the lambda_min dispersion law"}
+  - {script: c2_reshaping_check.py, args: "c2_reshaping_check.json", note: "symbol model plus mean-field peak reshaping vs propagated lambda_min"}
+  - {script: binary_vs_beta3.py, args: "binary_vs_beta3.json", note: "best binary vs third-order dispersion (parity broken), relaxation search, pad 4"}
+  - {script: binary_relax2.py, args: "binary_relax2_pad16_phi40.json 40 16 0", note: "pad 16 at Phi = 40, continuation seeds"}
+  - {script: heldout_flattop_lamgen.py, args: "heldout_flattop_lamgen.json", note: "held-out frozen at commit 0475fdd"}
+  - {script: binary_relax2.py, args: "binary_relax2_pad32_phi20.json 20 32 0", note: "pad 32 at Phi = 20 (bin-width convergence)"}
+  - {script: lamgen_deficit.py, args: "lamgen_deficit.json", note: "deficit 1 - lambda_gen/lambda_P on converged bins, Phi = 20-80"}
+  - {script: vector_raman_1ps.py, args: "vector_raman_1ps.json", note: "elliptical chi = pi/8 with vector Raman at T0 = 1 ps, 0 and 300 K"}

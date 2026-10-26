@@ -1,0 +1,19 @@
+~/agent-work/claude-b/runs/2026-10-16-claude-b-dw-shaping/../2026-10-16-claude-b-dw-oracle/dw_lib.py:192: RuntimeWarning: divide by zero encountered in matmul
+  phi[self.inb] = self.B @ x[:self.nphi]
+~/agent-work/claude-b/runs/2026-10-16-claude-b-dw-shaping/../2026-10-16-claude-b-dw-oracle/dw_lib.py:192: RuntimeWarning: overflow encountered in matmul
+  phi[self.inb] = self.B @ x[:self.nphi]
+~/agent-work/claude-b/runs/2026-10-16-claude-b-dw-shaping/../2026-10-16-claude-b-dw-oracle/dw_lib.py:192: RuntimeWarning: invalid value encountered in matmul
+  phi[self.inb] = self.B @ x[:self.nphi]
+N3_d0.02_xi2_it60 Nt 4096 TW 100.0 eta_TL 0.051817616772959325 h/2 0.05181428721676272 3s
+N3_d0.02_xi2_it60 GDD best C 0.30000000000000027 eta 0.05389677037904326 H_gdd 1.0401244544918733 52s
+~/agent-work/claude-b/runs/2026-10-16-claude-b-dw-shaping/../2026-10-16-claude-b-dw-oracle/dw_lib.py:324: RuntimeWarning: divide by zero encountered in matmul
+  g = [self.B.T @ dphi[self.inb]]
+~/agent-work/claude-b/runs/2026-10-16-claude-b-dw-shaping/../2026-10-16-claude-b-dw-oracle/dw_lib.py:324: RuntimeWarning: overflow encountered in matmul
+  g = [self.B.T @ dphi[self.inb]]
+~/agent-work/claude-b/runs/2026-10-16-claude-b-dw-shaping/../2026-10-16-claude-b-dw-oracle/dw_lib.py:324: RuntimeWarning: invalid value encountered in matmul
+  g = [self.B.T @ dphi[self.inb]]
+N3_d0.02_xi2_it60 phase start TL eta 0.05681620640713833 H 1.0964650623759966 nit 60 269s
+N3_d0.02_xi2_it60 phase start GDD eta 0.08008740681498755 H 1.5455633007186202 nit 54 591s
+N3_d0.02_xi2_it60 phase start random eta 0.05681410961946506 H 1.096424597611234 nit 60 931s
+N3_d0.02_xi2_it60 passive eta 0.08032498254579634 H 1.5501481455185988 energy kept 0.9999991225066366 1283s
+N3_d0.02_xi2_it60 DONE H_gdd 1.0401244544918733 H_phase 1.5455633007186202 H_passive 1.5501481455185988 1285s

@@ -1,0 +1,8 @@
+# Run 2026-10-16-claude-interactive.7-grin-twa-scrambling: pre-registered test of the chaotic branch of claim C-02 with the exact
+# GRIN Kerr tensor (K = 5, 15 HG modes), E' = 0.6, intra-group disorder sigma = 0.3 (dis_seed 7), coherent input (phase_seed 1),
+# truncated-Wigner ensembles of 32 trajectories at n in {1e6, 1e8, 1e10, 1e12} photons per cell (noise seed 777), z <= 1500, dz = 0.05.
+prediction: grin_twa_predictions.txt   # written before the run (file timestamps in meta.yaml)
+commands:
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore grin_twa.py"
+  - "~/agent-work/venv/bin/python summarize.py"
+dephased: "grin_twa_dephased.py: per-mode dephased input (random phases per trajectory), n in {1e6, 1e10}, 32 trajectories, zmax 600, record every 2; prediction grin_twa_dephased_predictions.txt written before the run"

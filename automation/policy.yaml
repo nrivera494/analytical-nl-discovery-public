@@ -1,0 +1,26 @@
+# How unattended sessions spend their time. Only the PI edits this file.
+
+session_minutes: 240          # wall-clock budget per session; the launcher enforces it
+subagents_max: 4              # parallel subagents one session may run
+max_sessions_per_problem: 2   # do not pile every agent onto one problem
+
+# Share of sessions that start in each mode. The launcher draws a mode at random with these weights.
+# A priority-1 task that the agent's family may take always comes first, whatever the mode.
+modes:
+  verify:   {weight: 0.35, task_types: [verify, audit, rank]}
+  derive:   {weight: 0.30, task_types: [derive, literature, registry-review]}
+  loose:    {weight: 0.15, task_types: [loose-end, infra]}
+  explore:  {weight: 0.20, task_types: [explore]}
+
+# Free exploration: in explore mode with no explore task open, the agent may define its own
+# exploration, provided it ends with a note in explorations/ and run folders in runs/.
+explore_requires_note: true
+
+# Derivation work is allowed only on problems with these statuses.
+derive_on_status: [active, audited]
+
+# Stop early if any of these happens.
+stop_if:
+  - validate.py fails and cannot be fixed within 15 minutes
+  - the solver or GPU is unavailable
+  - the same check has failed three times with no new idea

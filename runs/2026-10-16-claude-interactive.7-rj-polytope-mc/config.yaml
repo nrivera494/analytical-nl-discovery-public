@@ -1,0 +1,32 @@
+# Run 2026-10-16-claude-interactive.7-rj-polytope-mc: closed forms of the polytope (microcanonical, weakly nonlinear,
+# classical) ensemble checked against independent Monte Carlo.
+checks:
+  check_dirichlet.py:
+    what: "Condensed-regime Dirichlet law: g2 = 2-2/M, cross g2 = 1-1/M, Var(N0), Cov(N0, I_m) sign change"
+    eps: [0, 1, 1, 2, 2, 2]     # GRIN-like degeneracy, kappa = 1
+    N: 1.0
+    Eprime: 0.6                 # <= kappa N: exactness condition holds
+    sampler: "uniform on the simplex sum I = N (numpy Dirichlet(1,...,1)), accepted if |sum eps I - E'| < 0.004 E'"
+    nsamp: 40000
+    seed: 1
+  check_bspline.py:
+    what: "General marginal P(x_p=s) = (M-1)(1-s)^(M-3) B((e-eps_p s)/(1-s); eps_-p)/B(e; eps), Curry-Schoenberg B-spline"
+    eps: [0.0, 0.7, 1.1, 1.6, 2.3, 3.0]
+    e: 1.3                      # non-condensed
+    sampler: "as above, slab |sum eps x - e| < 0.004"
+    nsamp: 60000
+    seed: 3
+  grin_sums.py:
+    what: "GRIN (one polarization) finite-K sums D, S1, S2; relative depletion variance; harmonic-mean sign-change energy"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore run_all.py"
+  check_degenerate.py:
+    what: "Two-fold degenerate fundamental (two polarizations), only N and E' conserved: excitations are Dirichlet tilted by (N - N_ex)"
+    eps: [0, 0, 1, 1, 2, 2]
+    N: 1.0
+    Eprime: 0.8
+    sampler: "uniform on the simplex, slab |sum eps I - E'| < 0.003 E'; tilted and untilted predictions by direct Dirichlet sampling"
+    nsamp: 30000
+    seed: 4
+  quantum_partitions.py:
+    what: "Quantum microcanonical statistics of Q excitation quanta above a condensate in ideal GRIN (one polarization, K = 10, 54 excited modes): exact partition counting with generating function prod_k (1 - q^k)^-(k+1); <n>, g2 of group-1 and group-2 modes, mean and variance of N_ex, vs Q = 1..60; classical Dirichlet values at E' = Q kappa for comparison (quantum_partitions.json)"

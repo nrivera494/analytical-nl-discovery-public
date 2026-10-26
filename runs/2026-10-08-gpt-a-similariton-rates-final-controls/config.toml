@@ -1,0 +1,53 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-final-controls"
+
+[defaults]
+Nstar = 20.0
+shape = "parabola"
+smooth = 0.02
+chirp = 0.3333333333333333
+nt = 16384
+window = 12.0
+length = 12.0
+step = 0.001
+linear_phase_cap = 2.0
+nonlinear_phase_cap = 0.1
+save_interval = 0.05
+restart_gain_length = 6.0
+
+[[cases]]
+label = "N20_step_width_minus"
+width = 0.99
+step = 0.0005
+linear_phase_cap = 1.0
+nonlinear_phase_cap = 0.05
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/N20_grid_width_minus.npz"
+restart_sha256 = "19096380038eafc6b0a7c27e6e83dbf46f343d2772a518639f8b76c1c93b42ce"
+
+[[cases]]
+label = "N20_step_width_plus"
+width = 1.01
+step = 0.0005
+linear_phase_cap = 1.0
+nonlinear_phase_cap = 0.05
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/N20_grid_width_plus.npz"
+restart_sha256 = "4171efca4516f547dde64c5d692c4432addbe952c3abbf0a705a97fcc09b5aac"
+
+[[cases]]
+label = "N20_window_width_minus"
+width = 0.99
+nt = 32768
+window = 24.0
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/N20_grid_width_minus.npz"
+restart_sha256 = "19096380038eafc6b0a7c27e6e83dbf46f343d2772a518639f8b76c1c93b42ce"
+
+[[cases]]
+label = "N20_window_width_plus"
+width = 1.01
+nt = 32768
+window = 24.0
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/N20_grid_width_plus.npz"
+restart_sha256 = "4171efca4516f547dde64c5d692c4432addbe952c3abbf0a705a97fcc09b5aac"

@@ -1,0 +1,23 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-d-raman-conditional",
+  "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+  "solver_dirty": false,
+  "solver_note": "Derived analysis of cited propagation and quadrature runs; no new forward simulation.",
+  "hardware": "COECIS-G3FLW49YGQ",
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-17-gpt-d-raman-conditional",
+  "wall_time_s": 1.513179063796997,
+  "seeds": [
+    20261017
+  ],
+  "python_packages": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.9.4",
+    "tomli": "2.4.1"
+  }
+}

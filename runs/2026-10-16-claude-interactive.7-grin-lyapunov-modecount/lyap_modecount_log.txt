@@ -1,0 +1,7 @@
+K=4 M=10 E'=0.5586 phase_seed=1: lambda_1 L_NL = 0.0244; <I0>(z>500) = 0.705 (Dirichlet 0.7); mean excited g2 1.797 (Dirichlet 1.800); wall 6s
+K=5 M=15 E'=0.6904 phase_seed=1: lambda_1 L_NL = 0.0199; <I0>(z>500) = 0.701 (Dirichlet 0.7); mean excited g2 1.886 (Dirichlet 1.867); wall 15s
+K=5 M=15 E'=0.6904 phase_seed=2: lambda_1 L_NL = 0.0208; <I0>(z>500) = 0.693 (Dirichlet 0.7); mean excited g2 1.890 (Dirichlet 1.867); wall 14s
+K=6 M=21 E'=0.8238 phase_seed=1: lambda_1 L_NL = 0.0194; <I0>(z>500) = 0.692 (Dirichlet 0.7); mean excited g2 1.964 (Dirichlet 1.905); wall 50s
+K=7 M=28 E'=0.9586 phase_seed=1: lambda_1 L_NL = 0.0155; <I0>(z>500) = 0.706 (Dirichlet 0.7); mean excited g2 1.844 (Dirichlet 1.929); wall 273s
+K=8 M=36 E'=1.0946 phase_seed=1: lambda_1 L_NL = 0.0158; <I0>(z>500) = 0.696 (Dirichlet 0.7); mean excited g2 1.949 (Dirichlet 1.944); wall 657s
+K=8 M=36 E'=1.0946 phase_seed=2: lambda_1 L_NL = 0.0145; <I0>(z>500) = 0.692 (Dirichlet 0.7); mean excited g2 1.936 (Dirichlet 1.944); wall 642s

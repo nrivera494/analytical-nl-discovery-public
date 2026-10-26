@@ -1,0 +1,11 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_independent.py
+modes:
+- passive
+- long
+- vector
+- refine
+method: Yoshida fourth-order split-step
+threads: 1

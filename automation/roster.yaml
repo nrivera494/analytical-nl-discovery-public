@@ -1,0 +1,33 @@
+# One entry per account that runs sessions. Only the PI edits this file.
+#
+#   family   claude | gpt. Decides which tasks the agent may take (AGENTS.md hard rule 1).
+#   account  which login the entry uses. Entries with the same account share its usage limits.
+#   env      exported before `command` runs. Each entry keeps its login in its own configuration
+#            directory, so the two accounts of one provider never share credentials. Log each entry
+#            in once by hand (automation/README.md).
+#   command  run with bash, with the session prompt on standard input.
+#
+# The commands are still the placeholders from the bootstrap. Before scheduling anything, the PI
+# chooses how much each CLI may do without asking. Check the current `claude --help` and
+# `codex exec --help` for the permission and sandbox options.
+agents:
+  claude-a:
+    family: claude
+    account: first-email
+    env: {CLAUDE_CONFIG_DIR: "$HOME/.agent-accounts/claude-a"}
+    command: claude -p
+  gpt-a:
+    family: gpt
+    account: first-email
+    env: {CODEX_HOME: "$HOME/.agent-accounts/gpt-a"}
+    command: codex exec -
+  claude-b:
+    family: claude
+    account: second-email
+    env: {CLAUDE_CONFIG_DIR: "$HOME/.agent-accounts/claude-b"}
+    command: claude -p
+  gpt-b:
+    family: gpt
+    account: second-email
+    env: {CODEX_HOME: "$HOME/.agent-accounts/gpt-b"}
+    command: codex exec -

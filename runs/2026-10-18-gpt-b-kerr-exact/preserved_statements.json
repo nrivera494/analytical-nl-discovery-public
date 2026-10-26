@@ -1,0 +1,10 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "sha256": {
+    "C-20261018-claude-interactive.7-01-prescrambling-multimode-squeezing-validity.md": "07a8fbaf293a36c2172f585f203fd07f841b8164b38009faa3d01b8a67089c1c",
+    "C-20261018-claude-interactive.7-02-condensate-own-squeezing.md": "89fd350e5d4a23c9c0c07d4da13c567f7fcfbd42c33f970579bd9ed1119d93a7",
+    "C-20261018-claude-interactive.7-03-equilibrated-condensate-kerr-squeezability.md": "4c24858f9d838352709799288c60d0860eed412c8a17fa560068c999aa033878"
+  }
+}

@@ -1,0 +1,5157 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "N": 3,
+      "case": {
+        "N": 3,
+        "T0_fs": 200,
+        "raman": "off",
+        "n": 16384,
+        "width": 80,
+        "tol": 1e-09,
+        "zN": [
+          0.1,
+          0.12000000000000001,
+          0.14,
+          0.16,
+          0.18,
+          0.2,
+          0.22,
+          0.24000000000000002,
+          0.26,
+          0.28,
+          0.30000000000000004,
+          0.32,
+          0.33999999999999997,
+          0.36,
+          0.38,
+          0.4,
+          0.42000000000000004,
+          0.44000000000000006,
+          0.45999999999999996,
+          0.48,
+          0.5,
+          0.52,
+          0.54,
+          0.56,
+          0.58,
+          0.6,
+          0.62,
+          0.64,
+          0.66,
+          0.6799999999999999,
+          0.7,
+          0.72,
+          0.74,
+          0.76,
+          0.78,
+          0.8,
+          0.82,
+          0.84,
+          0.86,
+          0.88,
+          0.9,
+          0.92,
+          0.94,
+          0.96,
+          0.98,
+          1.0,
+          1.02,
+          1.04,
+          1.06,
+          1.08,
+          1.1,
+          1.12,
+          1.1400000000000001,
+          1.1600000000000001,
+          1.1800000000000002,
+          1.2000000000000002,
+          1.2200000000000002,
+          1.2400000000000002,
+          1.26,
+          1.28,
+          1.3,
+          1.32,
+          1.34,
+          1.36,
+          1.3800000000000001,
+          1.4000000000000001,
+          1.4200000000000002,
+          1.4400000000000002,
+          1.4600000000000002,
+          1.4800000000000002,
+          1.5000000000000002,
+          1.52,
+          1.54,
+          1.56,
+          1.58,
+          1.6,
+          1.62,
+          1.6400000000000001,
+          1.6600000000000001,
+          1.6800000000000002,
+          1.7000000000000002,
+          1.7200000000000002,
+          1.7400000000000002,
+          1.7600000000000002,
+          1.78,
+          1.8,
+          1.82,
+          1.84,
+          1.86,
+          1.8800000000000001,
+          1.9000000000000001,
+          1.9200000000000002,
+          1.9400000000000002,
+          1.9600000000000002,
+          1.9800000000000002,
+          2.0,
+          2.02,
+          2.04,
+          2.06,
+          2.08,
+          2.1,
+          2.12,
+          2.14,
+          2.16,
+          2.18,
+          2.2,
+          2.22,
+          2.24,
+          2.2600000000000002,
+          2.2800000000000002,
+          2.3000000000000003,
+          2.3200000000000003,
+          2.3400000000000003,
+          2.3600000000000003,
+          2.3800000000000003,
+          2.4000000000000004,
+          2.42,
+          2.44,
+          2.46,
+          2.48,
+          2.5,
+          2.52,
+          2.54,
+          2.56,
+          2.58,
+          2.6,
+          2.62,
+          2.64,
+          2.66,
+          2.68,
+          2.7,
+          2.72,
+          2.74,
+          2.7600000000000002,
+          2.7800000000000002,
+          2.8000000000000003,
+          2.8200000000000003,
+          2.8400000000000003,
+          2.8600000000000003,
+          2.8800000000000003,
+          2.9000000000000004,
+          2.92,
+          2.94,
+          2.96,
+          2.98,
+          3.0,
+          3.02,
+          3.04,
+          3.06,
+          3.08,
+          3.1,
+          3.12,
+          3.14,
+          3.16,
+          3.18,
+          3.2,
+          3.22,
+          3.24,
+          3.2600000000000002,
+          3.2800000000000002,
+          3.3000000000000003,
+          3.3200000000000003,
+          3.3400000000000003,
+          3.3600000000000003,
+          3.3800000000000003,
+          3.4000000000000004,
+          3.4200000000000004,
+          3.44,
+          3.46,
+          3.48,
+          3.5
+        ]
+      },
+      "checkpoints": [
+        {
+          "zN": 0.1,
+          "peak_amplitude": 3.013477473873892,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.013477473873892,
+          "FWHM_T0": 1.748046875,
+          "mass_drift": 4.8798964868979056e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.12000000000000001,
+          "peak_amplitude": 3.0194997467498292,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0194997467498292,
+          "FWHM_T0": 1.73828125,
+          "mass_drift": 5.0385473571168404e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.14,
+          "peak_amplitude": 3.0266905350368436,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0266905350368436,
+          "FWHM_T0": 1.728515625,
+          "mass_drift": 5.76301228960574e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.16,
+          "peak_amplitude": 3.035087620834942,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.035087620834942,
+          "FWHM_T0": 1.708984375,
+          "mass_drift": 7.850342598203497e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.18,
+          "peak_amplitude": 3.044735386199038,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.044735386199038,
+          "FWHM_T0": 1.69921875,
+          "mass_drift": 9.150125102053153e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.2,
+          "peak_amplitude": 3.055685166119539,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.055685166119539,
+          "FWHM_T0": 1.6796875,
+          "mass_drift": 1.1812528732946248e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.22,
+          "peak_amplitude": 3.067995658255921,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.067995658255921,
+          "FWHM_T0": 1.66015625,
+          "mass_drift": 1.3714718249957514e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.24000000000000002,
+          "peak_amplitude": 3.0817333949822174,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0817333949822174,
+          "FWHM_T0": 1.640625,
+          "mass_drift": 1.6975487682202584e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.26,
+          "peak_amplitude": 3.0969732806679846,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0969732806679846,
+          "FWHM_T0": 1.611328125,
+          "mass_drift": 1.9790169503153265e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.28,
+          "peak_amplitude": 3.113799200994043,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.113799200994043,
+          "FWHM_T0": 1.58203125,
+          "mass_drift": 2.3674617821711763e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.30000000000000004,
+          "peak_amplitude": 3.132304708539311,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.132304708539311,
+          "FWHM_T0": 1.5625,
+          "mass_drift": 2.788125286201648e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.32,
+          "peak_amplitude": 3.1525937921336014,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.1525937921336014,
+          "FWHM_T0": 1.5234375,
+          "mass_drift": 3.242526247504429e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.33999999999999997,
+          "peak_amplitude": 3.1747817359524237,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.1747817359524237,
+          "FWHM_T0": 1.494140625,
+          "mass_drift": 3.732134601364123e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.36,
+          "peak_amplitude": 3.1989960758830662,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.1989960758830662,
+          "FWHM_T0": 1.455078125,
+          "mass_drift": 4.2588155224621005e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.38,
+          "peak_amplitude": 3.225377660563714,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.225377660563714,
+          "FWHM_T0": 1.42578125,
+          "mass_drift": 4.825058130819571e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.4,
+          "peak_amplitude": 3.254081824613355,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.254081824613355,
+          "FWHM_T0": 1.376953125,
+          "mass_drift": 5.434270811122133e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.42000000000000004,
+          "peak_amplitude": 3.285279681274012,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.285279681274012,
+          "FWHM_T0": 1.337890625,
+          "mass_drift": 6.091114279627163e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.44000000000000006,
+          "peak_amplitude": 3.3191595408743098,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.3191595408743098,
+          "FWHM_T0": 1.2890625,
+          "mass_drift": 6.802227670021921e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.45999999999999996,
+          "peak_amplitude": 3.3559284599517936,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.3559284599517936,
+          "FWHM_T0": 1.240234375,
+          "mass_drift": 7.577056759799916e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.48,
+          "peak_amplitude": 3.3958139231987956,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.3958139231987956,
+          "FWHM_T0": 1.19140625,
+          "mass_drift": 8.429319464653418e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.5,
+          "peak_amplitude": 3.4390656561430375,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.4390656561430375,
+          "FWHM_T0": 1.142578125,
+          "mass_drift": 9.379046428392712e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.52,
+          "peak_amplitude": 3.485957559966725,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.485957559966725,
+          "FWHM_T0": 1.083984375,
+          "mass_drift": 1.0455698529199253e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.54,
+          "peak_amplitude": 3.5367897501660797,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.5367897501660797,
+          "FWHM_T0": 1.03515625,
+          "mass_drift": 1.1702931956847351e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.56,
+          "peak_amplitude": 3.5918906665461745,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.5918906665461745,
+          "FWHM_T0": 0.9765625,
+          "mass_drift": 1.3185830205486582e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.58,
+          "peak_amplitude": 3.6516192012608517,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.6516192012608517,
+          "FWHM_T0": 0.91796875,
+          "mass_drift": 1.4776935230997879e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.6,
+          "peak_amplitude": 3.7163667627947805,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.7163667627947805,
+          "FWHM_T0": 0.869140625,
+          "mass_drift": 1.5161338851044093e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.62,
+          "peak_amplitude": 3.7865591578544087,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.7865591578544087,
+          "FWHM_T0": 0.810546875,
+          "mass_drift": 1.6797685464808865e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.64,
+          "peak_amplitude": 3.862658081638815,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.862658081638815,
+          "FWHM_T0": 0.76171875,
+          "mass_drift": 1.8046297789453547e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.66,
+          "peak_amplitude": 3.9451620006258827,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9451620006258827,
+          "FWHM_T0": 0.712890625,
+          "mass_drift": 1.974599816989553e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.6799999999999999,
+          "peak_amplitude": 4.034605996290521,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.034605996290521,
+          "FWHM_T0": 0.6640625,
+          "mass_drift": 2.1086168366935e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.7,
+          "peak_amplitude": 4.131560072248508,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.131560072248508,
+          "FWHM_T0": 0.615234375,
+          "mass_drift": 2.288514489023896e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.72,
+          "peak_amplitude": 4.236625134119024,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.236625134119024,
+          "FWHM_T0": 0.576171875,
+          "mass_drift": 2.487180239540976e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.74,
+          "peak_amplitude": 4.350425638321789,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.350425638321789,
+          "FWHM_T0": 0.537109375,
+          "mass_drift": 2.7316093831331045e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.76,
+          "peak_amplitude": 4.473597438708141,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.473597438708141,
+          "FWHM_T0": 0.5078125,
+          "mass_drift": 2.9728037809206853e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.78,
+          "peak_amplitude": 4.60676893041648,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.60676893041648,
+          "FWHM_T0": 0.46875,
+          "mass_drift": 3.1465594574342504e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.8,
+          "peak_amplitude": 4.750532895101212,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.750532895101212,
+          "FWHM_T0": 0.439453125,
+          "mass_drift": 3.3685862987908877e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.82,
+          "peak_amplitude": 4.90540572248359,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.90540572248359,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 3.566029693757855e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.84,
+          "peak_amplitude": 5.071769914896124,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.071769914896124,
+          "FWHM_T0": 0.390625,
+          "mass_drift": 3.7736971325585955e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.86,
+          "peak_amplitude": 5.249794899167507,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.249794899167507,
+          "FWHM_T0": 0.361328125,
+          "mass_drift": 4.0159393588368175e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.88,
+          "peak_amplitude": 5.439330909328138,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.439330909328138,
+          "FWHM_T0": 0.341796875,
+          "mass_drift": 4.2797496657698275e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.9,
+          "peak_amplitude": 5.639771162620071,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.639771162620071,
+          "FWHM_T0": 0.322265625,
+          "mass_drift": 4.480076531976351e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.92,
+          "peak_amplitude": 5.8498799765153136,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.8498799765153136,
+          "FWHM_T0": 0.302734375,
+          "mass_drift": 4.684260312970423e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.94,
+          "peak_amplitude": 6.067590026084378,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.067590026084378,
+          "FWHM_T0": 0.283203125,
+          "mass_drift": 4.91074514386014e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.96,
+          "peak_amplitude": 6.289782419822213,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.289782419822213,
+          "FWHM_T0": 0.2734375,
+          "mass_drift": 5.133702796200623e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 0.98,
+          "peak_amplitude": 6.5120799762036246,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.5120799762036246,
+          "FWHM_T0": 0.263671875,
+          "mass_drift": 5.326934449101373e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 1.0,
+          "peak_amplitude": 6.728706700348547,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.728706700348547,
+          "FWHM_T0": 0.244140625,
+          "mass_drift": 5.513043799254547e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 1.02,
+          "peak_amplitude": 6.932490379283025,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.932490379283025,
+          "FWHM_T0": 0.234375,
+          "mass_drift": 5.685420356726922e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 1.04,
+          "peak_amplitude": 7.115099167486654,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.115099167486654,
+          "FWHM_T0": 0.234375,
+          "mass_drift": 5.826496396466041e-09,
+          "max_spectral_edge_fraction": 9.634249459146511e-33
+        },
+        {
+          "zN": 1.06,
+          "peak_amplitude": 7.267588318467626,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.267588318467626,
+          "FWHM_T0": 0.224609375,
+          "mass_drift": 5.944067238417006e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.08,
+          "peak_amplitude": 7.3812717240400225,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.3812717240400225,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 6.027137011699324e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.1,
+          "peak_amplitude": 7.448822103347406,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.448822103347406,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 6.08112826760987e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.12,
+          "peak_amplitude": 7.465377175933267,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.465377175933267,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 6.099901916911676e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.1400000000000001,
+          "peak_amplitude": 7.429354529182983,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.429354529182983,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 6.086552151174374e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.1600000000000001,
+          "peak_amplitude": 7.342720512052048,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.342720512052048,
+          "FWHM_T0": 0.224609375,
+          "mass_drift": 6.0383638089689384e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.1800000000000002,
+          "peak_amplitude": 7.210624029513162,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.210624029513162,
+          "FWHM_T0": 0.224609375,
+          "mass_drift": 5.957850213178517e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.2000000000000002,
+          "peak_amplitude": 7.04051799692356,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.04051799692356,
+          "FWHM_T0": 0.234375,
+          "mass_drift": 5.8562050764265905e-09,
+          "max_spectral_edge_fraction": 9.925386470695212e-33
+        },
+        {
+          "zN": 1.2200000000000002,
+          "peak_amplitude": 6.841039307903373,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.841039307903373,
+          "FWHM_T0": 0.244140625,
+          "mass_drift": 5.721555673687817e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.2400000000000002,
+          "peak_amplitude": 6.62093843701453,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.62093843701453,
+          "FWHM_T0": 0.25390625,
+          "mass_drift": 5.583042250734138e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.26,
+          "peak_amplitude": 6.388261286606709,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.388261286606709,
+          "FWHM_T0": 0.263671875,
+          "mass_drift": 5.410294656726933e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.28,
+          "peak_amplitude": 6.1498582073370205,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.1498582073370205,
+          "FWHM_T0": 0.283203125,
+          "mass_drift": 5.220187837551293e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.3,
+          "peak_amplitude": 5.911191819456423,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.911191819456423,
+          "FWHM_T0": 0.29296875,
+          "mass_drift": 5.0105044557824385e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.32,
+          "peak_amplitude": 5.676362519120508,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.676362519120508,
+          "FWHM_T0": 0.3125,
+          "mass_drift": 4.829584732135572e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.34,
+          "peak_amplitude": 5.448262223502701,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.448262223502701,
+          "FWHM_T0": 0.341796875,
+          "mass_drift": 4.603583958484592e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.36,
+          "peak_amplitude": 5.2287835228961175,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.2287835228961175,
+          "FWHM_T0": 0.361328125,
+          "mass_drift": 4.3744303734882806e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.3800000000000001,
+          "peak_amplitude": 5.019035594624564,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.019035594624564,
+          "FWHM_T0": 0.390625,
+          "mass_drift": 4.153694721509282e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.4000000000000001,
+          "peak_amplitude": 4.819539917426346,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.819539917426346,
+          "FWHM_T0": 0.4296875,
+          "mass_drift": 3.9676140151101436e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.4200000000000002,
+          "peak_amplitude": 4.630394338545801,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.630394338545801,
+          "FWHM_T0": 0.46875,
+          "mass_drift": 3.7004359576542356e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.4400000000000002,
+          "peak_amplitude": 4.451403520492864,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.451403520492864,
+          "FWHM_T0": 0.517578125,
+          "mass_drift": 3.4703755424914107e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.4600000000000002,
+          "peak_amplitude": 4.282178698821576,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.282178698821576,
+          "FWHM_T0": 0.5859375,
+          "mass_drift": 3.221823696719639e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.4800000000000002,
+          "peak_amplitude": 4.122211655135425,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.122211655135425,
+          "FWHM_T0": 0.693359375,
+          "mass_drift": 3.029011930166803e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.5000000000000002,
+          "peak_amplitude": 3.970928140033851,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.970928140033851,
+          "FWHM_T0": 0.869140625,
+          "mass_drift": 2.8116948769252303e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.52,
+          "peak_amplitude": 3.82772550304438,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.82772550304438,
+          "FWHM_T0": 1.07421875,
+          "mass_drift": 2.595861525733767e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.54,
+          "peak_amplitude": 3.691998498331834,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.691998498331834,
+          "FWHM_T0": 1.220703125,
+          "mass_drift": 2.3676975935416067e-09,
+          "max_spectral_edge_fraction": 1.0065342894352879e-32
+        },
+        {
+          "zN": 1.56,
+          "peak_amplitude": 3.563156444374633,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.563156444374633,
+          "FWHM_T0": 1.328125,
+          "mass_drift": 2.231953066811343e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.58,
+          "peak_amplitude": 3.4406341435163195,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.4406341435163195,
+          "FWHM_T0": 1.40625,
+          "mass_drift": 2.0221762042638147e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.6,
+          "peak_amplitude": 3.323898413278868,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.323898413278868,
+          "FWHM_T0": 1.474609375,
+          "mass_drift": 1.9999668587900032e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.62,
+          "peak_amplitude": 3.2124515509687286,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.2124515509687286,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 1.940064109362538e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.6400000000000001,
+          "peak_amplitude": 3.249938779316959,
+          "peak_t_over_T0": -0.41015625,
+          "central_amplitude": 3.1058327367114384,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 1.9391832584148005e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.6600000000000001,
+          "peak_amplitude": 3.2945708037073143,
+          "peak_t_over_T0": -0.4296875,
+          "central_amplitude": 3.003618046444232,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 1.9811556839499644e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.6800000000000002,
+          "peak_amplitude": 3.3412272863713732,
+          "peak_t_over_T0": -0.4443359375,
+          "central_amplitude": 2.905419610070293,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.0562740399299173e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.7000000000000002,
+          "peak_amplitude": 3.3889241039100315,
+          "peak_t_over_T0": -0.458984375,
+          "central_amplitude": 2.810884234119646,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.161461232219608e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.7200000000000002,
+          "peak_amplitude": 3.4371504928805274,
+          "peak_t_over_T0": -0.46875,
+          "central_amplitude": 2.71969176603335,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.2927399978556195e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.7400000000000002,
+          "peak_amplitude": 3.485633111102659,
+          "peak_t_over_T0": -0.478515625,
+          "central_amplitude": 2.6315533421181843,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.3599879828140047e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.7600000000000002,
+          "peak_amplitude": 3.534290021534855,
+          "peak_t_over_T0": -0.4833984375,
+          "central_amplitude": 2.5462096506497582,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.4026063361048955e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.78,
+          "peak_amplitude": 3.5830023486166445,
+          "peak_t_over_T0": -0.4931640625,
+          "central_amplitude": 2.463429291972895,
+          "FWHM_T0": 0.6640625,
+          "mass_drift": 2.512813956911941e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.8,
+          "peak_amplitude": 3.631743316394096,
+          "peak_t_over_T0": -0.498046875,
+          "central_amplitude": 2.3830072637063653,
+          "FWHM_T0": 0.6103515625,
+          "mass_drift": 2.587983161106422e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.82,
+          "peak_amplitude": 3.680372329604863,
+          "peak_t_over_T0": -0.5029296875,
+          "central_amplitude": 2.304763638454219,
+          "FWHM_T0": 0.5810546875,
+          "mass_drift": 2.701118440029404e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.84,
+          "peak_amplitude": 3.728880146299523,
+          "peak_t_over_T0": -0.5078125,
+          "central_amplitude": 2.228542430427415,
+          "FWHM_T0": 0.5517578125,
+          "mass_drift": 2.779278140963015e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.86,
+          "peak_amplitude": 3.7772264244586693,
+          "peak_t_over_T0": -0.5126953125,
+          "central_amplitude": 2.154210653177613,
+          "FWHM_T0": 0.5322265625,
+          "mass_drift": 2.8817532804481516e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.8800000000000001,
+          "peak_amplitude": 3.8253392619709223,
+          "peak_t_over_T0": -0.517578125,
+          "central_amplitude": 2.0816576395643973,
+          "FWHM_T0": 0.5126953125,
+          "mass_drift": 2.980363733584568e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.9000000000000001,
+          "peak_amplitude": 3.8731147617897808,
+          "peak_t_over_T0": -0.5224609375,
+          "central_amplitude": 2.010794543307135,
+          "FWHM_T0": 0.498046875,
+          "mass_drift": 3.077167631815314e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.9200000000000002,
+          "peak_amplitude": 3.9204166431549305,
+          "peak_t_over_T0": -0.52734375,
+          "central_amplitude": 1.9415541230214248,
+          "FWHM_T0": 0.4833984375,
+          "mass_drift": 3.1743729866917647e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.9400000000000002,
+          "peak_amplitude": 3.967320571177518,
+          "peak_t_over_T0": -0.52734375,
+          "central_amplitude": 1.8738907248132792,
+          "FWHM_T0": 0.4736328125,
+          "mass_drift": 3.2747415890099774e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.9600000000000002,
+          "peak_amplitude": 4.0136809612204996,
+          "peak_t_over_T0": -0.5322265625,
+          "central_amplitude": 1.8077805371938076,
+          "FWHM_T0": 0.4638671875,
+          "mass_drift": 3.3810034771875053e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 1.9800000000000002,
+          "peak_amplitude": 4.059095059227501,
+          "peak_t_over_T0": -0.537109375,
+          "central_amplitude": 1.7432220919289174,
+          "FWHM_T0": 0.44921875,
+          "mass_drift": 3.4283869077000872e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 2.0,
+          "peak_amplitude": 4.1039456426644465,
+          "peak_t_over_T0": -0.537109375,
+          "central_amplitude": 1.6802370132776907,
+          "FWHM_T0": 0.439453125,
+          "mass_drift": 3.502418355338932e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 2.02,
+          "peak_amplitude": 4.147536932797741,
+          "peak_t_over_T0": -0.5419921875,
+          "central_amplitude": 1.6188710278960756,
+          "FWHM_T0": 0.4345703125,
+          "mass_drift": 3.5653331398322052e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 2.04,
+          "peak_amplitude": 4.190220893008429,
+          "peak_t_over_T0": -0.5419921875,
+          "central_amplitude": 1.5591951678738203,
+          "FWHM_T0": 0.4296875,
+          "mass_drift": 3.6445233497772733e-09,
+          "max_spectral_edge_fraction": 1.0512264227833501e-32
+        },
+        {
+          "zN": 2.06,
+          "peak_amplitude": 4.231237302196321,
+          "peak_t_over_T0": -0.5419921875,
+          "central_amplitude": 1.501307237180076,
+          "FWHM_T0": 0.4150390625,
+          "mass_drift": 3.7027017008028906e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.08,
+          "peak_amplitude": 4.271202948515237,
+          "peak_t_over_T0": -0.546875,
+          "central_amplitude": 1.4453333385254172,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 3.771287504505949e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.1,
+          "peak_amplitude": 4.309232678800387,
+          "peak_t_over_T0": -0.546875,
+          "central_amplitude": 1.391429479928482,
+          "FWHM_T0": 0.4052734375,
+          "mass_drift": 3.83518550250983e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.12,
+          "peak_amplitude": 4.3453103797458565,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.3397829988815473,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 3.895186839741882e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.14,
+          "peak_amplitude": 4.379649820090692,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.2906136558439398,
+          "FWHM_T0": 0.3955078125,
+          "mass_drift": 3.951854843364799e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.16,
+          "peak_amplitude": 4.411582758478758,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.2441739471343918,
+          "FWHM_T0": 0.390625,
+          "mass_drift": 4.00567001790364e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.18,
+          "peak_amplitude": 4.440957953340399,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.2007482612817604,
+          "FWHM_T0": 0.3857421875,
+          "mass_drift": 4.056974090005383e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.2,
+          "peak_amplitude": 4.467759422183847,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.1606502782935357,
+          "FWHM_T0": 0.380859375,
+          "mass_drift": 4.105892292827207e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.22,
+          "peak_amplitude": 4.492007536251556,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.1242179723802126,
+          "FWHM_T0": 0.380859375,
+          "mass_drift": 4.1501460046333705e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.24,
+          "peak_amplitude": 4.513232520624721,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.091805598838695,
+          "FWHM_T0": 0.3759765625,
+          "mass_drift": 4.177903356605839e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.2600000000000002,
+          "peak_amplitude": 4.53131088132279,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0637722040349142,
+          "FWHM_T0": 0.3759765625,
+          "mass_drift": 4.210725323972042e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.2800000000000002,
+          "peak_amplitude": 4.546133987789536,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0404666085037002,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.231119898889801e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.3000000000000003,
+          "peak_amplitude": 4.557610385153462,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0222093440791338,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.248454033017879e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.3200000000000003,
+          "peak_amplitude": 4.565667766074546,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0092730855147263,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.2639927144705325e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.3400000000000003,
+          "peak_amplitude": 4.570254572289647,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.00186346279501,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.272613374212142e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.3600000000000003,
+          "peak_amplitude": 4.571341168073084,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0001032093212041,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.278237319965683e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.3800000000000003,
+          "peak_amplitude": 4.56892049475522,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0040220357178071,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.2782923870277045e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.4000000000000004,
+          "peak_amplitude": 4.563008255023517,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0135540926841176,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.273303044755039e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.42,
+          "peak_amplitude": 4.553642528992939,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0285435460977743,
+          "FWHM_T0": 0.37109375,
+          "mass_drift": 4.2647867459777444e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.44,
+          "peak_amplitude": 4.540882934471726,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0487571354046077,
+          "FWHM_T0": 0.3759765625,
+          "mass_drift": 4.249153473523393e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.46,
+          "peak_amplitude": 4.52480927642647,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.0739016521148719,
+          "FWHM_T0": 0.3759765625,
+          "mass_drift": 4.232468375775511e-09,
+          "max_spectral_edge_fraction": 1.085227716224541e-32
+        },
+        {
+          "zN": 2.48,
+          "peak_amplitude": 4.505519799453183,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.1036435150947865,
+          "FWHM_T0": 0.3759765625,
+          "mass_drift": 4.206016424035397e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.5,
+          "peak_amplitude": 4.483129071895138,
+          "peak_t_over_T0": -0.556640625,
+          "central_amplitude": 1.1376280463570718,
+          "FWHM_T0": 0.380859375,
+          "mass_drift": 4.181313739692882e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.52,
+          "peak_amplitude": 4.457806770547388,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.1754964198107365,
+          "FWHM_T0": 0.380859375,
+          "mass_drift": 4.152454824435381e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.54,
+          "peak_amplitude": 4.43009012138466,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.2168994368220447,
+          "FWHM_T0": 0.3857421875,
+          "mass_drift": 4.109975249022568e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.56,
+          "peak_amplitude": 4.3997239493692915,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.2615075863153289,
+          "FWHM_T0": 0.3955078125,
+          "mass_drift": 4.06511357908812e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.58,
+          "peak_amplitude": 4.366857242468043,
+          "peak_t_over_T0": -0.5517578125,
+          "central_amplitude": 1.3090178963894383,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 4.017839838610371e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.6,
+          "peak_amplitude": 4.331754191118489,
+          "peak_t_over_T0": -0.546875,
+          "central_amplitude": 1.3591579142781591,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 3.9679046714979904e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.62,
+          "peak_amplitude": 4.29499813966302,
+          "peak_t_over_T0": -0.546875,
+          "central_amplitude": 1.4116875812211758,
+          "FWHM_T0": 0.4052734375,
+          "mass_drift": 3.914888191403065e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.64,
+          "peak_amplitude": 4.256213270978685,
+          "peak_t_over_T0": -0.546875,
+          "central_amplitude": 1.4663995613005265,
+          "FWHM_T0": 0.4150390625,
+          "mass_drift": 3.858273700529935e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.66,
+          "peak_amplitude": 4.21583283767977,
+          "peak_t_over_T0": -0.5419921875,
+          "central_amplitude": 1.5231185898855089,
+          "FWHM_T0": 0.4248046875,
+          "mass_drift": 3.7975071975893115e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.68,
+          "peak_amplitude": 4.174167365515191,
+          "peak_t_over_T0": -0.5419921875,
+          "central_amplitude": 1.5817002240535523,
+          "FWHM_T0": 0.4296875,
+          "mass_drift": 3.7320539991725354e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.7,
+          "peak_amplitude": 4.131008958332261,
+          "peak_t_over_T0": -0.537109375,
+          "central_amplitude": 1.6420293193849143,
+          "FWHM_T0": 0.4345703125,
+          "mass_drift": 3.668689796398894e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.72,
+          "peak_amplitude": 4.0870428554998535,
+          "peak_t_over_T0": -0.537109375,
+          "central_amplitude": 1.7040184384598651,
+          "FWHM_T0": 0.4443359375,
+          "mass_drift": 3.6021983174094885e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.74,
+          "peak_amplitude": 4.0419102963951135,
+          "peak_t_over_T0": -0.5322265625,
+          "central_amplitude": 1.7676063347009028,
+          "FWHM_T0": 0.4541015625,
+          "mass_drift": 3.539370352356741e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.7600000000000002,
+          "peak_amplitude": 3.996092946180736,
+          "peak_t_over_T0": -0.5322265625,
+          "central_amplitude": 1.8327565884190395,
+          "FWHM_T0": 0.46875,
+          "mass_drift": 3.4662199777102387e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.7800000000000002,
+          "peak_amplitude": 3.9496140568971243,
+          "peak_t_over_T0": -0.52734375,
+          "central_amplitude": 1.8994564695572116,
+          "FWHM_T0": 0.478515625,
+          "mass_drift": 3.4004892235373063e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.8000000000000003,
+          "peak_amplitude": 3.9024478006913883,
+          "peak_t_over_T0": -0.5224609375,
+          "central_amplitude": 1.9677160219742484,
+          "FWHM_T0": 0.48828125,
+          "mass_drift": 3.3079048389339505e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.8200000000000003,
+          "peak_amplitude": 3.854870244991594,
+          "peak_t_over_T0": -0.5224609375,
+          "central_amplitude": 2.0375674158153485,
+          "FWHM_T0": 0.5029296875,
+          "mass_drift": 3.2191955767757463e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.8400000000000003,
+          "peak_amplitude": 3.807027640039966,
+          "peak_t_over_T0": -0.517578125,
+          "central_amplitude": 2.1090645345140975,
+          "FWHM_T0": 0.517578125,
+          "mass_drift": 3.131659376265361e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.8600000000000003,
+          "peak_amplitude": 3.7588518008465117,
+          "peak_t_over_T0": -0.5126953125,
+          "central_amplitude": 2.1822828323274313,
+          "FWHM_T0": 0.5419921875,
+          "mass_drift": 3.0430933328773335e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.8800000000000003,
+          "peak_amplitude": 3.7104370207121855,
+          "peak_t_over_T0": -0.5078125,
+          "central_amplitude": 2.2573194147568585,
+          "FWHM_T0": 0.5615234375,
+          "mass_drift": 2.9517888133767656e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.9000000000000004,
+          "peak_amplitude": 3.6618457402108633,
+          "peak_t_over_T0": -0.5029296875,
+          "central_amplitude": 2.334293374028726,
+          "FWHM_T0": 0.5908203125,
+          "mass_drift": 2.856529013328668e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.92,
+          "peak_amplitude": 3.6131089831726846,
+          "peak_t_over_T0": -0.498046875,
+          "central_amplitude": 2.4133463534013897,
+          "FWHM_T0": 0.6298828125,
+          "mass_drift": 2.756585182339677e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.94,
+          "peak_amplitude": 3.5644828915511986,
+          "peak_t_over_T0": -0.48828125,
+          "central_amplitude": 2.4946433329174247,
+          "FWHM_T0": 0.703125,
+          "mass_drift": 2.6796802554684973e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.96,
+          "peak_amplitude": 3.5157630822085206,
+          "peak_t_over_T0": -0.4833984375,
+          "central_amplitude": 2.5783736368851375,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.573481205914163e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 2.98,
+          "peak_amplitude": 3.4671790410578884,
+          "peak_t_over_T0": -0.4736328125,
+          "central_amplitude": 2.664752144065096,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.5081607901711322e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 3.0,
+          "peak_amplitude": 3.4187527642603195,
+          "peak_t_over_T0": -0.4638671875,
+          "central_amplitude": 2.7540206901422732,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.3952348993105943e-09,
+          "max_spectral_edge_fraction": 1.1205710427337052e-32
+        },
+        {
+          "zN": 3.02,
+          "peak_amplitude": 3.3707049383961283,
+          "peak_t_over_T0": -0.4541015625,
+          "central_amplitude": 2.8464496337042653,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.3511499414041737e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.04,
+          "peak_amplitude": 3.3233225715661296,
+          "peak_t_over_T0": -0.439453125,
+          "central_amplitude": 2.9423395377937167,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.290197365084623e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.06,
+          "peak_amplitude": 3.277256352310537,
+          "peak_t_over_T0": -0.4248046875,
+          "central_amplitude": 3.0420229281956415,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.263466747365328e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.08,
+          "peak_amplitude": 3.2339392364075628,
+          "peak_t_over_T0": -0.400390625,
+          "central_amplitude": 3.145866006892948,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 2.2344845973520933e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.1,
+          "peak_amplitude": 3.2542702286542555,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.2542702286542555,
+          "FWHM_T0": 1.513671875,
+          "mass_drift": 2.2522848031059084e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.12,
+          "peak_amplitude": 3.3676734950681877,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.3676734950681877,
+          "FWHM_T0": 1.455078125,
+          "mass_drift": 2.3376600655211632e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.14,
+          "peak_amplitude": 3.4865507279279297,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.4865507279279297,
+          "FWHM_T0": 1.376953125,
+          "mass_drift": 2.508463881056855e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.16,
+          "peak_amplitude": 3.6114133877299435,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.6114133877299435,
+          "FWHM_T0": 1.2890625,
+          "mass_drift": 2.7618500819670544e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.18,
+          "peak_amplitude": 3.7428073911863087,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.7428073911863087,
+          "FWHM_T0": 1.171875,
+          "mass_drift": 3.1069717909559813e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.2,
+          "peak_amplitude": 3.8813086010129565,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.8813086010129565,
+          "FWHM_T0": 1.005859375,
+          "mass_drift": 3.1955571522246373e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.22,
+          "peak_amplitude": 4.027514838878385,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.027514838878385,
+          "FWHM_T0": 0.791015625,
+          "mass_drift": 3.481667620874873e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.24,
+          "peak_amplitude": 4.182032779380734,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.182032779380734,
+          "FWHM_T0": 0.64453125,
+          "mass_drift": 3.736701614798221e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.2600000000000002,
+          "peak_amplitude": 4.345457876651549,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.345457876651549,
+          "FWHM_T0": 0.556640625,
+          "mass_drift": 4.061093683560557e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.2800000000000002,
+          "peak_amplitude": 4.5183444432968045,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.5183444432968045,
+          "FWHM_T0": 0.498046875,
+          "mass_drift": 4.3717913733587466e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.3000000000000003,
+          "peak_amplitude": 4.70116254286096,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.70116254286096,
+          "FWHM_T0": 0.44921875,
+          "mass_drift": 4.64373739461621e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.3200000000000003,
+          "peak_amplitude": 4.894237330740206,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 4.894237330740206,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 4.841028911073408e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.3400000000000003,
+          "peak_amplitude": 5.097665900438337,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.097665900438337,
+          "FWHM_T0": 0.380859375,
+          "mass_drift": 5.124034752057582e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.3600000000000003,
+          "peak_amplitude": 5.311206351005736,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.311206351005736,
+          "FWHM_T0": 0.3515625,
+          "mass_drift": 5.384168222377639e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.3800000000000003,
+          "peak_amplitude": 5.534134723990998,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.534134723990998,
+          "FWHM_T0": 0.33203125,
+          "mass_drift": 5.598302488252216e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.4000000000000004,
+          "peak_amplitude": 5.76506825695834,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 5.76506825695834,
+          "FWHM_T0": 0.3125,
+          "mass_drift": 5.829313032279515e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.4200000000000004,
+          "peak_amplitude": 6.001759932550767,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.001759932550767,
+          "FWHM_T0": 0.29296875,
+          "mass_drift": 6.050387080236419e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.44,
+          "peak_amplitude": 6.240880908039282,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.240880908039282,
+          "FWHM_T0": 0.2734375,
+          "mass_drift": 6.285564513319741e-09,
+          "max_spectral_edge_fraction": 1.1569596762289723e-32
+        },
+        {
+          "zN": 3.46,
+          "peak_amplitude": 6.477825384920821,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.477825384920821,
+          "FWHM_T0": 0.263671875,
+          "mass_drift": 6.481106096245526e-09,
+          "max_spectral_edge_fraction": 1.2064517225923822e-32
+        },
+        {
+          "zN": 3.48,
+          "peak_amplitude": 6.706595866474577,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.706595866474577,
+          "FWHM_T0": 0.244140625,
+          "mass_drift": 6.6742156246135664e-09,
+          "max_spectral_edge_fraction": 1.2064517225923822e-32
+        },
+        {
+          "zN": 3.5,
+          "peak_amplitude": 6.919849636647926,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 6.919849636647926,
+          "FWHM_T0": 0.234375,
+          "mass_drift": 6.849768086070185e-09,
+          "max_spectral_edge_fraction": 1.2064517225923822e-32
+        }
+      ],
+      "first_compression": {
+        "zN": 1.12,
+        "peak_amplitude": 7.465377175933267,
+        "peak_t_over_T0": 0.0,
+        "central_amplitude": 7.465377175933267,
+        "FWHM_T0": 0.21484375,
+        "mass_drift": 6.099901916911676e-09,
+        "max_spectral_edge_fraction": 9.925386470695212e-33
+      },
+      "claimed_peak_amplitude": 9,
+      "maximum_sampled": {
+        "zN": 1.12,
+        "peak_amplitude": 7.465377175933267,
+        "peak_t_over_T0": 0.0,
+        "central_amplitude": 7.465377175933267,
+        "FWHM_T0": 0.21484375,
+        "mass_drift": 6.099901916911676e-09,
+        "max_spectral_edge_fraction": 9.925386470695212e-33
+      },
+      "fine_case": {
+        "N": 3,
+        "T0_fs": 200,
+        "raman": "off",
+        "n": 32768,
+        "width": 80,
+        "tol": 1e-10,
+        "zN": [
+          1.08,
+          1.081,
+          1.082,
+          1.0830000000000002,
+          1.084,
+          1.085,
+          1.086,
+          1.0870000000000002,
+          1.088,
+          1.089,
+          1.09,
+          1.0910000000000002,
+          1.092,
+          1.093,
+          1.094,
+          1.0950000000000002,
+          1.096,
+          1.097,
+          1.098,
+          1.0990000000000002,
+          1.1,
+          1.101,
+          1.102,
+          1.1030000000000002,
+          1.104,
+          1.105,
+          1.106,
+          1.1070000000000002,
+          1.108,
+          1.109,
+          1.11,
+          1.1110000000000002,
+          1.112,
+          1.113,
+          1.114,
+          1.1150000000000002,
+          1.116,
+          1.117,
+          1.118,
+          1.1190000000000002,
+          1.12,
+          1.121,
+          1.122,
+          1.1230000000000002,
+          1.124,
+          1.125,
+          1.1260000000000001,
+          1.1270000000000002,
+          1.1280000000000001,
+          1.129,
+          1.1300000000000001,
+          1.1310000000000002,
+          1.1320000000000001,
+          1.133,
+          1.1340000000000001,
+          1.1350000000000002,
+          1.1360000000000001,
+          1.137,
+          1.1380000000000001,
+          1.1390000000000002,
+          1.1400000000000001,
+          1.141,
+          1.1420000000000001,
+          1.1430000000000002,
+          1.1440000000000001,
+          1.145,
+          1.1460000000000001,
+          1.1470000000000002,
+          1.1480000000000001,
+          1.149,
+          1.1500000000000001,
+          1.1510000000000002,
+          1.1520000000000001,
+          1.153,
+          1.1540000000000001,
+          1.1550000000000002,
+          1.1560000000000001,
+          1.157,
+          1.1580000000000001,
+          1.1590000000000003,
+          1.1600000000000001
+        ]
+      },
+      "fine_checkpoints": [
+        {
+          "zN": 1.08,
+          "peak_amplitude": 7.381271717230063,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.381271717230063,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1626317686364018e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.081,
+          "peak_amplitude": 7.385797000660645,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.385797000660645,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1629976981453183e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.082,
+          "peak_amplitude": 7.3902056447963815,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.3902056447963815,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1633560781376673e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.0830000000000002,
+          "peak_amplitude": 7.394496879581637,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.394496879581637,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.163712237683967e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.084,
+          "peak_amplitude": 7.398669951294538,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.398669951294538,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1640577390892304e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.085,
+          "peak_amplitude": 7.40272412287724,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.40272412287724,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1643974673347657e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.086,
+          "peak_amplitude": 7.406658674266576,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.406658674266576,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1647276476622892e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.0870000000000002,
+          "peak_amplitude": 7.410472902712971,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.410472902712971,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.16505094460706e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.088,
+          "peak_amplitude": 7.414166123087727,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.414166123087727,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1653669140798684e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.089,
+          "peak_amplitude": 7.41773766818102,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.41773766818102,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1656744458576895e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.09,
+          "peak_amplitude": 7.4211868889921,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4211868889921,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1659739840297334e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.0910000000000002,
+          "peak_amplitude": 7.424513155012375,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.424513155012375,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1662644183729753e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.092,
+          "peak_amplitude": 7.427715854501455,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.427715854501455,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1665479693334646e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.093,
+          "peak_amplitude": 7.43079439475608,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.43079439475608,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1668208621529175e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.094,
+          "peak_amplitude": 7.433748202371697,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.433748202371697,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1670862054558029e-09,
+          "max_spectral_edge_fraction": 9.381146631757718e-33
+        },
+        {
+          "zN": 1.0950000000000002,
+          "peak_amplitude": 7.436576723496459,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.436576723496459,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1673424449298864e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.096,
+          "peak_amplitude": 7.439279424077421,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.439279424077421,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.167589136485958e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.097,
+          "peak_amplitude": 7.441855790098659,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.441855790098659,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1678276123916476e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.098,
+          "peak_amplitude": 7.4443053278111355,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4443053278111355,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1680552081116957e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.0990000000000002,
+          "peak_amplitude": 7.446627563954074,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.446627563954074,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1682728118245223e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1,
+          "peak_amplitude": 7.4488220459676295,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4488220459676295,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1684824219315715e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.101,
+          "peak_amplitude": 7.450888342196701,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.450888342196701,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1686840384328434e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.102,
+          "peak_amplitude": 7.452826042085646,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.452826042085646,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1688738865700543e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1030000000000002,
+          "peak_amplitude": 7.454634756363771,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.454634756363771,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1690539647446485e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.104,
+          "peak_amplitude": 7.456314117221402,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.456314117221402,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1692238288674162e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.105,
+          "peak_amplitude": 7.4578637784763835,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4578637784763835,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1693837009829622e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.106,
+          "peak_amplitude": 7.45928341573086,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.45928341573086,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1695326929128669e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1070000000000002,
+          "peak_amplitude": 7.460572726518181,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.460572726518181,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1696732471477844e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.108,
+          "peak_amplitude": 7.46173143043982,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.46173143043982,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1698013668848262e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.109,
+          "peak_amplitude": 7.462759269292174,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.462759269292174,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.169920604837671e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.11,
+          "peak_amplitude": 7.463656007183111,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.463656007183111,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1700285185156645e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1110000000000002,
+          "peak_amplitude": 7.464421430638188,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.464421430638188,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1701251079188069e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.112,
+          "peak_amplitude": 7.4650553486964215,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4650553486964215,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1702128155377522e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.113,
+          "peak_amplitude": 7.465557592995536,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.465557592995536,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1702896429710563e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.114,
+          "peak_amplitude": 7.465928017846595,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.465928017846595,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1703542579510895e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1150000000000002,
+          "peak_amplitude": 7.466166500297982,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.466166500297982,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1704106572807405e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.116,
+          "peak_amplitude": 7.466272940188617,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.466272940188617,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1704555102909353e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.117,
+          "peak_amplitude": 7.466247260190425,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.466247260190425,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1704885949370691e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.118,
+          "peak_amplitude": 7.466089405839964,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.466089405839964,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1705110214421666e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1190000000000002,
+          "peak_amplitude": 7.465799345559212,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.465799345559212,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1705241220738571e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.12,
+          "peak_amplitude": 7.465377070665493,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.465377070665493,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1705258984306965e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.121,
+          "peak_amplitude": 7.464822595370525,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.464822595370525,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1705152402896601e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.122,
+          "peak_amplitude": 7.46413595676859,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.46413595676859,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1704965885428464e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1230000000000002,
+          "peak_amplitude": 7.463317214813855,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.463317214813855,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1704648361643422e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.124,
+          "peak_amplitude": 7.462366452286845,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.462366452286845,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1704244240462458e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.125,
+          "peak_amplitude": 7.461283774750114,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.461283774750114,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1703711333410638e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1260000000000001,
+          "peak_amplitude": 7.460069310493146,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.460069310493146,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1703091828962897e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1270000000000002,
+          "peak_amplitude": 7.458723210466554,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.458723210466554,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1702347979536398e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1280000000000001,
+          "peak_amplitude": 7.457245648205609,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.457245648205609,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1701506430483732e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.129,
+          "peak_amplitude": 7.455636819743208,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.455636819743208,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.17005627409128e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1300000000000001,
+          "peak_amplitude": 7.453896943512329,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.453896943512329,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1699523572161752e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1310000000000002,
+          "peak_amplitude": 7.452026260238086,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.452026260238086,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1698364499324043e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1320000000000001,
+          "peak_amplitude": 7.450025032819471,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.450025032819471,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1697121049536463e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.133,
+          "peak_amplitude": 7.447893546200892,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.447893546200892,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1695773238784568e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1340000000000001,
+          "peak_amplitude": 7.445632107233643,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.445632107233643,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1694307744392063e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1350000000000002,
+          "peak_amplitude": 7.443241044527406,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.443241044527406,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.169274455037339e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1360000000000001,
+          "peak_amplitude": 7.4407207082919395,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4407207082919395,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1691092538512748e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.137,
+          "peak_amplitude": 7.438071470169092,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.438071470169092,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.168934282702594e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1380000000000001,
+          "peak_amplitude": 7.4352937230552945,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4352937230552945,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1687493195466914e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1390000000000002,
+          "peak_amplitude": 7.432387880914694,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.432387880914694,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1685534762051475e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1400000000000001,
+          "peak_amplitude": 7.429354378583082,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.429354378583082,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1683496392578263e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.141,
+          "peak_amplitude": 7.426193671562825,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.426193671562825,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1681358103032835e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1420000000000001,
+          "peak_amplitude": 7.42290623580894,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.42290623580894,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.167911989341519e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1430000000000002,
+          "peak_amplitude": 7.419492567506541,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.419492567506541,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1676817290862118e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1440000000000001,
+          "peak_amplitude": 7.4159531828398375,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.4159531828398375,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1674408106898682e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.145,
+          "peak_amplitude": 7.412288617752883,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.412288617752883,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1671914545985373e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1460000000000001,
+          "peak_amplitude": 7.408499427702286,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.408499427702286,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1669323285445898e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1470000000000002,
+          "peak_amplitude": 7.404586187402123,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.404586187402123,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1666660970632847e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1480000000000001,
+          "peak_amplitude": 7.400549490561235,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.400549490561235,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1663914278869925e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.149,
+          "peak_amplitude": 7.396389949613156,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.396389949613156,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1661061005696638e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1500000000000001,
+          "peak_amplitude": 7.392108195438909,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.392108195438909,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.165815000092607e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1510000000000002,
+          "peak_amplitude": 7.387704877082902,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.387704877082902,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1655167941881928e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1520000000000001,
+          "peak_amplitude": 7.3831806614621485,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.3831806614621485,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.165207930142742e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.153,
+          "peak_amplitude": 7.378536233069073,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.378536233069073,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1648948472497977e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1540000000000001,
+          "peak_amplitude": 7.373772293668158,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.373772293668158,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1645724384834466e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1550000000000002,
+          "peak_amplitude": 7.368889561986656,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.368889561986656,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1642447006465773e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1560000000000001,
+          "peak_amplitude": 7.363888773399652,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.363888773399652,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1639071928470912e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.157,
+          "peak_amplitude": 7.358770679609698,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.358770679609698,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1635645780216919e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1580000000000001,
+          "peak_amplitude": 7.353536048321319,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.353536048321319,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1632139695905153e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1590000000000003,
+          "peak_amplitude": 7.348185662910622,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.348185662910622,
+          "FWHM_T0": 0.21484375,
+          "mass_drift": 1.1628566998211909e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        },
+        {
+          "zN": 1.1600000000000001,
+          "peak_amplitude": 7.342720322090289,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 7.342720322090289,
+          "FWHM_T0": 0.2197265625,
+          "mass_drift": 1.162494767115163e-09,
+          "max_spectral_edge_fraction": 9.505242409478524e-33
+        }
+      ],
+      "fine_compression": {
+        "zN": 1.116,
+        "peak_amplitude": 7.466272940188617,
+        "peak_t_over_T0": 0.0,
+        "central_amplitude": 7.466272940188617,
+        "FWHM_T0": 0.21484375,
+        "mass_drift": 1.1704555102909353e-09,
+        "max_spectral_edge_fraction": 9.505242409478524e-33
+      }
+    },
+    {
+      "N": 2,
+      "case": {
+        "N": 2,
+        "T0_fs": 200,
+        "raman": "off",
+        "n": 16384,
+        "width": 80,
+        "tol": 1e-09,
+        "zN": [
+          0.1,
+          0.12000000000000001,
+          0.14,
+          0.16,
+          0.18,
+          0.2,
+          0.22,
+          0.24000000000000002,
+          0.26,
+          0.28,
+          0.30000000000000004,
+          0.32,
+          0.33999999999999997,
+          0.36,
+          0.38,
+          0.4,
+          0.42000000000000004,
+          0.44000000000000006,
+          0.45999999999999996,
+          0.48,
+          0.5,
+          0.52,
+          0.54,
+          0.56,
+          0.58,
+          0.6,
+          0.62,
+          0.64,
+          0.66,
+          0.6799999999999999,
+          0.7,
+          0.72,
+          0.74,
+          0.76,
+          0.78,
+          0.8,
+          0.82,
+          0.84,
+          0.86,
+          0.88,
+          0.9,
+          0.92,
+          0.94,
+          0.96,
+          0.98,
+          1.0,
+          1.02,
+          1.04,
+          1.06,
+          1.08,
+          1.1,
+          1.12,
+          1.1400000000000001,
+          1.1600000000000001,
+          1.1800000000000002,
+          1.2000000000000002,
+          1.2200000000000002,
+          1.2400000000000002,
+          1.26,
+          1.28,
+          1.3,
+          1.32,
+          1.34,
+          1.36,
+          1.3800000000000001,
+          1.4000000000000001,
+          1.4200000000000002,
+          1.4400000000000002,
+          1.4600000000000002,
+          1.4800000000000002,
+          1.5000000000000002,
+          1.52,
+          1.54,
+          1.56,
+          1.58,
+          1.6,
+          1.62,
+          1.6400000000000001,
+          1.6600000000000001,
+          1.6800000000000002,
+          1.7000000000000002,
+          1.7200000000000002,
+          1.7400000000000002,
+          1.7600000000000002,
+          1.78,
+          1.8,
+          1.82,
+          1.84,
+          1.86,
+          1.8800000000000001,
+          1.9000000000000001,
+          1.9200000000000002,
+          1.9400000000000002,
+          1.9600000000000002,
+          1.9800000000000002,
+          2.0,
+          2.02,
+          2.04,
+          2.06,
+          2.08,
+          2.1,
+          2.12,
+          2.14,
+          2.16,
+          2.18,
+          2.2,
+          2.22,
+          2.24,
+          2.2600000000000002,
+          2.2800000000000002,
+          2.3000000000000003,
+          2.3200000000000003,
+          2.3400000000000003,
+          2.3600000000000003,
+          2.3800000000000003,
+          2.4000000000000004,
+          2.42,
+          2.44,
+          2.46,
+          2.48,
+          2.5,
+          2.52,
+          2.54,
+          2.56,
+          2.58,
+          2.6,
+          2.62,
+          2.64,
+          2.66,
+          2.68,
+          2.7,
+          2.72,
+          2.74,
+          2.7600000000000002,
+          2.7800000000000002,
+          2.8000000000000003,
+          2.8200000000000003,
+          2.8400000000000003,
+          2.8600000000000003,
+          2.8800000000000003,
+          2.9000000000000004,
+          2.92,
+          2.94,
+          2.96,
+          2.98,
+          3.0,
+          3.02,
+          3.04,
+          3.06,
+          3.08,
+          3.1,
+          3.12,
+          3.14,
+          3.16,
+          3.18,
+          3.2,
+          3.22,
+          3.24,
+          3.2600000000000002,
+          3.2800000000000002,
+          3.3000000000000003,
+          3.3200000000000003,
+          3.3400000000000003,
+          3.3600000000000003,
+          3.3800000000000003,
+          3.4000000000000004,
+          3.4200000000000004,
+          3.44,
+          3.46,
+          3.48,
+          3.5
+        ]
+      },
+      "checkpoints": [
+        {
+          "zN": 0.1,
+          "peak_amplitude": 2.007517202152431,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.007517202152431,
+          "FWHM_T0": 1.748046875,
+          "mass_drift": 3.0995428446090045e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.12000000000000001,
+          "peak_amplitude": 2.010835685097795,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.010835685097795,
+          "FWHM_T0": 1.73828125,
+          "mass_drift": 3.8731906570887986e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.14,
+          "peak_amplitude": 2.014766142692831,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.014766142692831,
+          "FWHM_T0": 1.728515625,
+          "mass_drift": 3.961786454453886e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.16,
+          "peak_amplitude": 2.0193128979050092,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0193128979050092,
+          "FWHM_T0": 1.71875,
+          "mass_drift": 4.175060297484379e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.18,
+          "peak_amplitude": 2.02448095056871,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.02448095056871,
+          "FWHM_T0": 1.708984375,
+          "mass_drift": 6.792033602209813e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.2,
+          "peak_amplitude": 2.0302759819851803,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0302759819851803,
+          "FWHM_T0": 1.689453125,
+          "mass_drift": 9.783795995588207e-11,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.22,
+          "peak_amplitude": 2.03670436049912,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.03670436049912,
+          "FWHM_T0": 1.6796875,
+          "mass_drift": 1.3096235207399332e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.24000000000000002,
+          "peak_amplitude": 2.0437731467098583,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0437731467098583,
+          "FWHM_T0": 1.66015625,
+          "mass_drift": 1.3149303867976414e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.26,
+          "peak_amplitude": 2.051490099502772,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.051490099502772,
+          "FWHM_T0": 1.640625,
+          "mass_drift": 1.4637913103854316e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.28,
+          "peak_amplitude": 2.0598636809530784,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0598636809530784,
+          "FWHM_T0": 1.62109375,
+          "mass_drift": 1.5128520658436173e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.30000000000000004,
+          "peak_amplitude": 2.0689030624882188,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0689030624882188,
+          "FWHM_T0": 1.6015625,
+          "mass_drift": 1.9576562593215385e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.32,
+          "peak_amplitude": 2.078618129261508,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.078618129261508,
+          "FWHM_T0": 1.572265625,
+          "mass_drift": 1.977955577103785e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.33999999999999997,
+          "peak_amplitude": 2.089019486257709,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.089019486257709,
+          "FWHM_T0": 1.552734375,
+          "mass_drift": 2.4753932237331355e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.36,
+          "peak_amplitude": 2.100118460273829,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.100118460273829,
+          "FWHM_T0": 1.5234375,
+          "mass_drift": 2.488036443537567e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.38,
+          "peak_amplitude": 2.1119271044737458,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1119271044737458,
+          "FWHM_T0": 1.50390625,
+          "mass_drift": 2.5408852799557735e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.4,
+          "peak_amplitude": 2.124458198479119,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.124458198479119,
+          "FWHM_T0": 1.474609375,
+          "mass_drift": 3.113880264749014e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.42000000000000004,
+          "peak_amplitude": 2.1377252469417396,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1377252469417396,
+          "FWHM_T0": 1.4453125,
+          "mass_drift": 3.146012339527715e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.44000000000000006,
+          "peak_amplitude": 2.1517424786582646,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1517424786582646,
+          "FWHM_T0": 1.416015625,
+          "mass_drift": 3.7632386096220216e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.45999999999999996,
+          "peak_amplitude": 2.1665248377066084,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1665248377066084,
+          "FWHM_T0": 1.376953125,
+          "mass_drift": 3.789835112399942e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.48,
+          "peak_amplitude": 2.182087976537341,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.182087976537341,
+          "FWHM_T0": 1.34765625,
+          "mass_drift": 3.9921288497168916e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.5,
+          "peak_amplitude": 2.1984482399168312,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1984482399168312,
+          "FWHM_T0": 1.318359375,
+          "mass_drift": 4.159821376248374e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.52,
+          "peak_amplitude": 2.2156226464973483,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.2156226464973483,
+          "FWHM_T0": 1.2890625,
+          "mass_drift": 4.496341077242505e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.54,
+          "peak_amplitude": 2.2336288626937577,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.2336288626937577,
+          "FWHM_T0": 1.25,
+          "mass_drift": 4.625828609050586e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.56,
+          "peak_amplitude": 2.2524851714287197,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.2524851714287197,
+          "FWHM_T0": 1.220703125,
+          "mass_drift": 5.349365395090899e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.58,
+          "peak_amplitude": 2.2722104278338295,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.2722104278338295,
+          "FWHM_T0": 1.19140625,
+          "mass_drift": 5.584608331332674e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.6,
+          "peak_amplitude": 2.2928240118148486,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.2928240118148486,
+          "FWHM_T0": 1.15234375,
+          "mass_drift": 6.339335723026807e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.62,
+          "peak_amplitude": 2.3143457602334543,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.3143457602334543,
+          "FWHM_T0": 1.123046875,
+          "mass_drift": 6.554001785730179e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.64,
+          "peak_amplitude": 2.336795894925405,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.336795894925405,
+          "FWHM_T0": 1.09375,
+          "mass_drift": 7.326699247300894e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.66,
+          "peak_amplitude": 2.3601949239538698,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.3601949239538698,
+          "FWHM_T0": 1.0546875,
+          "mass_drift": 7.560254644545239e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.6799999999999999,
+          "peak_amplitude": 2.384563536671288,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.384563536671288,
+          "FWHM_T0": 1.025390625,
+          "mass_drift": 8.345617530380878e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.7,
+          "peak_amplitude": 2.409922464596839,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.409922464596839,
+          "FWHM_T0": 0.99609375,
+          "mass_drift": 8.693228359391014e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.72,
+          "peak_amplitude": 2.4362923314935716,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.4362923314935716,
+          "FWHM_T0": 0.966796875,
+          "mass_drift": 9.48816580859102e-10,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.74,
+          "peak_amplitude": 2.4636934627593408,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.4636934627593408,
+          "FWHM_T0": 0.9375,
+          "mass_drift": 1.0143226258918503e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.76,
+          "peak_amplitude": 2.492145673899923,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.492145673899923,
+          "FWHM_T0": 0.91796875,
+          "mass_drift": 1.094944579449475e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.78,
+          "peak_amplitude": 2.521668016009684,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.521668016009684,
+          "FWHM_T0": 0.888671875,
+          "mass_drift": 1.1765655116846574e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.8,
+          "peak_amplitude": 2.5522784839481325,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.5522784839481325,
+          "FWHM_T0": 0.859375,
+          "mass_drift": 1.2597740628450538e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.82,
+          "peak_amplitude": 2.5839936775448935,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.5839936775448935,
+          "FWHM_T0": 0.83984375,
+          "mass_drift": 1.3452896574506212e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.84,
+          "peak_amplitude": 2.616828411233749,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.616828411233749,
+          "FWHM_T0": 0.810546875,
+          "mass_drift": 1.434169227820803e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.86,
+          "peak_amplitude": 2.6507952664383865,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.6507952664383865,
+          "FWHM_T0": 0.791015625,
+          "mass_drift": 1.527911130949633e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.88,
+          "peak_amplitude": 2.685904080202787,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.685904080202787,
+          "FWHM_T0": 0.771484375,
+          "mass_drift": 1.628592594116185e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.9,
+          "peak_amplitude": 2.7221613635321464,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.7221613635321464,
+          "FWHM_T0": 0.751953125,
+          "mass_drift": 1.7390324735799823e-09,
+          "max_spectral_edge_fraction": 0.0
+        },
+        {
+          "zN": 0.92,
+          "peak_amplitude": 2.7595696428801784,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.7595696428801784,
+          "FWHM_T0": 0.72265625,
+          "mass_drift": 1.8629928710822696e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 0.94,
+          "peak_amplitude": 2.798126717963389,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.798126717963389,
+          "FWHM_T0": 0.703125,
+          "mass_drift": 1.9912973492353103e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 0.96,
+          "peak_amplitude": 2.837824827906949,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.837824827906949,
+          "FWHM_T0": 0.68359375,
+          "mass_drift": 2.030225765281557e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 0.98,
+          "peak_amplitude": 2.8786497435711973,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.8786497435711973,
+          "FWHM_T0": 0.6640625,
+          "mass_drift": 2.1489614532299584e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.0,
+          "peak_amplitude": 2.9205797086533853,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.9205797086533853,
+          "FWHM_T0": 0.654296875,
+          "mass_drift": 2.221497430454633e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.02,
+          "peak_amplitude": 2.9635843522254643,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.9635843522254643,
+          "FWHM_T0": 0.634765625,
+          "mass_drift": 2.271185906010942e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.04,
+          "peak_amplitude": 3.0076234511181896,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0076234511181896,
+          "FWHM_T0": 0.615234375,
+          "mass_drift": 2.376022933958666e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.06,
+          "peak_amplitude": 3.0526456041588594,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0526456041588594,
+          "FWHM_T0": 0.60546875,
+          "mass_drift": 2.4607171855706156e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.08,
+          "peak_amplitude": 3.0985868541800365,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0985868541800365,
+          "FWHM_T0": 0.5859375,
+          "mass_drift": 2.5595028319003177e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.1,
+          "peak_amplitude": 3.145369200479066,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.145369200479066,
+          "FWHM_T0": 0.576171875,
+          "mass_drift": 2.658411935030358e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.12,
+          "peak_amplitude": 3.1928990933822003,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.1928990933822003,
+          "FWHM_T0": 0.556640625,
+          "mass_drift": 2.7610498332109046e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.1400000000000001,
+          "peak_amplitude": 3.2410659037869873,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.2410659037869873,
+          "FWHM_T0": 0.546875,
+          "mass_drift": 2.872419635480128e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.1600000000000001,
+          "peak_amplitude": 3.2897404257050855,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.2897404257050855,
+          "FWHM_T0": 0.537109375,
+          "mass_drift": 2.9854174687926616e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.1800000000000002,
+          "peak_amplitude": 3.33877346408662,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.33877346408662,
+          "FWHM_T0": 0.517578125,
+          "mass_drift": 3.0565963093920345e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.2000000000000002,
+          "peak_amplitude": 3.3879945843869423,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.3879945843869423,
+          "FWHM_T0": 0.5078125,
+          "mass_drift": 3.1345344098099304e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.2200000000000002,
+          "peak_amplitude": 3.437211074367809,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.437211074367809,
+          "FWHM_T0": 0.498046875,
+          "mass_drift": 3.2285034645695987e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.2400000000000002,
+          "peak_amplitude": 3.4862072554534267,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.4862072554534267,
+          "FWHM_T0": 0.48828125,
+          "mass_drift": 3.304704065953956e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.26,
+          "peak_amplitude": 3.5347442310162256,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.5347442310162256,
+          "FWHM_T0": 0.478515625,
+          "mass_drift": 3.3899023588190857e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.28,
+          "peak_amplitude": 3.5825601627689614,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.5825601627689614,
+          "FWHM_T0": 0.46875,
+          "mass_drift": 3.473810350484996e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.3,
+          "peak_amplitude": 3.629371237881072,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.629371237881072,
+          "FWHM_T0": 0.458984375,
+          "mass_drift": 3.559733618985206e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.32,
+          "peak_amplitude": 3.6748734016536195,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.6748734016536195,
+          "FWHM_T0": 0.44921875,
+          "mass_drift": 3.6458114305304434e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.34,
+          "peak_amplitude": 3.7187449762607447,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.7187449762607447,
+          "FWHM_T0": 0.439453125,
+          "mass_drift": 3.694427874734174e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.36,
+          "peak_amplitude": 3.7606502474174475,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.7606502474174475,
+          "FWHM_T0": 0.439453125,
+          "mass_drift": 3.766488898548914e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.3800000000000001,
+          "peak_amplitude": 3.800244012784588,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.800244012784588,
+          "FWHM_T0": 0.4296875,
+          "mass_drift": 3.822230532080084e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.4000000000000001,
+          "peak_amplitude": 3.837177163946695,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.837177163946695,
+          "FWHM_T0": 0.4296875,
+          "mass_drift": 3.8817715708461265e-09,
+          "max_spectral_edge_fraction": 9.549239065623816e-33
+        },
+        {
+          "zN": 1.4200000000000002,
+          "peak_amplitude": 3.8711031343479805,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.8711031343479805,
+          "FWHM_T0": 0.419921875,
+          "mass_drift": 3.935406667210373e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.4400000000000002,
+          "peak_amplitude": 3.901685144036449,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.901685144036449,
+          "FWHM_T0": 0.419921875,
+          "mass_drift": 3.983740226587429e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.4600000000000002,
+          "peak_amplitude": 3.9286039798905312,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9286039798905312,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 4.027005839901676e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.4800000000000002,
+          "peak_amplitude": 3.951566044696854,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.951566044696854,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 4.065202618974695e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.5000000000000002,
+          "peak_amplitude": 3.9703113209330105,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9703113209330105,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 4.098042349909292e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.52,
+          "peak_amplitude": 3.9846208647043784,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9846208647043784,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 4.124977026620513e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.54,
+          "peak_amplitude": 3.9943234318363343,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9943234318363343,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 4.1446843734860295e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.56,
+          "peak_amplitude": 3.9993008609132277,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9993008609132277,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 4.154095289976567e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.58,
+          "peak_amplitude": 3.9994918859543374,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9994918859543374,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 4.157392652359704e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.6,
+          "peak_amplitude": 3.9948941470024244,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9948941470024244,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 4.1554268914723025e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.62,
+          "peak_amplitude": 3.9855642666031783,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9855642666031783,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 4.1475511913802166e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.6400000000000001,
+          "peak_amplitude": 3.971615994071801,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.971615994071801,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 4.133297704100869e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.6600000000000001,
+          "peak_amplitude": 3.9532165238406245,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9532165238406245,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 4.1140204576350925e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.6800000000000002,
+          "peak_amplitude": 3.9305812307798873,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9305812307798873,
+          "FWHM_T0": 0.41015625,
+          "mass_drift": 4.085171090295603e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.7000000000000002,
+          "peak_amplitude": 3.903967125900615,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.903967125900615,
+          "FWHM_T0": 0.419921875,
+          "mass_drift": 4.05884947873858e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.7200000000000002,
+          "peak_amplitude": 3.8736654219889814,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.8736654219889814,
+          "FWHM_T0": 0.419921875,
+          "mass_drift": 4.026644573329463e-09,
+          "max_spectral_edge_fraction": 9.778081165119947e-33
+        },
+        {
+          "zN": 1.7400000000000002,
+          "peak_amplitude": 3.839993586915125,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.839993586915125,
+          "FWHM_T0": 0.4296875,
+          "mass_drift": 3.9852074973367735e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.7600000000000002,
+          "peak_amplitude": 3.803287294078773,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.803287294078773,
+          "FWHM_T0": 0.4296875,
+          "mass_drift": 3.936607706478412e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.78,
+          "peak_amplitude": 3.7638926024086525,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.7638926024086525,
+          "FWHM_T0": 0.439453125,
+          "mass_drift": 3.88247101135164e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.8,
+          "peak_amplitude": 3.722158670197235,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.722158670197235,
+          "FWHM_T0": 0.439453125,
+          "mass_drift": 3.826362116043924e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.82,
+          "peak_amplitude": 3.6784312207420062,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.6784312207420062,
+          "FWHM_T0": 0.44921875,
+          "mass_drift": 3.769410561460518e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.84,
+          "peak_amplitude": 3.6330469102491483,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.6330469102491483,
+          "FWHM_T0": 0.458984375,
+          "mass_drift": 3.7087493076626288e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.86,
+          "peak_amplitude": 3.5863286765104316,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.5863286765104316,
+          "FWHM_T0": 0.46875,
+          "mass_drift": 3.6471028419526874e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.8800000000000001,
+          "peak_amplitude": 3.5385820854474495,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.5385820854474495,
+          "FWHM_T0": 0.478515625,
+          "mass_drift": 3.5786185126340797e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.9000000000000001,
+          "peak_amplitude": 3.4900926366820837,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.4900926366820837,
+          "FWHM_T0": 0.48828125,
+          "mass_drift": 3.522280245249476e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.9200000000000002,
+          "peak_amplitude": 3.441123963300309,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.441123963300309,
+          "FWHM_T0": 0.498046875,
+          "mass_drift": 3.4459142206344495e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.9400000000000002,
+          "peak_amplitude": 3.3919168084437383,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.3919168084437383,
+          "FWHM_T0": 0.5078125,
+          "mass_drift": 3.365866030335951e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.9600000000000002,
+          "peak_amplitude": 3.342688695325204,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.342688695325204,
+          "FWHM_T0": 0.517578125,
+          "mass_drift": 3.2810292260876395e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 1.9800000000000002,
+          "peak_amplitude": 3.2936341418898394,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.2936341418898394,
+          "FWHM_T0": 0.52734375,
+          "mass_drift": 3.2120044402006442e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.0,
+          "peak_amplitude": 3.2449253295688245,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.2449253295688245,
+          "FWHM_T0": 0.546875,
+          "mass_drift": 3.1168014835714075e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.02,
+          "peak_amplitude": 3.1967130966238577,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.1967130966238577,
+          "FWHM_T0": 0.556640625,
+          "mass_drift": 3.045605989626665e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.04,
+          "peak_amplitude": 3.1491281927009065,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.1491281927009065,
+          "FWHM_T0": 0.56640625,
+          "mass_drift": 2.9767623921372888e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.06,
+          "peak_amplitude": 3.102282670907099,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.102282670907099,
+          "FWHM_T0": 0.5859375,
+          "mass_drift": 2.9204976215169154e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.08,
+          "peak_amplitude": 3.0562713875006806,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0562713875006806,
+          "FWHM_T0": 0.60546875,
+          "mass_drift": 2.833483447872709e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.1,
+          "peak_amplitude": 3.0111735215905484,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.0111735215905484,
+          "FWHM_T0": 0.615234375,
+          "mass_drift": 2.74620948204074e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.12,
+          "peak_amplitude": 2.967054099086555,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.967054099086555,
+          "FWHM_T0": 0.634765625,
+          "mass_drift": 2.6567732458460114e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.14,
+          "peak_amplitude": 2.9239654626301084,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.9239654626301084,
+          "FWHM_T0": 0.654296875,
+          "mass_drift": 2.564066514665342e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.16,
+          "peak_amplitude": 2.881948678007732,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.881948678007732,
+          "FWHM_T0": 0.6640625,
+          "mass_drift": 2.4925150832189047e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.18,
+          "peak_amplitude": 2.8410348604568454,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.8410348604568454,
+          "FWHM_T0": 0.68359375,
+          "mass_drift": 2.399278109521674e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.2,
+          "peak_amplitude": 2.8012463986695555,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.8012463986695555,
+          "FWHM_T0": 0.703125,
+          "mass_drift": 2.339065163781129e-09,
+          "max_spectral_edge_fraction": 9.920152317309408e-33
+        },
+        {
+          "zN": 2.22,
+          "peak_amplitude": 2.76259809314538,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.76259809314538,
+          "FWHM_T0": 0.72265625,
+          "mass_drift": 2.2304764701885915e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.24,
+          "peak_amplitude": 2.7250981798703933,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.7250981798703933,
+          "FWHM_T0": 0.7421875,
+          "mass_drift": 2.2008173061749403e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.2600000000000002,
+          "peak_amplitude": 2.688749272243337,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.688749272243337,
+          "FWHM_T0": 0.771484375,
+          "mass_drift": 2.0924293409052552e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.2800000000000002,
+          "peak_amplitude": 2.653549190559049,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.653549190559049,
+          "FWHM_T0": 0.791015625,
+          "mass_drift": 1.995847931368644e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.3000000000000003,
+          "peak_amplitude": 2.619491714877798,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.619491714877798,
+          "FWHM_T0": 0.810546875,
+          "mass_drift": 1.907691560276703e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.3200000000000003,
+          "peak_amplitude": 2.5865672516654525,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.5865672516654525,
+          "FWHM_T0": 0.83984375,
+          "mass_drift": 1.8254693312513837e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.3400000000000003,
+          "peak_amplitude": 2.554763418723739,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.554763418723739,
+          "FWHM_T0": 0.859375,
+          "mass_drift": 1.7473460456329803e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.3600000000000003,
+          "peak_amplitude": 2.52406556232242,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.52406556232242,
+          "FWHM_T0": 0.888671875,
+          "mass_drift": 1.6719967632639055e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.3800000000000003,
+          "peak_amplitude": 2.4944572098856557,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.4944572098856557,
+          "FWHM_T0": 0.908203125,
+          "mass_drift": 1.5984888968034738e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.4000000000000004,
+          "peak_amplitude": 2.465920464569717,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.465920464569717,
+          "FWHM_T0": 0.9375,
+          "mass_drift": 1.526190285261464e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.42,
+          "peak_amplitude": 2.4384363478443682,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.4384363478443682,
+          "FWHM_T0": 0.966796875,
+          "mass_drift": 1.4546965854123073e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.44,
+          "peak_amplitude": 2.4119850957400044,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.4119850957400044,
+          "FWHM_T0": 0.99609375,
+          "mass_drift": 1.3837708756625489e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.46,
+          "peak_amplitude": 2.3865464139814168,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.3865464139814168,
+          "FWHM_T0": 1.025390625,
+          "mass_drift": 1.3133005793974917e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.48,
+          "peak_amplitude": 2.3620996967829835,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.3620996967829835,
+          "FWHM_T0": 1.0546875,
+          "mass_drift": 1.261278192998816e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.5,
+          "peak_amplitude": 2.3386242137686066,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.3386242137686066,
+          "FWHM_T0": 1.083984375,
+          "mass_drift": 1.1946330591428023e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.52,
+          "peak_amplitude": 2.3160992685791575,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.3160992685791575,
+          "FWHM_T0": 1.123046875,
+          "mass_drift": 1.1655321152659326e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.54,
+          "peak_amplitude": 2.2945043330356816,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.2945043330356816,
+          "FWHM_T0": 1.15234375,
+          "mass_drift": 1.0974692266074726e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.56,
+          "peak_amplitude": 2.273819160307478,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.273819160307478,
+          "FWHM_T0": 1.181640625,
+          "mass_drift": 1.080490807936485e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.58,
+          "peak_amplitude": 2.254023878593185,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.254023878593185,
+          "FWHM_T0": 1.220703125,
+          "mass_drift": 1.0143124118400237e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.6,
+          "peak_amplitude": 2.235099070227981,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.235099070227981,
+          "FWHM_T0": 1.25,
+          "mass_drift": 1.0001062200615252e-09,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.62,
+          "peak_amplitude": 2.2170258349410608,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.2170258349410608,
+          "FWHM_T0": 1.279296875,
+          "mass_drift": 9.362539632462585e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.64,
+          "peak_amplitude": 2.1997858433997624,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1997858433997624,
+          "FWHM_T0": 1.318359375,
+          "mass_drift": 9.211711393675159e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.66,
+          "peak_amplitude": 2.1833613782041192,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1833613782041192,
+          "FWHM_T0": 1.34765625,
+          "mass_drift": 8.601175327527244e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.68,
+          "peak_amplitude": 2.1677353684362335,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1677353684362335,
+          "FWHM_T0": 1.376953125,
+          "mass_drift": 8.425260489275388e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.7,
+          "peak_amplitude": 2.152891414595465,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.152891414595465,
+          "FWHM_T0": 1.40625,
+          "mass_drift": 7.847211769274054e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.72,
+          "peak_amplitude": 2.138813809328347,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.138813809328347,
+          "FWHM_T0": 1.435546875,
+          "mass_drift": 7.776468358144939e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.74,
+          "peak_amplitude": 2.125487551025667,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.125487551025667,
+          "FWHM_T0": 1.46484375,
+          "mass_drift": 7.717815275753992e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.7600000000000002,
+          "peak_amplitude": 2.1128983542844844,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.1128983542844844,
+          "FWHM_T0": 1.494140625,
+          "mass_drift": 7.632587895045617e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.7800000000000002,
+          "peak_amplitude": 2.101032656073967,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.101032656073967,
+          "FWHM_T0": 1.5234375,
+          "mass_drift": 7.590330586282334e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.8000000000000003,
+          "peak_amplitude": 2.089877619082756,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.089877619082756,
+          "FWHM_T0": 1.552734375,
+          "mass_drift": 7.563876192051566e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.8200000000000003,
+          "peak_amplitude": 2.079421132512545,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.079421132512545,
+          "FWHM_T0": 1.572265625,
+          "mass_drift": 7.103979626776891e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.8400000000000003,
+          "peak_amplitude": 2.0696518114559286,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0696518114559286,
+          "FWHM_T0": 1.6015625,
+          "mass_drift": 7.069203000753532e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.8600000000000003,
+          "peak_amplitude": 2.060558993964861,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.060558993964861,
+          "FWHM_T0": 1.62109375,
+          "mass_drift": 7.064202556250621e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.8800000000000003,
+          "peak_amplitude": 2.052132737358016,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.052132737358016,
+          "FWHM_T0": 1.640625,
+          "mass_drift": 6.985021450134354e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.9000000000000004,
+          "peak_amplitude": 2.0443638136919864,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0443638136919864,
+          "FWHM_T0": 1.66015625,
+          "mass_drift": 6.94348134544498e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.92,
+          "peak_amplitude": 2.0372437045102934,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0372437045102934,
+          "FWHM_T0": 1.6796875,
+          "mass_drift": 6.836933241771703e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.94,
+          "peak_amplitude": 2.0307645954319353,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0307645954319353,
+          "FWHM_T0": 1.689453125,
+          "mass_drift": 6.814273589839104e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.96,
+          "peak_amplitude": 2.024919370351733,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.024919370351733,
+          "FWHM_T0": 1.708984375,
+          "mass_drift": 6.534337515518018e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 2.98,
+          "peak_amplitude": 2.019701605974537,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.019701605974537,
+          "FWHM_T0": 1.71875,
+          "mass_drift": 6.531981622259764e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 3.0,
+          "peak_amplitude": 2.015105566373436,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.015105566373436,
+          "FWHM_T0": 1.728515625,
+          "mass_drift": 6.497820059792048e-10,
+          "max_spectral_edge_fraction": 1.0210461183850339e-32
+        },
+        {
+          "zN": 3.02,
+          "peak_amplitude": 2.0111261976243964,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0111261976243964,
+          "FWHM_T0": 1.73828125,
+          "mass_drift": 6.47601305914236e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.04,
+          "peak_amplitude": 2.0077591231005965,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0077591231005965,
+          "FWHM_T0": 1.748046875,
+          "mass_drift": 6.443650057974537e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.06,
+          "peak_amplitude": 2.0050006391662727,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0050006391662727,
+          "FWHM_T0": 1.7578125,
+          "mass_drift": 6.434597299431744e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.08,
+          "peak_amplitude": 2.0028477113748147,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0028477113748147,
+          "FWHM_T0": 1.7578125,
+          "mass_drift": 6.378091388370422e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.1,
+          "peak_amplitude": 2.0012979713192154,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0012979713192154,
+          "FWHM_T0": 1.767578125,
+          "mass_drift": 6.376676964237049e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.12,
+          "peak_amplitude": 2.0003497141874638,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0003497141874638,
+          "FWHM_T0": 1.767578125,
+          "mass_drift": 6.366593918727403e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.14,
+          "peak_amplitude": 2.00000189679398,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.00000189679398,
+          "FWHM_T0": 1.767578125,
+          "mass_drift": 6.365672433616965e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.16,
+          "peak_amplitude": 2.000254136497829,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.000254136497829,
+          "FWHM_T0": 1.767578125,
+          "mass_drift": 6.378817474228526e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.18,
+          "peak_amplitude": 2.0011067106975795,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0011067106975795,
+          "FWHM_T0": 1.767578125,
+          "mass_drift": 6.379390349309233e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.2,
+          "peak_amplitude": 2.0025605574303147,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0025605574303147,
+          "FWHM_T0": 1.7578125,
+          "mass_drift": 6.384570649942134e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.22,
+          "peak_amplitude": 2.0046172760494194,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0046172760494194,
+          "FWHM_T0": 1.7578125,
+          "mass_drift": 6.484008885365711e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.24,
+          "peak_amplitude": 2.007279128959535,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.007279128959535,
+          "FWHM_T0": 1.748046875,
+          "mass_drift": 6.612697056596062e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.2600000000000002,
+          "peak_amplitude": 2.0105490443130023,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0105490443130023,
+          "FWHM_T0": 1.73828125,
+          "mass_drift": 6.77166323015399e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.2800000000000002,
+          "peak_amplitude": 2.0144306189350694,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0144306189350694,
+          "FWHM_T0": 1.728515625,
+          "mass_drift": 6.962215248762504e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.3000000000000003,
+          "peak_amplitude": 2.018928121999945,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.018928121999945,
+          "FWHM_T0": 1.71875,
+          "mass_drift": 7.185985140267803e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.3200000000000003,
+          "peak_amplitude": 2.024046499261563,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.024046499261563,
+          "FWHM_T0": 1.708984375,
+          "mass_drift": 7.44479811132237e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.3400000000000003,
+          "peak_amplitude": 2.0297913777721446,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0297913777721446,
+          "FWHM_T0": 1.689453125,
+          "mass_drift": 7.740919016896441e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.3600000000000003,
+          "peak_amplitude": 2.0361690710039757,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0361690710039757,
+          "FWHM_T0": 1.6796875,
+          "mass_drift": 8.069722667869428e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.3800000000000003,
+          "peak_amplitude": 2.0431865842300345,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0431865842300345,
+          "FWHM_T0": 1.66015625,
+          "mass_drift": 8.078804292210862e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.4000000000000004,
+          "peak_amplitude": 2.0508516205729754,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0508516205729754,
+          "FWHM_T0": 1.640625,
+          "mass_drift": 8.375482529743294e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.4200000000000004,
+          "peak_amplitude": 2.059172585704221,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.059172585704221,
+          "FWHM_T0": 1.62109375,
+          "mass_drift": 8.400307116573913e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.44,
+          "peak_amplitude": 2.0681585944316754,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0681585944316754,
+          "FWHM_T0": 1.6015625,
+          "mass_drift": 8.411553675813366e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.46,
+          "peak_amplitude": 2.0778194753505552,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0778194753505552,
+          "FWHM_T0": 1.58203125,
+          "mass_drift": 8.739813317504286e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.48,
+          "peak_amplitude": 2.0881657752513267,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0881657752513267,
+          "FWHM_T0": 1.552734375,
+          "mass_drift": 8.753802127614563e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        },
+        {
+          "zN": 3.5,
+          "peak_amplitude": 2.0992087640016184,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 2.0992087640016184,
+          "FWHM_T0": 1.533203125,
+          "mass_drift": 8.865181921891008e-10,
+          "max_spectral_edge_fraction": 1.0494979695932791e-32
+        }
+      ],
+      "first_compression": {
+        "zN": 1.58,
+        "peak_amplitude": 3.9994918859543374,
+        "peak_t_over_T0": 0.0,
+        "central_amplitude": 3.9994918859543374,
+        "FWHM_T0": 0.400390625,
+        "mass_drift": 4.157392652359704e-09,
+        "max_spectral_edge_fraction": 9.778081165119947e-33
+      },
+      "claimed_peak_amplitude": 4,
+      "maximum_sampled": {
+        "zN": 1.58,
+        "peak_amplitude": 3.9994918859543374,
+        "peak_t_over_T0": 0.0,
+        "central_amplitude": 3.9994918859543374,
+        "FWHM_T0": 0.400390625,
+        "mass_drift": 4.157392652359704e-09,
+        "max_spectral_edge_fraction": 9.778081165119947e-33
+      },
+      "fine_case": {
+        "N": 2,
+        "T0_fs": 200,
+        "raman": "off",
+        "n": 32768,
+        "width": 80,
+        "tol": 1e-10,
+        "zN": [
+          1.54,
+          1.541,
+          1.542,
+          1.5430000000000001,
+          1.544,
+          1.545,
+          1.546,
+          1.5470000000000002,
+          1.548,
+          1.549,
+          1.55,
+          1.5510000000000002,
+          1.552,
+          1.553,
+          1.554,
+          1.5550000000000002,
+          1.556,
+          1.557,
+          1.558,
+          1.5590000000000002,
+          1.56,
+          1.561,
+          1.562,
+          1.5630000000000002,
+          1.564,
+          1.565,
+          1.566,
+          1.5670000000000002,
+          1.568,
+          1.569,
+          1.57,
+          1.5710000000000002,
+          1.572,
+          1.573,
+          1.574,
+          1.5750000000000002,
+          1.576,
+          1.577,
+          1.578,
+          1.5790000000000002,
+          1.58,
+          1.581,
+          1.582,
+          1.5830000000000002,
+          1.584,
+          1.585,
+          1.586,
+          1.5870000000000002,
+          1.588,
+          1.589,
+          1.59,
+          1.5910000000000002,
+          1.592,
+          1.593,
+          1.594,
+          1.5950000000000002,
+          1.596,
+          1.597,
+          1.598,
+          1.5990000000000002,
+          1.6,
+          1.601,
+          1.602,
+          1.6030000000000002,
+          1.604,
+          1.605,
+          1.606,
+          1.6070000000000002,
+          1.608,
+          1.609,
+          1.61,
+          1.6110000000000002,
+          1.612,
+          1.613,
+          1.614,
+          1.6150000000000002,
+          1.616,
+          1.617,
+          1.618,
+          1.6190000000000002,
+          1.62
+        ]
+      },
+      "fine_checkpoints": [
+        {
+          "zN": 1.54,
+          "peak_amplitude": 3.9943234265562655,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9943234265562655,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654763655220222e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.541,
+          "peak_amplitude": 3.994685264484546,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.994685264484546,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654783639234665e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.542,
+          "peak_amplitude": 3.9950352665344298,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9950352665344298,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654852473062192e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5430000000000001,
+          "peak_amplitude": 3.995373421947218,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.995373421947218,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654839150385897e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.544,
+          "peak_amplitude": 3.995699720323645,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.995699720323645,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65486135484639e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.545,
+          "peak_amplitude": 3.9960141516232155,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9960141516232155,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65488577975293e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.546,
+          "peak_amplitude": 3.996316706164277,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.996316706164277,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654910204659473e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5470000000000002,
+          "peak_amplitude": 3.9966073746246935,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9966073746246935,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654930188673916e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.548,
+          "peak_amplitude": 3.9968861480428646,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9968861480428646,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654943511350211e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.549,
+          "peak_amplitude": 3.9971530178188854,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9971530178188854,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654965715810704e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.55,
+          "peak_amplitude": 3.9974079757156904,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9974079757156904,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654987920271196e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5510000000000002,
+          "peak_amplitude": 3.9976510138601222,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9976510138601222,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65500790428564e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.552,
+          "peak_amplitude": 3.9978821247438834,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9978821247438834,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655016786069837e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.553,
+          "peak_amplitude": 3.9981013012243847,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9981013012243847,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655041210976378e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.554,
+          "peak_amplitude": 3.998308536525495,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.998308536525495,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655041210976378e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5550000000000002,
+          "peak_amplitude": 3.998503824238207,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.998503824238207,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655072297221068e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.556,
+          "peak_amplitude": 3.9986871583212342,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9986871583212342,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655072297221068e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.557,
+          "peak_amplitude": 3.998858533101544,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.998858533101544,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655092281235511e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.558,
+          "peak_amplitude": 3.9990179432748514,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9990179432748514,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655112265249954e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5590000000000002,
+          "peak_amplitude": 3.9991653839060572,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9991653839060572,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655107824357856e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.56,
+          "peak_amplitude": 3.9993008504296585,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9993008504296585,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655132249264398e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.561,
+          "peak_amplitude": 3.999424338650118,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999424338650118,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655145571940693e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.562,
+          "peak_amplitude": 3.999535844742201,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999535844742201,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655141131048595e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5630000000000002,
+          "peak_amplitude": 3.999635365251282,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999635365251282,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655167776401186e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.564,
+          "peak_amplitude": 3.999722897093623,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999722897093623,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65515445372489e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.565,
+          "peak_amplitude": 3.9997984375566147,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9997984375566147,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655167776401186e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.566,
+          "peak_amplitude": 3.999861984298994,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999861984298994,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655172217293284e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5670000000000002,
+          "peak_amplitude": 3.9999135353510304,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9999135353510304,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655196642199826e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.568,
+          "peak_amplitude": 3.9999530891146797,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9999530891146797,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655192201307727e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.569,
+          "peak_amplitude": 3.999980644363712,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999980644363712,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65518553996958e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.57,
+          "peak_amplitude": 3.9999962002438036,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9999962002438036,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655187760415629e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5710000000000002,
+          "peak_amplitude": 3.9999997562726084,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9999997562726084,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655187760415629e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.572,
+          "peak_amplitude": 3.9999913123397883,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9999913123397883,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655192201307727e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.573,
+          "peak_amplitude": 3.9999708687070203,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9999708687070203,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65518553996958e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.574,
+          "peak_amplitude": 3.999938426007973,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999938426007973,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655194421753777e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5750000000000002,
+          "peak_amplitude": 3.999893985248249,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999893985248249,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655192201307727e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.576,
+          "peak_amplitude": 3.999837547805295,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999837547805295,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655189980861678e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.577,
+          "peak_amplitude": 3.9997691154282964,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9997691154282964,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65518553996958e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.578,
+          "peak_amplitude": 3.999688690238015,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999688690238015,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655192201307727e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5790000000000002,
+          "peak_amplitude": 3.9995962747266254,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9995962747266254,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655176658185383e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.58,
+          "peak_amplitude": 3.999491871757494,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999491871757494,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655169996847235e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.581,
+          "peak_amplitude": 3.999375484564949,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.999375484564949,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655169996847235e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.582,
+          "peak_amplitude": 3.9992471167540073,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9992471167540073,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65518331952353e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5830000000000002,
+          "peak_amplitude": 3.9991067723000695,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9991067723000695,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655169996847235e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.584,
+          "peak_amplitude": 3.998954455548598,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.998954455548598,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655161115063038e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.585,
+          "peak_amplitude": 3.9987901712147464,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9987901712147464,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655134469710447e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.586,
+          "peak_amplitude": 3.998613924382974,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.998613924382974,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65512558792625e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5870000000000002,
+          "peak_amplitude": 3.998425720506619,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.998425720506619,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655116706142053e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.588,
+          "peak_amplitude": 3.9982255654074463,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9982255654074463,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655098942573659e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.589,
+          "peak_amplitude": 3.9980134652751667,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9980134652751667,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655103383465757e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.59,
+          "peak_amplitude": 3.997789426666919,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.997789426666919,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655081179005265e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5910000000000002,
+          "peak_amplitude": 3.9975534565067323,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9975534565067323,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655074517667117e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.592,
+          "peak_amplitude": 3.997305562084943,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.997305562084943,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655058974544772e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.593,
+          "peak_amplitude": 3.997045751057601,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.997045751057601,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655058974544772e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.594,
+          "peak_amplitude": 3.996774031445827,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.996774031445827,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655032329192181e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5950000000000002,
+          "peak_amplitude": 3.996490411635157,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.996490411635157,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.655025667854034e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.596,
+          "peak_amplitude": 3.9961949003748396,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9961949003748396,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65500790428564e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.597,
+          "peak_amplitude": 3.995887506777123,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.995887506777123,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654987920271196e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.598,
+          "peak_amplitude": 3.9955682403164934,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9955682403164934,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.6549745975949e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.5990000000000002,
+          "peak_amplitude": 3.9952371108288993,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9952371108288993,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.65494795224231e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.6,
+          "peak_amplitude": 3.994894128510937,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.994894128510937,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654939070458113e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.601,
+          "peak_amplitude": 3.994539303919011,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.994539303919011,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654910204659473e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.602,
+          "peak_amplitude": 3.9941726479684676,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9941726479684676,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654899102429226e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.6030000000000002,
+          "peak_amplitude": 3.9937941719326897,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9937941719326897,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654870236630586e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.604,
+          "peak_amplitude": 3.9934038874421782,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9934038874421782,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654839150385897e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.605,
+          "peak_amplitude": 3.993001806483592,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.993001806483592,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654819166371453e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.606,
+          "peak_amplitude": 3.9925879413987606,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9925879413987606,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654788080126764e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.6070000000000002,
+          "peak_amplitude": 3.992162304883682,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.992162304883682,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654774757450468e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.608,
+          "peak_amplitude": 3.991724909987473,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.991724909987473,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654763655220222e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.609,
+          "peak_amplitude": 3.9912757701113057,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9912757701113057,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654734789421582e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.61,
+          "peak_amplitude": 3.9908148990073107,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9908148990073107,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.6546814987164e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.6110000000000002,
+          "peak_amplitude": 3.990342310777452,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.990342310777452,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654661514701957e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.612,
+          "peak_amplitude": 3.9898580198723788,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9898580198723788,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654657073809858e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.613,
+          "peak_amplitude": 3.9893620410902457,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9893620410902457,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654632648903316e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.614,
+          "peak_amplitude": 3.9888543895755078,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9888543895755078,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654599342212578e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.6150000000000002,
+          "peak_amplitude": 3.988335080817687,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.988335080817687,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654546051507396e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.616,
+          "peak_amplitude": 3.987804130650119,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.987804130650119,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654526067492952e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.617,
+          "peak_amplitude": 3.9872615552486597,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9872615552486597,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654494981248263e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.618,
+          "peak_amplitude": 3.9867073711303798,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9867073711303798,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654455013219376e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.6190000000000002,
+          "peak_amplitude": 3.9861415951522274,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.9861415951522274,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.654432808758884e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        },
+        {
+          "zN": 1.62,
+          "peak_amplitude": 3.985564244509661,
+          "peak_t_over_T0": 0.0,
+          "central_amplitude": 3.985564244509661,
+          "FWHM_T0": 0.400390625,
+          "mass_drift": 9.6543839589458e-10,
+          "max_spectral_edge_fraction": 1.4697842890195863e-32
+        }
+      ],
+      "fine_compression": {
+        "zN": 1.5710000000000002,
+        "peak_amplitude": 3.9999997562726084,
+        "peak_t_over_T0": 0.0,
+        "central_amplitude": 3.9999997562726084,
+        "FWHM_T0": 0.400390625,
+        "mass_drift": 9.655187760415629e-10,
+        "max_spectral_edge_fraction": 1.4697842890195863e-32
+      }
+    }
+  ]
+}

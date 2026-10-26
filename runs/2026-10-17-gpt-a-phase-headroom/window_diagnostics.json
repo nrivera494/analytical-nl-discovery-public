@@ -1,0 +1,36 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-a-phase-headroom",
+  "cases": [
+    {
+      "N": 3,
+      "raw_field_error": 7.426311443927105e-05,
+      "phase_aligned_error": 7.421143139222741e-05,
+      "phase_time_aligned_error": 7.252477629101319e-05,
+      "fitted_time_shift_T0": -2.137314989576156e-06,
+      "intensity_relative_error": 6.520133023143748e-05,
+      "input_field_difference": 6.505544479236805e-05
+    },
+    {
+      "N": 4,
+      "raw_field_error": 5.3173840016590474e-05,
+      "phase_aligned_error": 3.992276077870451e-05,
+      "phase_time_aligned_error": 3.992206541543499e-05,
+      "fitted_time_shift_T0": 1.1448814620203648e-08,
+      "intensity_relative_error": 1.001063182631129e-05,
+      "input_field_difference": 9.79598452994664e-06
+    },
+    {
+      "N": 5,
+      "raw_field_error": 1.1167578168481633,
+      "phase_aligned_error": 0.6958588290488158,
+      "phase_time_aligned_error": 0.59328534975902,
+      "fitted_time_shift_T0": 0.048316104521374977,
+      "intensity_relative_error": 0.4879320603211521,
+      "input_field_difference": 9.838078033340232e-05
+    }
+  ],
+  "note": "Post-run diagnostic on unchanged saved fields. A small fraction discrepancy is not a claim of full complex-field convergence."
+}

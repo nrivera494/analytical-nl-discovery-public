@@ -1,0 +1,151 @@
+[
+  {
+    "lambda_min": 0.026289151508397505,
+    "prediction": 0.026289151508398535,
+    "relative_error": -3.9190872769268026e-14
+  },
+  {
+    "phi": 0.3,
+    "chi": 0.0,
+    "strong_birefringence": false,
+    "lambda_min": 0.5535816094651502,
+    "prediction": 0.5535816094653669,
+    "relative_error": -3.914646384828302e-13
+  },
+  {
+    "phi": 0.3,
+    "chi": 0.0,
+    "strong_birefringence": true,
+    "lambda_min": 0.5535816094651547,
+    "prediction": 0.5535816094653669,
+    "relative_error": -3.8347103270552907e-13
+  },
+  {
+    "phi": 0.3,
+    "chi": 0.23,
+    "strong_birefringence": false,
+    "lambda_min": 0.570161184509307,
+    "prediction": 0.5701611845095327,
+    "relative_error": -3.959055305813308e-13
+  },
+  {
+    "phi": 0.3,
+    "chi": 0.23,
+    "strong_birefringence": true,
+    "lambda_min": 0.5626261172897826,
+    "prediction": 0.562626117289908,
+    "relative_error": -2.2282176104226892e-13
+  },
+  {
+    "phi": 0.3,
+    "chi": 0.7853981633974483,
+    "strong_birefringence": false,
+    "lambda_min": 0.6720784389125701,
+    "prediction": 0.6720784389125772,
+    "relative_error": -1.0547118733938987e-14
+  },
+  {
+    "phi": 0.3,
+    "chi": 0.7853981633974483,
+    "strong_birefringence": true,
+    "lambda_min": 0.6096117967977551,
+    "prediction": 0.6096117967977924,
+    "relative_error": -6.117328865684613e-14
+  },
+  {
+    "phi": 7.0,
+    "chi": 0.0,
+    "strong_birefringence": false,
+    "lambda_min": 0.005050633883248926,
+    "prediction": 0.005050633883346584,
+    "relative_error": -1.933575521917419e-11
+  },
+  {
+    "phi": 7.0,
+    "chi": 0.0,
+    "strong_birefringence": true,
+    "lambda_min": 0.0050506338832450835,
+    "prediction": 0.005050633883346584,
+    "relative_error": -2.009659105794981e-11
+  },
+  {
+    "phi": 7.0,
+    "chi": 0.23,
+    "strong_birefringence": false,
+    "lambda_min": 0.005604681757576927,
+    "prediction": 0.005604681757678393,
+    "relative_error": -1.8103851751050115e-11
+  },
+  {
+    "phi": 7.0,
+    "chi": 0.23,
+    "strong_birefringence": true,
+    "lambda_min": 0.005344486864146501,
+    "prediction": 0.005344486864223069,
+    "relative_error": -1.4326539954367945e-11
+  },
+  {
+    "phi": 7.0,
+    "chi": 0.7853981633974483,
+    "strong_birefringence": false,
+    "lambda_min": 0.011223358695776705,
+    "prediction": 0.011223358695790185,
+    "relative_error": -1.2011502903419569e-12
+  },
+  {
+    "phi": 7.0,
+    "chi": 0.7853981633974483,
+    "strong_birefringence": true,
+    "lambda_min": 0.007240926692752611,
+    "prediction": 0.007240926692819257,
+    "relative_error": -9.203970918747473e-12
+  },
+  {
+    "phi": 17.0,
+    "chi": 0.0,
+    "strong_birefringence": false,
+    "lambda_min": 0.0008635585023285274,
+    "prediction": 0.0008635585023603516,
+    "relative_error": -3.685252103480252e-11
+  },
+  {
+    "phi": 17.0,
+    "chi": 0.0,
+    "strong_birefringence": true,
+    "lambda_min": 0.0008635585023244933,
+    "prediction": 0.0008635585023603516,
+    "relative_error": -4.152389543321533e-11
+  },
+  {
+    "phi": 17.0,
+    "chi": 0.23,
+    "strong_birefringence": false,
+    "lambda_min": 0.0009591742808420932,
+    "prediction": 0.0009591742808951377,
+    "relative_error": -5.530220725802337e-11
+  },
+  {
+    "phi": 17.0,
+    "chi": 0.23,
+    "strong_birefringence": true,
+    "lambda_min": 0.0009142487880244311,
+    "prediction": 0.0009142487880531028,
+    "relative_error": -3.136091386579665e-11
+  },
+  {
+    "phi": 17.0,
+    "chi": 0.7853981633974483,
+    "strong_birefringence": false,
+    "lambda_min": 0.0019388267624788483,
+    "prediction": 0.0019388267624823206,
+    "relative_error": -1.79090076102284e-12
+  },
+  {
+    "phi": 17.0,
+    "chi": 0.7853981633974483,
+    "strong_birefringence": true,
+    "lambda_min": 0.0012425809603578571,
+    "prediction": 0.0012425809603847837,
+    "relative_error": -2.1669888106146118e-11
+  }
+]

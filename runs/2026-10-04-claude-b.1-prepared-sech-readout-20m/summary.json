@@ -1,0 +1,455 @@
+{
+ "run_id": "2026-10-04-claude-b.1-prepared-sech-readout-20m",
+ "task": "T-20261004-claude-interactive-06",
+ "problem": "P-20261004-root-03",
+ "agent": "claude-b.1",
+ "case": "2: prepared 0.4 ps sech, 36.76796 mW, 20 m GIF625 LP01, coherent input-copy readout (eta=0.995, r=0.7017289851, psi=-2.181661565 rad, zero delay), full scalar model with Raman",
+ "raw_location": "~/analytical-nl-discovery-data/2026-10-04-claude-b.1-prepared-sech-readout-20m",
+ "results": {
+  "agarwal_standard": {
+   "F_total": 0.03232376744420089,
+   "F_signal_input": 0.007539795491438489,
+   "F_Raman": 0.01978397195276239,
+   "F_reference_vacuum": 0.0050000000000000044,
+   "readout_output_power_mw": 38.1959325255832,
+   "F_total_dB": -14.904780264595662,
+   "reference_power_mw": 18.105408439106263,
+   "source_power_required_both_arms_mw": 302.39682503531014,
+   "fiber_output_power_mw": 36.76333945570335,
+   "F_signal_bright_amplitude": 0.0008528111402409189,
+   "F_signal_bright_phase": 0.0018926696120244442,
+   "F_signal_orthogonal_both_quadratures": 0.0047943147391731255,
+   "dNout_dNsignal_reference_held_fixed_adjoint": 0.029766819811889795,
+   "dNout_dNsignal_reference_held_fixed_finite_difference": 0.029771940578699533,
+   "reference_blocked_F_total": 1.0000000000952984,
+   "reference_blocked_F_Raman": 8.229862563870672e-22,
+   "photon_drift": 1.5365486660812167e-13,
+   "temporal_edge_fraction": 6.050492325270047e-08,
+   "elapsed_seconds": 15.322052166,
+   "nt": 4096,
+   "window_ps": 40.0,
+   "dz_m": 0.01,
+   "raman_z_spacing_m": 0.05,
+   "input_field_path": "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/results/prepared_sech_1550_0.4ps.npz",
+   "beta2_ps2_km": -28.088664886320487,
+   "gamma_LP01_W_km": 0.5293305748899665,
+   "effective_area_um2": 176.1363636363641,
+   "input_peak_W": 1030.5384213541106,
+   "input_fwhm_ps": 0.390625,
+   "signal_input_power_mw": 36.76795669076535
+  },
+  "agarwal_linear_control": {
+   "F_total": 1.0000000000000009,
+   "F_reference_vacuum": 0.0050000000000000044,
+   "elapsed_seconds": 2.856301417,
+   "nt": 4096,
+   "window_ps": 40.0,
+   "dz_m": 0.01
+  },
+  "agarwal_tight": {
+   "F_total": 0.03232378149230158,
+   "F_signal_input": 0.007539795412196346,
+   "F_Raman": 0.01978398608010522,
+   "F_reference_vacuum": 0.0050000000000000044,
+   "readout_output_power_mw": 38.19593252167658,
+   "F_total_dB": -14.904778377126542,
+   "reference_power_mw": 18.10540843910626,
+   "source_power_required_both_arms_mw": 302.39682503531014,
+   "fiber_output_power_mw": 36.76333945569209,
+   "F_signal_bright_amplitude": 0.0008528110509545885,
+   "F_signal_bright_phase": 0.001892669614224368,
+   "F_signal_orthogonal_both_quadratures": 0.004794314747017389,
+   "dNout_dNsignal_reference_held_fixed_adjoint": 0.029766818252130036,
+   "dNout_dNsignal_reference_held_fixed_finite_difference": NaN,
+   "photon_drift": 1.532107773982716e-14,
+   "temporal_edge_fraction": 6.05397548015883e-08,
+   "elapsed_seconds": 33.807605667,
+   "nt": 8192,
+   "window_ps": 40.0,
+   "dz_m": 0.005,
+   "raman_z_spacing_m": 0.025,
+   "input_field_path": "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/results/prepared_sech_1550_0.4ps.npz",
+   "beta2_ps2_km": -28.088664886320487,
+   "gamma_LP01_W_km": 0.5293305748899665,
+   "effective_area_um2": 176.1363636363641,
+   "input_peak_W": 1030.5384213541106,
+   "input_fwhm_ps": 0.390625,
+   "signal_input_power_mw": 36.76795669076535
+  },
+  "anisotropic_standard": {
+   "F_total": 0.05294741958191669,
+   "F_signal_input": 0.008595101349764309,
+   "F_Raman": 0.03935231823215238,
+   "F_reference_vacuum": 0.0050000000000000044,
+   "readout_output_power_mw": 38.07359075740908,
+   "F_total_dB": -12.761552005922303,
+   "reference_power_mw": 18.105408439106263,
+   "source_power_required_both_arms_mw": 302.39682503531014,
+   "fiber_output_power_mw": 36.75755568460606,
+   "F_signal_bright_amplitude": 0.001774997872661842,
+   "F_signal_bright_phase": 0.0018137669060315541,
+   "F_signal_orthogonal_both_quadratures": 0.005006336571070913,
+   "dNout_dNsignal_reference_held_fixed_adjoint": 0.04287925073640705,
+   "dNout_dNsignal_reference_held_fixed_finite_difference": 0.04288467715748335,
+   "reference_blocked_F_total": 1.0000000000951292,
+   "reference_blocked_F_Raman": 1.993334960904087e-21,
+   "photon_drift": 2.3026025530725747e-13,
+   "temporal_edge_fraction": 6.051186209244218e-08,
+   "elapsed_seconds": 11.242983625,
+   "nt": 4096,
+   "window_ps": 40.0,
+   "dz_m": 0.01,
+   "raman_z_spacing_m": 0.05,
+   "input_field_path": "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/results/prepared_sech_1550_0.4ps.npz",
+   "beta2_ps2_km": -28.088664886320487,
+   "gamma_LP01_W_km": 0.5293305748899665,
+   "effective_area_um2": 176.1363636363641,
+   "input_peak_W": 1030.5384213541106,
+   "input_fwhm_ps": 0.390625,
+   "signal_input_power_mw": 36.76795669076535
+  },
+  "anisotropic_tight": {
+   "F_total": 0.052947442066647844,
+   "F_signal_input": 0.008595101242042923,
+   "F_Raman": 0.03935234082460492,
+   "F_reference_vacuum": 0.0050000000000000044,
+   "readout_output_power_mw": 38.07359075352224,
+   "F_total_dB": -12.76155016164119,
+   "reference_power_mw": 18.10540843910626,
+   "source_power_required_both_arms_mw": 302.39682503531014,
+   "fiber_output_power_mw": 36.75755568458335,
+   "F_signal_bright_amplitude": 0.0017749977586619238,
+   "F_signal_bright_phase": 0.0018137669076425773,
+   "F_signal_orthogonal_both_quadratures": 0.0050063365757384215,
+   "dNout_dNsignal_reference_held_fixed_adjoint": 0.04287924935726119,
+   "dNout_dNsignal_reference_held_fixed_finite_difference": NaN,
+   "photon_drift": 2.5757174171303632e-14,
+   "temporal_edge_fraction": 6.054661806073227e-08,
+   "elapsed_seconds": 34.206703,
+   "nt": 8192,
+   "window_ps": 40.0,
+   "dz_m": 0.005,
+   "raman_z_spacing_m": 0.025,
+   "input_field_path": "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/results/prepared_sech_1550_0.4ps.npz",
+   "beta2_ps2_km": -28.088664886320487,
+   "gamma_LP01_W_km": 0.5293305748899665,
+   "effective_area_um2": 176.1363636363641,
+   "input_peak_W": 1030.5384213541106,
+   "input_fwhm_ps": 0.390625,
+   "signal_input_power_mw": 36.76795669076535
+  },
+  "agarwal_wide": {
+   "F_total": 0.03232376849811253,
+   "F_signal_input": 0.007539797142655641,
+   "F_Raman": 0.019783971355456887,
+   "F_reference_vacuum": 0.0050000000000000044,
+   "readout_output_power_mw": 38.19593258922308,
+   "F_total_dB": -14.904780122994591,
+   "reference_power_mw": 18.105408439106256,
+   "source_power_required_both_arms_mw": 302.3968250353101,
+   "fiber_output_power_mw": 36.763339455673574,
+   "F_signal_bright_amplitude": 0.0008528111898066786,
+   "F_signal_bright_phase": 0.0018926695286112767,
+   "F_signal_orthogonal_both_quadratures": 0.004794316424237686,
+   "dNout_dNsignal_reference_held_fixed_adjoint": 0.029766820701719914,
+   "dNout_dNsignal_reference_held_fixed_finite_difference": NaN,
+   "photon_drift": 1.2279066652354231e-13,
+   "temporal_edge_fraction": 2.2892314029561271e-10,
+   "elapsed_seconds": 16.956220834,
+   "nt": 8192,
+   "window_ps": 80.0,
+   "dz_m": 0.01,
+   "raman_z_spacing_m": 0.05,
+   "input_field_path": "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/results/prepared_sech_1550_0.4ps.npz",
+   "beta2_ps2_km": -28.088664886320487,
+   "gamma_LP01_W_km": 0.5293305748899665,
+   "effective_area_um2": 176.1363636363641,
+   "input_peak_W": 1030.5384213541106,
+   "input_fwhm_ps": 0.390625,
+   "signal_input_power_mw": 36.76795669076535
+  }
+ },
+ "comparison_with_archive": {
+  "agarwal_standard": {
+   "F_total": {
+    "this_run": 0.03232376744420089,
+    "archive": 0.03232376744420089,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_signal_input": {
+    "this_run": 0.007539795491438489,
+    "archive": 0.007539795491438489,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_Raman": {
+    "this_run": 0.01978397195276239,
+    "archive": 0.01978397195276239,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "readout_output_power_mw": {
+    "this_run": 38.1959325255832,
+    "archive": 38.1959325255832,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "reference_blocked_F_total": {
+    "this_run": 1.0000000000952984,
+    "archive": 1.0000000000952984,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "dNout_dNsignal_reference_held_fixed_adjoint": {
+    "this_run": 0.029766819811889795,
+    "archive": 0.029766819811889795,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "dNout_dNsignal_reference_held_fixed_finite_difference": {
+    "this_run": 0.029771940578699533,
+    "archive": 0.029771940578699533,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   }
+  },
+  "agarwal_tight": {
+   "F_total": {
+    "this_run": 0.03232378149230158,
+    "archive": 0.03232378149230158,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_signal_input": {
+    "this_run": 0.007539795412196346,
+    "archive": 0.007539795412196346,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_Raman": {
+    "this_run": 0.01978398608010522,
+    "archive": 0.01978398608010522,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_reference_vacuum": {
+    "this_run": 0.0050000000000000044,
+    "archive": 0.0050000000000000044,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "readout_output_power_mw": {
+    "this_run": 38.19593252167658,
+    "archive": 38.19593252167658,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "reference_power_mw": {
+    "this_run": 18.10540843910626,
+    "archive": 18.10540843910626,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "source_power_required_both_arms_mw": {
+    "this_run": 302.39682503531014,
+    "archive": 302.39682503531014,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   }
+  },
+  "anisotropic_standard": {
+   "F_total": {
+    "this_run": 0.05294741958191669,
+    "archive": 0.05294741958191669,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_signal_input": {
+    "this_run": 0.008595101349764309,
+    "archive": 0.008595101349764309,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_Raman": {
+    "this_run": 0.03935231823215238,
+    "archive": 0.03935231823215238,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "readout_output_power_mw": {
+    "this_run": 38.07359075740908,
+    "archive": 38.07359075740908,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "reference_blocked_F_total": {
+    "this_run": 1.0000000000951292,
+    "archive": 1.0000000000951292,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "dNout_dNsignal_reference_held_fixed_adjoint": {
+    "this_run": 0.04287925073640705,
+    "archive": 0.04287925073640705,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "dNout_dNsignal_reference_held_fixed_finite_difference": {
+    "this_run": 0.04288467715748335,
+    "archive": 0.04288467715748335,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   }
+  },
+  "anisotropic_tight": {
+   "F_total": {
+    "this_run": 0.052947442066647844,
+    "archive": 0.052947442066647844,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_signal_input": {
+    "this_run": 0.008595101242042923,
+    "archive": 0.008595101242042923,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "F_Raman": {
+    "this_run": 0.03935234082460492,
+    "archive": 0.03935234082460492,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   },
+   "readout_output_power_mw": {
+    "this_run": 38.07359075352224,
+    "archive": 38.07359075352224,
+    "rel_diff": 0.0,
+    "abs_diff": 0.0
+   }
+  }
+ },
+ "convergence": {
+  "agarwal_tight_vs_standard": {
+   "what": "nt 4096->8192 at fixed 40 ps window (half the sample spacing), dz 0.01->0.005 m, Raman z spacing 0.05->0.025 m",
+   "F_total_abs_change": 1.4048100689667553e-08,
+   "F_total_rel_change": 4.3460592005304387e-07,
+   "Pout_rel_change": -1.022784507751259e-10
+  },
+  "agarwal_wide_vs_standard": {
+   "what": "window 40->80 ps at fixed 9.765625 fs sample spacing (input zero-padded in time), same dz and Raman spacing",
+   "F_total_abs_change": 1.0539116454544306e-09,
+   "F_total_rel_change": 3.2604851747982425e-08,
+   "Pout_rel_change": 1.6661426913079247e-09
+  },
+  "anisotropic_tight_vs_standard": {
+   "what": "nt 4096->8192 at fixed 40 ps window (half the sample spacing), dz 0.01->0.005 m, Raman z spacing 0.05->0.025 m",
+   "F_total_abs_change": 2.248473115334937e-08,
+   "F_total_rel_change": 4.24661510058342e-07,
+   "Pout_rel_change": -1.0208754198231107e-10
+  }
+ },
+ "checks": {
+  "agarwal_reference_blocked_total_number": {
+   "expected": 1.0,
+   "F_total": 1.0000000000952984,
+   "F_total_minus_1": 9.529843580935449e-11,
+   "F_Raman": 8.229862563870672e-22
+  },
+  "agarwal_adjoint_vs_finite_difference_dN_dN": {
+   "adjoint": 0.029766819811889795,
+   "finite_difference_pm0.05pct": 0.029771940578699533,
+   "rel_diff": -0.0001719997658937197
+  },
+  "anisotropic_reference_blocked_total_number": {
+   "expected": 1.0,
+   "F_total": 1.0000000000951292,
+   "F_total_minus_1": 9.512923782040161e-11,
+   "F_Raman": 1.993334960904087e-21
+  },
+  "anisotropic_adjoint_vs_finite_difference_dN_dN": {
+   "adjoint": 0.04287925073640705,
+   "finite_difference_pm0.05pct": 0.04288467715748335,
+   "rel_diff": -0.00012653519709089706
+  },
+  "linear_two_port_control": {
+   "expected": 1.0,
+   "F_total": 1.0000000000000009,
+   "F_total_minus_1": 8.881784197001252e-16,
+   "F_signal": 0.995000000000001,
+   "archive_F_total": 1.0000000000000009
+  },
+  "agarwal_finite_difference_step_halving": {
+   "what": "adjoint dN_out/dN_signal vs central finite difference at relative power steps 2e-3 .. 1.25e-4 (standard grid)",
+   "steps": [
+    0.002,
+    0.001,
+    0.0005,
+    0.00025,
+    0.000125
+   ],
+   "rel_diff_adjoint_minus_fd": [
+    -0.0027448120731298114,
+    -0.0006876392812273804,
+    -0.0001719997657359325,
+    -4.300559959011246e-05,
+    -1.0752026887724355e-05
+   ],
+   "ratio_per_halving": [
+    3.9916452536430787,
+    3.9979082429862034,
+    3.999473728427622,
+    3.999766745301965
+   ],
+   "exponent_log2_ratio": [
+    1.9969835108677532,
+    1.999245360799931,
+    1.9998101751653916,
+    1.9999158686979437
+   ],
+   "richardson_extrapolated_fd": 0.029766819823015662,
+   "adjoint": 0.029766819811894493,
+   "rel_diff_adjoint_vs_richardson": -3.73609610408009e-10
+  },
+  "anisotropic_finite_difference_step_halving": {
+   "what": "adjoint dN_out/dN_signal vs central finite difference at relative power steps 2e-3 .. 1.25e-4 (standard grid)",
+   "steps": [
+    0.002,
+    0.001,
+    0.0005,
+    0.00025,
+    0.000125
+   ],
+   "rel_diff_adjoint_minus_fd": [
+    -0.0020206514241013305,
+    -0.0005059449669958168,
+    -0.0001265351969121041,
+    -3.1636897469486924e-05,
+    -7.909520312292302e-06
+   ],
+   "ratio_per_halving": [
+    3.993816632072629,
+    3.9984524412386566,
+    3.9996082749310187,
+    3.9998503348325127
+   ],
+   "exponent_log2_ratio": [
+    1.99776809590848,
+    1.999441728160607,
+    1.9998587081278383,
+    1.9999460186913716
+   ],
+   "richardson_extrapolated_fd": 0.042879250742605034,
+   "adjoint": 0.042879250736414715,
+   "rel_diff_adjoint_vs_richardson": -1.443663073270327e-10
+  }
+ },
+ "derived": {
+  "Raman_share_of_F_oscillator_tight": 0.6120566705605621,
+  "Raman_share_of_F_anisotropic_tight": 0.7432340314961764,
+  "F_ratio_anisotropic_over_oscillator_tight": 1.638033658879241,
+  "length_m": 20.0,
+  "beta2_ps2_per_m": -0.02808866488632049,
+  "gamma_per_W_m": 0.0005293305748899665
+ }
+}

@@ -1,0 +1,1954 @@
+{
+  "run_id": "2026-10-08-gpt-a-similariton-comparison",
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "map_convergence": {
+    "gaussian_step": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 5.543705246940922e-08,
+        "width_ratio": 1.4240296941636643e-08,
+        "chirp_ratio": 2.7348654452197252e-08,
+        "core_scaled_velocity_rms": 4.116521386786365e-09,
+        "wing_mass_fraction": 5.981405154162345e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 5.314890826751961e-08,
+        "width_ratio": 7.48140971396083e-09,
+        "chirp_ratio": 2.7348654452197252e-08,
+        "core_scaled_velocity_rms": 4.116521386786365e-09,
+        "wing_mass_fraction": 5.981405154162345e-10
+      }
+    },
+    "gaussian_grid": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.8709549622852872e-05,
+        "width_ratio": 3.1086244689504383e-15,
+        "chirp_ratio": 3.552713678800501e-15,
+        "core_scaled_velocity_rms": 0.0002104568128760559,
+        "wing_mass_fraction": 0.0002832415424360406
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.1847518521790334e-08,
+        "width_ratio": 3.1086244689504383e-15,
+        "chirp_ratio": 3.3306690738754696e-15,
+        "core_scaled_velocity_rms": 1.8880287419370187e-07,
+        "wing_mass_fraction": 1.1395880722077714e-05
+      }
+    },
+    "gaussian_window": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.4841240175987878e-15,
+        "width_ratio": 2.220446049250313e-15,
+        "chirp_ratio": 3.1086244689504383e-15,
+        "core_scaled_velocity_rms": 6.407634839389331e-16,
+        "wing_mass_fraction": 1.6675029412827058e-16
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.2281842209915794e-15,
+        "width_ratio": 1.1102230246251565e-15,
+        "chirp_ratio": 3.3306690738754696e-16,
+        "core_scaled_velocity_rms": 4.375839968151496e-16,
+        "wing_mass_fraction": 1.1904539853890839e-16
+      }
+    },
+    "sech_step": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 8.850165223589501e-08,
+        "width_ratio": 1.905600788276729e-08,
+        "chirp_ratio": 3.806350112878221e-08,
+        "core_scaled_velocity_rms": 5.842063895145078e-09,
+        "wing_mass_fraction": 2.643890661957471e-09
+      },
+      "final_absolute_difference": {
+        "density_l1": 8.696505367222773e-08,
+        "width_ratio": 1.2059368947880955e-08,
+        "chirp_ratio": 3.806350112878221e-08,
+        "core_scaled_velocity_rms": 5.842063895145078e-09,
+        "wing_mass_fraction": 7.147053933918845e-11
+      }
+    },
+    "sech_grid": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.0003093898201651929,
+        "width_ratio": 2.1249093227648785e-05,
+        "chirp_ratio": 0.00036359447057265903,
+        "core_scaled_velocity_rms": 0.0001634121053602708,
+        "wing_mass_fraction": 0.0008116807661021352
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.0002775043760941537,
+        "width_ratio": 2.1249093227648785e-05,
+        "chirp_ratio": 0.00036359447057265903,
+        "core_scaled_velocity_rms": 0.0001634121053602708,
+        "wing_mass_fraction": 7.888802037661494e-07
+      }
+    },
+    "sech_window": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.4856826061060424e-08,
+        "width_ratio": 1.1873066407819266e-07,
+        "chirp_ratio": 3.9886548330869687e-07,
+        "core_scaled_velocity_rms": 2.748046562875417e-09,
+        "wing_mass_fraction": 1.8132305281814282e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.4856826061060424e-08,
+        "width_ratio": 1.1873066407819266e-07,
+        "chirp_ratio": 3.9886548330869687e-07,
+        "core_scaled_velocity_rms": 2.748046562875417e-09,
+        "wing_mass_fraction": 1.8132305281814282e-10
+      }
+    },
+    "supergaussian_step": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 7.246382534298323e-08,
+        "width_ratio": 1.881536038084164e-08,
+        "chirp_ratio": 5.949902270874219e-08,
+        "core_scaled_velocity_rms": 4.791611944027219e-09,
+        "wing_mass_fraction": 2.540746377177605e-09
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.246382534298323e-08,
+        "width_ratio": 1.5493805793909132e-08,
+        "chirp_ratio": 2.9535219159271264e-08,
+        "core_scaled_velocity_rms": 4.791611944027219e-09,
+        "wing_mass_fraction": 2.7651750854340573e-10
+      }
+    },
+    "supergaussian_grid": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00010374052163497627,
+        "width_ratio": 4.0234482412415673e-13,
+        "chirp_ratio": 2.9236613130478872e-12,
+        "core_scaled_velocity_rms": 0.00010007122405046587,
+        "wing_mass_fraction": 0.00015404774999160792
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.161186453935148e-08,
+        "width_ratio": 2.3003821070233244e-13,
+        "chirp_ratio": 1.0980105713542798e-13,
+        "core_scaled_velocity_rms": 3.1500924983357548e-06,
+        "wing_mass_fraction": 2.25965674171694e-05
+      }
+    },
+    "supergaussian_window": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.1934897514720433e-15,
+        "width_ratio": 6.661338147750939e-16,
+        "chirp_ratio": 1.3322676295501878e-15,
+        "core_scaled_velocity_rms": 7.979727989493313e-17,
+        "wing_mass_fraction": 7.28583859910259e-17
+      },
+      "final_absolute_difference": {
+        "density_l1": 4.3021142204224816e-16,
+        "width_ratio": 6.661338147750939e-16,
+        "chirp_ratio": 0.0,
+        "core_scaled_velocity_rms": 7.28583859910259e-17,
+        "wing_mass_fraction": 3.469446951953614e-18
+      }
+    },
+    "N5_supergaussian_step": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.734129388841215e-08,
+        "width_ratio": 2.5546471826842776e-08,
+        "chirp_ratio": 3.339198606511218e-08,
+        "core_scaled_velocity_rms": 4.411733277309704e-09,
+        "wing_mass_fraction": 5.123033129661447e-09
+      },
+      "final_absolute_difference": {
+        "density_l1": 5.9116671641268326e-08,
+        "width_ratio": 1.8468590434750354e-08,
+        "chirp_ratio": 2.833297840787452e-08,
+        "core_scaled_velocity_rms": 4.411733277309704e-09,
+        "wing_mass_fraction": 9.139640468058818e-10
+      }
+    },
+    "N5_supergaussian_grid": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00010374052163486525,
+        "width_ratio": 6.661338147750939e-15,
+        "chirp_ratio": 1.1068923555512811e-13,
+        "core_scaled_velocity_rms": 8.875664685904783e-05,
+        "wing_mass_fraction": 0.00017301790024788766
+      },
+      "final_absolute_difference": {
+        "density_l1": 9.62753410327366e-09,
+        "width_ratio": 6.661338147750939e-15,
+        "chirp_ratio": 1.1068923555512811e-13,
+        "core_scaled_velocity_rms": 3.6166816699233217e-06,
+        "wing_mass_fraction": 1.9510338135473107e-05
+      }
+    },
+    "N5_supergaussian_window": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.1848786668776654e-11,
+        "width_ratio": 1.2487666456451052e-09,
+        "chirp_ratio": 7.527789169792243e-09,
+        "core_scaled_velocity_rms": 2.9422020375591273e-11,
+        "wing_mass_fraction": 4.5660499686794864e-11
+      },
+      "final_absolute_difference": {
+        "density_l1": 2.1848786668776654e-11,
+        "width_ratio": 1.2487666456451052e-09,
+        "chirp_ratio": 7.527789169792243e-09,
+        "core_scaled_velocity_rms": 2.9422020375591273e-11,
+        "wing_mass_fraction": 4.5660499686794864e-11
+      }
+    },
+    "heldout_step": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 8.602739511032187e-08,
+        "width_ratio": 8.643234572502934e-09,
+        "chirp_ratio": 3.625418965036431e-08,
+        "core_scaled_velocity_rms": 3.8562607638376045e-09,
+        "wing_mass_fraction": 1.9556405939091803e-09
+      },
+      "final_absolute_difference": {
+        "density_l1": 8.602739511032187e-08,
+        "width_ratio": 5.332501995525263e-09,
+        "chirp_ratio": 2.4663635134203332e-08,
+        "core_scaled_velocity_rms": 1.385566592015941e-09,
+        "wing_mass_fraction": 1.8450391188820636e-09
+      }
+    },
+    "heldout_grid": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.731620726563303e-06,
+        "width_ratio": 9.769962616701378e-15,
+        "chirp_ratio": 2.930988785010413e-14,
+        "core_scaled_velocity_rms": 0.00038412170344281904,
+        "wing_mass_fraction": 0.0006949672939914192
+      },
+      "final_absolute_difference": {
+        "density_l1": 5.510480988180078e-09,
+        "width_ratio": 8.659739592076221e-15,
+        "chirp_ratio": 3.219646771412954e-15,
+        "core_scaled_velocity_rms": 7.066952848683652e-07,
+        "wing_mass_fraction": 1.2748122425108172e-05
+      }
+    },
+    "heldout_window": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 4.73232564246473e-15,
+        "width_ratio": 3.552713678800501e-15,
+        "chirp_ratio": 7.993605777301127e-15,
+        "core_scaled_velocity_rms": 6.245004513516506e-16,
+        "wing_mass_fraction": 5.082739784612045e-16
+      },
+      "final_absolute_difference": {
+        "density_l1": 6.38378239159465e-16,
+        "width_ratio": 3.3306690738754696e-15,
+        "chirp_ratio": 5.551115123125783e-16,
+        "core_scaled_velocity_rms": 9.84455572616838e-17,
+        "wing_mass_fraction": 4.727121472036799e-16
+      }
+    },
+    "odd_step": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.510871977671862e-08,
+        "width_ratio": 1.556738382646472e-08,
+        "chirp_ratio": 3.2946199324257464e-08,
+        "core_scaled_velocity_rms": 4.764024226760338e-09,
+        "wing_mass_fraction": 8.534706144938675e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 4.104743445143555e-08,
+        "width_ratio": 9.686884405724072e-09,
+        "chirp_ratio": 3.2946199324257464e-08,
+        "core_scaled_velocity_rms": 4.764024226760338e-09,
+        "wing_mass_fraction": 8.76231904196797e-12
+      }
+    },
+    "odd_grid": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.903566807409112e-06,
+        "width_ratio": 6.692217890957863e-10,
+        "chirp_ratio": 9.556700986124156e-09,
+        "core_scaled_velocity_rms": 2.8066043651710053e-05,
+        "wing_mass_fraction": 5.9812344395688416e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.923269520691384e-07,
+        "width_ratio": 6.692217890957863e-10,
+        "chirp_ratio": 9.556700986124156e-09,
+        "core_scaled_velocity_rms": 1.3420160602760356e-07,
+        "wing_mass_fraction": 8.130620997155647e-09
+      }
+    }
+  },
+  "rate_trajectory_convergence": {
+    "grid_width_minus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00010853901497125075,
+        "width_ratio": 7.59063656707859e-06,
+        "chirp_ratio": 1.7175097752897273e-05,
+        "core_scaled_velocity_rms": 1.858720716297127e-05,
+        "wing_mass_fraction": 2.7024121438960075e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 9.15117855225132e-06,
+        "width_ratio": 7.59063656707859e-06,
+        "chirp_ratio": 7.400812296332049e-07,
+        "core_scaled_velocity_rms": 6.912408637473879e-06,
+        "wing_mass_fraction": 1.9544872604994717e-06
+      }
+    },
+    "grid_width_plus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 9.314398242717256e-05,
+        "width_ratio": 7.052462370316093e-06,
+        "chirp_ratio": 1.5988223486473885e-05,
+        "core_scaled_velocity_rms": 1.702920472342745e-05,
+        "wing_mass_fraction": 3.13722547142653e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.687995200509002e-05,
+        "width_ratio": 7.052462370316093e-06,
+        "chirp_ratio": 6.906906817594205e-07,
+        "core_scaled_velocity_rms": 5.278047604037085e-06,
+        "wing_mass_fraction": 1.8362476199312381e-06
+      }
+    },
+    "step_width_minus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.001895588641712e-08,
+        "width_ratio": 1.3115841746014212e-10,
+        "chirp_ratio": 2.0903589970089342e-10,
+        "core_scaled_velocity_rms": 2.026839650834996e-08,
+        "wing_mass_fraction": 2.3748867534196367e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 3.328266197670168e-08,
+        "width_ratio": 2.9017011016208016e-11,
+        "chirp_ratio": 1.0113954118651236e-10,
+        "core_scaled_velocity_rms": 9.048847052412802e-09,
+        "wing_mass_fraction": 1.1407045126083867e-11
+      }
+    },
+    "step_width_plus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.105225840245115e-08,
+        "width_ratio": 1.6506052080700329e-10,
+        "chirp_ratio": 2.1242418934974694e-10,
+        "core_scaled_velocity_rms": 2.5516126430345527e-08,
+        "wing_mass_fraction": 1.8459752375979735e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.8521122215975697e-08,
+        "width_ratio": 5.866784835717453e-11,
+        "chirp_ratio": 1.5577139578226706e-10,
+        "core_scaled_velocity_rms": 2.4967775398717328e-09,
+        "wing_mass_fraction": 2.249086477961346e-11
+      }
+    },
+    "window_width_minus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 3.212922800640422e-08,
+        "width_ratio": 1.0109246773026825e-09,
+        "chirp_ratio": 2.1523760551644955e-09,
+        "core_scaled_velocity_rms": 9.418242221271439e-09,
+        "wing_mass_fraction": 3.155372280057604e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.608113630416802e-09,
+        "width_ratio": 8.332969869684348e-10,
+        "chirp_ratio": 2.015010380773674e-11,
+        "core_scaled_velocity_rms": 9.371917261344342e-11,
+        "wing_mass_fraction": 1.5841234451279029e-12
+      }
+    },
+    "window_width_plus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 3.3905729785420335e-08,
+        "width_ratio": 7.715514893646969e-10,
+        "chirp_ratio": 1.6232467592303124e-09,
+        "core_scaled_velocity_rms": 1.4840550926174811e-08,
+        "wing_mass_fraction": 2.4849868644478794e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 6.410126649749812e-09,
+        "width_ratio": 6.583568135098972e-10,
+        "chirp_ratio": 2.660538456211725e-12,
+        "core_scaled_velocity_rms": 3.8684048743161184e-10,
+        "wing_mass_fraction": 9.291398863507303e-12
+      }
+    },
+    "N5_grid_width_minus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00027281812209604267,
+        "width_ratio": 7.33240107388955e-05,
+        "chirp_ratio": 0.00016544348974678602,
+        "core_scaled_velocity_rms": 7.80604556774989e-05,
+        "wing_mass_fraction": 4.124876583150999e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 9.827580576804657e-05,
+        "width_ratio": 7.33240107388955e-05,
+        "chirp_ratio": 1.0311374071925172e-05,
+        "core_scaled_velocity_rms": 3.7223612121585156e-05,
+        "wing_mass_fraction": 1.4811300138450207e-05
+      }
+    },
+    "N5_grid_width_plus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00026251939850118096,
+        "width_ratio": 6.878234787899284e-05,
+        "chirp_ratio": 0.00015284983080321446,
+        "core_scaled_velocity_rms": 7.001241004619214e-05,
+        "wing_mass_fraction": 4.448961566557233e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.00012292542998728609,
+        "width_ratio": 6.878234787899284e-05,
+        "chirp_ratio": 1.0835354538940578e-05,
+        "core_scaled_velocity_rms": 3.539755080603311e-05,
+        "wing_mass_fraction": 1.4295941743304019e-05
+      }
+    },
+    "N20_grid_width_minus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.0686186654001403e-05,
+        "width_ratio": 1.322179010498914e-06,
+        "chirp_ratio": 7.026329277848298e-06,
+        "core_scaled_velocity_rms": 6.402687349261679e-06,
+        "wing_mass_fraction": 1.7205546094328783e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 3.328002765649288e-06,
+        "width_ratio": 1.322179010498914e-06,
+        "chirp_ratio": 2.1660457860672722e-07,
+        "core_scaled_velocity_rms": 4.1905739211328934e-07,
+        "wing_mass_fraction": 1.5373581982768238e-06
+      }
+    },
+    "N20_grid_width_plus": {
+      "common_samples": 241,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.0870662560775405e-05,
+        "width_ratio": 3.4335819187880645e-07,
+        "chirp_ratio": 1.5659785237431834e-06,
+        "core_scaled_velocity_rms": 7.516080572843916e-06,
+        "wing_mass_fraction": 2.2872989437624884e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.0949829045911463e-07,
+        "width_ratio": 1.4049230245838373e-07,
+        "chirp_ratio": 5.521013046738688e-07,
+        "core_scaled_velocity_rms": 3.5538060453921055e-07,
+        "wing_mass_fraction": 7.917565307401836e-07
+      }
+    }
+  },
+  "independent_coordinate_solvers": {
+    "N10_width_minus": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 7.051034445521194e-06,
+        "width_ratio": 1.1049980648270008e-06,
+        "chirp_ratio": 1.1353122620127998e-05,
+        "core_scaled_velocity_rms": 3.4919857232036666e-05,
+        "wing_mass_fraction": 8.871319868736325e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 6.065894167616229e-06,
+        "width_ratio": 1.1049980648270008e-06,
+        "chirp_ratio": 1.1353122620127998e-05,
+        "core_scaled_velocity_rms": 1.2569058773575451e-06,
+        "wing_mass_fraction": 1.5783746149845687e-06
+      }
+    },
+    "N10_width_plus": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.434791333165268e-06,
+        "width_ratio": 9.951282025078e-07,
+        "chirp_ratio": 1.0251445230702316e-05,
+        "core_scaled_velocity_rms": 4.063872669082553e-05,
+        "wing_mass_fraction": 0.00010338299723448331
+      },
+      "final_absolute_difference": {
+        "density_l1": 4.3175075436436075e-06,
+        "width_ratio": 9.951282025078e-07,
+        "chirp_ratio": 1.0251445230702316e-05,
+        "core_scaled_velocity_rms": 1.985228723952676e-06,
+        "wing_mass_fraction": 4.291729679465508e-07
+      }
+    },
+    "N10_chirp_minus": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 7.121390382381493e-06,
+        "width_ratio": 1.0097345750637032e-06,
+        "chirp_ratio": 1.026497870582066e-05,
+        "core_scaled_velocity_rms": 3.696710288331011e-05,
+        "wing_mass_fraction": 8.691037941287519e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.121390382381493e-06,
+        "width_ratio": 1.0097345750637032e-06,
+        "chirp_ratio": 1.026497870582066e-05,
+        "core_scaled_velocity_rms": 2.061154807150422e-07,
+        "wing_mass_fraction": 1.3319183983206273e-06
+      }
+    },
+    "N10_chirp_plus": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 9.267940508679053e-06,
+        "width_ratio": 1.0871099459519584e-06,
+        "chirp_ratio": 1.1116706940539345e-05,
+        "core_scaled_velocity_rms": 1.9206090292030707e-05,
+        "wing_mass_fraction": 0.00010537410702005177
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.6839850124272457e-06,
+        "width_ratio": 1.0871099459519584e-06,
+        "chirp_ratio": 1.1116706940539345e-05,
+        "core_scaled_velocity_rms": 1.13264965383446e-06,
+        "wing_mass_fraction": 7.533602290545234e-07
+      }
+    },
+    "gaussian_w1_q0": {
+      "common_samples": 61,
+      "end_gain_length": 6.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.0977792676901696e-05,
+        "width_ratio": 1.3190840986165853e-07,
+        "chirp_ratio": 1.7247761019412167e-07,
+        "core_scaled_velocity_rms": 0.00034116818384434533,
+        "wing_mass_fraction": 0.0006040559072522239
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.936531916039047e-08,
+        "width_ratio": 1.1490291540461328e-07,
+        "chirp_ratio": 1.7247761019412167e-07,
+        "core_scaled_velocity_rms": 3.319631541988735e-06,
+        "wing_mass_fraction": 5.8245196665192116e-06
+      }
+    },
+    "parabola_w1p02_qthird": {
+      "common_samples": 61,
+      "end_gain_length": 6.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.553954290586801e-05,
+        "width_ratio": 1.095092727609881e-07,
+        "chirp_ratio": 1.233678885714795e-07,
+        "core_scaled_velocity_rms": 0.00011819589379820101,
+        "wing_mass_fraction": 0.00024052091540566515
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.763045454837922e-06,
+        "width_ratio": 1.0929211802235272e-07,
+        "chirp_ratio": 1.233678885714795e-07,
+        "core_scaled_velocity_rms": 9.45230741546902e-06,
+        "wing_mass_fraction": 5.47807214482316e-07
+      }
+    }
+  },
+  "odd_counterexample": {
+    "odd_base": {
+      "maximum_even_overlap": 8.102361475383986e-14,
+      "maximum_scaled_central_density": 6.212216879518641e-24,
+      "final_density_l1": 0.00821161424629661,
+      "final_width_ratio": 0.9999320461527187,
+      "minimum_normalized_phase_optimized_field_distance_squared": 1.999999999999838
+    },
+    "odd_grid": {
+      "maximum_even_overlap": 6.120228226464669e-14,
+      "maximum_scaled_central_density": 2.809775662340573e-23,
+      "final_density_l1": 0.008211421919344541,
+      "final_width_ratio": 0.9999320454834969,
+      "minimum_normalized_phase_optimized_field_distance_squared": 1.9999999999998777
+    },
+    "odd_step": {
+      "maximum_even_overlap": 3.7735455589875793e-14,
+      "maximum_scaled_central_density": 1.4809561634065125e-23,
+      "final_density_l1": 0.00821157319886216,
+      "final_width_ratio": 0.9999320558396031,
+      "minimum_normalized_phase_optimized_field_distance_squared": 1.9999999999999245
+    }
+  },
+  "paired_rate_fits": {
+    "rates-safe": [
+      {
+        "pair": "N10_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3328819889216767,
+            "frequency_per_gain_length": 0.4705929842645193,
+            "relative_joint_rms": 7.699908021019658e-05
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.33263725800572386,
+            "frequency_per_gain_length": 0.4706862290673555,
+            "relative_joint_rms": 0.00011842007247862173
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.33275503489775626,
+            "frequency_per_gain_length": 0.47078256211350183,
+            "relative_joint_rms": 0.00010597292492297443
+          }
+        }
+      },
+      {
+        "pair": "N10_chirp",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3337975200612101,
+            "frequency_per_gain_length": 0.46898763881362016,
+            "relative_joint_rms": 0.00010367840803049919
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.33398126375098003,
+            "frequency_per_gain_length": 0.4697632647087239,
+            "relative_joint_rms": 0.00013328698507440975
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.3334257980362824,
+            "frequency_per_gain_length": 0.47178583624153864,
+            "relative_joint_rms": 6.47332872518138e-05
+          }
+        }
+      },
+      {
+        "pair": "N5_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3289765133506955,
+            "frequency_per_gain_length": 0.46906473963792233,
+            "relative_joint_rms": 0.00029725212758118424
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.33005732409710126,
+            "frequency_per_gain_length": 0.4662949150098719,
+            "relative_joint_rms": 0.00044629683161219837
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.3324689899641203,
+            "frequency_per_gain_length": 0.46650438444370546,
+            "relative_joint_rms": 0.0005016243297717487
+          }
+        }
+      },
+      {
+        "pair": "N20_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3333624568794736,
+            "frequency_per_gain_length": 0.470955147049893,
+            "relative_joint_rms": 1.9893800817036555e-05
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.3331908735896165,
+            "frequency_per_gain_length": 0.4713381751128607,
+            "relative_joint_rms": 4.048910094601577e-05
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.3325442663454065,
+            "frequency_per_gain_length": 0.47146262436748354,
+            "relative_joint_rms": 0.00016778469387281828
+          }
+        }
+      }
+    ],
+    "rates-convergence": [
+      {
+        "pair": "grid_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3328843440712694,
+            "frequency_per_gain_length": 0.4706006731428602,
+            "relative_joint_rms": 7.680461465629628e-05
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.3325970749751943,
+            "frequency_per_gain_length": 0.4707982765534677,
+            "relative_joint_rms": 0.0001393616272688211
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.332658386768105,
+            "frequency_per_gain_length": 0.4709186718850566,
+            "relative_joint_rms": 0.0001016522228709778
+          }
+        }
+      },
+      {
+        "pair": "step_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.33288198696098054,
+            "frequency_per_gain_length": 0.47059298250562653,
+            "relative_joint_rms": 7.699916279746881e-05
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.3326372571560049,
+            "frequency_per_gain_length": 0.4706862233772976,
+            "relative_joint_rms": 0.00011841916066966263
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.3327550414895,
+            "frequency_per_gain_length": 0.4707825541076554,
+            "relative_joint_rms": 0.00010597365710446441
+          }
+        }
+      },
+      {
+        "pair": "window_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.33288197662794405,
+            "frequency_per_gain_length": 0.4705929686366718,
+            "relative_joint_rms": 7.700071430903917e-05
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.3326372526597278,
+            "frequency_per_gain_length": 0.47068619317032817,
+            "relative_joint_rms": 0.00011842233650453688
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.3327550829196088,
+            "frequency_per_gain_length": 0.47078252243800683,
+            "relative_joint_rms": 0.00010597842375577668
+          }
+        }
+      },
+      {
+        "pair": "amplitude_width",
+        "perturbation_separation": 0.009999999999999898,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3328795551379936,
+            "frequency_per_gain_length": 0.47060729828247994,
+            "relative_joint_rms": 7.69804801205887e-05
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.33263964994831036,
+            "frequency_per_gain_length": 0.47068950468373894,
+            "relative_joint_rms": 0.00011792161573332033
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.3327574386696963,
+            "frequency_per_gain_length": 0.4707848926497356,
+            "relative_joint_rms": 0.00010622167963833999
+          }
+        }
+      },
+      {
+        "pair": "N5_grid_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3289774459808782,
+            "frequency_per_gain_length": 0.46907148749923455,
+            "relative_joint_rms": 0.00029626717963600276
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.3295596398817715,
+            "frequency_per_gain_length": 0.4671226259680742,
+            "relative_joint_rms": 0.0005895338100040497
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.33112359239868194,
+            "frequency_per_gain_length": 0.4675149763389042,
+            "relative_joint_rms": 0.0005169650022936882
+          }
+        }
+      },
+      {
+        "pair": "N20_grid_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3333631335874814,
+            "frequency_per_gain_length": 0.4709566933756756,
+            "relative_joint_rms": 2.0131620225253285e-05
+          },
+          "4-10": {
+            "decay_per_gain_length": 0.33318614145716535,
+            "frequency_per_gain_length": 0.47134878253144685,
+            "relative_joint_rms": 4.072697990471669e-05
+          },
+          "6-12": {
+            "decay_per_gain_length": 0.3331841292047386,
+            "frequency_per_gain_length": 0.4713840711723636,
+            "relative_joint_rms": 2.1523239176801225e-05
+          }
+        }
+      }
+    ],
+    "rates-fine": [
+      {
+        "pair": "N20_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "6-12": {
+            "decay_per_gain_length": 0.33318428993134475,
+            "frequency_per_gain_length": 0.47138493252337565,
+            "relative_joint_rms": 2.1715683190282333e-05
+          }
+        }
+      }
+    ],
+    "rates-final-controls": [
+      {
+        "pair": "N20_step_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "6-12": {
+            "decay_per_gain_length": 0.3331841292105926,
+            "frequency_per_gain_length": 0.4713840705103354,
+            "relative_joint_rms": 2.1523379993651464e-05
+          }
+        }
+      },
+      {
+        "pair": "N20_window_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "6-12": {
+            "decay_per_gain_length": 0.33318412914999546,
+            "frequency_per_gain_length": 0.471384071221916,
+            "relative_joint_rms": 2.1523241138223437e-05
+          }
+        }
+      }
+    ],
+    "rates-lower-n-refinement": [
+      {
+        "pair": "N5_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "6-12": {
+            "decay_per_gain_length": 0.33037493065262463,
+            "frequency_per_gain_length": 0.4677079790900215,
+            "relative_joint_rms": 0.00048015008483985534
+          }
+        }
+      },
+      {
+        "pair": "N10_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "6-12": {
+            "decay_per_gain_length": 0.33259734898803284,
+            "frequency_per_gain_length": 0.4709505734964864,
+            "relative_joint_rms": 0.00010125465817992528
+          }
+        }
+      }
+    ],
+    "rates-prefix-control": [
+      {
+        "pair": "N20_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "6-12": {
+            "decay_per_gain_length": 0.33318429213798806,
+            "frequency_per_gain_length": 0.4713849317380871,
+            "relative_joint_rms": 2.1715836570391846e-05
+          }
+        }
+      }
+    ],
+    "map-convergence": [
+      {
+        "pair": "N10_width",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.3328837032363199,
+            "frequency_per_gain_length": 0.4706198972532372,
+            "relative_joint_rms": 7.905349994493874e-05
+          }
+        }
+      },
+      {
+        "pair": "N10_chirp",
+        "perturbation_separation": 0.020000000000000018,
+        "fits": {
+          "2-8": {
+            "decay_per_gain_length": 0.33381095395512417,
+            "frequency_per_gain_length": 0.4689986938010917,
+            "relative_joint_rms": 0.00010623134621557935
+          }
+        }
+      }
+    ]
+  },
+  "physical_vacuum_convergence": {
+    "linear_l3": {
+      "maximum_degree_change_displacement": 8.707429968843241e-11,
+      "maximum_degree_change_velocity": 7.195774336224469e-10,
+      "maximum_degree_change_energy_relative_to_initial": 3.729992900910284e-09,
+      "blas_vs_direct_degree32": {
+        "maximum_displacement_change": 4.841740498040703e-11,
+        "maximum_velocity_change": 3.004290190898897e-10
+      },
+      "direct_degree32_stronger_inequality_maximum_residual": -6.639528571701899e-24,
+      "blas_vs_direct_degree64": {
+        "maximum_displacement_change": 5.6877299663702155e-11,
+        "maximum_velocity_change": 9.297996842625577e-10
+      },
+      "direct_degree64_stronger_inequality_maximum_residual": -6.639270573067287e-24
+    },
+    "linear_l4": {
+      "maximum_degree_change_displacement": 5.5139402185865397e-11,
+      "maximum_degree_change_velocity": 1.944158680605609e-09,
+      "maximum_degree_change_energy_relative_to_initial": 1.936323847300514e-09,
+      "blas_vs_direct_degree32": {
+        "maximum_displacement_change": 2.5825433168470476e-11,
+        "maximum_velocity_change": 7.788849890161164e-11
+      },
+      "direct_degree32_stronger_inequality_maximum_residual": -1.4455378021121007e-23,
+      "blas_vs_direct_degree64": {
+        "maximum_displacement_change": 8.841084987590633e-11,
+        "maximum_velocity_change": 1.934253587761655e-09
+      },
+      "direct_degree64_stronger_inequality_maximum_residual": -1.4438311083229285e-23
+    },
+    "finite_mixed": {
+      "maximum_degree_change_displacement": 1.951689299539358e-10,
+      "maximum_degree_change_velocity": 1.5704405857542409e-09,
+      "maximum_degree_change_energy_relative_to_initial": 2.8943871218713124e-13,
+      "blas_vs_direct_degree32": {
+        "maximum_displacement_change": 6.174748212739445e-15,
+        "maximum_velocity_change": 3.066991105526995e-14
+      },
+      "direct_degree32_stronger_inequality_maximum_residual": -4.120889856420091e-14,
+      "blas_vs_direct_degree64": {
+        "maximum_displacement_change": 2.1359369513970078e-10,
+        "maximum_velocity_change": 3.414693620104012e-09
+      },
+      "direct_degree64_stronger_inequality_maximum_residual": -4.1208898646938686e-14
+    },
+    "heldout_asymmetric": {
+      "maximum_degree_change_displacement": 1.3842015728071644e-10,
+      "maximum_degree_change_velocity": 9.793015912085146e-10,
+      "maximum_degree_change_energy_relative_to_initial": 3.4975199152836215e-13,
+      "blas_vs_direct_degree32": {
+        "maximum_displacement_change": 4.343747583845925e-15,
+        "maximum_velocity_change": 2.308570001829935e-14
+      },
+      "direct_degree32_stronger_inequality_maximum_residual": -8.117411875936834e-14,
+      "blas_vs_direct_degree64": {
+        "maximum_displacement_change": 6.608053636073842e-12,
+        "maximum_velocity_change": 6.327641948754878e-11
+      },
+      "direct_degree64_stronger_inequality_maximum_residual": -8.117411875100575e-14
+    }
+  },
+  "long_continuation_agreement_through_gain8": {
+    "gaussian_w0p5_qm0p5": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 7.754368881074392e-05,
+        "width_ratio": 2.09898716185819e-08,
+        "chirp_ratio": 7.043873950784985e-08,
+        "core_scaled_velocity_rms": 0.0001311818431135453,
+        "wing_mass_fraction": 0.00035906846066737635
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.0432680151717388e-07,
+        "width_ratio": 1.5525369434499225e-08,
+        "chirp_ratio": 3.095636347261177e-08,
+        "core_scaled_velocity_rms": 1.2501238073087118e-05,
+        "wing_mass_fraction": 7.748767764473828e-05
+      }
+    },
+    "gaussian_w2_qm0p5": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00028584481871396505,
+        "width_ratio": 1.2351354161665995e-08,
+        "chirp_ratio": 8.89512969948214e-08,
+        "core_scaled_velocity_rms": 0.0016499842999963543,
+        "wing_mass_fraction": 0.001978683763981859
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.4962167088627965e-07,
+        "width_ratio": 1.2351354161665995e-08,
+        "chirp_ratio": 1.9324634004114216e-08,
+        "core_scaled_velocity_rms": 1.9956456766924424e-05,
+        "wing_mass_fraction": 0.00015014647945749832
+      }
+    },
+    "gaussian_w2_q0": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.2709635000107689e-05,
+        "width_ratio": 1.190866971700899e-08,
+        "chirp_ratio": 3.2955801199108237e-08,
+        "core_scaled_velocity_rms": 0.0006332268349533154,
+        "wing_mass_fraction": 0.001978683763981859
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.731308426291855e-07,
+        "width_ratio": 9.14392217499227e-09,
+        "chirp_ratio": 3.2955801199108237e-08,
+        "core_scaled_velocity_rms": 4.468384766058084e-06,
+        "wing_mass_fraction": 3.2061886410123754e-08
+      }
+    },
+    "sech_w0p5_qm0p5": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00018851800691022103,
+        "width_ratio": 2.3712433794287335e-08,
+        "chirp_ratio": 8.42748462126508e-08,
+        "core_scaled_velocity_rms": 0.0002696285794343972,
+        "wing_mass_fraction": 0.0003775018239809205
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.626168304735831e-07,
+        "width_ratio": 1.629746182452152e-08,
+        "chirp_ratio": 3.202069032148813e-08,
+        "core_scaled_velocity_rms": 1.2645145270336056e-05,
+        "wing_mass_fraction": 8.016188303575696e-05
+      }
+    },
+    "sech_w2_qm0p5": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00016834110634955657,
+        "width_ratio": 7.837748270400624e-07,
+        "chirp_ratio": 1.824608481471035e-05,
+        "core_scaled_velocity_rms": 0.0014355991905725118,
+        "wing_mass_fraction": 0.0017267419339260515
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.202680904483394e-08,
+        "width_ratio": 7.837748270400624e-07,
+        "chirp_ratio": 1.824608481471035e-05,
+        "core_scaled_velocity_rms": 1.892124570686271e-05,
+        "wing_mass_fraction": 0.00015303717447473497
+      }
+    },
+    "sech_w2_q0": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00030293923709804466,
+        "width_ratio": 1.2467345426037113e-06,
+        "chirp_ratio": 1.680608088450164e-05,
+        "core_scaled_velocity_rms": 0.0005797233103668198,
+        "wing_mass_fraction": 0.001726741933925996
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.00030293923709804466,
+        "width_ratio": 1.2467345426037113e-06,
+        "chirp_ratio": 1.680608088450164e-05,
+        "core_scaled_velocity_rms": 1.146284302160419e-06,
+        "wing_mass_fraction": 1.7602313597521312e-07
+      }
+    },
+    "supergaussian_w0p5_qm0p5": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00011466506165902501,
+        "width_ratio": 1.921844972052611e-08,
+        "chirp_ratio": 6.376963762599885e-08,
+        "core_scaled_velocity_rms": 0.00020706551613974833,
+        "wing_mass_fraction": 0.00035353599015975484
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.6030537632050201e-07,
+        "width_ratio": 1.3878273419365428e-08,
+        "chirp_ratio": 2.7383131984137776e-08,
+        "core_scaled_velocity_rms": 1.5394205296080654e-05,
+        "wing_mass_fraction": 7.077979058535064e-05
+      }
+    },
+    "supergaussian_w2_qm0p5": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 6.827754116045526e-05,
+        "width_ratio": 1.2093874346419398e-08,
+        "chirp_ratio": 1.0475303646728662e-07,
+        "core_scaled_velocity_rms": 0.002432372716316189,
+        "wing_mass_fraction": 0.002697869075885706
+      },
+      "final_absolute_difference": {
+        "density_l1": 6.7082020771547235e-09,
+        "width_ratio": 1.2093874346419398e-08,
+        "chirp_ratio": 1.821667194867871e-08,
+        "core_scaled_velocity_rms": 1.8727786748166247e-05,
+        "wing_mass_fraction": 0.00014642352548028398
+      }
+    },
+    "supergaussian_w2_q0": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.617178709074519e-05,
+        "width_ratio": 1.2142273408954907e-08,
+        "chirp_ratio": 2.8788395667334044e-08,
+        "core_scaled_velocity_rms": 0.0008167842566089573,
+        "wing_mass_fraction": 0.002697869075885706
+      },
+      "final_absolute_difference": {
+        "density_l1": 4.284854532715654e-07,
+        "width_ratio": 4.0312342353132635e-09,
+        "chirp_ratio": 2.8788395667334044e-08,
+        "core_scaled_velocity_rms": 1.2099046232635566e-05,
+        "wing_mass_fraction": 4.927326951816907e-06
+      }
+    },
+    "heldout_order6": {
+      "common_samples": 81,
+      "end_gain_length": 8.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.4106910816713558e-06,
+        "width_ratio": 9.34161459298366e-09,
+        "chirp_ratio": 3.667344961044705e-08,
+        "core_scaled_velocity_rms": 0.0004528076982134588,
+        "wing_mass_fraction": 0.0008705986677721295
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.225147582967212e-07,
+        "width_ratio": 6.1868936640507854e-09,
+        "chirp_ratio": 2.6136002140297876e-08,
+        "core_scaled_velocity_rms": 6.199134393047607e-06,
+        "wing_mass_fraction": 4.160500028148502e-05
+      }
+    }
+  },
+  "hydrodynamic_refinements": {
+    "gaussian_step": {
+      "base_peak_density_gradient": 48.08322984595503,
+      "refined_peak_density_gradient": 48.23916555283305,
+      "peak_ratio": 1.0032430372788514,
+      "maximum_time_guard": 3.6029135282470974e-30
+    },
+    "gaussian_grid": {
+      "base_peak_density_gradient": 48.08322984595503,
+      "refined_peak_density_gradient": 94.87488072159115,
+      "peak_ratio": 1.9731386811065572,
+      "maximum_time_guard": 3.5999846651371094e-30
+    },
+    "gaussian_window": {
+      "base_peak_density_gradient": 48.08322984595503,
+      "refined_peak_density_gradient": 48.08322984595503,
+      "peak_ratio": 1.0,
+      "maximum_time_guard": 7.198765647066672e-30
+    },
+    "sech_step": {
+      "base_peak_density_gradient": 303.1490632937701,
+      "refined_peak_density_gradient": 303.1491538889575,
+      "peak_ratio": 1.0000002988469978,
+      "maximum_time_guard": 2.099992199170704e-12
+    },
+    "sech_grid": {
+      "base_peak_density_gradient": 303.1490632937701,
+      "refined_peak_density_gradient": 566.2062360693448,
+      "peak_ratio": 1.8677485917898287,
+      "maximum_time_guard": 2.0916311862344633e-12
+    },
+    "sech_window": {
+      "base_peak_density_gradient": 303.1490632937701,
+      "refined_peak_density_gradient": 303.1490985801949,
+      "peak_ratio": 1.0000001163995837,
+      "maximum_time_guard": 2.2213651571752627e-24
+    },
+    "supergaussian_step": {
+      "base_peak_density_gradient": 36.076507537145176,
+      "refined_peak_density_gradient": 35.98228137338171,
+      "peak_ratio": 0.997388157274746,
+      "maximum_time_guard": 3.6001560511572166e-30
+    },
+    "supergaussian_grid": {
+      "base_peak_density_gradient": 36.076507537145176,
+      "refined_peak_density_gradient": 59.62242422297309,
+      "peak_ratio": 1.6526661889758734,
+      "maximum_time_guard": 3.597229095018104e-30
+    },
+    "supergaussian_window": {
+      "base_peak_density_gradient": 36.076507537145176,
+      "refined_peak_density_gradient": 36.076507537145176,
+      "peak_ratio": 1.0,
+      "maximum_time_guard": 7.18775076427096e-30
+    }
+  },
+  "late_gaussian_refinements": {
+    "gaussian_grid32768_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.055541132544743986,
+        "width_ratio": 0.04991353847168334,
+        "chirp_ratio": 0.06929096678792102,
+        "core_scaled_velocity_rms": 0.0043910322143323145,
+        "wing_mass_fraction": 0.008773133526758492
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.053020855418583854,
+        "width_ratio": 0.04991353847168334,
+        "chirp_ratio": 0.0485540500233721,
+        "core_scaled_velocity_rms": 0.00276056408661416,
+        "wing_mass_fraction": 0.008741816047364048
+      }
+    },
+    "gaussian_grid65536_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.05554763194120267,
+        "width_ratio": 0.04991354533946346,
+        "chirp_ratio": 0.06929103367141898,
+        "core_scaled_velocity_rms": 0.004389024497235837,
+        "wing_mass_fraction": 0.008773133735212777
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.05301601712759693,
+        "width_ratio": 0.04991354533946346,
+        "chirp_ratio": 0.04855401045692176,
+        "core_scaled_velocity_rms": 0.0027596888996492927,
+        "wing_mass_fraction": 0.008741816196525531
+      }
+    },
+    "gaussian_step65536_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.055547615303368957,
+        "width_ratio": 0.049913545223476574,
+        "chirp_ratio": 0.06929103367548173,
+        "core_scaled_velocity_rms": 0.0043890243096845185,
+        "wing_mass_fraction": 0.008773133735212765
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.05301607728890703,
+        "width_ratio": 0.049913545223476574,
+        "chirp_ratio": 0.04855401040861673,
+        "core_scaled_velocity_rms": 0.0027596889730717666,
+        "wing_mass_fraction": 0.008741816196525516
+      }
+    },
+    "gaussian_window131072_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.05554763194088662,
+        "width_ratio": 0.04991354533898262,
+        "chirp_ratio": 0.06929103367084122,
+        "core_scaled_velocity_rms": 0.004389024496296503,
+        "wing_mass_fraction": 0.008773133735212787
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.05301601712506938,
+        "width_ratio": 0.04991354533898262,
+        "chirp_ratio": 0.04855401045597452,
+        "core_scaled_velocity_rms": 0.0027596888969678266,
+        "wing_mass_fraction": 0.008741816196525552
+      }
+    },
+    "gaussian_grid65536_vs_gaussian_grid32768": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.024913978382857e-05,
+        "width_ratio": 1.9019513741724836e-08,
+        "chirp_ratio": 7.181144578982668e-08,
+        "core_scaled_velocity_rms": 6.481618234688291e-06,
+        "wing_mass_fraction": 7.64079355783931e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 4.838290986929061e-06,
+        "width_ratio": 6.8677801223770985e-09,
+        "chirp_ratio": 3.9566450338313075e-08,
+        "core_scaled_velocity_rms": 8.75186964867207e-07,
+        "wing_mass_fraction": 1.4916148376963292e-10
+      }
+    },
+    "gaussian_step65536_vs_gaussian_grid65536": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.4381701374070743e-07,
+        "width_ratio": 1.3106593588219084e-10,
+        "chirp_ratio": 1.6264078972483276e-10,
+        "core_scaled_velocity_rms": 2.0910064998935773e-10,
+        "wing_mass_fraction": 1.600226201547983e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 6.016131010207204e-08,
+        "width_ratio": 1.1598688676173197e-10,
+        "chirp_ratio": 4.8305026645323323e-11,
+        "core_scaled_velocity_rms": 7.342247382996492e-11,
+        "wing_mass_fraction": 1.4916061325812662e-17
+      }
+    },
+    "gaussian_window131072_vs_gaussian_grid65536": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.527552819819867e-12,
+        "width_ratio": 4.808375919651553e-13,
+        "chirp_ratio": 9.472422846101836e-13,
+        "core_scaled_velocity_rms": 2.6814661602259093e-12,
+        "wing_mass_fraction": 4.679590048795035e-14
+      },
+      "final_absolute_difference": {
+        "density_l1": 2.527552819819867e-12,
+        "width_ratio": 4.808375919651553e-13,
+        "chirp_ratio": 9.472422846101836e-13,
+        "core_scaled_velocity_rms": 2.6814661602259093e-12,
+        "wing_mass_fraction": 2.051268799415541e-17
+      }
+    }
+  },
+  "late_additional_refinements": {
+    "heldout_order6_n32768_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.012486731012824673,
+        "width_ratio": 0.005862538633485848,
+        "chirp_ratio": 0.024459141807729567,
+        "core_scaled_velocity_rms": 0.001445964528626231,
+        "wing_mass_fraction": 0.00019255468921900714
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.012486731012824673,
+        "width_ratio": 0.005862538633485848,
+        "chirp_ratio": 0.024334538773396863,
+        "core_scaled_velocity_rms": 0.001445964528626231,
+        "wing_mass_fraction": 0.00019255468921900714
+      }
+    },
+    "heldout_order6_n65536_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.012486698608689617,
+        "width_ratio": 0.0058625389835305075,
+        "chirp_ratio": 0.024459145091603407,
+        "core_scaled_velocity_rms": 0.0014453211817333504,
+        "wing_mass_fraction": 0.00018957305145292434
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.012486698608689617,
+        "width_ratio": 0.0058625389835305075,
+        "chirp_ratio": 0.024334543588054203,
+        "core_scaled_velocity_rms": 0.0014453211817333504,
+        "wing_mass_fraction": 0.00018957305145292434
+      }
+    },
+    "heldout_order6_n65536_vs_heldout_order6_n32768": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 5.6193678724114626e-08,
+        "width_ratio": 3.500446599247198e-10,
+        "chirp_ratio": 4.814657339480277e-09,
+        "core_scaled_velocity_rms": 5.318339961882246e-06,
+        "wing_mass_fraction": 3.699889123238813e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 3.240413505752049e-08,
+        "width_ratio": 3.500446599247198e-10,
+        "chirp_ratio": 4.814657339480277e-09,
+        "core_scaled_velocity_rms": 6.433468928805641e-07,
+        "wing_mass_fraction": 2.9816377660828216e-06
+      }
+    },
+    "sech_w2_qm0p5_n32768_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.05335590226492977,
+        "width_ratio": 0.049176750363318256,
+        "chirp_ratio": 0.0631107264183125,
+        "core_scaled_velocity_rms": 0.003961697266379763,
+        "wing_mass_fraction": 0.009362957314708858
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.051531983652708016,
+        "width_ratio": 0.049176750363318256,
+        "chirp_ratio": 0.045961186833598955,
+        "core_scaled_velocity_rms": 0.0026784979032517067,
+        "wing_mass_fraction": 0.009356162476667257
+      }
+    },
+    "sech_w2_qm0p5_n65536_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.053306152918529935,
+        "width_ratio": 0.0491937355621066,
+        "chirp_ratio": 0.0631129569944856,
+        "core_scaled_velocity_rms": 0.00395915588928319,
+        "wing_mass_fraction": 0.00936789316397263
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.05148470694272169,
+        "width_ratio": 0.0491937355621066,
+        "chirp_ratio": 0.04596568199261841,
+        "core_scaled_velocity_rms": 0.002679204852765422,
+        "wing_mass_fraction": 0.009361098297893992
+      }
+    },
+    "sech_w2_qm0p5_n65536_vs_sech_w2_qm0p5_n32768": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 7.837801780786677e-05,
+        "width_ratio": 1.6985198788344036e-05,
+        "chirp_ratio": 4.235946502262333e-05,
+        "core_scaled_velocity_rms": 7.6222978543476205e-06,
+        "wing_mass_fraction": 7.305823899850933e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 4.7276709986323814e-05,
+        "width_ratio": 1.6985198788344036e-05,
+        "chirp_ratio": 4.4951590194575175e-06,
+        "core_scaled_velocity_rms": 7.069495137155407e-07,
+        "wing_mass_fraction": 4.9358212267347e-06
+      }
+    },
+    "supergaussian_w2_qm0p5_n32768_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.050765082161372634,
+        "width_ratio": 0.04093904439399654,
+        "chirp_ratio": 0.06995839468279252,
+        "core_scaled_velocity_rms": 0.004242042127625834,
+        "wing_mass_fraction": 0.004192355407790173
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.046393658970055165,
+        "width_ratio": 0.04093904439399654,
+        "chirp_ratio": 0.05082795393818873,
+        "core_scaled_velocity_rms": 0.002070936228025002,
+        "wing_mass_fraction": 0.004172998816841336
+      }
+    },
+    "supergaussian_w2_qm0p5_n65536_vs_coarse": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.05076504366004457,
+        "width_ratio": 0.04093904538412774,
+        "chirp_ratio": 0.06995839518583546,
+        "core_scaled_velocity_rms": 0.004239797738583874,
+        "wing_mass_fraction": 0.004191798676056825
+      },
+      "final_absolute_difference": {
+        "density_l1": 0.046393701541213514,
+        "width_ratio": 0.04093904538412774,
+        "chirp_ratio": 0.05082796878832174,
+        "core_scaled_velocity_rms": 0.0020694633737471583,
+        "wing_mass_fraction": 0.004173003749093578
+      }
+    },
+    "supergaussian_w2_qm0p5_n65536_vs_supergaussian_w2_qm0p5_n32768": {
+      "common_samples": 61,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 9.081355825668602e-08,
+        "width_ratio": 9.901311992521755e-10,
+        "chirp_ratio": 1.4850133012167532e-08,
+        "core_scaled_velocity_rms": 5.171636679776603e-06,
+        "wing_mass_fraction": 8.081900232430328e-05
+      },
+      "final_absolute_difference": {
+        "density_l1": 4.2571158350226956e-08,
+        "width_ratio": 9.901311992521755e-10,
+        "chirp_ratio": 1.4850133012167532e-08,
+        "core_scaled_velocity_rms": 1.4728542778435355e-06,
+        "wing_mass_fraction": 4.9322522421703245e-09
+      }
+    }
+  },
+  "further_rate_grid_refinement": {
+    "N20_width_minus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.3604985340459385e-06,
+        "width_ratio": 3.715819951732868e-08,
+        "chirp_ratio": 8.910731963407414e-08,
+        "core_scaled_velocity_rms": 3.2365521452390293e-07,
+        "wing_mass_fraction": 1.228994178657551e-06
+      },
+      "final_absolute_difference": {
+        "density_l1": 2.4156387561286886e-07,
+        "width_ratio": 3.715819951732868e-08,
+        "chirp_ratio": 4.109789841777456e-09,
+        "core_scaled_velocity_rms": 8.827651617126456e-08,
+        "wing_mass_fraction": 1.219244231802761e-08
+      },
+      "prefix_grid_control_to_gain6": {
+        "common_samples": 121,
+        "end_gain_length": 6.0,
+        "final_classification_unchanged": true,
+        "maximum_absolute_difference": {
+          "density_l1": 1.7925791396386156e-06,
+          "width_ratio": 8.163469900068776e-12,
+          "chirp_ratio": 1.2229040002864622e-10,
+          "core_scaled_velocity_rms": 6.402687349261679e-06,
+          "wing_mass_fraction": 1.7205546094328783e-05
+        },
+        "final_absolute_difference": {
+          "density_l1": 1.0418659378416337e-06,
+          "width_ratio": 7.225775533470369e-12,
+          "chirp_ratio": 1.2229040002864622e-10,
+          "core_scaled_velocity_rms": 8.833026676627678e-09,
+          "wing_mass_fraction": 2.2842716067984946e-06
+        }
+      },
+      "checkpoint_phase_optimized_relative_field_l2": 2.4405927357046187e-06
+    },
+    "N20_width_plus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 2.3143489718676843e-06,
+        "width_ratio": 3.5432025313753e-08,
+        "chirp_ratio": 7.955518444013876e-08,
+        "core_scaled_velocity_rms": 2.518280999664691e-07,
+        "wing_mass_fraction": 1.1600157479260217e-06
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.5234634196217064e-07,
+        "width_ratio": 3.5432025313753e-08,
+        "chirp_ratio": 3.873983578372986e-09,
+        "core_scaled_velocity_rms": 5.4288148728425726e-08,
+        "wing_mass_fraction": 1.090456035507199e-08
+      },
+      "prefix_grid_control_to_gain6": {
+        "common_samples": 121,
+        "end_gain_length": 6.0,
+        "final_classification_unchanged": true,
+        "maximum_absolute_difference": {
+          "density_l1": 2.1564007290954257e-06,
+          "width_ratio": 1.6883161535474756e-11,
+          "chirp_ratio": 6.355116433098829e-11,
+          "core_scaled_velocity_rms": 7.516080572843916e-06,
+          "wing_mass_fraction": 2.2872989437624884e-05
+        },
+        "final_absolute_difference": {
+          "density_l1": 2.1564007290954257e-06,
+          "width_ratio": 1.6883161535474756e-11,
+          "chirp_ratio": 6.355116433098829e-11,
+          "core_scaled_velocity_rms": 5.282778602294733e-08,
+          "wing_mass_fraction": 1.2338658657962206e-06
+        }
+      },
+      "checkpoint_phase_optimized_relative_field_l2": 2.306916968930511e-06
+    },
+    "N5_width_minus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00019781963794736606,
+        "width_ratio": 1.80551750040836e-05,
+        "chirp_ratio": 4.803062380576151e-05,
+        "core_scaled_velocity_rms": 2.9218051376475357e-05,
+        "wing_mass_fraction": 6.110902217476382e-06
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.0557001750133473e-05,
+        "width_ratio": 1.80551750040836e-05,
+        "chirp_ratio": 9.877498147403685e-06,
+        "core_scaled_velocity_rms": 2.9218051376475357e-05,
+        "wing_mass_fraction": 4.406199993510728e-06
+      },
+      "prefix_grid_control_to_gain6": {
+        "common_samples": 121,
+        "end_gain_length": 6.0,
+        "final_classification_unchanged": true,
+        "maximum_absolute_difference": {
+          "density_l1": 3.250565145256762e-06,
+          "width_ratio": 3.7755576443032624e-11,
+          "chirp_ratio": 6.798073215463774e-11,
+          "core_scaled_velocity_rms": 3.859951105915187e-05,
+          "wing_mass_fraction": 4.124876583150999e-05
+        },
+        "final_absolute_difference": {
+          "density_l1": 3.250565145256762e-06,
+          "width_ratio": 3.698974460064619e-11,
+          "chirp_ratio": 1.0321965504545005e-11,
+          "core_scaled_velocity_rms": 3.594639468534541e-06,
+          "wing_mass_fraction": 3.822049240931867e-06
+        }
+      },
+      "checkpoint_phase_optimized_relative_field_l2": 1.130048611012746e-07
+    },
+    "N5_width_plus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 0.00018925526520059167,
+        "width_ratio": 1.6578570975367413e-05,
+        "chirp_ratio": 4.278528777179602e-05,
+        "core_scaled_velocity_rms": 2.212259948317758e-05,
+        "wing_mass_fraction": 5.336676317084141e-06
+      },
+      "final_absolute_difference": {
+        "density_l1": 2.3036249733551697e-05,
+        "width_ratio": 1.6578570975367413e-05,
+        "chirp_ratio": 8.757818895199776e-06,
+        "core_scaled_velocity_rms": 1.4676051678593296e-05,
+        "wing_mass_fraction": 4.14122530020673e-06
+      },
+      "prefix_grid_control_to_gain6": {
+        "common_samples": 121,
+        "end_gain_length": 6.0,
+        "final_classification_unchanged": true,
+        "maximum_absolute_difference": {
+          "density_l1": 3.620552761599699e-06,
+          "width_ratio": 3.526068326209497e-11,
+          "chirp_ratio": 6.016342979364708e-11,
+          "core_scaled_velocity_rms": 3.757272093791314e-05,
+          "wing_mass_fraction": 4.448961566557233e-05
+        },
+        "final_absolute_difference": {
+          "density_l1": 1.3475734201816303e-06,
+          "width_ratio": 3.254152503018304e-11,
+          "chirp_ratio": 1.486788470117517e-11,
+          "core_scaled_velocity_rms": 3.4336058801331254e-06,
+          "wing_mass_fraction": 2.6324243086895543e-06
+        }
+      },
+      "checkpoint_phase_optimized_relative_field_l2": 1.1034985689799345e-07
+    },
+    "N10_width_minus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 3.8018953774622555e-05,
+        "width_ratio": 1.309122234505189e-06,
+        "chirp_ratio": 3.0621833183586133e-06,
+        "core_scaled_velocity_rms": 2.9037174878057768e-06,
+        "wing_mass_fraction": 2.307756599901264e-06
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.039284817173452e-06,
+        "width_ratio": 1.309122234505189e-06,
+        "chirp_ratio": 2.8682682473579746e-07,
+        "core_scaled_velocity_rms": 2.328797337008764e-06,
+        "wing_mass_fraction": 3.5951621901026437e-07
+      },
+      "prefix_grid_control_to_gain6": {
+        "common_samples": 121,
+        "end_gain_length": 6.0,
+        "final_classification_unchanged": true,
+        "maximum_absolute_difference": {
+          "density_l1": 1.7450231715610692e-06,
+          "width_ratio": 1.4461765118767289e-11,
+          "chirp_ratio": 1.922542125498694e-10,
+          "core_scaled_velocity_rms": 1.858720716297127e-05,
+          "wing_mass_fraction": 2.7024121438960075e-05
+        },
+        "final_absolute_difference": {
+          "density_l1": 1.7108577816081494e-07,
+          "width_ratio": 3.643307877609914e-12,
+          "chirp_ratio": 1.922542125498694e-10,
+          "core_scaled_velocity_rms": 3.121918770237868e-06,
+          "wing_mass_fraction": 4.113655349741467e-06
+        }
+      },
+      "checkpoint_phase_optimized_relative_field_l2": 1.2106471399454731e-06
+    },
+    "N10_width_plus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 3.733896787058667e-05,
+        "width_ratio": 1.1526916962045775e-06,
+        "chirp_ratio": 2.7779272393502197e-06,
+        "core_scaled_velocity_rms": 2.3512576504494155e-06,
+        "wing_mass_fraction": 2.142328601285885e-06
+      },
+      "final_absolute_difference": {
+        "density_l1": 8.020074619622406e-06,
+        "width_ratio": 1.1526916962045775e-06,
+        "chirp_ratio": 2.5107164947080207e-07,
+        "core_scaled_velocity_rms": 1.911802268923389e-06,
+        "wing_mass_fraction": 3.1625392224207617e-07
+      },
+      "prefix_grid_control_to_gain6": {
+        "common_samples": 121,
+        "end_gain_length": 6.0,
+        "final_classification_unchanged": true,
+        "maximum_absolute_difference": {
+          "density_l1": 1.994900983758041e-06,
+          "width_ratio": 2.718736347162576e-11,
+          "chirp_ratio": 1.889604028804115e-10,
+          "core_scaled_velocity_rms": 1.702920472342745e-05,
+          "wing_mass_fraction": 3.13722547142653e-05
+        },
+        "final_absolute_difference": {
+          "density_l1": 2.3936488779616183e-07,
+          "width_ratio": 2.718736347162576e-11,
+          "chirp_ratio": 1.889604028804115e-10,
+          "core_scaled_velocity_rms": 4.64827357717296e-06,
+          "wing_mass_fraction": 2.747189499579256e-06
+        }
+      },
+      "checkpoint_phase_optimized_relative_field_l2": 1.1935586806260701e-06
+    }
+  },
+  "further_rate_time_window_controls": {
+    "N20_step_width_minus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.8536810948732198e-08,
+        "width_ratio": 7.016387471026064e-12,
+        "chirp_ratio": 1.1245671061033136e-11,
+        "core_scaled_velocity_rms": 2.4157806321502533e-09,
+        "wing_mass_fraction": 3.432754825785823e-11
+      },
+      "final_absolute_difference": {
+        "density_l1": 6.823537393538942e-09,
+        "width_ratio": 7.016387471026064e-12,
+        "chirp_ratio": 8.732459200189169e-12,
+        "core_scaled_velocity_rms": 5.268879916511728e-10,
+        "wing_mass_fraction": 3.2955050509798786e-14
+      }
+    },
+    "N20_step_width_plus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.4963463959550248e-08,
+        "width_ratio": 9.377387755193922e-12,
+        "chirp_ratio": 1.5846435275079784e-11,
+        "core_scaled_velocity_rms": 1.8169415516404441e-09,
+        "wing_mass_fraction": 1.2964291289141347e-11
+      },
+      "final_absolute_difference": {
+        "density_l1": 1.6762998969596307e-09,
+        "width_ratio": 2.4495960815329454e-12,
+        "chirp_ratio": 1.2983170094571506e-11,
+        "core_scaled_velocity_rms": 2.356284986869189e-10,
+        "wing_mass_fraction": 1.905543059155061e-14
+      }
+    },
+    "N20_window_width_minus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 8.91249400669647e-12,
+        "width_ratio": 2.542077659484221e-12,
+        "chirp_ratio": 3.665179271195029e-12,
+        "core_scaled_velocity_rms": 1.1074731675339913e-10,
+        "wing_mass_fraction": 2.542617571837328e-14
+      },
+      "final_absolute_difference": {
+        "density_l1": 3.294333881208311e-12,
+        "width_ratio": 2.459810133359497e-12,
+        "chirp_ratio": 3.665179271195029e-12,
+        "core_scaled_velocity_rms": 1.2612892501262518e-13,
+        "wing_mass_fraction": 1.213461561328579e-14
+      }
+    },
+    "N20_window_width_plus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.0298807813502453e-11,
+        "width_ratio": 2.80064860191942e-12,
+        "chirp_ratio": 4.557687560691193e-12,
+        "core_scaled_velocity_rms": 1.1707782708808914e-10,
+        "wing_mass_fraction": 1.8523029145939025e-14
+      },
+      "final_absolute_difference": {
+        "density_l1": 2.633083855119178e-12,
+        "width_ratio": 2.80064860191942e-12,
+        "chirp_ratio": 4.557687560691193e-12,
+        "core_scaled_velocity_rms": 2.254988188364615e-13,
+        "wing_mass_fraction": 1.0901071685441341e-14
+      }
+    }
+  },
+  "propagated_prefix_controls": {
+    "N20_width_minus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.2156916671252072e-08,
+        "width_ratio": 3.33129079876926e-11,
+        "chirp_ratio": 1.2229051105094868e-10,
+        "core_scaled_velocity_rms": 4.242077144092117e-09,
+        "wing_mass_fraction": 1.637105082505602e-10
+      },
+      "final_absolute_difference": {
+        "density_l1": 2.8334843369184903e-11,
+        "width_ratio": 1.4143020088397407e-11,
+        "chirp_ratio": 9.646727860967985e-13,
+        "core_scaled_velocity_rms": 2.8176958525747905e-10,
+        "wing_mass_fraction": 2.4431713222830553e-15
+      }
+    },
+    "N20_width_plus": {
+      "common_samples": 121,
+      "end_gain_length": 12.0,
+      "final_classification_unchanged": true,
+      "maximum_absolute_difference": {
+        "density_l1": 1.1712593481899569e-08,
+        "width_ratio": 2.609035210099364e-11,
+        "chirp_ratio": 6.355205250940799e-11,
+        "core_scaled_velocity_rms": 4.3208048421724404e-09,
+        "wing_mass_fraction": 9.230276550479069e-11
+      },
+      "final_absolute_difference": {
+        "density_l1": 7.670788307930637e-10,
+        "width_ratio": 6.371569938323773e-12,
+        "chirp_ratio": 4.225730876328271e-12,
+        "core_scaled_velocity_rms": 7.114684495300623e-11,
+        "wing_mass_fraction": 5.189050537442991e-15
+      }
+    },
+    "fit_change_from_16384_to_8192_prefix": {
+      "decay_per_gain_length": 2.2066433125189633e-09,
+      "frequency_per_gain_length": -7.852885564041401e-10,
+      "relative_joint_rms": 1.533801095131976e-10
+    }
+  },
+  "caveat": "Absolute changes in specified observables. No claim of whole-field/edge-profile convergence or global basin."
+}

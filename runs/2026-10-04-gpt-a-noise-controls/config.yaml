@@ -1,0 +1,8 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_noise_controls.jl
+seed: 20261004
+checks:
+- directional count derivatives
+- direct transverse-space and beat-phase reservoir contraction

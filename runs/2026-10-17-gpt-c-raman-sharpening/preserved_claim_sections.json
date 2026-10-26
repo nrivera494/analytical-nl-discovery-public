@@ -1,0 +1,30 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-raman-sharpening",
+  "claim": "C-20261016-claude-a-02-raman-transfer-excess-law.md",
+  "original_sections": {
+    "Statement": {
+      "sha256": "efdf1d26c0a15a220e945b5388e21894c9e5975a64c9b82c0d148d5b0931bc2e",
+      "bytes": 6625
+    },
+    "Derivation": {
+      "sha256": "2bf06da6a6574f41befc9716e29d318f9566e2c67e7a668d9e6293a9dea93b54",
+      "bytes": 2690
+    }
+  },
+  "purpose": "Verify that the submitted Statement and Derivation remain byte-for-byte unchanged when adding the independent sharpening section.",
+  "verified_after_sharpening": {
+    "Statement": {
+      "sha256": "efdf1d26c0a15a220e945b5388e21894c9e5975a64c9b82c0d148d5b0931bc2e",
+      "bytes": 6625,
+      "unchanged": true
+    },
+    "Derivation": {
+      "sha256": "2bf06da6a6574f41befc9716e29d318f9566e2c67e7a668d9e6293a9dea93b54",
+      "bytes": 2690,
+      "unchanged": true
+    }
+  }
+}

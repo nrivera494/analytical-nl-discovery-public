@@ -1,0 +1,27 @@
+{
+ "note": "Units: t in ps, z in m, power in W, frequencies in rad/ps. Toy three-mode parabolic-fibre model (HG00, HG10, HG01; exact HG overlaps, S_0000 = 1). Declared reductions: scalar field, Raman tensor equal to the Kerr tensor (isotropic), fixed overlaps, toy group spacing dbeta = 500 /m (physical 5519 /m) so that dbeta*L_NL = 50, beta2 = 0.1 ps^2/m (6x silica) so that W_t = t_c^2/(beta2 L_NL) = 0.25 at t_c = 50 fs. L_NL = 1/(gamma P_tot) = 0.1 m.",
+ "base": {
+  "N": 4096, "dt_ps": 0.004,
+  "gamma_perWm": 0.001, "fR": 0.18, "tau1_ps": 0.0122, "tau2_ps": 0.032,
+  "omega0_radps": 1770.4, "dbeta_perm": 500.0, "beta2_ps2perm": 0.1,
+  "b1_psperm": 0.0, "s": 0, "lam": 1.0, "Dd_perm": 30.0
+ },
+ "P1": {
+  "seed": 11, "R": 4, "powers_W": [4000, 3000, 3000], "sigma_radps": [30, 20, 20], "centre_radps": [0, 0, 0],
+  "nsteps": 300, "dz_m": 0.0002,
+  "cases": [[1.0, 0, 0.0], [1.0, 1, 0.0], [1.0, 1, 0.05], [0.5, 1, 0.05]]
+ },
+ "P2": {
+  "a_symmetric_energy_shock": {"seed": 21, "s": 1, "photon_symmetric": false, "powers_W": [4000, 3000, 3000],
+     "sigma_radps": [40, 15, 15], "centre_radps": [0, 0, 0], "R": 128, "batches": 8, "nsteps": 5, "dz_m": 0.0002},
+  "b_symmetric_photon_shock": {"seed": 22, "s": 1, "photon_symmetric": true, "powers_W": [4000, 3000, 3000],
+     "sigma_radps": [40, 15, 15], "centre_radps": [0, 0, 0], "R": 128, "batches": 8, "nsteps": 5, "dz_m": 0.0002},
+  "c_centroid_offset": {"seed": 23, "s": 0, "photon_symmetric": false, "powers_W": [4000, 3000, 3000],
+     "sigma_radps": [20, 20, 20], "centre_radps": [-5, 5, 5], "R": 128, "batches": 2, "nsteps": 5, "dz_m": 0.0002}
+ },
+ "P3": {
+  "seed": 31, "R_base": 16, "powers_W": [4000, 3000, 3000], "sigma_radps": [20, 20, 20], "centre_radps": [0, 0, 0],
+  "nsteps": 1000, "dz_m": 0.0002, "nsave": 10,
+  "lams": [-1.0, -0.5, 0.0, 0.5, 1.0], "svals": [0, 1]
+ }
+}

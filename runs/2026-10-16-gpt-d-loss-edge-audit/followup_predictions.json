@@ -1,0 +1,325 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": {
+    "z75-sourced": {
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9961169228629613,
+          "lambda_um": 3.5890422536354674
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9815103665387994,
+          "lambda_um": 3.7195680536468774
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.9562689120775861,
+          "lambda_um": 3.79120815446706
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.9220817966919991,
+          "lambda_um": 3.837710933897049
+        }
+      ],
+      "optima": {
+        "3.3": {
+          "eta": 0.997655945508914,
+          "L_m": 1.4500000000000002,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9948367150044254,
+          "L_m": 2.0500000000000003,
+          "boundary": false
+        },
+        "3.5": {
+          "eta": 0.9884725796222842,
+          "L_m": 2.9000000000000004,
+          "boundary": false
+        },
+        "3.6": {
+          "eta": 0.9739101188075727,
+          "L_m": 4.2250000000000005,
+          "boundary": false
+        },
+        "3.7": {
+          "eta": 0.9398891742437242,
+          "L_m": 6.325,
+          "boundary": false
+        }
+      }
+    },
+    "z75-cubic": {
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9872222826907425,
+          "lambda_um": 3.7536943224541566
+        },
+        {
+          "z": 4,
+          "N_ratio": 0.9138974418758044,
+          "lambda_um": 3.9444412633629655
+        },
+        {
+          "z": 6,
+          "N_ratio": 0.7836964260638477,
+          "lambda_um": 4.023314728963829
+        },
+        {
+          "z": 8,
+          "N_ratio": 0.6408714576116464,
+          "lambda_um": 4.054008659911949
+        }
+      ],
+      "optima": {
+        "3.3": {
+          "eta": 0.9973175774594895,
+          "L_m": 1.075,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9945257431398318,
+          "L_m": 1.375,
+          "boundary": false
+        },
+        "3.5": {
+          "eta": 0.988910206850898,
+          "L_m": 1.725,
+          "boundary": false
+        },
+        "3.6": {
+          "eta": 0.9776944850856718,
+          "L_m": 2.225,
+          "boundary": false
+        },
+        "3.7": {
+          "eta": 0.9554156830178167,
+          "L_m": 2.825,
+          "boundary": false
+        }
+      }
+    },
+    "z75-sampled": {
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 0.9950555206102829,
+          "lambda_um": 3.5887778805813335
+        }
+      ],
+      "optima": {
+        "3.3": {
+          "eta": 0.9972307202664559,
+          "L_m": 1.4187500000000002,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9937573829770316,
+          "L_m": 1.9875,
+          "boundary": false
+        },
+        "3.5": {
+          "eta": 0.9493066585987133,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.6": {
+          "eta": 0.40587477964054436,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.7": {
+          "eta": 0.02662376333538265,
+          "L_m": 2.0,
+          "boundary": true
+        }
+      }
+    },
+    "z75-lossless": {
+      "planes": [
+        {
+          "z": 2,
+          "N_ratio": 1.0,
+          "lambda_um": 3.590095088608377
+        }
+      ],
+      "optima": {
+        "3.3": {
+          "eta": 0.999971777226998,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.4": {
+          "eta": 0.9987236247617095,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.5": {
+          "eta": 0.9555292868864143,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.6": {
+          "eta": 0.4187610607765155,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.7": {
+          "eta": 0.02820548482085017,
+          "L_m": 2.0,
+          "boundary": true
+        }
+      }
+    }
+  },
+  "rate_cases": [
+    {
+      "run_id": "2026-10-16-gpt-d-rate30",
+      "T_fs": 30,
+      "L_m": 0.004114644490051397,
+      "Gordon_initial_rate": 21.05509823581237,
+      "full_initial_rate": 32.48368480050748,
+      "Gordon_shift": 0.08660954857396064
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate50",
+      "T_fs": 50,
+      "L_m": 0.011429568027920552,
+      "Gordon_initial_rate": 2.7287407313612815,
+      "full_initial_rate": 3.431226819097375,
+      "Gordon_shift": 0.031185126571017463
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate80",
+      "T_fs": 80,
+      "L_m": 0.02925969415147661,
+      "Gordon_initial_rate": 0.41637279226093804,
+      "full_initial_rate": 0.45576815270204013,
+      "Gordon_shift": 0.012182452044044112
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate120",
+      "T_fs": 120,
+      "L_m": 0.06583431184082235,
+      "Gordon_initial_rate": 0.08224647748364207,
+      "full_initial_rate": 0.0855447062170981,
+      "Gordon_shift": 0.005414543747747302
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate200",
+      "T_fs": 200,
+      "L_m": 0.18287308844672884,
+      "Gordon_initial_rate": 0.010659143481880006,
+      "full_initial_rate": 0.01080902555309329,
+      "Gordon_shift": 0.00194925797813994
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate300",
+      "T_fs": 300,
+      "L_m": 0.41146444900513973,
+      "Gordon_initial_rate": 0.002105509823581237,
+      "full_initial_rate": 0.0021185593362850765,
+      "Gordon_shift": 0.000866339968979446
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-rate500",
+      "T_fs": 500,
+      "L_m": 1.142956802792055,
+      "Gordon_initial_rate": 0.0002728740731361283,
+      "full_initial_rate": 0.0002734803254362381,
+      "Gordon_shift": 0.0003118829579307203
+    }
+  ],
+  "n2_sensitivity": [
+    {
+      "n2_m2_W": 1.89e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 0.6561000000000003,
+      "retuned_fundamental_N_ratio": 1.111111111111111,
+      "retuned_initial_rate_ratio": 1.0000000000000002,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 486.38319221845063,
+        "lambda_inf_um": 3.87277273854242,
+        "w_eff": 11.213753392510787,
+        "alpha_inf": 0.03617523909885181,
+        "terminal_condition_ratio": 0.9824101683540183
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509412
+      }
+    },
+    {
+      "n2_m2_W": 2.1e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 1.0,
+      "retuned_fundamental_N_ratio": 1.0,
+      "retuned_initial_rate_ratio": 1.0,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509409
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509409
+      }
+    },
+    {
+      "n2_m2_W": 2.31e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 1.4640999999999995,
+      "retuned_fundamental_N_ratio": 0.9090909090909093,
+      "retuned_initial_rate_ratio": 1.0000000000000004,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 477.28635702327716,
+        "lambda_inf_um": 3.9465858170695376,
+        "w_eff": 11.048830113765232,
+        "alpha_inf": 0.056411677269645556,
+        "terminal_condition_ratio": 0.9820248346121723
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509402
+      }
+    },
+    {
+      "n2_m2_W": 5.4e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 43.72178259058726,
+      "retuned_fundamental_N_ratio": 0.38888888888888895,
+      "retuned_initial_rate_ratio": 1.000000000000001,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 440.2736865526189,
+        "lambda_inf_um": 4.278365082542198,
+        "w_eff": 10.334964141182695,
+        "alpha_inf": 0.3439248912622635,
+        "terminal_condition_ratio": 0.9806489401739323
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429117274,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.982620574052494
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+run_id: 2026-10-16-gpt-d-z75-fission
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+claim: C-20261016-claude-interactive.6-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+implementation: independent.py (auditor Python RK4IP)
+hardware: COECIS-G3FLW49YGQ
+wall_time_s: 140.45021204199998
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-d-z75-fission

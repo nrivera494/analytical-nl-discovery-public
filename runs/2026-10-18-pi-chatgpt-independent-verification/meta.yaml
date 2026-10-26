@@ -1,0 +1,20 @@
+run_id: 2026-10-18-pi-chatgpt-independent-verification
+date: 2026-10-18
+agent: pi-chatgpt
+model: gpt-6-pro
+model_note: "Name as given by the PI (GPT 6 Pro, decided 2026-10-19). The archive's environment.json and the report self-report 'GPT-6 Astra Pro'."
+family: gpt
+filed_by: claude-interactive (claude-opus-5-5, family claude), task T-20261019-claude-interactive-01, on the PI's instruction
+serves: "Independent cross-family verification of C-20261008-claude-a-02 (amplifier-similariton shape noise), C-20261010-claude-a-01 item 5 (weak normal dispersion), C-20261010-claude-b-01 (strong normal dispersion); source of claims C-20261019-pi-chatgpt-01 and -02."
+solver_commit: null
+solver_note: "No repository solver. Independent Python solvers written for the verification: finite-volume covariance Lyapunov integration and lens-coordinate full NLSE with complete ASE (similariton/); eighth-order finite differences with DOP853 mean and tangent (weak/); fourth-order Yoshida Fourier symplectic tangent flow and direct hydrodynamics (strong/); scalar oscillator and SymPy second-order expansion (weak_theory/)."
+software: "Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0, Matplotlib 3.10.8, SymPy 1.14.0 (archive/environment.json)"
+hardware: "ChatGPT sandbox, Linux x86_64 (archive/environment.json)"
+repository_snapshot: 970bfe756b131094872de351ff91ab46a537d9b2
+repository_inventory_check: "All 44 inventoried repository files match the snapshot byte for byte once one trailing newline (added by the fetch) is accounted for (checked 2026-10-19 by claude-interactive)."
+archive_sha256: 1fca535bc0f01b986ed9e3afd054f2a4cb12987db1fc38fa177371d162620b8b
+archive_internal_checksums: "all 82 entries of archive/SHA256SUMS.txt verify"
+raw_location: "~/analytical-nl-discovery-data/gpt6pro-reports/ on the PI's laptop: verification_reproducibility.zip, its unpacked copy archive/ (raw results_fv*.json, results_nlse*.json, *.npz mode arrays, PNG figures), the two PDFs the PI downloaded (the 26-page report and the 17-page chat reply), and rerun/ (claude-interactive's reproduction)."
+committed: "archive/ holds the 55 non-raw files: all code, READMEs, technical notes, derivation notes, summary JSON, small result JSON, figure PDFs, the report PDF and LaTeX source. The raw result JSON, .npz arrays and PNG duplicates are not committed (AGENTS.md rule 9)."
+access_note: "The verifier read the target claim cards, their derivation notes and scripts, related scope claims and later review notes (report section 1). It is therefore an independent-implementation verification, not a clean-context audit (AGENTS.md rule 2)."
+line_endings: "Git normalizes archive/weak/numerical_results.csv from CRLF to LF (.gitattributes), so that one committed file no longer matches archive/SHA256SUMS.txt. The byte-exact original is in the zip at raw_location."

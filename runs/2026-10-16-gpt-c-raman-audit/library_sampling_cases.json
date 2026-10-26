@@ -1,0 +1,36 @@
+[
+  {
+    "id": "library_python_sampled_raw_N4_T200_zN3",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 1E-10,
+    "raman": "bw",
+    "shock": true,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "raman_sampling": "sampled_raw"
+  },
+  {
+    "id": "library_python_sampled_normalized_N4_T200_zN3",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 1E-10,
+    "raman": "bw",
+    "shock": true,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "raman_sampling": "sampled_normalized"
+  }
+]

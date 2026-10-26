@@ -1,0 +1,216 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-11",
+  "batches": [
+    {
+      "candidate": 1,
+      "queries": [
+        "\"Momentum squeezing of quantum optical pulses\" pdf",
+        "\"normal dispersion\" \"squeezing\" \"scaling\" Kerr quantum",
+        "\"wave breaking\" \"quantum\" \"squeezing\" covariance",
+        "\"semiclassical\" \"squeezing\" defocusing nonlinear Schrodinger"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "candidate": 1,
+      "queries": [
+        "quantum noise normal dispersion fibre wave breaking minimum quadrature eigenvalue hydrodynamic",
+        "quantum fluctuations dispersive shock waves Bogoliubov squeezing expanding condensate",
+        "Raman limit squeezing thermal noise normal dispersion pulses asymptotic",
+        "\"033818\" \"Fini\" filetype:pdf"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "candidate": 2,
+      "queries": [
+        "\"Analytical dynamics of optical similaritons\" Wabnitz",
+        "\"similariton\" \"noise\" \"6\" \"figure\"",
+        "\"similariton\" \"shape\" \"Legendre\" noise",
+        "\"parabolic\" \"amplifier\" \"quadrature\" \"gain\" noise"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "candidate": 2,
+      "queries": [
+        "\"Wabnitz\" \"Analytical Dynamics\" \"2007\" pdf",
+        "\"Wabnitz\" \"4431461\" HAL",
+        "\"self-similar\" \"timing jitter\" amplifier noise quantum",
+        "\"similariton\" \"rank one\" covariance"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "candidate": 3,
+      "queries": [
+        "Joneckis Shapiro 1993 quantum propagation Kerr medium 10 1102",
+        "\"K\u00e4rtner\" \"Joneckis\" \"Haus\" \"1992\" squeezing",
+        "\"Kerr\" \"squeezing\" \"weak dispersion\" square root",
+        "\"squeezing\" \"parity\" \"spectral filter\""
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "candidate": 2,
+      "queries": [
+        "\"McKinstrie\" \"Santhanam\" \"Agrawal\" \"2002\" \"640\" pdf",
+        "\"Grigoryan\" \"Menyuk\" \"Mu\" \"1999\" arbitrary pulse",
+        "\"similariton\" \"noise figure\" \"6n\"",
+        "\"amplifier\" \"similariton\" \"compressed timing\""
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "candidate": 3,
+      "queries": [
+        "Levandovsky Vasilyev Kumar 1999 24 43 squeezing spectral filtering pdf",
+        "\"parity\" \"nonnegative\" \"Rayleigh quotient\" bound",
+        "\"spectral filtering\" \"squeezing\" \"even\" Levandovsky",
+        "\"weak normal dispersion\" squeezing"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "candidate": 2,
+      "date": "2026-10-11",
+      "queries": [
+        "\"Analytical Dynamics of Optical Similaritons\" filetype:pdf",
+        "Wabnitz 2007 similariton linear perturbation eigenvalue decay one third"
+      ]
+    },
+    {
+      "candidate": 3,
+      "date": "2026-10-11",
+      "queries": [
+        "\"Generation and manipulation of squeezed states\" \"10.1088\"",
+        "\"Classical and quantum dynamics of a pulse\" \"10.1088\"",
+        "\"Kitagawa\" \"Yamamoto\" \"3974\" squeezing",
+        "\"Analytical solution\" \"Boivin\" \"K\u00e4rtner\" \"240\""
+      ]
+    },
+    {
+      "candidate": 4,
+      "date": "2026-10-11",
+      "queries": [
+        "\"Manakov\" \"squeezing\" Rand Steiglitz Prucnal 2005",
+        "\"multimode\" \"soliton\" \"quantum noise\" \"overlap\"",
+        "\"vector soliton\" \"spectral filtering\" squeezing unequal",
+        "\"2412.09208\" squeezing"
+      ]
+    },
+    {
+      "candidate": 2,
+      "date": "2026-10-11",
+      "headlines": [
+        "shape rank one",
+        "phase-energy locking"
+      ],
+      "queries": [
+        "\"similariton\" \"phase\" \"energy\" \"correlation\" noise",
+        "\"similariton\" \"rank-one\" noise",
+        "\"parabolic pulse\" \"phase noise\" amplifier quantum",
+        "\"Gordon\" \"Mollenauer\" 1990 phase noise amplitude fluctuations Kerr"
+      ]
+    }
+  ],
+  "earlier_record": {
+    "agent": "gpt-a",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "note": "Independent bounded searches. Source access and per-statement mapping are in the audit report. Includes saved resumed-session queries; the checkpoint report records additional initial centroid queries.",
+    "searches": [
+      {
+        "candidate": 1,
+        "queries": [
+          "\"Momentum squeezing of quantum optical pulses\" pdf",
+          "\"normal dispersion\" \"squeezing\" \"scaling\" Kerr quantum",
+          "\"wave breaking\" \"quantum\" \"squeezing\" covariance",
+          "\"semiclassical\" \"squeezing\" defocusing nonlinear Schrodinger"
+        ],
+        "date": "2026-10-11"
+      },
+      {
+        "candidate": 1,
+        "queries": [
+          "quantum noise normal dispersion fibre wave breaking minimum quadrature eigenvalue hydrodynamic",
+          "quantum fluctuations dispersive shock waves Bogoliubov squeezing expanding condensate",
+          "Raman limit squeezing thermal noise normal dispersion pulses asymptotic",
+          "\"033818\" \"Fini\" filetype:pdf"
+        ],
+        "date": "2026-10-11"
+      },
+      {
+        "candidate": 2,
+        "queries": [
+          "\"Analytical dynamics of optical similaritons\" Wabnitz",
+          "\"similariton\" \"noise\" \"6\" \"figure\"",
+          "\"similariton\" \"shape\" \"Legendre\" noise",
+          "\"parabolic\" \"amplifier\" \"quadrature\" \"gain\" noise"
+        ],
+        "date": "2026-10-11"
+      },
+      {
+        "candidate": 2,
+        "queries": [
+          "\"Wabnitz\" \"Analytical Dynamics\" \"2007\" pdf",
+          "\"Wabnitz\" \"4431461\" HAL",
+          "\"self-similar\" \"timing jitter\" amplifier noise quantum",
+          "\"similariton\" \"rank one\" covariance"
+        ],
+        "date": "2026-10-11"
+      },
+      {
+        "candidate": 3,
+        "queries": [
+          "Joneckis Shapiro 1993 quantum propagation Kerr medium 10 1102",
+          "\"K\u00e4rtner\" \"Joneckis\" \"Haus\" \"1992\" squeezing",
+          "\"Kerr\" \"squeezing\" \"weak dispersion\" square root",
+          "\"squeezing\" \"parity\" \"spectral filter\""
+        ],
+        "date": "2026-10-11"
+      },
+      {
+        "candidate": 2,
+        "queries": [
+          "\"McKinstrie\" \"Santhanam\" \"Agrawal\" \"2002\" \"640\" pdf",
+          "\"Grigoryan\" \"Menyuk\" \"Mu\" \"1999\" arbitrary pulse",
+          "\"similariton\" \"noise figure\" \"6n\"",
+          "\"amplifier\" \"similariton\" \"compressed timing\""
+        ],
+        "date": "2026-10-11"
+      },
+      {
+        "candidate": 3,
+        "queries": [
+          "Levandovsky Vasilyev Kumar 1999 24 43 squeezing spectral filtering pdf",
+          "\"parity\" \"nonnegative\" \"Rayleigh quotient\" bound",
+          "\"spectral filtering\" \"squeezing\" \"even\" Levandovsky",
+          "\"weak normal dispersion\" squeezing"
+        ],
+        "date": "2026-10-11"
+      },
+      {
+        "candidate": 2,
+        "date": "2026-10-11",
+        "queries": [
+          "\"Analytical Dynamics of Optical Similaritons\" filetype:pdf",
+          "Wabnitz 2007 similariton linear perturbation eigenvalue decay one third"
+        ]
+      },
+      {
+        "candidate": 3,
+        "date": "2026-10-11",
+        "queries": [
+          "\"Generation and manipulation of squeezed states\" \"10.1088\"",
+          "\"Classical and quantum dynamics of a pulse\" \"10.1088\"",
+          "\"Kitagawa\" \"Yamamoto\" \"3974\" squeezing",
+          "\"Analytical solution\" \"Boivin\" \"K\u00e4rtner\" \"240\""
+        ]
+      }
+    ]
+  }
+}

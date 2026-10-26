@@ -1,0 +1,17 @@
+# Run 2026-10-08-claude-a-amp-sim-checks: symbolic and numeric checks plus frozen predictions for
+# C-20261008-claude-a-01 (collective coordinates) and C-20261008-claude-a-02 (shape modes, spectral covariance, matched LO).
+commands:
+  - "~/agent-work/venv/bin/python symbolic.py ."
+  - "~/agent-work/venv/bin/python numeric.py ."
+  - "~/agent-work/venv/bin/python figure.py   # amp_sim_noise.png"
+python: "3.9 (agent-work venv): sympy 1.14.0, numpy 2.0.2, scipy 1.13.1"
+units: "x = T/T0, zeta = z/sqrt(L_D L_NL), eps0 = sqrt(L_NL/L_D), Gam = g sqrt(L_D L_NL), N0 = (4/3) P0 T0/(hbar w0)"
+noise_convention: "symmetric (Wigner); ASE <f f*>_sym = Gam (n_sp - 1/2)/n0; variances = I_in + (2 n_sp - 1) I_ase"
+ode: {method: DOP853, rtol: 1.0e-11, atol: 1.0e-12, grid_points: 4001}
+l_max: 4
+cases:
+  main: {Gam: 4.242640687119285, adot0: 0.0, gL: [2, 4, 6]}          # Gam = sqrt(18): launch width = asymptotic width constant
+  heldout: {Gam: 1.0, adot0: 0.0, gL: [2, 4, 6]}
+  asymptotic_launch: {Gam: 4.242640687119285, adot0: 1.4142135623730951, gL: [2, 4, 6, 9, 12, 15, 18]}
+lyapunov_launches: [[0.3, 0.0], [1.0, 0.0], [4.2426, 0.0], [10.0, 0.0], [4.2426, -1.0], [1.0, 2.0]]
+readout_check_seeds: [0, 1, 2, 3]

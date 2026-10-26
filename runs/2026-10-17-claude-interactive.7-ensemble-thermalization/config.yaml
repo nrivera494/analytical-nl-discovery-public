@@ -1,0 +1,13 @@
+# Run 2026-10-17-claude-interactive.7-ensemble-thermalization: ensembles over disorder realizations and launches (predictions.md, E1-E5).
+# Resonant GRIN model, exact Hermite-Gauss Kerr tensor, K = 5 (15 modes), N = 1, z in L_NL, RK4 dz = 0.05, z_max = 4000, window [1000, 4000].
+# Disorder: original white (Brownian) intra-group model, sigma = 0.3 (nominal L_d = 1/sigma^2 ~ 11 L_NL), or none (Kerr only).
+ens_model.py: "shared integrator, launches (deph, focused, G1 + vacuum seed), white and piecewise-constant disorder; reproduces the reference trajectory of runs/2026-10-17-claude-interactive.7-grin-thermalization-visual bit for bit"
+run_thermalization_ensembles.py: "E1 (dis_seed 101-112), E2 (phase_seed 201-212), E3 (Kerr only), E4 (LP11-only), E5 (centre-focused); output ensemble_thermalization.jsonl"
+summarize.py: "summary.json, summary.txt: ensemble means and spreads, mechanical checks of T1-T5 and Q6"
+posthoc_dirichlet_tail.py: "POST HOC: Dirichlet tail-fraction shape test per run (posthoc_dirichlet_tail.json)"
+fig_ensembles.py: "fig_ensembles.png"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore run_thermalization_ensembles.py | tee -a run_thermalization_ensembles_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore summarize.py"
+  - "~/agent-work/venv/bin/python -W ignore posthoc_dirichlet_tail.py"
+  - "~/agent-work/venv/bin/python -W ignore fig_ensembles.py"

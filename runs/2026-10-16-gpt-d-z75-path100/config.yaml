@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-10-16-gpt-d-z75-path100",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "Z75",
+    "launch_um": 3.6
+  },
+  "grid": {
+    "n": 8192,
+    "dt": 0.003
+  },
+  "propagation": {
+    "T": 0.1,
+    "L": 30,
+    "h": 0.002,
+    "cutoffs": [
+      3.62,
+      3.65
+    ],
+    "save_every": 0.15
+  }
+}

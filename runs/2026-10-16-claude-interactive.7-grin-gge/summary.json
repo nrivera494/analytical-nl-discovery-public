@@ -1,0 +1,85 @@
+{
+ "note": "Exact GRIN tensor (K=5), no disorder. Focused-launch GGE predictions written 16:20:03 EDT, before the focused runs (started after). Random-launch observations are from run 2026-10-16-claude-interactive.7-grin-lyapunov; their GGE values were computed after those runs (post hoc).",
+ "rows": [
+  {
+   "Eprime": 0.6,
+   "RJ_N0": 0.7393,
+   "focused": {
+    "z_h": 2.11,
+    "GGE_pred": 0.6947,
+    "linear_pred": 0.707,
+    "observed": 0.6997,
+    "se": 0.0041,
+    "lyapunov": 0.0091
+   },
+   "random": {
+    "z_h": -2.84,
+    "GGE_post_hoc": 0.7525,
+    "linear_post_hoc": 0.7827,
+    "observed": 0.7316,
+    "se": 0.0061
+   },
+   "linear_slope": -1.242
+  },
+  {
+   "Eprime": 0.9,
+   "RJ_N0": 0.6089,
+   "focused": {
+    "z_h": 1.13,
+    "GGE_pred": 0.5869,
+    "linear_pred": 0.5884,
+    "observed": 0.5818,
+    "se": 0.0066,
+    "lyapunov": 0.0181
+   },
+   "random": {
+    "z_h": -2.9,
+    "GGE_post_hoc": 0.603,
+    "linear_post_hoc": 0.6613,
+    "observed": 0.6096,
+    "se": 0.0097
+   },
+   "linear_slope": -1.094
+  }
+ ],
+ "disorder_scan_focused_Ep0.6": [
+  {
+   "sigma": 0.03,
+   "L_d_over_LNL": 1111,
+   "mean_N0": 0.7138,
+   "se": 0.0116
+  },
+  {
+   "sigma": 0.1,
+   "L_d_over_LNL": 100,
+   "mean_N0": 0.745,
+   "se": 0.0036
+  },
+  {
+   "sigma": 0.3,
+   "L_d_over_LNL": 11,
+   "mean_N0": 0.7403,
+   "se": 0.0016
+  }
+ ],
+ "disorder_scan_note": "no disorder: 0.6997 (GGE 0.695); RJ 0.739; time average over z in [1000, 10000]",
+ "groups_1_4_launch_Ep0.9": [
+  {
+   "phases": "focused",
+   "z_h": 2.78,
+   "GGE_pred": 0.529,
+   "observed": 0.5351,
+   "se": 0.0058,
+   "RJ": 0.6089
+  },
+  {
+   "phases": "random",
+   "z_h": 1.28,
+   "GGE_pred": 0.5828,
+   "observed": 0.5768,
+   "se": 0.0099,
+   "RJ": 0.6089
+  }
+ ],
+ "groups_1_4_note": "launch screened for large |z_h| (grin_gge_screen.py); predictions grin_gge_predict3.json written 16:42:13 EDT before grin_gge_run3.py ran"
+}

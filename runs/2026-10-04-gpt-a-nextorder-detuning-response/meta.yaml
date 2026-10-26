@@ -1,0 +1,19 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-nextorder-detuning-response
+task: T-20261004-claude-interactive-07
+claim: C-20261004-gpt-a-01
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: 8cb0b5b
+analysis_commit: e190f01d5013aa781890098d5b4320a900d656ac
+prediction_commit: 8cb0b5b
+hardware: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-nextorder-detuning-response
+wall_time_seconds: 35.78867959976196
+julia_threads: 0
+blas_threads: 1
+fft_threads: 1
+randomness: none; deterministic equations and fixed phases
+status: completed

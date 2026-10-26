@@ -1,0 +1,811 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "E": 0.6,
+      "groups": [
+        1,
+        2
+      ],
+      "seed": 4101,
+      "aligned": false,
+      "held_out": false,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 1.0000000000000002,
+      "H": 0.4201807655082599,
+      "L": 0.31227741960882704,
+      "RJ": 0.7392857142857143,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.42183972910609946,
+      "shell_H_sd": 0.012306892450897512,
+      "shell_L_sd": 0.1222364430871533,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.7448323100299485,
+          "se": 4.6746410795921005e-05,
+          "effective_samples": 539792.8768093156,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.7449713563309848,
+          "se": 6.527076223803411e-05,
+          "effective_samples": 275493.6084477965,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.745014421894425,
+          "se": 9.178470685670358e-05,
+          "effective_samples": 138517.31938582583,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.7222053025603543,
+          "se": 0.0006194478514289655,
+          "effective_samples": 4714.299479278868,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.7196830546416996,
+          "se": 0.001375071537072718,
+          "effective_samples": 954.6354683947532,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.7203382605957542,
+          "se": 0.0028396770736676823,
+          "effective_samples": 227.41572588359583,
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "E": 0.6,
+      "groups": [
+        1,
+        2
+      ],
+      "seed": 4102,
+      "aligned": false,
+      "held_out": false,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 0.9999999999999999,
+      "H": 0.4105818682402883,
+      "L": 0.23207369497112773,
+      "RJ": 0.7392857142857143,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.42183972910609946,
+      "shell_H_sd": 0.012306892450897512,
+      "shell_L_sd": 0.1222364430871533,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.7528968159478079,
+          "se": 5.129009293535671e-05,
+          "effective_samples": 384439.8694504079,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.753182932358329,
+          "se": 7.20011976251565e-05,
+          "effective_samples": 193737.1981653615,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.7532425011729964,
+          "se": 0.00010172913125654612,
+          "effective_samples": 97103.1927922981,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.7486582514819553,
+          "se": 0.00022154762318045616,
+          "effective_samples": 25422.264447568818,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.7490393353268123,
+          "se": 0.00044238286586283744,
+          "effective_samples": 6275.780287202508,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.7505863513868934,
+          "se": 0.0008735660536250019,
+          "effective_samples": 1609.2962263644736,
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "E": 0.6,
+      "groups": [
+        1,
+        2
+      ],
+      "seed": 4103,
+      "aligned": false,
+      "held_out": false,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 1.0000000000000002,
+      "H": 0.47364974700225465,
+      "L": -0.019038067489066758,
+      "RJ": 0.7392857142857143,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.42183972910609946,
+      "shell_H_sd": 0.012306892450897512,
+      "shell_L_sd": 0.1222364430871533,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.6287174108481169,
+          "se": 0.003777496694002937,
+          "effective_samples": 153.72629396393427,
+          "resolved": false
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6244315067747832,
+          "se": 0.00659231430999824,
+          "effective_samples": 44.461317124463505,
+          "resolved": false
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6181109646746213,
+          "se": 0.008489989115026783,
+          "effective_samples": 19.307961862712425,
+          "resolved": false
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.6509665613899566,
+          "se": 0.014363444318014775,
+          "effective_samples": 25.442563129559517,
+          "resolved": false
+        },
+        {
+          "width": 0.1,
+          "mean": 0.7064706575629709,
+          "se": 0.03616163653559736,
+          "effective_samples": 2.7048706780696743,
+          "resolved": false
+        },
+        {
+          "width": 0.05,
+          "mean": 0.7595477407849217,
+          "se": 0.0007342731718431772,
+          "effective_samples": 1.0066626909968817,
+          "resolved": false
+        }
+      ]
+    },
+    {
+      "E": 0.6,
+      "groups": [
+        1,
+        2
+      ],
+      "seed": 4104,
+      "aligned": false,
+      "held_out": false,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 1.0,
+      "H": 0.41772159712087237,
+      "L": -0.41924025433004847,
+      "RJ": 0.7392857142857143,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.42183972910609946,
+      "shell_H_sd": 0.012306892450897512,
+      "shell_L_sd": 0.1222364430871533,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.7473343440216903,
+          "se": 4.658993510466955e-05,
+          "effective_samples": 522393.89550414967,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.7475569051020411,
+          "se": 6.524738959247552e-05,
+          "effective_samples": 266455.54876139195,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.7476061135232652,
+          "se": 9.224746486496606e-05,
+          "effective_samples": 133724.06218054867,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.7008000082474444,
+          "se": 0.0034475434687444096,
+          "effective_samples": 171.33546273239642,
+          "resolved": false
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6857643133518233,
+          "se": 0.010434810822202219,
+          "effective_samples": 22.766319485074963,
+          "resolved": false
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6568606221962183,
+          "se": 0.017414699295806076,
+          "effective_samples": 6.064323620791226,
+          "resolved": false
+        }
+      ]
+    },
+    {
+      "E": 0.6,
+      "groups": [
+        1,
+        2
+      ],
+      "seed": 4105,
+      "aligned": false,
+      "held_out": false,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 1.0000000000000002,
+      "H": 0.45106315817606496,
+      "L": -0.411096638171429,
+      "RJ": 0.7392857142857143,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.42183972910609946,
+      "shell_H_sd": 0.012306892450897512,
+      "shell_L_sd": 0.1222364430871533,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.6885181108640739,
+          "se": 0.0002041263709825755,
+          "effective_samples": 41914.44949519037,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6864591023116178,
+          "se": 0.000299508873920451,
+          "effective_samples": 19407.309605756865,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6860581645576012,
+          "se": 0.00042458947355364845,
+          "effective_samples": 9658.848242944388,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.6415162907147454,
+          "se": 0.006665205609467235,
+          "effective_samples": 30.08206604042171,
+          "resolved": false
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6491614957932968,
+          "se": 0.010168569388194588,
+          "effective_samples": 5.35073832494694,
+          "resolved": false
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6296847263889697,
+          "se": 0.004777533917932868,
+          "effective_samples": 1.2940571237136735,
+          "resolved": false
+        }
+      ]
+    },
+    {
+      "E": 0.6,
+      "groups": [
+        1,
+        2
+      ],
+      "seed": 4106,
+      "aligned": false,
+      "held_out": false,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 0.9999999999999999,
+      "H": 0.44742417400894113,
+      "L": 0.009028780671659277,
+      "RJ": 0.7392857142857143,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.42183972910609946,
+      "shell_H_sd": 0.012306892450897512,
+      "shell_L_sd": 0.1222364430871533,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.6973547195475296,
+          "se": 0.00015015624508676366,
+          "effective_samples": 75251.5062056653,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6959227280055484,
+          "se": 0.00021905805425753957,
+          "effective_samples": 35222.394364909655,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6957093088674933,
+          "se": 0.0003124656575819116,
+          "effective_samples": 17305.473254447505,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.7070199994947552,
+          "se": 0.0002813680633913712,
+          "effective_samples": 21157.45059982655,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.7060783618194009,
+          "se": 0.0005858236927522651,
+          "effective_samples": 4969.209843151812,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.7065161577473444,
+          "se": 0.0011665311462451618,
+          "effective_samples": 1245.889178403059,
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "E": 0.6,
+      "groups": [
+        1,
+        2
+      ],
+      "seed": 0,
+      "aligned": true,
+      "held_out": false,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 1.0000000000000002,
+      "H": 0.48743441264546383,
+      "L": 0.0,
+      "RJ": 0.7392857142857143,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.42183972910609946,
+      "shell_H_sd": 0.012306892450897512,
+      "shell_L_sd": 0.1222364430871533,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.6379772506766219,
+          "se": 0.007494963089518055,
+          "effective_samples": 1.2834121012502988,
+          "resolved": false
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6446012487969359,
+          "se": 6.757899053233299e-06,
+          "effective_samples": 1.0001496768003229,
+          "resolved": false
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6446060297582751,
+          "se": 1.993114791759827e-18,
+          "effective_samples": 1.0,
+          "resolved": false
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.6325558068263716,
+          "se": 0.011044349084015755,
+          "effective_samples": 1.5251097823315742,
+          "resolved": false
+        },
+        {
+          "width": 0.1,
+          "mean": 0.644597527087425,
+          "se": 1.119612876640841e-05,
+          "effective_samples": 1.0002736646894093,
+          "resolved": false
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6446060297582751,
+          "se": 1.0221609113910883e-17,
+          "effective_samples": 1.0000000000000004,
+          "resolved": false
+        }
+      ]
+    },
+    {
+      "E": 0.9,
+      "groups": [
+        1,
+        4
+      ],
+      "seed": 4201,
+      "aligned": false,
+      "held_out": true,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 0.9999999999999998,
+      "H": 0.4031510722397321,
+      "L": -0.2169090304505636,
+      "RJ": 0.6089285714285715,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.3857385641097851,
+      "shell_H_sd": 0.016421160289550134,
+      "shell_L_sd": 0.18334072407723512,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.5903028506962865,
+          "se": 0.00010293061981760912,
+          "effective_samples": 312252.14461143134,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.589725175029677,
+          "se": 0.0001454150165590483,
+          "effective_samples": 155342.3366228132,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5896838785686898,
+          "se": 0.00020541707120594232,
+          "effective_samples": 77631.01134422155,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.5844399272266632,
+          "se": 0.00028128566894061063,
+          "effective_samples": 42040.682886144365,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.5823756100926925,
+          "se": 0.0005665478007289151,
+          "effective_samples": 10146.018103544142,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5822524858246086,
+          "se": 0.0011166635185833485,
+          "effective_samples": 2536.678290609351,
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "E": 0.9,
+      "groups": [
+        1,
+        4
+      ],
+      "seed": 4202,
+      "aligned": false,
+      "held_out": true,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 0.9999999999999998,
+      "H": 0.4047801557899587,
+      "L": 0.16835376700358406,
+      "RJ": 0.6089285714285715,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.3857385641097851,
+      "shell_H_sd": 0.016421160289550134,
+      "shell_L_sd": 0.18334072407723512,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.5875486763187331,
+          "se": 0.00010889684146704536,
+          "effective_samples": 281878.302336495,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.5868335748346853,
+          "se": 0.0001545354835211625,
+          "effective_samples": 139770.814038658,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5865063838753011,
+          "se": 0.00021875338109178958,
+          "effective_samples": 69780.42558481709,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.5870272099949119,
+          "se": 0.0002488634981004543,
+          "effective_samples": 52414.73540387685,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.5857307213427325,
+          "se": 0.0004988163437143155,
+          "effective_samples": 13032.158488089173,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5845921761667823,
+          "se": 0.0010074989271420943,
+          "effective_samples": 3211.6254528108548,
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "E": 0.9,
+      "groups": [
+        1,
+        4
+      ],
+      "seed": 4203,
+      "aligned": false,
+      "held_out": true,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 0.9999999999999999,
+      "H": 0.38584668078255285,
+      "L": -0.17701324262241946,
+      "RJ": 0.6089285714285715,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.3857385641097851,
+      "shell_H_sd": 0.016421160289550134,
+      "shell_L_sd": 0.18334072407723512,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.6140808663625357,
+          "se": 7.297557896151229e-05,
+          "effective_samples": 544400.6475549645,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6142490818502951,
+          "se": 0.00010181590180677302,
+          "effective_samples": 278262.5706662367,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6142152714733032,
+          "se": 0.00014325385127566493,
+          "effective_samples": 140221.36402531498,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.6147630150542346,
+          "se": 0.00017007352265024787,
+          "effective_samples": 99435.23658790487,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.6150159595356562,
+          "se": 0.0003355546431270585,
+          "effective_samples": 25645.41551839663,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.6153366125845734,
+          "se": 0.0006635568871147146,
+          "effective_samples": 6496.016056336533,
+          "resolved": true
+        }
+      ]
+    },
+    {
+      "E": 0.9,
+      "groups": [
+        1,
+        4
+      ],
+      "seed": 4204,
+      "aligned": false,
+      "held_out": true,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 0.9999999999999997,
+      "H": 0.43145048704421285,
+      "L": 0.16579398035597742,
+      "RJ": 0.6089285714285715,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.3857385641097851,
+      "shell_H_sd": 0.016421160289550134,
+      "shell_L_sd": 0.18334072407723512,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.533454156387646,
+          "se": 0.0004531111118081244,
+          "effective_samples": 17569.712413932793,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.5306561924645006,
+          "se": 0.0006751766886266452,
+          "effective_samples": 7851.902908322795,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5295004273884627,
+          "se": 0.0009666312051398734,
+          "effective_samples": 3798.415273701392,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.534689770322027,
+          "se": 0.0010465026596773507,
+          "effective_samples": 3212.018202709455,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.5299744147453478,
+          "se": 0.0023148974714040696,
+          "effective_samples": 720.6767519173986,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5208194329832604,
+          "se": 0.0047186675032542015,
+          "effective_samples": 174.45788729159497,
+          "resolved": false
+        }
+      ]
+    },
+    {
+      "E": 0.9,
+      "groups": [
+        1,
+        4
+      ],
+      "seed": 0,
+      "aligned": true,
+      "held_out": true,
+      "agent": "gpt-b",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "N": 0.9999999999999999,
+      "H": 0.4352236191104563,
+      "L": 0.0,
+      "RJ": 0.6089285714285715,
+      "shell_samples": 2000000,
+      "shell_H_mean": 0.3857385641097851,
+      "shell_H_sd": 0.016421160289550134,
+      "shell_L_sd": 0.18334072407723512,
+      "H_only": [
+        {
+          "width": 0.2,
+          "mean": 0.5252124114502725,
+          "se": 0.0005963932744057493,
+          "effective_samples": 10043.180854258115,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.5228244628299783,
+          "se": 0.0008963179185487173,
+          "effective_samples": 4405.615322003027,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5218886134541117,
+          "se": 0.001285324667066009,
+          "effective_samples": 2124.701508534395,
+          "resolved": true
+        }
+      ],
+      "H_and_L": [
+        {
+          "width": 0.2,
+          "mean": 0.5392900866170482,
+          "se": 0.0013371707416646407,
+          "effective_samples": 2369.362134926309,
+          "resolved": true
+        },
+        {
+          "width": 0.1,
+          "mean": 0.535135007541127,
+          "se": 0.003046747097470165,
+          "effective_samples": 514.2475809530298,
+          "resolved": true
+        },
+        {
+          "width": 0.05,
+          "mean": 0.5325112915836173,
+          "se": 0.007009624621769543,
+          "effective_samples": 108.67085969670278,
+          "resolved": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+K=4 z=1 mm=-6.7 lam_gen_dB=-0.8 FN=1.000 cond_quad_dB=-2.5 cond_S=0.54
+K=4 z=2 mm=-11.4 lam_gen_dB=-1.6 FN=1.000 cond_quad_dB=-1.6 cond_S=1.20
+K=4 z=5 mm=-19.0 lam_gen_dB=-4.3 FN=1.000 cond_quad_dB=-0.4 cond_S=2.21
+K=4 z=10 mm=-25.1 lam_gen_dB=-8.0 FN=1.000 cond_quad_dB=-5.2 cond_S=2.43
+K=4 z=20 mm=-31.1 lam_gen_dB=-5.6 FN=1.000 cond_quad_dB=0.5 cond_S=3.83
+K=4 z=50 mm=-38.8 lam_gen_dB=-9.7 FN=1.000 cond_quad_dB=-2.1 cond_S=4.40
+K=4 z=100 mm=-45.5 lam_gen_dB=-15.5 FN=1.000 cond_quad_dB=22.1 cond_S=7.99
+K=4 z=200 mm=-54.3 lam_gen_dB=-10.1 FN=1.000 cond_quad_dB=19.7 cond_S=8.24
+K=4 z=300 mm=-91.6 lam_gen_dB=-25.9 FN=1.000 cond_quad_dB=40.8 cond_S=13.77
+K=4 z=400 mm=-112.7 lam_gen_dB=-24.4 FN=1.000 cond_quad_dB=79.2 cond_S=19.77
+K=6 z=1 mm=-6.6 lam_gen_dB=-0.8 FN=1.000 cond_quad_dB=-2.6 cond_S=0.52
+K=6 z=2 mm=-11.2 lam_gen_dB=-1.2 FN=1.000 cond_quad_dB=-1.7 cond_S=1.19
+K=6 z=5 mm=-18.7 lam_gen_dB=-3.6 FN=1.000 cond_quad_dB=-0.5 cond_S=2.26
+K=6 z=10 mm=-25.0 lam_gen_dB=-7.2 FN=1.000 cond_quad_dB=-9.2 cond_S=2.03
+K=6 z=20 mm=-31.0 lam_gen_dB=-6.2 FN=1.000 cond_quad_dB=-3.8 cond_S=3.34
+K=6 z=50 mm=-39.0 lam_gen_dB=-13.5 FN=1.000 cond_quad_dB=-8.1 cond_S=3.80
+K=6 z=100 mm=-45.0 lam_gen_dB=-12.8 FN=1.000 cond_quad_dB=-2.8 cond_S=5.10
+K=6 z=200 mm=-50.6 lam_gen_dB=-17.9 FN=1.000 cond_quad_dB=8.4 cond_S=7.00
+K=6 z=300 mm=-54.9 lam_gen_dB=-16.8 FN=1.000 cond_quad_dB=17.0 cond_S=8.47
+K=6 z=400 mm=-62.0 lam_gen_dB=-21.4 FN=1.000 cond_quad_dB=39.3 cond_S=11.48
+wall 67.97189283370972

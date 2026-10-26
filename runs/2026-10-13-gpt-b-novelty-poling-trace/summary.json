@@ -1,0 +1,226 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-13-gpt-b-novelty-poling-trace",
+  "gauge_u": "I*(-d*u/2 + k*v)",
+  "gauge_v": "I*(d*v/2 + k*u)",
+  "rows": [
+    {
+      "kappa_L": 0.5,
+      "eigenvalue_imaginary_parts": [],
+      "trace_prediction": 1.5707963267948966,
+      "energy_budget": 1.5707963267948966,
+      "integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 1.5669053311694854,
+          "leading_tail": 0.00390625,
+          "tail_corrected": 1.5708115811694854,
+          "corrected_error": 1.5254374588824504e-05,
+          "quad_error_estimate": 1.73961437607227e-14
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 1.5688428888739867,
+          "leading_tail": 0.001953125,
+          "tail_corrected": 1.5707960138739867,
+          "corrected_error": -3.129209098506891e-07,
+          "quad_error_estimate": 1.7417654972473477e-14
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 1.5698199170566753,
+          "leading_tail": 0.0009765625,
+          "tail_corrected": 1.5707964795566753,
+          "corrected_error": 1.5276177878220665e-07,
+          "quad_error_estimate": 1.7428502164314778e-14
+        }
+      ],
+      "opa_integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 1.5669053034951033,
+          "tail_corrected": 1.5708115534951033,
+          "corrected_error": 1.5226700206705246e-05
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 1.5688428783454311,
+          "tail_corrected": 1.5707960033454311,
+          "corrected_error": -3.2344946543361175e-07
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 1.5698199175879142,
+          "tail_corrected": 1.5707964800879142,
+          "corrected_error": 1.5329301761290992e-07
+        }
+      ]
+    },
+    {
+      "kappa_L": 1.0,
+      "eigenvalue_imaginary_parts": [],
+      "trace_prediction": 6.283185307179586,
+      "energy_budget": 6.283185307179586,
+      "integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 6.267621488971309,
+          "leading_tail": 0.015625,
+          "tail_corrected": 6.283246488971309,
+          "corrected_error": 6.118179172265314e-05,
+          "quad_error_estimate": 1.8240552459483576e-13
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 6.275371618676002,
+          "leading_tail": 0.0078125,
+          "tail_corrected": 6.283184118676002,
+          "corrected_error": -1.1885035844372283e-06,
+          "quad_error_estimate": 2.2062578043689784e-13
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 6.279279665038225,
+          "leading_tail": 0.00390625,
+          "tail_corrected": 6.283185915038225,
+          "corrected_error": 6.07858638979053e-07,
+          "quad_error_estimate": 2.2066916846742412e-13
+        }
+      ],
+      "opa_integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 6.267621046181502,
+          "tail_corrected": 6.283246046181502,
+          "corrected_error": 6.073900191605475e-05
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 6.275371450219359,
+          "tail_corrected": 6.283183950219359,
+          "corrected_error": -1.35696022685039e-06
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 6.279279673537966,
+          "tail_corrected": 6.283185923537966,
+          "corrected_error": 6.163583794460692e-07
+        }
+      ]
+    },
+    {
+      "kappa_L": 2.0,
+      "eigenvalue_imaginary_parts": [
+        0.6380450482852378
+      ],
+      "trace_prediction": 9.096920137900362,
+      "energy_budget": 25.132741228718345,
+      "integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 9.034667409595821,
+          "leading_tail": 0.0625,
+          "tail_corrected": 9.097167409595821,
+          "corrected_error": 0.00024727169545890604,
+          "quad_error_estimate": 1.0030495777965818e-13
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 9.065666395155452,
+          "leading_tail": 0.03125,
+          "tail_corrected": 9.096916395155452,
+          "corrected_error": -3.74274491043991e-06,
+          "quad_error_estimate": 1.0064911565470802e-13
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 9.08129751826787,
+          "leading_tail": 0.015625,
+          "tail_corrected": 9.09692251826787,
+          "corrected_error": 2.3803675084366205e-06,
+          "quad_error_estimate": 1.0082265598250955e-13
+        }
+      ],
+      "opa_integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 25.07048141586152,
+          "tail_corrected": 25.13298141586152,
+          "corrected_error": 0.00024018714317364243
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 25.101484790739413,
+          "tail_corrected": 25.132734790739413,
+          "corrected_error": -6.437978932183341e-06
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 25.117118745079352,
+          "tail_corrected": 25.132743745079352,
+          "corrected_error": 2.5163610075651377e-06
+        }
+      ]
+    },
+    {
+      "kappa_L": 5.0,
+      "eigenvalue_imaginary_parts": [
+        4.273422355721328,
+        0.9634666017476582
+      ],
+      "trace_prediction": 25.462257667889048,
+      "energy_budget": 157.07963267948966,
+      "integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 25.07326590853136,
+          "leading_tail": 0.390625,
+          "tail_corrected": 25.46389090853136,
+          "corrected_error": 0.0016332406423131829,
+          "quad_error_estimate": 5.729252271623133e-13
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 25.26696608039243,
+          "leading_tail": 0.1953125,
+          "tail_corrected": 25.46227858039243,
+          "corrected_error": 2.0912503380543512e-05,
+          "quad_error_estimate": 6.522164670056798e-13
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 25.36461404812986,
+          "leading_tail": 0.09765625,
+          "tail_corrected": 25.46227029812986,
+          "corrected_error": 1.263024081055164e-05,
+          "quad_error_estimate": 6.533005772265796e-13
+        }
+      ],
+      "opa_integrals": [
+        {
+          "cutoff": 256,
+          "finite_integral": 156.6903643138437,
+          "tail_corrected": 157.0809893138437,
+          "corrected_error": 0.001356634354038988
+        },
+        {
+          "cutoff": 512,
+          "finite_integral": 156.88423592434452,
+          "tail_corrected": 157.07954842434452,
+          "corrected_error": -8.425514513987764e-05
+        },
+        {
+          "cutoff": 1024,
+          "finite_integral": 156.9819943684157,
+          "tail_corrected": 157.0796506184157,
+          "corrected_error": 1.7938926049509973e-05
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 0.15241274999999999,
+  "python": "3.9.6",
+  "interpretation": "Tail-corrected quadrature checks normalization only. Uniform-box OPA normalization also checked; no proof for arbitrary OPA profiles, depletion, finite-length optimum or loss extension."
+}

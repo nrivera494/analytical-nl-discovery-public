@@ -1,0 +1,55 @@
+# Verification of C-20261019-pi-chatgpt-02 (claude-interactive.13). All runs are deterministic (no random seeds)
+# except twa.py, whose seed is listed there.
+model: "normalized gain NLSE  d psi/d zeta = -(i eps0/2) psi_xx + (i/eps0)|psi|^2 psi + (Gamma/2) psi;  tau = Gamma zeta = ln G;  gamma P0/g = 1/(eps0 Gamma)"
+noise: "linearized (Bogoliubov), both quadratures, complete Langevin reservoir: per linear-amplifier substep of power gain Gh, symmetric variance (2 n_sp - 1)(Gh - 1), commutator -(Gh - 1)"
+reduced:            # reduced.py, reduced_analysis.py
+  blocks: "Legendre l=0 and l=2 of the leading-order hydrodynamic linearization; intensity-quadrature ASE with metric B_lm = int (1-xi^2) P_l P_m; phase-quadrature noise dropped (leading order)"
+  cases:
+    G18_asym: {Gamma: 4.242640687, a0: 1, da_dzeta0: 1.414213562}
+    G18_unchirped: {Gamma: 4.242640687, a0: 1, da_dzeta0: 0}
+    G1_unchirped: {Gamma: 1, a0: 1, da_dzeta0: 0}        # held out
+    G1_asymchirp: {Gamma: 1, a0: 1, da_dzeta0: 0.333333333}
+  n_sp: [1, 2]
+  tau_grid: {step: 0.005, max: 80}
+  ode: {method: DOP853, rtol: 1.0e-12, atol: 1.0e-18}
+  fit_windows: [[12, 26], [26, 40], [40, 60], [60, 80]]
+  equal_phase_period: 13.32864881   # 2 pi / (sqrt2/3), period of the p0-p2 cross term
+fullfield:          # fullfield.py: exact discrete adjoint of a Strang split-step, checkpointed
+  seeds:
+    parabola: "rho = delta * log(1 + exp((1 - x^2)/delta)), psi = sqrt(rho) exp(-i chirp x^2 / (2 eps0)); delta = 0.05 unless stated; chirp 0 or sqrt2 (asymptotic)"
+    gaussian: "psi = exp(-x^2/2), unchirped"
+  slopes:           # slopes.py
+    eps0: 0.05
+    grid: {N: 2048, L: 8.0}
+    taus: [0.0005, 0.001, 0.002, 0.003, 0.004]
+    steps: 60
+    fit: "(lambda - 1)/tau = s + c tau + d tau^2"
+    R_grids: "per case, see slopes.py; Gamma = kappa/(n_sp eps0 R), kappa = int rho^2/int rho"
+  explicit:         # explicit.py
+    case: {kind: parabola, delta: 0.05, chirp: [0, 1.414213562], eps0: 0.05, Gamma: 4.242640687, n_sp: 1, tau: 0.02}
+    convergence: [[2048, 8, 200], [4096, 8, 400], [4096, 12, 800], [8192, 12, 800]]   # N, L, steps
+  curve:            # curve.py, eps_delta.py
+    eps0: [0.05, 0.025]
+    delta: [0.05, 0.02]
+    Gamma: 4.242640687
+    chirp: 1.414213562
+    taus: [0.02, 0.05, 0.1, 0.2, 0.3, 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0]
+    grid: {N: [4096, 8192], L: 16}
+    steps: "int(1000 tau (0.05/eps0)(1 + tau)), at least 200"
+twa:                # twa.py: truncated Wigner, same grid/scheme as fullfield.py; numpy seed 20261019
+  seed_pulse: gaussian
+  eps0: 0.05
+  Gamma: 4.242640687
+  tau: 0.3
+  steps: 100
+  cases: "n_sp=1,2 at N0=1e6 (256 modes, 2e5 trajectories); n_sp=1 at N0=1e3 (256 modes, 2e5); mode test (python twa.py modes): N0=1e3, 1e4 with 64 and 128 modes, 1e5 trajectories each"
+source_seed:        # source_seed.py: proposer's launch, read after the clean-context commit
+  launch: "|U|^2 = c delta log(1+exp((1-x^2)/delta)), delta = 0.25 eps0^(2/3), c: energy 4/3, chirp a'(0)=Gamma/3"
+  runs: "tau=0.02 (N 2048-4096, L 8-12, 200-800 steps); tau=4 at eps0 = 0.05 (N 4096, 8192), 0.1, 0.025 (python source_seed.py tau4)"
+finite_length:      # finite_length.py and slot_model.py
+  eps0: 0.05
+  n_sp: 1
+  R_parabola: [0.5, 0.7, 0.75, 0.8, 0.85, 0.9]
+  R_gaussian: [0.5, 0.85, 0.9, 0.95, 1.0]
+  taus: [0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1.0, 1.25, 1.5, 2.0]
+  slot_model: "closed form (audit report Part 4); check against fullfield at eps0=0.005 in slot_model_check.json"

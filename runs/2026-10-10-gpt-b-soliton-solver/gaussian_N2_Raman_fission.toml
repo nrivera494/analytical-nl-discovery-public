@@ -1,0 +1,22 @@
+agent = "gpt-b"
+model = "gpt-6-astra"
+family = "gpt"
+raw_location = "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-gaussian/gaussian_N2_Raman_fission"
+raman_helper = "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/raman_bath_spectrum.jl"
+nt = 8192
+T0_ps = 0.125
+window_over_T0 = 160.0
+z_over_LD = 8.0
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.000040519
+lambda0_nm = 1550.0
+raman_fraction = 0.18
+temperature_K = 300.0
+nsteps = 3600
+source_slices = 600
+edge = 0.7368
+
+launch = "gaussian"
+N = 2.0
+
+export_only = true

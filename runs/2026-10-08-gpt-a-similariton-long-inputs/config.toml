@@ -1,0 +1,77 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-inputs"
+
+[defaults]
+nt = 16384
+window = 24.0
+length = 12.0
+step = 0.001
+linear_phase_cap = 2.0
+nonlinear_phase_cap = 0.1
+save_interval = 0.1
+Nstar = 10.0
+
+[[cases]]
+label = "gaussian_w0p5_qm0p5"
+shape = "gaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w2_qm0p5"
+shape = "gaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "gaussian_w2_q0"
+shape = "gaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "sech_w0p5_qm0p5"
+shape = "sech"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "sech_w2_qm0p5"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "sech_w2_q0"
+shape = "sech"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "supergaussian_w0p5_qm0p5"
+shape = "supergaussian"
+width = 0.5
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w2_qm0p5"
+shape = "supergaussian"
+width = 2.0
+chirp = -0.5
+
+[[cases]]
+label = "supergaussian_w2_q0"
+shape = "supergaussian"
+width = 2.0
+chirp = 0.0
+
+[[cases]]
+label = "heldout_order6"
+shape = "supergaussian"
+order = 6
+width = 1.4
+chirp = -0.2
+Nstar = 15.0

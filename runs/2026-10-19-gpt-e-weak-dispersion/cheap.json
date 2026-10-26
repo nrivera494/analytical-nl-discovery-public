@@ -1,0 +1,111 @@
+{
+  "agent": "gpt-e",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cw": [
+    {
+      "phi": 0.03,
+      "aL": 1e-07,
+      "excess": 5.997335961183126e-11,
+      "prediction": 5.9973018211342e-11
+    },
+    {
+      "phi": 0.03,
+      "aL": 1e-06,
+      "excess": 5.997398133672505e-10,
+      "prediction": 5.9973018211342e-10
+    },
+    {
+      "phi": 0.25,
+      "aL": 1e-07,
+      "excess": 4.042261636527655e-09,
+      "prediction": 4.0422604172722155e-09
+    },
+    {
+      "phi": 0.25,
+      "aL": 1e-06,
+      "excess": 4.0422684977059475e-08,
+      "prediction": 4.042260417272216e-08
+    },
+    {
+      "phi": 2.0,
+      "aL": 1e-07,
+      "excess": 1.1925697251946588e-07,
+      "prediction": 1.1925695879998876e-07
+    },
+    {
+      "phi": 2.0,
+      "aL": 1e-06,
+      "excess": 1.1925706762117017e-06,
+      "prediction": 1.1925695879998876e-06
+    },
+    {
+      "phi": 7.0,
+      "aL": 1e-07,
+      "excess": 4.6197655612090216e-07,
+      "prediction": 4.6197643037521096e-07
+    },
+    {
+      "phi": 7.0,
+      "aL": 1e-06,
+      "excess": 4.619777362879773e-06,
+      "prediction": 4.61976430375211e-06
+    },
+    {
+      "phi": 40.0,
+      "aL": 1e-07,
+      "excess": 2.665838019444422e-06,
+      "prediction": 2.665833723754994e-06
+    },
+    {
+      "phi": 40.0,
+      "aL": 1e-06,
+      "excess": 2.6658763951914466e-05,
+      "prediction": 2.665833723754994e-05
+    }
+  ],
+  "oscillators": [
+    {
+      "n": 2048,
+      "peak_order": 2,
+      "ground_energy": 0.9999940453131555
+    },
+    {
+      "n": 2048,
+      "peak_order": 4,
+      "ground_energy": 1.06035083015677
+    },
+    {
+      "n": 2048,
+      "peak_order": 6,
+      "ground_energy": 1.144785256191735
+    },
+    {
+      "n": 4096,
+      "peak_order": 2,
+      "ground_energy": 0.999998510603134
+    },
+    {
+      "n": 4096,
+      "peak_order": 4,
+      "ground_energy": 1.0603592740309353
+    },
+    {
+      "n": 4096,
+      "peak_order": 6,
+      "ground_energy": 1.1447981523176327
+    }
+  ],
+  "quantum": [
+    {
+      "T_K": 0.0,
+      "min_uncertainty_eigenvalue": -3.462094502463195e-14,
+      "min_covariance_eigenvalue": 0.007478991704023116
+    },
+    {
+      "T_K": 300.0,
+      "min_uncertainty_eigenvalue": -3.0446885293216305e-15,
+      "min_covariance_eigenvalue": 0.01855874207991151
+    }
+  ]
+}

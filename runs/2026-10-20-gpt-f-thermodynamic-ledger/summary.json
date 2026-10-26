@@ -1,0 +1,89 @@
+{
+  "run_id": "2026-10-20-gpt-f-thermodynamic-ledger",
+  "agent": "gpt-f",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-20",
+  "task": "T-20261020-claude-interactive-01",
+  "checks": {
+    "mixed_NLS_to_Kaup_Newell_residual": "0",
+    "Raman_energy_balance_residual": "0",
+    "odd_first_order_band_integral": "0",
+    "uniform_covariance_unitary_residual": "Matrix([[0, 0], [0, 0]])",
+    "dispersion_coupling_commutator": "Matrix([[0, c*e1 - c*e2], [-c*e1 + c*e2, 0]])",
+    "UV_norm_limit": "pi/(sqrt(a)*sqrt(b))",
+    "UV_linear_energy_limit": "oo",
+    "UV_photon_weighted_optical_energy_limit": "oo",
+    "UV_photon_weighted_optical_energy_log_coefficient": "1/b"
+  },
+  "effective_first_Raman_moment_fs": 1.4619528665461612,
+  "scales": [
+    {
+      "wavelength_nm": 1030,
+      "T0_fs": 100,
+      "shock_time_fs": 0.546810258264243,
+      "shock_over_T0": 0.00546810258264243,
+      "TR_over_T0": 0.014619528665461613,
+      "eta_R_estimate_for_Lkin_over_LNL_10_and_100": [
+        0.14619528665461612,
+        1.4619528665461612
+      ]
+    },
+    {
+      "wavelength_nm": 1030,
+      "T0_fs": 1000,
+      "shock_time_fs": 0.546810258264243,
+      "shock_over_T0": 0.000546810258264243,
+      "TR_over_T0": 0.001461952866546161,
+      "eta_R_estimate_for_Lkin_over_LNL_10_and_100": [
+        0.014619528665461613,
+        0.14619528665461612
+      ]
+    },
+    {
+      "wavelength_nm": 1030,
+      "T0_fs": 5000,
+      "shock_time_fs": 0.546810258264243,
+      "shock_over_T0": 0.0001093620516528486,
+      "TR_over_T0": 0.00029239057330923224,
+      "eta_R_estimate_for_Lkin_over_LNL_10_and_100": [
+        0.002923905733092322,
+        0.029239057330923225
+      ]
+    },
+    {
+      "wavelength_nm": 1064,
+      "T0_fs": 100,
+      "shock_time_fs": 0.5648603056244219,
+      "shock_over_T0": 0.005648603056244219,
+      "TR_over_T0": 0.014619528665461613,
+      "eta_R_estimate_for_Lkin_over_LNL_10_and_100": [
+        0.14619528665461612,
+        1.4619528665461612
+      ]
+    },
+    {
+      "wavelength_nm": 1064,
+      "T0_fs": 1000,
+      "shock_time_fs": 0.5648603056244219,
+      "shock_over_T0": 0.0005648603056244219,
+      "TR_over_T0": 0.001461952866546161,
+      "eta_R_estimate_for_Lkin_over_LNL_10_and_100": [
+        0.014619528665461613,
+        0.14619528665461612
+      ]
+    },
+    {
+      "wavelength_nm": 1064,
+      "T0_fs": 5000,
+      "shock_time_fs": 0.5648603056244219,
+      "shock_over_T0": 0.00011297206112488438,
+      "TR_over_T0": 0.00029239057330923224,
+      "eta_R_estimate_for_Lkin_over_LNL_10_and_100": [
+        0.002923905733092322,
+        0.029239057330923225
+      ]
+    }
+  ],
+  "interpretation": "Algebra and illustrative scale screening only. No measured kinetic rate, thermalization, Raman closure or lifetime is verified."
+}

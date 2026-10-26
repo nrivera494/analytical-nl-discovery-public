@@ -1,0 +1,35 @@
+{
+  "run_id": "2026-10-16-gpt-d-c02-julia-core",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "loss_scale": 0.0
+  },
+  "grid": {
+    "n": 16384,
+    "dt": 0.0015,
+    "carrier_um": 1.75
+  },
+  "propagation": {
+    "T": 0.0567,
+    "order": 3,
+    "L": 1.0,
+    "h": 0.000125,
+    "save_every": 0.0025
+  },
+  "expected": {
+    "identity_relative_integrated_mismatch_max": 0.001,
+    "max_rate_over_bound": 0.5,
+    "retention_bound": 0.20172514041608192,
+    "qualification": "Lossless exact model"
+  },
+  "implementation": "../2026-10-16-gpt-d-raman-bound-audit/julia_core.jl",
+  "method": "RK4IP",
+  "precision": "float64",
+  "saveat_m": 0.01,
+  "scope": "Actual agents solver with its fixed blue-edge prefactor window; compare its drift with independent ideal-model Python run."
+}

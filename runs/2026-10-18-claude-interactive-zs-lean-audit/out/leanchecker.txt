@@ -1,0 +1,14 @@
+ok ZSFormalization.Scalar
+ok ZSFormalization.BoundState
+ok ZSFormalization.Endpoints
+ok ZSFormalization.Moment
+ok ZSFormalization.FourierMajorant
+ok ZSFormalization.SpectralBound
+ok ZSFormalization.Sech
+ok ZSFormalization.SechSharpness
+ok ZSFormalization.Gaussian
+ok ZSFormalization.Corollaries
+ok ZSFormalization.Sources
+ok ZSFormalization.GaussianSource
+ok ZSFormalization.RealSech
+control ok: bogus module rejected

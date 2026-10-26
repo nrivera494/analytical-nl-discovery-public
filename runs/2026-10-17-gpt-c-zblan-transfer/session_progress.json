@@ -1,0 +1,11 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "phase2_start_local": "2026-10-17 20:38 EDT",
+  "production_stop_utc": "2026-10-18T02:20:00Z",
+  "state": "completed",
+  "next": "Independent follow-ups T-20261017-gpt-c-02 through -06 remain open; parent task complete.",
+  "production_finished_utc": "2026-10-18T01:33:54.555774+00:00",
+  "completed_utc": "2026-10-18T01:48:39.617187+00:00"
+}

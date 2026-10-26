@@ -1,0 +1,17 @@
+# Reproduction commands, from archive/ (see archive/README.md and each directory's README for full settings).
+quick:
+  - OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python strong/verify_weak_cross.py      # lambda_min = 0.02654003090685 at Phi=3, y=1e-4
+  - OPENBLAS_NUM_THREADS=1 python similariton/reproduce.py --suite quick             # matched-LO minimum 0.89648647 at tau=0.02
+  - python weak_theory/effective_oscillator.py
+  - python weak_theory/second_order_symbolic.py
+full:
+  - python similariton/reproduce.py --suite all
+  - python weak/run_suite.py
+  - python strong/verify_strong.py   # per strong/README.md
+  - python strong/verify_hydro.py
+summaries_from_stored_data:
+  - python weak/build_summary.py
+  - python strong/build_summary.py
+  - python similariton/analyze_results.py
+  - python similariton/build_figures.py
+note: "The full suites need the raw files kept at raw_location (meta.yaml) only for the summary rebuilds; propagation reruns regenerate them."

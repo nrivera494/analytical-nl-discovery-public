@@ -1,0 +1,290 @@
+{
+  "run_id": "2026-10-18-pi-chatgpt-independent-verification",
+  "source": "verification_reproducibility.zip from the PI's ChatGPT session (GPT 6 Pro; the archive self-reports 'GPT-6 Astra Pro'), sha256 1fca535bc0f01b986ed9e3afd054f2a4cb12987db1fc38fa177371d162620b8b",
+  "repository_snapshot": "970bfe756b131094872de351ff91ab46a537d9b2",
+  "similariton": {
+    "reduced_model_fitted_powers_tau_12_26": {
+      "density_photon_variance": 0.3246068894958929,
+      "phase_photon_variance_eps2": 1.6920267075505169,
+      "matched_phase_Cpp_eps2": 2.3335053304851803,
+      "spectral_ratio": -0.6655063511384199,
+      "phase_energy_deficit": -0.6535058165836811
+    },
+    "period_matched_powers_tau_18_to_31.33": {
+      "density_photon_variance": 0.33348834393478344,
+      "phase_photon_variance_eps2": 1.6667591455787887,
+      "phase_energy_deficit": -0.6673414813181452
+    },
+    "predicted": {
+      "density_photon_variance": 0.3333333333333333,
+      "phase_photon_variance": 1.6666666666666667,
+      "matched_phase_Cpp": 2.3333333333333335,
+      "spectral_ratio": -0.6666666666666666,
+      "phase_energy_deficit": -0.6666666666666666
+    },
+    "short_gain_counterexample": [
+      {
+        "eps": 0.05,
+        "tau": 0.02,
+        "ngrid": 1024,
+        "dt": 0.0001,
+        "matched_LO_min": 0.8964864655082736,
+        "commutator_relative_error": 6.661338147750939e-14
+      }
+    ]
+  },
+  "weak_dispersion": {
+    "primary_series": [
+      {
+        "m": 1,
+        "phi": 3.0,
+        "profile": "exp(-x^2)",
+        "excess_exponent_fitted": 0.5019137717261022,
+        "excess_exponent_expected": 0.5,
+        "rms_exponent_fitted": 0.2502395754982747,
+        "rms_exponent_expected": 0.25,
+        "leading_ratio_low_y": 1.0009895324869953,
+        "leading_ratio_y_1e_2": 1.0942855435089969
+      },
+      {
+        "m": 1,
+        "phi": 10.0,
+        "profile": "exp(-x^2)",
+        "excess_exponent_fitted": 0.5018989497137933,
+        "excess_exponent_expected": 0.5,
+        "rms_exponent_fitted": 0.2501480179544985,
+        "rms_exponent_expected": 0.25,
+        "leading_ratio_low_y": 1.0009770824166064,
+        "leading_ratio_y_1e_2": 1.0943676790337653
+      },
+      {
+        "m": 2,
+        "phi": 3.0,
+        "profile": "exp(-x^4)",
+        "excess_exponent_fitted": 0.6672185516189445,
+        "excess_exponent_expected": 0.6666666666666666,
+        "rms_exponent_fitted": 0.16660944714154324,
+        "rms_exponent_expected": 0.16666666666666666,
+        "leading_ratio_low_y": 1.0001372043366819,
+        "leading_ratio_y_1e_2": 1.054509895768904
+      },
+      {
+        "m": 3,
+        "phi": 3.0,
+        "profile": "exp(-x^6)",
+        "excess_exponent_fitted": 0.7503166841575493,
+        "excess_exponent_expected": 0.75,
+        "rms_exponent_fitted": 0.12492647951013354,
+        "rms_exponent_expected": 0.125,
+        "leading_ratio_low_y": 1.0000889206881873,
+        "leading_ratio_y_1e_2": 1.0447202315421562
+      }
+    ],
+    "oscillator_excess_prefactor": {
+      "1": 0.8164965808890442,
+      "2": 0.642268596702265,
+      "3": 0.5972375558290985
+    },
+    "c2_symbolic": {
+      "epsilon": "sqrt(y)",
+      "r": "sqrt(1+Phi**2)-Phi",
+      "lambda_epsilon2_coefficient_in_r": "-r**2*(4*r**8 + 45*r**6 + 102*r**4 + 5*r**2 + 24)/(30*(r - 1)*(r + 1)*(r**2 + 1)**3)",
+      "c2_in_r": "sqrt(6)*(4*r**8 + 45*r**6 + 102*r**4 + 5*r**2 + 24)/(60*(r - 1)**2*(r + 1)**2*(r**2 + 1)**2)",
+      "table": {
+        "2": 1.0106909809660942,
+        "3": 0.9894645630549397,
+        "5": 0.9823882355702332,
+        "10": 0.9803416006274103,
+        "20": 0.9799257021413446,
+        "40": 0.9798279309680199
+      }
+    },
+    "fourier_crosscheck_phi3_y1e-4": {
+      "lambda_min": 0.02654003090684555,
+      "direct_rayleigh": 0.02654003090685826
+    }
+  },
+  "strong_dispersion": {
+    "cases": [
+      {
+        "N": 10.0,
+        "Z": 0.75,
+        "lambda_min": 0.008494754919086559,
+        "N2_lambda_min": 0.8494754919086559,
+        "N2_lambda_2": 2.1032926217122525,
+        "Lambda_C": 0.8624717063415097,
+        "Pi_C": 2.155135632727308,
+        "lambda_pass_over_second": 1.0000000000000093
+      },
+      {
+        "N": 20.0,
+        "Z": 0.75,
+        "lambda_min": 0.0021486159847939144,
+        "N2_lambda_min": 0.8594463939175657,
+        "N2_lambda_2": 2.160014185432623,
+        "Lambda_C": 0.8627526862260236,
+        "Pi_C": 2.1738640350899767
+      },
+      {
+        "N": 40.0,
+        "Z": 0.75,
+        "lambda_min": 0.0005387433602851467,
+        "N2_lambda_min": 0.8619893764562347,
+        "N2_lambda_2": 2.174996145491962,
+        "Lambda_C": 0.8628196378239499,
+        "Pi_C": 2.178521110598727
+      },
+      {
+        "N": 10.0,
+        "Z": 1.5,
+        "lambda_min": 0.003604157629940556,
+        "N2_lambda_min": 0.3604157629940556,
+        "N2_lambda_2": 1.3849721245328535,
+        "Lambda_C": 0.3647815321316328,
+        "Pi_C": 1.444918922797903,
+        "lambda_pass_over_second": 1.0000000000001068
+      },
+      {
+        "N": 20.0,
+        "Z": 1.5,
+        "lambda_min": 0.0009047816212975458,
+        "N2_lambda_min": 0.3619126485190183,
+        "N2_lambda_2": 1.419582217333808,
+        "Lambda_C": 0.3632748777422705,
+        "Pi_C": 1.446211017028595
+      },
+      {
+        "N": 40.0,
+        "Z": 1.5,
+        "lambda_min": 0.0002264167826414892,
+        "N2_lambda_min": 0.3622668522263827,
+        "N2_lambda_2": 1.43027064467937,
+        "Lambda_C": 0.3627474456594126,
+        "Pi_C": 1.443870065555086
+      }
+    ],
+    "independent_hydro": {
+      "n": 441,
+      "window": 16.0,
+      "tolerance": 1e-10,
+      "nfev": 1589,
+      "elapsed": 17.139222621917725,
+      "rows": [
+        {
+          "Z": 0.1,
+          "Lambda": 27.233959925984564,
+          "Pi": 31.980033684098032,
+          "sigma1": 0.19162166214664111,
+          "sigma2": 0.17683187079516027,
+          "min_rho": -5.1675509307174914e-17
+        },
+        {
+          "Z": 0.2,
+          "Lambda": 7.455461485374272,
+          "Pi": 10.186148714701316,
+          "sigma1": 0.3662374356798027,
+          "sigma2": 0.31332496063095033,
+          "min_rho": -1.4786713752079146e-16
+        },
+        {
+          "Z": 0.3,
+          "Lambda": 3.6350908096404666,
+          "Pi": 5.70722581458327,
+          "sigma1": 0.5244962261308485,
+          "sigma2": 0.4185886726630036,
+          "min_rho": -2.309399160746729e-16
+        },
+        {
+          "Z": 0.5,
+          "Lambda": 1.5702439861790605,
+          "Pi": 3.1317072118050553,
+          "sigma1": 0.7980248782648168,
+          "sigma2": 0.5650793329063446,
+          "min_rho": -4.738619851810563e-16
+        },
+        {
+          "Z": 0.75,
+          "Lambda": 0.8628416613439595,
+          "Pi": 2.1800705315926567,
+          "sigma1": 1.0765505987215571,
+          "sigma2": 0.6772745053173231,
+          "min_rho": -7.579711569244502e-14
+        }
+      ]
+    },
+    "prebreaking_reference_Lambda": 0.8628416613439595,
+    "prebreaking_relative_deficits": [
+      0.015490871655970406,
+      0.0039349831823202175,
+      0.0009877651090667294
+    ],
+    "prebreaking_error_fitted_power": -1.9855532530299307,
+    "prebreaking_effective_c": [
+      0.8713615306483353,
+      0.8853712160220489,
+      0.8889885981600565
+    ],
+    "hermite_bias": {
+      "n": 441,
+      "window": 32.0,
+      "tolerance": 1e-10,
+      "nfev": 311,
+      "elapsed": 4.093006610870361,
+      "rows": [
+        {
+          "Z": 0.1,
+          "Lambda": 27.233959925984607,
+          "Pi": 31.980033684098046,
+          "sigma1": 0.19162166214664098,
+          "sigma2": 0.17683187079516025,
+          "min_rho": -4.682354842383936e-17,
+          "Hermite80_Lambda": 27.237268619794122,
+          "Hermite80_Pi": 32.032672660512716,
+          "Hermite80_Gram_error": 4.074375864594537e-15
+        },
+        {
+          "Z": 0.2,
+          "Lambda": 7.455461485374262,
+          "Pi": 10.186148714701337,
+          "sigma1": 0.36623743567980294,
+          "sigma2": 0.31332496063095,
+          "min_rho": -9.001365560264262e-17,
+          "Hermite80_Lambda": 7.455462334995708,
+          "Hermite80_Pi": 10.18617343755254,
+          "Hermite80_Gram_error": 4.074375864594537e-15
+        },
+        {
+          "Z": 0.3,
+          "Lambda": 3.635090809640468,
+          "Pi": 5.707225814583266,
+          "sigma1": 0.5244962261308483,
+          "sigma2": 0.41858867266300376,
+          "min_rho": -1.6499640436703768e-16,
+          "Hermite80_Lambda": 3.6350908511585343,
+          "Hermite80_Pi": 5.70722744986918,
+          "Hermite80_Gram_error": 4.074375864594537e-15
+        }
+      ]
+    },
+    "weak_crosscheck": {
+      "Phi": 3.0,
+      "y": 0.0001,
+      "N": 300,
+      "Z": 0.01,
+      "n": 2048,
+      "window": 12.0,
+      "steps": 100,
+      "lambda_min": 0.02654003090684555,
+      "direct_rayleigh": 0.02654003090685826,
+      "elapsed": 1.9680991172790527,
+      "diagnostics": {
+        "adjoint_relative_error": 1.476283066326081e-15,
+        "symplectic_bilinear_error": 4.706139763297898e-15,
+        "number_gradient_error": 2.6219166763387417e-13,
+        "mean_norm_error": 2.1471713296250527e-13,
+        "spectral_edge_energy_fraction": 5.063305345462936e-23
+      }
+    },
+    "interpretation": "Prebreaking leading coefficient independently computed from epsilon=0 tangent hydrodynamics. Postbreaking points give finite-N covariance evidence, not a proof of a global classical hydrodynamic map."
+  }
+}

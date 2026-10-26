@@ -1,0 +1,70 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-physical-probe",
+  "cases": [
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_physical",
+      "delta": 1.2185069588220925,
+      "r": null,
+      "b": 1.0110723732212112,
+      "sigma": 1.000000000000099,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.3387512017245019,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.43504079809631035,
+          "capture_fixed_4": 0.4090589380258513,
+          "capture_fixed_6": 0.4691472022811165,
+          "bound_projection": 0.3387512017363561,
+          "norm": 1.0000000000035576,
+          "edge": 4.9773061084484953e-26
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.37875257606139495,
+          "capture_fixed_4": 0.3690151871983988,
+          "capture_fixed_6": 0.39019952823734394,
+          "bound_projection": 0.3387512017383411,
+          "norm": 1.0000000000072728,
+          "edge": 1.3128211916648978e-20
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.36390253057080774,
+          "capture_fixed_4": 0.3573928568816658,
+          "capture_fixed_6": 0.37100570599650395,
+          "bound_projection": 0.3387512017402683,
+          "norm": 1.0000000000108638,
+          "edge": 8.177808158490138e-14
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.35709086656963035,
+          "capture_fixed_4": 0.35213368739502093,
+          "capture_fixed_6": 0.3622787267814101,
+          "bound_projection": 0.33875120174193285,
+          "norm": 1.0000000000146532,
+          "edge": 2.375741571913411e-10
+        }
+      ],
+      "C0": 0.33308547696386004,
+      "elapsed_seconds": 5.869253873825073
+    }
+  ]
+}

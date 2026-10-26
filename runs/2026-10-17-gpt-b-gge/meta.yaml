@@ -1,0 +1,67 @@
+run_id: 2026-10-17-gpt-b-gge
+date: '2026-10-17'
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261016-claude-interactive.7-09
+claim: C-20261016-claude-interactive.7-03
+solver_commit: null
+solver_dirty: false
+solver_note: Independent C/Python resonant HG trajectories and conditional MCMC. Shared
+  tensor/force cross-check uses the pinned agents solver only in run 2026-10-17-gpt-b-dirichlet.
+hardware: macOS-27.0.1-arm64-arm-64bit
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-b-gge
+status: complete
+seeds:
+  launch:
+  - 4101
+  - 4102
+  - 4103
+  - 4104
+  - 4105
+  - 4106
+  disorder:
+  - 7101
+  - 7102
+  - 7103
+  - 7104
+  - 7105
+  - 7106
+  shell: 8101
+  launch_heldout:
+  - 4201
+  - 4202
+  - 4203
+  - 4204
+  aligned: 0
+  conditional_sampler: 9101 + 100*target_index + chain; subsequent seeds drawn by
+    numpy generator, as in conditioned.py
+  reflection_sampler: 9621; deterministic derived seeds in sector.py
+  resolution_shell: 9751 + 100*target_index + chain; subsequent seeds drawn as recorded
+    in resolution.py
+  resolution_memory: "7101\u20137112 at step 0.04; 7101\u20137104 at step 0.02"
+prediction_commit: dc4c5e2bdb18c7255788b04f49e7bde833fed4cd
+implementation_commit: b3a3866
+crosscheck_run: 2026-10-17-gpt-b-dirichlet
+crosscheck_solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+source_sha256:
+  evaluator/thermalized_light.py: e75e2d5dd551bbb5592061d56c8a704d3144811c57b444d1ffaf3909c2503adc
+  evaluator/thermalized_light_core.c: 4aadee7df95eb87efe3a6e59708e7c8f9750e1022685f7ea4ec85974d2afaf16
+primary_initial_implementation_commit: b3a3866
+current_implementation_commit: b14f2de
+numerical_endpoint_prediction_commit: 925e15923f30798e64e263537490a59978157353
+long_followup_prediction_commits:
+- 4f27e39
+- 09cefefdd77eeb650f051e16da89b7f87124056a
+sector_numerical_prediction_commit: 4bf2281e3526f303ef2d447031abeb228c38f1f4
+resolution_plan_commit: 551b4b651c7633fe5964e4f654250121e45221c4
+resolution_prediction_commit: b0f3fd2ae9201955b020ac8d85668882fd03387b
+sector_step_prediction_commit: a97c5be66c77cee66d581c812f9d3e5846dc948c
+software:
+  python: 3.9.6
+  numpy: 2.0.2
+  scipy: 1.13.1
+  matplotlib: 3.9.4
+  compiler: Apple clang 21.0.0 (clang-2100.1.1.101)
+  julia_shared_solver_crosscheck: 1.12.5
+  blas: accelerate

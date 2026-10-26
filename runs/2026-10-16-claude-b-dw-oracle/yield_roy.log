@@ -1,0 +1,5 @@
+roy sech 2.0 0.02 Nt 4096 TW 150.0 etaB(xif) 7.0533e-03 etaDW 1.7577e-03 conv 2.8e-05 NSR dB -23.01 dnuT0 4.06 dH 5.1e-09 dP 2.1e-12 wall 3.6
+roy sech 2.0 0.03 Nt 4096 TW 116.66666666666667 etaB(xif) 2.7892e-02 etaDW 2.6427e-02 conv 1.8e-06 NSR dB -15.66 dnuT0 2.889 dH 1.6e-11 dP 3.1e-12 wall 4.5
+roy sech 2.0 0.04 Nt 2048 TW 100.0 etaB(xif) 6.2150e-02 etaDW 6.0092e-02 conv 3.8e-07 NSR dB -12.84 dnuT0 2.26 dH 1.2e-11 dP 2.4e-12 wall 2.7
+roy sech 2.0 0.06 Nt 2048 TW 83.33333333333334 etaB(xif) 1.1429e-01 etaDW 1.0797e-01 conv 5.8e-08 NSR dB -10.11 dnuT0 1.644 dH 3.7e-11 dP 3.4e-12 wall 3.0
+roy sech 2.0 0.1 Nt 2048 TW 70.0 etaB(xif) 1.6678e-01 etaDW 1.5890e-01 conv 8.5e-09 NSR dB -7.7 dnuT0 1.143 dH -1.5e-12 dP 2.9e-12 wall 2.4

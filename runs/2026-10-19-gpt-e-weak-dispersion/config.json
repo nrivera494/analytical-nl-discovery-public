@@ -1,0 +1,498 @@
+{
+  "agent": "gpt-e",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-19",
+  "equation": "du/ds = -i*(y/Phi)/2*u_tt + i*Phi*abs(u)^2*u",
+  "integration": "Yoshida fourth-order composition; independent exact Kerr tangent and transpose; second-order Strang cross-check",
+  "eigensolver": "ARPACK largest eigenvalues of M M^T; symplectic reciprocity and direct adjoint norm check",
+  "seeds": [
+    191004,
+    191005,
+    191006
+  ],
+  "shot_noise": 1,
+  "threads": 1,
+  "actual_cases": [
+    {
+      "phi": 0.25,
+      "y": 1e-06,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.25,
+      "y": 1e-05,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.25,
+      "y": 0.0001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.25,
+      "y": 0.001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 245,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.25,
+      "y": 0.01,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 2448,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 1.25,
+      "y": 1e-06,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 1.25,
+      "y": 1e-05,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 1.25,
+      "y": 0.0001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 1.25,
+      "y": 0.001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 49,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 1.25,
+      "y": 0.01,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 490,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-06,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-05,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.0001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.01,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 88,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 17.0,
+      "y": 1e-06,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 17.0,
+      "y": 1e-05,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 17.0,
+      "y": 0.0001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 17.0,
+      "y": 0.001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 17.0,
+      "y": 0.01,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 36,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-06,
+      "power": 4,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-05,
+      "power": 4,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.0001,
+      "power": 4,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.001,
+      "power": 4,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.01,
+      "power": 4,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 88,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 2.0,
+      "y": 1e-06,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 2.0,
+      "y": 0.01,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 306,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 40.0,
+      "y": 1e-06,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 40.0,
+      "y": 0.01,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 50.0,
+      "y": 1e-06,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 50.0,
+      "y": 0.01,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.03,
+      "y": 1e-08,
+      "power": 2,
+      "n": 2048,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.03,
+      "y": 1e-07,
+      "power": 2,
+      "n": 2048,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.03,
+      "y": 1e-06,
+      "power": 2,
+      "n": 2048,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-06,
+      "power": 2,
+      "n": 2048,
+      "window": 24.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-05,
+      "power": 2,
+      "n": 2048,
+      "window": 24.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.0001,
+      "power": 2,
+      "n": 2048,
+      "window": 24.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.25,
+      "y": 0.01,
+      "power": 2,
+      "n": 512,
+      "window": 12.0,
+      "steps": 2048,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-07,
+      "power": 2,
+      "n": 2048,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-05,
+      "power": 2,
+      "n": 2048,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-05,
+      "power": 2,
+      "n": 2048,
+      "window": 24.0,
+      "steps": 32,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-05,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 64,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 1e-05,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 256,
+      "chirp": 0.0,
+      "order": 2
+    },
+    {
+      "phi": 7.0,
+      "y": 0.1,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 875,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 0.03,
+      "y": 0.0001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 204,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": 0.5,
+      "order": 4
+    },
+    {
+      "phi": 7.0,
+      "y": 0.001,
+      "power": 2,
+      "n": 1024,
+      "window": 12.0,
+      "steps": 32,
+      "chirp": -0.5,
+      "order": 4
+    }
+  ],
+  "rerun": [
+    "run.py --suite main",
+    "run.py --suite checks",
+    "run.py --suite extra",
+    "auxiliary.py --suite raman",
+    "auxiliary.py --suite bands",
+    "auxiliary.py --suite vector",
+    "cheap_checks.py",
+    "summarize.py"
+  ]
+}

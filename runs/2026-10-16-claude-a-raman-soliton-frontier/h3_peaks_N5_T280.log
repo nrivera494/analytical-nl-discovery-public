@@ -1,0 +1,4 @@
+N=5 T0=280.0 LN=4.0: 3 peaks; reddest first:
+   t=   28.65 amp= 13.77 W_c=   89.32 eta= 7.236 Re z=-0.001 f_ZS=0.5788 f_win=0.5810
+   t=    1.28 amp=  4.70 W_c=    3.45 eta= 2.711 Re z=-0.164 f_ZS=0.2169 f_win=0.2332
+   t=   -1.87 amp=  2.61 W_c=   -1.91 eta= 1.346 Re z=+0.538 f_ZS=0.1077 f_win=0.1722

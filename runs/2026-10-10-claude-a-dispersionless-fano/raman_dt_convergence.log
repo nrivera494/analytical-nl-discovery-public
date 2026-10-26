@@ -1,0 +1,6 @@
+{"T0_fs": 200.0, "dt_fs": 8.0, "N_t": 350, "lam_min": 0.004012, "lam_min_band": 0.015018, "lam_gen": 0.032299, "lam_momentum": 0.034908, "symplectic_min": -0.0, "wall_s": 2.8}
+{"T0_fs": 200.0, "dt_fs": 4.0, "N_t": 700, "lam_min": 0.003741, "lam_min_band": 0.015022, "lam_gen": 0.032303, "lam_momentum": 0.034911, "symplectic_min": -0.0, "wall_s": 5.7}
+{"T0_fs": 200.0, "dt_fs": 2.0, "N_t": 1400, "lam_min": 0.0037, "lam_min_band": 0.015023, "lam_gen": 0.032307, "lam_momentum": 0.034914, "symplectic_min": -0.0, "wall_s": 14.7}
+{"T0_fs": 1000.0, "dt_fs": 40.0, "N_t": 350, "lam_min": 0.01394, "lam_min_band": 0.014707, "lam_gen": 0.031921, "lam_momentum": 0.033769, "symplectic_min": -0.0, "wall_s": 2.6}
+{"T0_fs": 1000.0, "dt_fs": 20.0, "N_t": 700, "lam_min": 0.009364, "lam_min_band": 0.014711, "lam_gen": 0.031925, "lam_momentum": 0.033769, "symplectic_min": -0.0, "wall_s": 7.3}
+{"T0_fs": 1000.0, "dt_fs": 10.0, "N_t": 1400, "lam_min": 0.00421, "lam_min_band": 0.014713, "lam_gen": 0.031932, "lam_momentum": 0.033773, "symplectic_min": -0.0, "wall_s": 14.7}

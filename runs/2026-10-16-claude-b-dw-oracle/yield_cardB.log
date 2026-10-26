@@ -1,0 +1,8 @@
+cardB gauss 8.0 0.01 Nt 8192 TW 150.0 etaB(xif) 1.3487e-01 etaDW 8.3485e-02 conv 6.3e-04 NSR dB -16.91 dnuT0 10.92 dH 6.9e-08 dP -1.9e-08 wall 31.8
+cardB gauss 8.0 0.02 Nt 4096 TW 100.0 etaB(xif) 2.1340e-01 etaDW 1.4273e-01 conv 1.3e-03 NSR dB -11.83 dnuT0 4.34 dH 1.0e-07 dP 1.2e-10 wall 17.1
+cardB gauss 8.0 0.03 Nt 2048 TW 83.33333333333334 etaB(xif) 2.3660e-01 etaDW 1.1307e-01 conv 1.9e-03 NSR dB -10.88 dnuT0 2.088 dH 7.8e-09 dP 1.2e-06 wall 8.8
+cardB gauss 8.0 0.05 Nt 2048 TW 70.0 etaB(xif) 3.1795e-01 etaDW 1.6293e-01 conv 3.2e-04 NSR dB -8.78 dnuT0 0.586 dH 2.3e-09 dP 1.8e-11 wall 7.2
+cardB gauss 10.0 0.01 Nt 8192 TW 150.0 etaB(xif) 1.8364e-01 etaDW 1.2537e-01 conv 2.6e-03 NSR dB -16.11 dnuT0 11.893 dH 7.6e-08 dP -3.9e-07 wall 48.6
+cardB gauss 10.0 0.02 Nt 4096 TW 100.0 etaB(xif) 2.3500e-01 etaDW 1.5026e-01 conv 2.5e-03 NSR dB -9.07 dnuT0 1.33 dH 1.5e-08 dP -1.2e-08 wall 29.9
+cardB gauss 10.0 0.03 Nt 2048 TW 83.33333333333334 etaB(xif) 2.8182e-01 etaDW 1.8732e-01 conv 2.6e-04 NSR dB -10.27 dnuT0 3.276 dH 4.9e-08 dP 1.1e-05 wall 14.1
+cardB gauss 10.0 0.05 Nt 2048 TW 70.0 etaB(xif) 3.1507e-01 etaDW 1.5571e-01 conv 3.6e-04 NSR dB -9.03 dnuT0 2.8 dH 8.7e-09 dP 2.5e-10 wall 14.9

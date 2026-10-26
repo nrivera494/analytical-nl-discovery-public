@@ -1,0 +1,19 @@
+agent: gpt-c
+model: gpt-6-astra
+family: gpt
+equation: q_z = -i w^2 qhat/2 + i FFT[q ((1-fR)|q|^2+fR h*|q|^2)]; q(0)=N sech(t)
+fourier_convention: numpy FFT; physical offset Omega=-w/T0
+raman_bw: {tau1_fs: 12.2, tau2_fs: 32, fR: 0.18, discretization: exact frequency response}
+raman_hc: {doi: 10.1364/JOSAB.19.002886, fR: 0.18, source: equation 9 and table 1, discretization: analytic erfcx transform}
+raman_la: {doi: 10.1364/OL.31.003086, fR: 0.245, fb: 0.21, taub_fs: 96}
+propagation: adaptive RK4IP step doubling; accepted two-half-step solution; tolerance and all grids in per-case JSON
+zs: independent two-sided piecewise-constant transfer-matrix shooting; cubic interpolation of demodulated isolated pulse; root refinement and grid doubling
+physical: {lambda0_nm: 1550, beta2_ps2_km: -21.7, gamma_W_km: 1.3, lambda_zd_nm: 1310}
+dispersion: D(lambda)=S0/4*(lambda-lambda_zd^4/lambda^3), matched at launch; analytically integrated in omega, including every order
+measured_dispersion: {doi: 10.1038/s41598-022-08329-3, source: published Table 3, coefficients: [150.5, -549.6, 918.8, -600.0, 1.374, -0.4602], wavelength_unit: micrometre, D_unit: ps/nm/km, normalization: actual fit beta2 at 1550 nm, integration: cubic-spline double antiderivative in angular frequency}
+large_grid_justification: N>=7 tests the explicitly reported aliasing defect; N=12 and 16 use 65536 points as the frozen prediction requests. Doubled-window/finer-grid runs above 16384 are convergence checks, not production sweeps. Fields and checkpoints are written to disk one at a time.
+large_convergence_justification: 131072-point runs at the central N=12 and N=16 predictions check the 65536-point result before the leading soliton approaches the time or frequency edge. Only the clean early plateau is eligible for verification. No dense matrices are allocated.
+edge_stopping_policy: Added after the first N=12 run demonstrated late contamination. Subsequent N>=10 runs save the first checkpoint with maximum time-edge or spectral-edge occupancy above 1e-6 and stop; earlier clean checkpoints remain available. Set stop_on_edge=false explicitly to reproduce the originally retained contaminated continuations. This changes stopping only, not the forward equation or accepted step rule.
+held_out_own: {N: 4.5, T0_fs: 240, prediction: f1*sqrt(N) in [1.20,1.38]}
+raw: ~/analytical-nl-discovery-data/2026-10-16-gpt-c-raman-audit
+reproduce: cc -O3 -shared -fPIC zs_shoot.c -o /tmp/gpt-c-zs-shoot.so; OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python run_audit.py CASES.json

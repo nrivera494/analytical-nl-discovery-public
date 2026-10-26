@@ -1,0 +1,14 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "frozen_before_propagation": true,
+  "N": 2.0,
+  "T0_ps": 0.125,
+  "z_over_LD": 8.0,
+  "temperature_K": 300.0,
+  "dominant_Kerr_soliton_amplitude": 2.926210847337887,
+  "adiabatic_soliton_frequency_shift_times_T0": -3.6587651743967484,
+  "frequency_shift_relative_test_tolerance": 0.2,
+  "scope": "Classical adiabatic SSFS diagnostic after Gaussian soliton formation; formation offset and radiation omitted. No filtered-noise prediction is asserted for a reset coherent soliton."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "N": 10.0,
+    "epsilon": 0.1,
+    "determinant": 1.0,
+    "lambda_min": 0.008130618755783376,
+    "scaled_lambda": 0.8130618755783374,
+    "relative_deficit": 0.18693812442166258
+  },
+  {
+    "N": 20.0,
+    "epsilon": 0.05,
+    "determinant": 1.0,
+    "lambda_min": 0.002257347845641726,
+    "scaled_lambda": 0.9029391382566903,
+    "relative_deficit": 0.09706086174330975
+  },
+  {
+    "N": 40.0,
+    "epsilon": 0.025,
+    "determinant": 1.0,
+    "lambda_min": 0.0005941772745375031,
+    "scaled_lambda": 0.9506836392600048,
+    "relative_deficit": 0.049316360739995235
+  },
+  {
+    "N": 80.0,
+    "epsilon": 0.0125,
+    "determinant": 1.0,
+    "lambda_min": 0.00015236934682560046,
+    "scaled_lambda": 0.9751638196838427,
+    "relative_deficit": 0.024836180316157308
+  },
+  {
+    "N": 160.0,
+    "epsilon": 0.00625,
+    "determinant": 1.0,
+    "lambda_min": 3.857578218138943e-05,
+    "scaled_lambda": 0.9875400238435692,
+    "relative_deficit": 0.012459976156430796
+  }
+]

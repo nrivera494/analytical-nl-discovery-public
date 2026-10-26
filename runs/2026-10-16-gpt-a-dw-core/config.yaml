@@ -1,0 +1,36 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-core
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-core
+cases:
+- N: 2
+  shape: sech
+  delta3: 0
+  raman: none
+  shock: 0
+  n: 4096
+  window: 64
+  zmax: 0.7853981633974483
+  name: breather_h0.001
+  h: 0.001
+- N: 2
+  shape: sech
+  delta3: 0
+  raman: none
+  shock: 0
+  n: 4096
+  window: 64
+  zmax: 0.7853981633974483
+  name: breather_h0.0005
+  h: 0.0005
+- N: 2
+  shape: sech
+  delta3: 0
+  raman: none
+  shock: 0
+  n: 4096
+  window: 64
+  zmax: 0.7853981633974483
+  name: breather_h0.00025
+  h: 0.00025

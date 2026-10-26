@@ -1,0 +1,111 @@
+{
+ "grid": {
+  "n": 384,
+  "T": 64.0,
+  "K": 13.0,
+  "kc": 8.0
+ },
+ "seed": 7,
+ "eta_TL_grid": 0.21428004529631842,
+ "eta_TL_line": 0.21427886590789058,
+ "searches": [
+  {
+   "family": "phase-cheb",
+   "start": "nearTL",
+   "eta_grid": 0.21994763807918097,
+   "gain_grid": 0.026449466048157122,
+   "nfev": 361,
+   "throughput": 1.0,
+   "wall_s": 33.418243169784546
+  },
+  {
+   "family": "phase-cheb",
+   "start": "rand0.3",
+   "eta_grid": 0.2199440493037218,
+   "gain_grid": 0.02643271798627289,
+   "nfev": 96,
+   "throughput": 1.0,
+   "wall_s": 10.258543968200684
+  },
+  {
+   "family": "phase-cheb",
+   "start": "rand0.8",
+   "eta_grid": 0.2197868746849511,
+   "gain_grid": 0.025699217027033594,
+   "nfev": 114,
+   "throughput": 1.0,
+   "wall_s": 12.590975046157837
+  },
+  {
+   "family": "phase-cheb",
+   "start": "rand1.5",
+   "eta_grid": 0.2197931560381886,
+   "gain_grid": 0.025728530784312476,
+   "nfev": 151,
+   "throughput": 1.0,
+   "wall_s": 17.424372911453247
+  },
+  {
+   "family": "sharp",
+   "start": "rand0",
+   "eta_grid": 0.22010623912071756,
+   "gain_grid": 0.027189623823078657,
+   "nfev": 285,
+   "throughput": 0.9940326164262525,
+   "wall_s": 21.41960597038269
+  },
+  {
+   "family": "sharp",
+   "start": "rand1",
+   "eta_grid": 0.22011829329140134,
+   "gain_grid": 0.02724587810782597,
+   "nfev": 292,
+   "throughput": 0.9997777369496291,
+   "wall_s": 21.389629364013672
+  },
+  {
+   "family": "sharp",
+   "start": "rand2",
+   "eta_grid": 0.22010614898257333,
+   "gain_grid": 0.02718920316727691,
+   "nfev": 277,
+   "throughput": 0.9939955056894724,
+   "wall_s": 19.39357900619507
+  },
+  {
+   "family": "sharp",
+   "start": "rand3",
+   "eta_grid": 0.2201129942639501,
+   "gain_grid": 0.027221148658828964,
+   "nfev": 347,
+   "throughput": 0.9935983328355229,
+   "wall_s": 24.248162746429443
+  }
+ ],
+ "verified": {
+  "phase-cheb": {
+   "eta_grid": 0.21994763807918097,
+   "eta_line_R_4096": 0.2199485652598021,
+   "eta_line_R_8192": 0.2199485654437337,
+   "zeta_line": [
+    -0.35319521333796755,
+    0.2199485654437337
+   ],
+   "gain_over_TL_line": 0.026459443453841436,
+   "throughput": 1.0,
+   "T_line": 96.0
+  },
+  "sharp": {
+   "eta_grid": 0.22011829329140134,
+   "eta_line_R_4096": 0.220118752790342,
+   "eta_line_R_8192": 0.22011875297730288,
+   "zeta_line": [
+    -0.35306806053675854,
+    0.22011875297730288
+   ],
+   "gain_over_TL_line": 0.02725367732682793,
+   "throughput": 0.9997777369496291,
+   "T_line": 96.0
+  }
+ }
+}

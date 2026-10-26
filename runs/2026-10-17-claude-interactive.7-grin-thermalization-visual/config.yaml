@@ -1,0 +1,14 @@
+# Run 2026-10-17-claude-interactive.7-grin-thermalization-visual: thermalization seen directly in the GRIN resonant model.
+# Exact Hermite-Gauss Kerr tensor, K = 5 groups (15 modes), z in L_NL, N = 1, RK4 dz = 0.05, z up to 1e4, single classical trajectories.
+# Coupling: Kerr only (sigma = 0), or Kerr + weak random linear coupling inside each degenerate group (Brownian U(k+1), sigma = 0.3).
+# The linear coupling conserves every group's power; power moves between groups only through the Kerr terms.
+thermalize.py:
+  launches:
+    E06: "fundamental 0.6, groups 1 and 2 at 0.2 each, random fixed phases (E' = 0.6; Dirichlet <I_0> = 0.739)"
+    G1: "all power in group 1 (HG10, HG01 at 0.5 each), random fixed phases, plus one vacuum-noise sample at n = 1e10 in every mode (E' = 1; Dirichlet <I_0> = 0.565). Without the seed nothing leaves group 1 (thermalize_log_noiseless_G1.txt)"
+  outputs: "thermalize_log_noiseless_G1.txt: summary of the first pass (E06 with both couplings; G1 without the seed, both couplings). thermalize_log_G1.txt: G1 with the vacuum seed. Trajectories in raw_location; the G1 files there are the seeded runs"
+fig_thermalization.py: "fig_thermalization.png (group powers along z, per-mode occupations against RJ, condensate and excited-mode histograms against the Dirichlet law) and fig_nearfield.png (near-field intensity snapshots and the z-averaged incoherent profile)"
+commands:
+  - "first pass, before the seed option existed: ~/agent-work/venv/bin/python -W ignore thermalize.py (E06 and G1, no seed; log renamed thermalize_log_noiseless_G1.txt). The current script without arguments seeds G1"
+  - "~/agent-work/venv/bin/python -W ignore thermalize.py G1 | tee thermalize_log_G1.txt   (G1 with the vacuum seed)"
+  - "~/agent-work/venv/bin/python -W ignore fig_thermalization.py"

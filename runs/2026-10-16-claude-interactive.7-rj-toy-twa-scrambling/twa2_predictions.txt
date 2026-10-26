@@ -1,0 +1,12 @@
+Pre-registered predictions for twa_scramble2.json (written 2026-10-16 15:27 EDT, before the run finished).
+Model: -ln coh_bar(z) = a z^2/(2n) + c exp(2 lambda z)/n, with
+  a = 1.57      (fitted to the n=1e6 crossing at z=940 in twa_scramble.json, ballistic branch)
+  c = 0.95      (fitted to the n=1e8 crossing at z=2540 in twa_scramble.json, chaotic branch)
+  lambda = 0.0037 (independent: shadow-trajectory Lyapunov exponent of the same toy, K=4, E'=0.3, sigma=0.3)
+Crossing of the mode-averaged coherence coh_bar = 0.5 (i.e. -ln coh_bar = 0.693):
+  n=1e5  : z ~ 300   (ballistic branch)
+  n=1e7  : z ~ 2040  (mixed)
+  n=1e9  : z ~ 2760  (chaotic branch)
+  n=1e11 : z ~ 3380  (chaotic branch)
+Key test: increment from 1e9 to 1e11 = ln(100)/(2 lambda) = 622 (+-25%).
+Tolerance on absolute values: +-15%.

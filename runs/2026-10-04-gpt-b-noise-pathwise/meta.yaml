@@ -1,0 +1,38 @@
+run_id: 2026-10-04-gpt-b-noise-pathwise
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261004-claude-interactive-08
+problem: P-20261004-claude-interactive-02
+exploration: explorations/2026-10-04-gpt-b-soliton-noise-baselines.md
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_used: true
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-b-noise-pathwise
+machine: COECIS-G3FLW49YGQ
+hardware: arm64
+os: macOS-27.0-arm64-arm-64bit
+julia_version: 1.12.5
+JULIA_NUM_THREADS: 2
+BLAS_threads: 1
+FFTW_threads: 1
+wall_seconds: 93.503338098526
+started_utc: '2026-10-04T21:39:11.741629+00:00'
+finished_utc: '2026-10-04T21:40:51.813638+00:00'
+python_version: 3.9.6
+python_packages:
+  numpy: 2.0.2
+  scipy: 1.13.1
+  matplotlib: 3.9.4
+  tomli: 2.4.1
+reproduction_evaluator_sha256:
+  evaluator/soliton_noise_baselines.jl: b27526a17465cc3cbe74a5999e1f6960073472664ab5340d9530bedd8b8f0a0e
+  evaluator/analyze_soliton_noise.py: 9c77fa5128535047c691674502e12d782035fe6e2640492357673165fef9a975
+scope: Known scalar weak-noise baseline exploration; no new claim and no solver modification
+raw_files:
+- analysis.log
+- propagation.log
+- stochastic_gain.npz
+- stochastic_raman.npz
+outcome: Field timing trajectories agree with same-noise reduced coordinates; finite-ensemble
+  fitted exponents need not equal ensemble exponents.

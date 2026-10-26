@@ -1,0 +1,10 @@
+# Run 2026-10-16-claude-interactive.7-few-quanta-exact: exact quantum dynamics (no truncated Wigner) of Q excitation quanta above a
+# condensate of N photons in the resonant toy model (random tensor, K = 4, 10 modes; seed 0). The resonant Hamiltonian
+# H = (g/2) sum R_pqrs a+ a+ a a (g = 1/N) conserves N and E' = sum k_m n_m, so the (N, Q) sector is small (dim 6-100) and is
+# diagonalized exactly. Diagonal-ensemble (infinite-time) averages for two Fock initial states vs the uniform sector average
+# (quantum microcanonical in E').
+few_quanta_exact.py: "N in {100, 1000}, Q in {2, 4, 6}"
+few_quanta_scaling.py: "Q = 6, N in {8, 12, 20, 50, 100, 300, 1000, 3000}"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore few_quanta_exact.py"
+  - "~/agent-work/venv/bin/python -W ignore few_quanta_scaling.py"

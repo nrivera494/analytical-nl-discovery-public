@@ -1,0 +1,600 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-b-raman-literature",
+  "date": "2026-10-16",
+  "scope": "Web query batches and major source-access notes, excluding unrelated browser history",
+  "searches": [
+    {
+      "time": "2026-10-16 14:40 EDT",
+      "queries": [
+        "Kormokar Shamim Rochette 2023 478975 2301.02945",
+        "Kormokar Rochette 2021 409240 soliton efficiency"
+      ]
+    },
+    {
+      "queries": [
+        "\"High-order analytical formulation\" pdf Kormokar",
+        "\"Soliton self-frequency shift in nonlinear optical fibers\" Kormokar thesis pdf"
+      ],
+      "opened": [
+        "https://opg.optica.org/josab/fulltext.cfm?uri=josab-40-2-412&id=525457",
+        "https://escholarship.mcgill.ca/catalog?search_field=all_fields&q=Kormokar"
+      ]
+    },
+    {
+      "queries": [
+        "\"soliton self-frequency shift\" saturation \"Raman\" duration",
+        "\"soliton energy limit\" Raman",
+        "\"maximum soliton energy\" \"self-frequency\"",
+        "\"optimal pulse duration\" \"soliton\" efficiency"
+      ]
+    },
+    {
+      "queries": [
+        "\"Soliton self-frequency shift in nonlinear optical fibers\" \"McGill\" Kormokar",
+        "\"Efficient high-energy Raman soliton generation\" pdf",
+        "\"Raman self-frequency shift\" \"suppression\" \"20 fs\"",
+        "\"saturation\" \"self-frequency shift\" solitons 1990"
+      ]
+    },
+    {
+      "queries": [
+        "\"Energy exchange between colliding solitons\" Luan pdf",
+        "\"Raman\" \"soliton collisions\" Islam energy transfer perturbation",
+        "\"Erkintalo\" \"Genty\" \"Dudley\" \"2010\" \"rogue\"",
+        "\"Frosz\" \"Bang\" soliton collision Raman efficiency"
+      ]
+    },
+    {
+      "queries": [
+        "\"10.1364/JOSAB.478975\"",
+        "\"10.1364/OE.14.009844\" pdf",
+        "\"10.1364/OE.446612\" pdf",
+        "\"Coherent Raman response and spectral characteristics\""
+      ]
+    },
+    {
+      "queries": [
+        "\"Soliton self-frequency shift\" \"SMF-28\" energy efficiency",
+        "\"Soliton self-frequency shift\" \"Nishizawa\" \"Goto\" energy",
+        "\"energy-scalable\" \"soliton\" Wang",
+        "\"van Howe\" \"2007\" \"soliton\" energy"
+      ]
+    },
+    {
+      "queries": [
+        "van Howe 2007 soliton self frequency shift higher order mode fiber 80 nJ",
+        "Wang energy scalable soliton self frequency shift 2011",
+        "Lim Wise soliton self frequency shift energy",
+        "Nishizawa Goto 2001 wavelength tunable femtosecond soliton pulse energy"
+      ]
+    },
+    {
+      "queries": [
+        "\"Lim\" \"Wise\" \"soliton self-frequency shift\"",
+        "\"Wang\" \"Energy-scalable\" \"soliton\"",
+        "\"SMF-28\" \"soliton\" \"2.5 nJ\"",
+        "\"Soliton self-frequency shift in a passive silica fiber\""
+      ]
+    },
+    {
+      "queries": [
+        "Wang soliton self frequency shift energy scaling fiber",
+        "\"Energy scalable\" \"self-frequency shift\"",
+        "\"energy scaling\" \"soliton self-frequency shift\" Wang"
+      ]
+    },
+    {
+      "queries": [
+        "\"Wang\" \"Tunable high-energy soliton pulse generation\"",
+        "\"Luan\" \"9844\" pdf solitons",
+        "\"High-efficiency self-frequency-shifted solitons\" pdf 111769"
+      ]
+    },
+    {
+      "queries": [
+        "\"Energy exchange between colliding solitons in photonic crystal fibers\" filetype:pdf",
+        "\"Effect of Raman scattering on soliton interactions in optical fibers\"",
+        "\"Raman\" \"Islam\" \"soliton collisions\"",
+        "\"soliton fission\" \"Tai\" \"Bekki\" Raman"
+      ]
+    },
+    {
+      "utc": "2026-10-16T18:51:07.555Z",
+      "queries": [
+        "\"Coherent Raman response and spectral characteristics\" Herrmann Nazarkin 6492 pdf",
+        "\"soliton self-frequency shift\" \"20 fs\" saturation",
+        "\"soliton fission\" \"energy\" \"Mussot\" Raman",
+        "\"Fission of optical solitons induced by stimulated Raman effect\" Tai Hasegawa Bekki"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:51:51.602Z",
+      "queries": [
+        "\"Mussot\" \"rogue\" \"Raman\" soliton energy transfer 2009",
+        "\"Hodel\" \"Weber\" \"Decay of femtosecond\" pdf",
+        "\"soliton self-frequency shift\" \"saturates\" \"duration\" Raman response",
+        "\"soliton self-frequency shift\" \"optimal\" \"pulse duration\" \"efficiency\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:52:01.809Z",
+      "queries": [
+        "Mussot rogue soliton collision energy transfer 2010 2014",
+        "Hodel Weber 1987 Decay femtosecond higher order solitons 924 DOI",
+        "Lucek Blow 1992 soliton self frequency shift telecommunications fiber 6666 saturation"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:52:21.386Z",
+      "queries": [
+        "\"soliton self-frequency shift\" \"saturation\" \"short pulses\"",
+        "\"Raman\" \"frequency shift\" \"pulse duration\" \"Gordon\" \"saturation\"",
+        "\"Raman\" \"soliton\" \"response time\" \"maximum\" energy transfer",
+        "\"Raman-induced dynamics of ultrafast microresonator solitons\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:52:57.019Z",
+      "queries": [
+        "\"Soliton Order Preservation\" \"Shamim\" \"Rochette\" pdf",
+        "\"High-efficiency self-frequency-shifted solitons\" Li Luo He Hao 5.7 4.8",
+        "\"Mid-infrared soliton self-frequency shift in chalcogenide glass\" DOI",
+        "\"Temporal analysis and control of Raman scattering dynamics\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:53:31.445Z",
+      "queries": [
+        "\"Soliton Order Preservation\" \"2.0\" \"2.3\"",
+        "\"Soliton Order Preservation\" filetype:pdf",
+        "\"High-efficiency self-frequency-shifted solitons\" \"duration\"",
+        "\"Coherent Raman response\" filetype:pdf"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:53:55.565Z",
+      "queries": [
+        "\"Kormokar\" \"Soliton self-frequency shift in nonlinear optical fibers\" -site:researchgate.net",
+        "\"Characterization and optimization of photonic crystal fibers for enhanced soliton self-frequency shift\"",
+        "\"Fibre-based source of femtosecond pulses tunable from 1.0 to 1.3\" Lim Wise",
+        "\"Generation of intense 100 fs solitons tunable from 2 to 4.3\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:54:10.770Z",
+      "queries": [
+        "\"Generation of intense 100 fs solitons\" pdf Tang",
+        "\"Wavelength-tunable high-energy soliton pulse generation\" \"942\" pdf",
+        "\"Demonstration of soliton self-frequency shift\" \"340\" \"2007\" pdf",
+        "\"Characteristics of wavelength tunable femtosecond soliton pulse generation\" DOI"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:54:21.259Z",
+      "queries": [
+        "Wang Xu 2011 36 942 time-lens soliton"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:54:37.625Z",
+      "queries": [
+        "\"Raman soliton\" \"energy\" \"sqrt\" efficiency",
+        "\"soliton fission\" \"1.29\"",
+        "\"soliton\" \"N\" \"1.62\" Raman",
+        "\"Raman soliton\" \"optimal\" \"response\" duration"
+      ],
+      "database": "web search; exact-law and mechanism search"
+    },
+    {
+      "utc": "2026-10-16T18:55:20.680Z",
+      "queries": [
+        "\"Raman\" \"soliton collisions\" \"Islam\" \"1989\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:56:14.533Z",
+      "queries": [
+        "\"Raman cross talk of soliton collision in a lossless fiber\"",
+        "\"Femtosecond distributed soliton spectrum in fibers\"",
+        "\"Matsuo\" \"309\" \"316\" \"Optical Review\" soliton",
+        "\"Nishizawa\" \"2001\" \"0.2 nJ\" soliton"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:56:29.936Z",
+      "queries": [
+        "\"Characteristics of Wavelength Tunable Femtosecond Soliton Pulse Generation Using Femtosecond Pump Laser\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:56:47.797Z",
+      "queries": [
+        "\"SMF-28\" \"soliton\" \"conversion efficiency\" \"fs\"",
+        "\"soliton self-frequency shift\" \"SMF28\" \"energy\"",
+        "\"soliton self-frequency shift\" \"standard single-mode\" \"pulse duration\" \"gamma\"",
+        "\"SMF-28\" \"Raman soliton\" \"nJ\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:57:02.034Z",
+      "queries": [
+        "\"SMF\" \"soliton self-frequency shift\" \"400 fs\" \"efficiency\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:57:14.351Z",
+      "queries": [
+        "\"Soliton self-frequency shift for pulses with a duration less than\"",
+        "\"Single-cavity dual-wavelength all-fiber femtosecond laser for multimodal\" pdf"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T18:57:34.972Z",
+      "queries": [
+        "\"10.1364/OPTICA.3.000948\" pdf",
+        "\"10.1364/OL.443848\" pdf",
+        "\"10.1364/BOE.389557\" pdf",
+        "\"10.1364/OL.19.002065\" pdf"
+      ],
+      "database": "web search; DOI full-text search"
+    },
+    {
+      "utc": "2026-10-16T19:00:01.349Z",
+      "queries": [
+        "\"Single-cavity dual-wavelength\" \"200 fs\" \"1700\" \"mW\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:04:28.842Z",
+      "queries": [
+        "\"Chen\" \"Taylor\" \"Efimov\" \"1022\" Raman 2010",
+        "\"Gauthier\" \"4.8\" \"19658\" soliton 2022",
+        "\"Mussot\" optical rogue waves soliton collisions 2009",
+        "\"Yang\" \"2401435\" \"soliton\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:05:13.133Z",
+      "queries": [
+        "\"Soliton dynamics in non-uniform fiber tapers\" pdf",
+        "\"Raman-induced spectral shifts\" \"2003\" Agrawal pdf",
+        "\"Femtosecond soliton pulses\" \"4.8\" Gauthier 2022",
+        "\"Femtosecond distributed soliton spectrum\" \"10.1364\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:06:28.378Z",
+      "queries": [
+        "\"Optimization of the soliton self-frequency shift\" Judge 2009 pdf",
+        "\"Soliton energy\" Raman \"maximum\" duration efficiency",
+        "\"SSFS\" \"optimal\" \"duration\" \"Raman\"",
+        "\"Femtosecond distributed soliton spectrum in fibers\" Islam 1989"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:07:26.113Z",
+      "queries": [
+        "\"1.29\" \"soliton\" Raman efficiency",
+        "\"soliton\" \"N\" \"1.62\" Raman",
+        "\"Raman\" \"maximum energy\" \"response time\" soliton",
+        "\"Raman soliton\" \"square root\" efficiency"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:07:49.672Z",
+      "queries": [
+        "site:opg.optica.org \"340\" \"2007\" \"van Howe\"",
+        "site:opg.optica.org \"Herrmann\" \"2065\" \"1994\"",
+        "\"409240\" \"478975\" Kormokar thesis efficiency energy",
+        "\"Soliton self-frequency shift\" \"Kormokar\" thesis McGill 2025 pdf"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:09:07.274Z",
+      "queries": [
+        "\"Raman\" \"soliton fission\" \"efficiency\" \"optimum\"",
+        "\"Raman\" \"soliton fission\" \"energy\" \"asymptotic\"",
+        "\"higher-order soliton\" \"energy transfer\" perturbation theory Raman"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:09:20.522Z",
+      "queries": [
+        "\"Optimization for maximum Raman frequency conversion\" doi arxiv",
+        "\"Soliton self-frequency shift\" \"h128nm69t\" pdf"
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:12:16.675Z",
+      "queries": [
+        "Soliton Order Preservation"
+      ],
+      "database": "McGill Scholaris repository search UI",
+      "notes": "Located migrated manuscript and thesis records; Kormokar thesis DOI 10.82308/31318 and Shamim JLT full text recovered."
+    },
+    {
+      "utc": "2026-10-16T19:14:06.980Z",
+      "queries": [
+        "\"478975\" soliton efficiency scaling",
+        "\"Raman soliton\" \"optimal pulse\" duration",
+        "\"soliton fission\" \"energy partition\" Raman maximum",
+        "\"soliton\" \"conversion efficiency\" \"N−1/2\""
+      ],
+      "database": "web search"
+    },
+    {
+      "utc": "2026-10-16T19:14:26.513Z",
+      "queries": [
+        "\"Unified and vector theory of Raman scattering\" arxiv DOI",
+        "\"Raman-soliton duration\" \"bounded\"",
+        "\"Energy conversion efficiency from a high-order soliton\" -site:researchgate.net -site:arxiv.org -site:opg.optica.org -site:mcgill.ca",
+        "\"1.29\" \"sqrt\" \"Raman\" soliton"
+      ],
+      "database": "web search"
+    },
+    {
+      "stage": "exact-law and inverse-scattering gap search",
+      "queries": [
+        "\"soliton\" \"Raman\" \"efficiency\" \"optimal pulse duration\"",
+        "\"soliton\" \"Raman\" \"energy\" \"1.29\"",
+        "\"soliton\" \"Raman\" \"energy\" \"square root\" efficiency",
+        "\"soliton fission\" \"Raman\" \"Kodama\" energy"
+      ]
+    },
+    {
+      "stage": "older fission and pulse-width efficiency",
+      "queries": [
+        "\"Enhanced Supercontinuum Generation through Dispersion-Management\" Raman Kutz",
+        "Kodama Hasegawa 1987 nonlinear pulse propagation monomode optical fibers 1734 soliton fission",
+        "\"Tai\" \"Hasegawa\" \"Bekki\" \"392\" 1988",
+        "\"Nishizawa\" \"Goto\" \"pulsewidth\" \"efficiency\" soliton 2000"
+      ]
+    },
+    {
+      "stage": "old full-text targets",
+      "queries": [
+        "\"High-order soliton breakup\" \"1484\" energy efficiency",
+        "\"Nonlinear pulse propagation in a monomode dielectric guide\" \"1073392\""
+      ]
+    },
+    {
+      "stage": "Raman compression and early interaction theory",
+      "queries": [
+        "\"Decay and interaction of femtosecond optical solitons\" Raman energy",
+        "\"Effect of intrapulse stimulated Raman scattering\" \"compression\" 1990"
+      ]
+    },
+    {
+      "stage": "early experimental Raman solitons and exact exponent",
+      "queries": [
+        "\"Islam\" \"Sucha\" \"370\" \"1989\" soliton",
+        "\"Chi\" \"Wen\" \"1216\" \"1989\" soliton",
+        "\"maximum\" \"Raman soliton\" \"energy\" duration efficiency",
+        "\"soliton\" \"Raman\" \"1.62\" efficiency"
+      ]
+    },
+    {
+      "stage": "multimode and high-energy Raman limit neighbours",
+      "queries": [
+        "\"High-energy soliton fission dynamics in multimode GRIN fiber\"",
+        "\"Raman\" \"natural maximum transfer of energy\"",
+        "\"Dvoyrin\" \"Turitsyn\" \"044005\""
+      ]
+    },
+    {
+      "queries": [
+        "\"Soliton self-frequency shift\" \"10.1109/JSTQE.2008.915526\" pdf",
+        "\"Islam\" \"Raman\" \"1149\" \"1989\" soliton",
+        "\"Matsuo\" \"Nishizawa\" \"pulsewidth\" 73 soliton",
+        "\"maximum\" \"Raman soliton\" \"energy\" \"duration\" efficiency"
+      ],
+      "time": "2026-10-16 15:32 EDT"
+    },
+    {
+      "opened": [
+        "https://opg.optica.org/josab/fulltext.cfm?uri=josab-40-2-412",
+        "https://opg.optica.org/viewmedia.cfm?uri=josab-40-2-412&figure=josab-40-2-412-g003&imagetype=full",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3465838/",
+        "https://opg.optica.org/josab/fulltext.cfm?uri=josab-6-6-1149"
+      ],
+      "result": "Full publisher Kormokar and Fig. 3 inspected; full Lee review Sections I-III/V read; full Islam article and collision Appendix B read."
+    },
+    {
+      "queries": [
+        "\"Wang\" \"Xu\" \"soliton\" \"3628337\"",
+        "\"Wavelength-tunable high-energy soliton pulse generation\"",
+        "\"energy-scalable\" \"self-frequency\" Wang fiber",
+        "\"Soliton self-frequency shift\" \"maximum\" \"N\" \"Raman time\""
+      ]
+    },
+    {
+      "queries": [
+        "\"Blow\" \"Doran\" \"Wood\" \"1301\" \"1988\" Raman",
+        "\"Raman soliton\" \"minimum duration\" energy",
+        "\"soliton self-frequency shift\" \"minimum pulse\" \"Raman\"",
+        "\"soliton\" \"Raman response time\" \"energy\" \"limit\""
+      ]
+    },
+    {
+      "opened": [
+        "https://www.mdpi.com/2076-3417/7/6/635"
+      ]
+    },
+    {
+      "queries": [
+        "\"soliton fission\" \"conversion efficiency\" maximum scaling",
+        "\"soliton fission\" \"energy transfer\" \"inverse\" Raman analytical",
+        "\"Raman\" \"soliton fission\" \"N\" \"square-root\"",
+        "\"soliton Newton\" \"energy\" \"efficiency\""
+      ]
+    },
+    {
+      "opened": [
+        "https://api.mountainscholar.org/server/api/core/bitstreams/7759abd3-0381-4c27-b256-37fa8fd356b5/content"
+      ]
+    },
+    {
+      "queries": [
+        "\"Development and implementation of near-infrared ultrafast laser sources\" DOI",
+        "\"Domingue\" \"SSFS conversion efficiency\""
+      ]
+    },
+    {
+      "queries": [
+        "\"soliton compression\" \"4.1\" \"N\"",
+        "\"N-soliton\" \"maximum amplitude\" compression",
+        "\"higher order soliton\" \"N squared\" compression",
+        "\"soliton\" \"compression factor\" \"Mollenauer\""
+      ]
+    },
+    {
+      "queries": [
+        "\"Universality of the Peregrine Soliton\" \"compression\" \"2017\" arxiv",
+        "\"Extreme picosecond pulse narrowing\" Mollenauer Gordon Tomlinson",
+        "\"Driben\" \"Malomed\" \"fission\" \"optimal\"",
+        "\"Soliton Newton\" cradle Raman efficiency"
+      ]
+    },
+    {
+      "phase": "remaining-primary-source-access",
+      "queries": [
+        "Alamgir Rochette 2021 443848 soliton self frequency shift chalcogenide microwire",
+        "Kutz Lynga Eggleton 2005 3989 soliton fission energy Raman",
+        "Hodel Weber 1987 924 soliton Raman efficiency"
+      ],
+      "opened": [
+        "https://opg.optica.org/optica/fulltext.cfm?uri=optica-3-9-948"
+      ],
+      "note": "Tang et al. 2016 full publisher HTML read; supplement not read."
+    },
+    {
+      "phase": "Rochette-earlier-reference-chain",
+      "queries": [
+        "\"10.1364/JOSAB.29.001347\"",
+        "\"10.1364/OE.19.017766\""
+      ],
+      "opened": [
+        "https://opg.optica.org/ol/fulltext.cfm?uri=ol-46-21-5513"
+      ],
+      "note": "Alamgir et al. full text; following references 29 and 34."
+    },
+    {
+      "phase": "normalized-Raman-response-maximum",
+      "queries": [
+        "\"10.1364/JOSAB.26.002064\"",
+        "\"10.1364/JOSAB.27.001894\""
+      ],
+      "opened": [
+        "https://opg.optica.org/josab/fulltext.cfm?uri=josab-29-6-1347"
+      ],
+      "note": "Al-kadry Rochette 2012 full HTML read: normalized response peaks at 29 fs, tau1=23 fs; full rate contains width^-3 factor. Judge guessed issue-10 URL 404; locating correct record."
+    },
+    {
+      "phase": "early-IST-and-finite-response",
+      "queries": [
+        "\"Kodama\" \"Hasegawa\" \"1073392\"",
+        "\"Soliton self-frequency shift in telecommunications fiber\" \"6666\"",
+        "\"Theory of the soliton self-frequency shift\" Gordon 1986"
+      ],
+      "opened": [
+        "https://opg.optica.org/josab/fulltext.cfm?uri=josab-26-11-2064",
+        "https://opg.optica.org/josab/fulltext.cfm?uri=josab-27-9-1894"
+      ],
+      "note": "Both full HTML read; both Fig. 2 inspected. Explicit silica response-overlap maximum T=18 fs, not a maximum of R/T^3."
+    },
+    {
+      "phase": "width-energy-nearest-prior-art",
+      "queries": [
+        "Kodama Hasegawa 1987 nonlinear pulse propagation monomode dielectric guides 510 524",
+        "\"maximum\" \"soliton energy\" \"Raman\" \"duration\"",
+        "\"Raman\" \"energy conversion\" \"18 fs\""
+      ]
+    },
+    {
+      "phase": "original-SSFS-and-access-limit",
+      "queries": [],
+      "opened": [
+        "https://opg.optica.org/ol/fulltext.cfm?uri=ol-11-10-662",
+        "https://opg.optica.org/ol/fulltext.cfm?uri=ol-12-11-924"
+      ],
+      "note": "Gordon 1986 full HTML read, including finite-response Eqs. 18-23. Hodel 1987 full-text redirect displayed IP downloading timeout; remains abstract only; stopped Optica downloads."
+    },
+    {
+      "phase": "Kodama-Hasegawa-primary-access",
+      "queries": [],
+      "opened": [
+        "https://ieeexplore.ieee.org/document/1073392",
+        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1073392"
+      ],
+      "note": "Full licensed PDF available in browser. Read introduction, printed pp.520-521 (PDF 11-12) and conclusion. Earlier electromagnetic derivation/appendix not fully read. Direct curl PDF failed HTTP418; browser access succeeded."
+    },
+    {
+      "phase": "final-experimental-metadata-and-ceiling-search",
+      "queries": [
+        "\"10.1063/1.3628337\" pdf PMC",
+        "\"10.1109/2944.974222\" pdf",
+        "\"Raman soliton\" \"efficiency\" \"SMF-28\" duration energy",
+        "\"soliton self frequency shift\" \"energy limit\" duration"
+      ]
+    },
+    {
+      "queries": [
+        "\"Energy Conversion Efficiency of High Order Raman Solitons\"",
+        "Kormokar Shamim Rochette 2022 Raman solitons conversion efficiency conference duration"
+      ],
+      "stage": "earlier conference check",
+      "time": "2026-10-16 15:56 EDT"
+    },
+    {
+      "phase": "alternative-fission-optimization-check",
+      "queries": [
+        "Driben Malomed optimal soliton fission ejection energy conversion efficiency higher order soliton",
+        "\"Raman\" \"soliton\" \"natural maximum transfer of energy\""
+      ]
+    },
+    {
+      "phase": "alternative-fission-optimization-full-text",
+      "queries": [],
+      "opened": [
+        "https://arxiv.org/pdf/1308.4270"
+      ],
+      "note": "Full five-page preprint read; Fig. 3 and 4 inspected. Optimizes TOD delta3~1/N in Raman-free fibre; not the silica Raman response optimum. DOI10.1364/OL.38.003623 located."
+    },
+    {
+      "phase": "conference-access-gap",
+      "queries": [],
+      "opened": [
+        "https://opg.optica.org/abstract.cfm?uri=CLEO_SI-2022-SF3H.6",
+        "https://opg.optica.org/viewmedia.cfm?uri=CLEO_SI-2022-SF3H.6&seq=0",
+        "https://www.researchgate.net/publication/359177214_Energy_Conversion_Efficiency_of_High-Order_Raman_Solitons"
+      ],
+      "note": "Publisher abstract read; PDF limited by IP downloading timeout. Public author-copy page found but no inspectable PDF retrieved. Kept abstract-only; no inference from unseen Fig.2."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+source: arXiv:2301.02945v1
+source_url: https://arxiv.org/pdf/2301.02945
+source_doi: 10.1364/JOSAB.478975
+source_page: 8
+source_figure: 3
+source_image_xref: 66
+render: PyMuPDF, page at 2x and figure at 4x
+digitisation: manual centres of GNLSE symbols; linear axes
+uncertainty_ECE_percentage_points: 0.4
+uncertainty_duration_reading_fs: 15
+peak_sampling_resolution_fs: 100
+sech_intensity_FWHM_over_T0: 1.763
+silica_tau1_fs: 12.2
+python: ~/agent-work/venv/bin/python
+seed: null

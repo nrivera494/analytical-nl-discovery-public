@@ -1,0 +1,81 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "prefix_run_id": "2026-10-16-gpt-d-z75-fission-prefix",
+  "formation_z": 0.0625,
+  "formation_state": {
+    "omega": 609.2059316782701,
+    "lambda_um": 3.091978376047125,
+    "N": 217639066813.22214,
+    "N_ratio": 0.8449140898104581,
+    "T_fit_fs": 24.00547115600351,
+    "sech_residual": 0.05071590022267767,
+    "nearest_separation_over_T": 12.74709411081368,
+    "isolated": true,
+    "t_ps": 0.0
+  },
+  "predictions": [
+    {
+      "z": 2,
+      "N_ratio_to_formation": 0.9233527429433316,
+      "lambda_um": 4.004056607430396
+    },
+    {
+      "z": 4,
+      "N_ratio_to_formation": 0.7404597701157879,
+      "lambda_um": 4.088008022162047
+    },
+    {
+      "z": 6,
+      "N_ratio_to_formation": 0.561302754619429,
+      "lambda_um": 4.1095340090363965
+    },
+    {
+      "z": 8,
+      "N_ratio_to_formation": 0.4188185087935976,
+      "lambda_um": 4.115184166687575
+    }
+  ],
+  "ownheldout_extended": {
+    "planes": [
+      {
+        "z": 2,
+        "N_ratio": 0.9999184950736619,
+        "lambda_um": 3.0819694211760615
+      },
+      {
+        "z": 4,
+        "N_ratio": 0.9996025728278036,
+        "lambda_um": 3.1870158663820467
+      },
+      {
+        "z": 6,
+        "N_ratio": 0.9989610644864627,
+        "lambda_um": 3.2529633307127566
+      },
+      {
+        "z": 8,
+        "N_ratio": 0.9979322068511088,
+        "lambda_um": 3.3012956704271006
+      },
+      {
+        "z": 12,
+        "N_ratio": 0.9945367976812719,
+        "lambda_um": 3.371091058929018
+      }
+    ],
+    "optima": {
+      "3.3": {
+        "eta": 0.9890419296450017,
+        "L_m": 14.875,
+        "boundary": false
+      },
+      "3.4": {
+        "eta": 0.908864451327391,
+        "L_m": 18.0,
+        "boundary": true
+      }
+    }
+  }
+}

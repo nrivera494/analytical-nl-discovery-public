@@ -1,0 +1,18 @@
+run_id: 2026-10-04-claude-b-reduction-selfcheck
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+date: 2026-10-04
+task: T-20261004-root-02
+serves: "Same-family self-check of the reductions added in the review of P-20261004-root-03 and P-20261004-claude-interactive-01 (Manakov rotation of the scalar filtered-soliton noise; first-order equivalence of the GRIN two-mode problem; walk-off gauge for the linearized noise). Not a verification: the independent check is T-20261004-claude-b-01 (not-claude)."
+description: "Dimensionless two-mode NLS (i a_z + a_tt/2 + (C11|a|^2+C12|b|^2)a = 0, minority with walk-off d), linearized vacuum noise from the coherent-input sensitivity formula Var(X) = (1/4) sum[(dX/dx_i)^2 + (dX/dp_i)^2], hard 0/1 bandpass |w| < 0.8 on each mode, z = 2 (soliton units). Gradients by central differences (step 1e-6) of the discrete Strang split-step map, all 4N input directions in one batch. Independent numpy code; the solver was not used."
+grid: "N = 256 points over 40 T0, dz = 2e-3"
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_usage: "Not used; self-contained numpy script. The commit is recorded only as the pinned solver at the time of the run."
+software: "Python 3.9.6 with numpy"
+hardware: "Apple M5 (macOS), single process"
+wall_time_s: 150
+results_summary: "Scalar filtered F_s = 0.63475. Manakov theta = 0.3: computed (F_a, F_b, rho, F_tot) = (0.666644320, 0.968101556, -0.128360419, 0.634745876) against the rotation formulas (0.666644319, 0.968101556, -0.128360419, 0.634745875). GRIN C22 = 1/2: rho/[eps(F_s-1)/sqrt(F_s)] - 1 = 0.0016, 0.0062, 0.025, 0.097 at eps = 0.025, 0.05, 0.1, 0.2 (scales as eps^2); F_b - 1 and F_a - F_s scale as eps^2, with F_b - 1 about half the Manakov value. Walk-off d = 0.942 against the frequency-offset launch with shifted minority filter: all noise quantities agree to about 1e-8."
+caveats: "Single filter and length; no Raman; hard filter (no partition vacuum); coarse grid. The gauge test uses a walk-off commensurate with the frequency grid. Same family as the reductions' author."
+raw_location: "none (summary.json holds all numbers)"

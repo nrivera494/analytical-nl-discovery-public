@@ -1,0 +1,17 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-capture-small
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: 37533f3c5090f95e6f786e6b44bef6eddf68444a
+prediction_commit: 43bc96d
+hardware: COECIS-G3FLW49YGQ
+julia_threads: 2
+blas_threads: 1
+fft_threads: 1
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-capture-small
+wall_time_seconds: 48.96718787500001
+randomness: none; deterministic propagation
+status: completed
+task: T-20261004-claude-interactive-02

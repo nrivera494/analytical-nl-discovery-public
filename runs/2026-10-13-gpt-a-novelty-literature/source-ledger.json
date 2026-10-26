@@ -1,0 +1,635 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "sources": [
+    {
+      "key": "chung",
+      "label": "Chung et al. (2018)",
+      "id": "10.1364/OE.26.003684",
+      "access": "abstract only",
+      "note": "Correct identity for DESY record 400022. SESS in negative GVD before fission; does not establish a normal-dispersion bound.",
+      "where": "Publisher abstract reproduced in PubMed; DESY download returned an empty-text page."
+    },
+    {
+      "key": "eisenberg",
+      "label": "Eisenberg et al. (2024)",
+      "id": "arXiv:2410.00889",
+      "access": "abstract only",
+      "note": "Argon hollow-core SESS demonstration; supports an application, not a universal efficiency ceiling.",
+      "where": "https://arxiv.org/abs/2410.00889"
+    },
+    {
+      "key": "finot18",
+      "label": "Finot, Chaussard and Boscolo (2018)",
+      "id": "arXiv:1808.04672",
+      "access": "full text",
+      "note": "Corrects the author attribution 'Aston', which is an institution. Interference description predicts spectral patterns; no optimized band-fraction bound.",
+      "where": "arXiv PDF; introduction and spectral-pattern analysis.",
+      "alternate_ids": [
+        "10.1364/JOSAB.35.003143"
+      ]
+    },
+    {
+      "key": "finot08",
+      "label": "Finot et al. (2008)",
+      "id": "10.1364/JOSAB.25.001938",
+      "access": "abstract only",
+      "note": "Wave-breaking contribution to normally dispersive continuum formation, including gain/loss. The abstract does not verify a universal saturation theorem.",
+      "where": "Publisher and University of Southampton abstract."
+    },
+    {
+      "key": "heidt",
+      "label": "Heidt (2010)",
+      "id": "10.1364/JOSAB.27.000550",
+      "access": "abstract only",
+      "note": "Identifiable replacement for the vague Heidt reference: coherent pulse-preserving ANDi generation, not a band-energy ceiling.",
+      "where": "Leibniz IPHT author-institution abstract."
+    },
+    {
+      "key": "castello13",
+      "label": "Castelló-Lurbe, Andrés and Silvestre (2013)",
+      "id": "10.1364/OE.21.028550",
+      "access": "full text",
+      "note": "Equations 2 and 19 give the same dispersion-weighted Hamiltonian invariant; normal-dispersion spectral design already uses it.",
+      "where": "Author-uploaded paper on ResearchGate; section 2 and appendix."
+    },
+    {
+      "key": "castello16",
+      "label": "Castelló-Lurbe, Vermeulen and Silvestre (2016)",
+      "id": "10.1364/OE.24.026629",
+      "access": "full text",
+      "note": "Generalized inverse dispersive and nonlinear lengths sum to a constant. A direct optical precedent for the proposed invariant-based analysis.",
+      "where": "Full paper PDF indexed by web; introduction, section 2 and references."
+    },
+    {
+      "key": "wang",
+      "label": "Wang, Chen and Chang (2022)",
+      "id": "10.1364/OE.466033",
+      "access": "full text",
+      "note": "Sections 3–4 estimate SPM/GVD spectral peak positions and widths for Gaussian/sech launches using a fitted lumped-chirp parameter. These are approximate spectral-width maxima, not optimized band-energy ceilings.",
+      "where": "Author PDF https://in.iphy.ac.cn/upload/s20/m/202212081457426583.pdf, local wang2022.pdf; Sections 3–4 and Table 1 inspected. Publisher article also mirrored on ResearchGate."
+    },
+    {
+      "key": "diao",
+      "label": "Diao, Chen and Chang (2021)",
+      "id": "10.1364/OE.442348",
+      "access": "full text",
+      "note": "PSO varies fiber length, mode-field diameter and dispersion for a fixed Gaussian input. The fitness combines both outer-lobe energy fractions with pulse Strehl quality; this is prior optimization, not a global one-band ceiling.",
+      "where": "Publisher full article mirrored on ResearchGate, DOI 10.1364/OE.442348; Section 3 and Eqs. 5–7 inspected: https://www.researchgate.net/publication/355934392_Particle_swarm_optimization_of_SPM-enabled_spectral_selection_to_achieve_an_octave-spanning_wavelength-shift"
+    },
+    {
+      "key": "deift",
+      "label": "Deift and Zhou (2003)",
+      "id": "10.1002/cpa.3034",
+      "access": "full text",
+      "note": "Defocusing NLS long-time asymptotics in weighted Sobolev spaces are established, including a logarithmic phase. Rewriting them in optical units alone is not novel.",
+      "where": "arXiv:math/0206222; introduction and theorem statements.",
+      "alternate_ids": [
+        "arXiv:math/0206222"
+      ]
+    },
+    {
+      "key": "koch",
+      "label": "Koch and Tataru (2018)",
+      "id": "10.1215/00127094-2018-0033",
+      "access": "full text",
+      "note": "Conserved energies control Sobolev norms. Higher invariants are nonlinear functionals, not conserved ordinary Fourier moments.",
+      "where": "arXiv:1607.02534; introduction, Theorem 1.1 and Corollary 1.2.",
+      "alternate_ids": [
+        "arXiv:1607.02534"
+      ]
+    },
+    {
+      "key": "zheltikov",
+      "label": "Zheltikov (2018)",
+      "id": "10.1103/PhysRevA.98.043833",
+      "access": "full text",
+      "note": "Explicitly distinguishes the NLSE norm from physical photon number and explains the role of the optical shock term.",
+      "where": "APS accepted manuscript; introduction and field equations."
+    },
+    {
+      "key": "epstein",
+      "label": "Epstein (2004)",
+      "id": "10.1016/j.jmr.2003.12.014",
+      "access": "abstract only",
+      "note": "NMR inverse-scattering trace formulas yield minimum RF pulse energy for a prescribed magnetization profile. Different observable, but close optimization precedent.",
+      "where": "ScienceDirect abstract and indexed author-copy abstract; full download failed."
+    },
+    {
+      "key": "kuzyk",
+      "label": "Kuzyk (2000)",
+      "id": "10.1364/OL.25.001183",
+      "access": "abstract only",
+      "note": "Quantum sum-rule limits constrain molecular third-order susceptibility; they do not solve fixed-material fiber propagation efficiency.",
+      "where": "Optica publisher abstract."
+    },
+    {
+      "key": "akhmediev",
+      "label": "Akhmediev and Karlsson (1995)",
+      "id": "10.1103/PhysRevA.51.2602",
+      "access": "abstract only",
+      "note": "Abstract explicitly promises an analytic amount of radiation, not phase matching alone; full quantitative scope remains to be checked.",
+      "where": "APS/publisher abstract; full-text fetch unavailable."
+    },
+    {
+      "key": "elgin",
+      "label": "Elgin, Brabec and Kelly (1995)",
+      "id": "10.1016/0030-4018(94)00602-Q",
+      "access": "abstract only",
+      "note": "Associate-field inverse-scattering perturbation describes radiation growth and structure as well as soliton changes.",
+      "where": "ScienceDirect abstract."
+    },
+    {
+      "key": "erkintalo12",
+      "label": "Erkintalo et al. (2012)",
+      "id": "10.1103/PhysRevLett.109.223904",
+      "access": "abstract only",
+      "note": "Cascaded phase matching and nonlinear symmetry breaking in fiber combs; supports the cascaded mixing mechanism.",
+      "where": "APS abstract."
+    },
+    {
+      "key": "webb13",
+      "label": "Webb et al. (2013)",
+      "id": "10.1364/OL.38.000151",
+      "access": "abstract only",
+      "note": "Generalized radiation from non-solitonic pulses; a soliton-tail-only yield argument needs a restricted input class.",
+      "where": "Publisher abstract."
+    },
+    {
+      "key": "roy09",
+      "label": "Roy, Bhadra and Agrawal (2009), PRA",
+      "id": "10.1103/PhysRevA.79.023824",
+      "access": "full text",
+      "note": "Equations 2 and 6 provide a TOD/soliton-order radiation-peak-power law. The reported saturation concerns peak power, not integrated photon yield.",
+      "where": "Author-copy PDF via web index; sections II–V; direct download was unavailable."
+    },
+    {
+      "key": "royOL",
+      "label": "Roy, Bhadra and Agrawal (2009), OL",
+      "id": "10.1364/OL.34.002072",
+      "access": "abstract only",
+      "note": "Higher dispersion orders change the number and location of radiation peaks; no universal integrated-yield statement in the abstract.",
+      "where": "Publisher abstract reproduced in PubMed."
+    },
+    {
+      "key": "roy10",
+      "label": "Roy et al. (2010)",
+      "id": "10.1016/j.optcom.2010.04.003",
+      "access": "abstract only",
+      "note": "Dispersion-profile effects on radiation emission; a direct precursor that must be read fully before claiming an optimized law.",
+      "where": "ScienceDirect search-indexed abstract; author PDF located, not fetched."
+    },
+    {
+      "key": "webb14",
+      "label": "Webb et al. (2014)",
+      "id": "10.1364/OL.39.005850",
+      "access": "full text",
+      "note": "Effective soliton order, compression and finite fiber length explain efficiency trends for a dual-frequency beat input.",
+      "where": "arXiv:1607.04945; full paper.",
+      "alternate_ids": [
+        "arXiv:1607.04945"
+      ]
+    },
+    {
+      "key": "austin",
+      "label": "Austin et al. (2006)",
+      "id": "10.1364/OE.14.011997",
+      "access": "abstract only",
+      "note": "Compression-window emission and recoil-induced blue shift are already identified; they are not missing mechanisms.",
+      "where": "Publisher abstract reproduced in PubMed."
+    },
+    {
+      "key": "chang10",
+      "label": "Chang, Chen and Kärtner (2010)",
+      "id": "10.1364/OL.35.002361",
+      "access": "abstract only",
+      "note": "Efficient visible Cherenkov conversion is a source demonstration; its energy efficiency is not Roy's peak-power observable.",
+      "where": "Publisher abstract."
+    },
+    {
+      "key": "chang11",
+      "label": "Chang, Chen and Kärtner (2011)",
+      "id": "10.1364/OE.19.006635",
+      "access": "abstract only",
+      "note": "Few-cycle Cherenkov conversion study; broadband/shock physics limits comparison with the narrowband TOD model.",
+      "where": "Publisher abstract."
+    },
+    {
+      "key": "modotto",
+      "label": "Modotto et al. (2015)",
+      "id": "10.1364/JOSAB.32.001676",
+      "access": "full text",
+      "note": "Contains an analytical perturbative radiation spectrum, Eq. 4, and an energy-conversion experiment in a multi-zero-dispersion fiber.",
+      "where": "arXiv:1506.08223; especially section 4, equation visually inspected.",
+      "alternate_ids": [
+        "arXiv:1506.08223"
+      ]
+    },
+    {
+      "key": "erkintalo10",
+      "label": "Erkintalo, Genty and Dudley (2010)",
+      "id": "10.1364/OL.35.000658",
+      "access": "abstract only",
+      "note": "Numerical collision-enhanced radiation peak power; the card's description as measured integrated yield is unsupported.",
+      "where": "Publisher abstract."
+    },
+    {
+      "key": "timmerkamp",
+      "label": "Timmerkamp and Fallnich (2026)",
+      "id": "10.1364/OE.590355",
+      "access": "abstract only",
+      "note": "Integrated silicon-nitride waveguide, orthogonally polarized modes, and probe-photon conversion; not scalar-fiber pump conversion.",
+      "where": "Publisher-deposited Crossref abstract and Münster institution record."
+    },
+    {
+      "key": "travers19",
+      "label": "Travers et al. (2019)",
+      "id": "10.1038/s41566-019-0416-4",
+      "access": "full text",
+      "note": "Gas-capillary source and conversion measurements; ionization and full dispersion distinguish it from the pure TOD model.",
+      "where": "arXiv:1811.05877; source, efficiency and limiting-regime discussion.",
+      "alternate_ids": [
+        "arXiv:1811.05877"
+      ]
+    },
+    {
+      "key": "brahmsPRR",
+      "label": "Brahms, Belli and Travers (2020), PRR",
+      "id": "10.1103/PhysRevResearch.2.043037",
+      "access": "abstract only",
+      "note": "High-energy capillary compression and tunable radiation; an achievable operating point, not a ceiling.",
+      "where": "APS and Heriot-Watt abstract."
+    },
+    {
+      "key": "brahmsOL",
+      "label": "Brahms, Belli and Travers (2020), OL",
+      "id": "10.1364/OL.398343",
+      "access": "abstract only",
+      "note": "Pressure-gradient scaling and radiation-pulse duration; not a band-yield upper bound.",
+      "where": "Publisher-deposited Crossref abstract."
+    },
+    {
+      "key": "kottig",
+      "label": "Köttig et al. (2017)",
+      "id": "10.1364/OPTICA.4.001272",
+      "access": "abstract only",
+      "note": "High repetition-rate deep-UV source using optimized gas-filled fiber stages.",
+      "where": "Heriot-Watt institution abstract."
+    },
+    {
+      "key": "mak",
+      "label": "Mak et al. (2013)",
+      "id": "10.1364/OE.21.010942",
+      "access": "abstract only",
+      "note": "Gas-filled hollow-core tunable radiation and pressure-gradient experiments.",
+      "where": "Heriot-Watt institution abstract."
+    },
+    {
+      "key": "joly",
+      "label": "Joly et al. (2011)",
+      "id": "10.1103/PhysRevLett.106.203901",
+      "access": "abstract only",
+      "note": "Argon-filled fiber deep-UV conversion experiment; no Raman and pressure-tunable dispersion.",
+      "where": "APS abstract."
+    },
+    {
+      "key": "kodama",
+      "label": "Kodama and Hasegawa (1987)",
+      "id": "10.1109/JQE.1987.1073392",
+      "access": "not accessed",
+      "note": "Correct bibliographic record. The specific fission-partition attribution was not checked in its full text; the baseline is reproduced in Kormokar 2023.",
+      "where": "Crossref publisher metadata; primary full text unavailable."
+    },
+    {
+      "key": "mollenauer",
+      "label": "Mollenauer et al. (1983)",
+      "id": "10.1364/OL.8.000289",
+      "access": "full text",
+      "note": "Scanned three-page reprint confirms first-compression position is measured in soliton periods, and plots compressed width and central-spike energy. The later fit constants are not independently recovered from this paper.",
+      "where": "Publisher abstract and bibliographically matching scanned reprint displayed at https://www.scribd.com/document/808411589/1983-L-F-Mollenauer-Extreme-picosecond-pulse-narrowing-by-means-of-soliton-effect-in-single-mode-optical-fibers; first-page theory and figure discussion read; OCR limits exact figure extraction."
+    },
+    {
+      "key": "dudley",
+      "label": "Dudley, Genty and Coen (2006)",
+      "id": "10.1103/RevModPhys.78.1135",
+      "access": "abstract only",
+      "note": "Broad supercontinuum review; no absence claim is inferred from its abstract.",
+      "where": "APS abstract."
+    },
+    {
+      "key": "science03",
+      "label": "Skryabin et al. (2003)",
+      "id": "10.1126/science.1088516",
+      "access": "abstract only",
+      "note": "Negative dispersion slope: red Cherenkov radiation recoils the soliton toward blue and cancels Raman shift. The proposal reversed the relevant radiation direction.",
+      "where": "Publisher-deposited Crossref abstract."
+    },
+    {
+      "key": "corney",
+      "label": "Corney and Drummond (2001), II",
+      "id": "10.1364/JOSAB.18.000153",
+      "access": "full text",
+      "note": "Direct frequency-coordinate covariance precedes the timing-jitter formula (preprint Eq. 3.15). Analytic treatment neglects deterministic SSFS.",
+      "where": "arXiv:quant-ph/9912096; noise projection and sections III–IV.",
+      "alternate_ids": [
+        "arXiv:quant-ph/9912096"
+      ]
+    },
+    {
+      "key": "drummond",
+      "label": "Drummond and Corney (2001), I",
+      "id": "10.1364/JOSAB.18.000139",
+      "access": "full text",
+      "note": "The dissipative Raman susceptibility and thermal/zero-point Langevin spectrum already share a reservoir model (preprint Eqs. 6.11 and 6.16).",
+      "where": "arXiv:quant-ph/9912095; sections III and VI.",
+      "alternate_ids": [
+        "arXiv:quant-ph/9912095"
+      ]
+    },
+    {
+      "key": "kartner",
+      "label": "Kärtner et al. (1994)",
+      "id": "10.1364/JOSAB.11.001267",
+      "access": "abstract only",
+      "note": "Already models SSFS, measured Raman gain and quantum/thermal phonon noise together. The precise projected ratio is unverified without the full text.",
+      "where": "Optica abstract; ResearchGate publisher preview did not provide the full article."
+    },
+    {
+      "key": "haus",
+      "label": "Haus and Lai (1990)",
+      "id": "10.1364/JOSAB.7.000386",
+      "access": "abstract only",
+      "note": "Linearized quantum soliton theory includes photon-number, phase, time and frequency uncertainties.",
+      "where": "Author-institution abstract (NYCU)."
+    },
+    {
+      "key": "gordon",
+      "label": "Gordon (1986)",
+      "id": "10.1364/OL.11.000662",
+      "access": "abstract only",
+      "note": "Classical fundamental-soliton self-frequency-shift law. Its energy derivative depends on how width and energy are varied.",
+      "where": "Optica publisher abstract."
+    },
+    {
+      "key": "santhanam03",
+      "label": "Santhanam and Agrawal (2003)",
+      "id": "10.1016/S0030-4018(03)01561-X",
+      "access": "abstract only",
+      "note": "General moment-method treatment and broadening-induced shift saturation; no unrestricted reach or quantum-noise floor follows from the abstract.",
+      "where": "ScienceDirect abstract; indexed author PDF returned 404 on direct retrieval."
+    },
+    {
+      "key": "santhanam02",
+      "label": "Santhanam and Agrawal (2002)",
+      "id": "10.1109/JSTQE.2002.1016367",
+      "access": "abstract only",
+      "note": "Amplifier-noise fluctuations transferred through Raman dynamics in dispersion-managed communication systems; not the intrinsic Raman-reservoir floor.",
+      "where": "Indexed author-paper abstract; journal metadata checked."
+    },
+    {
+      "key": "zhou",
+      "label": "Zhou et al. (2015)",
+      "id": "10.1364/OL.40.005105",
+      "access": "abstract only",
+      "note": "Pump intensity noise transfers through center-wavelength changes to timing jitter; reducing accumulated dispersion reduces timing jitter.",
+      "where": "Publisher abstract; DESY PDF returned an empty-text page."
+    },
+    {
+      "key": "matsuo",
+      "label": "Matsuo et al. (2000)",
+      "id": "10.1007/s10043-000-0317-1",
+      "access": "not accessed",
+      "note": "Title, authors and DOI match. The original card's quantitative timing/intensity values were not independently checked from a primary text.",
+      "where": "Crossref publisher metadata; accessible primary abstract not obtained."
+    },
+    {
+      "key": "erkintalo09",
+      "label": "Erkintalo, Genty and Dudley (2009)",
+      "id": "10.1364/OL.34.002468",
+      "access": "abstract only",
+      "note": "Rogue-wave-like filtered-intensity statistics; not a direct derivation of soliton centroid quantum variance.",
+      "where": "Publisher abstract."
+    },
+    {
+      "key": "kormokar22",
+      "label": "Kormokar and Rochette (2022)",
+      "id": "10.1364/NP.2022.NpTu4F.7",
+      "access": "abstract only",
+      "note": "Conference abstract includes interpulse Raman gain in conversion efficiency. A journal version is now located.",
+      "where": "Publisher-deposited Crossref abstract."
+    },
+    {
+      "key": "kormokar23",
+      "label": "Kormokar, Shamim and Rochette (2023)",
+      "id": "10.1364/JOSAB.478975",
+      "access": "full text",
+      "note": "Journal version, arXiv:2301.02945. Interpulse Raman transfer enhances the leading soliton beyond the Raman-independent inverse-scattering energy partition.",
+      "where": "arXiv full text; equations 11 and 24 and experimental comparison.",
+      "alternate_ids": [
+        "arXiv:2301.02945"
+      ]
+    },
+    {
+      "key": "chen",
+      "label": "Chen et al. (2022)",
+      "id": "10.1364/OL.445499",
+      "access": "abstract only",
+      "note": "Hydrogen hollow-core SSFS conversion; a distinct Raman reservoir from silica.",
+      "where": "arXiv:2110.12360 and Crossref publisher abstract.",
+      "alternate_ids": [
+        "arXiv:2110.12360"
+      ]
+    },
+    {
+      "key": "yi",
+      "label": "Yi et al. (2016)",
+      "id": "10.1364/OL.41.003419",
+      "access": "full text",
+      "note": "Corrected author copy: Lagrangian shift and efficiency laws for driven cavity solitons, with large detuning and operation near the maximum existence detuning. Efficiency is relative to the minimum pump power at that operating point, not a universal conversion bound.",
+      "where": "Caltech author repository PDFs yi2016.pdf; derivation and stated detuning restrictions inspected."
+    },
+    {
+      "key": "yierr",
+      "label": "Yi et al. (2016), publisher’s note",
+      "id": "10.1364/OL.41.003722",
+      "access": "full text",
+      "note": "Publisher note identifies omitted text above Eq. 1 and below Eq. 15; the corrected online article is dated 19 July 2016. The corresponding operating-point assumptions were checked in the corrected author copy.",
+      "where": "Caltech author repository PDF yierr2016.pdf, complete one-page notice; corrected main paper read."
+    },
+    {
+      "key": "bao",
+      "label": "Bao et al. (2021)",
+      "id": "10.1038/s41567-020-01152-5",
+      "access": "abstract only",
+      "note": "Quantum timing diffusion of dissipative microcavity solitons; relevant noise precedent but a different dynamical system.",
+      "where": "arXiv:2003.06685.",
+      "alternate_ids": [
+        "arXiv:2003.06685"
+      ]
+    },
+    {
+      "key": "blow",
+      "label": "Blow and Wood (1989)",
+      "id": "10.1109/3.40655",
+      "access": "not accessed",
+      "note": "Correct bibliographic identity. The original wording 'energy loss by the Raman term' needs the field normalization and shock term specified; see Bonetti 2020.",
+      "where": "Crossref publisher metadata; primary full text not reached."
+    },
+    {
+      "key": "linale",
+      "label": "Linale et al. (2020)",
+      "id": "10.1364/OL.401096",
+      "access": "full text",
+      "note": "Actual title is Measuring self-steepening with the photon-conserving nonlinear Schrödinger equation. It is an application of the model, not its founding Raman derivation.",
+      "where": "ITBA author manuscript; introduction and model discussion."
+    },
+    {
+      "key": "bonetti",
+      "label": "Bonetti et al. (2020)",
+      "id": "10.1364/JOSAB.377891",
+      "access": "full text",
+      "note": "Foundational photon-conserving generalized NLSE for frequency-dependent nonlinearities, with Raman. Standard GNLSE photon conservation requires the appropriate frequency dependence.",
+      "where": "ITBA author PDF; sections 2–3."
+    },
+    {
+      "key": "huang",
+      "label": "Huang et al. (2026)",
+      "id": "arXiv:2607.05244",
+      "access": "full text",
+      "note": "The preprint exists. It derives a time-domain expansion and soliton moment equations from pcGNLSE; its conclusions cannot silently cover arbitrary lossy spectra.",
+      "where": "arXiv PDF/HTML; section II and moment equations."
+    },
+    {
+      "key": "gorbachNP",
+      "label": "Gorbach and Skryabin (2007), NP",
+      "id": "10.1038/nphoton.2007.202",
+      "access": "abstract only",
+      "note": "Gravity-like radiation trapping and supercontinuum extension; supports mechanism, not a universal band-fraction ceiling.",
+      "where": "Publisher abstract."
+    },
+    {
+      "key": "gorbachPRA",
+      "label": "Gorbach and Skryabin (2007), PRA",
+      "id": "10.1103/PhysRevA.76.053803",
+      "access": "full text",
+      "note": "Section VI and Eqs. 28–30 include radiation backaction that accelerates the soliton beyond its bare Raman rate; that rate is not an upper bound.",
+      "where": "University of Bath author PDF."
+    },
+    {
+      "key": "skryabin",
+      "label": "Skryabin and Gorbach (2010)",
+      "id": "10.1103/RevModPhys.82.1287",
+      "access": "full text",
+      "note": "Section VI reviews trapping, accelerated red shift, leakage and interactions. Blue-edge matching does not determine the blue photon fraction.",
+      "where": "arXiv:1005.2777; sections V–VI.",
+      "alternate_ids": [
+        "arXiv:1005.2777"
+      ]
+    },
+    {
+      "key": "stone",
+      "label": "Stone and Knight (2008)",
+      "id": "10.1364/OE.16.002670",
+      "access": "abstract only",
+      "note": "Uniform-fiber visible supercontinuum source; the exact group-velocity edge argument was not checked in the full text.",
+      "where": "Publisher abstract reproduced in PubMed."
+    },
+    {
+      "key": "sorensen",
+      "label": "Sørensen et al. (2011)",
+      "id": "10.1364/OL.36.000816",
+      "access": "abstract only",
+      "note": "Group-acceleration matching controls trapped blue power in tapers; group-velocity equality alone is insufficient.",
+      "where": "DTU institution abstract."
+    },
+    {
+      "key": "travers10",
+      "label": "Travers (2010)",
+      "id": "10.1088/2040-8978/12/11/113001",
+      "access": "not accessed",
+      "note": "Correct title and DOI for the blue-extension review. No mathematical claim is certified from metadata alone.",
+      "where": "Crossref and bibliographic record; full text not reached."
+    },
+    {
+      "key": "wetzel",
+      "label": "Wetzel et al. (2018)",
+      "id": "10.1038/s41467-018-07141-w",
+      "access": "abstract only",
+      "note": "Adaptive temporal pulse splitting experimentally customizes supercontinuum properties; no certified ceiling.",
+      "where": "Publisher-deposited Crossref abstract."
+    },
+    {
+      "key": "michaeli",
+      "label": "Michaeli and Bahabad (2018)",
+      "id": "10.1088/2040-8986/aab59c",
+      "access": "abstract only",
+      "note": "Genetic-algorithm control of shaped supercontinuum spectra.",
+      "where": "Publisher-deposited Crossref abstract."
+    },
+    {
+      "key": "hary23",
+      "label": "Hary et al. (2023)",
+      "id": "10.1364/OL.492064",
+      "access": "abstract only",
+      "note": "Genetic optimization of narrow spectral channels; enhancement relative to a reference is not absolute conversion efficiency.",
+      "where": "Publisher-deposited Crossref abstract."
+    },
+    {
+      "key": "hary25",
+      "label": "Hary et al. (2025)",
+      "id": "10.1038/s41598-024-84567-x",
+      "access": "abstract only",
+      "note": "Comparison of genetic, particle-swarm and annealing optimization. GPT independently read the abstract; the retained Claude proposal reports full-text access.",
+      "where": "Publisher-deposited Crossref abstract; Nature full-page retrieval failed."
+    },
+    {
+      "key": "lee",
+      "label": "Lee et al. (2023)",
+      "id": "arXiv:2312.10640",
+      "access": "full text",
+      "note": "Free-form SiN waveguides optimized for power, flatness and coherence using particle-swarm optimization; this cited work is not an adjoint-gradient method.",
+      "where": "arXiv PDF; design method and objectives."
+    },
+    {
+      "key": "shamim",
+      "label": "Shamim, Alamgir and Rochette (2023)",
+      "id": "10.1109/JLT.2022.3223802",
+      "access": "abstract only",
+      "note": "The source of the quoted high-efficiency tuning range. Distinct from the Kormokar fission-efficiency journal paper; pulse compression preserves soliton order.",
+      "where": "Optica journal abstract and McGill author-copy abstract."
+    },
+    {
+      "key": "kormokar21",
+      "label": "Kormokar, Shamim and Rochette (2021)",
+      "id": "10.1364/JOSAB.409240",
+      "access": "full text",
+      "note": "Adiabatic, nearly unchirped fundamental-soliton drift including TOD, shock and loss; Sections 2.3–3 derive the reduced law. Section 4.2.2 notes that the ansatz omits dispersive radiation. Not an all-field reach bound or a noise theory.",
+      "where": "Author preprint mirrored at https://pdfs.semanticscholar.org/e7f5/ff2b482f21657c3860c55fb42e0c94d43cae.pdf; local kormokar2021.pdf; Sections 2.3–3 and 4.2.2 inspected."
+    },
+    {
+      "key": "yangnoise",
+      "label": "Yang et al. (2021)",
+      "id": "10.1038/s41467-021-21658-7",
+      "access": "abstract only",
+      "note": "Cavity quiet-point noise suppression balances Raman shift and dispersive-wave recoil, with added thermal noise. Relevant precedent for including the dynamical noise transfer.",
+      "where": "Nature publisher search-indexed article abstract."
+    },
+    {
+      "key": "tsang",
+      "label": "Tsang (2007)",
+      "id": "10.1103/PhysRevA.75.063809",
+      "access": "full text",
+      "note": "Pulse position/frequency operators, optical-loss noise and adiabatic quantum soliton control. Raman is explicitly outside the analyzed model; this does not settle an SSFS noise floor.",
+      "where": "NUS author PDF https://www.ece.nus.edu.sg/stfpage/tmk/papers/tsang_decoherence_quantum-enhanced_timing_accuracy_PRA.pdf via indexed full text; Sections II and IV.D/VI inspected."
+    },
+    {
+      "key": "zheltikovSPM",
+      "label": "Zheltikov (2018), SPM theory",
+      "id": "10.1364/OE.26.017571",
+      "access": "full text",
+      "note": "Approximate short-distance SPM/GVD broadening and high-order compression-length scaling. Section 3 Eq. 6 includes the soliton-period factor omitted from the proposal’s leading compression-length coefficient.",
+      "where": "Publisher full article mirrored on ResearchGate https://www.researchgate.net/publication/325913147_Analytical_insights_into_self-phase_modulation_beyond_the_basic_theory; Sections 3–4, Eqs. 6 and 11–14 inspected."
+    }
+  ]
+}

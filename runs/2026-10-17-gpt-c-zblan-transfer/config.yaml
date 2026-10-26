@@ -1,0 +1,20 @@
+agent: gpt-c
+model: gpt-6-astra
+family: gpt
+material: ZBLAN measured eight-mode response from Yan 2012 Table 1
+response_doi: 10.1364/JOSAB.29.000238
+fibre_model_doi: 10.1364/JOSAB.409240
+pump_nm: 1940
+beta2_ps2_km: -18.9
+beta3_ps3_km: 0.112
+gamma_W_km: 2.1
+loss_db_km: 50
+raman_fraction: 0.24
+launch: sech
+orders: [3, 4, 5, 6]
+output_zN: 4
+production_max_grid: 32768
+convergence_max_grid: 65536
+grid_exception: One doubled-window reference N6 control after observed temporal-edge failure; see artifact_followup.md.
+production_max_dt_fs: 2.5
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-c-zblan-transfer

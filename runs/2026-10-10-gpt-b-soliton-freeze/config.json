@@ -1,0 +1,26 @@
+{
+  "agent": "gpt-b", "model": "gpt-6-astra", "family": "gpt",
+  "task": "T-20261010-claude-interactive-06",
+  "held_out": {
+    "launch": "fundamental sech", "T0_ps": 0.35, "temperature_K": 77,
+    "z_over_LD": 3.7, "lambda0_nm": 1550,
+    "beta2_ps2_per_m": -0.0206, "beta3_ps3_per_m": 0.000040519,
+    "n2_m2_per_W": 2.3e-20, "effective_diameter_um": 9.2,
+    "raman_fraction": 0.18, "tau1_fs": 12.2, "tau2_fs": 32,
+    "self_steepening": true,
+    "power_rule": "P0=abs(beta2)/(gamma*T0^2)",
+    "numerical_rules": "dt<=3 fs; fixed Float64 RK4IP; matched discrete adjoint; coth Raman including finite thermal DC"
+  },
+  "frozen_tests": {
+    "Kerr_continuum_map_relative_covariance_tolerance": 0.0001,
+    "held_out_first_order_F_absolute_error_target": 0.05,
+    "held_out_first_order_lambda_gen_absolute_error_target": 0.05,
+    "held_out_first_order_lambda_min_absolute_error_target": 0.05,
+    "hierarchy": "lambda_min<=lambda_pass<=lambda_gen<=best_binary_found",
+    "status": "acceptance targets only; numerical predictions to be committed before held-out propagation"
+  },
+  "search": {
+    "binary": "all contiguous intervals plus deterministic multistart one-bit descent and annealing; report seeds and number of starts",
+    "global_certificate": "none assumed; best found is an upper bound on the binary optimum"
+  }
+}

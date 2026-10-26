@@ -1,0 +1,16 @@
+run_id: 2026-10-18-claude-interactive.7-gaussian-validity
+date: 2026-10-18
+agent: claude-interactive.7
+model: claude-opus-5-5
+family: claude
+task: T-20261018-claude-interactive.7-01
+serves: "PI request (2026-10-18, via the orchestrator): Gaussian-validity boundaries of the squeezing claims C-20261018-claude-interactive.7-01, -02, -03, after gpt-b's finding that exact one-mode Kerr leaves the Gaussian regime long before coherence collapse."
+solver_commit: null
+solver_dirty: null
+solver_note: "No solver: tangent map and truncated-Wigner ensembles of the GRIN resonant model (exact Hermite-Gauss tensor, K = 5); exact classical Kerr map of Wigner samples for one mode."
+software: "Python 3.9 venv ~/agent-work/venv: numpy 2.0.2, scipy"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0 (host COECIS-G3FLW49YGQ); 513 trajectories x 15 modes; 2e5 single-mode samples; peak RSS about 0.3 GB"
+wall_time_s: "about 230 per photon number (twa_multimode_check.py), about 60 (single_mode_mixed_kerr.py)"
+seeds: "launch phase_seed 1, disorder dis_seed 7 (as grin-gaussian-state); Wigner noise default_rng(909); single-mode samples default_rng(17); bootstrap default_rng(5)"
+raw_location: "none; outputs are the committed JSON and text files (small)"
+predictions: "predictions.md, committed before the runs (commit 363ab078)"

@@ -1,0 +1,46 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-lower-n-refinement"
+
+[defaults]
+shape = "parabola"
+smooth = 0.02
+chirp = 0.3333333333333333
+nt = 32768
+window = 12.0
+length = 12.0
+step = 0.001
+linear_phase_cap = 2.0
+nonlinear_phase_cap = 0.1
+save_interval = 0.05
+restart_gain_length = 6.0
+
+[[cases]]
+label = "N5_width_minus"
+Nstar = 5.0
+width = 0.99
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/N5_grid_width_minus.npz"
+restart_sha256 = "862e39bd0d412d431c24494a27abc7fd36f9137277a556b411c39e0b8570939b"
+
+[[cases]]
+label = "N5_width_plus"
+Nstar = 5.0
+width = 1.01
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/N5_grid_width_plus.npz"
+restart_sha256 = "870f7f27c5390746ab253fde92cc70a4666436a5668120f1ace4021763a80484"
+
+[[cases]]
+label = "N10_width_minus"
+Nstar = 10.0
+width = 0.99
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/grid_width_minus.npz"
+restart_sha256 = "8088ac1989255725716acb341abb240695b3c505e3406b72a703259e53162a4a"
+
+[[cases]]
+label = "N10_width_plus"
+Nstar = 10.0
+width = 1.01
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-rates-convergence/grid_width_plus.npz"
+restart_sha256 = "6214d229a7bc78ebfcec82d726cdc10abda46a3d352fc990d12ed84f162d72ca"

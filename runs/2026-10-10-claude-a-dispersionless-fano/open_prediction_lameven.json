@@ -1,0 +1,31 @@
+{
+ "rows": [
+  {
+   "Phi": 70.0,
+   "n_bins": 2913,
+   "lam_odd": 0.0002754219407945513,
+   "lam_even": 0.09667674766360368,
+   "parity_bound": 0.048476084802199115,
+   "prediction_holds": true,
+   "wall_s": 5.3
+  },
+  {
+   "Phi": 85.0,
+   "n_bins": 3423,
+   "lam_odd": 0.0001899729710183206,
+   "lam_even": 0.06969500560170871,
+   "parity_bound": 0.034942489286363516,
+   "prediction_holds": true,
+   "wall_s": 9.8
+  },
+  {
+   "Phi": 100.0,
+   "n_bins": 3923,
+   "lam_odd": 0.00014411943100607196,
+   "lam_even": 0.055407667891275346,
+   "parity_bound": 0.027775893661140708,
+   "prediction_holds": true,
+   "wall_s": 14.6
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+# Reference shelf
+
+These are papers the PI has pointed agents to, with what each is for. A problem card still cites its own sources with access levels (AGENTS.md rule 4). This page lists papers that matter across problems, or for problems not written yet. Access levels are those of the agent who last checked the entry.
+
+| Reference | What it gives | Relevant to | Access |
+|---|---|---|---|
+| Uddin, Rivera, Seyler, Sloan, Salamin, Roques-Carmes, Xu, Sander, Kaminer & Soljačić, "Noise-immune quantum correlations of intense light," Nat. Photon. 19, 751–757 (2025), DOI [10.1038/s41566-025-01677-2](https://doi.org/10.1038/s41566-025-01677-2); preprint [arXiv:2311.05535](https://arxiv.org/abs/2311.05535) | Intense squeezed light from a noisy high-power source in nonlinear fiber. Multimode (spectral) quantum correlations decouple the output from the dominant input-noise channels, giving about 30-fold noise reduction. | P-20261004-root-01, P-013, P-20261004-root-03 | Abstract only (arXiv version) |
+| Sloan, Horodynski, Uddin, Salamin, Birk, Sidorenko, Kaminer, Soljačić & Rivera, "Programmable control of the spatiotemporal quantum noise of light," [arXiv:2509.03482](https://arxiv.org/abs/2509.03482) (2025) | A theory of spatiotemporal quantum noise in highly multimode nonlinear fiber. Wavefront shaping reduces noise by 12 dB beyond linear attenuation. | P-20261004-root-01, P-20261004-root-03, P-20261004-claude-interactive-01 | Abstract only |
+| Rivera, "Simulating multimode nonlinearities at very high mode count via parallel factor decomposition," [arXiv:2609.16502](https://arxiv.org/abs/2609.16502) (2026) | Parallel-factor (CP) decomposition of the nonlinear overlap tensor. It makes simulations with more than 1,000 modes feasible and is the method behind the solver's CP backend (`docs/SOLVER.md`). Examples: multimode solitons in GRIN fiber, and noise amplification in soliton fission. | Oracle for many-mode problems: P-002, P-005, P-20261004-root-03, P-20261004-claude-interactive-02 | Abstract only |
+| Rivera, Uddin, Sloan & Soljačić, "Ultra-broadband and passive stabilization of ultrafast light sources by quantum light injection," Nanophotonics 14(11), 1857–1864 (2025), DOI [10.1515/nanoph-2024-0634](https://doi.org/10.1515/nanoph-2024-0634) | A general theory of the quantum noise produced by nonlinear dynamics started from many-photon Gaussian states, and of the optimal state to inject. Seeding supercontinuum generation with pulsed squeezed vacuum cuts intensity and phase noise by about an order of magnitude over a broad band, with the spectrum unchanged. | A problem the PI will add soon; P-013; P-001 (input-noise covariance) | Abstract only (Crossref record) |
+
+## Adding an entry
+
+Give the full citation with DOI or arXiv id, one sentence on what the paper establishes, the problems it bears on, and your access level. Do not list a paper you could not locate.

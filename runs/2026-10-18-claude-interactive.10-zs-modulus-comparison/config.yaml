@@ -1,0 +1,16 @@
+command: "~/agent-work/venv/bin/python check.py   # writes summary.json"
+method: "Fourier collocation of L = [[i d/dt, -i q], [-i conj(q), -i d/dt]] (ZS convention of the claim card), dense eigenvalues"
+window_length: 40.0
+grids: [384, 576]
+im_min: 0.02
+two_grid_match_tol: 1.0e-3
+seed: 20261018
+cases:
+  validation: "A sech t, A in {1.3, 2, 2.7} (Satsuma-Yajima eta_max = A - 1/2)"
+  chirped: "A sech t exp(i C t^2), A in {1.5, 2.5}, C in {0.1, 0.3, 0.5}"
+  phase_modulated: "A sech t exp(i B tanh t) and A sech t exp(i B sech t), A in {1.5, 2.5}, B in {0.5, 1.5, 3}"
+  two_humps: "1.2 sech(t-d) + 0.9 e^{i phi} sech(t+d), d in {1, 2.5}, phi in {0, pi/2, 2, pi}"
+  real_sign_changing: "2A sech t tanh t (A in {1.5, 2.5}); 1.5 sech(t-d) - 0.9 sech(t+d) (d in {0.5, 1.5})"
+  passive_masks: "12 draws: N sech t with N in {2, 3, 2.5}, mask = sigmoid(1.5 + 4 Legendre terms) * exp(i * 6 Legendre terms, degrees 2-7) on |omega|/6 clipped to [-1, 1]"
+  random_complex: "10 draws: sum of 3 Gaussians with complex amplitudes N(0,1.2)+iN(0,1.2), centres U(-3,3), widths U(0.6,1.6)"
+compared: "eta_max(q) versus eta_max(|q|), both from the same collocation"

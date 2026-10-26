@@ -1,0 +1,185 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "seed": 4101,
+      "kappa": 10,
+      "epsilon": 0.1,
+      "field_error_rms": 0.05609799397947197,
+      "field_error_max": 0.09496381593430524,
+      "power_error_rms": 0.002399096555088024,
+      "max_N_drift": 1.525002346625115e-12,
+      "max_E_drift": 0.013001926648013584,
+      "max_Htotal_drift": 2.816236133185157e-11,
+      "evaluations": 4349
+    },
+    {
+      "seed": 4101,
+      "kappa": 20,
+      "epsilon": 0.05,
+      "field_error_rms": 0.028517553288768253,
+      "field_error_max": 0.050154117079762736,
+      "power_error_rms": 0.0012239895455851187,
+      "max_N_drift": 1.599498311577463e-12,
+      "max_E_drift": 0.007134269063177157,
+      "max_Htotal_drift": 6.426859044950106e-11,
+      "evaluations": 7637
+    },
+    {
+      "seed": 4101,
+      "kappa": 40,
+      "epsilon": 0.025,
+      "field_error_rms": 0.01433473794299937,
+      "field_error_max": 0.025123109754876718,
+      "power_error_rms": 0.0006134027947504295,
+      "max_N_drift": 1.6505685707102202e-12,
+      "max_E_drift": 0.003719233797751298,
+      "max_Htotal_drift": 1.4440715290220396e-10,
+      "evaluations": 13061
+    },
+    {
+      "seed": 4101,
+      "kappa": 80,
+      "epsilon": 0.0125,
+      "field_error_rms": 0.007191661166963478,
+      "field_error_max": 0.012796053291285811,
+      "power_error_rms": 0.00030819844826510703,
+      "max_N_drift": 1.8252066524837574e-12,
+      "max_E_drift": 0.0018973948842369026,
+      "max_Htotal_drift": 2.956852540592081e-10,
+      "evaluations": 22997
+    },
+    {
+      "seed": 4102,
+      "kappa": 10,
+      "epsilon": 0.1,
+      "field_error_rms": 0.0637719461180876,
+      "field_error_max": 0.1127657323433082,
+      "power_error_rms": 0.0033056816942484022,
+      "max_N_drift": 1.836752971939859e-12,
+      "max_E_drift": 0.021017104417178856,
+      "max_Htotal_drift": 4.1533887440436956e-11,
+      "evaluations": 4769
+    },
+    {
+      "seed": 4102,
+      "kappa": 20,
+      "epsilon": 0.05,
+      "field_error_rms": 0.032245182540381376,
+      "field_error_max": 0.055983914838458576,
+      "power_error_rms": 0.0016318193093524873,
+      "max_N_drift": 1.914246539058695e-12,
+      "max_E_drift": 0.0100904506680769,
+      "max_Htotal_drift": 9.268141809570807e-11,
+      "evaluations": 8261
+    },
+    {
+      "seed": 4102,
+      "kappa": 40,
+      "epsilon": 0.025,
+      "field_error_rms": 0.016283849039498727,
+      "field_error_max": 0.02864556619147338,
+      "power_error_rms": 0.0008144786863854062,
+      "max_N_drift": 1.9546586571550506e-12,
+      "max_E_drift": 0.004936197334852177,
+      "max_Htotal_drift": 2.0745005713251885e-10,
+      "evaluations": 14189
+    },
+    {
+      "seed": 4102,
+      "kappa": 80,
+      "epsilon": 0.0125,
+      "field_error_rms": 0.00816933581461921,
+      "field_error_max": 0.014062842494892253,
+      "power_error_rms": 0.0004063718016448297,
+      "max_N_drift": 2.0551338408836273e-12,
+      "max_E_drift": 0.0024414767742656496,
+      "max_Htotal_drift": 3.68842734133068e-10,
+      "evaluations": 25061
+    },
+    {
+      "seed": 4103,
+      "kappa": 10,
+      "epsilon": 0.1,
+      "field_error_rms": 0.08216063270480436,
+      "field_error_max": 0.14604760349011578,
+      "power_error_rms": 0.004165664516328887,
+      "max_N_drift": 2.189026737653421e-12,
+      "max_E_drift": 0.035242863456619866,
+      "max_Htotal_drift": 4.9400483703720965e-11,
+      "evaluations": 4799
+    },
+    {
+      "seed": 4103,
+      "kappa": 20,
+      "epsilon": 0.05,
+      "field_error_rms": 0.041829420882819573,
+      "field_error_max": 0.07260934169047181,
+      "power_error_rms": 0.002060836953509287,
+      "max_N_drift": 2.0947688028627454e-12,
+      "max_E_drift": 0.017091128910516118,
+      "max_Htotal_drift": 1.0579981335467892e-10,
+      "evaluations": 8297
+    },
+    {
+      "seed": 4103,
+      "kappa": 40,
+      "epsilon": 0.025,
+      "field_error_rms": 0.021190916387211222,
+      "field_error_max": 0.03718219090449841,
+      "power_error_rms": 0.001027782855997186,
+      "max_N_drift": 2.258082609785106e-12,
+      "max_E_drift": 0.00840123522705094,
+      "max_Htotal_drift": 2.064197701656667e-10,
+      "evaluations": 14273
+    },
+    {
+      "seed": 4103,
+      "kappa": 80,
+      "epsilon": 0.0125,
+      "field_error_rms": 0.01064584991643774,
+      "field_error_max": 0.01816511550001105,
+      "power_error_rms": 0.0005128975877511089,
+      "max_N_drift": 2.398303777795263e-12,
+      "max_E_drift": 0.004165620685997462,
+      "max_Htotal_drift": 3.5345948390386184e-10,
+      "evaluations": 25241
+    }
+  ],
+  "exponents": [
+    {
+      "seed": 4101,
+      "exponent": 0.9882991358211667
+    },
+    {
+      "seed": 4102,
+      "exponent": 0.9879535528010126
+    },
+    {
+      "seed": 4103,
+      "exponent": 0.9825540523990715
+    }
+  ],
+  "cutoff_bilinear_derivatives": {
+    "L": [
+      1.7889335846010823e-17,
+      0.0
+    ],
+    "X": [
+      -0.0028524046818241278,
+      0.0006167379116309157
+    ],
+    "Y": [
+      0.00030376978144589645,
+      0.0005583324918463917
+    ],
+    "B": [
+      -0.01192348175141656,
+      0.009146301725333456
+    ]
+  },
+  "blas_check_max_abs_error": 0.0,
+  "note": "Same conservative sign for full and averaged equations; no assertion of long-distance averaging."
+}

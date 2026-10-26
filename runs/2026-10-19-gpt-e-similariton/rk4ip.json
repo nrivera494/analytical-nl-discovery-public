@@ -1,0 +1,48 @@
+[
+  {
+    "family": "gpt",
+    "steps": 1024,
+    "model": "gpt-6-astra",
+    "mean_relative_error": 3.410385654120945e-05,
+    "phi": 9.428090415820634,
+    "seconds": 12.020920991897583,
+    "dispersion": 0.023570226039551587,
+    "relative_variance_errors": [
+      2.3657027158119348e-05,
+      -1.6027392657491646e-07,
+      7.33110095740841e-07
+    ],
+    "adjoint_variances": [
+      13.778438147042955,
+      11287.235715298812,
+      6025.414981169525
+    ],
+    "file": "~/analytical-nl-discovery-data/2026-10-19-gpt-e-similariton/crosscheck.npz",
+    "agent": "gpt-e",
+    "gain": 2.0,
+    "n": 1024
+  },
+  {
+    "family": "gpt",
+    "steps": 2048,
+    "model": "gpt-6-astra",
+    "mean_relative_error": 3.369255369124743e-05,
+    "phi": 9.428090415820634,
+    "seconds": 13.916682004928589,
+    "dispersion": 0.023570226039551587,
+    "relative_variance_errors": [
+      2.1008277435452527e-06,
+      -1.4097143441471616e-07,
+      -5.306588501952092e-08
+    ],
+    "adjoint_variances": [
+      13.778141143308861,
+      11287.235933170625,
+      6025.410244136465
+    ],
+    "file": "~/analytical-nl-discovery-data/2026-10-19-gpt-e-similariton/crosscheck.npz",
+    "agent": "gpt-e",
+    "gain": 2.0,
+    "n": 1024
+  }
+]

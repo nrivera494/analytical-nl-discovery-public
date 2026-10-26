@@ -1,0 +1,254 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-11-gpt-a-highlights-audit-c1",
+  "candidate": 1,
+  "status": "complete-bounded-audit",
+  "report": "docs/review-2026-10-11-gpt-a-highlights-audit.md",
+  "scaling": [
+    {
+      "Z": 0.5,
+      "packet_Lambda_reference": 1.570229157166407,
+      "N": [
+        12,
+        20,
+        32,
+        48
+      ],
+      "relative_errors": [
+        -0.01996750462507413,
+        -0.007300809820911525,
+        -0.002862437364360204,
+        -0.0012695813354705043
+      ],
+      "effective_c": [
+        0.7188301665026686,
+        0.7300809820911525,
+        0.7327839652762123,
+        0.7312788492310105
+      ],
+      "error_exponent_all": -1.9876804643812676,
+      "error_exponent_N12_N20": -1.9695975696148011,
+      "independent_reduced": {
+        "N": 192,
+        "Z": 0.5,
+        "nt": 4096,
+        "steps": 2400,
+        "Lambda": 1.5702278484625445,
+        "Pi": 3.1315240562057403,
+        "phase_step": 0.04,
+        "wall_seconds": 12.520353078842163
+      }
+    },
+    {
+      "Z": 1.5,
+      "packet_Lambda_reference": 0.3625049833090736,
+      "N": [
+        12,
+        20,
+        32,
+        48
+      ],
+      "relative_errors": [
+        -0.004064112943866882,
+        -0.0016340073056870796,
+        -0.0008346976781135051,
+        -0.0005620487045888689
+      ],
+      "effective_c": [
+        1.3167725938128698,
+        1.4706065751183717,
+        1.9231434503735159,
+        2.9136604845886964
+      ],
+      "error_exponent_all": -1.4362607338936002,
+      "error_exponent_N12_N20": -1.7837007216002518,
+      "independent_reduced": {
+        "N": 192,
+        "Z": 1.5,
+        "nt": 4096,
+        "steps": 7200,
+        "Lambda": 0.3624973386934458,
+        "Pi": 1.4406144495263267,
+        "phase_step": 0.04,
+        "wall_seconds": 44.623260259628296
+      }
+    }
+  ],
+  "small_Z_Richardson": [
+    {
+      "Z": 0.01,
+      "Lambda": 2520.6174352331586,
+      "Pi": 2562.089697233691,
+      "Lambda_coefficient": 0.8246974093263582,
+      "Pi_coefficient": 2.483587889347638
+    },
+    {
+      "Z": 0.02,
+      "Lambda": 635.4049949185526,
+      "Pi": 656.4574574083839,
+      "Lambda_coefficient": 0.8323995934842121,
+      "Pi_coefficient": 2.516596592670717
+    },
+    {
+      "Z": 0.04,
+      "Lambda": 161.5503103720167,
+      "Pi": 172.40251105775448,
+      "Lambda_coefficient": 0.8480496595226705,
+      "Pi_coefficient": 2.5844017692407184
+    },
+    {
+      "Z": 0.08,
+      "Lambda": 41.80829531549819,
+      "Pi": 47.569301856268005,
+      "Lambda_coefficient": 0.8786545009594221,
+      "Pi_coefficient": 2.7221765940057625
+    },
+    {
+      "Z": 0.16,
+      "Lambda": 11.229425324904605,
+      "Pi": 14.460585155871627,
+      "Lambda_coefficient": 0.936832207938948,
+      "Pi_coefficient": 3.0047744997578407
+    }
+  ],
+  "small_Z_quadratic_intercept": {
+    "Lambda": 0.816657692153723,
+    "Pi": 2.449843982896528,
+    "predicted_Lambda": 0.8164965809277261,
+    "predicted_Pi": 2.449489742783178,
+    "Lambda_remainder_power": 1.9754770709109197
+  },
+  "centroid_max_relative_error_excluding_unphysical_loss_row": 2.523803388498891e-11,
+  "Z1p5_N20_grid_step_relative_change": 2.562113854409631e-09,
+  "small_Z_grid_step_relative_change": 3.041621376986825e-08,
+  "Raman": {
+    "provenance": {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt"
+    },
+    "rows": [
+      {
+        "N": 10.0,
+        "Z": 0.7451360997180424,
+        "Phi": 7.451360997180424,
+        "nt": 256,
+        "window": 24,
+        "phase_step": 0.025,
+        "every": 8,
+        "T0_fs": 1000.0,
+        "chat0": 0.11483961911590271,
+        "lambda_kerr": 0.00857097707877385,
+        "lambda_total": 0.028163622820396108,
+        "rho_measured": 1.2712675071079247,
+        "wall_seconds": 4.212836027145386
+      },
+      {
+        "N": 10.0,
+        "Z": 0.7451360997180424,
+        "Phi": 7.451360997180424,
+        "nt": 512,
+        "window": 24,
+        "phase_step": 0.0125,
+        "every": 8,
+        "T0_fs": 1000.0,
+        "chat0": 0.11483961911590271,
+        "lambda_kerr": 0.008570993290610462,
+        "lambda_total": 0.028164022840418072,
+        "rho_measured": 1.2712924104763335,
+        "wall_seconds": 36.093778133392334
+      },
+      {
+        "N": 10.0,
+        "Z": 0.7451360997180424,
+        "Phi": 7.451360997180424,
+        "nt": 512,
+        "window": 24,
+        "phase_step": 0.0125,
+        "every": 4,
+        "T0_fs": 1000.0,
+        "chat0": 0.11483961911590271,
+        "lambda_kerr": 0.008570993290610462,
+        "lambda_total": 0.02816410776650741,
+        "rho_measured": 1.2712979208999537,
+        "wall_seconds": 62.431725025177
+      }
+    ]
+  },
+  "Gaussian_Hamiltonian_small_Z": {
+    "provenance": {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt"
+    },
+    "rows": [
+      {
+        "N": 20,
+        "Z": 0.01,
+        "K": 3.857380384020565e-05,
+        "K_over_Z_squared": 0.3857380384020565,
+        "predicted_small_Z_finite_N": 0.3857840629362337,
+        "relative_remainder": -0.00011930128431658638,
+        "wall_seconds": 0.014247894287109375
+      },
+      {
+        "N": 20,
+        "Z": 0.02,
+        "K": 0.000154240022635512,
+        "K_over_Z_squared": 0.38560005658878,
+        "predicted_small_Z_finite_N": 0.3857840629362337,
+        "relative_remainder": -0.0004769672081661458,
+        "wall_seconds": 0.029758930206298828
+      },
+      {
+        "N": 20,
+        "Z": 0.04,
+        "K": 0.0006160791398139207,
+        "K_over_Z_squared": 0.3850494623837004,
+        "predicted_small_Z_finite_N": 0.3857840629362337,
+        "relative_remainder": -0.0019041754782251896,
+        "wall_seconds": 0.06783485412597656
+      },
+      {
+        "N": 80,
+        "Z": 0.01,
+        "K": 3.849095812379236e-05,
+        "K_over_Z_squared": 0.38490958123792357,
+        "predicted_small_Z_finite_N": 0.3849554221770307,
+        "relative_remainder": -0.00011908116230163746,
+        "wall_seconds": 0.08704519271850586
+      },
+      {
+        "N": 80,
+        "Z": 0.02,
+        "K": 0.00015390886244186377,
+        "K_over_Z_squared": 0.38477215610465937,
+        "predicted_small_Z_finite_N": 0.3849554221770307,
+        "relative_remainder": -0.00047607089500112387,
+        "wall_seconds": 0.12810301780700684
+      },
+      {
+        "N": 80,
+        "Z": 0.04,
+        "K": 0.0006147580391516309,
+        "K_over_Z_squared": 0.3842237744697693,
+        "predicted_small_Z_finite_N": 0.3849554221770307,
+        "relative_remainder": -0.00190060371957812,
+        "wall_seconds": 0.14801883697509766
+      }
+    ]
+  },
+  "outputs": [
+    "centroid.json",
+    "convergence.json",
+    "input-manifest.json",
+    "limits.json",
+    "raman.json",
+    "reduced.json",
+    "refined.json",
+    "scaling.json",
+    "searches.json"
+  ]
+}

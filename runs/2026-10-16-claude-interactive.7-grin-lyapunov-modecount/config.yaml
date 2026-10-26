@@ -1,0 +1,8 @@
+# Run 2026-10-16-claude-interactive.7-grin-lyapunov-modecount: largest Lyapunov exponent lambda_1 (units 1/L_NL) of the resonant
+# GRIN model against the number of mode groups K = 4..8 (M = 10, 15, 21, 28, 36 modes), at fixed thermal condensate fraction:
+# E' = (1 - 0.70) D / S_1 per K (Dirichlet <I_0> = 0.70). Launch: fundamental + equal power in groups 1, 2 (E' <= 1) or 2, 3 (E' > 1),
+# random fixed phases; Brownian intra-group disorder sigma = 0.3; RK4 dz = 0.05; z up to 2000; shadow trajectory (d0 = 1e-9)
+# renormalized every L_NL; long-z statistics from z > 500.
+lyap_modecount.py: "outputs lyap_modecount.json, lyap_modecount_log.txt"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore lyap_modecount.py | tee lyap_modecount_log.txt"

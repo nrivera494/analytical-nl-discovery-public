@@ -1,0 +1,15 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_fine_N4_T6400",
+    "N": 4,
+    "T0_fs": 6400,
+    "n": 32768,
+    "width": 160,
+    "zN": [16, 32],
+    "tol": 1e-11,
+    "zs_points": 8192
+  }
+]

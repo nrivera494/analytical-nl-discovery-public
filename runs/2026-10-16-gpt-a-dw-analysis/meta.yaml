@@ -1,0 +1,9 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-analysis
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+claim: C-20261016-claude-b-01
+raw_location: source runs; derived summary only
+implementation: independent regression; d fixed before evaluating Roy yields

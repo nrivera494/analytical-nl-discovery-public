@@ -1,0 +1,19 @@
+{
+  "Phi": 3.0,
+  "y": 0.0001,
+  "N": 300,
+  "Z": 0.01,
+  "n": 2048,
+  "window": 12.0,
+  "steps": 100,
+  "lambda_min": 0.02654003090684555,
+  "direct_rayleigh": 0.02654003090685826,
+  "elapsed": 1.9680991172790527,
+  "diagnostics": {
+    "adjoint_relative_error": 1.476283066326081e-15,
+    "symplectic_bilinear_error": 4.706139763297898e-15,
+    "number_gradient_error": 2.6219166763387417e-13,
+    "mean_norm_error": 2.1471713296250527e-13,
+    "spectral_edge_energy_fraction": 5.063305345462936e-23
+  }
+}

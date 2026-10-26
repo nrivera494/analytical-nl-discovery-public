@@ -1,0 +1,18 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-noise-cw
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: 444c177
+analysis_commit: 3e57254aa7ceb6d77723c57b500d12872e2e4053
+prediction_commit: 444c177
+hardware: COECIS-G3FLW49YGQ
+julia_threads: 2
+blas_threads: 1
+fft_threads: 1
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-noise-cw
+wall_time_seconds: 11.351972103118896
+randomness: none; deterministic propagation
+status: completed
+task: T-20261004-claude-interactive-02

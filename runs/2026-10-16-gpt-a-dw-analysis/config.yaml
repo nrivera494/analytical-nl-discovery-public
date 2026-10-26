@@ -1,0 +1,30 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+sources:
+- dw-core
+- dw-law
+- dw-roy
+- dw-strips
+- dw-heldout
+- dw-heldout-strips
+- roy-reference
+- dw-length
+- dw-convergence
+- dw-followup
+comparison_source: 2026-10-16-claude-b-dw-oracle/summary.json; only permitted summary
+  values, inspected after independent results
+roy_calibration_delta3:
+- 0.01
+- 0.012
+- 0.014
+roy_strip_method: blue log-tail regression with linear and log-frequency terms, amplitudes
+  1e-5 to 1e-10
+core_calibration_delta3:
+- 0.008
+- 0.009
+- 0.01
+- 0.011
+own_heldout_delta3:
+- 0.0095
+- 0.0105

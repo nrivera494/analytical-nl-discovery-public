@@ -1,0 +1,2727 @@
+[
+  {
+    "id": "conv_smf_fine_N3_T25_retry",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "conv_wide_N8_T600",
+    "N": 8,
+    "T0_fs": 600,
+    "n": 65536,
+    "width": 320,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 3E-8,
+    "zs_points": 4096
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "conv_fine_N12_T1176",
+    "N": 12,
+    "T0_fs": 1176,
+    "n": 131072,
+    "width": 160,
+    "zN": [
+      1.25,
+      1.5,
+      1.75,
+      2,
+      2.5
+    ],
+    "tol": 3E-8,
+    "zs_points": 4096
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "conv_fine_N16_T1875",
+    "N": 16,
+    "T0_fs": 1875,
+    "n": 131072,
+    "width": 160,
+    "zN": [
+      1.25,
+      1.5,
+      1.75,
+      2
+    ],
+    "tol": 3E-8,
+    "zs_points": 4096
+  },
+  {
+    "id": "measured_hc_s1_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T50",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T100",
+    "N": 3,
+    "T0_fs": 100,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T120",
+    "N": 3,
+    "T0_fs": 120,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T140",
+    "N": 3,
+    "T0_fs": 140,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T180",
+    "N": 3,
+    "T0_fs": 180,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N4_T170",
+    "N": 4,
+    "T0_fs": 170,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N4_T230",
+    "N": 4,
+    "T0_fs": 230,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N6_T350",
+    "N": 6,
+    "T0_fs": 350,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N6_T450",
+    "N": 6,
+    "T0_fs": 450,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T40",
+    "N": 2,
+    "T0_fs": 40,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T60",
+    "N": 2,
+    "T0_fs": 60,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T80",
+    "N": 2,
+    "T0_fs": 80,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T80",
+    "N": 3,
+    "T0_fs": 80,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T100",
+    "N": 3,
+    "T0_fs": 100,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T120",
+    "N": 3,
+    "T0_fs": 120,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T160",
+    "N": 3,
+    "T0_fs": 160,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T180",
+    "N": 3,
+    "T0_fs": 180,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T140",
+    "N": 4,
+    "T0_fs": 140,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T170",
+    "N": 4,
+    "T0_fs": 170,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T230",
+    "N": 4,
+    "T0_fs": 230,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T260",
+    "N": 4,
+    "T0_fs": 260,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T300",
+    "N": 6,
+    "T0_fs": 300,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T350",
+    "N": 6,
+    "T0_fs": 350,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T450",
+    "N": 6,
+    "T0_fs": 450,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T500",
+    "N": 6,
+    "T0_fs": 500,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T450",
+    "N": 8,
+    "T0_fs": 450,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T600",
+    "N": 8,
+    "T0_fs": 600,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T800",
+    "N": 8,
+    "T0_fs": 800,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N2_T800",
+    "N": 2,
+    "T0_fs": 800,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N2_T1600",
+    "N": 2,
+    "T0_fs": 1600,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N2_T3200",
+    "N": 2,
+    "T0_fs": 3200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N2_T6400",
+    "N": 2,
+    "T0_fs": 6400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N4_T800",
+    "N": 4,
+    "T0_fs": 800,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8,
+      16,
+      32
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N4_T1600",
+    "N": 4,
+    "T0_fs": 1600,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8,
+      16,
+      32
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N4_T3200",
+    "N": 4,
+    "T0_fs": 3200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8,
+      16,
+      32
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "asym_N4_T6400",
+    "N": 4,
+    "T0_fs": 6400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8,
+      16,
+      32
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N12_T1000",
+    "N": 12,
+    "T0_fs": 1000,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N12_T1176",
+    "N": 12,
+    "T0_fs": 1176,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N12_T1352",
+    "N": 12,
+    "T0_fs": 1352,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N16_T1594",
+    "N": 16,
+    "T0_fs": 1594,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N16_T1875",
+    "N": 16,
+    "T0_fs": 1875,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N16_T2156",
+    "N": 16,
+    "T0_fs": 2156,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_fine_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_wide_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_step_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "fixed_step": 0.0001,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_halfstep_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "fixed_step": 0.00005,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_band_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "filter_fraction": 0.7,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_fine_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_wide_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_step_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "fixed_step": 0.0001,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_halfstep_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "fixed_step": 0.00005,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_band_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "filter_fraction": 0.7,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_fine_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_wide_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_step_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "fixed_step": 0.0001,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_halfstep_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "fixed_step": 0.00005,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_band_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "filter_fraction": 0.7,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_smf_fine_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_smf_wide_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4,
+      6
+    ],
+    "tol": 2E-8,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_smf_tight_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4,
+      6
+    ],
+    "tol": 1E-10,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "library_python_N4_T200_zN3",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 96,
+    "zN": [
+      3
+    ],
+    "tol": 1E-10,
+    "raman": "bw",
+    "shock": true,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N5_T100",
+    "N": 5,
+    "T0_fs": 100,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N5_T200",
+    "N": 5,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N5_T280",
+    "N": 5,
+    "T0_fs": 280,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N5_T340",
+    "N": 5,
+    "T0_fs": 340,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N5_T560",
+    "N": 5,
+    "T0_fs": 560,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N7_T500",
+    "N": 7,
+    "T0_fs": 500,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N10_T870",
+    "N": 10,
+    "T0_fs": 870,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N3_T50_fixed130cm",
+    "N": 3,
+    "T0_fs": 50,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-9,
+    "zs_points": 4096,
+    "zN": [
+      3,
+      4,
+      8,
+      16,
+      31.354955910975633
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N3_T100_fixed130cm",
+    "N": 3,
+    "T0_fs": 100,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-9,
+    "zs_points": 4096,
+    "zN": [
+      3,
+      4,
+      7.838738977743908
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N3_T140_fixed130cm",
+    "N": 3,
+    "T0_fs": 140,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-9,
+    "zs_points": 4096,
+    "zN": [
+      3,
+      3.9993566212979124
+    ]
+  },
+  {
+    "id": "tablepoint_smf_N3",
+    "N": 3,
+    "T0_fs": 123.65286443562111,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_measured_N3",
+    "N": 3,
+    "T0_fs": 123.65286443562111,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_smf_N4",
+    "N": 4,
+    "T0_fs": 196.8235961429382,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_measured_N4",
+    "N": 4,
+    "T0_fs": 196.8235961429382,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_smf_N6",
+    "N": 6,
+    "T0_fs": 380.6012478729439,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "dispersion": "smf",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "tablepoint_measured_N6",
+    "N": 6,
+    "T0_fs": 380.6012478729439,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T110",
+    "N": 3,
+    "T0_fs": 110,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T130",
+    "N": 3,
+    "T0_fs": 130,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T150",
+    "N": 3,
+    "T0_fs": 150,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N3_T160",
+    "N": 3,
+    "T0_fs": 160,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N4_T180",
+    "N": 4,
+    "T0_fs": 180,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N4_T190",
+    "N": 4,
+    "T0_fs": 190,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N4_T210",
+    "N": 4,
+    "T0_fs": 210,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N4_T220",
+    "N": 4,
+    "T0_fs": 220,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N6_T300",
+    "N": 6,
+    "T0_fs": 300,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N6_T325",
+    "N": 6,
+    "T0_fs": 325,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N6_T375",
+    "N": 6,
+    "T0_fs": 375,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "measured_hc_s1_N6_T425",
+    "N": 6,
+    "T0_fs": 425,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T70",
+    "N": 2,
+    "T0_fs": 70,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T115",
+    "N": 3,
+    "T0_fs": 115,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T125",
+    "N": 3,
+    "T0_fs": 125,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T135",
+    "N": 3,
+    "T0_fs": 135,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T190",
+    "N": 4,
+    "T0_fs": 190,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N4_T210",
+    "N": 4,
+    "T0_fs": 210,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T370",
+    "N": 6,
+    "T0_fs": 370,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T390",
+    "N": 6,
+    "T0_fs": 390,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T410",
+    "N": 6,
+    "T0_fs": 410,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N6_T430",
+    "N": 6,
+    "T0_fs": 430,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T550",
+    "N": 8,
+    "T0_fs": 550,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N8_T650",
+    "N": 8,
+    "T0_fs": 650,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_fine_N3_T50",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_wide_N3_T50",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_tight_N3_T50",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 1E-10,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_fine_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_wide_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_tight_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 1E-10,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_fine_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_wide_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 32768,
+    "width": 320,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "conv_measured_tight_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      3,
+      4
+    ],
+    "tol": 1E-10,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T40_long",
+    "N": 2,
+    "T0_fs": 40,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      6,
+      8,
+      16
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T60_long",
+    "N": 2,
+    "T0_fs": 60,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      6,
+      8,
+      16
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T70_long",
+    "N": 2,
+    "T0_fs": 70,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      6,
+      8,
+      16
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N2_T80_long",
+    "N": 2,
+    "T0_fs": 80,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      6,
+      8,
+      16
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T50_long",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T100_long",
+    "N": 3,
+    "T0_fs": 100,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T120_long",
+    "N": 3,
+    "T0_fs": 120,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N3_T140_long",
+    "N": 3,
+    "T0_fs": 140,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8
+    ],
+    "tol": 1E-9,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "shock_bw_N3_T100",
+    "N": 3,
+    "T0_fs": 100,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "shock": true,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "shock_bw_N3_T140",
+    "N": 3,
+    "T0_fs": 140,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "shock": true,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "shock_bw_N4_T200",
+    "N": 4,
+    "T0_fs": 200,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "shock": true,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "shock_bw_N6_T400",
+    "N": 6,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 1E-9,
+    "shock": true,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_N2_T62.5_long",
+    "N": 2,
+    "T0_fs": 62.5,
+    "n": 16384,
+    "width": 160,
+    "tol": 1E-9,
+    "zN": [
+      6,
+      8,
+      16
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_N2_T65_long",
+    "N": 2,
+    "T0_fs": 65,
+    "n": 16384,
+    "width": 160,
+    "tol": 1E-9,
+    "zN": [
+      6,
+      8,
+      16
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N8_T550",
+    "N": 8,
+    "T0_fs": 550,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 65536,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N8_T600",
+    "N": 8,
+    "T0_fs": 600,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 65536,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N8_T650",
+    "N": 8,
+    "T0_fs": 650,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 65536,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N10_T780",
+    "N": 10,
+    "T0_fs": 780,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 65536,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N10_T870",
+    "N": 10,
+    "T0_fs": 870,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 65536,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "measured_hc_s1_N10_T960",
+    "N": 10,
+    "T0_fs": 960,
+    "dispersion": "measured",
+    "raman": "hc",
+    "shock": true,
+    "loss_db_km": 0.2,
+    "n": 65536,
+    "width": 160,
+    "tol": 2E-8,
+    "zN": [
+      2.5,
+      3,
+      4
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T800",
+    "N": 2,
+    "T0_fs": 800,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-10,
+    "zs_points": 8192,
+    "zN": [
+      16,
+      32,
+      64
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T1600",
+    "N": 2,
+    "T0_fs": 1600,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-10,
+    "zs_points": 8192,
+    "zN": [
+      32,
+      64
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T3200",
+    "N": 2,
+    "T0_fs": 3200,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-10,
+    "zs_points": 8192,
+    "zN": [
+      64,
+      128
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T6400",
+    "N": 2,
+    "T0_fs": 6400,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-10,
+    "zs_points": 8192,
+    "zN": [
+      64,
+      128
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N4_T6400",
+    "N": 4,
+    "T0_fs": 6400,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1E-10,
+    "zs_points": 8192,
+    "zN": [
+      16,
+      32,
+      64
+    ]
+  },
+  {
+    "id": "alias_N8_T400_n16384",
+    "N": 8,
+    "T0_fs": 400,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T400_n32768",
+    "N": 8,
+    "T0_fs": 400,
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T400_n65536",
+    "N": 8,
+    "T0_fs": 400,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T600_n16384",
+    "N": 8,
+    "T0_fs": 600,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "alias_N8_T600_n65536",
+    "N": 8,
+    "T0_fs": 600,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2E-8,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "edge_N3_T12.5",
+    "N": 3,
+    "T0_fs": 12.5,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "edge_N3_T25",
+    "N": 3,
+    "T0_fs": 25,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      4,
+      6,
+      8
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "edge_N2_T12800",
+    "N": 2,
+    "T0_fs": 12800,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      64,
+      128,
+      256
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "edge_N4_T12800",
+    "N": 4,
+    "T0_fs": 12800,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "edge_N4_T25600",
+    "N": 4,
+    "T0_fs": 25600,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      16,
+      32,
+      64
+    ],
+    "tol": 1E-10,
+    "zs_points": 4096,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  }
+]

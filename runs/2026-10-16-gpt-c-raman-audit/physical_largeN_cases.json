@@ -1,0 +1,8 @@
+[
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"measured_hc_s1_N8_T550","N":8,"T0_fs":550,"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2,"n":65536,"width":160,"tol":2e-8,"zN":[2.5,3,4]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"measured_hc_s1_N8_T600","N":8,"T0_fs":600,"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2,"n":65536,"width":160,"tol":2e-8,"zN":[2.5,3,4]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"measured_hc_s1_N8_T650","N":8,"T0_fs":650,"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2,"n":65536,"width":160,"tol":2e-8,"zN":[2.5,3,4]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"measured_hc_s1_N10_T780","N":10,"T0_fs":780,"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2,"n":65536,"width":160,"tol":2e-8,"zN":[2.5,3,4]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"measured_hc_s1_N10_T870","N":10,"T0_fs":870,"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2,"n":65536,"width":160,"tol":2e-8,"zN":[2.5,3,4]},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"measured_hc_s1_N10_T960","N":10,"T0_fs":960,"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2,"n":65536,"width":160,"tol":2e-8,"zN":[2.5,3,4]}
+]

@@ -1,0 +1,55 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "kind": "symbolic and quadrature only",
+  "overlaps_over_S0101": {
+    "S01_02": "1/2",
+    "S01_11": "1/2",
+    "S02_02": "1/2",
+    "S11a_11a": "3/4",
+    "S11a_11b": "1/4",
+    "S01_03": "3/8",
+    "S01_03_02_02": "1/4"
+  },
+  "bound_eigenfunction_residual": "0",
+  "capture": [
+    {
+      "delta": 0,
+      "quadrature": 1.0000000000000004,
+      "formula": 1.0,
+      "quadrature_error_bound": 2.2588223062549936e-14
+    },
+    {
+      "delta": 0.25,
+      "quadrature": 0.9501432576787794,
+      "formula": 0.9501432576787794,
+      "quadrature_error_bound": 2.2549658645362526e-14
+    },
+    {
+      "delta": 0.5,
+      "quadrature": 0.8174649768615575,
+      "formula": 0.8174649768615582,
+      "quadrature_error_bound": 2.1012615227167246e-14
+    },
+    {
+      "delta": 1,
+      "quadrature": 0.4659010545249695,
+      "formula": 0.4659010545249694,
+      "quadrature_error_bound": 1.6403106322269036e-14
+    },
+    {
+      "delta": 2,
+      "quadrature": 0.07399980675447239,
+      "formula": 0.07399980675447244,
+      "quadrature_error_bound": 3.9956555944349084e-14
+    },
+    {
+      "delta": 3,
+      "quadrature": 0.007169407912828513,
+      "formula": 0.00716940791282852,
+      "quadrature_error_bound": 1.5322133798006484e-14
+    }
+  ],
+  "max_capture_absolute_error": 6.661338147750939e-16
+}

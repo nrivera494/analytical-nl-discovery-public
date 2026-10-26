@@ -1,0 +1,34 @@
+[
+  {
+    "N": 10.0,
+    "Z": 0.75,
+    "phi": 7.5,
+    "n": 512,
+    "window": 24.0,
+    "steps": 287,
+    "chirp": 0.0,
+    "order": 4,
+    "lambda_min": 0.008494754919134704,
+    "lambda_2": 0.021032926217285388,
+    "lambda_3": 0.05293636895955925,
+    "N2_lambda_min": 0.8494754919134704,
+    "N2_lambda_2": 2.1032926217285386,
+    "C_inverse_norm_squared": 0.8624717063463078,
+    "C_second_inverse_squared": 2.1551356327407083,
+    "lambda_pass": 0.021032926217285516,
+    "pass_vs_second": 5.995204332975845e-15,
+    "passive_constraint_residual": 1.1682061568096813e-14,
+    "parity": [
+      0.999999999999999,
+      -0.9999999999999984,
+      1.0000000000000009
+    ],
+    "reciprocal_check": 5.986148983060843e-13,
+    "seconds": 3.3437917232513428,
+    "adjoint_defect": 2.096776748953661e-16,
+    "symplectic_defect": 2.837637866917288e-15,
+    "high_frequency_fraction": 4.092989931938924e-24,
+    "edge_energy_fraction": 7.869677543653378e-28,
+    "energy_relative_error": 2.3159252293680765e-13
+  }
+]

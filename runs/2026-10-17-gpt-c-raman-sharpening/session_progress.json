@@ -1,0 +1,68 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "started_utc": "2026-10-17T20:42:28Z",
+  "production_stop_utc": "2026-10-18T00:25:20Z",
+  "deadline_utc": "2026-10-18T00:42:28Z",
+  "predictions_commit": "7390e2cbf694fe0e33d64b53bd708000f21230e8",
+  "recovered_controls_commit": "d30913a",
+  "active_exec_session": null,
+  "active_cases": null,
+  "active_log": null,
+  "remaining": [],
+  "optional_extra": "Unrun matched-resource shapes, damped-response propagation and additional refinements/controls are listed in inventory.json and assigned to follow-up tasks.",
+  "holdout_fit_commit": "abe44ab382621ff706ca234ac7bac8fca06d6b02",
+  "followup_tasks": [
+    "T-20261017-gpt-c-02",
+    "T-20261017-gpt-c-03",
+    "T-20261017-gpt-c-04"
+  ],
+  "known_issue": "Three late As-like N16 edge failures are retained. Widened and finer-grid controls validate the accepted earlier measurements. Initial summary bookkeeping corrections are documented in analysis_corrections.json.",
+  "pr_url": "https://github.com/nrivera494/analytical-nl-discovery/pull/59",
+  "calibration_complete": true,
+  "overlap_complete": true,
+  "kernel_validation_complete": true,
+  "library_forward_complete": true,
+  "production_stop_note": "After the high-order controls completed, only the eight already frozen BW midpoint cases were launched. All finished before the 20:27:28 EDT finalization reserve; no active propagation remains.",
+  "final_production_cutoff_utc": "2026-10-18T00:25:20Z",
+  "physical_baseline_complete": true,
+  "response_holdouts_complete": true,
+  "physical_peak_refinements_complete": true,
+  "library_comparison_complete": true,
+  "historical_queue_notes": {
+    "next_after_calibration": [
+      "analyze.py",
+      "generate length_extension_cases.json (As-like N4 currently unresolved)",
+      "generate response_control_cases.json (includes As-like N16 wide-window check)",
+      "generate response_refinement_cases.json at N3,N16",
+      "overlap.py and kernel_validation.py, serial memory guards",
+      "Julia solver_crosscheck.jl, single-thread, heap hint 2G",
+      "run_serial.py next_core_cases.json",
+      "run_serial.py heldout_response_cases.json",
+      "remaining length, damped, response convergence, BW/physical/response refinement and matched-shape controls as budget permits"
+    ],
+    "batch_pause_reason": "Clean case-boundary handoff to the post-holdout queue, which prioritizes complete uncertainty brackets and response controls. No current propagation is interrupted.",
+    "queue_change_note": "Original core batch stopped cleanly after hc_sech_N6_T412.500_smf. Finish physical cases, then run final_queue_cases.json; preserve every original manifest and output.",
+    "next_batch": "final_queue_cases.json"
+  },
+  "batch_pause_reason": "Clean boundary stop after the final high-order response/shape control. Prioritize the eight already frozen BW heldout midpoints; defer optional damping, matched-resource and repeated controls.",
+  "response_convergence_complete": true,
+  "active_pid": null,
+  "status": "completed",
+  "finalized_utc": "2026-10-18T00:29:37+00:00",
+  "propagation_observed_complete_local": "2026-10-17 20:26:03 EDT",
+  "last_completed_batch": "closure_queue_cases.json",
+  "last_completed_log": "~/analytical-nl-discovery-data/2026-10-17-gpt-c-raman-sharpening/closure.log",
+  "deferred_tasks": [
+    "T-20261017-gpt-c-02",
+    "T-20261017-gpt-c-03",
+    "T-20261017-gpt-c-04"
+  ],
+  "execution_counts": {
+    "complete": 221,
+    "edge-terminated": 3,
+    "unrun": 58
+  },
+  "previous_pushed_checkpoint": "3d925f7"
+}

@@ -1,0 +1,15 @@
+run_id: 2026-10-04-claude-a-c01-cheap-checks
+agent: claude-a
+model: claude-opus-5-5
+family: claude
+task: T-20261004-claude-interactive-05
+serves: [C-20261004-claude-a-01, C-0001]
+kind: symbolic and numeric checks of closed forms; no NLSE simulation
+solver_used: false
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a   # pinned submodule at the time; not exercised by this run
+solver_dirty: false
+hardware: "Apple M5 (MacBook), 1 process"
+wall_time_s: 6
+date: 2026-10-04
+raw_location: none   # no raw output; check.py, summary.json and the figure are the complete output
+outputs: [summary.json, R_inf_vs_zeta.png]

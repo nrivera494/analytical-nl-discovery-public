@@ -1,0 +1,14 @@
+run_id: 2026-10-10-gpt-b-soliton-literature
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+date: 2026-10-10
+task: T-20261010-claude-interactive-06
+serves: explorations/2026-10-10-gpt-b-soliton-filtered-fano.md
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_usage: none; literature access and transcription only
+hardware: Apple M5 laptop, macOS
+wall_time_s: null
+raw_location: ~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-literature
+description: Prior-art access ledger, retrieved papers and source-reported reference values; not simulation evidence.

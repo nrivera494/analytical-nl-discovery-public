@@ -1,0 +1,161 @@
+{
+  "run_id": "2026-10-08-gpt-a-similariton-physical-vacuum",
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": [
+    {
+      "label": "linear_l3_degree32",
+      "degree": 32,
+      "minimum_jacobian": 0.99975,
+      "H_initial": 2.0576131993435335e-11,
+      "H_final": 1.9987953134755145e-18,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -5.569336516861333e-19,
+      "maximum_force_evaluations": 572,
+      "fits": {
+        "2-10": {
+          "decay_per_gain_length": 0.33333333195711445,
+          "frequency_per_gain_length": 0.7453559931100753,
+          "relative_joint_rms": 5.873910499379687e-09
+        },
+        "8-16": {
+          "decay_per_gain_length": 0.3333333340091853,
+          "frequency_per_gain_length": 0.7453559952721702,
+          "relative_joint_rms": 2.3229260847099862e-08
+        },
+        "12-20": {
+          "decay_per_gain_length": 0.3333333345353531,
+          "frequency_per_gain_length": 0.7453559998304277,
+          "relative_joint_rms": 5.9502332355389765e-08
+        }
+      }
+    },
+    {
+      "label": "linear_l4_degree32",
+      "degree": 32,
+      "minimum_jacobian": 0.9998420629765147,
+      "H_initial": 1.508748021918393e-11,
+      "H_final": 1.545846004455579e-18,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -4.757830639272424e-19,
+      "maximum_force_evaluations": 566,
+      "fits": {
+        "2-10": {
+          "decay_per_gain_length": 0.3333340012293535,
+          "frequency_per_gain_length": 1.0000204043873524,
+          "relative_joint_rms": 8.932135902764206e-06
+        },
+        "8-16": {
+          "decay_per_gain_length": 0.33333346503173306,
+          "frequency_per_gain_length": 1.000002596495715,
+          "relative_joint_rms": 1.0954064712628688e-06
+        },
+        "12-20": {
+          "decay_per_gain_length": 0.33333343856921155,
+          "frequency_per_gain_length": 0.9999992959888375,
+          "relative_joint_rms": 3.721616728772798e-07
+        }
+      }
+    },
+    {
+      "label": "finite_mixed_degree32",
+      "degree": 32,
+      "minimum_jacobian": 0.9670479391768213,
+      "H_initial": 4.289103741302438e-06,
+      "H_final": 4.383356340769527e-13,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -2.0030867294003477e-13,
+      "maximum_force_evaluations": 887,
+      "fits": {}
+    },
+    {
+      "label": "heldout_asymmetric_degree32",
+      "degree": 32,
+      "minimum_jacobian": 0.8736142671138831,
+      "H_initial": 1.0164337489806734e-05,
+      "H_final": 1.0570593331159964e-12,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -3.3949512193628773e-13,
+      "maximum_force_evaluations": 1415,
+      "fits": {}
+    },
+    {
+      "label": "linear_l3_degree64",
+      "degree": 64,
+      "minimum_jacobian": 0.99975,
+      "H_initial": 2.057613199343535e-11,
+      "H_final": 1.9987954169816704e-18,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -5.569337151901174e-19,
+      "maximum_force_evaluations": 1490,
+      "fits": {
+        "2-10": {
+          "decay_per_gain_length": 0.33333333217836797,
+          "frequency_per_gain_length": 0.7453559925559381,
+          "relative_joint_rms": 9.28906512273163e-10
+        },
+        "8-16": {
+          "decay_per_gain_length": 0.3333333332756218,
+          "frequency_per_gain_length": 0.7453559922219385,
+          "relative_joint_rms": 2.131854264008454e-10
+        },
+        "12-20": {
+          "decay_per_gain_length": 0.3333333334054443,
+          "frequency_per_gain_length": 0.745355992565578,
+          "relative_joint_rms": 9.093470112442308e-11
+        }
+      }
+    },
+    {
+      "label": "linear_l4_degree64",
+      "degree": 64,
+      "minimum_jacobian": 0.9998420574475049,
+      "H_initial": 1.5087480219183923e-11,
+      "H_final": 1.545845132247955e-18,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -4.757829469145425e-19,
+      "maximum_force_evaluations": 1373,
+      "fits": {
+        "2-10": {
+          "decay_per_gain_length": 0.3333340020965162,
+          "frequency_per_gain_length": 1.0000204039301825,
+          "relative_joint_rms": 8.93234975707329e-06
+        },
+        "8-16": {
+          "decay_per_gain_length": 0.3333334710477499,
+          "frequency_per_gain_length": 1.0000025926252203,
+          "relative_joint_rms": 1.0954828906138307e-06
+        },
+        "12-20": {
+          "decay_per_gain_length": 0.33333345691866695,
+          "frequency_per_gain_length": 0.9999992920654903,
+          "relative_joint_rms": 3.550398095362706e-07
+        }
+      }
+    },
+    {
+      "label": "finite_mixed_degree64",
+      "degree": 64,
+      "minimum_jacobian": 0.9670479391799488,
+      "H_initial": 4.289103741302441e-06,
+      "H_final": 4.383356339307472e-13,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -2.0030867297146463e-13,
+      "maximum_force_evaluations": 1214,
+      "fits": {}
+    },
+    {
+      "label": "heldout_asymmetric_degree64",
+      "degree": 64,
+      "minimum_jacobian": 0.8736142409323537,
+      "H_initial": 1.0164337489806737e-05,
+      "H_final": 1.0570593328680444e-12,
+      "largest_bound_ratio": 1.0,
+      "largest_inequality_residual": -3.394951218540982e-13,
+      "maximum_force_evaluations": 1427,
+      "fits": {}
+    }
+  ],
+  "caveat": "Numerical smooth physical-vacuum flows; not a global-existence theorem or independent verification."
+}

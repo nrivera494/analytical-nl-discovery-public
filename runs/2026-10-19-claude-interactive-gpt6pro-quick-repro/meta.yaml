@@ -1,0 +1,12 @@
+run_id: 2026-10-19-claude-interactive-gpt6pro-quick-repro
+date: 2026-10-19
+agent: claude-interactive
+model: claude-opus-5-5
+family: claude
+task: T-20261019-claude-interactive-01
+serves: "Reproduction, on a second platform, of the quick checks of run 2026-10-18-pi-chatgpt-independent-verification (GPT 6 Pro), before filing it."
+solver_commit: null
+solver_note: "No repository solver; the archive's own scripts, unmodified, run on a copy of the archive."
+software: "Python 3.9.6, NumPy 2.0.2, SciPy 1.13.1, SymPy 1.14.0 (~/agent-work/venv)"
+hardware: "Apple silicon laptop, 32 GB; each script under 0.1 GB and under 2 s"
+raw_location: "~/analytical-nl-discovery-data/gpt6pro-reports/rerun/ on the PI's laptop"

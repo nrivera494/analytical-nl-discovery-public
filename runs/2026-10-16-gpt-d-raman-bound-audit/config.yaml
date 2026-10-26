@@ -1,0 +1,7 @@
+run_id: 2026-10-16-gpt-d-raman-bound-audit
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+claim: C-20261016-claude-interactive.6-02
+purpose: Independent exact-identity, passivity, sharpness, scaling and propagation audit
+units: {time: ps, energy: pJ, length: m, wavelength: um}

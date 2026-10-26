@@ -1,0 +1,9 @@
+dispersion_checks: ["k = b2 w^2/2 + b3 w^3/6", "k = b2 w^2/2 + b4 w^4/24"]
+mesh_lattice_map: "u_n^{m+1} = e^{iQ}(cos b u + i sin b v), v_n^{m+1} = e^{-iQ}(i sin b u + cos b v) for plane waves; Floquet bands cos(theta) = cos(b) cos(Q)"
+kerr_vertex: "T = sum_{c in u,v} conj(phi1c) conj(phi2c) phi3c phi4c (on-site Kerr in each loop)"
+beta_deg_kinematics: [15, 30, 45, 60, 75]
+ring_counts: {L: [24, 36], beta_deg: [30, 45, 60], tol_rad: 0.05}
+convergence_beta45: {L: [36, 48, 60], tol_rad: [0.05, 0.025]}
+exclusions: "quartets whose outgoing pair equals the incoming pair"
+raman_budget: {n2: 2.6e-20, gR_1064: 1.0e-13, gR_1550: 6.0e-14, smith_gain: 16, S5_fibre: {gamma_per_W_km: 2, beta3_ps3_per_km: 0.1, P_W: 1, bandwidths_THz: [0.06, 0.25, 1.0, 2.0]}}
+threshold_exponents: {pourbeyram2022: [[0.5, 52], [1.5, 17]], krupa2017_SI: {L12m_kW: [0.6, 2.0, 2.5], L3m_kW: [7, 10]}, Ld_m_fusaro2019_estimate: 0.4}

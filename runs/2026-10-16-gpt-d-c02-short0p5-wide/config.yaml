@@ -1,0 +1,37 @@
+{
+  "run_id": "2026-10-16-gpt-d-c02-short0p5-wide",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "loss_scale": 0.0,
+    "dispersion": "quadratic"
+  },
+  "grid": {
+    "n": 32768,
+    "dt": 6.25e-05,
+    "carrier_um": 0.8
+  },
+  "input": {
+    "shape": "sech",
+    "E_pJ": 200.0
+  },
+  "positive_frequency_model": true,
+  "omega_min_fraction": 0.1,
+  "scope": "Formal constant-area, zero-dispersion model, not a calibrated few-cycle fibre prediction; finite positive-frequency support.",
+  "propagation": {
+    "T": 0.0005,
+    "L": 0.0005,
+    "h": 2.5e-06,
+    "save_every": 1e-05
+  },
+  "expected": {
+    "max_rate_over_bound": 1.0,
+    "retention_bound": 0.9999069055354003
+  },
+  "convergence_of": "2026-10-16-gpt-d-c02-short0p5",
+  "grid_exception": "Convergence only: preserve the existing window while halving dt, or double the existing window. N=6 compression has nonzero near-Nyquist occupation; the 0.5-fs pulse has projection tails. No dense matrices and no field z-history; memory remains far below 3 GB."
+}

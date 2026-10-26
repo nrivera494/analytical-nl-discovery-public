@@ -1,0 +1,2 @@
+~/agent-work/orch-1017/runs/2026-10-18-claude-interactive-zs-lean-audit/NegControl.lean:11:33: error: unsolved goals
+⊢ False

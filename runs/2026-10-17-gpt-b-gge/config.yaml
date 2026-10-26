@@ -1,0 +1,53 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+specification: predictions.md
+normalization:
+  N: 1
+  S0000: 1
+  length: L_NL
+  gap: kappa
+integration:
+  method: RK4 plus unitary Brownian generator steps
+  step: 0.04
+  sample_every: 1
+  block_length: 100
+  note: Initial scan defaults; each frozen follow-up uses the overrides in predictions.md.
+phase_space_measure: complex canonical Liouville
+data_policy: block moments and sparse checkpoints only
+implementation:
+- evaluator/thermalized_light.py
+- evaluator/thermalized_light_core.c
+commands:
+- python shell.py
+- python conditioned.py
+- python conditioned.py --refine
+- python collect_predictions.py
+- python run.py deterministic
+- python run.py convergence
+- python run.py memory
+- python sector.py shell
+- python long_time.py
+- python sector.py dynamics
+- python resolution.py shell
+- commit the numerical resolution_predictions.json before the next stage
+- python resolution.py dynamics
+- python resolution.py memory
+- commit the sector-step amendment before its additional convergence run
+- python resolution.py sector_step
+- python resolution.py summarize
+- python summarize.py
+- python plot.py
+memory: One heavy process at a time; require memory_pressure free percentage >=35;
+  no full trajectory histories.
+final_resolution:
+  deterministic_length: 1200000
+  deterministic_steps: [0.01, 0.005]
+  deterministic_window: [400000, 1200000]
+  deterministic_sample_spacing: 40
+  memory_sigma: 3
+  memory_length: 96000
+  memory_steps: [0.04, 0.02]
+  memory_realizations_by_step: [12, 4]
+  memory_windows: [[32000, 96000], [72000, 96000]]
+  memory_sample_spacing: 4

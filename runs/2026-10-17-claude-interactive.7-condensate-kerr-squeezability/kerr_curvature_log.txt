@@ -1,0 +1,6 @@
+n = 1e+02: best Var 2.108e-01 (-6.8 dB) at Phi = 1.14; estimate 0.945 n^(-1/3) = 2.036e-01 at Phi = 1.36
+n = 1e+03: best Var 9.812e-02 (-10.1 dB) at Phi = 1.83; estimate 0.945 n^(-1/3) = 9.450e-02 at Phi = 1.99
+n = 1e+04: best Var 4.490e-02 (-13.5 dB) at Phi = 2.84; estimate 0.945 n^(-1/3) = 4.386e-02 at Phi = 2.92
+n = 1e+05: best Var 2.061e-02 (-16.9 dB) at Phi = 4.23; estimate 0.945 n^(-1/3) = 2.036e-02 at Phi = 4.29
+n = 1e+06: best Var 9.507e-03 (-20.2 dB) at Phi = 6.22; estimate 0.945 n^(-1/3) = 9.450e-03 at Phi = 6.30
+log-log slope of the best variance against n: -0.337

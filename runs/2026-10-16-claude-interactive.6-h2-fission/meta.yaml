@@ -1,0 +1,27 @@
+run_id: 2026-10-16-claude-interactive.6-h2-fission
+agent: claude-interactive.6
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-04
+serves: P-20261016-claude-interactive-02 (hypotheses H2.1 and H2.3, frozen in commit 4f0f1ff)
+solver_commit: none (numpy RK4IP, ../2026-10-16-claude-interactive.6-lwir-common/lwir.py)
+solver_dirty: false
+hardware: Apple M5 laptop (shared)
+wall_time_s: about 520 (six cases, sequential)
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-claude-interactive.6-h2-fission/ (final fields and per-plane leading-soliton diagnostics, npz; machine PI MacBook)
+commands:
+  - ~/agent-work/venv/bin/python h2_fission.py          # GNLSE runs; summary.json
+  - ~/agent-work/venv/bin/python h2_reach_post.py       # H2.3 with the corrected separation criterion; summary_reach_post.json
+  - ~/agent-work/venv/bin/python h2_fission_dtcheck.py  # N = 4, 6 at 100 fs with dt = 1.5 fs, nt = 32768; summary_dtcheck.json
+  - ~/agent-work/venv/bin/python h2_fission.py 6 56.7 1.0 32768 1.5   # N = 6, 100 fs resolved rerun with per-plane diagnostics (summary.json entry with dt_fs 1.5)
+  - ~/agent-work/venv/bin/python h2_julia_crosscheck.py  # agents' Julia solver: f1 for N = 4, 300 fs and N = 3, 100 fs; summary_julia_crosscheck.json
+config:
+  fibre: "S28 (core radius 4.1 um, NA 0.14, Boilard SiO2 Sellmeier), constant Aeff = 64.5 um^2, n2 = 2.6e-20 m^2/W"
+  raman: {fR: 0.18, tau1_ps: 0.0122, tau2_ps: 0.032}
+  loss: "silica IR edge 7.81e11 exp(-48.48/lambda[um]) dB/km (secondary source)"
+  launches: "TL sech at 1.55 um, N in {3, 4, 6}, T0 in {56.7, 170.2} fs (T_FWHM 100 and 300 fs); L = 1 m (100 fs) and 4 m (300 fs)"
+  grid: {nt: 16384, dt_fs: 3.0, centre_um: 1.75, frame: group velocity at 1.65 um}
+  dz: "min(1 mm, z0(T1)/40) with T1 = T0/(2N-1)"
+  leading_soliton: "highest-peak pulse, window +-8 T (T = FWHM/1.763)"
+known_defect: "the in-run separation criterion of h2_fission.py (ring < 2% of peak) selects the compression plane, where the whole pulse is one isolated peak; its z_sep, f1_at_sep and reach_rel_err fields are invalid. h2_reach_post.py recomputes H2.3 from the saved diagnostics with the corrected criterion. f1_final is unaffected."
+aliasing: "At dt = 3 fs the 100 fs N = 4 and N = 6 cases are aliased: the dissipation identity fails by 1.3% and 25.7% (run 2026-10-16-claude-interactive.6-c02-heldout). The dt = 1.5 fs reruns (identity to 1.5e-4 and 7.5e-5) give f1 = 0.628 and 0.475 (dt = 3 fs: 0.622, 0.370) and eta(2.0 um) = 0.396 and 0.472 (dt = 3 fs: 0.326, 0.660). Use summary_dtcheck.json for these two cases. Their dt = 3 fs H2.3 values in summary_reach_post.json come from aliased runs; for N = 6 use the entry N6_T56.7fs_L1.0m_dt1.5fs."

@@ -1,0 +1,434 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+run_operator_gates = false
+fixed_filter_step_audit = true
+raw_location = "~/analytical-nl-discovery-data/2026-10-10-gpt-a-readout-reference"
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_step2"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_step4"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 384
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_step16"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 1536
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_step64"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 6144
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 1.536
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_grid2"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 96
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 96
+label = "anom_N1_z0.75_R_mf_bath3"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 96
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 2048
+window_ps = 6.144
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_window4"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 384
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1030.0
+gamma_per_W_m = 0.004
+beta2_ps2_per_m = 0.025
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "normal_N3_s1_R_mf_base"
+peak_power_W = 5624.999999999999
+length_m = 0.13333333333333336
+N = 3.0
+z_over_LD_over_N = 1.0
+LD_m = 0.4000000000000001
+steps = 96
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1030.0
+gamma_per_W_m = 0.004
+beta2_ps2_per_m = 0.025
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "normal_N3_s1_R_mf_step2"
+peak_power_W = 5624.999999999999
+length_m = 0.13333333333333336
+N = 3.0
+z_over_LD_over_N = 1.0
+LD_m = 0.4000000000000001
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1030.0
+gamma_per_W_m = 0.004
+beta2_ps2_per_m = 0.025
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "normal_N3_s1_R_mf_grid2"
+peak_power_W = 5624.999999999999
+length_m = 0.13333333333333336
+N = 3.0
+z_over_LD_over_N = 1.0
+LD_m = 0.4000000000000001
+steps = 96
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1030.0
+gamma_per_W_m = 0.004
+beta2_ps2_per_m = 0.025
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 96
+label = "normal_N3_s1_R_mf_bath3"
+peak_power_W = 5624.999999999999
+length_m = 0.13333333333333336
+N = 3.0
+z_over_LD_over_N = 1.0
+LD_m = 0.4000000000000001
+steps = 96
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 3.072
+T0_ps = 0.1
+wavelength_nm = 1030.0
+gamma_per_W_m = 0.004
+beta2_ps2_per_m = 0.025
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "normal_N3_s1_R_mf_window2"
+peak_power_W = 5624.999999999999
+length_m = 0.13333333333333336
+N = 3.0
+z_over_LD_over_N = 1.0
+LD_m = 0.4000000000000001
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 2048
+window_ps = 6.144
+T0_ps = 0.1
+wavelength_nm = 1030.0
+gamma_per_W_m = 0.004
+beta2_ps2_per_m = 0.025
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "normal_N3_s1_R_mf_window4"
+peak_power_W = 5624.999999999999
+length_m = 0.13333333333333336
+N = 3.0
+z_over_LD_over_N = 1.0
+LD_m = 0.4000000000000001
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = 0.0
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "displess_phi3_R_mf_base"
+peak_power_W = 1000.0
+length_m = 2.3076923076923075
+Phi_peak = 3.0
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = 0.0
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "displess_phi3_R_mf_step2"
+peak_power_W = 1000.0
+length_m = 2.3076923076923075
+Phi_peak = 3.0
+steps = 384
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = 0.0
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "displess_phi3_R_mf_grid2"
+peak_power_W = 1000.0
+length_m = 2.3076923076923075
+Phi_peak = 3.0
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.1
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = 0.0
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 96
+label = "displess_phi3_R_mf_bath3"
+peak_power_W = 1000.0
+length_m = 2.3076923076923075
+Phi_peak = 3.0
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 3.072
+T0_ps = 0.1
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = 0.0
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "displess_phi3_R_mf_window2"
+peak_power_W = 1000.0
+length_m = 2.3076923076923075
+Phi_peak = 3.0
+steps = 192
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.12
+wavelength_nm = 1300.0
+gamma_per_W_m = 0.0018
+beta2_ps2_per_m = 0.0002
+beta3_ps3_per_m = 0.00012
+raman = true
+bath_intervals = 32
+label = "nearzero_R_mf_step2"
+peak_power_W = 1000.0
+length_m = 1.6666666666666665
+Phi_peak = 3.0
+steps = 384
+held_out = true
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 1.536
+T0_ps = 0.12
+wavelength_nm = 1300.0
+gamma_per_W_m = 0.0018
+beta2_ps2_per_m = 0.0002
+beta3_ps3_per_m = 0.00012
+raman = true
+bath_intervals = 32
+label = "nearzero_R_mf_grid2"
+peak_power_W = 1000.0
+length_m = 1.6666666666666665
+Phi_peak = 3.0
+steps = 192
+held_out = true
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 3.072
+T0_ps = 0.12
+wavelength_nm = 1300.0
+gamma_per_W_m = 0.0018
+beta2_ps2_per_m = 0.0002
+beta3_ps3_per_m = 0.00012
+raman = true
+bath_intervals = 32
+label = "nearzero_R_mf_window2"
+peak_power_W = 1000.0
+length_m = 1.6666666666666665
+Phi_peak = 3.0
+steps = 384
+held_out = true
+eig_maxiter = 150
+eig_tol = 1e-7
+dual_scales = [1.0]

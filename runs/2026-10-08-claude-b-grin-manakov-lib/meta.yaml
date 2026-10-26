@@ -1,0 +1,18 @@
+run_id: 2026-10-08-claude-b-grin-manakov-lib
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+date: 2026-10-08
+task: T-20261008-claude-b-01
+serves: "Claim C-20261008-claude-b-01 (P-20261004-root-03). Library and validation for the per-frequency-bin noise covariance used by runs 2026-10-08-claude-b-exponents, -kw-map, -optimum and -heldout. Note: explorations/2026-10-08-claude-b-manakov-grin-inequality.md"
+description: "twomode_cov.py: two-mode cross-phase NLS (Strang split step, same scheme as run 2026-10-04-claude-b-manakov-deviation-scan), linearized vacuum noise as the covariance of the photon counts in every spectral bin and mode, Cov = G G^T / 4 with G the central-difference Jacobian of the bin counts with respect to the 4N input quadratures (eps = 1e-6, one batch). Filter classes applied to all modes: hard symmetric band, symmetric band with a fractional edge bin, any hard interval (exhaustive), any transmission in [0, 1] (projected gradient, local). compute.py stores (nbar, Cov) per case (opt-in launch options added later for run 2026-10-08-claude-b-normalization: launch = photon, N2; default behaviour unchanged); compute_m.py and mmode_cov.py are the M-mode versions (validate_mmode.py: identical to the two-mode code at M = 2, Manakov M = 3 equals the scalar to 4e-9); analysis.py holds the invariants ||q||^2, ||r||^2 and the LP01 class optima. validate_lib.py: shot-noise limit, Manakov identity, reproduction of round-1 numbers, optimizer consistency; output validation.json."
+grid: "N = 256 over 40 T0 (frequency spacing 2 pi / 40), dz = 2e-3 unless a case says otherwise"
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_usage: "Not used; self-contained numpy code. The independent solver computation is run 2026-10-08-claude-b.5-solver-twomode-check."
+software: "Python 3.9.6, numpy 2.0.2 (Accelerate BLAS), matplotlib"
+hardware: "Apple M5 (macOS), single-threaded processes"
+wall_time_s: 53
+convergence: "validation.json: (1) one step of propagation gives F = 1 - 3e-7 (shot noise); (2) Manakov overlaps (C22 = 1), p2 = 0.3, zeta = 2: the all-mode per-bin covariance equals the scalar one to 3.9e-9 relative and F to about 1e-9; (3) round-1 values (run 2026-10-04-claude-b-manakov-deviation-edge-scan, zeta = 2, p2 = 0.3, C22 = 1/2, kmax = 3..7) reproduced to 1.8e-10 relative; (4) the fractional-edge, interval and free-transmission optima are never above the hard symmetric band optimum. Grid, step and window convergence of the physics results are in the runs that use the library."
+raw_location: "none for this run (validation.json holds the numbers)"
+caveats: "numpy 2.0.2 with Accelerate prints spurious divide-by-zero / overflow / invalid-value RuntimeWarnings from matmul once per process; every stored covariance was checked to be finite and symmetric to 1e-12, and the round-1 reproduction (1.8e-10) runs through the same code. The free-transmission optimizer finds local optima only."

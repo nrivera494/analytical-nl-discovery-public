@@ -1,0 +1,760 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "fission": [
+    {
+      "z": 2,
+      "N_ratio_to_formation": 0.9233527429433316,
+      "lambda_um": 4.004056607430396,
+      "run_id": "2026-10-16-gpt-d-fission-daughter",
+      "GNLSE_N_ratio_to_formation": 0.9316469785916807,
+      "GNLSE_lambda_um": 3.9877318028167092,
+      "N_error": 0.00829423564834908,
+      "lambda_error_um": -0.016324804613686794,
+      "alpha_z0": 0.002795024909295185,
+      "sech_residual": 0.013929519724767985
+    },
+    {
+      "z": 4,
+      "N_ratio_to_formation": 0.7404597701157879,
+      "lambda_um": 4.088008022162047,
+      "run_id": "2026-10-16-gpt-d-fission-daughter",
+      "GNLSE_N_ratio_to_formation": 0.7550923129106877,
+      "GNLSE_lambda_um": 4.082725765045811,
+      "N_error": 0.014632542794899783,
+      "lambda_error_um": -0.005282257116236089,
+      "alpha_z0": 0.008801173726473249,
+      "sech_residual": 0.03212477050919938
+    },
+    {
+      "z": 6,
+      "N_ratio_to_formation": 0.561302754619429,
+      "lambda_um": 4.1095340090363965,
+      "run_id": "2026-10-16-gpt-d-fission-daughter",
+      "GNLSE_N_ratio_to_formation": 0.5752365875546348,
+      "GNLSE_lambda_um": 4.107146670703788,
+      "N_error": 0.013933832935205781,
+      "lambda_error_um": -0.002387338332608735,
+      "alpha_z0": 0.018202684956056054,
+      "sech_residual": 0.031601232646263966
+    },
+    {
+      "z": 8,
+      "N_ratio_to_formation": 0.4188185087935976,
+      "lambda_um": 4.115184166687575,
+      "run_id": "2026-10-16-gpt-d-fission-daughter",
+      "GNLSE_N_ratio_to_formation": 0.4304075809207083,
+      "GNLSE_lambda_um": 4.113630493898209,
+      "N_error": 0.011589072127110689,
+      "lambda_error_um": -0.001553672789365912,
+      "alpha_z0": 0.034118933034916185,
+      "sech_residual": 0.006958787295446939
+    }
+  ],
+  "shape": [
+    {
+      "run_id": "2026-10-16-gpt-d-cutoff-edge200-shape",
+      "z": 98.0,
+      "sech_intensity_residual": 0.0025738269929392204,
+      "fundamental_width_ratio": 1.0002669896086638,
+      "alpha_z0": 0.003013924005324078,
+      "loss_bandwidth_parameter": 0.0100056401852092,
+      "outside_isolation_fraction": 2.7761200343534576e-05
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-cutoff-edge200-shape",
+      "z": 282.0,
+      "sech_intensity_residual": 0.0016883888659227214,
+      "fundamental_width_ratio": 0.996745397152181,
+      "alpha_z0": 0.007957892673711057,
+      "loss_bandwidth_parameter": 0.003913260917966842,
+      "outside_isolation_fraction": 0.0012830584583396476
+    }
+  ],
+  "second_solver": {
+    "julia-cutoff-edge": {
+      "Julia_run_id": "2026-10-16-gpt-d-julia-cutoff-edge",
+      "Python_run_id": "2026-10-16-gpt-d-cutoff-edge",
+      "Julia_optimum": {
+        "lambda_um": 2.0109035064449947,
+        "eta": 0.6664765179696813,
+        "z": 12.0,
+        "N_ratio": 0.7875065378425277
+      },
+      "final_z": 20.0,
+      "N_difference": 9.40684334389541e-05,
+      "lambda_difference_um": -4.195358853298359e-05,
+      "eta_difference": -0.0001725748150017692
+    },
+    "julia-cutoff200": {
+      "Julia_run_id": "2026-10-16-gpt-d-julia-cutoff200",
+      "Python_run_id": "2026-10-16-gpt-d-cutoff-edge200-shape",
+      "Julia_optimum": {
+        "lambda_um": 2.0054592612950524,
+        "eta": 0.6671830771568138,
+        "z": 98.0,
+        "N_ratio": 0.7894189653217248
+      },
+      "final_z": 282.0,
+      "N_difference": 7.56976652563357e-05,
+      "lambda_difference_um": -2.4638069447746602e-05,
+      "eta_difference": 2.7418188977279545e-05
+    },
+    "julia-z75-window": {
+      "Julia_run_id": "2026-10-16-gpt-d-julia-z75-window",
+      "Python_run_id": "2026-10-16-gpt-d-z75-window",
+      "Julia_optimum": {
+        "lambda_um": 3.541368129505356,
+        "eta": 0.17961514738075932,
+        "z": 2.0,
+        "N_ratio": 0.9964834264581754
+      },
+      "final_z": 2.0,
+      "N_difference": 7.72793514858261e-06,
+      "lambda_difference_um": -0.0003248412789416122,
+      "eta_difference": -0.001434404836668679
+    }
+  },
+  "chirp": {
+    "chirp-silica": [
+      {
+        "GDD_fs2": -300,
+        "eta_1.85": 0.2999271087756214,
+        "photon_drift": 6.591126555433036e-06
+      },
+      {
+        "GDD_fs2": -150,
+        "eta_1.85": 0.30284183501389617,
+        "photon_drift": 6.52986839955183e-06
+      },
+      {
+        "GDD_fs2": 0,
+        "eta_1.85": 0.3045247262001224,
+        "photon_drift": 6.501155273896941e-06
+      },
+      {
+        "GDD_fs2": 75,
+        "eta_1.85": 0.3049150043043546,
+        "photon_drift": 6.5073570219009724e-06
+      },
+      {
+        "GDD_fs2": 150,
+        "eta_1.85": 0.30501626513999197,
+        "photon_drift": 6.5313085542140215e-06
+      },
+      {
+        "GDD_fs2": 225,
+        "eta_1.85": 0.3048414795490483,
+        "photon_drift": 6.575600127511905e-06
+      },
+      {
+        "GDD_fs2": 300,
+        "eta_1.85": 0.3044071503165997,
+        "photon_drift": 6.64238427905417e-06
+      },
+      {
+        "GDD_fs2": 450,
+        "eta_1.85": 0.302843389405526,
+        "photon_drift": 6.849679953457866e-06
+      }
+    ],
+    "chirp-convergence": [
+      {
+        "GDD_fs2": 0,
+        "eta_1.85": 0.3046455439082626,
+        "photon_drift": 7.041275769115174e-07,
+        "label": "fine",
+        "dt": 0.0015,
+        "h": 0.000125,
+        "n": 16384
+      },
+      {
+        "GDD_fs2": 150,
+        "eta_1.85": 0.305138562023147,
+        "photon_drift": 7.103805557129306e-07,
+        "label": "fine",
+        "dt": 0.0015,
+        "h": 0.000125,
+        "n": 16384
+      },
+      {
+        "GDD_fs2": 0,
+        "eta_1.85": 0.30329646547972017,
+        "photon_drift": 6.849110851803175e-07,
+        "label": "window",
+        "dt": 0.003,
+        "h": 0.000125,
+        "n": 16384
+      },
+      {
+        "GDD_fs2": 150,
+        "eta_1.85": 0.30378724866315016,
+        "photon_drift": 6.857951719840827e-07,
+        "label": "window",
+        "dt": 0.003,
+        "h": 0.000125,
+        "n": 16384
+      }
+    ]
+  },
+  "relaxations": {
+    "z75-sourced": {
+      "run_id": "2026-10-16-gpt-d-z75-sourced",
+      "optima": {
+        "3.3": {
+          "eta": 0.9837043030957943,
+          "L_m": 1.625,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9807391285774872,
+          "L_m": 2.4,
+          "boundary": false
+        },
+        "3.5": {
+          "eta": 0.9738736289416028,
+          "L_m": 3.375,
+          "boundary": false
+        },
+        "3.6": {
+          "eta": 0.9587160080691579,
+          "L_m": 4.7250000000000005,
+          "boundary": false
+        },
+        "3.7": {
+          "eta": 0.9240283639145433,
+          "L_m": 6.9,
+          "boundary": false
+        }
+      },
+      "final": {
+        "z": 8.0,
+        "N_ratio": 0.9315072109347637,
+        "Ns_ratio": 0.9180005098030206,
+        "soliton_lambda_um": 3.8239079018046525,
+        "alpha_z0": 0.0015140020238669466
+      }
+    },
+    "z75-cubic": {
+      "run_id": "2026-10-16-gpt-d-z75-cubic",
+      "optima": {
+        "3.3": {
+          "eta": 0.9839968473885166,
+          "L_m": 1.325,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9808884113306873,
+          "L_m": 1.675,
+          "boundary": false
+        },
+        "3.5": {
+          "eta": 0.9746126708253533,
+          "L_m": 2.075,
+          "boundary": false
+        },
+        "3.6": {
+          "eta": 0.9626768465524519,
+          "L_m": 2.625,
+          "boundary": false
+        },
+        "3.7": {
+          "eta": 0.9395079279206769,
+          "L_m": 3.275,
+          "boundary": false
+        }
+      },
+      "final": {
+        "z": 8.0,
+        "N_ratio": 0.6852633270198376,
+        "Ns_ratio": 0.6720339214615227,
+        "soliton_lambda_um": 4.041621827314731,
+        "alpha_z0": 0.012859768392545266
+      }
+    },
+    "z75-variablearea": {
+      "run_id": "2026-10-16-gpt-d-z75-variablearea",
+      "optima": {
+        "3.3": {
+          "eta": 0.982082052110834,
+          "L_m": 3.025,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9758637057974864,
+          "L_m": 4.6000000000000005,
+          "boundary": false
+        },
+        "3.5": {
+          "eta": 0.9582819441128064,
+          "L_m": 7.325,
+          "boundary": false
+        },
+        "3.6": {
+          "eta": 0.6623116423643721,
+          "L_m": 8.0,
+          "boundary": true
+        },
+        "3.7": {
+          "eta": 0.01549402043277036,
+          "L_m": 8.0,
+          "boundary": true
+        }
+      },
+      "final": {
+        "z": 8.0,
+        "N_ratio": 0.9732764429589499,
+        "Ns_ratio": 0.9618257662708016,
+        "soliton_lambda_um": 3.6146726693922377,
+        "alpha_z0": 0.0006243671028804515
+      }
+    },
+    "z75-ownheldout-extended": {
+      "run_id": "2026-10-16-gpt-d-z75-ownheldout-extended",
+      "optima": {
+        "3.3": {
+          "eta": 0.985575455976454,
+          "L_m": 15.35,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.8873062062725476,
+          "L_m": 18.0,
+          "boundary": true
+        },
+        "3.5": {
+          "eta": 0.026862239817812706,
+          "L_m": 18.0,
+          "boundary": true
+        },
+        "3.6": {
+          "eta": 0.0001051486559386034,
+          "L_m": 18.0,
+          "boundary": true
+        },
+        "3.7": {
+          "eta": 5.413962192684633e-07,
+          "L_m": 18.0,
+          "boundary": true
+        }
+      },
+      "final": {
+        "z": 18.0,
+        "N_ratio": 0.9863604704328827,
+        "Ns_ratio": 0.9835458663748329,
+        "soliton_lambda_um": 3.4379318416901157,
+        "alpha_z0": 0.00022930372092853707
+      }
+    },
+    "z75-lossless": {
+      "run_id": "2026-10-16-gpt-d-z75-lossless",
+      "optima": {
+        "3.3": {
+          "eta": 0.9860754755546669,
+          "L_m": 1.975,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9802793060035442,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.5": {
+          "eta": 0.8488811230913058,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.6": {
+          "eta": 0.18681640762301982,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.7": {
+          "eta": 0.009398554898307406,
+          "L_m": 2.0,
+          "boundary": true
+        }
+      },
+      "final": {
+        "z": 2.0,
+        "N_ratio": 0.9999999659219772,
+        "Ns_ratio": 0.986077843274238,
+        "soliton_lambda_um": 3.555206733904326,
+        "alpha_z0": 0.0
+      }
+    },
+    "z75-sampled": {
+      "run_id": "2026-10-16-gpt-d-z75-sampled",
+      "optima": {
+        "3.3": {
+          "eta": 0.9832645951197283,
+          "L_m": 1.625,
+          "boundary": false
+        },
+        "3.4": {
+          "eta": 0.9766884832759564,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.5": {
+          "eta": 0.8439228182869681,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.6": {
+          "eta": 0.1823857060090753,
+          "L_m": 2.0,
+          "boundary": true
+        },
+        "3.7": {
+          "eta": 0.009054100282706222,
+          "L_m": 2.0,
+          "boundary": true
+        }
+      },
+      "final": {
+        "z": 2.0,
+        "N_ratio": 0.9964686318854241,
+        "Ns_ratio": 0.982480737963697,
+        "soliton_lambda_um": 3.554574414741437,
+        "alpha_z0": 0.0001766434185586571
+      }
+    }
+  },
+  "window_probe": {
+    "family": "gpt",
+    "nt": 512,
+    "model": "gpt-6-astra",
+    "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+    "wall_s": 2.6298129558563232,
+    "agent": "gpt-d",
+    "dz_m": 0.0001,
+    "dt_ps": 0.003,
+    "records": [
+      {
+        "Omega_rad_ps": -940.8415499031933,
+        "relative_detuning": -0.9,
+        "absolute_omega_rad_ps": 274.41752577993793,
+        "imaginary_residual": 9.395187919888813e-08,
+        "measured_prefactor_ratio": 0.9999999998290842
+      },
+      {
+        "Omega_rad_ps": -732.220162750746,
+        "relative_detuning": -0.7,
+        "absolute_omega_rad_ps": 483.0389129323852,
+        "imaginary_residual": 1.6393391778586042e-07,
+        "measured_prefactor_ratio": 0.9999999999129949
+      },
+      {
+        "Omega_rad_ps": -417.2427743048944,
+        "relative_detuning": -0.4,
+        "absolute_omega_rad_ps": 798.0163013782368,
+        "imaginary_residual": 2.6982833483034764e-07,
+        "measured_prefactor_ratio": 0.9999999998899012
+      },
+      {
+        "Omega_rad_ps": 0.0,
+        "relative_detuning": 0.0,
+        "absolute_omega_rad_ps": 1215.2590756831312,
+        "imaginary_residual": 4.1006968814007707e-07,
+        "measured_prefactor_ratio": 0.9999999999647811
+      },
+      {
+        "Omega_rad_ps": 417.2427743048944,
+        "relative_detuning": 0.4,
+        "absolute_omega_rad_ps": 1632.5018499880257,
+        "imaginary_residual": 5.502961940660297e-07,
+        "measured_prefactor_ratio": 1.0000000000052505
+      },
+      {
+        "Omega_rad_ps": 732.220162750746,
+        "relative_detuning": 0.7,
+        "absolute_omega_rad_ps": 1947.479238433877,
+        "imaginary_residual": 6.561867395148003e-07,
+        "measured_prefactor_ratio": 0.9999973437247499
+      },
+      {
+        "Omega_rad_ps": 891.7541646908528,
+        "relative_detuning": 0.85,
+        "absolute_omega_rad_ps": 2107.013240373984,
+        "imaginary_residual": 6.990927431484824e-07,
+        "measured_prefactor_ratio": 0.9929711779861233
+      },
+      {
+        "Omega_rad_ps": 994.0195505498955,
+        "relative_detuning": 0.95,
+        "absolute_omega_rad_ps": 2209.2786262330264,
+        "imaginary_residual": 2.2890288775269453e-07,
+        "measured_prefactor_ratio": 0.581289729558638
+      }
+    ],
+    "run_id": "2026-10-16-gpt-d-window-probe"
+  },
+  "source_n2_sensitivity": [
+    {
+      "n2_m2_W": 1.89e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 0.6561000000000003,
+      "retuned_fundamental_N_ratio": 1.111111111111111,
+      "retuned_initial_rate_ratio": 1.0000000000000002,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 486.38319221845063,
+        "lambda_inf_um": 3.87277273854242,
+        "w_eff": 11.213753392510787,
+        "alpha_inf": 0.03617523909885181,
+        "terminal_condition_ratio": 0.9824101683540183
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509412
+      }
+    },
+    {
+      "n2_m2_W": 2.1e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 1.0,
+      "retuned_fundamental_N_ratio": 1.0,
+      "retuned_initial_rate_ratio": 1.0,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509409
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509409
+      }
+    },
+    {
+      "n2_m2_W": 2.31e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 1.4640999999999995,
+      "retuned_fundamental_N_ratio": 0.9090909090909093,
+      "retuned_initial_rate_ratio": 1.0000000000000004,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 477.28635702327716,
+        "lambda_inf_um": 3.9465858170695376,
+        "w_eff": 11.048830113765232,
+        "alpha_inf": 0.056411677269645556,
+        "terminal_condition_ratio": 0.9820248346121723
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429099663,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.9826205740509402
+      }
+    },
+    {
+      "n2_m2_W": 5.4e-20,
+      "interpretation": "parameter sensitivity, not a calibration of this fibre",
+      "fixed_N0_KN4_ratio": 43.72178259058726,
+      "retuned_fundamental_N_ratio": 0.38888888888888895,
+      "retuned_initial_rate_ratio": 1.000000000000001,
+      "fixed_N0_Gordon_terminal": {
+        "omega_inf": 440.2736865526189,
+        "lambda_inf_um": 4.278365082542198,
+        "w_eff": 10.334964141182695,
+        "alpha_inf": 0.3439248912622635,
+        "terminal_condition_ratio": 0.9806489401739323
+      },
+      "retuned_Gordon_terminal": {
+        "omega_inf": 481.5906072096093,
+        "lambda_inf_um": 3.9113129266015894,
+        "w_eff": 11.132182429117274,
+        "alpha_inf": 0.04571612070446205,
+        "terminal_condition_ratio": 0.982620574052494
+      }
+    }
+  ],
+  "boundary": [
+    {
+      "run_id": "2026-10-16-gpt-d-width-bound",
+      "T_fs": 97.68260924332105,
+      "initial_loss_width": 0.2500000000000001,
+      "initial_alpha_z0": 0.00017908161852531236,
+      "initial_spectral_loss_factor": 1.042914821466744,
+      "Gordon_final_N_ratio": 0.6891422614787432,
+      "Gordon_final_lambda_um": 2.084511920766908,
+      "full_response_final_N_ratio": 0.6745493936196656,
+      "full_response_final_lambda_um": 2.0852093755103804,
+      "GNLSE_optima": {
+        "2.02": {
+          "eta": 0.9216169814681563,
+          "L_m": 33.994573272225644,
+          "boundary": false
+        }
+      },
+      "GNLSE_final": {
+        "N_ratio": 0.6727208355047494,
+        "Ns_ratio": 0.672698446921867,
+        "soliton_lambda_um": 2.085496160065367,
+        "alpha_z0": 0.0030837912746687316,
+        "sech_intensity_residual": 0.0033483685504742716,
+        "fundamental_width_ratio": 0.9991291043059306
+      },
+      "measured_initial_spectral_loss_factor": 1.0429510104045725
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-width-beyond",
+      "T_fs": 69.07203539994804,
+      "initial_loss_width": 0.5000000000000001,
+      "initial_alpha_z0": 8.954080926265615e-05,
+      "initial_spectral_loss_factor": 1.0884645540443973,
+      "Gordon_final_N_ratio": 0.17633588894869903,
+      "Gordon_final_lambda_um": 2.148270047399926,
+      "full_response_final_N_ratio": 0.1666859022608778,
+      "full_response_final_lambda_um": 2.147005199090707,
+      "GNLSE_optima": {
+        "2.02": {
+          "eta": 0.9645465634883426,
+          "L_m": 10.998244293955356,
+          "boundary": false
+        }
+      },
+      "GNLSE_final": {
+        "N_ratio": 0.16401018851641738,
+        "Ns_ratio": 0.1633668462413174,
+        "soliton_lambda_um": 2.147311515209161,
+        "alpha_z0": 0.10461644042407764,
+        "sech_intensity_residual": 0.01434737231297924,
+        "fundamental_width_ratio": 0.9826997509901441
+      },
+      "measured_initial_spectral_loss_factor": 1.0886197641424622
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-adiab-bound",
+      "T_fs": 200.0,
+      "initial_loss_width": 0.016233842974905516,
+      "initial_alpha_z0": 0.01,
+      "initial_spectral_loss_factor": 1.0027107736252716,
+      "Gordon_final_N_ratio": 0.8799746221795729,
+      "Gordon_final_lambda_um": 2.000647658727437,
+      "full_response_final_N_ratio": 0.8797357785239769,
+      "full_response_final_lambda_um": 2.0006044435876,
+      "GNLSE_optima": {
+        "2.02": {
+          "eta": 0.002906097184074937,
+          "L_m": 0.19116862349123442,
+          "boundary": false
+        }
+      },
+      "GNLSE_final": {
+        "N_ratio": 0.8797062136380631,
+        "Ns_ratio": 0.8796871871212998,
+        "soliton_lambda_um": 2.000626568076786,
+        "alpha_z0": 0.013035983731066451,
+        "sech_intensity_residual": 0.007382757528859192,
+        "fundamental_width_ratio": 0.9997973034517603
+      },
+      "measured_initial_spectral_loss_factor": 1.0027110749300752
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-adiab-beyond",
+      "T_fs": 200.0,
+      "initial_loss_width": 0.016233842974905516,
+      "initial_alpha_z0": 0.030000000000000002,
+      "initial_spectral_loss_factor": 1.0027107736252716,
+      "Gordon_final_N_ratio": 0.6816878403219931,
+      "Gordon_final_lambda_um": 2.000423484015509,
+      "full_response_final_N_ratio": 0.681398623185092,
+      "full_response_final_lambda_um": 2.0003068063642857,
+      "GNLSE_optima": {
+        "2.02": {
+          "eta": 0.002882610659719084,
+          "L_m": 0.19116862349123442,
+          "boundary": false
+        }
+      },
+      "GNLSE_final": {
+        "N_ratio": 0.6813183186890607,
+        "Ns_ratio": 0.6812403326953212,
+        "soliton_lambda_um": 2.000330755314467,
+        "alpha_z0": 0.06494161935597516,
+        "sech_intensity_residual": 0.006194187279378556,
+        "fundamental_width_ratio": 0.9840438682007648
+      },
+      "measured_initial_spectral_loss_factor": 1.0027110749300754
+    }
+  ],
+  "crossing": [
+    {
+      "run_id": "2026-10-16-gpt-d-cutoff-q03",
+      "q_at_cutoff": 0.030000000000000148,
+      "closed_L_m": 201.6964625143772,
+      "closed_eta": 0.8572836077778494,
+      "ODE_optimum": {
+        "eta": 0.8498482621069272,
+        "L_m": 152.35,
+        "boundary": false
+      },
+      "terminal": {
+        "omega_inf": 930.4971630991676,
+        "lambda_inf_um": 2.024349607939754,
+        "w_eff": 29.342745189441214,
+        "alpha_inf": 0.0009846891252757663,
+        "terminal_condition_ratio": 3.1216813303465156
+      },
+      "scope": "inside",
+      "GNLSE_optima": {
+        "2.001": {
+          "eta": 0.8513401993360119,
+          "L_m": 151.0,
+          "boundary": false
+        }
+      },
+      "GNLSE_final": {
+        "N_ratio": 0.8300337170934168,
+        "Ns_ratio": 0.830017726941905,
+        "soliton_lambda_um": 2.0139662844079487,
+        "alpha_z0": 0.0009763153997577114,
+        "sech_intensity_residual": 0.002108096158782454,
+        "fundamental_width_ratio": 0.9996363476995891
+      }
+    },
+    {
+      "run_id": "2026-10-16-gpt-d-cutoff-q20",
+      "q_at_cutoff": 0.2000000000019262,
+      "closed_L_m": null,
+      "closed_eta": 0.45232128179014713,
+      "ODE_optimum": {
+        "eta": 0.539315193028603,
+        "L_m": 62.0,
+        "boundary": false
+      },
+      "terminal": {
+        "omega_inf": 939.5325007873332,
+        "lambda_inf_um": 2.0048817531382293,
+        "w_eff": 29.414106681315076,
+        "alpha_inf": 0.004532568036151024,
+        "terminal_condition_ratio": 13.33259359099246
+      },
+      "scope": "outside crossing bound",
+      "GNLSE_optima": {
+        "2.001": {
+          "eta": 0.5403076768817622,
+          "L_m": 59.0,
+          "boundary": false
+        }
+      },
+      "GNLSE_final": {
+        "N_ratio": 0.6633966544179134,
+        "Ns_ratio": 0.663320167529665,
+        "soliton_lambda_um": 2.003896870939972,
+        "alpha_z0": 0.007702602046345788,
+        "sech_intensity_residual": 0.003935514721871045,
+        "fundamental_width_ratio": 1.000085831199757
+      }
+    }
+  ]
+}

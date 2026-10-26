@@ -1,0 +1,19 @@
+agent = "gpt-b"
+model = "gpt-6-astra"
+family = "gpt"
+raw_location = "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/pilot_check"
+raman_helper = "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/raman_bath_spectrum.jl"
+nt = 4096
+T0_ps = 0.25
+window_over_T0 = 40.0
+z_over_LD = 4.71238898038469
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+lambda0_nm = 1550.0
+raman_fraction = 0.18
+temperature_K = 300.0
+nsteps = 1200
+source_slices = 300
+edge = 0.7368
+
+mask_file = "~/analytical-nl-discovery-data/2026-10-10-gpt-b-soliton-solver/pilot/batch_masks.csv"

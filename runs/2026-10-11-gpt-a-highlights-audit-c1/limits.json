@@ -1,0 +1,63 @@
+{
+  "provenance": {
+    "agent": "gpt-a",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "rows": [
+    {
+      "N": 20,
+      "Z": 0.01,
+      "K": 3.857380384020565e-05,
+      "K_over_Z_squared": 0.3857380384020565,
+      "predicted_small_Z_finite_N": 0.3857840629362337,
+      "relative_remainder": -0.00011930128431658638,
+      "wall_seconds": 0.014247894287109375
+    },
+    {
+      "N": 20,
+      "Z": 0.02,
+      "K": 0.000154240022635512,
+      "K_over_Z_squared": 0.38560005658878,
+      "predicted_small_Z_finite_N": 0.3857840629362337,
+      "relative_remainder": -0.0004769672081661458,
+      "wall_seconds": 0.029758930206298828
+    },
+    {
+      "N": 20,
+      "Z": 0.04,
+      "K": 0.0006160791398139207,
+      "K_over_Z_squared": 0.3850494623837004,
+      "predicted_small_Z_finite_N": 0.3857840629362337,
+      "relative_remainder": -0.0019041754782251896,
+      "wall_seconds": 0.06783485412597656
+    },
+    {
+      "N": 80,
+      "Z": 0.01,
+      "K": 3.849095812379236e-05,
+      "K_over_Z_squared": 0.38490958123792357,
+      "predicted_small_Z_finite_N": 0.3849554221770307,
+      "relative_remainder": -0.00011908116230163746,
+      "wall_seconds": 0.08704519271850586
+    },
+    {
+      "N": 80,
+      "Z": 0.02,
+      "K": 0.00015390886244186377,
+      "K_over_Z_squared": 0.38477215610465937,
+      "predicted_small_Z_finite_N": 0.3849554221770307,
+      "relative_remainder": -0.00047607089500112387,
+      "wall_seconds": 0.12810301780700684
+    },
+    {
+      "N": 80,
+      "Z": 0.04,
+      "K": 0.0006147580391516309,
+      "K_over_Z_squared": 0.3842237744697693,
+      "predicted_small_Z_finite_N": 0.3849554221770307,
+      "relative_remainder": -0.00190060371957812,
+      "wall_seconds": 0.14801883697509766
+    }
+  ]
+}

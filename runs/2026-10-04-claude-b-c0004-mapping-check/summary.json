@@ -1,0 +1,22 @@
+{
+ "run_id": "2026-10-04-claude-b-c0004-mapping-check",
+ "model": "dA/dz = -i(b2/2)A_TT + (b3/6)A_TTT + i g_k|A|^2 A + (g/2)A; b2=-1, b3=0.1, g_k=1, g=0.4, L=2 (units of L_D, T0); input 1.5 sech(T) exp(-0.3 i T^2); 2048 points over 80 T0",
+ "dz_1e-3": {
+  "M1_conj_timereversal_gainflip": 7.3467399855411e-12,
+  "M2_conj_gainflip_no_timereversal": 0.5805821509592737,
+  "C4_claim_conj_gainflip_b2flipped": 1.4223476352841005,
+  "C4r_conj_timereversal_gainflip_b2flipped": 1.4221751968168765,
+  "M2_b3zero_conj_gainflip_no_timereversal": 6.127761398362525e-12,
+  "C4_b3zero_claim_b2flipped": 1.3892666938130223,
+  "edge_fraction_output": 1.5265331424215067e-13
+ },
+ "dz_5e-4": {
+  "M1_conj_timereversal_gainflip": 7.782316447211194e-12,
+  "M2_conj_gainflip_no_timereversal": 0.5806468233162925,
+  "C4_claim_conj_gainflip_b2flipped": 1.4224181304799015,
+  "C4r_conj_timereversal_gainflip_b2flipped": 1.4222421821757905,
+  "M2_b3zero_conj_gainflip_no_timereversal": 8.812384564046701e-12,
+  "C4_b3zero_claim_b2flipped": 1.3893166313077372,
+  "edge_fraction_output": 2.7768324278750507e-17
+ }
+}

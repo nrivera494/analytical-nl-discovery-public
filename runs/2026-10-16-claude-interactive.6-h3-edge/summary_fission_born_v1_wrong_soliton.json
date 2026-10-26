@@ -1,0 +1,25 @@
+{
+ "run_id": "2026-10-16-claude-interactive.6-h3-edge",
+ "case": "fission_born_N2_T40fs",
+ "E_pJ": 18265.526764917027,
+ "dz_mm": 0.1,
+ "dt_fs": 3.0,
+ "nt": 16384,
+ "wall_s": 187.76817774772644,
+ "z_compression_m": 0.05,
+ "f1_final": 0.1411497968228016,
+ "IST_fraction": 0.75,
+ "z_sep_m": 6.8500000000000005,
+ "f1_at_sep": 0.14122863500256652,
+ "lam1_at_sep_um": 2.9123440011062476,
+ "comparison": {
+  "8.0": {
+   "N1_rel_gnlse": 0.9994417691584749,
+   "N1_rel_model": 0.9999809449779291,
+   "lam1_gnlse_um": 2.929058263928377,
+   "lam1_model_um": 2.9290208341762547
+  }
+ },
+ "max_abs_dN_rel": 0.000539175819454174,
+ "max_abs_dlam_um": 3.7429752122175586e-05
+}

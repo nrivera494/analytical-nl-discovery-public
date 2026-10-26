@@ -1,0 +1,50 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+run_operator_gates = false
+raw_location = "~/analytical-nl-discovery-data/2026-10-10-gpt-a-readout-reference"
+[[cases]]
+nt = 512
+window_ps = 1.536
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_base"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 96
+
+
+eig_maxiter = 120
+eig_tol = 1e-7
+dual_scales = [1.0]
+
+[[cases]]
+nt = 1024
+window_ps = 3.072
+T0_ps = 0.15
+wavelength_nm = 1550.0
+gamma_per_W_m = 0.0013
+beta2_ps2_per_m = -0.0206
+beta3_ps3_per_m = 0.0
+raman = true
+bath_intervals = 32
+label = "anom_N1_z0.75_R_mf_window2"
+peak_power_W = 704.2735042735043
+length_m = 1.286756699740965
+N = 1.0
+z_over_z0 = 0.75
+LD_m = 1.0922330097087378
+steps = 96
+
+
+eig_maxiter = 120
+eig_tol = 1e-7
+dual_scales = [1.0]

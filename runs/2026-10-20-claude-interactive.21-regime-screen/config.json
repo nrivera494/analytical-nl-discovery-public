@@ -1,0 +1,52 @@
+{
+ "note": "50-um, NA 0.2 parabolic GRIN silica (the fibre of Pourbeyram 2022). Material beta2 from the Malitson Sellmeier; parabolic-profile group spacing sqrt(2 Delta)/a; fundamental-mode A_eff = 2 pi rho^2 with rho^2 = a/(k sqrt(2 Delta)). overlap_fill_factor scales gamma for a multimode speckle (S_bar/S_0000). Dbeta values are the Garnier 2019 Fig. 2 model benchmarks. Sbar is the typical resonant overlap normalised to S_0000. Raman: single damped oscillator, the card's response. SRS threshold: CW Smith criterion G_th = 16 at the single-oscillator gain peak; pump-Stokes walk-off T_env/(|beta2| Omega_peak).",
+ "core_radius_um": 25.0,
+ "NA": 0.2,
+ "n2_m2_per_W": 2.6e-20,
+ "wavelengths_nm": [
+  1030,
+  1064
+ ],
+ "peak_power_W": [
+  1000,
+  10000,
+  70000
+ ],
+ "overlap_fill_factor": [
+  0.3,
+  1.0
+ ],
+ "tc_fs": [
+  10,
+  30,
+  100,
+  200,
+  1000,
+  5000
+ ],
+ "Dbeta_per_m": [
+  2.6,
+  42
+ ],
+ "Sbar": [
+  0.1,
+  0.3
+ ],
+ "fR": 0.18,
+ "raman_tau1_fs": 12.2,
+ "raman_tau2_fs": 32.0,
+ "lattice_T_K": 300,
+ "populated_modes": [
+  10,
+  100
+ ],
+ "bandwidth_THz": [
+  0.3,
+  3.0
+ ],
+ "srs_threshold_gain": 16,
+ "envelope_ps": [
+  1,
+  10
+ ]
+}

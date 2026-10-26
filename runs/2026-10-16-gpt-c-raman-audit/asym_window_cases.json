@@ -1,0 +1,72 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T800",
+    "N": 2,
+    "T0_fs": 800,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1e-10,
+    "zs_points": 8192,
+    "zN": [
+      16,
+      32,
+      64
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T1600",
+    "N": 2,
+    "T0_fs": 1600,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1e-10,
+    "zs_points": 8192,
+    "zN": [
+      32,
+      64
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T3200",
+    "N": 2,
+    "T0_fs": 3200,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1e-10,
+    "zs_points": 8192,
+    "zN": [
+      64,
+      128
+    ]
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "asym_wide_N2_T6400",
+    "N": 2,
+    "T0_fs": 6400,
+    "raman": "bw",
+    "n": 32768,
+    "width": 320,
+    "tol": 1e-10,
+    "zs_points": 8192,
+    "zN": [
+      64,
+      128
+    ]
+  },
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"asym_wide_N4_T6400","N":4,"T0_fs":6400,"raman":"bw","n":32768,"width":320,"tol":1e-10,"zs_points":8192,"zN":[16,32,64]}
+]

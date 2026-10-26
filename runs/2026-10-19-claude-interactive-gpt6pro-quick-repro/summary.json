@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-19-claude-interactive-gpt6pro-quick-repro",
+  "weak_crosscheck_lambda_min": {
+    "reproduced": 0.026540030906865072,
+    "archive": 0.02654003090684555,
+    "relative_difference": 7.355898742984308e-13
+  },
+  "similariton_short_gain_matched_LO_min": {
+    "reproduced_512": 0.8964864689915549,
+    "reproduced_1024": 0.8964864655082745,
+    "archive_1024": 0.8964864655082736,
+    "commutator_relative_error_1024": 6.750155989720952e-14
+  },
+  "second_order_symbolic_identical": true,
+  "c2_table": {
+    "2": 1.0106909809660942,
+    "3": 0.9894645630549397,
+    "5": 0.9823882355702332,
+    "10": 0.9803416006274103,
+    "20": 0.9799257021413446,
+    "40": 0.9798279309680199
+  },
+  "platform": "macOS (Apple silicon), Python 3.9.6, NumPy 2.0.2, SciPy 1.13.1, SymPy 1.14.0; archive used Linux, Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0",
+  "oscillator_constants_max_relative_difference": 4.090916955807552e-12
+}

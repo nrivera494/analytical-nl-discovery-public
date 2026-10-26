@@ -1,0 +1,35 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+specification: predictions.md
+normalization:
+  N: 1
+  S0000: 1
+  length: L_NL
+  gap: kappa
+integration:
+  method: RK4 plus unitary Brownian generator steps
+  step: 0.04
+  sample_every: 1
+  block_length: 100
+  note: Initial scan defaults; each frozen follow-up uses the overrides in predictions.md.
+phase_space_measure: complex canonical Liouville
+data_policy: block moments and sparse checkpoints only
+implementation:
+- evaluator/thermalized_light.py
+- evaluator/thermalized_light_core.c
+commands:
+- python run.py mc
+- python run.py core
+- python run.py convergence
+- python run.py strong_extension
+- python run.py phase_ensemble
+- python normal_form.py
+- python solver_reference.py prepare
+- julia --project=solver --startup-file=no solver_crosscheck.jl RAW_DIRECTORY
+- python solver_reference.py compare
+- python phase_batch.py
+- python summarize.py
+- python plot.py
+memory: One heavy process at a time; require memory_pressure free percentage >=35;
+  no full trajectory histories.

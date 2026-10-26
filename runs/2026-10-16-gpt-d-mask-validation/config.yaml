@@ -1,0 +1,35 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "search_run": "2026-10-16-gpt-d-adjoint-cutoff200-complete",
+  "script": "../2026-10-16-gpt-d-loss-edge-audit/validate_mask.py",
+  "L_m": 100.0,
+  "normalization": "Unmasked launch photons, for both baseline and passive mask",
+  "cases": [
+    {
+      "label": "coarse",
+      "n": 4096,
+      "dt": 0.003,
+      "h": 0.08
+    },
+    {
+      "label": "step",
+      "n": 4096,
+      "dt": 0.003,
+      "h": 0.04
+    },
+    {
+      "label": "window",
+      "n": 8192,
+      "dt": 0.003,
+      "h": 0.04
+    },
+    {
+      "label": "fine",
+      "n": 8192,
+      "dt": 0.0015,
+      "h": 0.04
+    }
+  ]
+}

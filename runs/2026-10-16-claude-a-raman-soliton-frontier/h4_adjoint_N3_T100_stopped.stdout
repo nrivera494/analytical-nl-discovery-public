@@ -1,0 +1,82 @@
+gradcheck N3_T0100_M16 coef 2: adjoint 8.939085e-04  finite-diff 8.939085e-04  rel.err 5.80e-09
+gradcheck N3_T0100_M16 coef 3: adjoint -8.749528e-04  finite-diff -8.749528e-04  rel.err 6.15e-09
+N3_T0100_M16 TL windowed fraction J_TL = 0.732208
+
+[8842] signal 15: Terminated: 15
+in expression starting at ~/agent-work/claude-a/runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint.jl:95
+__psynch_cvwait at /usr/lib/system/libsystem_kernel.dylib (unknown line)
+unknown function (ip: 0x0) at (unknown file)
+__psynch_cvwait at /usr/lib/system/libsystem_kernel.dylib (unknown line)
+unknown function (ip: 0x0) at (unknown file)
+__psynch_cvwait at /usr/lib/system/libsystem_kernel.dylib (unknown line)
+unknown function (ip: 0x0) at (unknown file)
+fftw_md5putc at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_md5INT at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_tensor_md5 at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+hash at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_mkplan_d at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_mkplan_d at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+mkplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_mkapiplan at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+fftw_plan_guru64_dft at ~/.julia/artifacts/57bf2e972613ddabdd4e01ec54c2a8cbadb9e681/lib/libfftw3.3.dylib (unknown line)
+macro expansion at ~/.julia/packages/FFTW/uNgRy/src/fft.jl:654 [inlined]
+cFFTWPlan at ~/.julia/packages/FFTW/uNgRy/src/FFTW.jl:90
+#plan_bfft#20 at ~/.julia/packages/FFTW/uNgRy/src/fft.jl:784
+plan_bfft at ~/.julia/packages/FFTW/uNgRy/src/fft.jl:774 [inlined]
+#plan_ifft#17 at ~/.julia/packages/AbstractFFTs/4iQz5/src/definitions.jl:282 [inlined]
+plan_ifft at ~/.julia/packages/AbstractFFTs/4iQz5/src/definitions.jl:282 [inlined]
+ifft at ~/.julia/packages/AbstractFFTs/4iQz5/src/definitions.jl:67 [inlined]
+_mmgnlse_nonlinear_spectral at ~/agent-work/claude-a/solver/src/mmgnlse_solver.jl:602
+_mmgnlse_rk4ip_step at ~/agent-work/claude-a/solver/src/mmgnlse_solver.jl:634
+#_mmgnlse_solve_adjoint_discrete_cpu#458 at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:557
+_mmgnlse_solve_adjoint_discrete_cpu at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:527 [inlined]
+#solve_adjoint#462 at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:703
+solve_adjoint at ~/agent-work/claude-a/solver/src/mmgnlse_adjoint_stochastic.jl:668
+unknown function (ip: 0x11827439b) at (unknown file)
+#JG#1 at ~/agent-work/claude-a/runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint.jl:63
+JG at ~/agent-work/claude-a/runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint.jl:53 [inlined]
+fg! at ~/agent-work/claude-a/runs/2026-10-16-claude-a-raman-soliton-frontier/h4_adjoint.jl:83
+#make_fdf##2 at ~/.julia/packages/NLSolversBase/THQGs/src/objective_types/incomplete.jl:108
+unknown function (ip: 0x13803806b) at (unknown file)
+value_jacobian!! at ~/.julia/packages/NLSolversBase/THQGs/src/interface.jl:139
+value_jacobian! at ~/.julia/packages/NLSolversBase/THQGs/src/interface.jl:128
+value_jvp!! at ~/.julia/packages/NLSolversBase/THQGs/src/interface.jl:246
+value_jvp! at ~/.julia/packages/NLSolversBase/THQGs/src/interface.jl:220
+value_jvp! at ~/.julia/packages/Optim/Kazrh/src/Manifolds.jl:75 [inlined]
+ϕdϕ at ~/.julia/packages/LineSearches/hcW88/src/LineSearches.jl:31
+bisect! at ~/.julia/packages/LineSearches/hcW88/src/hagerzhang.jl:573
+HagerZhang at ~/.julia/packages/LineSearches/hcW88/src/hagerzhang.jl:220
+perform_linesearch! at ~/.julia/packages/Optim/Kazrh/src/utilities/perform_linesearch.jl:39
+unknown function (ip: 0x1381c0e77) at (unknown file)
+update_state! at ~/.julia/packages/Optim/Kazrh/src/multivariate/solvers/first_order/l_bfgs.jl:235
+optimize at ~/.julia/packages/Optim/Kazrh/src/multivariate/optimize/optimize.jl:88
+unknown function (ip: 0x138118d93) at (unknown file)
+optimize at ~/.julia/packages/Optim/Kazrh/src/multivariate/optimize/optimize.jl:54
+#optimize#83 at ~/.julia/packages/Optim/Kazrh/src/multivariate/optimize/interface.jl:225 [inlined]
+optimize at ~/.julia/packages/Optim/Kazrh/src/multivariate/optimize/interface.jl:216
+unknown function (ip: 0x137ff02bf) at (unknown file)
+jl_apply at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/./julia.h:2391 [inlined]
+do_call at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/interpreter.c:123
+eval_body at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/interpreter.c:581
+jl_interpret_toplevel_thunk at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/interpreter.c:898
+jl_toplevel_eval_flex at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:1035
+jl_toplevel_eval_flex at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:975
+ijl_toplevel_eval at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:1047 [inlined]
+ijl_toplevel_eval_in at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/toplevel.c:1092
+eval at ./boot.jl:489
+include_string at ./loading.jl:2870
+_include at ./loading.jl:2930
+include at ./Base.jl:306
+exec_options at ./client.jl:317
+_start at ./client.jl:550
+jfptr__start_56280.1 at ~/.julia/juliaup/julia-1.12.5+0.aarch64.apple.darwin14/Julia-1.12.app/Contents/Resources/julia/lib/julia/sys.dylib (unknown line)
+jl_apply at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/./julia.h:2391 [inlined]
+true_main at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/jlapi.c:971
+jl_repl_entrypoint at /Users/julia/.julia/scratchspaces/a66863c6-20e8-4ff4-8a62-49f30b1f605e/agent-cache/default-honeycrisp-XG3Q6T6R70.0/build/default-honeycrisp-XG3Q6T6R70-0/julialang/julia-release-1-dot-12/src/jlapi.c:1139
+unknown function (ip: 0x0) at (unknown file)
+Allocations: 111720538 (Pool: 111718814; Big: 1724); GC: 26813

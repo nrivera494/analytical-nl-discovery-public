@@ -1,0 +1,62 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "n": 256,
+  "window": 40.0,
+  "frozen_mean": true,
+  "points": [
+    {
+      "best_binary_found": 0.3008053643726686,
+      "best_interval": 0.30080536437266886,
+      "active_bins": 117,
+      "discarded_mean_fraction": 5.743398243609037e-13,
+      "starts": 64,
+      "annealing_sweeps": 4,
+      "steps_per_sweep": 10000,
+      "seed": 20261010,
+      "global_optimality_certified": false,
+      "interval_indices": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "binary_indices": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133
+      ],
+      "lambda_min": 0.031235658717019582,
+      "lambda_pass": 0.18025867527915468,
+      "lambda_gen": 0.2698174708490835,
+      "lambda_min_dB": -15.05349330948943,
+      "lambda_pass_dB": -7.441038248875767,
+      "lambda_gen_dB": -5.689299329157885,
+      "best_binary_found_dB": -5.217144230781502,
+      "best_interval_dB": -5.217144230781497,
+      "gap_gen_to_binary_dB": 0.47215509837638336,
+      "gap_min_to_binary_dB": 9.836349078707928,
+      "full_filter_F": 0.9999999999997772,
+      "best_binary_Raman_part": 0.013894652486799875,
+      "T0_ps": 0.35,
+      "temperature_K": 77.0,
+      "z_over_LD": 3.7,
+      "white": false,
+      "wall_time_s": 0.413943
+    }
+  ]
+}

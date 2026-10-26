@@ -1,0 +1,70 @@
+{
+ "rows": [
+  {
+   "pulse": "sech",
+   "T0_or_Ts_fs": 188.9,
+   "Phi": 5.0,
+   "T_K": 300.0,
+   "N_t": 700,
+   "n_bins": 1031,
+   "binary_relax": 0.7656541121697079,
+   "binary_tabu_earlier": 0.7678815529955781,
+   "wall_s": 12.2
+  },
+  {
+   "pulse": "sech",
+   "T0_or_Ts_fs": 188.9,
+   "Phi": 15.0,
+   "T_K": 300.0,
+   "N_t": 700,
+   "n_bins": 1873,
+   "binary_relax": 0.4555839450155093,
+   "binary_tabu_earlier": 0.47359771404516077,
+   "wall_s": 41.1
+  },
+  {
+   "pulse": "gaussian",
+   "T0_or_Ts_fs": 200.0,
+   "Phi": 10.0,
+   "T_K": 300.0,
+   "N_t": 350,
+   "n_bins": 735,
+   "binary_relax": 0.48283951994036745,
+   "binary_tabu_earlier": 0.5216541921649198,
+   "wall_s": 6.6
+  },
+  {
+   "pulse": "gaussian",
+   "T0_or_Ts_fs": 200.0,
+   "Phi": 20.0,
+   "T_K": 300.0,
+   "N_t": 350,
+   "n_bins": 1137,
+   "binary_relax": 0.4060934630266285,
+   "binary_tabu_earlier": 0.5453898700248159,
+   "wall_s": 12.4
+  },
+  {
+   "pulse": "gaussian",
+   "T0_or_Ts_fs": 1000.0,
+   "Phi": 10.0,
+   "T_K": 300.0,
+   "N_t": 350,
+   "n_bins": 735,
+   "binary_relax": 0.48418768644206267,
+   "binary_tabu_earlier": 0.5203611594267129,
+   "wall_s": 6.4
+  },
+  {
+   "pulse": "gaussian",
+   "T0_or_Ts_fs": 1000.0,
+   "Phi": 20.0,
+   "T_K": 300.0,
+   "N_t": 350,
+   "n_bins": 1137,
+   "binary_relax": 0.4104839126018911,
+   "binary_tabu_earlier": 0.5110560466117096,
+   "wall_s": 13.4
+  }
+ ]
+}

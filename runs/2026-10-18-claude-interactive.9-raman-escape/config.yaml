@@ -1,0 +1,11 @@
+scripts: [propagate.jl, analyse.py]
+solver: "agents' copy of FastDifferentiableMMNLO (PulsePropagation), submodule solver/ at b9fa957, forward only"
+commands:
+  - "NSOL=2 T0PS=0.065 LOVERLD=8 NSTEPS=8000 julia --project=solver runs/2026-10-18-claude-interactive.9-raman-escape/propagate.jl"
+  - "NSOL=2 T0PS=0.2 LOVERLD=8 NSTEPS=8000 julia --project=solver runs/2026-10-18-claude-interactive.9-raman-escape/propagate.jl"
+  - "python analyse.py"
+fibre: {lambda0_nm: 1550, beta2_ps2_per_km: -21.7, beta3: 0, n2_m2_per_W: 2.6e-20, Aeff_um2: 80, loss: 0}
+raman: "AgarwalRaman(fraction = 0.18, tau1 = 12.2 fs, tau2 = 32 fs); control run with NoRaman() (self-steepening stays on in both: the solver's main path has no switch for it)"
+launch: "TL sech, N = 2, T0 = 65 fs (near the Raman-transfer optimum T0* ~ 21 fs N^1.62 quoted on the problem card) and 200 fs"
+grid: {Nt: 16384, window_ps: 16.384, dt_fs: 1.0, planes: 17}
+analysis: "leading ZS eigenvalue of the whole field at each plane, in soliton units of the launch, BO on the cropped field with Richardson over 1 and 2 samples per cell; compared with the integrable passive-mask ceiling eta = N - 1/2 = 1.5"

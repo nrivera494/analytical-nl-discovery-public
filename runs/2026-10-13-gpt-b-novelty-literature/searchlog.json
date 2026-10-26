@@ -1,0 +1,214 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-13",
+  "query_batches": [
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Single-photon Kerr nonlinearities do not help quantum computation\" pdf Shapiro",
+        "\"Heisenberg-scaling measurement\" \"Kerr\" mixed states 2017",
+        "\"temporal trapping\" \"Mabuchi\" quantum",
+        "\"sum frequency\" \"Brenne\" \"Skaar\" \"254\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"temporal trapping\" \"quantum\" Yanagimoto arxiv",
+        "\"Design of grating-assisted codirectional couplers\" DOI",
+        "\"Quantum nonlinear optics\" \"photon by photon\" DOI"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Exploring the limits of broadband excitation and inversion\" 2004 2008 Kobzar",
+        "\"Bandwidth and conversion efficiency analysis\" Gärtner 2019 pdf",
+        "\"Dispersion of bound electronic nonlinear refraction in solids\" DOI",
+        "\"Bassani\" \"Scandolo\" \"8446\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "site.math.kit.edu Gärtner 033819 pdf",
+        "site.journals.aps.org \"73, 030302\" \"Li\"",
+        "\"Fundamental limits\" \"Kuzyk\" \"25\" \"1183\"",
+        "\"Brenne\" \"Skaar\" \"808648\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "Kerr comb conversion efficiency \"coupling\" \"squared\" bound",
+        "\"maximum\" \"conversion efficiency\" \"all\" \"Lugiato\"",
+        "\"conversion efficiency\" \"η\" \"25%\" Kerr microresonator limit",
+        "\"microcomb\" \"universal\" \"efficiency\" bound"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"A continuum of bright and dark pulse states\" arxiv",
+        "\"A continuum of bright and dark pulse states\" efficiency limit",
+        "\"Bandwidth and conversion efficiency analysis\" site:publikationen.bibliothek.kit.edu",
+        "\"Exploring the limits of broadband excitation and inversion: II\" site:pubmed.ncbi.nlm.nih.gov"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"single-stage\" \"selectivity\" \"frequency conversion\" bound 2024 2025 2026",
+        "\"quantum pulse gate\" \"0.85\" poling",
+        "\"temporal-mode\" \"selectivity\" \"upper bound\" proof"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"sum rule\" \"frequency conversion\" \"inverse scattering\"",
+        "\"Zakharov\" \"minimum\" \"binary\" pulse",
+        "\"Song\" \"Shin\" \"1985\" grating synthesis",
+        "\"Design of grating-assisted codirectional couplers\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Brenne\" \"Skaar\" \"codirectional\" pdf",
+        "\"Song\" \"Shin\" inverse scattering optical filters",
+        "\"Rozanov\" \"Ultimate thickness to bandwidth ratio\"",
+        "\"Exact broadband excitation of two-level systems by mapping spins to springs\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Apodization of chirped quasi-phasematching\" Phillips pdf",
+        "\"Optical parametric amplifiers using chirped quasi-phase-matching gratings I\" pdf",
+        "\"Efficient, broadband, and robust frequency conversion by fully nonlinear\" arxiv",
+        "\"Geometrical representation of sum frequency generation\" arxiv"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "Zakharov Shabat 1972 34 62 exact theory two dimensional self focusing pdf jetp",
+        "\"Temporal-mode-selective\" \"2924\" 2014",
+        "\"An efficient inverse scattering algorithm\" \"777209\"",
+        "\"Chembo\" \"Menyuk\" \"053852\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"nonlinear overlap\" \"upper bound\" cavity second harmonic",
+        "\"fundamental limits\" \"second harmonic\" 2025 2026 structural",
+        "\"maximum\" \"single photon\" \"Kerr\" \"bound\" transparent",
+        "\"fundamental limits\" \"Kerr\" \"bulk\" susceptibility"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Feced\" \"Zervas\" \"Muriel\" \"777209\"",
+        "\"Fundamental limits\" \"1218\" Kuzyk 2000 erratum",
+        "\"Single-photon Kerr nonlinearities\" site:dspace.mit.edu",
+        "\"Kats\" \"2608.26633\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "Feced Zervas Muriel 1999 efficient inverse scattering algorithm design nonuniform fiber Bragg gratings DOI",
+        "\"Feced\" \"777209\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"fundamental limit\" \"photon\" \"Kerr\" gate fidelity passive bound",
+        "\"upper bound\" \"third-order susceptibility\" \"band gap\"",
+        "\"single-photon\" \"Kerr\" \"phase shift\" \"maximum\" -black -hole -shadow",
+        "\"nonlinear overlap\" \"bound\" \"Maxwell\" 2026"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Kerr comb\" \"upper bound\" \"efficiency\" stationary",
+        "\"temporal mode\" \"selectivity\" \"theorem\" conversion",
+        "\"nonlinear overlap\" \"upper bound\" Maxwell cavity",
+        "\"Design of grating-assisted codirectional couplers\" \"pdf\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Brenne\" \"Skaar\" \"254\" pdf site:ntnu.no",
+        "\"codirectional\" \"inverse-scattering\" Brenne filetype:pdf",
+        "\"Minimum energy\" \"Epstein\" \"2004\" magnetic resonance pdf",
+        "\"Exact broadband excitation of two-level systems by mapping spins to springs\" PMC"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Reddy\" \"NIST\" \"2017\" \"selectivity\"",
+        "\"Li\" \"Ruths\" \"Glaser\" \"00441\" pdf",
+        "\"Design of binary long-period fiber grating filters\"",
+        "\"nonlinear frequency conversion\" \"trace formula\" bandwidth"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"frequency conversion\" \"selectivity\" \"bound\" -site:researchgate.net -site:scribd.com",
+        "\"quantum pulse gate\" \"limit\" \"proof\"",
+        "\"single-stage\" \"selectivity\" \"Hankel\"",
+        "\"temporal mode\" \"0.83\" \"2019\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Brenne\" \"Skaar\" \"couplers\" \"2003\" filetype:pdf -reliable -computation -surfac -nonlinear -analog",
+        "\"codirectional couplers\" \"254–263\" author",
+        "\"Time-frequency optical filtering\" Raymer Banaszek arxiv",
+        "\"single photon\" \"phase shift\" \"bound\" \"passive\" Kerr bulk"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Kerr comb\" \"stationary\" \"efficiency\" \"bound\" -\"upper bound of OAM\"",
+        "\"fundamental limits\" \"third-order\" \"bulk\" susceptibility -quantum-well",
+        "\"nonlinear overlap\" \"fundamental\" \"bounds\" 2025 2026"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Fundamental limits in photonics and electromagnetics: a tutorial\"",
+        "\"Global continua of solutions\" \"Lugiato\" \"two-mode\" arxiv",
+        "\"third-order\" \"sum rules\" \"rigorous\" bulk bound susceptibility 2025 2026"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"minimum mode volume\" \"bounds\" dielectric resonators Wang 2020",
+        "\"Fundamental limits in photonics\" \"331\""
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "queries": [
+        "\"Exact broadband excitation\" correction OR corrigendum OR comment OR retraction",
+        "\"Li\" \"Ruths\" \"Glaser\" \"mapping\" critique"
+      ]
+    }
+  ]
+}

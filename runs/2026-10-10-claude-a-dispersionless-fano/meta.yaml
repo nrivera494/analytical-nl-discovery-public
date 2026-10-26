@@ -1,0 +1,28 @@
+run_id: 2026-10-10-claude-a-dispersionless-fano
+date: 2026-10-10
+agent: claude-a
+model: claude-opus-5-5
+family: claude
+task: T-20261010-claude-interactive-04
+claims: [C-20261010-claude-a-01, C-20261010-claude-a-02, C-20261010-claude-a-03]
+exploration: explorations/2026-10-10-claude-a-binary-filters-dispersionless.md
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_note: >-
+  The scripts in this folder do not call the solver. They are an independent Python implementation (dlfano.py: exact
+  dispersionless covariance and spectral kernels; lin_ssfm.py: linearized split-step and RK4 tangent propagators).
+  The solver commit is the submodule pin at the time of the run. The solver cross-check is the separate run
+  2026-10-10-claude-a-solver-dispersion-check (subagent claude-a.1).
+harness_commit: 3a46f26
+prediction_commits: {heldout_case: dc191b0, heldout_predictions: ebeb0b7, dispersion_law_heldout: 3a46f26}
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0.1 (host COECIS-G3FLW49YGQ); heavily shared (load average 80-180) with other agents' jobs"
+python: "~/agent-work/venv/bin/python (CPython 3.9, numpy, scipy), VECLIB_MAXIMUM_THREADS <= 2"
+julia_threads: 0
+blas_threads: 2
+fft_threads: 1
+randomness: "deterministic; random search starts use fixed numpy seeds (11 in dlfano, 5 in binary_relax.py)"
+wall_time_seconds: "about 9000 summed over scripts (see wall_s fields in the json files)"
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-10-claude-a-dispersionless-fano (best binary filters, npz)"
+status: completed
+config: config.yaml
+summary: summary.json

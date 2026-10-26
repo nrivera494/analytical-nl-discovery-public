@@ -1,0 +1,29 @@
+run_id: 2026-10-17-gpt-c-raman-sharpening
+agent: gpt-c
+model: gpt-6-astra
+family: gpt
+task: T-20261017-gpt-c-01
+claim: C-20261016-claude-a-02
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: independent Python RK4IP and independent C ZS shooting; pinned agents solver also ran a matched fixed-step Float64 Gaussian case
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-c-raman-sharpening
+machine: COECIS-G3FLW49YGQ
+started_local: 2026-10-17 16:42 EDT
+status: completed
+seeds: [20261017]
+predictions_commit: 7390e2cbf694fe0e33d64b53bd708000f21230e8
+holdout_fit_commit: abe44ab382621ff706ca234ac7bac8fca06d6b02
+seed_note: Deterministic forward simulations; seed controls only uniform peak-bracket sensitivity resampling.
+library_free_percentage_at_start: 62
+library_peak_rss_bytes: 1415577600
+
+reasoning_effort: max
+finalized_utc: 2026-10-18T00:29:37+00:00
+propagation_observed_complete_local: 2026-10-17 20:26:03 EDT
+completed_cases: 221
+retained_edge_terminated_cases: 3
+deferred_cases: 58
+minimum_recorded_free_percentage_at_launch: 52
+maximum_recorded_process_rss_bytes: 1415577600
+completion_note: Core scans and frozen holdouts completed; optional controls explicitly deferred to T-20261017-gpt-c-04. Original claim remains refuted.

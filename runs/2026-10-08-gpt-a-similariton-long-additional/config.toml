@@ -1,0 +1,80 @@
+agent = "gpt-a"
+model = "gpt-6-astra"
+family = "gpt"
+task = "T-20261008-gpt-a-01"
+raw_location = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-additional"
+
+[defaults]
+window = 24.0
+length = 12.0
+step = 0.001
+linear_phase_cap = 2.0
+nonlinear_phase_cap = 0.1
+save_interval = 0.1
+restart_gain_length = 6.0
+
+[[cases]]
+label = "heldout_order6_n32768"
+shape = "supergaussian"
+width = 1.4
+chirp = -0.2
+Nstar = 15.0
+order = 6
+nt = 32768
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-inputs/heldout_order6.npz"
+restart_sha256 = "9963210133ac7f62867f105283161edd04edfdfbf8cedc5dae8f0a564a506f84"
+
+[[cases]]
+label = "heldout_order6_n65536"
+shape = "supergaussian"
+width = 1.4
+chirp = -0.2
+Nstar = 15.0
+order = 6
+nt = 65536
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-inputs/heldout_order6.npz"
+restart_sha256 = "9963210133ac7f62867f105283161edd04edfdfbf8cedc5dae8f0a564a506f84"
+
+[[cases]]
+label = "sech_w2_qm0p5_n32768"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+Nstar = 10.0
+order = 4
+nt = 32768
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-inputs/sech_w2_qm0p5.npz"
+restart_sha256 = "93cc0751223ab4669082ba5a3039ee835a66b7d388c873336c44a4a189c95a87"
+
+[[cases]]
+label = "sech_w2_qm0p5_n65536"
+shape = "sech"
+width = 2.0
+chirp = -0.5
+Nstar = 10.0
+order = 4
+nt = 65536
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-inputs/sech_w2_qm0p5.npz"
+restart_sha256 = "93cc0751223ab4669082ba5a3039ee835a66b7d388c873336c44a4a189c95a87"
+
+[[cases]]
+label = "supergaussian_w2_qm0p5_n32768"
+shape = "supergaussian"
+width = 2.0
+chirp = -0.5
+Nstar = 10.0
+order = 4
+nt = 32768
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-inputs/supergaussian_w2_qm0p5.npz"
+restart_sha256 = "3cc69362929a0e31b917b1bc7489c20a2d44d1a68b7b8102ca3fc7ee601ead7d"
+
+[[cases]]
+label = "supergaussian_w2_qm0p5_n65536"
+shape = "supergaussian"
+width = 2.0
+chirp = -0.5
+Nstar = 10.0
+order = 4
+nt = 65536
+restart_file = "~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-long-inputs/supergaussian_w2_qm0p5.npz"
+restart_sha256 = "3cc69362929a0e31b917b1bc7489c20a2d44d1a68b7b8102ca3fc7ee601ead7d"

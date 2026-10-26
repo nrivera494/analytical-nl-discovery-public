@@ -1,0 +1,228 @@
+{
+  "repository": "https://github.com/nrivera494/analytical-nl-discovery",
+  "commit": "970bfe756b131094872de351ff91ab46a537d9b2",
+  "date": "2026-10-18",
+  "scope": "Files obtained at the pinned snapshot for targeted claim, derivation, implementation and scope inspection. Not a full repository clone.",
+  "files": [
+    {
+      "path": "STATUS.md",
+      "sha256": "4743ef7d2cf5dcc59cf6e085cbaefbf7bf756c46442bc5d8a509245253b37d81",
+      "bytes": 7032
+    },
+    {
+      "path": "automation/policy.yaml",
+      "sha256": "bf45908c0a923c0b5d776f414f87bc4d277e85ee12e1f3743933cb200d7a68bc",
+      "bytes": 1273
+    },
+    {
+      "path": "claims/C-20261008-claude-a-01-amplifier-similariton-collective-noise.md",
+      "sha256": "a95d503398a04133e9bbb2a8a331a68bc7dae9cec28c4d1b3bddc1e1101d91bd",
+      "bytes": 15832
+    },
+    {
+      "path": "claims/C-20261008-claude-a-02-amplifier-similariton-shape-noise.md",
+      "sha256": "e6c5b11205a7d2eddacafeee92d2ee79d709fdc194a2c7a26e365adb42b06fd4",
+      "bytes": 12815
+    },
+    {
+      "path": "claims/C-20261008-gpt-a-01-gain-similariton-conditional-attraction.md",
+      "sha256": "b7698df152a1229d2e6a3561fa57e7c50b0187de04e3383d85dd0ea42e813950",
+      "bytes": 11606
+    },
+    {
+      "path": "claims/C-20261008-gpt-a-02-gain-nlse-attraction-scope.md",
+      "sha256": "7a3927014291ddc80460ad0d7d642b34ee20939de5ac4da27383832f09269826",
+      "bytes": 14818
+    },
+    {
+      "path": "claims/C-20261010-claude-a-01-dispersionless-lambda-min.md",
+      "sha256": "1c4299e587f9fe9a91ab895c0b2b13624acbf545e81bccc8b7034a1da447eb72",
+      "bytes": 18261
+    },
+    {
+      "path": "claims/C-20261010-claude-b-01-semiclassical-lambda-min-normal-dispersion.md",
+      "sha256": "331f401ce0c6c7163f05ad3422d3adba58518f9934165e4b42dd20f3b423308c",
+      "bytes": 23556
+    },
+    {
+      "path": "claims/notes/C-20261008-claude-a-derivation.md",
+      "sha256": "9284f56549298aba94b7c6696df682168b58d90f0036b36856475bc05dfcd598",
+      "bytes": 12396
+    },
+    {
+      "path": "claims/notes/C-20261008-gpt-a-01-gain-similariton-derivation.md",
+      "sha256": "0f22ec0803aa8d42bff4c79fe31f8692aa0e3eead94c95ddabc2fa953e0a5f3b",
+      "bytes": 20553
+    },
+    {
+      "path": "claims/notes/C-20261008-gpt-a-similariton-literature.md",
+      "sha256": "ca5cdb661a7979bff43beadbc2218e372d5c7db4ce86a2b061554d0620792062",
+      "bytes": 14804
+    },
+    {
+      "path": "claims/notes/C-20261008-gpt-a-similariton-numerics.md",
+      "sha256": "396555605e95b76128cfaae9135880c297999ba2bcb3e12445ee58a24cefe8b3",
+      "bytes": 20577
+    },
+    {
+      "path": "claims/notes/C-20261010-claude-a-01-derivation.md",
+      "sha256": "da5e8851b2f73f5a157187a5075a7eb3cdc3883c9dc4e4b5a00fdbbb2f614073",
+      "bytes": 20448
+    },
+    {
+      "path": "docs/lean/2026-10-12-gpt-a-filtered-fano-formalization-assessment.md",
+      "sha256": "52214bcd8bb115b520703658b8e9891e48b65c084900a9c75ac7873dda487efc",
+      "bytes": 79679
+    },
+    {
+      "path": "docs/lean/2026-10-12-gpt-b-amplifier-similariton-noise-formalization-assessment.md",
+      "sha256": "c14f958804cb6895da631526998a05dc07cd4f6f5d501a6b6c050eb0d21f6fbf",
+      "bytes": 62834
+    },
+    {
+      "path": "docs/review-2026-10-09-gpt-b-similariton-prior-art.md",
+      "sha256": "e5b01de8ca9457928c72ed17e6ede35ec3253a1ebb1577b0e34f11d330514b19",
+      "bytes": 41212
+    },
+    {
+      "path": "docs/review-2026-10-11-gpt-a-highlights-audit.md",
+      "sha256": "0fa8c40be9ef6a223b77234ca3ff7d8cbcd0a0ee1fcfd914dd2c4712fcf9517c",
+      "bytes": 46304
+    },
+    {
+      "path": "explorations/2026-10-10-claude-b-semiclassical-normal-dispersion.md",
+      "sha256": "20c03dc5f7d6687cc2584796b87d6f49ae6d8b9fe8396a5f7d39c6e0d53873d6",
+      "bytes": 32767
+    },
+    {
+      "path": "problems/P-001-noise-around-nonsoliton-attractors.md",
+      "sha256": "26db4b5a533908170696ae49875002bfaba74233ffd5c673219c1f96f317a089",
+      "bytes": 19494
+    },
+    {
+      "path": "problems/P-20261010-claude-interactive-01-fast-lower-bounds-filtered-fano.md",
+      "sha256": "53523e57cb242dd6e25c0559c7620bf9810ab5283f1a4349d10d766ee6374e90",
+      "bytes": 19412
+    },
+    {
+      "path": "runs/2026-10-08-claude-a-amp-sim-checks/numeric.json",
+      "sha256": "5a151fcd2ab7576bdffc73dfa980ebc5ba920432a2c45ca2bcef712388edcf1e",
+      "bytes": 36207
+    },
+    {
+      "path": "runs/2026-10-08-claude-a-amp-sim-checks/numeric.py",
+      "sha256": "54ebf39d9e1b057eda8a388619edc85946630884d74895263c3c15160322dd52",
+      "bytes": 23168
+    },
+    {
+      "path": "runs/2026-10-10-claude-a-dispersionless-fano/c2_reshaping_check.py",
+      "sha256": "7773dea81d480fe852776b146f65cd54621d00a2d0c5a2ff5172de03259c33e3",
+      "bytes": 2119
+    },
+    {
+      "path": "runs/2026-10-10-claude-a-dispersionless-fano/c2_symbol_model.py",
+      "sha256": "469d195fcf9456720d9ec880eca49c12f21722693d0e79d36965bedde19fc127",
+      "bytes": 2631
+    },
+    {
+      "path": "runs/2026-10-10-claude-a-dispersionless-fano/lam_min_dispersion.json",
+      "sha256": "5e8f831c6e846dc9d3987961cbc8fdc0c878c6f3e8e5bef71be621d34c5dad77",
+      "bytes": 28428
+    },
+    {
+      "path": "runs/2026-10-10-claude-a-dispersionless-fano/lam_min_dispersion.py",
+      "sha256": "de094e2f16ef75de1244d977004da7616863b8b2cc983f5a8a4af3a98a51409a",
+      "bytes": 3126
+    },
+    {
+      "path": "runs/2026-10-10-claude-a-dispersionless-fano/lam_min_dispersion_flattop.json",
+      "sha256": "48cf6f174a39c95e3b62f0be153a3a937789472aa0bd19df7353f5d512de586d",
+      "bytes": 6603
+    },
+    {
+      "path": "runs/2026-10-10-claude-a-dispersionless-fano/lin_ssfm.py",
+      "sha256": "aba277e882d739a9177ca2c95b4935987d3038cebcf9bb2abc358719befb9630",
+      "bytes": 5801
+    },
+    {
+      "path": "runs/2026-10-10-claude-b-nd-oracle/nd_cov.py",
+      "sha256": "2ed7b10f3d09a1b634a23fcf49dd62adb32a9331b76129565ac513efe6be2b9c",
+      "bytes": 8387
+    },
+    {
+      "path": "runs/2026-10-10-claude-b-nd-semiclassical/curve_N200.json",
+      "sha256": "4248aabfdc8aefab1c6cab3880e4cefdcbc56cf1f1e33db618fa51d45085375d",
+      "bytes": 152834
+    },
+    {
+      "path": "runs/2026-10-10-claude-b-nd-semiclassical/hydro_direct.json",
+      "sha256": "e0a8e16e0f59699454a01ffc329ba91c9c6e564cc6863d225b8269a3c0e7f179",
+      "bytes": 3727
+    },
+    {
+      "path": "runs/2026-10-10-claude-b-nd-semiclassical/hydro_direct.py",
+      "sha256": "d325f8c749f7ce5304dde5a8b279c76ecced107d5c322647a3b034c80b431c80",
+      "bytes": 3640
+    },
+    {
+      "path": "runs/2026-10-10-claude-b-nd-semiclassical/lambda_curve.py",
+      "sha256": "3aa462312af170da099e6bbb5f5339d428769ea9e5b3ec1a29233bd688e20b7d",
+      "bytes": 3880
+    },
+    {
+      "path": "runs/2026-10-10-claude-b-nd-semiclassical/sigma_c.py",
+      "sha256": "3e790fdf7ff362b1b071cd631d867afe823301678edd4a20c586709060bdbd66",
+      "bytes": 3372
+    },
+    {
+      "path": "runs/2026-10-10-claude-b-nd-semiclassical/summary.json",
+      "sha256": "ed3f0817fff8a863f2431dd88a6b2176a7fb6133990d0a8beb89d46b7af2a1aa",
+      "bytes": 5679
+    },
+    {
+      "path": "runs/2026-10-10-claude-interactive.2-shape-modes/analyze_shape.py",
+      "sha256": "6ea51327dfd4dccbeeea525708a9f454a0c9ed40dc7bd028424f0f8a0075fb72",
+      "bytes": 3105
+    },
+    {
+      "path": "runs/2026-10-10-claude-interactive.2-shape-modes/config.md",
+      "sha256": "4095070077882cb52e3560f2fabe9af13d60b9eb94addbc1dddacdc132c5e3f0",
+      "bytes": 2145
+    },
+    {
+      "path": "runs/2026-10-10-claude-interactive.2-shape-modes/recompute_p1.json",
+      "sha256": "add15795ece0c93ec369d468ae7811b0f99bab7c15e8e43004e6beb43a417cd8",
+      "bytes": 2405
+    },
+    {
+      "path": "runs/2026-10-10-claude-interactive.2-shape-modes/shapemodes.jl",
+      "sha256": "4c7d3947da9d43133d86044aaaab4af291e8defa299538ad555c12de644e67d7",
+      "bytes": 4265
+    },
+    {
+      "path": "runs/2026-10-10-claude-interactive.2-shape-modes/xcheck_numpy.py",
+      "sha256": "7d15db8711f13427f0789d7630cb85d07914cfcb36744411c677dde8b9f11cc8",
+      "bytes": 4280
+    },
+    {
+      "path": "runs/2026-10-10-claude-interactive.2-simval-lib/simlib.jl",
+      "sha256": "a37cd7a24e085616f78c91beb640e7eb3c7c204ff839e28ee1e687bf34613911",
+      "bytes": 4688
+    },
+    {
+      "path": "runs/2026-10-11-gpt-a-highlights-audit-c2/analyze_shape.py",
+      "sha256": "d9088d59b9569b275bd1da5b1a551d15786304794bf88cf148a06ece633cbd75",
+      "bytes": 2405
+    },
+    {
+      "path": "runs/2026-10-11-gpt-a-highlights-audit-c2/gain.py",
+      "sha256": "81b78be1db3d5cfcb6cb1e6697c3c237a5dd725401491b080501cdacec0a31ec",
+      "bytes": 8669
+    },
+    {
+      "path": "runs/2026-10-11-gpt-a-highlights-audit-c2/summary.json",
+      "sha256": "d03238046cb6ed7f8812d1ba6d25304a192faef9ee69a4f36b19f2ddfbc76dbd",
+      "bytes": 22455
+    }
+  ]
+}

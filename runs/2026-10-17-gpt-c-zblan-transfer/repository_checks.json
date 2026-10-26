@@ -1,0 +1,31 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-zblan-transfer",
+  "recorded_utc": "2026-10-18T01:48:39.617187+00:00",
+  "scope": "Final working tree before closing commit; no propagation rerun for repository checks",
+  "origin_main": "77e285c7bf05a78d19236a6c984607fd0b36c460",
+  "checks": [
+    {
+      "command": "~/agent-work/venv/bin/python scripts/validate.py",
+      "exit_code": 0,
+      "output": "ok"
+    },
+    {
+      "command": "~/agent-work/venv/bin/python scripts/check_generated.py origin/main",
+      "exit_code": 0,
+      "output": "ok"
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": "~/agent-work/venv/bin/python runs/2026-10-17-gpt-c-zblan-transfer/check_integrity.py",
+      "exit_code": 0,
+      "output": "all_pass: true"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+# Run 2026-10-04-claude-b.1-prepared-sech-readout-20m (task T-20261004-claude-interactive-06, case 2).
+# Full scalar model (beta_0..beta_5, Kerr, self-steepening, causal Raman mean response and its
+# fluctuation-dissipation reservoir at 300 K) for the archive's prepared 0.4 ps sech-like pulse in 20 m GIF625 LP01
+# at 1550 nm, read out by interference with a coherent copy of the prepared input:
+#   C = sqrt(eta) A_fiber + sqrt(1-eta) r exp(i psi) A_input,
+#   F = (||g0||^2 + V_Raman + (1-eta) N_C) / N_C   (signal vacuum + Raman reservoir + reference-port vacuum).
+# Driver: run_prepared_sech_readout.jl (adapted from archive simulations/validate_prepared_sech_readout.jl and
+# run_prepared_sech_validation.jl). No random numbers are drawn; there is no seed.
+
+[setting]
+signal_input_power_mW = 36.76795669076535
+length_m = 20.0
+eta = 0.995
+reference_amplitude_ratio = 0.7017289850593498
+reference_phase_rad = -2.181661564992912
+reference_delay_ps = 0.0
+temperature_K = 300.0
+fiber = "GIF625 model: GRIN(1550e-9, 31.25e-6, 0.275), Silica(n2=2.3e-20), LP01, beta_order=5, grid_size=65"
+
+# Prepared input field. Read-only archive file; its arrays are identical (max abs difference 0) to
+# simulations/prepared_sech_readout/frozen_prepared_field_numeric.npz used by the archive's own validation.
+[input_field]
+path = "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/results/prepared_sech_1550_0.4ps.npz"
+sha256 = "0bb8ec95fdf1747f66379b2130de8e4dd94f5e15485ef435b25cd471585ceed0"
+fallback_path = "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/simulations/prepared_sech_readout/frozen_prepared_field_numeric.npz"
+fallback_sha256 = "3bccfc21358ffdb0f76f70e1ef7cbf8b1eb58ce6e72465c055c74cbe64a34ac2"
+
+# Cases, run in this order in one process. "standard" and "tight" are the archive's grids
+# (tight = archive headline). "wide" doubles the 40 ps window at fixed 9.765625 fs sampling by zero-padding the
+# input in time (the archive did this only for its 30 m case).
+[[cases]]
+kind = "agarwal"
+tag = "standard"
+nt = 4096
+window_ps = 40.0
+dz_m = 0.01
+raman_z_spacing_m = 0.05
+validate_derivative = true
+reference_blocked_check = true
+
+[[cases]]
+kind = "agarwal"
+tag = "linear_control"
+nt = 4096
+window_ps = 40.0
+dz_m = 0.01
+
+[[cases]]
+kind = "agarwal"
+tag = "tight"
+nt = 8192
+window_ps = 40.0
+dz_m = 0.005
+raman_z_spacing_m = 0.025
+validate_derivative = false
+reference_blocked_check = false
+
+[[cases]]
+kind = "anisotropic"
+tag = "standard"
+nt = 4096
+window_ps = 40.0
+dz_m = 0.01
+raman_z_spacing_m = 0.05
+validate_derivative = true
+reference_blocked_check = true
+
+[[cases]]
+kind = "anisotropic"
+tag = "tight"
+nt = 8192
+window_ps = 40.0
+dz_m = 0.005
+raman_z_spacing_m = 0.025
+validate_derivative = false
+reference_blocked_check = false
+
+[[cases]]
+kind = "agarwal"
+tag = "wide"
+nt = 8192
+window_ps = 80.0
+dz_m = 0.01
+raman_z_spacing_m = 0.05
+validate_derivative = false
+reference_blocked_check = false
+
+# Archive values being reproduced (report.md table; prepared_sech_readout/*_standard.toml, *_tight.toml,
+# linear_coherent_control.toml; prepared_sech_validation.log).
+[archive.agarwal_tight]
+F_total = 0.03232378149230158
+F_signal_input = 0.007539795412196346
+F_Raman = 0.01978398608010522
+F_reference_vacuum = 0.0050000000000000044
+readout_output_power_mw = 38.19593252167658
+reference_power_mw = 18.10540843910626
+source_power_required_both_arms_mw = 302.39682503531014
+
+[archive.agarwal_standard]
+F_total = 0.03232376744420089
+F_signal_input = 0.007539795491438489
+F_Raman = 0.01978397195276239
+readout_output_power_mw = 38.1959325255832
+reference_blocked_F_total = 1.0000000000952984
+reference_blocked_F_Raman = 8.229862563870672e-22
+dNout_dNsignal_reference_held_fixed_adjoint = 0.029766819811889795
+dNout_dNsignal_reference_held_fixed_finite_difference = 0.029771940578699533
+
+[archive.anisotropic_tight]
+F_total = 0.052947442066647844
+F_signal_input = 0.008595101242042923
+F_Raman = 0.03935234082460492
+readout_output_power_mw = 38.07359075352224
+
+[archive.anisotropic_standard]
+F_total = 0.05294741958191669
+F_signal_input = 0.008595101349764309
+F_Raman = 0.03935231823215238
+readout_output_power_mw = 38.07359075740908
+reference_blocked_F_total = 1.0000000000951292
+reference_blocked_F_Raman = 1.993334960904087e-21
+dNout_dNsignal_reference_held_fixed_adjoint = 0.04287925073640705
+dNout_dNsignal_reference_held_fixed_finite_difference = 0.04288467715748335
+
+[archive.linear_control]
+F_total = 1.0000000000000009
+F_signal = 0.995000000000001

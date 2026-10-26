@@ -1,0 +1,14 @@
+run_id: 2026-10-16-gpt-d-loss-edge-audit
+agent: gpt-d
+model: gpt-6-astra
+family: gpt
+claim: C-20261016-claude-interactive.6-01
+task: T-20261016-claude-interactive.6-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+implementation: Independent Python/Scipy GNLSE and reduced model; pinned solver used separately for comparison
+hardware: PI shared Mac; <=2 compute threads; one heavy process
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-d-loss-edge-audit
+wall_time_s: null
+status: complete
+wall_time_note: Orchestration and derived summaries are not one separately timed process; each production run records its own wall time.

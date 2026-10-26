@@ -1,0 +1,214 @@
+{
+ "DGPV_lambda0_vs_claim": [
+  {
+   "p": 1.25,
+   "m_equals_eta": 1.0,
+   "C_claim_times_eta^(p-1)": 2.523314894448253,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 2.523314894448253,
+   "DGPV_alpha^p_quadrature_of_V": 2.523314894448253,
+   "rel_diff_hypergeometric": -2.2958874039497803e-41,
+   "rel_diff_quadrature": -2.2958874039497803e-41,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 1.1479437019748901e-41
+  },
+  {
+   "p": 1.25,
+   "m_equals_eta": 0.7,
+   "C_claim_times_eta^(p-1)": 2.308053977300797,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 2.308053977300797,
+   "DGPV_alpha^p_quadrature_of_V": 2.308053977300797,
+   "rel_diff_hypergeometric": -2.2958874039497803e-41,
+   "rel_diff_quadrature": 0.0,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 4.591774807899561e-41
+  },
+  {
+   "p": 1.5,
+   "m_equals_eta": 1.0,
+   "C_claim_times_eta^(p-1)": 3.11285964173182,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 3.11285964173182,
+   "DGPV_alpha^p_quadrature_of_V": 3.11285964173182,
+   "rel_diff_hypergeometric": -3.4438311059246704e-41,
+   "rel_diff_quadrature": -1.1479437019748901e-41,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 2.2958874039497803e-41
+  },
+  {
+   "p": 1.5,
+   "m_equals_eta": 0.7,
+   "C_claim_times_eta^(p-1)": 2.6044052304481973,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 2.6044052304481973,
+   "DGPV_alpha^p_quadrature_of_V": 2.6044052304481973,
+   "rel_diff_hypergeometric": -2.2958874039497803e-41,
+   "rel_diff_quadrature": -3.4438311059246704e-41,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 4.591774807899561e-41
+  },
+  {
+   "p": 2.0,
+   "m_equals_eta": 1.0,
+   "C_claim_times_eta^(p-1)": 4.0,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 4.0,
+   "DGPV_alpha^p_quadrature_of_V": 4.0,
+   "rel_diff_hypergeometric": 0.0,
+   "rel_diff_quadrature": 0.0,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 1.1479437019748901e-41
+  },
+  {
+   "p": 2.0,
+   "m_equals_eta": 0.7,
+   "C_claim_times_eta^(p-1)": 2.8,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 2.8,
+   "DGPV_alpha^p_quadrature_of_V": 2.8,
+   "rel_diff_hypergeometric": 0.0,
+   "rel_diff_quadrature": 0.0,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 5.739718509874451e-42
+  },
+  {
+   "p": 3.0,
+   "m_equals_eta": 1.0,
+   "C_claim_times_eta^(p-1)": 5.301437602932776,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 5.301437602932776,
+   "DGPV_alpha^p_quadrature_of_V": 5.301437602932776,
+   "rel_diff_hypergeometric": 0.0,
+   "rel_diff_quadrature": 0.0,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 2.2958874039497803e-41
+  },
+  {
+   "p": 3.0,
+   "m_equals_eta": 0.7,
+   "C_claim_times_eta^(p-1)": 2.5977044254370605,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 2.5977044254370605,
+   "DGPV_alpha^p_quadrature_of_V": 2.5977044254370605,
+   "rel_diff_hypergeometric": 0.0,
+   "rel_diff_quadrature": 0.0,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 4.591774807899561e-41
+  },
+  {
+   "p": 4.0,
+   "m_equals_eta": 1.0,
+   "C_claim_times_eta^(p-1)": 6.320987654320987,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 6.320987654320987,
+   "DGPV_alpha^p_quadrature_of_V": 6.320987654320987,
+   "rel_diff_hypergeometric": 2.2958874039497803e-41,
+   "rel_diff_quadrature": -1.1479437019748901e-41,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 1.1479437019748901e-41
+  },
+  {
+   "p": 4.0,
+   "m_equals_eta": 0.7,
+   "C_claim_times_eta^(p-1)": 2.1680987654320987,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 2.1680987654320987,
+   "DGPV_alpha^p_quadrature_of_V": 2.1680987654320987,
+   "rel_diff_hypergeometric": 2.2958874039497803e-41,
+   "rel_diff_quadrature": 0.0,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 1.1479437019748901e-41
+  },
+  {
+   "p": 7.0,
+   "m_equals_eta": 1.0,
+   "C_claim_times_eta^(p-1)": 8.664603154991115,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 8.664603154991115,
+   "DGPV_alpha^p_quadrature_of_V": 8.664603154991115,
+   "rel_diff_hypergeometric": 4.591774807899561e-41,
+   "rel_diff_quadrature": -2.2958874039497803e-41,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 2.2958874039497803e-41
+  },
+  {
+   "p": 7.0,
+   "m_equals_eta": 0.7,
+   "C_claim_times_eta^(p-1)": 1.0193818965815498,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 1.0193818965815498,
+   "DGPV_alpha^p_quadrature_of_V": 1.0193818965815498,
+   "rel_diff_hypergeometric": 4.591774807899561e-41,
+   "rel_diff_quadrature": 0.0,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 1.1479437019748901e-41
+  },
+  {
+   "p": 10.0,
+   "m_equals_eta": 1.0,
+   "C_claim_times_eta^(p-1)": 10.488583280612357,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 10.488583280612357,
+   "DGPV_alpha^p_quadrature_of_V": 10.488583280612357,
+   "rel_diff_hypergeometric": -5.739718509874451e-41,
+   "rel_diff_quadrature": -2.2958874039497803e-41,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 2.2958874039497803e-41
+  },
+  {
+   "p": 10.0,
+   "m_equals_eta": 0.7,
+   "C_claim_times_eta^(p-1)": 0.42325216769260177,
+   "DGPV_alpha^p_hypergeometric_eq1.10": 0.42325216769260177,
+   "DGPV_alpha^p_quadrature_of_V": 0.42325216769260177,
+   "rel_diff_hypergeometric": 2.2958874039497803e-41,
+   "rel_diff_quadrature": -1.1479437019748901e-41,
+   "max_abs_diff_V_DGPV_minus_q_star_on_grid": 2.2958874039497803e-41
+  }
+ ],
+ "CLT_cor4.6_vs_claim": [
+  {
+   "p": 1.0001,
+   "C_claim": 1.5722920099476254,
+   "C_CLT_massless": 1.00085209214306,
+   "ratio_C_claim_over_C_CLT": 1.570953412887391,
+   "p*J_p*2^(p-2)": 1.570953412887391
+  },
+  {
+   "p": 1.25,
+   "C_claim": 2.523314894448253,
+   "C_CLT_massless": 1.2574334296829355,
+   "ratio_C_claim_over_C_CLT": 2.0067184750166156,
+   "p*J_p*2^(p-2)": 2.0067184750166156
+  },
+  {
+   "p": 1.5,
+   "C_claim": 3.11285964173182,
+   "C_CLT_massless": 1.224744871391589,
+   "ratio_C_claim_over_C_CLT": 2.5416392543819373,
+   "p*J_p*2^(p-2)": 2.5416392543819373
+  },
+  {
+   "p": 2.0,
+   "C_claim": 4.0,
+   "C_CLT_massless": 1.0,
+   "ratio_C_claim_over_C_CLT": 4.0,
+   "p*J_p*2^(p-2)": 4.0
+  },
+  {
+   "p": 3.0,
+   "C_claim": 5.301437602932776,
+   "C_CLT_massless": 0.5625,
+   "ratio_C_claim_over_C_CLT": 9.42477796076938,
+   "p*J_p*2^(p-2)": 9.42477796076938
+  },
+  {
+   "p": 4.0,
+   "C_claim": 6.320987654320987,
+   "C_CLT_massless": 0.2962962962962963,
+   "ratio_C_claim_over_C_CLT": 21.333333333333332,
+   "p*J_p*2^(p-2)": 21.333333333333332
+  },
+  {
+   "p": 7.0,
+   "C_claim": 8.664603154991115,
+   "C_CLT_massless": 0.03940041205847051,
+   "ratio_C_claim_over_C_CLT": 219.91148575128554,
+   "p*J_p*2^(p-2)": 219.91148575128554
+  },
+  {
+   "p": 10.0,
+   "C_claim": 10.488583280612357,
+   "C_CLT_massless": 0.005041357015064838,
+   "ratio_C_claim_over_C_CLT": 2080.5079365079364,
+   "p*J_p*2^(p-2)": 2080.5079365079364
+  }
+ ],
+ "limits": {
+  "C_claim_at_p=1.000001": 1.5708185103094883,
+  "pi_over_2": 1.5707963267948966,
+  "DGPV_alpha_D(0,1)=arccos(0)": 1.5707963267948966,
+  "C_claim_at_p=2": 4.0
+ },
+ "ZS_to_DGPV_map_symbolic_residuals": [
+  "0",
+  "0"
+ ],
+ "claim_bound_state_ZS_residual_max_abs": 2.7755575615628914e-15,
+ "claim_bound_state_ZS_residual_points": "p in {1.5,3,7}, eta = 0.8, t in {-2,-0.3,0,0.7,2.5}"
+}

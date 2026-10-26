@@ -1,0 +1,13 @@
+z=   1: quiet n=1e10 Var(phi_0) = 1.87e-10 rad^2 (linearized V_P/4n0 = 1.27e-10) | 1% jitter: Var(phi_0) = 4.164e-04 rad^2, RMS 0.020 rad
+z=   2: quiet n=1e10 Var(phi_0) = 4.53e-10 rad^2 (linearized V_P/4n0 = 3.88e-10) | 1% jitter: Var(phi_0) = 1.380e-03 rad^2, RMS 0.037 rad
+z=   5: quiet n=1e10 Var(phi_0) = 2.29e-09 rad^2 (linearized V_P/4n0 = 2.27e-09) | 1% jitter: Var(phi_0) = 8.465e-03 rad^2, RMS 0.092 rad
+z=  10: quiet n=1e10 Var(phi_0) = 8.83e-09 rad^2 (linearized V_P/4n0 = 8.40e-09) | 1% jitter: Var(phi_0) = 3.533e-02 rad^2, RMS 0.188 rad
+z=  20: quiet n=1e10 Var(phi_0) = 3.69e-08 rad^2 (linearized V_P/4n0 = 3.19e-08) | 1% jitter: Var(phi_0) = 1.518e-01 rad^2, RMS 0.390 rad
+z=  30: quiet n=1e10 Var(phi_0) = 8.21e-08 rad^2 | 1% jitter: Var(phi_0) = 3.403e-01 rad^2, RMS 0.583 rad
+z=  50: quiet n=1e10 Var(phi_0) = 2.12e-07 rad^2 (linearized V_P/4n0 = 2.02e-07) | 1% jitter: Var(phi_0) = 8.843e-01 rad^2, RMS 0.940 rad
+z=  75: quiet n=1e10 Var(phi_0) = 4.29e-07 rad^2 | 1% jitter: Var(phi_0) = 1.811e+00 rad^2, RMS 1.346 rad
+z= 100: quiet n=1e10 Var(phi_0) = 4.81e-07 rad^2 (linearized V_P/4n0 = 7.12e-07) | 1% jitter: Var(phi_0) = 2.150e+00 rad^2, RMS 1.466 rad
+z= 150: quiet n=1e10 Var(phi_0) = 1.05e-06 rad^2 | 1% jitter: Var(phi_0) = 2.898e+00 rad^2, RMS 1.702 rad
+z= 200: quiet n=1e10 Var(phi_0) = 3.01e-06 rad^2 (linearized V_P/4n0 = 6.92e-06) | 1% jitter: Var(phi_0) = 5.940e+00 rad^2, RMS 2.437 rad
+z= 250: quiet n=1e10 Var(phi_0) = 7.51e-06 rad^2 | 1% jitter: Var(phi_0) = 4.540e+00 rad^2, RMS 2.131 rad
+z= 300: quiet n=1e10 Var(phi_0) = 9.70e-04 rad^2 (linearized V_P/4n0 = 1.65e-05) | 1% jitter: Var(phi_0) = 4.532e+00 rad^2, RMS 2.129 rad

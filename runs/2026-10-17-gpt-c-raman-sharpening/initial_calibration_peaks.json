@@ -1,0 +1,1420 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-17-gpt-c-raman-sharpening",
+  "stage": "Initial calibration, before midpoint refinement or length-extension production",
+  "peaks": [
+    {
+      "N": 12,
+      "response": "as2s3",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 1.8199999999999998,
+      "bracketed": true,
+      "T0_fs": 1262.74604958916,
+      "f1": 0.3407638189016927,
+      "scaled_share": 1.180440495437863,
+      "y": 1.7675763077827018,
+      "T_bracket_fs": [
+        1075.963,
+        1494.393
+      ],
+      "sample_T0_fs": 1285.178,
+      "sample_f1": 0.3406636902940417,
+      "interpolation_T_difference_fs": 17.05018062598583,
+      "interpolation_share_difference": 9.442611328563943e-05,
+      "cases": [
+        "as2s3_sech_N12_T1075.963",
+        "as2s3_sech_N12_T1285.178",
+        "as2s3_sech_N12_T1494.393"
+      ],
+      "curvature_logT": -0.6458692717372999,
+      "sample_count": 4,
+      "max_plateau_relative_change": 0.002132909032158903,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 26.634219107665512,
+      "area_width_fs": 25.733570591728252,
+      "fwhm_width_fs": 26.816654794994182,
+      "energy_nJ": 1.2973176522711725,
+      "gate_energy_nJ": 1.2950578899602434,
+      "launch_energy_nJ": 3.8070874321473576,
+      "photon_fraction": 0.44704110541924974,
+      "length_m": 11.144547642359882,
+      "lambda_nm": 2036.1892277920417,
+      "f_gate": 0.34017025167971415,
+      "global_spectral_fraction_1200_2300nm": 0.9984826736785996,
+      "leading_spectral_fraction_1200_2300nm": 0.9954440653014858,
+      "sech_fit_relative_l2": 0.019702272384562767,
+      "bracket_values": [
+        {
+          "T0_fs": 1075.963,
+          "scaled_share": 1.1517763050862542,
+          "fit_width_fs": 23.76450968186749,
+          "area_width_fs": 22.47280732612818
+        },
+        {
+          "T0_fs": 1285.178,
+          "scaled_share": 1.1800936397663775,
+          "fit_width_fs": 26.978860549566228,
+          "area_width_fs": 26.198410562977223
+        },
+        {
+          "T0_fs": 1494.393,
+          "scaled_share": 1.1487045740778024,
+          "fit_width_fs": 31.294006087861653,
+          "area_width_fs": 31.295695324076693
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "response": "as2s3",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 1.4,
+      "bracketed": true,
+      "T0_fs": 1925.7367304647616,
+      "f1": 0.28589652820312245,
+      "scaled_share": 1.1435861128124898,
+      "y": 2.060510108794754,
+      "T_bracket_fs": [
+        1714.739,
+        2381.582
+      ],
+      "sample_T0_fs": 2048.16,
+      "sample_f1": 0.28412597613002216,
+      "interpolation_T_difference_fs": 18.912676230176658,
+      "interpolation_share_difference": 0.0006248681121303057,
+      "cases": [
+        "as2s3_sech_N16_T1714.739",
+        "as2s3_sech_N16_T2048.160",
+        "as2s3_sech_N16_T2381.582"
+      ],
+      "curvature_logT": -0.9321998305937186,
+      "sample_count": 3,
+      "max_plateau_relative_change": 0.002615568048983219,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 27.316912371720985,
+      "area_width_fs": 26.311649010419213,
+      "fwhm_width_fs": 27.52364550005843,
+      "energy_nJ": 1.2688150169301564,
+      "gate_energy_nJ": 1.2549678983850412,
+      "launch_energy_nJ": 4.4380217727887015,
+      "photon_fraction": 0.3690240639474066,
+      "length_m": 14.95347562524641,
+      "lambda_nm": 2022.4433211636328,
+      "f_gate": 0.2827764176552163,
+      "global_spectral_fraction_1200_2300nm": 0.99833028750715,
+      "leading_spectral_fraction_1200_2300nm": 0.9940359934843892,
+      "sech_fit_relative_l2": 0.01973734987242697,
+      "bracket_values": [
+        {
+          "T0_fs": 1714.739,
+          "scaled_share": 1.1184781019019867,
+          "fit_width_fs": 25.044730664124245,
+          "area_width_fs": 23.954690600950073
+        },
+        {
+          "T0_fs": 2048.16,
+          "scaled_share": 1.1365039045200886,
+          "fit_width_fs": 28.635257896146474,
+          "area_width_fs": 28.158724200348164
+        },
+        {
+          "T0_fs": 2381.582,
+          "scaled_share": 1.0594313902105474,
+          "fit_width_fs": 34.568783248090504,
+          "area_width_fs": 35.12470849349157
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "response": "as2s3",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 8,
+      "bracketed": true,
+      "T0_fs": 147.88400124461415,
+      "f1": 0.7054226202262371,
+      "scaled_share": 1.2218278190402074,
+      "y": 0.9433069082926271,
+      "T_bracket_fs": [
+        136.027,
+        180.315
+      ],
+      "sample_T0_fs": 158.171,
+      "sample_f1": 0.7045269058339998,
+      "interpolation_T_difference_fs": 0.6786591567004052,
+      "interpolation_share_difference": 0.00020112293188812025,
+      "cases": [
+        "as2s3_sech_N3_T136.027",
+        "as2s3_sech_N3_T158.171",
+        "as2s3_sech_N3_T180.315"
+      ],
+      "curvature_logT": -0.39612649405842904,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0022331392269214767,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 24.42802931602141,
+      "area_width_fs": 23.293207819982054,
+      "fwhm_width_fs": 24.61294029400159,
+      "energy_nJ": 1.4332339127621758,
+      "gate_energy_nJ": 1.4347376744418638,
+      "launch_energy_nJ": 2.0317379563225817,
+      "photon_fraction": 0.8128567256331058,
+      "length_m": 2.6875180121802815,
+      "lambda_nm": 1783.258592505691,
+      "f_gate": 0.7061627558697184,
+      "global_spectral_fraction_1200_2300nm": 0.9999999722776169,
+      "leading_spectral_fraction_1200_2300nm": 0.9999956100093996,
+      "sech_fit_relative_l2": 0.018649255718354192,
+      "bracket_values": [
+        {
+          "T0_fs": 136.027,
+          "scaled_share": 1.2194316626020625,
+          "fit_width_fs": 23.2634191746424,
+          "area_width_fs": 21.467712507829596
+        },
+        {
+          "T0_fs": 158.171,
+          "scaled_share": 1.2202763962037817,
+          "fit_width_fs": 25.438431763294275,
+          "area_width_fs": 24.945187202966046
+        },
+        {
+          "T0_fs": 180.315,
+          "scaled_share": 1.2083409925143194,
+          "fit_width_fs": 29.118977659417556,
+          "area_width_fs": 28.718414871811298
+        }
+      ]
+    },
+    {
+      "N": 12,
+      "response": "bw",
+      "shape": "gaussian",
+      "split": "calibration",
+      "zN": 1.4,
+      "bracketed": true,
+      "T0_fs": 1122.0081085211445,
+      "f1": 0.4040199462745303,
+      "scaled_share": 1.3995661484374693,
+      "y": 1.5657640855336943,
+      "T_bracket_fs": [
+        1011.559,
+        1340.904
+      ],
+      "sample_T0_fs": 1176.232,
+      "sample_f1": 0.40357156169060165,
+      "interpolation_T_difference_fs": 8.724172507103503,
+      "interpolation_share_difference": 0.00015602946183618238,
+      "cases": [
+        "bw_gaussian_N12_T1011.559",
+        "bw_gaussian_N12_T1176.232",
+        "bw_gaussian_N12_T1340.904"
+      ],
+      "curvature_logT": -0.40259548752459784,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00013848619391121364,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 23.565492627556388,
+      "area_width_fs": 21.7613460988498,
+      "fwhm_width_fs": 23.719095914288847,
+      "energy_nJ": 1.534124554288484,
+      "gate_energy_nJ": 1.5349553726040563,
+      "launch_energy_nJ": 3.7971505328750554,
+      "photon_fraction": 0.5388537670231379,
+      "length_m": 6.76829137412471,
+      "lambda_nm": 2064.708563871469,
+      "f_gate": 0.40423874674303406,
+      "global_spectral_fraction_1200_2300nm": 0.9954906050634466,
+      "leading_spectral_fraction_1200_2300nm": 0.9888204101118424,
+      "sech_fit_relative_l2": 0.025446242341531037,
+      "bracket_values": [
+        {
+          "T0_fs": 1011.559,
+          "scaled_share": 1.392077936338822,
+          "fit_width_fs": 21.69263594817797,
+          "area_width_fs": 19.72472052334658
+        },
+        {
+          "T0_fs": 1176.232,
+          "scaled_share": 1.3980128986760791,
+          "fit_width_fs": 24.48495298986998,
+          "area_width_fs": 22.838364618366803
+        },
+        {
+          "T0_fs": 1340.904,
+          "scaled_share": 1.3774167567504838,
+          "fit_width_fs": 27.685661089208075,
+          "area_width_fs": 26.425031551505597
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "response": "bw",
+      "shape": "gaussian",
+      "split": "calibration",
+      "zN": 1.4,
+      "bracketed": true,
+      "T0_fs": 1780.9918509076795,
+      "f1": 0.3424865935932191,
+      "scaled_share": 1.3699463743728764,
+      "y": 1.7536295847778676,
+      "T_bracket_fs": [
+        1612.101,
+        2136.97
+      ],
+      "sample_T0_fs": 1874.535,
+      "sample_f1": 0.3419454217813899,
+      "interpolation_T_difference_fs": 12.931109129751576,
+      "interpolation_share_difference": 0.00017201978379532967,
+      "cases": [
+        "bw_gaussian_N16_T1612.101",
+        "bw_gaussian_N16_T1874.535",
+        "bw_gaussian_N16_T2136.970"
+      ],
+      "curvature_logT": -0.41303942866454707,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00015136084404510086,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 24.618070526990792,
+      "area_width_fs": 22.92099415035335,
+      "fwhm_width_fs": 24.771794906667353,
+      "energy_nJ": 1.4565081761124536,
+      "gate_energy_nJ": 1.4557964039971885,
+      "launch_energy_nJ": 4.2527450807093174,
+      "photon_fraction": 0.5781528718843683,
+      "length_m": 12.790048278224038,
+      "lambda_nm": 2615.1752571978286,
+      "f_gate": 0.342319225904407,
+      "global_spectral_fraction_1200_2300nm": 0.6607475257236723,
+      "leading_spectral_fraction_1200_2300nm": 0.009047466329589743,
+      "sech_fit_relative_l2": 0.025196264582847006,
+      "bracket_values": [
+        {
+          "T0_fs": 1612.101,
+          "scaled_share": 1.3617462516837957,
+          "fit_width_fs": 22.726027306095418,
+          "area_width_fs": 20.872340173102398
+        },
+        {
+          "T0_fs": 1874.535,
+          "scaled_share": 1.3677816871255597,
+          "fit_width_fs": 25.66601172777305,
+          "area_width_fs": 24.163055655885174
+        },
+        {
+          "T0_fs": 2136.97,
+          "scaled_share": 1.3425175947560515,
+          "fit_width_fs": 29.15582482216936,
+          "area_width_fs": 28.064255430045414
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "response": "bw",
+      "shape": "gaussian",
+      "split": "calibration",
+      "zN": 8,
+      "bracketed": true,
+      "T0_fs": 117.34270876007932,
+      "f1": 0.7851385936176948,
+      "scaled_share": 1.3598999351290206,
+      "y": 0.9357206865276883,
+      "T_bracket_fs": [
+        107.067,
+        141.926
+      ],
+      "sample_T0_fs": 124.496,
+      "sample_f1": 0.784734821528748,
+      "interpolation_T_difference_fs": 0.7104642250135385,
+      "interpolation_share_difference": 0.00010777042588605568,
+      "cases": [
+        "bw_gaussian_N3_T107.067",
+        "bw_gaussian_N3_T124.496",
+        "bw_gaussian_N3_T141.926"
+      ],
+      "curvature_logT": -0.23061773823787682,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0004177300312657728,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 20.802099877305935,
+      "area_width_fs": 18.73796112088463,
+      "fwhm_width_fs": 20.932768896210025,
+      "energy_nJ": 1.7816567752083843,
+      "gate_energy_nJ": 1.788137729294873,
+      "launch_energy_nJ": 2.2692258280146667,
+      "photon_fraction": 0.9853592644536867,
+      "length_m": 1.6920812656408963,
+      "lambda_nm": 1936.6118136964596,
+      "f_gate": 0.7879946135018677,
+      "global_spectral_fraction_1200_2300nm": 0.9998898879257885,
+      "leading_spectral_fraction_1200_2300nm": 0.9998605935999363,
+      "sech_fit_relative_l2": 0.02559788263914619,
+      "bracket_values": [
+        {
+          "T0_fs": 107.067,
+          "scaled_share": 1.3582225559978756,
+          "fit_width_fs": 19.31174761559376,
+          "area_width_fs": 17.11819119313814
+        },
+        {
+          "T0_fs": 124.496,
+          "scaled_share": 1.3592005813562866,
+          "fit_width_fs": 21.839587804126015,
+          "area_width_fs": 19.89046900271572
+        },
+        {
+          "T0_fs": 141.926,
+          "scaled_share": 1.3526742943972283,
+          "fit_width_fs": 24.45956376560011,
+          "area_width_fs": 22.784625945658473
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "response": "bw",
+      "shape": "gaussian",
+      "split": "calibration",
+      "zN": 4,
+      "bracketed": true,
+      "T0_fs": 188.4778183029986,
+      "f1": 0.7003334601419068,
+      "scaled_share": 1.4006669202838136,
+      "y": 1.035665638309728,
+      "T_bracket_fs": [
+        170.63,
+        226.184
+      ],
+      "sample_T0_fs": 198.407,
+      "sample_f1": 0.6999616585049929,
+      "interpolation_T_difference_fs": 1.3646255999456969,
+      "interpolation_share_difference": 0.00011778860535771596,
+      "cases": [
+        "bw_gaussian_N4_T170.630",
+        "bw_gaussian_N4_T198.407",
+        "bw_gaussian_N4_T226.184"
+      ],
+      "curvature_logT": -0.28211553687791274,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00045428845093109516,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 21.095662634918085,
+      "area_width_fs": 18.97974819645409,
+      "fwhm_width_fs": 21.246411773892433,
+      "energy_nJ": 1.7589598681215641,
+      "gate_energy_nJ": 1.7647620594382536,
+      "launch_energy_nJ": 2.511603355014839,
+      "photon_fraction": 0.8421545341038434,
+      "length_m": 1.63704552959715,
+      "lambda_nm": 1856.3699217304872,
+      "f_gate": 0.7026436144523414,
+      "global_spectral_fraction_1200_2300nm": 0.9999950027595172,
+      "leading_spectral_fraction_1200_2300nm": 0.9999923198534482,
+      "sech_fit_relative_l2": 0.02497592934053857,
+      "bracket_values": [
+        {
+          "T0_fs": 170.63,
+          "scaled_share": 1.3978748683583164,
+          "fit_width_fs": 19.469152166780987,
+          "area_width_fs": 17.21678936001828
+        },
+        {
+          "T0_fs": 198.407,
+          "scaled_share": 1.3999233170099858,
+          "fit_width_fs": 22.000530540677456,
+          "area_width_fs": 19.99023113316735
+        },
+        {
+          "T0_fs": 226.184,
+          "scaled_share": 1.3912842454257737,
+          "fit_width_fs": 24.52988240657757,
+          "area_width_fs": 22.930371199257188
+        }
+      ]
+    },
+    {
+      "N": 6,
+      "response": "bw",
+      "shape": "gaussian",
+      "split": "calibration",
+      "zN": 4,
+      "bracketed": true,
+      "T0_fs": 366.3601358409218,
+      "f1": 0.5818250538775658,
+      "scaled_share": 1.4251745015673671,
+      "y": 1.1988203874635153,
+      "T_bracket_fs": [
+        329.096,
+        436.244
+      ],
+      "sample_T0_fs": 382.67,
+      "sample_f1": 0.5815055709480326,
+      "interpolation_T_difference_fs": 3.002168346755127,
+      "interpolation_share_difference": 0.00012106225396968373,
+      "cases": [
+        "bw_gaussian_N6_T329.096",
+        "bw_gaussian_N6_T382.670",
+        "bw_gaussian_N6_T436.244"
+      ],
+      "curvature_logT": -0.33680478457873997,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0003815203474880624,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 21.720477724855602,
+      "area_width_fs": 19.7364187712309,
+      "fwhm_width_fs": 21.873601884447563,
+      "energy_nJ": 1.691523460845845,
+      "gate_energy_nJ": 1.6957861842200619,
+      "launch_energy_nJ": 2.9072716095202638,
+      "photon_fraction": 0.912704617094753,
+      "length_m": 4.123494597031603,
+      "lambda_nm": 2422.449097221583,
+      "f_gate": 0.5832912819933903,
+      "global_spectral_fraction_1200_2300nm": 0.5154207335480493,
+      "leading_spectral_fraction_1200_2300nm": 0.16951313073177784,
+      "sech_fit_relative_l2": 0.02563324263224665,
+      "bracket_values": [
+        {
+          "T0_fs": 329.096,
+          "scaled_share": 1.4204281621792407,
+          "fit_width_fs": 19.927829098575675,
+          "area_width_fs": 17.78817990578862
+        },
+        {
+          "T0_fs": 382.67,
+          "scaled_share": 1.4243919314084812,
+          "fit_width_fs": 22.505088850802498,
+          "area_width_fs": 20.62638383328519
+        },
+        {
+          "T0_fs": 436.244,
+          "scaled_share": 1.412601551185298,
+          "fit_width_fs": 25.26208558406387,
+          "area_width_fs": 23.710350376109012
+        }
+      ]
+    },
+    {
+      "N": 10,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 1.75,
+      "bracketed": true,
+      "T0_fs": 881.8928815844843,
+      "f1": 0.4015044032981667,
+      "scaled_share": 1.2696684050090281,
+      "y": 1.3833879663571425,
+      "T_bracket_fs": [
+        796.637,
+        954.214
+      ],
+      "sample_T0_fs": 875.426,
+      "sample_f1": 0.4014949911978094,
+      "interpolation_T_difference_fs": 3.4163736382001844,
+      "interpolation_share_difference": 1.3063121804712807e-05,
+      "cases": [
+        "bw_sech_N10_T796.637",
+        "bw_sech_N10_T875.426",
+        "bw_sech_N10_T954.214"
+      ],
+      "curvature_logT": -0.34750732720592326,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00013735308292650572,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 23.709057447805783,
+      "area_width_fs": 21.964712574511157,
+      "fwhm_width_fs": 23.903840452482445,
+      "energy_nJ": 1.5199204301610756,
+      "gate_energy_nJ": 1.5240279646172663,
+      "launch_energy_nJ": 3.7855635397162666,
+      "photon_fraction": 0.5450616754757546,
+      "length_m": 6.272056891849879,
+      "lambda_nm": 2096.931935108825,
+      "f_gate": 0.4025894556062568,
+      "global_spectral_fraction_1200_2300nm": 0.9986603168081138,
+      "leading_spectral_fraction_1200_2300nm": 0.9966726803516144,
+      "sech_fit_relative_l2": 0.02550669356551863,
+      "bracket_values": [
+        {
+          "T0_fs": 796.637,
+          "scaled_share": 1.2639886149994146,
+          "fit_width_fs": 21.878599423192107,
+          "area_width_fs": 19.93045948728521
+        },
+        {
+          "T0_fs": 875.426,
+          "scaled_share": 1.2696386413343328,
+          "fit_width_fs": 23.560719694249176,
+          "area_width_fs": 21.80415744137374
+        },
+        {
+          "T0_fs": 954.214,
+          "scaled_share": 1.2662550787479134,
+          "fit_width_fs": 25.367964001189744,
+          "area_width_fs": 23.83002971410497
+        }
+      ]
+    },
+    {
+      "N": 12,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 1.4,
+      "bracketed": true,
+      "T0_fs": 1180.6466425317087,
+      "f1": 0.3619063400968367,
+      "scaled_share": 1.2536803372580454,
+      "y": 1.4879981331525427,
+      "T_bracket_fs": [
+        1070.371,
+        1282.093
+      ],
+      "sample_T0_fs": 1176.232,
+      "sample_f1": 0.3619039057031063,
+      "interpolation_T_difference_fs": 4.697427723976261,
+      "interpolation_share_difference": 8.092837108508721e-06,
+      "cases": [
+        "bw_sech_N12_T1070.371",
+        "bw_sech_N12_T1176.232",
+        "bw_sech_N12_T1282.093"
+      ],
+      "curvature_logT": -0.34693104567112093,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00010653683479755482,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 24.325551113519932,
+      "area_width_fs": 22.654853229118586,
+      "fwhm_width_fs": 24.488604161912207,
+      "energy_nJ": 1.4736187009018311,
+      "gate_energy_nJ": 1.47739698158395,
+      "launch_energy_nJ": 4.071823390846176,
+      "photon_fraction": 0.4716072447865141,
+      "length_m": 7.494228465168797,
+      "lambda_nm": 2013.3333306391864,
+      "f_gate": 0.36283424887859106,
+      "global_spectral_fraction_1200_2300nm": 0.9999532015673833,
+      "leading_spectral_fraction_1200_2300nm": 0.9998713753319749,
+      "sech_fit_relative_l2": 0.025352986625775533,
+      "bracket_values": [
+        {
+          "T0_fs": 1070.371,
+          "scaled_share": 1.247902560479579,
+          "fit_width_fs": 22.512163083975036,
+          "area_width_fs": 20.633922222570362
+        },
+        {
+          "T0_fs": 1176.232,
+          "scaled_share": 1.2536719042707922,
+          "fit_width_fs": 24.247123363954383,
+          "area_width_fs": 22.570294625332824
+        },
+        {
+          "T0_fs": 1282.093,
+          "scaled_share": 1.2495972248282055,
+          "fit_width_fs": 26.127782995425157,
+          "area_width_fs": 24.681844276459422
+        }
+      ]
+    },
+    {
+      "N": 14,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 1.4,
+      "bracketed": true,
+      "T0_fs": 1510.5255819520614,
+      "f1": 0.3307547412764948,
+      "scaled_share": 1.2375709209077006,
+      "y": 1.5830251593023916,
+      "T_bracket_fs": [
+        1374.004,
+        1645.785
+      ],
+      "sample_T0_fs": 1509.895,
+      "sample_f1": 0.33075471114821786,
+      "interpolation_T_difference_fs": 6.105033427116041,
+      "interpolation_share_difference": 3.4359829967356426e-06,
+      "cases": [
+        "bw_sech_N14_T1374.004",
+        "bw_sech_N14_T1509.895",
+        "bw_sech_N14_T1645.785"
+      ],
+      "curvature_logT": -0.34561776365536007,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00010359052394159907,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 24.897507547154248,
+      "area_width_fs": 23.300537260574977,
+      "fwhm_width_fs": 25.065438214268333,
+      "energy_nJ": 1.4327830732514004,
+      "gate_energy_nJ": 1.4363501976851614,
+      "launch_energy_nJ": 4.3318595153672,
+      "photon_fraction": 0.47409005932633097,
+      "length_m": 10.51468909553739,
+      "lambda_nm": 2214.5119979761116,
+      "f_gate": 0.3315782039075212,
+      "global_spectral_fraction_1200_2300nm": 0.9732294098727965,
+      "leading_spectral_fraction_1200_2300nm": 0.9192753528249918,
+      "sech_fit_relative_l2": 0.02520279152786789,
+      "bracket_values": [
+        {
+          "T0_fs": 1374.004,
+          "scaled_share": 1.2317687317561956,
+          "fit_width_fs": 23.104665209209582,
+          "area_width_fs": 21.294466703819662
+        },
+        {
+          "T0_fs": 1509.895,
+          "scaled_share": 1.2375708081780106,
+          "fit_width_fs": 24.888426825581572,
+          "area_width_fs": 23.29081237157415
+        },
+        {
+          "T0_fs": 1645.785,
+          "scaled_share": 1.2328154036547947,
+          "fit_width_fs": 26.845316410633806,
+          "area_width_fs": 25.484903539656937
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 1.4,
+      "bracketed": true,
+      "T0_fs": 1868.4964913067615,
+      "f1": 0.30549605057354584,
+      "scaled_share": 1.2219842022941834,
+      "y": 1.6715043429467413,
+      "T_bracket_fs": [
+        1705.827,
+        2043.244
+      ],
+      "sample_T0_fs": 1874.535,
+      "sample_f1": 0.30549426450717637,
+      "interpolation_T_difference_fs": 7.610675706057918,
+      "interpolation_share_difference": 1.6648754537773591e-06,
+      "cases": [
+        "bw_sech_N16_T1705.827",
+        "bw_sech_N16_T1874.535",
+        "bw_sech_N16_T2043.244"
+      ],
+      "curvature_logT": -0.34312662146673184,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00010543352379099868,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 25.42737302557972,
+      "area_width_fs": 23.89168175976109,
+      "fwhm_width_fs": 25.589305954342535,
+      "energy_nJ": 1.3973321644038679,
+      "gate_energy_nJ": 1.4003626362102555,
+      "launch_energy_nJ": 4.573977836310754,
+      "photon_fraction": 0.4906776957298881,
+      "length_m": 14.077738459780962,
+      "lambda_nm": 2481.9407324166464,
+      "f_gate": 0.30615859681116203,
+      "global_spectral_fraction_1200_2300nm": 0.6969388639666636,
+      "leading_spectral_fraction_1200_2300nm": 0.010072625674143403,
+      "sech_fit_relative_l2": 0.025011551887720446,
+      "bracket_values": [
+        {
+          "T0_fs": 1705.827,
+          "scaled_share": 1.216290836031821,
+          "fit_width_fs": 23.658976680117117,
+          "area_width_fs": 21.913794041199765
+        },
+        {
+          "T0_fs": 1874.535,
+          "scaled_share": 1.2219770580287055,
+          "fit_width_fs": 25.493018258864613,
+          "area_width_fs": 23.969033774046483
+        },
+        {
+          "T0_fs": 2043.244,
+          "scaled_share": 1.21649884889535,
+          "fit_width_fs": 27.523566918820226,
+          "area_width_fs": 26.243910981905437
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 8,
+      "bracketed": true,
+      "T0_fs": 123.33479605527583,
+      "f1": 0.7312386835963588,
+      "scaled_share": 1.266542552448676,
+      "y": 0.8902597118723101,
+      "T_bracket_fs": [
+        113.291,
+        135.701
+      ],
+      "sample_T0_fs": 124.496,
+      "sample_f1": 0.7312280249441098,
+      "interpolation_T_difference_fs": 0.4977707963934961,
+      "interpolation_share_difference": 7.218540558961983e-06,
+      "cases": [
+        "bw_sech_N3_T113.291",
+        "bw_sech_N3_T124.496",
+        "bw_sech_N3_T135.701"
+      ],
+      "curvature_logT": -0.24275013486344627,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0001743911917986285,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 20.81068474583779,
+      "area_width_fs": 18.740619903977166,
+      "fwhm_width_fs": 20.955198363736244,
+      "energy_nJ": 1.781404006680187,
+      "gate_energy_nJ": 1.7889793473283566,
+      "launch_energy_nJ": 2.4361457437111134,
+      "photon_fraction": 0.9359961896214241,
+      "length_m": 1.8693053048229165,
+      "lambda_nm": 1973.9449001699613,
+      "f_gate": 0.7343482433046502,
+      "global_spectral_fraction_1200_2300nm": 0.9998586696105524,
+      "leading_spectral_fraction_1200_2300nm": 0.9998076869737339,
+      "sech_fit_relative_l2": 0.02533092851383864,
+      "bracket_values": [
+        {
+          "T0_fs": 113.291,
+          "scaled_share": 1.26502569859895,
+          "fit_width_fs": 19.43129112853504,
+          "area_width_fs": 17.235114780462208
+        },
+        {
+          "T0_fs": 124.496,
+          "scaled_share": 1.2665240911214404,
+          "fit_width_fs": 20.970162029219892,
+          "area_width_fs": 18.91733962185897
+        },
+        {
+          "T0_fs": 135.701,
+          "scaled_share": 1.2646231596989976,
+          "fit_width_fs": 22.512134626682965,
+          "area_width_fs": 20.650949989441745
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 4,
+      "bracketed": true,
+      "T0_fs": 197.9407169023484,
+      "f1": 0.6441650162186882,
+      "scaled_share": 1.2883300324373763,
+      "y": 0.9861538497726038,
+      "T_bracket_fs": [
+        180.55,
+        216.263
+      ],
+      "sample_T0_fs": 198.407,
+      "sample_f1": 0.6441642053014107,
+      "interpolation_T_difference_fs": 0.8054502134358472,
+      "interpolation_share_difference": 3.8068796714973985e-07,
+      "cases": [
+        "bw_sech_N4_T180.550",
+        "bw_sech_N4_T198.407",
+        "bw_sech_N4_T216.263"
+      ],
+      "curvature_logT": -0.29295406799011386,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0002423240145146277,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 21.14622579914256,
+      "area_width_fs": 19.205164041688402,
+      "fwhm_width_fs": 21.286585478103568,
+      "energy_nJ": 1.7383145133333842,
+      "gate_energy_nJ": 1.745301709605832,
+      "launch_energy_nJ": 2.6985546708783734,
+      "photon_fraction": 0.7784704784512883,
+      "length_m": 1.8055542584246838,
+      "lambda_nm": 1864.2937229289184,
+      "f_gate": 0.646754252726605,
+      "global_spectral_fraction_1200_2300nm": 0.9999984079881971,
+      "leading_spectral_fraction_1200_2300nm": 0.9999966847022772,
+      "sech_fit_relative_l2": 0.02517793887093097,
+      "bracket_values": [
+        {
+          "T0_fs": 180.55,
+          "scaled_share": 1.2858526341165908,
+          "fit_width_fs": 19.65255810401169,
+          "area_width_fs": 17.551583596128985
+        },
+        {
+          "T0_fs": 198.407,
+          "scaled_share": 1.2883284106028214,
+          "fit_width_fs": 21.186274291890648,
+          "area_width_fs": 19.250429312814294
+        },
+        {
+          "T0_fs": 216.263,
+          "scaled_share": 1.2860341072535508,
+          "fit_width_fs": 22.76551513854133,
+          "area_width_fs": 21.02034063290226
+        }
+      ]
+    },
+    {
+      "N": 5,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 4,
+      "bracketed": true,
+      "T0_fs": 286.878171418461,
+      "f1": 0.5789861927953182,
+      "scaled_share": 1.2946524851241303,
+      "y": 1.0631690744957558,
+      "T_bracket_fs": [
+        259.174,
+        310.44
+      ],
+      "sample_T0_fs": 284.807,
+      "sample_f1": 0.5789781167899372,
+      "interpolation_T_difference_fs": 1.1124842868250653,
+      "interpolation_share_difference": 1.142804834863842e-05,
+      "cases": [
+        "bw_sech_N5_T259.174",
+        "bw_sech_N5_T284.807",
+        "bw_sech_N5_T310.440"
+      ],
+      "curvature_logT": -0.30764125189724184,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00027003478690434957,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 21.77856156364914,
+      "area_width_fs": 19.819344570786857,
+      "fwhm_width_fs": 21.916533411489358,
+      "energy_nJ": 1.6844459848497386,
+      "gate_energy_nJ": 1.6906786712669828,
+      "launch_energy_nJ": 2.9093025115457634,
+      "photon_fraction": 0.7806473681023128,
+      "length_m": 3.0340676584847897,
+      "lambda_nm": 2080.3311197245903,
+      "f_gate": 0.5811285229217005,
+      "global_spectral_fraction_1200_2300nm": 0.9982371011320902,
+      "leading_spectral_fraction_1200_2300nm": 0.9969559034358977,
+      "sech_fit_relative_l2": 0.02576352443994245,
+      "bracket_values": [
+        {
+          "T0_fs": 259.174,
+          "scaled_share": 1.2911049416402889,
+          "fit_width_fs": 20.07769901234235,
+          "area_width_fs": 17.954564754876195
+        },
+        {
+          "T0_fs": 284.807,
+          "scaled_share": 1.294634426627112,
+          "fit_width_fs": 21.64674613534093,
+          "area_width_fs": 19.676529508857598
+        },
+        {
+          "T0_fs": 310.44,
+          "scaled_share": 1.2925095110984857,
+          "fit_width_fs": 23.27810549251816,
+          "area_width_fs": 21.48270281880011
+        }
+      ]
+    },
+    {
+      "N": 6,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 4,
+      "bracketed": true,
+      "T0_fs": 387.0912105361855,
+      "f1": 0.5283099763416297,
+      "scaled_share": 1.2940898680588453,
+      "y": 1.134616307592299,
+      "T_bracket_fs": [
+        348.23,
+        417.11
+      ],
+      "sample_T0_fs": 382.67,
+      "sample_f1": 0.5282884032037756,
+      "interpolation_T_difference_fs": 1.43556718385355,
+      "interpolation_share_difference": 1.7449823005777354e-05,
+      "cases": [
+        "bw_sech_N6_T348.230",
+        "bw_sech_N6_T382.670",
+        "bw_sech_N6_T417.110"
+      ],
+      "curvature_logT": -0.32696662462898424,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0003414328759564489,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 22.2632532675047,
+      "area_width_fs": 20.352698429930964,
+      "fwhm_width_fs": 22.410879401377827,
+      "energy_nJ": 1.640304134586866,
+      "gate_energy_nJ": 1.6457909467603136,
+      "launch_energy_nJ": 3.1048138555804394,
+      "photon_fraction": 0.8230300742254005,
+      "length_m": 4.60336728953516,
+      "lambda_nm": 2403.885474855906,
+      "f_gate": 0.5300771715516053,
+      "global_spectral_fraction_1200_2300nm": 0.5401382628455847,
+      "leading_spectral_fraction_1200_2300nm": 0.13277159768936206,
+      "sech_fit_relative_l2": 0.025709182874619315,
+      "bracket_values": [
+        {
+          "T0_fs": 348.23,
+          "scaled_share": 1.2896076068872897,
+          "fit_width_fs": 20.464382456383458,
+          "area_width_fs": 18.37306963619361
+        },
+        {
+          "T0_fs": 382.67,
+          "scaled_share": 1.294037024878952,
+          "fit_width_fs": 22.050396270343644,
+          "area_width_fs": 20.121059174797068
+        },
+        {
+          "T0_fs": 417.11,
+          "scaled_share": 1.2918559378216197,
+          "fit_width_fs": 23.70849305678433,
+          "area_width_fs": 21.96896721091601
+        }
+      ]
+    },
+    {
+      "N": 7,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 2.5,
+      "bracketed": true,
+      "T0_fs": 496.22318149996727,
+      "f1": 0.4877079797348189,
+      "scaled_share": 1.29035402680006,
+      "y": 1.2046998654778474,
+      "T_bracket_fs": [
+        447.012,
+        535.432
+      ],
+      "sample_T0_fs": 491.222,
+      "sample_f1": 0.4876907571459566,
+      "interpolation_T_difference_fs": 1.8699361809921697,
+      "interpolation_share_difference": 1.6197509842941216e-05,
+      "cases": [
+        "bw_sech_N7_T447.012",
+        "bw_sech_N7_T491.222",
+        "bw_sech_N7_T535.432"
+      ],
+      "curvature_logT": -0.33569260118567423,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00016341722351354004,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 22.63478316344025,
+      "area_width_fs": 20.764482282179006,
+      "fwhm_width_fs": 22.78767068085142,
+      "energy_nJ": 1.607774994383921,
+      "gate_energy_nJ": 1.6128681786229129,
+      "launch_energy_nJ": 3.2965935789242478,
+      "photon_fraction": 0.6513870269291745,
+      "length_m": 4.052624191210492,
+      "lambda_nm": 2061.9925335462203,
+      "f_gate": 0.4892529637060168,
+      "global_spectral_fraction_1200_2300nm": 0.9992944979575977,
+      "leading_spectral_fraction_1200_2300nm": 0.9985631731864931,
+      "sech_fit_relative_l2": 0.025708183835910062,
+      "bracket_values": [
+        {
+          "T0_fs": 447.012,
+          "scaled_share": 1.2855101017253412,
+          "fit_width_fs": 20.830375804126636,
+          "area_width_fs": 18.775721213374364
+        },
+        {
+          "T0_fs": 491.222,
+          "scaled_share": 1.2903084601129977,
+          "fit_width_fs": 22.44275332960297,
+          "area_width_fs": 20.55593350626067
+        },
+        {
+          "T0_fs": 535.432,
+          "scaled_share": 1.2877857747827204,
+          "fit_width_fs": 24.140279994852325,
+          "area_width_fs": 22.449860137027155
+        }
+      ]
+    },
+    {
+      "N": 8,
+      "response": "bw",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 2.5,
+      "bracketed": true,
+      "T0_fs": 616.2863902474043,
+      "f1": 0.45406364404415644,
+      "scaled_share": 1.284285927175591,
+      "y": 1.2669434411598035,
+      "T_bracket_fs": [
+        554.966,
+        664.74
+      ],
+      "sample_T0_fs": 609.853,
+      "sample_f1": 0.4540447319245701,
+      "interpolation_T_difference_fs": 2.3128427486013834,
+      "interpolation_share_difference": 1.704763787380159e-05,
+      "cases": [
+        "bw_sech_N8_T554.966",
+        "bw_sech_N8_T609.853",
+        "bw_sech_N8_T664.740"
+      ],
+      "curvature_logT": -0.3434805386873928,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0002474825538023584,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 23.03198013320738,
+      "area_width_fs": 21.20732406992543,
+      "fwhm_width_fs": 23.17586725726027,
+      "energy_nJ": 1.574202161222162,
+      "gate_energy_nJ": 1.578838874695532,
+      "launch_energy_nJ": 3.466919630916487,
+      "photon_fraction": 0.664941209084073,
+      "length_m": 5.46959842747949,
+      "lambda_nm": 2261.0576237131604,
+      "f_gate": 0.4554010599542404,
+      "global_spectral_fraction_1200_2300nm": 0.8594044396725976,
+      "leading_spectral_fraction_1200_2300nm": 0.691532776687474,
+      "sech_fit_relative_l2": 0.025632255473144582,
+      "bracket_values": [
+        {
+          "T0_fs": 554.966,
+          "scaled_share": 1.2789503610223616,
+          "fit_width_fs": 21.196660116173472,
+          "area_width_fs": 19.17686926558483
+        },
+        {
+          "T0_fs": 609.853,
+          "scaled_share": 1.2842324356235666,
+          "fit_width_fs": 22.828857176700616,
+          "area_width_fs": 20.986815736435044
+        },
+        {
+          "T0_fs": 664.74,
+          "scaled_share": 1.2815034749217937,
+          "fit_width_fs": 24.561817448819184,
+          "area_width_fs": 22.924350719895184
+        }
+      ]
+    },
+    {
+      "N": 16,
+      "response": "hc",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 1.4,
+      "bracketed": true,
+      "T0_fs": 2006.9573959917295,
+      "f1": 0.2985152615545858,
+      "scaled_share": 1.1940610462183432,
+      "y": 1.5561864971511683,
+      "T_bracket_fs": [
+        1874.535,
+        2436.896
+      ],
+      "sample_T0_fs": 2136.97,
+      "sample_f1": 0.2978795465637983,
+      "interpolation_T_difference_fs": 5.48413047286499,
+      "interpolation_share_difference": 0.0001230423703955652,
+      "cases": [
+        "hc_sech_N16_T1874.535",
+        "hc_sech_N16_T2136.970",
+        "hc_sech_N16_T2436.896"
+      ],
+      "curvature_logT": -0.32270128927993746,
+      "sample_count": 5,
+      "max_plateau_relative_change": 3.7652853640879336e-05,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 28.504100025417443,
+      "area_width_fs": 26.262232916554414,
+      "fwhm_width_fs": 28.66814958415321,
+      "energy_nJ": 1.2712024712708787,
+      "gate_energy_nJ": 1.2716743113350029,
+      "launch_energy_nJ": 4.25841702246915,
+      "photon_fraction": 0.4260236613520326,
+      "length_m": 16.241443505346385,
+      "lambda_nm": 2209.920324446408,
+      "f_gate": 0.29862606330594893,
+      "global_spectral_fraction_1200_2300nm": 0.9124593200701384,
+      "leading_spectral_fraction_1200_2300nm": 0.7069454774394607,
+      "sech_fit_relative_l2": 0.022614056592899626,
+      "bracket_values": [
+        {
+          "T0_fs": 1874.535,
+          "scaled_share": 1.1910539089540735,
+          "fit_width_fs": 26.888114163985744,
+          "area_width_fs": 24.591338103848493
+        },
+        {
+          "T0_fs": 2136.97,
+          "scaled_share": 1.1915181862551931,
+          "fit_width_fs": 30.090678551744706,
+          "area_width_fs": 28.023203200063175
+        },
+        {
+          "T0_fs": 2436.896,
+          "scaled_share": 1.169744309705996,
+          "fit_width_fs": 34.352195950225244,
+          "area_width_fs": 32.5511307762379
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "response": "hc",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 8,
+      "bracketed": true,
+      "T0_fs": 132.1838873502472,
+      "f1": 0.7243875300278814,
+      "scaled_share": 1.2546760063776161,
+      "y": 0.8306609996198955,
+      "T_bracket_fs": [
+        107.067,
+        141.926
+      ],
+      "sample_T0_fs": 124.496,
+      "sample_f1": 0.7239767736293938,
+      "interpolation_T_difference_fs": 0.42272873820775203,
+      "interpolation_share_difference": 0.00011303736361434336,
+      "cases": [
+        "hc_sech_N3_T107.067",
+        "hc_sech_N3_T124.496",
+        "hc_sech_N3_T141.926"
+      ],
+      "curvature_logT": -0.22880429250385886,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.00027286634880596683,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 22.836969022238574,
+      "area_width_fs": 20.275195231351667,
+      "fwhm_width_fs": 22.983526430604645,
+      "energy_nJ": 1.6465742994667956,
+      "gate_energy_nJ": 1.65343185949939,
+      "launch_energy_nJ": 2.2730572120746193,
+      "photon_fraction": 0.8827916067019439,
+      "length_m": 2.1471680583745427,
+      "lambda_nm": 1879.8784663800363,
+      "f_gate": 0.7274044184705333,
+      "global_spectral_fraction_1200_2300nm": 0.9999969992194838,
+      "leading_spectral_fraction_1200_2300nm": 0.9999957486841828,
+      "sech_fit_relative_l2": 0.023264765185010076,
+      "bracket_values": [
+        {
+          "T0_fs": 107.067,
+          "scaled_share": 1.2458759473103767,
+          "fit_width_fs": 19.226363368867045,
+          "area_width_fs": 16.53860787792812
+        },
+        {
+          "T0_fs": 124.496,
+          "scaled_share": 1.2539645554259018,
+          "fit_width_fs": 21.71341571421204,
+          "area_width_fs": 19.106813081230133
+        },
+        {
+          "T0_fs": 141.926,
+          "scaled_share": 1.2536739835764068,
+          "fit_width_fs": 24.26073896008046,
+          "area_width_fs": 21.786901373739486
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "response": "hc",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 4,
+      "bracketed": true,
+      "T0_fs": 210.84801303959114,
+      "f1": 0.6364271959372358,
+      "scaled_share": 1.2728543918744717,
+      "y": 0.9257853426550768,
+      "T_bracket_fs": [
+        170.63,
+        226.184
+      ],
+      "sample_T0_fs": 198.407,
+      "sample_f1": 0.6359274648210191,
+      "interpolation_T_difference_fs": 0.6396453721491753,
+      "interpolation_share_difference": 0.0001343248214356052,
+      "cases": [
+        "hc_sech_N4_T170.630",
+        "hc_sech_N4_T198.407",
+        "hc_sech_N4_T226.184"
+      ],
+      "curvature_logT": -0.2702186109799926,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0008631238384217976,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 23.226470951911825,
+      "area_width_fs": 20.706218871693306,
+      "fwhm_width_fs": 23.37229124890686,
+      "energy_nJ": 1.6122989712165283,
+      "gate_energy_nJ": 1.6183139857465596,
+      "launch_energy_nJ": 2.5333596387913198,
+      "photon_fraction": 0.7416681056278477,
+      "length_m": 2.0487043595734376,
+      "lambda_nm": 1798.543991200835,
+      "f_gate": 0.6388015191236986,
+      "global_spectral_fraction_1200_2300nm": 0.9999999273549784,
+      "leading_spectral_fraction_1200_2300nm": 0.9999988898380631,
+      "sech_fit_relative_l2": 0.02377376029517393,
+      "bracket_values": [
+        {
+          "T0_fs": 170.63,
+          "scaled_share": 1.2607508878160398,
+          "fit_width_fs": 19.563656980679248,
+          "area_width_fs": 16.91749750575004
+        },
+        {
+          "T0_fs": 198.407,
+          "scaled_share": 1.2718549296420383,
+          "fit_width_fs": 22.041108929746493,
+          "area_width_fs": 19.499767168398815
+        },
+        {
+          "T0_fs": 226.184,
+          "scaled_share": 1.2715223161192921,
+          "fit_width_fs": 24.68766197047609,
+          "area_width_fs": 22.235551544458676
+        }
+      ]
+    },
+    {
+      "N": 6,
+      "response": "hc",
+      "shape": "sech",
+      "split": "calibration",
+      "zN": 4,
+      "bracketed": true,
+      "T0_fs": 409.52818990925437,
+      "f1": 0.5204273165516691,
+      "scaled_share": 1.2747813737574873,
+      "y": 1.0724536450038287,
+      "T_bracket_fs": [
+        382.67,
+        497.471
+      ],
+      "sample_T0_fs": 436.244,
+      "sample_f1": 0.5197727133992466,
+      "interpolation_T_difference_fs": 1.0825938203695387,
+      "interpolation_share_difference": 0.0001253319150821275,
+      "cases": [
+        "hc_sech_N6_T382.670",
+        "hc_sech_N6_T436.244",
+        "hc_sech_N6_T497.471"
+      ],
+      "curvature_logT": -0.3278152813552782,
+      "sample_count": 5,
+      "max_plateau_relative_change": 0.0001200643529173373,
+      "plateau_complete": true,
+      "dispersion": "constant",
+      "shock": false,
+      "fit_width_fs": 24.35667926265668,
+      "area_width_fs": 21.858543337829257,
+      "fwhm_width_fs": 24.508966860370297,
+      "energy_nJ": 1.5273028430416338,
+      "gate_energy_nJ": 1.5315317004496376,
+      "launch_energy_nJ": 2.934709217728005,
+      "photon_fraction": 0.7360235676384898,
+      "length_m": 5.152483512453157,
+      "lambda_nm": 2184.312454208251,
+      "f_gate": 0.5218682965923689,
+      "global_spectral_fraction_1200_2300nm": 0.9370899428150623,
+      "leading_spectral_fraction_1200_2300nm": 0.879532358756384,
+      "sech_fit_relative_l2": 0.023235762240865588,
+      "bracket_values": [
+        {
+          "T0_fs": 382.67,
+          "scaled_share": 1.272934005116978,
+          "fit_width_fs": 23.010796846665123,
+          "area_width_fs": 20.4546311492205
+        },
+        {
+          "T0_fs": 436.244,
+          "scaled_share": 1.273177930050035,
+          "fit_width_fs": 25.695426927767024,
+          "area_width_fs": 23.313822708467047
+        },
+        {
+          "T0_fs": 497.471,
+          "scaled_share": 1.2595879798827807,
+          "fit_width_fs": 29.015342797983227,
+          "area_width_fs": 26.872766935032256
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    "As-like sech N=4 plateau"
+  ]
+}

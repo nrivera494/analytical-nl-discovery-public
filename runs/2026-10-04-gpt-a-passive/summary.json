@@ -1,0 +1,1193 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-passive",
+  "cases": [
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_d1",
+      "delta": 0.0,
+      "r": null,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.9999999999999992,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.9999019265239011,
+          "capture_fixed_4": 0.9993606534290912,
+          "capture_fixed_6": 0.9999871350104318,
+          "bound_projection": 1.000000000001097,
+          "norm": 1.0000000000010973,
+          "edge": 6.653800567543728e-28
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.9999019265442608,
+          "capture_fixed_4": 0.9993606534763584,
+          "capture_fixed_6": 0.9999871350166428,
+          "bound_projection": 1.0000000000021954,
+          "norm": 1.000000000002196,
+          "edge": 2.4453157446336083e-24
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.9999019265559146,
+          "capture_fixed_4": 0.9993606535024723,
+          "capture_fixed_6": 0.9999871350213259,
+          "bound_projection": 1.000000000003289,
+          "norm": 1.0000000000032891,
+          "edge": 1.3093728546951916e-20
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.9999019265585206,
+          "capture_fixed_4": 0.9993606535087598,
+          "capture_fixed_6": 0.9999871350225344,
+          "bound_projection": 1.000000000004381,
+          "norm": 1.0000000000043825,
+          "edge": 2.9807670902304684e-19
+        }
+      ],
+      "C0": 1.0,
+      "elapsed_seconds": 1.2853481769561768
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_d2",
+      "delta": 0.5,
+      "r": null,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.8174649768615575,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.9063513613709622,
+          "capture_fixed_4": 0.8879356753281643,
+          "capture_fixed_6": 0.9252892660552958,
+          "bound_projection": 0.8174649778578927,
+          "norm": 1.0000000000011573,
+          "edge": 2.1931486873856284e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.8623008175400143,
+          "capture_fixed_4": 0.8518736574504948,
+          "capture_fixed_6": 0.8734378712687338,
+          "bound_projection": 0.8174649780216827,
+          "norm": 1.0000000000023455,
+          "edge": 1.7872717462455384e-22
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.84688938928231,
+          "capture_fixed_4": 0.8393307236452734,
+          "capture_fixed_6": 0.8546231122689529,
+          "bound_projection": 0.8174649781296267,
+          "norm": 1.0000000000035603,
+          "edge": 1.017996916336922e-15
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.8393747344354332,
+          "capture_fixed_4": 0.8334216330946189,
+          "capture_fixed_6": 0.8452706741865423,
+          "bound_projection": 0.8174649781604196,
+          "norm": 1.000000000004793,
+          "edge": 3.2798694782769365e-12
+        }
+      ],
+      "C0": 0.8174649768615582,
+      "elapsed_seconds": 1.2772321701049805
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_d3",
+      "delta": 1.0,
+      "r": null,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.465901054524969,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.587595579668896,
+          "capture_fixed_4": 0.5564352069054311,
+          "capture_fixed_6": 0.6263548201349962,
+          "bound_projection": 0.46590105695648565,
+          "norm": 1.0000000000009772,
+          "edge": 3.970913929821492e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.5183563399123825,
+          "capture_fixed_4": 0.5058282441977999,
+          "capture_fixed_6": 0.5328512380640906,
+          "bound_projection": 0.4659010571212042,
+          "norm": 1.0000000000019988,
+          "edge": 2.810814886383821e-21
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.49942036498910625,
+          "capture_fixed_4": 0.49092636302556225,
+          "capture_fixed_6": 0.5085989184228541,
+          "bound_projection": 0.46590105724737596,
+          "norm": 1.0000000000030105,
+          "edge": 1.872814837136086e-14
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.4906291540617868,
+          "capture_fixed_4": 0.4840892041666255,
+          "capture_fixed_6": 0.4974193278683714,
+          "bound_projection": 0.46590105728779024,
+          "norm": 1.0000000000040297,
+          "edge": 6.059151870431095e-11
+        }
+      ],
+      "C0": 0.4659010545249694,
+      "elapsed_seconds": 1.2871110439300537
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_d4",
+      "delta": 1.5,
+      "r": null,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.20312144566176363,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.2663844904520193,
+          "capture_fixed_4": 0.2489300776224407,
+          "capture_fixed_6": 0.29006806926702217,
+          "bound_projection": 0.203121448033411,
+          "norm": 1.0000000000008598,
+          "edge": 3.361443350391808e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.2295696171507611,
+          "capture_fixed_4": 0.2231809594483699,
+          "capture_fixed_6": 0.23711250600072958,
+          "bound_projection": 0.20312144810427715,
+          "norm": 1.000000000001714,
+          "edge": 2.849824042768546e-20
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.21994643103173503,
+          "capture_fixed_4": 0.21567950290723312,
+          "capture_fixed_6": 0.22461321137306714,
+          "bound_projection": 0.20312144816749234,
+          "norm": 1.000000000002572,
+          "edge": 2.0200353593399026e-13
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.21551176090130214,
+          "capture_fixed_4": 0.21224063265080656,
+          "capture_fixed_6": 0.21893855069636317,
+          "bound_projection": 0.20312144818862257,
+          "norm": 1.0000000000035012,
+          "edge": 6.54567120907895e-10
+        }
+      ],
+      "C0": 0.20312144566176366,
+      "elapsed_seconds": 1.2812628746032715
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_d5",
+      "delta": 2.0,
+      "r": null,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.07399980675447246,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.09779033625073896,
+          "capture_fixed_4": 0.0911582207095926,
+          "capture_fixed_6": 0.10689982635462139,
+          "bound_projection": 0.07399980822282223,
+          "norm": 1.000000000000816,
+          "edge": 3.930164127847239e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.08392750510996318,
+          "capture_fixed_4": 0.08152352087634573,
+          "capture_fixed_6": 0.08677771835933074,
+          "bound_projection": 0.07399980824831906,
+          "norm": 1.0000000000015554,
+          "edge": 2.360323696236035e-19
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.0803107892973705,
+          "capture_fixed_4": 0.07870983363154886,
+          "capture_fixed_6": 0.08206624347089017,
+          "bound_projection": 0.07399980827199625,
+          "norm": 1.0000000000024019,
+          "edge": 1.7260049588389866e-12
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.0786458690798985,
+          "capture_fixed_4": 0.07741956647475465,
+          "capture_fixed_6": 0.07993291372719465,
+          "bound_projection": 0.07399980827998669,
+          "norm": 1.000000000003311,
+          "edge": 5.597064986341065e-09
+        }
+      ],
+      "C0": 0.07399980675447244,
+      "elapsed_seconds": 1.2755968570709229
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_d6",
+      "delta": 3.0,
+      "r": null,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.007169407912828519,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.009492467820862415,
+          "capture_fixed_4": 0.00884324009442532,
+          "capture_fixed_6": 0.010386685720782255,
+          "bound_projection": 0.007169408165254419,
+          "norm": 1.0000000000007652,
+          "edge": 2.4641780325491992e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.008138468971180474,
+          "capture_fixed_4": 0.007903665620463404,
+          "capture_fixed_6": 0.008417148060361498,
+          "bound_projection": 0.007169408167716679,
+          "norm": 1.0000000000015703,
+          "edge": 1.1916462315677914e-17
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.007785332290396456,
+          "capture_fixed_4": 0.007629074136540036,
+          "capture_fixed_6": 0.007956780132170547,
+          "bound_projection": 0.007169408170027395,
+          "norm": 1.0000000000025007,
+          "edge": 8.980176695766789e-11
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.007622808165116185,
+          "capture_fixed_4": 0.007503141978673992,
+          "capture_fixed_6": 0.007748460292828016,
+          "bound_projection": 0.007169408170809706,
+          "norm": 1.000000000003462,
+          "edge": 2.914036174711374e-07
+        }
+      ],
+      "C0": 0.00716940791282852,
+      "elapsed_seconds": 1.2718839645385742
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_d7",
+      "delta": 1.2185069588220925,
+      "r": null,
+      "window_tau": 640.0,
+      "nt": 8192,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.3330854769638599,
+          "norm": 1.0,
+          "edge": 1.3809592734196812e-250
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.43070003106879223,
+          "capture_fixed_4": 0.404414007233915,
+          "capture_fixed_6": 0.46520254266749816,
+          "bound_projection": 0.3330854795583631,
+          "norm": 1.000000000000921,
+          "edge": 3.549123051273004e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.374178911089823,
+          "capture_fixed_4": 0.3642956202320444,
+          "capture_fixed_6": 0.38575991125066134,
+          "bound_projection": 0.3330854796762907,
+          "norm": 1.0000000000018776,
+          "edge": 8.003100814701795e-21
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.35926587791436715,
+          "capture_fixed_4": 0.3526290577437462,
+          "capture_fixed_6": 0.3664917287713164,
+          "bound_projection": 0.33308547977480213,
+          "norm": 1.0000000000028006,
+          "edge": 5.511594086876517e-14
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.3523773237929733,
+          "capture_fixed_4": 0.3472814213775782,
+          "capture_fixed_6": 0.3576979703082294,
+          "bound_projection": 0.3330854798071791,
+          "norm": 1.0000000000037734,
+          "edge": 1.7846764141854587e-10
+        }
+      ],
+      "C0": 0.33308547696386004,
+      "elapsed_seconds": 1.2951738834381104
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_long_d2",
+      "delta": 0.5,
+      "r": null,
+      "window_tau": 1280.0,
+      "nt": 16384,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.8174649768615575,
+          "norm": 1.0,
+          "edge": 0.0
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.9063513613709966,
+          "capture_fixed_4": 0.8879356753281921,
+          "capture_fixed_6": 0.9252892660553349,
+          "bound_projection": 0.8174649778578973,
+          "norm": 1.0000000000011973,
+          "edge": 3.271552983097474e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.8623008175400546,
+          "capture_fixed_4": 0.8518736574505305,
+          "capture_fixed_6": 0.8734378712687778,
+          "bound_projection": 0.8174649780216929,
+          "norm": 1.0000000000024136,
+          "edge": 7.900976144330952e-27
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.8468893892823637,
+          "capture_fixed_4": 0.8393307236453214,
+          "capture_fixed_6": 0.8546231122690128,
+          "bound_projection": 0.8174649781296495,
+          "norm": 1.0000000000036688,
+          "edge": 1.4155747883107852e-26
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.8393747344354906,
+          "capture_fixed_4": 0.8334216330946759,
+          "capture_fixed_6": 0.8452706741866095,
+          "bound_projection": 0.8174649781604623,
+          "norm": 1.0000000000049494,
+          "edge": 1.7926262815502325e-22
+        },
+        {
+          "zeta": 80.0,
+          "capture_fixed_5": 0.8284506555567059,
+          "capture_fixed_4": 0.8253683364780345,
+          "capture_fixed_6": 0.8313743426017748,
+          "bound_projection": 0.8174649781248357,
+          "norm": 1.0000000000099987,
+          "edge": 3.2829609262423806e-12
+        }
+      ],
+      "C0": 0.8174649768615582,
+      "elapsed_seconds": 5.863734006881714
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_long_d3",
+      "delta": 1.0,
+      "r": null,
+      "window_tau": 1280.0,
+      "nt": 16384,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.465901054524969,
+          "norm": 1.0,
+          "edge": 0.0
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.5875955796689296,
+          "capture_fixed_4": 0.5564352069054574,
+          "capture_fixed_6": 0.6263548201350331,
+          "bound_projection": 0.4659010569565045,
+          "norm": 1.0000000000010663,
+          "edge": 3.902220540795049e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.5183563399124349,
+          "capture_fixed_4": 0.5058282441978527,
+          "capture_fixed_6": 0.5328512380641409,
+          "bound_projection": 0.4659010571212427,
+          "norm": 1.00000000000214,
+          "edge": 1.1002768815896834e-26
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.49942036498917647,
+          "capture_fixed_4": 0.4909263630256336,
+          "capture_fixed_6": 0.508598918422929,
+          "bound_projection": 0.46590105724743686,
+          "norm": 1.0000000000032707,
+          "edge": 2.5527767240978216e-26
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.49062915406188284,
+          "capture_fixed_4": 0.484089204166728,
+          "capture_fixed_6": 0.49741932786848675,
+          "bound_projection": 0.465901057287875,
+          "norm": 1.0000000000044302,
+          "edge": 2.8189428888260317e-21
+        },
+        {
+          "zeta": 80.0,
+          "capture_fixed_5": 0.4782268545717722,
+          "capture_fixed_4": 0.47501802435362905,
+          "capture_fixed_6": 0.4814771106651414,
+          "bound_projection": 0.46590105724541875,
+          "norm": 1.0000000000090505,
+          "edge": 6.064664057592688e-11
+        }
+      ],
+      "C0": 0.4659010545249694,
+      "elapsed_seconds": 5.871614933013916
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_long_d4",
+      "delta": 1.5,
+      "r": null,
+      "window_tau": 1280.0,
+      "nt": 16384,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.20312144566176363,
+          "norm": 1.0,
+          "edge": 0.0
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.26638449045205204,
+          "capture_fixed_4": 0.24893007762247327,
+          "capture_fixed_6": 0.29006806926705186,
+          "bound_projection": 0.2031214480334275,
+          "norm": 1.0000000000009452,
+          "edge": 3.235177422745156e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.22956961715081214,
+          "capture_fixed_4": 0.2231809594484191,
+          "capture_fixed_6": 0.23711250600078143,
+          "bound_projection": 0.20312144810431085,
+          "norm": 1.0000000000019469,
+          "edge": 1.0729809123904736e-26
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.21994643103179184,
+          "capture_fixed_4": 0.2156795029072915,
+          "capture_fixed_6": 0.22461321137312526,
+          "bound_projection": 0.20312144816754413,
+          "norm": 1.0000000000029983,
+          "edge": 3.868680321247326e-26
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.2155117609013562,
+          "capture_fixed_4": 0.21224063265087076,
+          "capture_fixed_6": 0.21893855069643942,
+          "bound_projection": 0.20312144818869385,
+          "norm": 1.0000000000040712,
+          "edge": 2.857968331014065e-20
+        },
+        {
+          "zeta": 80.0,
+          "capture_fixed_5": 0.20929077631679482,
+          "capture_fixed_4": 0.2077008846365361,
+          "capture_fixed_6": 0.21091723514372734,
+          "bound_projection": 0.20312144816727565,
+          "norm": 1.000000000008285,
+          "edge": 6.551569039219583e-10
+        }
+      ],
+      "C0": 0.20312144566176366,
+      "elapsed_seconds": 5.900780916213989
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_long_d6",
+      "delta": 3.0,
+      "r": null,
+      "window_tau": 1280.0,
+      "nt": 16384,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.007169407912828519,
+          "norm": 1.0,
+          "edge": 0.0
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.009492467820864603,
+          "capture_fixed_4": 0.008843240094426798,
+          "capture_fixed_6": 0.01038668572078491,
+          "bound_projection": 0.00716940816525519,
+          "norm": 1.000000000000896,
+          "edge": 1.9509368997836394e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.008138468971182606,
+          "capture_fixed_4": 0.007903665620465287,
+          "capture_fixed_6": 0.008417148060363493,
+          "bound_projection": 0.007169408167717979,
+          "norm": 1.0000000000019047,
+          "edge": 7.014068923343546e-27
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.007785332290399402,
+          "capture_fixed_4": 0.007629074136542994,
+          "capture_fixed_6": 0.007956780132173937,
+          "bound_projection": 0.007169408170029433,
+          "norm": 1.0000000000029143,
+          "edge": 3.395493443002314e-24
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.007622808165171804,
+          "capture_fixed_4": 0.007503141978644084,
+          "capture_fixed_6": 0.007748460292821892,
+          "bound_projection": 0.007169408170812566,
+          "norm": 1.0000000000038627,
+          "edge": 1.1950379753017539e-17
+        },
+        {
+          "zeta": 80.0,
+          "capture_fixed_5": 0.007395111264132845,
+          "capture_fixed_4": 0.007337085286576844,
+          "capture_fixed_6": 0.00745461638744717,
+          "bound_projection": 0.007169408170028364,
+          "norm": 1.0000000000082494,
+          "edge": 2.916656024466751e-07
+        }
+      ],
+      "C0": 0.00716940791282852,
+      "elapsed_seconds": 5.888902902603149
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_long_d7",
+      "delta": 1.2185069588220925,
+      "r": null,
+      "window_tau": 1280.0,
+      "nt": 16384,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.3330854769638599,
+          "norm": 1.0,
+          "edge": 0.0
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.4307000310688083,
+          "capture_fixed_4": 0.404414007233925,
+          "capture_fixed_6": 0.4652025426675215,
+          "bound_projection": 0.3330854795583748,
+          "norm": 1.0000000000009892,
+          "edge": 3.5662779004186015e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.3741789110898774,
+          "capture_fixed_4": 0.364295620232099,
+          "capture_fixed_6": 0.38575991125071674,
+          "bound_projection": 0.33308547967631863,
+          "norm": 1.0000000000020275,
+          "edge": 1.1128857309717113e-26
+        },
+        {
+          "zeta": 30.0,
+          "capture_fixed_5": 0.3592658779144555,
+          "capture_fixed_4": 0.35262905774382913,
+          "capture_fixed_6": 0.36649172877140856,
+          "bound_projection": 0.3330854797748524,
+          "norm": 1.000000000003122,
+          "edge": 3.026916207007483e-26
+        },
+        {
+          "zeta": 40.0,
+          "capture_fixed_5": 0.35237732379307324,
+          "capture_fixed_4": 0.34728142137767903,
+          "capture_fixed_6": 0.35769797030834743,
+          "bound_projection": 0.33308547980725456,
+          "norm": 1.0000000000042515,
+          "edge": 8.026044884560154e-21
+        },
+        {
+          "zeta": 80.0,
+          "capture_fixed_5": 0.3426947460183671,
+          "capture_fixed_4": 0.3402093903747645,
+          "capture_fixed_6": 0.3452281544285415,
+          "bound_projection": 0.33308547977400044,
+          "norm": 1.000000000008682,
+          "edge": 1.7862904856011734e-10
+        }
+      ],
+      "C0": 0.33308547696386004,
+      "elapsed_seconds": 5.866505861282349
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_refined_d1",
+      "delta": 0.0,
+      "r": null,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.9999999999999992,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.9999019265468517,
+          "capture_fixed_4": 0.9993606534673392,
+          "capture_fixed_6": 0.9999871350185303,
+          "bound_projection": 1.0000000000034697,
+          "norm": 1.0000000000034701,
+          "edge": 9.137977025840101e-27
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.999901926550396,
+          "capture_fixed_4": 0.9993606534709867,
+          "capture_fixed_6": 0.9999871350220193,
+          "bound_projection": 1.0000000000069387,
+          "norm": 1.0000000000069393,
+          "edge": 4.464620377132994e-24
+        }
+      ],
+      "C0": 1.0,
+      "elapsed_seconds": 1.1340408325195312
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_refined_d2",
+      "delta": 0.5,
+      "r": null,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.8174649768615575,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.9063513592212662,
+          "capture_fixed_4": 0.8879356731953282,
+          "capture_fixed_6": 0.9252892640135411,
+          "bound_projection": 0.8174649768688023,
+          "norm": 1.0000000000037552,
+          "edge": 1.295235779011298e-22
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.862300815266992,
+          "capture_fixed_4": 0.8518736552397321,
+          "capture_fixed_6": 0.8734378689547645,
+          "bound_projection": 0.8174649768727981,
+          "norm": 1.000000000007588,
+          "edge": 3.2702280006361e-12
+        }
+      ],
+      "C0": 0.8174649768615582,
+      "elapsed_seconds": 1.1323966979980469
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_refined_d3",
+      "delta": 1.0,
+      "r": null,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.465901054524969,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.5875955749489058,
+          "capture_fixed_4": 0.5564352025054413,
+          "capture_fixed_6": 0.6263548152183234,
+          "bound_projection": 0.4659010545363333,
+          "norm": 1.0000000000033347,
+          "edge": 2.390884637935098e-21
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.5183563356356952,
+          "capture_fixed_4": 0.5058282401146639,
+          "capture_fixed_6": 0.5328512336070902,
+          "bound_projection": 0.46590105453885594,
+          "norm": 1.0000000000067195,
+          "edge": 6.047032866402204e-11
+        }
+      ],
+      "C0": 0.4659010545249694,
+      "elapsed_seconds": 1.1315131187438965
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_refined_d4",
+      "delta": 1.5,
+      "r": null,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.20312144566176363,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.26638448636337936,
+          "capture_fixed_4": 0.248930073883818,
+          "capture_fixed_6": 0.29006806481283737,
+          "bound_projection": 0.2031214456716807,
+          "norm": 1.00000000000285,
+          "edge": 2.582447798717652e-20
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.2295696136350021,
+          "capture_fixed_4": 0.2231809560909196,
+          "capture_fixed_6": 0.23711250232182685,
+          "bound_projection": 0.20312144567263146,
+          "norm": 1.000000000005726,
+          "edge": 6.53254449563328e-10
+        }
+      ],
+      "C0": 0.20312144566176366,
+      "elapsed_seconds": 1.131242036819458
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_refined_d5",
+      "delta": 2.0,
+      "r": null,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.07399980675447246,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.09779033391316236,
+          "capture_fixed_4": 0.09115821857012373,
+          "capture_fixed_6": 0.10689982378534263,
+          "bound_projection": 0.07399980676044317,
+          "norm": 1.0000000000027192,
+          "edge": 2.2080600240646966e-19
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.08392750312084822,
+          "capture_fixed_4": 0.08152351897023748,
+          "capture_fixed_6": 0.08677771628115429,
+          "bound_projection": 0.07399980676077603,
+          "norm": 1.0000000000055405,
+          "edge": 5.586300172309769e-09
+        }
+      ],
+      "C0": 0.07399980675447244,
+      "elapsed_seconds": 1.137542963027954
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_refined_d6",
+      "delta": 3.0,
+      "r": null,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.007169407912828519,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.009492467437805553,
+          "capture_fixed_4": 0.008843239743810438,
+          "capture_fixed_6": 0.010386685297050884,
+          "bound_projection": 0.007169407913844478,
+          "norm": 1.0000000000025353,
+          "edge": 1.149525296020107e-17
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.008138468648897664,
+          "capture_fixed_4": 0.007903665311187014,
+          "capture_fixed_6": 0.008417147723913216,
+          "bound_projection": 0.007169407913885191,
+          "norm": 1.0000000000059788,
+          "edge": 2.908569511247173e-07
+        }
+      ],
+      "C0": 0.00716940791282852,
+      "elapsed_seconds": 1.1357131004333496
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "passive_refined_d7",
+      "delta": 1.2185069588220925,
+      "r": null,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.005,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.3330854769638599,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.4307000263011351,
+          "capture_fixed_4": 0.4044140028498819,
+          "capture_fixed_6": 0.46520253756523766,
+          "bound_projection": 0.3330854769751574,
+          "norm": 1.0000000000029388,
+          "edge": 7.041684876076291e-21
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.3741789069106633,
+          "capture_fixed_4": 0.3642956162461014,
+          "capture_fixed_6": 0.38575990688114487,
+          "bound_projection": 0.3330854769768178,
+          "norm": 1.0000000000059477,
+          "edge": 1.7811346811391185e-10
+        }
+      ],
+      "C0": 0.33308547696386004,
+      "elapsed_seconds": 1.137153148651123
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "vector1",
+      "delta": 1.0,
+      "r": 0.01,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434633,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.465901054524969,
+          "norm": 1.0000000000000004,
+          "edge": 1.5974230851378412e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.5906772379242267,
+          "capture_fixed_4": 0.5598935605615807,
+          "capture_fixed_6": 0.6290995951024161,
+          "bound_projection": 0.47220579363115833,
+          "norm": 1.0000000000008078,
+          "edge": 4.170140767706689e-23
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.521679749992885,
+          "capture_fixed_4": 0.5096737555639901,
+          "capture_fixed_6": 0.5358945037165924,
+          "bound_projection": 0.4814757291319572,
+          "norm": 1.0000000000016174,
+          "edge": 5.809834590389965e-13
+        }
+      ],
+      "C0": 0.4659010545249694,
+      "elapsed_seconds": 0.6635560989379883
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "vector2",
+      "delta": 3.0,
+      "r": 0.1,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434632,
+          "capture_fixed_4": 0.9993606534640121,
+          "capture_fixed_6": 0.9999871350150829,
+          "bound_projection": 0.007169407912828518,
+          "norm": 1.0,
+          "edge": 1.5974230851378415e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.009413038889812684,
+          "capture_fixed_4": 0.008822198505564267,
+          "capture_fixed_6": 0.010234525825736989,
+          "bound_projection": 0.007282589469863171,
+          "norm": 1.000000000000658,
+          "edge": 6.654856323630611e-19
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.008144301682871027,
+          "capture_fixed_4": 0.007951010222227333,
+          "capture_fixed_6": 0.00839394037649805,
+          "bound_projection": 0.007612486994796795,
+          "norm": 1.0000000000015474,
+          "edge": 2.0429772800028024e-08
+        }
+      ],
+      "C0": 0.00716940791282852,
+      "elapsed_seconds": 0.6661341190338135
+    },
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "label": "vector3",
+      "delta": 1.2185069588220925,
+      "r": 0.01,
+      "window_tau": 320.0,
+      "nt": 4096,
+      "dzeta": 0.02,
+      "rows": [
+        {
+          "zeta": 0.0,
+          "capture_fixed_5": 0.9999019265434633,
+          "capture_fixed_4": 0.9993606534640125,
+          "capture_fixed_6": 0.999987135015083,
+          "bound_projection": 0.3330854769638599,
+          "norm": 1.0000000000000004,
+          "edge": 1.5974230851378412e-125
+        },
+        {
+          "zeta": 10.0,
+          "capture_fixed_5": 0.4331248915450633,
+          "capture_fixed_4": 0.40709397102862416,
+          "capture_fixed_6": 0.46741089230243926,
+          "bound_projection": 0.3376651382441382,
+          "norm": 1.0000000000007725,
+          "edge": 7.642349118145628e-23
+        },
+        {
+          "zeta": 20.0,
+          "capture_fixed_5": 0.3767292968734145,
+          "capture_fixed_4": 0.36720878060858564,
+          "capture_fixed_6": 0.38812008744230214,
+          "bound_projection": 0.3446064183039708,
+          "norm": 1.000000000001548,
+          "edge": 1.7027737683727099e-12
+        }
+      ],
+      "C0": 0.33308547696386004,
+      "elapsed_seconds": 0.6627216339111328
+    }
+  ]
+}

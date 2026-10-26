@@ -1,0 +1,122 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-highprecision
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-highprecision
+purpose: Direct full-TOD attack below the double-precision field-noise floor
+model_equation: M0, sech N=2, xi=3*pi/4, no Raman or shock, no damping
+arithmetic: DoubleFloats.Double64 with GenericFFT
+primary:
+  delta3: 0.003
+  n: 16384
+  window: 256
+  center: 64
+  steps: 8192
+conditional_cases:
+- name: propagated_null
+  delta3: 0
+  measurement_delta3: 0.003
+  n: 16384
+  window: 256
+  steps: 8192
+- name: halfstep
+  delta3: 0.003
+  n: 16384
+  window: 256
+  steps: 16384
+- name: window
+  delta3: 0.003
+  n: 32768
+  window: 512
+  steps: 8192
+- name: lower
+  delta3: 0.0028
+  n: 16384
+  window: 256
+  steps: 8192
+- name: upper
+  delta3: 0.0032
+  n: 16384
+  window: 256
+  steps: 8192
+- name: lower_halfstep
+  delta3: 0.0028
+  n: 16384
+  window: 256
+  steps: 16384
+  purpose: Check discretization and accumulation at the faintest separated radiation
+    point
+  status: deferred within this session; time assigned to a unique-minimum endpoint
+    and its controls
+- name: quarterstep
+  delta3: 0.003
+  n: 16384
+  window: 256
+  steps: 32768
+  purpose: The first step halving changed separated radiation by 1.26 percent, just
+    above the frozen 1 percent target; check the next refinement
+  status: deferred within this session; time assigned to a unique-minimum endpoint
+    and its controls
+grid_exception_reason: Doubled-window convergence at fixed spacing for radiation below
+  the Float64 floor
+frozen_attack: Compare the gate-15 broad band with gate-20 and the resonant band;
+  a converged core-tail excess invalidates the fixed-gate isolation claim at this
+  smaller TOD
+frozen_tolerances:
+  relative_step_and_window: 0.01
+  significant_gate_change: 0.1
+pilot_condition: First time twenty steps and check FFT round trip plus the exact TOD-free
+  null; proceed only within remaining wall time
+adaptive_frozen_case:
+  name: middle
+  delta3: 0.0029
+  n: 16384
+  window: 256
+  steps: 8192
+  status: frozen after primary result, but deferred in this session to prioritize
+    the finer-time-grid control; not scored
+  predicted_gate15: 1.6263763819780116e-44
+  log_error_tolerance: 0.1
+  basis: exact null rate d*/3 anchored to the primary full-TOD yield
+unique_minimum_attack:
+  status: frozen before propagation
+  xi: 2.25
+  delta3: 0.003
+  N: 2
+  n: 16384
+  window: 256
+  steps: 9216
+  minimum_at: pi/4; the second compression at 3*pi/4 is outside the fibre
+  prediction: gate15 broad-band yield / gate20 resonant-band yield > 10
+  basis: The exact TOD-free endpoint has d_end=0.4024857144 and a nearest-pole null
+    estimate 6.2145e-46; this calculation selects the test without a full-TOD result.
+  controls:
+  - name: precompression_halfstep
+    n: 16384
+    window: 256
+    steps: 18432
+  - name: precompression_window
+    n: 32768
+    window: 512
+    steps: 9216
+    grid_exception_reason: Double the temporal window at fixed spacing to check boundary
+      contamination.
+  - name: precompression_grid
+    n: 32768
+    window: 256
+    steps: 4096
+    reference: precompression_grid_reference
+    reference_n: 16384
+    reference_steps: 4096
+    grid_exception_reason: Halve the time spacing at fixed window to check the far-blue
+      wave and nonlinear aliasing.
+    design_revision_before_either_grid_pair_run: The full-step finer-grid run
+      cannot fit before the numerical cutoff at the measured runtime. Instead
+      compare both spatial resolutions at matched h=2.25/4096. This isolates
+      the grid effect; time accuracy is assessed separately by the completed
+      baseline and half-step runs. Neither paired outcome has been obtained.
+  relative_convergence_tolerance: 0.01
+  design_revision_before_propagation: Use exact dyadic h=1/4096 and h/2, and add a
+    separate finer-time-grid check; preserve final closeout time. No full-TOD result
+    for this endpoint has been obtained.
+numerical_stop_UTC: '2026-10-16T22:46:00'

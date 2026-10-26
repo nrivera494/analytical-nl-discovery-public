@@ -1,0 +1,17 @@
+run_id: 2026-10-16-gpt-b-sclit-premises
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261016-claude-interactive-05
+problem: P-20261016-claude-interactive-01
+related_problems: [P-20261016-claude-interactive-02, P-20261016-claude-interactive-03]
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: false
+computation: numpy Fourier identities and finite atomic moment examples; no propagation
+hardware: macOS-27.0.1-arm64-arm-64bit
+python: 3.9.6
+numpy: 2.0.2
+wall_time_seconds: 0.043234
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-b-sclit-premises
+memory_policy: small check completed in less than a second; no Julia; no computation over a minute

@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-10-16-gpt-d-s28-path120",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "launch_um": 2.0,
+    "edge_B": 92.0,
+    "edge_ref_um": 2.0,
+    "edge_db": 0.004342944819
+  },
+  "grid": {
+    "n": 8192,
+    "dt": 0.003
+  },
+  "propagation": {
+    "T": 0.12,
+    "L": 350,
+    "h": 0.02,
+    "cutoffs": [
+      2.02,
+      2.05
+    ],
+    "save_every": 1.75
+  }
+}

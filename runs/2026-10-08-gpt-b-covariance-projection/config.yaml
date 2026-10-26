@@ -1,0 +1,11 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance.py
+command: python evaluator/mm_soliton_covariance.py <raw_location> --material <material_run>
+  --quick
+inputs: 2026-10-08-gpt-b-covariance-material
+nt: 512
+window: 48.0
+scope: Retained initial four-case smoke calculation; superseded for claim coefficients
+  by covariance-sweep

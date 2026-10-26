@@ -1,0 +1,11 @@
+run_id: 2026-10-16-claude-interactive-zs-bound-check
+agent: claude-interactive
+model: claude-opus-5-5
+family: claude
+solver_commit: none (numpy only)
+solver_dirty: false
+hardware: MacBook (Apple silicon)
+wall_time_s: 60
+raw_location: none (all outputs in summary.json)
+command: ~/agent-work/venv/bin/python zs_check.py
+serves: P-20261016-claude-interactive-03 (sketches 1 and 2), P-20261016-claude-interactive-01 (sketch 2)

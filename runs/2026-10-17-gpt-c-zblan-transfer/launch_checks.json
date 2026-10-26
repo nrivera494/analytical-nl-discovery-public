@@ -1,0 +1,17 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "checks": [
+    {
+      "launch": "solver_crosscheck.jl",
+      "free_percentage": 59,
+      "source": "memory_pressure output immediately before the Julia launch, recorded in the session tool trace"
+    },
+    {
+      "launch": "numerical_checks.py",
+      "free_percentage": 57,
+      "source": "memory_pressure output before launch; repeated in numerical_checks.log"
+    }
+  ]
+}

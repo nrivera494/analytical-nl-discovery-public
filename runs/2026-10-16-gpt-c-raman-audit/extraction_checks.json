@@ -1,0 +1,3031 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": [
+    {
+      "case": "bw_N3_T25",
+      "zN": 4,
+      "leading": {
+        "index": 8412,
+        "t_peak": 2.1484375,
+        "peak_power_normalized": 23.97058086349173,
+        "red_w": 3.0471333398827523,
+        "red_shift_THz": 19.398653332098256,
+        "lambda_nm": 1722.7883703444163,
+        "width_fs": 6.094004131052272,
+        "bounds": [
+          1.30859375,
+          4.58984375
+        ],
+        "boundary_intensity_ratio": 0.0014524090968473051,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.03309171039506662,
+          "eta": 2.80412239590983,
+          "residual": 1.1006697189224789e-13,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6231383102021844,
+        "f_window": 0.640950499760535,
+        "zs_window_ratio": 0.9722097267027556,
+        "f_photon_window": 0.7186294445201876,
+        "rms_bandwidth_normalized": 2.5846129977140113,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9926335097560931,
+        "spectral_fraction_1300_2000nm": 0.9355900896055986,
+        "spectral_fraction_1285_1625nm": 0.2584462672442158,
+        "energy_zs_nJ": 7.489163814306869
+      },
+      "core_weighted_red_w": 3.190444101722088,
+      "fractional_centroid_difference": 0.04703133924715286,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.8203125,
+          "points": 1024,
+          "zs": {
+            "real": -0.03507925431730031,
+            "eta": 2.803491694698681,
+            "residual": 1.6846378320614943e-14,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6229981543774846,
+          "f_temporal_gate": 0.6380740200908984
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.8203125,
+          "points": 2048,
+          "zs": {
+            "real": -0.03507960544619645,
+            "eta": 2.8034943829165795,
+            "residual": 1.8994392861868172e-14,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6229987517592399,
+          "f_temporal_gate": 0.6380740200908984
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.8203125,
+          "points": 4096,
+          "zs": {
+            "real": -0.035079693228317554,
+            "eta": 2.8034950549727546,
+            "residual": 9.25077138129045e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6229989011050566,
+          "f_temporal_gate": 0.6380740200908984
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.23046875,
+          "points": 1024,
+          "zs": {
+            "real": -0.033210215546404985,
+            "eta": 2.8022130524533,
+            "residual": 2.1639116141350797e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6227140116562889,
+          "f_temporal_gate": 0.6425049819322436
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.23046875,
+          "points": 2048,
+          "zs": {
+            "real": -0.033211008207249024,
+            "eta": 2.8022192375273,
+            "residual": 1.898773513585258e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6227153861171778,
+          "f_temporal_gate": 0.6425049819322436
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.23046875,
+          "points": 4096,
+          "zs": {
+            "real": -0.03321120637198542,
+            "eta": 2.8022207838045046,
+            "residual": 1.6103616581741547e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6227157297343343,
+          "f_temporal_gate": 0.6425049819322436
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.640625,
+          "points": 1024,
+          "zs": {
+            "real": -0.03395166997610774,
+            "eta": 2.8018510268348904,
+            "residual": 8.993877252678161e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6226335615188645,
+          "f_temporal_gate": 0.6596126908465187
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.640625,
+          "points": 2048,
+          "zs": {
+            "real": -0.033953058103406535,
+            "eta": 2.801862076076472,
+            "residual": 9.277931700727853e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6226360169058827,
+          "f_temporal_gate": 0.6596126908465187
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.640625,
+          "points": 4096,
+          "zs": {
+            "real": -0.03395340513385035,
+            "eta": 2.801864838413817,
+            "residual": 8.003622348304233e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6226366307586261,
+          "f_temporal_gate": 0.6596126908465187
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.4609375,
+          "points": 1024,
+          "zs": {
+            "real": -0.03407916365994845,
+            "eta": 2.8019348130506736,
+            "residual": 3.554447978966673e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6226521806779275,
+          "f_temporal_gate": 0.7961689957695978
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.4609375,
+          "points": 2048,
+          "zs": {
+            "real": -0.03408228766993805,
+            "eta": 2.801959763466289,
+            "residual": 1.2202987474385978e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6226577252147308,
+          "f_temporal_gate": 0.7961689957695978
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.4609375,
+          "points": 4096,
+          "zs": {
+            "real": -0.034083068670534435,
+            "eta": 2.8019660010748777,
+            "residual": 1.0824674490095276e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6226591113499729,
+          "f_temporal_gate": 0.7961689957695978
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.28125,
+          "points": 1024,
+          "zs": {
+            "real": -0.03407047570002055,
+            "eta": 2.8019123619275765,
+            "residual": 4.47545209131181e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6226471915394615,
+          "f_temporal_gate": 0.9663835040323797
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.28125,
+          "points": 2048,
+          "zs": {
+            "real": -0.034076041882654076,
+            "eta": 2.801956803766378,
+            "residual": 6.106226635438361e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6226570675036396,
+          "f_temporal_gate": 0.9663835040323797
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.28125,
+          "points": 4096,
+          "zs": {
+            "real": -0.03407743340458291,
+            "eta": 2.801967914693428,
+            "residual": 4.440892098500626e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6226595365985396,
+          "f_temporal_gate": 0.9663835040323797
+        }
+      ]
+    },
+    {
+      "case": "bw_N3_T50",
+      "zN": 4,
+      "leading": {
+        "index": 8717,
+        "t_peak": 5.126953125,
+        "peak_power_normalized": 30.75072523889079,
+        "red_w": 8.781443699583422,
+        "red_shift_THz": 27.952203445437647,
+        "lambda_nm": 1811.8476783804285,
+        "width_fs": 10.24900694767882,
+        "bounds": [
+          3.583984375,
+          7.177734375
+        ],
+        "boundary_intensity_ratio": 0.00023327431295514997,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": 0.00196701399049753,
+          "eta": 3.023278476088141,
+          "residual": 3.3034983689927844e-16,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6718396613529202,
+        "f_window": 0.6796704916169962,
+        "zs_window_ratio": 0.9884784901497697,
+        "f_photon_window": 0.7969967665683665,
+        "rms_bandwidth_normalized": 2.915540813445682,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9990649800139696,
+        "spectral_fraction_1300_2000nm": 0.9573093843306837,
+        "spectral_fraction_1285_1625nm": 0.026578372345859275,
+        "energy_zs_nJ": 4.037239564991547
+      },
+      "core_weighted_red_w": 8.730988954626055,
+      "fractional_centroid_difference": -0.005745609342090341,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.8984375,
+          "points": 1024,
+          "zs": {
+            "real": 0.001740383367310262,
+            "eta": 3.0221474497665297,
+            "residual": 1.3530843112619095e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6715883221703399,
+          "f_temporal_gate": 0.6786990375801132
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.8984375,
+          "points": 2048,
+          "zs": {
+            "real": 0.0017406272114405246,
+            "eta": 3.02215236720325,
+            "residual": 8.517916221499362e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6715894149340556,
+          "f_temporal_gate": 0.6786990375801132
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.8984375,
+          "points": 4096,
+          "zs": {
+            "real": 0.0017406881724852709,
+            "eta": 3.022153596567873,
+            "residual": 2.5823128856601336e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.671589688126194,
+          "f_temporal_gate": 0.6786990375801132
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.34765625,
+          "points": 1024,
+          "zs": {
+            "real": 0.0019264185132456778,
+            "eta": 3.02325815984251,
+            "residual": 1.3978900778759034e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6718351466316689,
+          "f_temporal_gate": 0.6794023834015975
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.34765625,
+          "points": 2048,
+          "zs": {
+            "real": 0.001926965211569149,
+            "eta": 3.023269299230775,
+            "residual": 7.311092881409116e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6718376220512833,
+          "f_temporal_gate": 0.6794023834015975
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.34765625,
+          "points": 4096,
+          "zs": {
+            "real": 0.0019271018862239506,
+            "eta": 3.023272084105276,
+            "residual": 6.334662903227235e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6718382409122836,
+          "f_temporal_gate": 0.6794023834015975
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.796875,
+          "points": 1024,
+          "zs": {
+            "real": 0.0019641751727381643,
+            "eta": 3.023253376882366,
+            "residual": 8.91021593784666e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6718340837516369,
+          "f_temporal_gate": 0.6798258657223291
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.796875,
+          "points": 2048,
+          "zs": {
+            "real": 0.0019651482758587095,
+            "eta": 3.023273253217325,
+            "residual": 8.6352471619732235e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6718385007149611,
+          "f_temporal_gate": 0.6798258657223291
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.796875,
+          "points": 4096,
+          "zs": {
+            "real": 0.001965391551819029,
+            "eta": 3.0232782223898806,
+            "residual": 2.7993621394488026e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6718396049755291,
+          "f_temporal_gate": 0.6798258657223291
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.6953125,
+          "points": 1024,
+          "zs": {
+            "real": 0.0019619383026436557,
+            "eta": 3.023221909119618,
+            "residual": 9.497987276329306e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6718270909154707,
+          "f_temporal_gate": 0.6835438942573691
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.6953125,
+          "points": 2048,
+          "zs": {
+            "real": 0.0019641358266046403,
+            "eta": 3.0232667920718583,
+            "residual": 1.6034185249498535e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6718370649048574,
+          "f_temporal_gate": 0.6835438942573691
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.6953125,
+          "points": 4096,
+          "zs": {
+            "real": 0.0019646852086254683,
+            "eta": 3.0232780132632455,
+            "residual": 1.808817554934489e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6718395585029434,
+          "f_temporal_gate": 0.6835438942573691
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.59375,
+          "points": 1024,
+          "zs": {
+            "real": 0.0019596594836946294,
+            "eta": 3.0231751861691825,
+            "residual": 5.091413401991929e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6718167080375961,
+          "f_temporal_gate": 0.6916453228251174
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.59375,
+          "points": 2048,
+          "zs": {
+            "real": 0.0019635732840449557,
+            "eta": 3.0232551198837885,
+            "residual": 3.9277219582215297e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6718344710852864,
+          "f_temporal_gate": 0.6916453228251174
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.59375,
+          "points": 4096,
+          "zs": {
+            "real": 0.001964551737355455,
+            "eta": 3.023275104744149,
+            "residual": 1.0625181290357943e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6718389121653664,
+          "f_temporal_gate": 0.6916453228251174
+        }
+      ]
+    },
+    {
+      "case": "bw_N4_T200",
+      "zN": 4,
+      "leading": {
+        "index": 9867,
+        "t_peak": 16.357421875,
+        "peak_power_normalized": 96.70578128503193,
+        "red_w": 40.46467609675019,
+        "red_shift_THz": 32.20076610705127,
+        "lambda_nm": 1859.596395147361,
+        "width_fs": 22.16001502200826,
+        "bounds": [
+          15.25390625,
+          17.470703125
+        ],
+        "boundary_intensity_ratio": 2.7625818063220488e-05,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": 0.00038869343598047943,
+          "eta": 5.153237924388998,
+          "residual": 7.605946180802636e-15,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6441547405486248,
+        "f_window": 0.6467127213158482,
+        "zs_window_ratio": 0.9960446413331427,
+        "f_photon_window": 0.7764517798115067,
+        "rms_bandwidth_normalized": 5.450598751077651,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9999976731352422,
+        "spectral_fraction_1300_2000nm": 0.9914687475880535,
+        "spectral_fraction_1285_1625nm": 4.6210645362884186e-05,
+        "energy_zs_nJ": 1.7203886609114039
+      },
+      "core_weighted_red_w": 40.45362145414478,
+      "fractional_centroid_difference": -0.000273192415502721,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.55419921875,
+          "points": 1024,
+          "zs": {
+            "real": 0.0003344213988326645,
+            "eta": 5.152541079485622,
+            "residual": 2.7825013222054613e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6440676349357027,
+          "f_temporal_gate": 0.6464849755738413
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.55419921875,
+          "points": 2048,
+          "zs": {
+            "real": 0.0003344855840342907,
+            "eta": 5.152552105208256,
+            "residual": 1.7678057890078851e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.644069013151032,
+          "f_temporal_gate": 0.6464849755738413
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.55419921875,
+          "points": 4096,
+          "zs": {
+            "real": 0.00033450163035502584,
+            "eta": 5.152554861653758,
+            "residual": 6.662436729481065e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6440693577067198,
+          "f_temporal_gate": 0.6464849755738413
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.831298828125,
+          "points": 1024,
+          "zs": {
+            "real": 0.0003844337068994491,
+            "eta": 5.153207711234168,
+            "residual": 7.815153376655254e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.644150963904271,
+          "f_temporal_gate": 0.6466729674540439
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.831298828125,
+          "points": 2048,
+          "zs": {
+            "real": 0.0003845801610240477,
+            "eta": 5.153233107034527,
+            "residual": 9.450295226087936e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6441541383793159,
+          "f_temporal_gate": 0.6466729674540439
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.831298828125,
+          "points": 4096,
+          "zs": {
+            "real": 0.0003846167734892049,
+            "eta": 5.153239455927748,
+            "residual": 2.4558838721996058e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6441549319909685,
+          "f_temporal_gate": 0.6466729674540439
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.1083984375,
+          "points": 1024,
+          "zs": {
+            "real": 0.000388441265810286,
+            "eta": 5.153193188389247,
+            "residual": 4.504190798515242e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6441491485486559,
+          "f_temporal_gate": 0.6467126767143999
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.1083984375,
+          "points": 2048,
+          "zs": {
+            "real": 0.00038869967185941034,
+            "eta": 5.153238068219231,
+            "residual": 2.268493220090105e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6441547585274039,
+          "f_temporal_gate": 0.6467126767143999
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.1083984375,
+          "points": 4096,
+          "zs": {
+            "real": 0.0003887642730270244,
+            "eta": 5.153249288649482,
+            "residual": 2.948622099771027e-14,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6441561610811852,
+          "f_temporal_gate": 0.6467126767143999
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.66259765625,
+          "points": 1024,
+          "zs": {
+            "real": 0.0003884267126624813,
+            "eta": 5.153117539817059,
+            "residual": 6.219971008409094e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6441396924771323,
+          "f_temporal_gate": 0.6467361740201214
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.66259765625,
+          "points": 2048,
+          "zs": {
+            "real": 0.00038901154254083667,
+            "eta": 5.15321911988172,
+            "residual": 7.206875028713956e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.644152389985215,
+          "f_temporal_gate": 0.6467361740201214
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.66259765625,
+          "points": 4096,
+          "zs": {
+            "real": 0.0003891577364128692,
+            "eta": 5.153244515274024,
+            "residual": 3.680270032053728e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.644155564409253,
+          "f_temporal_gate": 0.6467361740201214
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 2.216796875,
+          "points": 1024,
+          "zs": {
+            "real": 0.00038782726529226313,
+            "eta": 5.153013635687213,
+            "residual": 3.9705490848858916e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6441267044609016,
+          "f_temporal_gate": 0.6467710345264891
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 2.216796875,
+          "points": 2048,
+          "zs": {
+            "real": 0.0003888607250870814,
+            "eta": 5.153193140235982,
+            "residual": 5.381182754576937e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6441491425294977,
+          "f_temporal_gate": 0.6467710345264891
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 2.216796875,
+          "points": 4096,
+          "zs": {
+            "real": 0.0003891190913422797,
+            "eta": 5.153238020079574,
+            "residual": 1.6575098991162592e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6441547525099468,
+          "f_temporal_gate": 0.6467710345264891
+        }
+      ]
+    },
+    {
+      "case": "bw_N6_T400",
+      "zN": 4,
+      "leading": {
+        "index": 12695,
+        "t_peak": 43.974609375,
+        "peak_power_normalized": 332.7770700894592,
+        "red_w": 165.02460414604644,
+        "red_shift_THz": 65.66120370406645,
+        "lambda_nm": 2346.651651500379,
+        "width_fs": 24.37601652420909,
+        "bounds": [
+          43.369140625,
+          44.58984375
+        ],
+        "boundary_intensity_ratio": 1.4765048385121796e-05,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.00014910823079373895,
+          "eta": 9.506856769587126,
+          "residual": 1.1848528427284691e-15,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.528158709421507,
+        "f_window": 0.5299018433813442,
+        "zs_window_ratio": 0.9967104587734322,
+        "f_photon_window": 0.8030628533983301,
+        "rms_bandwidth_normalized": 10.16695551714108,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.23703472208722315,
+        "spectral_fraction_1300_2000nm": 3.636101432044495e-05,
+        "spectral_fraction_1285_1625nm": 9.450679844360203e-08,
+        "energy_zs_nJ": 1.586913783846466
+      },
+      "core_weighted_red_w": 165.0250790296619,
+      "fractional_centroid_difference": 2.8776534135577236e-06,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.30517578125,
+          "points": 1024,
+          "zs": {
+            "real": -0.0001758244721688468,
+            "eta": 9.505755031929212,
+            "residual": 1.6104236093237263e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.5280975017738451,
+          "f_temporal_gate": 0.5297541198520226
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.30517578125,
+          "points": 2048,
+          "zs": {
+            "real": -0.0001758262241724065,
+            "eta": 9.505776689932192,
+            "residual": 4.00538343954278e-14,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.5280987049962329,
+          "f_temporal_gate": 0.5297541198520226
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.30517578125,
+          "points": 4096,
+          "zs": {
+            "real": -0.00017582666229305977,
+            "eta": 9.505782104488903,
+            "residual": 2.9698101812198835e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.5280990058049391,
+          "f_temporal_gate": 0.5297541198520226
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.457763671875,
+          "points": 1024,
+          "zs": {
+            "real": -0.000154815283083036,
+            "eta": 9.506801786934572,
+            "residual": 2.8077038294164536e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.5281556548296984,
+          "f_temporal_gate": 0.5298833010888202
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.457763671875,
+          "points": 2048,
+          "zs": {
+            "real": -0.00015481994143764786,
+            "eta": 9.506849461431695,
+            "residual": 3.9216541305112634e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.528158303412872,
+          "f_temporal_gate": 0.5298833010888202
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.457763671875,
+          "points": 4096,
+          "zs": {
+            "real": -0.00015482110605150574,
+            "eta": 9.506861379931326,
+            "residual": 4.253648878588837e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.5281589655517404,
+          "f_temporal_gate": 0.5298833010888202
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.6103515625,
+          "points": 1024,
+          "zs": {
+            "real": -0.00014909928015486513,
+            "eta": 9.506770634346683,
+            "residual": 7.862374088556282e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.5281539241303713,
+          "f_temporal_gate": 0.5299018433809898
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.6103515625,
+          "points": 2048,
+          "zs": {
+            "real": -0.00014910826239352757,
+            "eta": 9.506857237023468,
+            "residual": 6.235496294893588e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.5281587353901926,
+          "f_temporal_gate": 0.5299018433809898
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.6103515625,
+          "points": 4096,
+          "zs": {
+            "real": -0.00014911050742003705,
+            "eta": 9.506878888142255,
+            "residual": 1.624243228463501e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.5281599382301253,
+          "f_temporal_gate": 0.5299018433809898
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.91552734375,
+          "points": 1024,
+          "zs": {
+            "real": -0.00014846214165057102,
+            "eta": 9.506626510236416,
+            "residual": 1.6659204968291725e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.5281459172353564,
+          "f_temporal_gate": 0.5299154936886512
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.91552734375,
+          "points": 2048,
+          "zs": {
+            "real": -0.00014848249857400624,
+            "eta": 9.506821356918786,
+            "residual": 2.748956403895679e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.5281567420510437,
+          "f_temporal_gate": 0.5299154936886512
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.91552734375,
+          "points": 4096,
+          "zs": {
+            "real": -0.00014848758774152224,
+            "eta": 9.506870072218554,
+            "residual": 2.942101661083102e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.5281594484565864,
+          "f_temporal_gate": 0.5299154936886512
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 1.220703125,
+          "points": 1024,
+          "zs": {
+            "real": -0.00014844227228373594,
+            "eta": 9.506424400701862,
+            "residual": 3.4094378058898015e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.5281346889278812,
+          "f_temporal_gate": 0.5299239539304352
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 1.220703125,
+          "points": 2048,
+          "zs": {
+            "real": -0.00014847846093939216,
+            "eta": 9.5067708401767,
+            "residual": 9.535883978467709e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.5281539355653722,
+          "f_temporal_gate": 0.5299239539304352
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 1.220703125,
+          "points": 4096,
+          "zs": {
+            "real": -0.0001484875100416516,
+            "eta": 9.506857442843513,
+            "residual": 5.623495514538946e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.5281587468246396,
+          "f_temporal_gate": 0.5299239539304352
+        }
+      ]
+    },
+    {
+      "case": "bw_N4.5_T240",
+      "zN": 4,
+      "leading": {
+        "index": 10443,
+        "t_peak": 21.982421875,
+        "peak_power_normalized": 138.46673032529156,
+        "red_w": 61.49861225536307,
+        "red_shift_THz": 40.78253389055353,
+        "lambda_nm": 1964.1526423590044,
+        "width_fs": 22.603215322448428,
+        "bounds": [
+          21.044921875,
+          22.9296875
+        ],
+        "boundary_intensity_ratio": 1.9506544777544882e-05,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.0002635929985110108,
+          "eta": 6.169603234349927,
+          "residual": 4.996008206258938e-16,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6093435293185113,
+        "f_window": 0.6118083692110382,
+        "zs_window_ratio": 0.9959712223359981,
+        "f_photon_window": 0.7759050821008553,
+        "rms_bandwidth_normalized": 6.512255078288306,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.999933515401136,
+        "spectral_fraction_1300_2000nm": 0.7608487561821048,
+        "spectral_fraction_1285_1625nm": 1.3242293146008638e-06,
+        "energy_zs_nJ": 1.716415258787095
+      },
+      "core_weighted_red_w": 61.497258042964035,
+      "fractional_centroid_difference": -2.202021069053206e-05,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.47119140625,
+          "points": 1024,
+          "zs": {
+            "real": -0.00028357066445922475,
+            "eta": 6.168887634830496,
+            "residual": 2.351878635237949e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6092728528227651,
+          "f_temporal_gate": 0.6116086774901783
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.47119140625,
+          "points": 2048,
+          "zs": {
+            "real": -0.0002835608138967584,
+            "eta": 6.168901487802407,
+            "residual": 1.2228975720792483e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6092742210175217,
+          "f_temporal_gate": 0.6116086774901783
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.47119140625,
+          "points": 4096,
+          "zs": {
+            "real": -0.0002835583512483877,
+            "eta": 6.168904951065054,
+            "residual": 2.450883283029101e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6092745630681534,
+          "f_temporal_gate": 0.6116086774901783
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.706787109375,
+          "points": 1024,
+          "zs": {
+            "real": -0.0002689600673957721,
+            "eta": 6.169567191549572,
+            "residual": 4.522531652658004e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6093399695357602,
+          "f_temporal_gate": 0.6117787147908634
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.706787109375,
+          "points": 2048,
+          "zs": {
+            "real": -0.0002689382905225838,
+            "eta": 6.169598350783995,
+            "residual": 2.3055707054768505e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6093430469910119,
+          "f_temporal_gate": 0.6117787147908634
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.706787109375,
+          "points": 4096,
+          "zs": {
+            "real": -0.00026893284625978457,
+            "eta": 6.169606140636847,
+            "residual": 2.259415388342668e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6093438163591948,
+          "f_temporal_gate": 0.6117787147908634
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.9423828125,
+          "points": 1024,
+          "zs": {
+            "real": -0.0002636308237064602,
+            "eta": 6.169548033020978,
+            "residual": 6.696238452987704e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6093380773354052,
+          "f_temporal_gate": 0.6118083682710176
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.9423828125,
+          "points": 2048,
+          "zs": {
+            "real": -0.00026359261145322827,
+            "eta": 6.169603425245966,
+            "residual": 2.8033980257868096e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6093435481724411,
+          "f_temporal_gate": 0.6118083682710176
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.9423828125,
+          "points": 4096,
+          "zs": {
+            "real": -0.0002635830583205692,
+            "eta": 6.169617273617032,
+            "residual": 1.50268813593143e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6093449159127933,
+          "f_temporal_gate": 0.6118083682710176
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.41357421875,
+          "points": 1024,
+          "zs": {
+            "real": -0.0002632435791330618,
+            "eta": 6.169455792000263,
+            "residual": 5.669934231563641e-17,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.609328967111137,
+          "f_temporal_gate": 0.6118337379629839
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.41357421875,
+          "points": 2048,
+          "zs": {
+            "real": -0.0002631577076132668,
+            "eta": 6.169580419259648,
+            "residual": 1.2476246806395444e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6093412759762615,
+          "f_temporal_gate": 0.6118337379629839
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.41357421875,
+          "points": 4096,
+          "zs": {
+            "real": -0.0002631362394842567,
+            "eta": 6.169611578019998,
+            "residual": 1.112079948022978e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6093443533846912,
+          "f_temporal_gate": 0.6118337379629839
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 1.884765625,
+          "points": 1024,
+          "zs": {
+            "real": -0.0002633332706290155,
+            "eta": 6.169326559444382,
+            "residual": 3.912497483479066e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6093162034019143,
+          "f_temporal_gate": 0.6118502138308455
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 1.884765625,
+          "points": 2048,
+          "zs": {
+            "real": -0.00026318061249824213,
+            "eta": 6.169548108194817,
+            "residual": 4.442734542358585e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.609338084759982,
+          "f_temporal_gate": 0.6118502138308455
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 1.884765625,
+          "points": 4096,
+          "zs": {
+            "real": -0.00026314244684499016,
+            "eta": 6.169603500420001,
+            "residual": 5.009346444116948e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6093435555970371,
+          "f_temporal_gate": 0.6118502138308455
+        }
+      ]
+    },
+    {
+      "case": "measured_hc_s1_N3_T25",
+      "zN": 4,
+      "leading": {
+        "index": 8710,
+        "t_peak": 5.05859375,
+        "peak_power_normalized": 11.972435860192629,
+        "red_w": 3.465129945499278,
+        "red_shift_THz": 22.0597023712784,
+        "lambda_nm": 1749.542360862848,
+        "width_fs": 12.74200863765475,
+        "bounds": [
+          2.412109375,
+          8.505859375
+        ],
+        "boundary_intensity_ratio": 0.00031191512707155126,
+        "local_beta2_ratio": 2.11890498439885,
+        "local_gamma_ratio": 0.8859459677418519,
+        "zs": {
+          "real": -0.0029492847814456937,
+          "eta": 1.2234906458187897,
+          "residual": 2.8139268138881322e-15,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6502680053448929,
+        "f_window": 0.6605553186214577,
+        "zs_window_ratio": 0.9844262653156229,
+        "f_photon_window": 0.7472459858325212,
+        "rms_bandwidth_normalized": 1.3197880135061415,
+        "relative_dispersion_variation_one_rms": 0.2946201798936079,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9994479928041353,
+        "spectral_fraction_1300_2000nm": 0.9964935921867292,
+        "spectral_fraction_1285_1625nm": 0.055719237807346285,
+        "energy_zs_nJ": 7.238742474996631
+      },
+      "core_weighted_red_w": 3.4133126404082503,
+      "fractional_centroid_difference": -0.014953928396922334,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 1.5234375,
+          "points": 1024,
+          "zs": {
+            "real": 0.0012348192398546733,
+            "eta": 1.2193839987423574,
+            "residual": 4.978066414230244e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6480853804002943,
+          "f_temporal_gate": 0.6547787270227045
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 1.5234375,
+          "points": 2048,
+          "zs": {
+            "real": 0.0012349477834793727,
+            "eta": 1.2193849614495742,
+            "residual": 2.8409834936053444e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6480858920655889,
+          "f_temporal_gate": 0.6547787270227045
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 1.5234375,
+          "points": 4096,
+          "zs": {
+            "real": 0.0012349799195142603,
+            "eta": 1.2193852021268725,
+            "residual": 4.559064519620723e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6480860199821751,
+          "f_temporal_gate": 0.6547787270227045
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 2.28515625,
+          "points": 1024,
+          "zs": {
+            "real": -0.003072250374322664,
+            "eta": 1.2233557061791973,
+            "residual": 1.8544094969965257e-14,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6501962868314907,
+          "f_temporal_gate": 0.6591898456980827
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 2.28515625,
+          "points": 2048,
+          "zs": {
+            "real": -0.0030719242788402445,
+            "eta": 1.2233578997034051,
+            "residual": 2.1294571444280783e-14,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6501974526586395,
+          "f_temporal_gate": 0.6591898456980827
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 2.28515625,
+          "points": 4096,
+          "zs": {
+            "real": -0.0030718427548623857,
+            "eta": 1.2233584480865596,
+            "residual": 2.5000272376685877e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6501977441165442,
+          "f_temporal_gate": 0.6591898456980827
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 3.046875,
+          "points": 1024,
+          "zs": {
+            "real": -0.0029042659725408053,
+            "eta": 1.2233816615749948,
+            "residual": 8.015849160857455e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6502100817579257,
+          "f_temporal_gate": 0.6625376241809942
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 3.046875,
+          "points": 2048,
+          "zs": {
+            "real": -0.002903693366608981,
+            "eta": 1.2233855692343796,
+            "residual": 1.4675760606763788e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6502121586237215,
+          "f_temporal_gate": 0.6625376241809942
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 3.046875,
+          "points": 4096,
+          "zs": {
+            "real": -0.002903550215069963,
+            "eta": 1.2233865461568194,
+            "residual": 1.5591526301341312e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6502126778442064,
+          "f_temporal_gate": 0.6625376241809942
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 4.5703125,
+          "points": 1024,
+          "zs": {
+            "real": -0.0030239632911407224,
+            "eta": 1.2233456141121495,
+            "residual": 6.780638872845102e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6501909230403318,
+          "f_temporal_gate": 0.6843970928741975
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 4.5703125,
+          "points": 2048,
+          "zs": {
+            "real": -0.003022663123341931,
+            "eta": 1.2233544223883825,
+            "residual": 1.108271100091714e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6501956045147967,
+          "f_temporal_gate": 0.6843970928741975
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 4.5703125,
+          "points": 4096,
+          "zs": {
+            "real": -0.0030223380808400563,
+            "eta": 1.2233566244959864,
+            "residual": 2.2830569065513384e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6501967749038994,
+          "f_temporal_gate": 0.6843970928741975
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 6.09375,
+          "points": 1024,
+          "zs": {
+            "real": -0.0030217928563303896,
+            "eta": 1.2233401082718307,
+            "residual": 7.327682229021407e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6501879967639322,
+          "f_temporal_gate": 0.8443295922045864
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 6.09375,
+          "points": 2048,
+          "zs": {
+            "real": -0.003019479626116232,
+            "eta": 1.2233557832181923,
+            "residual": 4.126162952233366e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6501963277766288,
+          "f_temporal_gate": 0.8443295922045864
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 6.09375,
+          "points": 4096,
+          "zs": {
+            "real": -0.0030189013171521488,
+            "eta": 1.2233597020767766,
+            "residual": 4.165648664845488e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.650198410594641,
+          "f_temporal_gate": 0.8443295922045864
+        }
+      ]
+    },
+    {
+      "case": "measured_hc_s1_N3_T50",
+      "zN": 4,
+      "leading": {
+        "index": 8687,
+        "t_peak": 4.833984375,
+        "peak_power_normalized": 15.346366251632451,
+        "red_w": 4.586121408196763,
+        "red_shift_THz": 14.598077834681575,
+        "lambda_nm": 1676.5377181670176,
+        "width_fs": 19.113012956482127,
+        "bounds": [
+          2.978515625,
+          8.662109375
+        ],
+        "boundary_intensity_ratio": 0.00040381152370889034,
+        "local_beta2_ratio": 1.671914274661805,
+        "local_gamma_ratio": 0.9245243833193547,
+        "zs": {
+          "real": 0.0005572693340033722,
+          "eta": 1.5839442037837828,
+          "residual": 6.003719015216923e-13,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6365360448762574,
+        "f_window": 0.6436906842056216,
+        "zs_window_ratio": 0.9888849730081246,
+        "f_photon_window": 0.6967841028646599,
+        "rms_bandwidth_normalized": 1.58360344664025,
+        "relative_dispersion_variation_one_rms": 0.1748643975605233,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9999884000623716,
+        "spectral_fraction_1300_2000nm": 0.9999758130227538,
+        "spectral_fraction_1285_1625nm": 0.10756087830240911,
+        "energy_zs_nJ": 3.5429395780192636
+      },
+      "core_weighted_red_w": 4.539562067598128,
+      "fractional_centroid_difference": -0.01015222591260223,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 1.4208984375,
+          "points": 1024,
+          "zs": {
+            "real": -0.00018856464472151162,
+            "eta": 1.5824872920470747,
+            "residual": 2.0671877993226816e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6359505590792183,
+          "f_temporal_gate": 0.6423074612889876
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 1.4208984375,
+          "points": 2048,
+          "zs": {
+            "real": -0.00018839193938881057,
+            "eta": 1.5824891363235818,
+            "residual": 3.214977577765888e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.635951300234412,
+          "f_temporal_gate": 0.6423074612889876
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 1.4208984375,
+          "points": 4096,
+          "zs": {
+            "real": -0.00018834876332028897,
+            "eta": 1.5824895973941677,
+            "residual": 1.3563052840137507e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6359514855237971,
+          "f_temporal_gate": 0.6423074612889876
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 2.13134765625,
+          "points": 1024,
+          "zs": {
+            "real": 0.00047148537147223796,
+            "eta": 1.5838291364296915,
+            "residual": 4.6680980051650556e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6364898030210882,
+          "f_temporal_gate": 0.643812327559667
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 2.13134765625,
+          "points": 2048,
+          "zs": {
+            "real": 0.0004718553649819773,
+            "eta": 1.5838333222387753,
+            "residual": 3.13239378797172e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6364914851626385,
+          "f_temporal_gate": 0.643812327559667
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 2.13134765625,
+          "points": 4096,
+          "zs": {
+            "real": 0.0004719478635219528,
+            "eta": 1.5838343686981877,
+            "residual": 7.965669625200286e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6364919057008961,
+          "f_temporal_gate": 0.643812327559667
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 2.841796875,
+          "points": 1024,
+          "zs": {
+            "real": 0.0003663072681183537,
+            "eta": 1.583914973795137,
+            "residual": 1.889090767410206e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6365242982873814,
+          "f_temporal_gate": 0.6486267388028657
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 2.841796875,
+          "points": 2048,
+          "zs": {
+            "real": 0.0003669675026428866,
+            "eta": 1.5839223741978392,
+            "residual": 4.882715046532749e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6365272722703382,
+          "f_temporal_gate": 0.6486267388028657
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 2.841796875,
+          "points": 4096,
+          "zs": {
+            "real": 0.0003671325619508984,
+            "eta": 1.5839242243208085,
+            "residual": 1.418049172255572e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6365280157750366,
+          "f_temporal_gate": 0.6486267388028657
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 4.2626953125,
+          "points": 1024,
+          "zs": {
+            "real": 0.0003886729254937824,
+            "eta": 1.5838903160534779,
+            "residual": 2.467030512745531e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6365143891369747,
+          "f_temporal_gate": 0.6857585782741017
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 4.2626953125,
+          "points": 2048,
+          "zs": {
+            "real": 0.0003901627889400386,
+            "eta": 1.5839070465195804,
+            "residual": 6.200223011810501e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6365211125712321,
+          "f_temporal_gate": 0.6857585782741017
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 4.2626953125,
+          "points": 4096,
+          "zs": {
+            "real": 0.00039053525699818875,
+            "eta": 1.583911229249938,
+            "residual": 1.2461848257470422e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.636522793475542,
+          "f_temporal_gate": 0.6857585782741017
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 5.68359375,
+          "points": 1024,
+          "zs": {
+            "real": 0.00038776382202919,
+            "eta": 1.5838725604063164,
+            "residual": 5.117875266520903e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.636507253715543,
+          "f_temporal_gate": 0.8785270834730845
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 5.68359375,
+          "points": 2048,
+          "zs": {
+            "real": 0.0003904092793092336,
+            "eta": 1.5839022686951234,
+            "residual": 2.7894008272968645e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6365191925178139,
+          "f_temporal_gate": 0.8785270834730845
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 5.68359375,
+          "points": 4096,
+          "zs": {
+            "real": 0.00039107065348030826,
+            "eta": 1.5839096961264894,
+            "residual": 3.608224830031759e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6365221773627181,
+          "f_temporal_gate": 0.8785270834730845
+        }
+      ]
+    },
+    {
+      "case": "measured_hc_s1_N3_T140",
+      "zN": 4,
+      "leading": {
+        "index": 8814,
+        "t_peak": 6.07421875,
+        "peak_power_normalized": 25.894834821137497,
+        "red_w": 7.600330231225528,
+        "red_shift_THz": 8.640215181645077,
+        "lambda_nm": 1622.4794272084507,
+        "width_fs": 34.90202365966301,
+        "bounds": [
+          4.658203125,
+          8.57421875
+        ],
+        "boundary_intensity_ratio": 0.00019420009041837567,
+        "local_beta2_ratio": 1.3702696045778946,
+        "local_gamma_ratio": 0.955327983829567,
+        "zs": {
+          "real": 0.0015621516658816082,
+          "eta": 2.2016258611323294,
+          "residual": 1.0865719072862807e-14,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.7017534057474891,
+        "f_window": 0.7034540490239527,
+        "zs_window_ratio": 0.9975824387124884,
+        "f_photon_window": 0.7365148752280082,
+        "rms_bandwidth_normalized": 2.393997695934541,
+        "relative_dispersion_variation_one_rms": 0.0966667552492299,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9999963032787995,
+        "spectral_fraction_1300_2000nm": 0.9999943259566254,
+        "spectral_fraction_1285_1625nm": 0.542616718575148,
+        "energy_zs_nJ": 1.3949776266434604
+      },
+      "core_weighted_red_w": 7.553458858008684,
+      "fractional_centroid_difference": -0.006167017983544465,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.97900390625,
+          "points": 1024,
+          "zs": {
+            "real": 0.0017041241615677225,
+            "eta": 2.198944308070004,
+            "residual": 1.7440244153023665e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.7008986787807503,
+          "f_temporal_gate": 0.7023948448810898
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.97900390625,
+          "points": 2048,
+          "zs": {
+            "real": 0.00170428089169396,
+            "eta": 2.1989471552744337,
+            "residual": 1.6094083444758654e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.700899586307974,
+          "f_temporal_gate": 0.7023948448810898
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.97900390625,
+          "points": 4096,
+          "zs": {
+            "real": 0.0017043200742479399,
+            "eta": 2.198947867077894,
+            "residual": 2.1800305191279584e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.7008998131905299,
+          "f_temporal_gate": 0.7023948448810898
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.468505859375,
+          "points": 1024,
+          "zs": {
+            "real": 0.0014728977735325277,
+            "eta": 2.2015817239576934,
+            "residual": 1.3336808603264066e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.701739337320529,
+          "f_temporal_gate": 0.70316841352773
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.468505859375,
+          "points": 2048,
+          "zs": {
+            "real": 0.0014732453683111838,
+            "eta": 2.2015881262340318,
+            "residual": 1.788364452201523e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.7017413780029647,
+          "f_temporal_gate": 0.70316841352773
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.468505859375,
+          "points": 4096,
+          "zs": {
+            "real": 0.001473332267143145,
+            "eta": 2.2015897268150377,
+            "residual": 2.224460067748295e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.7017418881773736,
+          "f_temporal_gate": 0.70316841352773
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.9580078125,
+          "points": 1024,
+          "zs": {
+            "real": 0.0014776918128920934,
+            "eta": 2.201686925179033,
+            "residual": 2.101078855990264e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.701772869500845,
+          "f_temporal_gate": 0.7035256246476879
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.9580078125,
+          "points": 2048,
+          "zs": {
+            "real": 0.0014783097168348184,
+            "eta": 2.2016983034640494,
+            "residual": 3.3108964255701375e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.7017764962525118,
+          "f_temporal_gate": 0.7035256246476879
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.9580078125,
+          "points": 4096,
+          "zs": {
+            "real": 0.0014784641932498344,
+            "eta": 2.201701148073015,
+            "residual": 1.1744077932362984e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.701777402952449,
+          "f_temporal_gate": 0.7035256246476879
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.93701171875,
+          "points": 1024,
+          "zs": {
+            "real": 0.0014945952115983346,
+            "eta": 2.201671475407373,
+            "residual": 1.644921293636711e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.7017679449902495,
+          "f_temporal_gate": 0.704603732830916
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.93701171875,
+          "points": 2048,
+          "zs": {
+            "real": 0.001495983367801835,
+            "eta": 2.201697076323849,
+            "residual": 3.1633918081074008e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.701776105109843,
+          "f_temporal_gate": 0.704603732830916
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.93701171875,
+          "points": 4096,
+          "zs": {
+            "real": 0.0014963304090509864,
+            "eta": 2.2017034767438863,
+            "residual": 2.5076356394147014e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.7017781452005956,
+          "f_temporal_gate": 0.704603732830916
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.916015625,
+          "points": 1024,
+          "zs": {
+            "real": 0.001493358255453943,
+            "eta": 2.2016448911421738,
+            "residual": 5.3807512290677915e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.7017594714348774,
+          "f_temporal_gate": 0.7056553268455267
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.916015625,
+          "points": 2048,
+          "zs": {
+            "real": 0.0014958260259310629,
+            "eta": 2.2016904025114448,
+            "residual": 4.418719019828914e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.7017739778771163,
+          "f_temporal_gate": 0.7056553268455267
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.916015625,
+          "points": 4096,
+          "zs": {
+            "real": 0.0014964429755274426,
+            "eta": 2.2017017809570905,
+            "residual": 6.7778132582989096e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.7017776046799827,
+          "f_temporal_gate": 0.7056553268455267
+        }
+      ]
+    },
+    {
+      "case": "measured_hc_s1_N4_T200",
+      "zN": 4,
+      "leading": {
+        "index": 9269,
+        "t_peak": 10.517578125,
+        "peak_power_normalized": 54.01708075016527,
+        "red_w": 16.232005238137724,
+        "red_shift_THz": 12.917019349715781,
+        "lambda_nm": 1660.923327774472,
+        "width_fs": 37.672025537414044,
+        "bounds": [
+          9.326171875,
+          12.40234375
+        ],
+        "boundary_intensity_ratio": 5.7606367386756674e-05,
+        "local_beta2_ratio": 1.5823695377573193,
+        "local_gamma_ratio": 0.933215864983303,
+        "zs": {
+          "real": -0.0006923796222552478,
+          "eta": 2.872254644252935,
+          "residual": 3.540975161848962e-15,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6087777255358207,
+        "f_window": 0.6104191123487344,
+        "zs_window_ratio": 0.9973110494417547,
+        "f_photon_window": 0.6542358084387335,
+        "rms_bandwidth_normalized": 3.2192378585286927,
+        "relative_dispersion_variation_one_rms": 0.08719002620047481,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9999993382073641,
+        "spectral_fraction_1300_2000nm": 0.9999989685807105,
+        "spectral_fraction_1285_1625nm": 0.05969332060690102,
+        "energy_zs_nJ": 1.5059722874761088
+      },
+      "core_weighted_red_w": 16.140275319705083,
+      "fractional_centroid_difference": -0.005651175999938585,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.76904296875,
+          "points": 1024,
+          "zs": {
+            "real": -0.00017002677096189165,
+            "eta": 2.869511983474042,
+            "residual": 1.4464931139291487e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6081964153813636,
+          "f_temporal_gate": 0.6097782992058287
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.76904296875,
+          "points": 2048,
+          "zs": {
+            "real": -0.00016969046382463501,
+            "eta": 2.869516077975662,
+            "residual": 1.8620331413391315e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6081972832157628,
+          "f_temporal_gate": 0.6097782992058287
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.76904296875,
+          "points": 4096,
+          "zs": {
+            "real": -0.00016960638698809702,
+            "eta": 2.8695171016048118,
+            "residual": 1.4208010093857737e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6081975001751563,
+          "f_temporal_gate": 0.6097782992058287
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.153564453125,
+          "points": 1024,
+          "zs": {
+            "real": -0.0006978463647869945,
+            "eta": 2.8722006514248157,
+            "residual": 1.734723475976807e-17,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.608766281692858,
+          "f_temporal_gate": 0.6103456681966635
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.153564453125,
+          "points": 2048,
+          "zs": {
+            "real": -0.0006970823011014316,
+            "eta": 2.87221001945911,
+            "residual": 8.043806324614263e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.608768267258665,
+          "f_temporal_gate": 0.6103456681966635
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 1.153564453125,
+          "points": 4096,
+          "zs": {
+            "real": -0.0006968912849582862,
+            "eta": 2.872212361486728,
+            "residual": 4.010789095210211e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6087687636541532,
+          "f_temporal_gate": 0.6103456681966635
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.5380859375,
+          "points": 1024,
+          "zs": {
+            "real": -0.0007207170182011478,
+            "eta": 2.872227868531381,
+            "residual": 1.1107649934270853e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6087720503903736,
+          "f_temporal_gate": 0.6104081170718629
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.5380859375,
+          "points": 2048,
+          "zs": {
+            "real": -0.0007193633281001741,
+            "eta": 2.8722444516670134,
+            "residual": 2.797157557069881e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6087755652053337,
+          "f_temporal_gate": 0.6104081170718629
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.5380859375,
+          "points": 4096,
+          "zs": {
+            "real": -0.0007190249042102651,
+            "eta": 2.8722485975094867,
+            "residual": 1.944128986425528e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6087764439214867,
+          "f_temporal_gate": 0.6104081170718629
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.30712890625,
+          "points": 1024,
+          "zs": {
+            "real": -0.0007203714398907696,
+            "eta": 2.87220807142846,
+            "residual": 1.729946408894067e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6087678543712942,
+          "f_temporal_gate": 0.6105639908371946
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.30712890625,
+          "points": 2048,
+          "zs": {
+            "real": -0.00071731335220832,
+            "eta": 2.872245540190731,
+            "residual": 9.945534448075265e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6087757959192066,
+          "f_temporal_gate": 0.6105639908371946
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 2.30712890625,
+          "points": 4096,
+          "zs": {
+            "real": -0.0007165488245887558,
+            "eta": 2.872254907701215,
+            "residual": 2.1737912559205955e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6087777813739913,
+          "f_temporal_gate": 0.6105639908371946
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.076171875,
+          "points": 1024,
+          "zs": {
+            "real": -0.0007235275903333158,
+            "eta": 2.872169569281103,
+            "residual": 7.29615702744112e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.6087596937962062,
+          "f_temporal_gate": 0.6106803898858291
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.076171875,
+          "points": 2048,
+          "zs": {
+            "real": -0.0007181140299956694,
+            "eta": 2.8722358961884247,
+            "residual": 4.0318795166576483e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6087737518616573,
+          "f_temporal_gate": 0.6106803898858291
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 3.076171875,
+          "points": 4096,
+          "zs": {
+            "real": -0.0007167606240802088,
+            "eta": 2.872252478901535,
+            "residual": 1.3212535902850749e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.6087772665870631,
+          "f_temporal_gate": 0.6106803898858291
+        }
+      ]
+    },
+    {
+      "case": "measured_hc_s1_N6_T400",
+      "zN": 4,
+      "leading": {
+        "index": 10353,
+        "t_peak": 21.103515625,
+        "peak_power_normalized": 149.12330787461465,
+        "red_w": 43.95482872992204,
+        "red_shift_THz": 17.489070662811873,
+        "lambda_nm": 1704.088361867249,
+        "width_fs": 50.968034550619,
+        "bounds": [
+          19.921875,
+          22.3828125
+        ],
+        "boundary_intensity_ratio": 2.169847919008002e-06,
+        "local_beta2_ratio": 1.8349660800906429,
+        "local_gamma_ratio": 0.9095772465117905,
+        "zs": {
+          "real": 0.0007692880770785221,
+          "eta": 4.358186176427218,
+          "residual": 1.1576221916905712e-15,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.48845181374904784,
+        "f_window": 0.4889262914335261,
+        "zs_window_ratio": 0.9990295517079126,
+        "f_photon_window": 0.5375975084600125,
+        "rms_bandwidth_normalized": 4.905441793095561,
+        "relative_dispersion_variation_one_rms": 0.06381295047464146,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 0.9999999691044097,
+        "spectral_fraction_1300_2000nm": 0.9999999467937684,
+        "spectral_fraction_1285_1625nm": 0.0004623362945387383,
+        "energy_zs_nJ": 1.3593537057459295
+      },
+      "core_weighted_red_w": 43.85530418616776,
+      "fractional_centroid_difference": -0.0022642459686467165,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.615234375,
+          "points": 1024,
+          "zs": {
+            "real": 0.000841978547218144,
+            "eta": 4.357608024126369,
+            "residual": 1.126603737611321e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.4883870162556547,
+          "f_temporal_gate": 0.4888690626565491
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.615234375,
+          "points": 2048,
+          "zs": {
+            "real": 0.0008424958599861392,
+            "eta": 4.35761718871085,
+            "residual": 9.475656057157634e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.4883880433934893,
+          "f_temporal_gate": 0.4888690626565491
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.615234375,
+          "points": 4096,
+          "zs": {
+            "real": 0.0008426251882137629,
+            "eta": 4.357619479867701,
+            "residual": 1.4326421541101871e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.4883883001791507,
+          "f_temporal_gate": 0.4888690626565491
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.9228515625,
+          "points": 1024,
+          "zs": {
+            "real": 0.000771375076133223,
+            "eta": 4.358164406584075,
+            "residual": 2.8066088919804617e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.4884493738534267,
+          "f_temporal_gate": 0.4889203928034422
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.9228515625,
+          "points": 2048,
+          "zs": {
+            "real": 0.0007725638187417298,
+            "eta": 4.3581854727439255,
+            "residual": 8.422417444130674e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.4884517348824353,
+          "f_temporal_gate": 0.4889203928034422
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.9228515625,
+          "points": 4096,
+          "zs": {
+            "real": 0.0007728610038269043,
+            "eta": 4.358190739353006,
+            "residual": 3.2198729504734036e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.488452325147434,
+          "f_temporal_gate": 0.4889203928034422
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.23046875,
+          "points": 1024,
+          "zs": {
+            "real": 0.0007672703179314994,
+            "eta": 4.358148900034967,
+            "residual": 8.358487449225621e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.48844763592812235,
+          "f_temporal_gate": 0.4889262234428959
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.23046875,
+          "points": 2048,
+          "zs": {
+            "real": 0.0007693723832499268,
+            "eta": 4.358186151456675,
+            "residual": 7.390817819949493e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.4884518109504277,
+          "f_temporal_gate": 0.4889262234428959
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 1.23046875,
+          "points": 4096,
+          "zs": {
+            "real": 0.0007698979210136339,
+            "eta": 4.3581954644543055,
+            "residual": 3.21969350392606e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.4884528547219419,
+          "f_temporal_gate": 0.4889262234428959
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.845703125,
+          "points": 1024,
+          "zs": {
+            "real": 0.0007636179575732602,
+            "eta": 4.358086259058508,
+            "residual": 1.5672840199913002e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.48844061532429134,
+          "f_temporal_gate": 0.4889333392130984
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.845703125,
+          "points": 2048,
+          "zs": {
+            "real": 0.000768373030339692,
+            "eta": 4.358170518670189,
+            "residual": 8.582937747229195e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.48845005887683485,
+          "f_temporal_gate": 0.4889333392130984
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 1.845703125,
+          "points": 4096,
+          "zs": {
+            "real": 0.0007695618130480768,
+            "eta": 4.35819158461692,
+            "residual": 1.8179935133616644e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.4884524198819577,
+          "f_temporal_gate": 0.4889333392130984
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 2.4609375,
+          "points": 1024,
+          "zs": {
+            "real": 0.000758652662728181,
+            "eta": 4.357998298696404,
+            "residual": 2.306595211858756e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.4884307570032677,
+          "f_temporal_gate": 0.4889398530666106
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 2.4609375,
+          "points": 2048,
+          "zs": {
+            "real": 0.0007671310613140465,
+            "eta": 4.358148540457233,
+            "residual": 7.2174712398019e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.4884475956277796,
+          "f_temporal_gate": 0.4889398530666106
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 2.4609375,
+          "points": 4096,
+          "zs": {
+            "real": 0.0007692499411938574,
+            "eta": 4.3581860909582915,
+            "residual": 7.2815418263566e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.4884518041699591,
+          "f_temporal_gate": 0.4889398530666106
+        }
+      ]
+    },
+    {
+      "case": "conv_fine_N12_T1176",
+      "zN": 2,
+      "leading": {
+        "index": 93043,
+        "t_peak": 33.577880859375,
+        "peak_power_normalized": 2527.8961287552056,
+        "red_w": 643.7359192605395,
+        "red_shift_THz": 87.12053877221096,
+        "lambda_nm": 2820.4094143322427,
+        "width_fs": 25.245797113822913,
+        "bounds": [
+          33.328857421875,
+          33.828125
+        ],
+        "boundary_intensity_ratio": 6.689391732983669e-06,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.00027689606817391123,
+          "eta": 26.052031567707,
+          "residual": 2.7370999790213318e-12,
+          "success": true,
+          "points": 4096
+        },
+        "f_zs": 0.36183377177370835,
+        "f_window": 0.3628216503651048,
+        "zs_window_ratio": 0.9972772336204239,
+        "f_photon_window": 0.6610524481395481,
+        "rms_bandwidth_normalized": 28.192773267166405,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 7.550736640287157e-06,
+        "spectral_fraction_1300_2000nm": 5.9097043240385304e-08,
+        "spectral_fraction_1285_1625nm": 1.9456275622534704e-08,
+        "energy_zs_nJ": 1.4791446494485658
+      },
+      "core_weighted_red_w": 643.7367698432801,
+      "fractional_centroid_difference": 1.3213224787644862e-06,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.12481689453125,
+          "points": 1024,
+          "zs": {
+            "real": -0.0003097910520083855,
+            "eta": 26.0510705823238,
+            "residual": 2.7845836681258576e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.3618204247544972,
+          "f_temporal_gate": 0.36277967577229997
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.12481689453125,
+          "points": 2048,
+          "zs": {
+            "real": -0.0003097952244887554,
+            "eta": 26.051147626021596,
+            "residual": 4.707580226190271e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.3618214948058555,
+          "f_temporal_gate": 0.36277967577229997
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.12481689453125,
+          "points": 4096,
+          "zs": {
+            "real": -0.0003097962674332794,
+            "eta": 26.051166886690265,
+            "residual": 3.384604878811304e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.36182176231514257,
+          "f_temporal_gate": 0.36277967577229997
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.187225341796875,
+          "points": 1024,
+          "zs": {
+            "real": -0.00028179711891906267,
+            "eta": 26.051816137076635,
+            "residual": 3.370664109414887e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.3618307796816199,
+          "f_temporal_gate": 0.36281601433714533
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.187225341796875,
+          "points": 2048,
+          "zs": {
+            "real": -0.00028180805533621113,
+            "eta": 26.051989456776912,
+            "residual": 5.936413420669261e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.36183318689967936,
+          "f_temporal_gate": 0.36281601433714533
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.187225341796875,
+          "points": 4096,
+          "zs": {
+            "real": -0.0002818107894018606,
+            "eta": 26.052032787412926,
+            "residual": 2.4055010130769566e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.3618337887140684,
+          "f_temporal_gate": 0.36281601433714533
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.2496337890625,
+          "points": 1024,
+          "zs": {
+            "real": -0.0002768709104245549,
+            "eta": 26.051646547112046,
+            "residual": 3.5572513114536357e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.3618284242654451,
+          "f_temporal_gate": 0.3628216503651044
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.2496337890625,
+          "points": 2048,
+          "zs": {
+            "real": -0.000276890989215357,
+            "eta": 26.05195466010262,
+            "residual": 6.181152512679379e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.3618327036125364,
+          "f_temporal_gate": 0.3628216503651044
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.2496337890625,
+          "points": 4096,
+          "zs": {
+            "real": -0.00027689600870865223,
+            "eta": 26.05203169373706,
+            "residual": 1.2589986836616582e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.3618337735241258,
+          "f_temporal_gate": 0.3628216503651044
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.37445068359375,
+          "points": 1024,
+          "zs": {
+            "real": -0.00027656436782560036,
+            "eta": 26.051132993130544,
+            "residual": 4.98422927196271e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.36182129157125753,
+          "f_temporal_gate": 0.3628267688111068
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.37445068359375,
+          "points": 2048,
+          "zs": {
+            "real": -0.00027660963714503734,
+            "eta": 26.0518262243245,
+            "residual": 1.20641049647713e-14,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.3618309197822847,
+          "f_temporal_gate": 0.3628267688111068
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.37445068359375,
+          "points": 4096,
+          "zs": {
+            "real": -0.0002766209546207131,
+            "eta": 26.05199954347437,
+            "residual": 8.17352799068417e-14,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.3618333269926996,
+          "f_temporal_gate": 0.3628267688111068
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 0.499267578125,
+          "points": 1024,
+          "zs": {
+            "real": -0.0002765173642174802,
+            "eta": 26.050414172809326,
+            "residual": 3.5411108653135055e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.36181130795568506,
+          "f_temporal_gate": 0.3628301265650153
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 0.499267578125,
+          "points": 2048,
+          "zs": {
+            "real": -0.0002765978467081903,
+            "eta": 26.05164649363774,
+            "residual": 8.197504445029957e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.3618284235227464,
+          "f_temporal_gate": 0.3628301265650153
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 0.499267578125,
+          "points": 4096,
+          "zs": {
+            "real": -0.0002766179654100505,
+            "eta": 26.05195460664363,
+            "residual": 2.6849417053186855e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.3618327028700504,
+          "f_temporal_gate": 0.3628301265650153
+        }
+      ]
+    },
+    {
+      "case": "conv_fine_N16_T1875",
+      "zN": 2,
+      "leading": {
+        "index": 118271,
+        "t_peak": 64.373779296875,
+        "peak_power_normalized": 5742.72695796775,
+        "red_w": 1619.8719540065144,
+        "red_shift_THz": 137.49900194990087,
+        "lambda_nm": 5361.528149767157,
+        "width_fs": 27.26720598411173,
+        "bounds": [
+          64.124755859375,
+          64.6240234375
+        ],
+        "boundary_intensity_ratio": 2.0279121298741905e-06,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.0004270718653603923,
+          "eta": 39.09648157891315,
+          "residual": 4.895097668746452e-14,
+          "success": true,
+          "points": 4096
+        },
+        "f_zs": 0.305441262335259,
+        "f_window": 0.3061461675472032,
+        "zs_window_ratio": 0.9976974880411151,
+        "f_photon_window": 1.0635083635663565,
+        "rms_bandwidth_normalized": 42.71800863216678,
+        "relative_dispersion_variation_one_rms": 0.0,
+        "dispersion_variation_diagnostic_defined": true,
+        "spectral_fraction_1200_2300nm": 1.1748157040318028e-08,
+        "spectral_fraction_1300_2000nm": 7.089552474441144e-09,
+        "spectral_fraction_1285_1625nm": 3.388387192779551e-09,
+        "energy_zs_nJ": 1.3922357337639635
+      },
+      "core_weighted_red_w": 1619.8730648227295,
+      "fractional_centroid_difference": 6.857432233164928e-07,
+      "variations": [
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.12481689453125,
+          "points": 1024,
+          "zs": {
+            "real": -0.00043219542992608705,
+            "eta": 39.09620388623301,
+            "residual": 7.463038419261218e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.3054390928611954,
+          "f_temporal_gate": 0.3061405790869656
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.12481689453125,
+          "points": 2048,
+          "zs": {
+            "real": -0.00043220757144231495,
+            "eta": 39.0964689456088,
+            "residual": 1.1110877497137424e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.30544116363756874,
+          "f_temporal_gate": 0.3061405790869656
+        },
+        {
+          "halfwidth_factor": 0.5,
+          "halfwidth_T0": 0.12481689453125,
+          "points": 4096,
+          "zs": {
+            "real": -0.0004322106067395167,
+            "eta": 39.096535210174615,
+            "residual": 1.0060369775468554e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.3054416813294892,
+          "f_temporal_gate": 0.3061405790869656
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.187225341796875,
+          "points": 1024,
+          "zs": {
+            "real": -0.00042707530542472497,
+            "eta": 39.0957752745965,
+            "residual": 1.0363037614198838e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.30543574433278514,
+          "f_temporal_gate": 0.30614445199229623
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.187225341796875,
+          "points": 2048,
+          "zs": {
+            "real": -0.0004271034877707732,
+            "eta": 39.09637161765148,
+            "residual": 1.0042602633499796e-14,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.30544040326290217,
+          "f_temporal_gate": 0.30614445199229623
+        },
+        {
+          "halfwidth_factor": 0.75,
+          "halfwidth_T0": 0.187225341796875,
+          "points": 4096,
+          "zs": {
+            "real": -0.0004271105300968331,
+            "eta": 39.09652070894533,
+            "residual": 9.261037324033764e-14,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.30544156803863537,
+          "f_temporal_gate": 0.30614445199229623
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.2496337890625,
+          "points": 1024,
+          "zs": {
+            "real": -0.00042700924420573637,
+            "eta": 39.09515685745682,
+            "residual": 3.3605615885298967e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.3054309129488814,
+          "f_temporal_gate": 0.3061461675472032
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.2496337890625,
+          "points": 2048,
+          "zs": {
+            "real": -0.00042705935918626247,
+            "eta": 39.096216953302,
+            "residual": 2.680167071838096e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.30543919494767185,
+          "f_temporal_gate": 0.3061461675472032
+        },
+        {
+          "halfwidth_factor": 1,
+          "halfwidth_T0": 0.2496337890625,
+          "points": 4096,
+          "zs": {
+            "real": -0.0004270718876809941,
+            "eta": 39.096482011942584,
+            "residual": 1.5897598448051626e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.30544126571830144,
+          "f_temporal_gate": 0.3061461675472032
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.37445068359375,
+          "points": 1024,
+          "zs": {
+            "real": -0.0004269257847137156,
+            "eta": 39.09339022520496,
+            "residual": 2.497746035419794e-16,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.3054171111344138,
+          "f_temporal_gate": 0.30614845635806565
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.37445068359375,
+          "points": 2048,
+          "zs": {
+            "real": -0.0004270385554014664,
+            "eta": 39.095775232537164,
+            "residual": 1.2243095901118073e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.3054357440041966,
+          "f_temporal_gate": 0.30614845635806565
+        },
+        {
+          "halfwidth_factor": 1.5,
+          "halfwidth_T0": 0.37445068359375,
+          "points": 4096,
+          "zs": {
+            "real": -0.0004270667446368006,
+            "eta": 39.096371575603364,
+            "residual": 4.417390720475779e-15,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.3054404029344013,
+          "f_temporal_gate": 0.30614845635806565
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 0.499267578125,
+          "points": 1024,
+          "zs": {
+            "real": -0.0004268088137624629,
+            "eta": 39.090917546217256,
+            "residual": 1.5227709137970026e-15,
+            "success": true,
+            "points": 1024
+          },
+          "f_zs": 0.3053977933298223,
+          "f_temporal_gate": 0.3061501687250905
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 0.499267578125,
+          "points": 2048,
+          "zs": {
+            "real": -0.0004270093211587588,
+            "eta": 39.09515685776299,
+            "residual": 6.110664011179909e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.30543091295127334,
+          "f_temporal_gate": 0.3061501687250905
+        },
+        {
+          "halfwidth_factor": 2,
+          "halfwidth_T0": 0.499267578125,
+          "points": 4096,
+          "zs": {
+            "real": -0.00042705943603769654,
+            "eta": 39.09621695360788,
+            "residual": 7.031079139213506e-16,
+            "success": true,
+            "points": 4096
+          },
+          "f_zs": 0.30543919495006155,
+          "f_temporal_gate": 0.3061501687250905
+        }
+      ]
+    }
+  ]
+}

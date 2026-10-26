@@ -1,0 +1,33 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+raman: {fR: 0.18, tau1_fs: 12.2, tau2_fs: 32.0, kernel: analytic Fourier transfer}
+reference: {beta2_ps2_per_km: -21.7, gamma_per_W_km: 1.3, wavelength_nm: 1550}
+propagation: {method: fixed-step Float64 RK4IP, output: terminal fields only}
+verification: {width_T0: 160, nt: 16384, zeta_fission_units: [4, 6]}
+optimization: {width_T0: 80, nt: 8192, coefficients: 30, orders: [2, 31], seeds: [2026101701, 2026101702, 2026101703, 2026101704]}
+limits: {max_grid: 32768, heavy_processes: 1, minimum_free_memory_percent: 35}
+grid_32768_reason: >
+  Grid/window convergence checks; long-distance windows without coarser time
+  sampling; and T0 above 307 fs, where width 160 on 16384 points would violate
+  the required Raman dt <=3 fs. Training and held-out production grids do not
+  exceed 32768 points. The separately frozen post-run window diagnostic below
+  is the only exception.
+search_step_multiplier: 2
+search_ZS_halfwidth: max(2, 12/max_abs_q)
+readout_ZS_halfwidth: max(1, 8/max_abs_q)
+stationarity_target_raw_coefficient_l2: 1.0e-5
+polishing_option: >
+  Same 30-dimensional phase class, with a fixed spectral-energy Gram
+  preconditioner after removing constant/linear phase gauges; ridge 1e-4.
+  This is a coordinate change only. Report gradient norms in original radians.
+
+postrun_convergence_exception:
+  max_grid: 65536
+  width_T0: 640
+  dt_fs: 2.734375
+  cases: [diagnostic_N5_window640_clipped, diagnostic_N5_window640_C2]
+  freeze_commit: d426430
+  reason: Diagnose the large N5 waveform change under window doubling while preserving time resolution; no coefficient tuning.
+actual_initial_starts_per_N: 3
+planned_fourth_starts: deferred in training_budget.json

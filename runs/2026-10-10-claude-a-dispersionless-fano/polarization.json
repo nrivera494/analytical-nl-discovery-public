@@ -1,0 +1,74 @@
+{
+ "rows": [
+  {
+   "kind": "isotropic",
+   "input": "linear",
+   "c_plus": 0.5,
+   "Phi": 10.0,
+   "lam_min": 0.002487577582207529,
+   "Phi_eff_formula": 10.0,
+   "Vmin_of_Phi_eff": 0.0024875775822010837,
+   "lam_gen_resolved": 0.011465983237017618,
+   "binary_resolved": 0.5156718476955756,
+   "lam_gen_insensitive": 0.01146598323701511,
+   "binary_insensitive": 0.5218824444730558,
+   "wall_s": 40.0
+  },
+  {
+   "kind": "isotropic",
+   "input": "elliptical chi=pi/8",
+   "c_plus": 0.8535533905932737,
+   "Phi": 10.0,
+   "lam_min": 0.0033546029164882797,
+   "Phi_eff_formula": 8.603796100280634,
+   "Vmin_of_Phi_eff": 0.0033546029164881475,
+   "lam_gen_resolved": 0.0151803677705543,
+   "binary_resolved": 0.590021246525554,
+   "lam_gen_insensitive": 0.016259844459566044,
+   "binary_insensitive": 0.6449756601570357,
+   "wall_s": 40.0
+  },
+  {
+   "kind": "isotropic",
+   "input": "circular",
+   "c_plus": 1.0,
+   "Phi": 10.0,
+   "lam_min": 0.005562594859178264,
+   "Phi_eff_formula": 6.666666666666667,
+   "Vmin_of_Phi_eff": 0.00556259485918531,
+   "lam_gen_resolved": 0.02612340778625496,
+   "binary_resolved": 0.5282638360983859,
+   "lam_gen_insensitive": 0.02612340778625552,
+   "binary_insensitive": 0.5282638360983852,
+   "wall_s": 17.2
+  },
+  {
+   "kind": "birefringent",
+   "input": "45deg",
+   "c_plus": 0.5,
+   "Phi": 10.0,
+   "lam_min": 0.003574310953655166,
+   "Phi_eff_formula": 8.333333333333332,
+   "Vmin_of_Phi_eff": 0.00357431095363836,
+   "lam_gen_resolved": 0.016676403081661014,
+   "binary_resolved": 0.5367114234058561,
+   "lam_gen_insensitive": 0.016676403081662593,
+   "binary_insensitive": 0.5494998717572736,
+   "wall_s": 39.7
+  },
+  {
+   "kind": "birefringent",
+   "input": "on axis",
+   "c_plus": 1.0,
+   "Phi": 10.0,
+   "lam_min": 0.0024875775822701886,
+   "Phi_eff_formula": 10.0,
+   "Vmin_of_Phi_eff": 0.0024875775822010837,
+   "lam_gen_resolved": 0.01146598323701647,
+   "binary_resolved": 0.5218824444730525,
+   "lam_gen_insensitive": 0.011465983237016872,
+   "binary_insensitive": 0.5218824444730515,
+   "wall_s": 24.4
+  }
+ ]
+}

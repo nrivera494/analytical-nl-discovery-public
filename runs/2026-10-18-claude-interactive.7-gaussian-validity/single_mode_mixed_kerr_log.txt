@@ -1,0 +1,21 @@
+coherent     nu=       1 n0=1e+08: TWA best  -26.9 dB at Phi    13.6 | formula  -26.9 | closed  -26.9 (V_P < V*: True) | TWA-formula +0.02 dB, TWA-closed +0.01 dB
+coherent     nu=       1 n0=1e+10: TWA best  -33.6 dB at Phi    29.3 | formula  -33.6 | closed  -33.6 (V_P < V*: True) | TWA-formula +0.01 dB, TWA-closed +0.01 dB
+ref_z10      nu=    7.09 n0=1e+08: TWA best  -15.6 dB at Phi      16 | formula  -15.6 | closed  -15.6 (V_P < V*: True) | TWA-formula -0.07 dB, TWA-closed -0.07 dB
+ref_z10      nu=    7.09 n0=1e+10: TWA best  -22.2 dB at Phi    43.3 | formula  -22.2 | closed  -22.2 (V_P < V*: True) | TWA-formula +0.00 dB, TWA-closed +0.00 dB
+ref_z50      nu=    46.2 n0=1e+08: TWA best   -6.5 dB at Phi    6.84 | formula   -4.7 | closed   -4.7 (V_P < V*: True) | TWA-formula -1.77 dB, TWA-closed -1.78 dB
+ref_z50      nu=    46.2 n0=1e+10: TWA best  -11.5 dB at Phi    46.2 | formula  -11.4 | closed  -11.4 (V_P < V*: True) | TWA-formula -0.15 dB, TWA-closed -0.15 dB
+ref_z100     nu=     152 n0=1e+08: TWA best   -1.5 dB at Phi    2.14 | formula    3.0 | closed    2.2 (V_P < V*: False) | TWA-formula -4.47 dB, TWA-closed -3.65 dB
+ref_z100     nu=     152 n0=1e+10: TWA best   -4.7 dB at Phi    65.2 | formula   -4.5 | closed   -4.5 (V_P < V*: True) | TWA-formula -0.23 dB, TWA-closed -0.23 dB
+dis101_z10   nu=    4.55 n0=1e+08: TWA best  -18.3 dB at Phi    13.8 | formula  -18.1 | closed  -18.1 (V_P < V*: True) | TWA-formula -0.14 dB, TWA-closed -0.14 dB
+dis101_z10   nu=    4.55 n0=1e+10: TWA best  -24.8 dB at Phi    39.3 | formula  -24.8 | closed  -24.8 (V_P < V*: True) | TWA-formula -0.00 dB, TWA-closed -0.00 dB
+dis101_z50   nu=    16.3 n0=1e+08: TWA best  -15.3 dB at Phi    1.43 | formula   -9.0 | closed  -10.8 (V_P < V*: False) | TWA-formula -6.26 dB, TWA-closed -4.52 dB
+dis101_z50   nu=    16.3 n0=1e+10: TWA best  -18.1 dB at Phi    30.3 | formula  -17.4 | closed  -17.4 (V_P < V*: True) | TWA-formula -0.67 dB, TWA-closed -0.67 dB
+dis104_z10   nu=    8.93 n0=1e+08: TWA best  -14.3 dB at Phi    17.5 | formula  -14.2 | closed  -14.2 (V_P < V*: True) | TWA-formula -0.03 dB, TWA-closed -0.03 dB
+dis104_z10   nu=    8.93 n0=1e+10: TWA best  -20.9 dB at Phi    45.6 | formula  -20.9 | closed  -20.9 (V_P < V*: True) | TWA-formula +0.01 dB, TWA-closed +0.01 dB
+dis104_z50   nu=    59.6 n0=1e+08: TWA best   -4.4 dB at Phi    12.1 | formula   -3.2 | closed   -3.2 (V_P < V*: True) | TWA-formula -1.11 dB, TWA-closed -1.11 dB
+dis104_z50   nu=    59.6 n0=1e+10: TWA best  -10.0 dB at Phi    66.1 | formula   -9.9 | closed   -9.9 (V_P < V*: True) | TWA-formula -0.05 dB, TWA-closed -0.05 dB
+dis107_z10   nu=     5.4 n0=1e+08: TWA best  -17.3 dB at Phi    14.8 | formula  -17.2 | closed  -17.2 (V_P < V*: True) | TWA-formula -0.11 dB, TWA-closed -0.11 dB
+dis107_z10   nu=     5.4 n0=1e+10: TWA best  -23.8 dB at Phi    41.5 | formula  -23.8 | closed  -23.8 (V_P < V*: True) | TWA-formula -0.00 dB, TWA-closed -0.00 dB
+dis107_z50   nu=    20.4 n0=1e+08: TWA best  -12.9 dB at Phi    2.74 | formula   -9.0 | closed   -9.4 (V_P < V*: False) | TWA-formula -3.90 dB, TWA-closed -3.42 dB
+dis107_z50   nu=    20.4 n0=1e+10: TWA best  -16.5 dB at Phi    36.6 | formula  -16.1 | closed  -16.1 (V_P < V*: True) | TWA-formula -0.42 dB, TWA-closed -0.42 dB
+reference C > 0 at z = 10, 50, 100: True

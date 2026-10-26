@@ -1,0 +1,15 @@
+run_id: 2026-10-18-claude-interactive.10-zs-modulus-comparison
+date: 2026-10-18
+agent: claude-interactive.10
+model: claude-opus-5-5
+family: claude
+task: T-20261018-claude-interactive-03
+serves: "Novelty audit of C-20261018-pi-chatgpt-01, part (A): numerical sanity check of the auditor's question whether every ZS eigenvalue of a complex potential q has imaginary part at most eta_max(|q|). If true, the complex case of (A) would follow from the real nonnegative case published by Dolbeault-Gontier-Pizzichillo-Van Den Bosch (2024). This is evidence for a loose end (T-20261018-claude-interactive.10-02), not a verification of the claim."
+solver_commit: null
+solver_dirty: null
+solver_note: "No FastDifferentiableMMNLO solver: ZS eigenvalues by Fourier collocation (dense eigvals) on a periodic window of length 40, grids n = 384 and 576, eigenvalues kept only if they match across the two grids within 1e-3 and have Im > 0.02."
+software: "Python 3.9.6 venv ~/agent-work/venv: numpy 2.0.2"
+hardware: "PI's Mac (Darwin 27.0.0), CPU only; peak memory about 120 MB"
+wall_time_s: 384
+seeds: "numpy default_rng(20261018) for the passive-mask and random-Gaussian cases"
+raw_location: none (no raw output; summary.json holds every number)

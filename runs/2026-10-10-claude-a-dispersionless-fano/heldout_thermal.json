@@ -1,0 +1,38 @@
+{
+ "rows": [
+  {
+   "T0_fs": 500.0,
+   "Phi": 15.0,
+   "T_K": 150.0,
+   "lam_gen": 0.01250425863512301,
+   "lam_th": 0.012732476754609517,
+   "lam_P_R": 0.012898932616785026,
+   "gen_over_th": 0.9820759052708354,
+   "bound_holds": true,
+   "gen_window_ok": true,
+   "lam_min_band": 0.005158220638095682,
+   "slice": 0.004909434720675732,
+   "band_over_slice": 1.05067506374455,
+   "band_window_ok": true,
+   "symplectic_min": -4.697852070835444e-13,
+   "wall_s": 2.5
+  },
+  {
+   "T0_fs": 500.0,
+   "Phi": 15.0,
+   "T_K": 300.0,
+   "lam_gen": 0.019429871652916358,
+   "lam_th": 0.01972459280529931,
+   "lam_P_R": 0.019895447165669745,
+   "gen_over_th": 0.9850581882580729,
+   "bound_holds": true,
+   "gen_window_ok": true,
+   "lam_min_band": 0.009038355563181425,
+   "slice": 0.008681437681991255,
+   "band_over_slice": 1.0411127619945437,
+   "band_window_ok": true,
+   "symplectic_min": -4.526222504294943e-13,
+   "wall_s": 2.4
+  }
+ ]
+}

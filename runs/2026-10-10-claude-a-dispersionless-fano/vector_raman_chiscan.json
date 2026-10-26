@@ -1,0 +1,82 @@
+{
+ "rows": [
+  {
+   "chi": 0.1,
+   "T0_fs": 200.0,
+   "T_K": 300.0,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_min": 0.005263458746043449,
+   "lam_gen_insensitive": 0.06582922761737824,
+   "binary_insensitive": 0.5782766504751574,
+   "peak_circ_fraction_plus_in": 0.5993346653975307,
+   "peak_circ_fraction_plus_out": 0.5892210011082474,
+   "wall_s": 99.7
+  },
+  {
+   "chi": 0.2,
+   "T0_fs": 200.0,
+   "T_K": 300.0,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_min": 0.005523958398588242,
+   "lam_gen_insensitive": 0.07412033503966346,
+   "binary_insensitive": 0.62553700017554,
+   "peak_circ_fraction_plus_in": 0.6947091711543251,
+   "peak_circ_fraction_plus_out": 0.6769822648147247,
+   "wall_s": 104.3
+  },
+  {
+   "chi": 0.3,
+   "T0_fs": 200.0,
+   "T_K": 300.0,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_min": 0.006007387545446774,
+   "lam_gen_insensitive": 0.0844018218771034,
+   "binary_insensitive": 0.6952799192627078,
+   "peak_circ_fraction_plus_in": 0.7823212366975176,
+   "peak_circ_fraction_plus_out": 0.7614136606075973,
+   "wall_s": 110.4
+  },
+  {
+   "chi": 0.5,
+   "T0_fs": 200.0,
+   "T_K": 300.0,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_min": 0.007899166783769328,
+   "lam_gen_insensitive": 0.09710276831929532,
+   "binary_insensitive": 0.6461670418283825,
+   "peak_circ_fraction_plus_in": 0.9207354924039484,
+   "peak_circ_fraction_plus_out": 0.9072563343065578,
+   "wall_s": 87.7
+  },
+  {
+   "chi": 0.6,
+   "T0_fs": 200.0,
+   "T_K": 300.0,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_min": 0.0093192316484616,
+   "lam_gen_insensitive": 0.0969362664833877,
+   "binary_insensitive": 0.6115145132537225,
+   "peak_circ_fraction_plus_in": 0.9660195429836133,
+   "peak_circ_fraction_plus_out": 0.9593243893317696,
+   "wall_s": 85.7
+  },
+  {
+   "chi": 0.7,
+   "T0_fs": 200.0,
+   "T_K": 300.0,
+   "Phi": 10.0,
+   "split": "A",
+   "lam_min": 0.010671081793608816,
+   "lam_gen_insensitive": 0.09439094269272139,
+   "binary_insensitive": 0.5799290588780385,
+   "peak_circ_fraction_plus_in": 0.9927248649942303,
+   "peak_circ_fraction_plus_out": 0.9911730612606479,
+   "wall_s": 91.2
+  }
+ ]
+}

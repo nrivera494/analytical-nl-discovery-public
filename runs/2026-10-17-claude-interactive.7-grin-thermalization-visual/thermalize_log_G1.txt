@@ -1,0 +1,2 @@
+G1 sigma=0.3: E'=1.000; drift N 4.3e-06, E' 4.8e-06; z>=2000: <I_0> 0.564 (Dirichlet 0.565); group powers [0.564, 0.142, 0.112, 0.095, 0.087] vs RJ [0.565, 0.143, 0.107, 0.095, 0.089]; mean excited g2 1.884 (Dirichlet 1.867); Var I_0 4.11e-03 (Dirichlet 4.11e-03); wall 36s
+G1 sigma=0.0: E'=1.000; drift N 2.8e-07, E' 2.8e-07; z>=2000: <I_0> 0.000 (Dirichlet 0.565); group powers [0.0, 1.0, 0.0, 0.0, 0.0] vs RJ [0.565, 0.143, 0.107, 0.095, 0.089]; mean excited g2 1.485 (Dirichlet 1.867); Var I_0 4.34e-21 (Dirichlet 4.11e-03); wall 25s

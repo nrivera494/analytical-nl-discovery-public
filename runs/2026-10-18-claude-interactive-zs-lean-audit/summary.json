@@ -1,0 +1,95 @@
+{
+  "run_id": "2026-10-18-claude-interactive-zs-lean-audit",
+  "subject": "formal/ZSFormalization (C-20261018-pi-chatgpt-01, parts A-D at even exponents)",
+  "source_hash_mismatches": 0,
+  "dependency_pin_differences": 0,
+  "build": {
+    "jobs": 9037,
+    "result": "success",
+    "warnings_or_errors": 0
+  },
+  "per_file_messages_total": 0,
+  "escape_hatch_matches": 0,
+  "axioms": {
+    "declarations_checked": 121,
+    "standard_three_only": 121
+  },
+  "leanchecker": {
+    "modules_ok": 13,
+    "modules": 13,
+    "bogus_module_control": "rejected"
+  },
+  "nanoda": {
+    "declarations_checked": 54113,
+    "errors": 0,
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "headline_theorems": 9
+  },
+  "heldout_certificates": {
+    "sech_N_9_2_ceiling_percent": {
+      "value": 0.07161,
+      "lean": "pass",
+      "true_gap_percent": 0.0716052
+    },
+    "sech_N_15_2_ceiling_percent": {
+      "value": 0.01518,
+      "lean": "pass",
+      "true_gap_percent": 0.0151794
+    },
+    "integer_N_7_fraction": {
+      "value": "13/49",
+      "lean": "pass"
+    }
+  },
+  "negative_control": {
+    "value_percent": 0.0716,
+    "lean": "fails as required (norm_num reduces to False)"
+  },
+  "gaussian_even_exponent_ceilings": {
+    "gauss N=1.5": {
+      "TL_eta_claude9": 0.9490752501496978,
+      "TL_f1": 0.9519259913554501,
+      "lean_even_best_2n": 2,
+      "lean_even_f1_ceiling": 1.0,
+      "lean_even_rel_headroom_over_TL": 0.05050183426139803,
+      "realp_p_star": 2.580758950059724,
+      "realp_f1_ceiling_not_formalized": 0.9546240545157323,
+      "realp_rel_headroom_over_TL": 0.0028343202988296186
+    },
+    "gauss N=4": {
+      "TL_eta_claude9": 3.4828771908598113,
+      "TL_f1": 0.49125075796479406,
+      "lean_even_best_2n": 8,
+      "lean_even_f1_ceiling": 0.49147254332827267,
+      "lean_even_rel_headroom_over_TL": 0.0004514707812308979,
+      "realp_p_star": 7.521190449453436,
+      "realp_f1_ceiling_not_formalized": 0.49132435542914565,
+      "realp_rel_headroom_over_TL": 0.00014981649016996084
+    },
+    "gauss N=5": {
+      "TL_eta_claude9": 4.486540026022649,
+      "TL_f1": 0.40500146381632923,
+      "lean_even_best_2n": 10,
+      "lean_even_f1_ceiling": 0.4050915402925141,
+      "lean_even_rel_headroom_over_TL": 0.00022241024843724298,
+      "realp_p_star": 9.516029914863083,
+      "realp_f1_ceiling_not_formalized": 0.40503162293097705,
+      "realp_rel_headroom_over_TL": 7.446668059811212e-05
+    },
+    "gauss N=8": {
+      "TL_eta_claude9": 7.491813998685675,
+      "TL_f1": 0.26417521374598263,
+      "lean_even_best_2n": 16,
+      "lean_even_f1_ceiling": 0.26418870585822807,
+      "lean_even_rel_headroom_over_TL": 5.107258949134844e-05,
+      "realp_p_star": 15.50916722734686,
+      "realp_f1_ceiling_not_formalized": 0.26417975317895553,
+      "realp_rel_headroom_over_TL": 1.7183417431852303e-05
+    }
+  },
+  "note": "Gaussian numbers are mpmath evaluations of the Lean-proved even-exponent ceiling, not Lean certificates. TL eigenvalues are from run 2026-10-18-claude-interactive.9-mask-adversary. The real-p ceiling is the claim's (E), not formalized."
+}

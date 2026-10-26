@@ -1,0 +1,10 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-gate-null
+z_final: 3*pi/4
+precision: 100
+gates:
+- 15
+- 20
+observable: integral of gated exact NLSE spectrum at w>=1/(6*delta3), divided by 2

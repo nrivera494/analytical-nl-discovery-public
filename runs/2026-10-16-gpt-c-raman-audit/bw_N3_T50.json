@@ -1,0 +1,563 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "case": {
+    "id": "bw_N3_T50",
+    "N": 3,
+    "T0_fs": 50,
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-08
+  },
+  "checkpoints": [
+    {
+      "zN": 2,
+      "z_LD": 0.6666666666666666,
+      "length_m": 0.07680491551459293,
+      "mass_drift": 8.74245911219873e-08,
+      "photon_drift": 8.742459156607651e-08,
+      "steps": 223,
+      "rejected": 0,
+      "max_spectral_edge_fraction": 1.1754594214104836e-32,
+      "max_time_edge_fraction": 5.54380448584063e-31,
+      "spectral_edge_fraction": 1.1983727235034887e-32,
+      "time_edge_fraction": 5.347045456765467e-31,
+      "nonpositive_frequency_fraction": 1.822840904047629e-15,
+      "runtime_s": 2.596142540999999,
+      "dt_fs": 0.48828125,
+      "energy_launch_nJ": 6.0092307692307685,
+      "peaks": [
+        {
+          "index": 8125,
+          "t_peak": -0.654296875,
+          "peak_power_normalized": 6.439697013983259,
+          "red_w": -0.5889831196164774,
+          "red_shift_THz": -1.874791497692949,
+          "lambda_nm": 1535.1198856714595,
+          "width_fs": 17.72801201760661,
+          "bounds": [
+            -4.19921875,
+            0.37109375
+          ],
+          "boundary_intensity_ratio": 0.020340975252666097,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 0.07486784060865181,
+            "eta": -0.040185262814688115,
+            "residual": 2.3088902282403703e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": -0.008930058403264026,
+          "f_window": 0.2750013720713798,
+          "zs_window_ratio": -0.03247277763016442,
+          "energy_zs_nJ": -0.05366278172792198
+        },
+        {
+          "index": 8284,
+          "t_peak": 0.8984375,
+          "peak_power_normalized": 33.36517168118835,
+          "red_w": 3.505388489380469,
+          "red_shift_THz": 11.157998110846671,
+          "lambda_nm": 1644.8931749117778,
+          "width_fs": 9.141006196578408,
+          "bounds": [
+            0.37109375,
+            2.734375
+          ],
+          "boundary_intensity_ratio": 0.00392594166299329,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -0.11173144829074977,
+            "eta": 3.0087544686372327,
+            "residual": 1.4280211623353798e-14,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6686121041416073,
+          "f_window": 0.7216297295752461,
+          "zs_window_ratio": 0.9265307078398154,
+          "energy_zs_nJ": 4.017844428887873
+        }
+      ],
+      "leading": {
+        "index": 8284,
+        "t_peak": 0.8984375,
+        "peak_power_normalized": 33.36517168118835,
+        "red_w": 3.505388489380469,
+        "red_shift_THz": 11.157998110846671,
+        "lambda_nm": 1644.8931749117778,
+        "width_fs": 9.141006196578408,
+        "bounds": [
+          0.37109375,
+          2.734375
+        ],
+        "boundary_intensity_ratio": 0.00392594166299329,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.11173144829074977,
+          "eta": 3.0087544686372327,
+          "residual": 1.4280211623353798e-14,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6686121041416073,
+        "f_window": 0.7216297295752461,
+        "zs_window_ratio": 0.9265307078398154,
+        "energy_zs_nJ": 4.017844428887873
+      }
+    },
+    {
+      "zN": 2.5,
+      "z_LD": 0.8333333333333334,
+      "length_m": 0.09600614439324118,
+      "mass_drift": 9.5143709355483e-08,
+      "photon_drift": 9.514370979957221e-08,
+      "steps": 283,
+      "rejected": 0,
+      "max_spectral_edge_fraction": 1.1754594214104836e-32,
+      "max_time_edge_fraction": 5.54380448584063e-31,
+      "spectral_edge_fraction": 1.228485495663231e-32,
+      "time_edge_fraction": 8.234848944830502e-31,
+      "nonpositive_frequency_fraction": 1.591697518292302e-14,
+      "runtime_s": 3.492933916,
+      "dt_fs": 0.48828125,
+      "energy_launch_nJ": 6.0092307692307685,
+      "peaks": [
+        {
+          "index": 7974,
+          "t_peak": -2.12890625,
+          "peak_power_normalized": 0.38066770727110927,
+          "red_w": -0.25294544440937383,
+          "red_shift_THz": -0.8051503562065615,
+          "lambda_nm": 1543.574372519434,
+          "width_fs": 21.052014270907847,
+          "bounds": [
+            -6.337890625,
+            -1.591796875
+          ],
+          "boundary_intensity_ratio": 0.07649074521019676,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -0.08920227897358957,
+            "eta": -0.3745220781184388,
+            "residual": 1.5939531933641094e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": -0.08322712847076418,
+          "f_window": 0.01903987660222084,
+          "zs_window_ratio": -4.371201043448803,
+          "energy_zs_nJ": -0.5001310212412381
+        },
+        {
+          "index": 8115,
+          "t_peak": -0.751953125,
+          "peak_power_normalized": 7.4348516235790285,
+          "red_w": -0.4768717960738303,
+          "red_shift_THz": -1.5179300713252075,
+          "lambda_nm": 1537.9302189888494,
+          "width_fs": 16.620011266506197,
+          "bounds": [
+            -1.591796875,
+            0.05859375
+          ],
+          "boundary_intensity_ratio": 0.003916360148234864,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 0.0005025340090623946,
+            "eta": 1.0364325244006294,
+            "residual": 1.060181471544633e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.2303183387556954,
+          "f_window": 0.25610989402065587,
+          "zs_window_ratio": 0.899294967249956,
+          "energy_zs_nJ": 1.3840360479688405
+        },
+        {
+          "index": 8366,
+          "t_peak": 1.69921875,
+          "peak_power_normalized": 35.89078210161825,
+          "red_w": 4.6396302330940005,
+          "red_shift_THz": 14.768401714310254,
+          "lambda_nm": 1678.1361545659845,
+          "width_fs": 8.864006008803305,
+          "bounds": [
+            0.05859375,
+            2.1875
+          ],
+          "boundary_intensity_ratio": 0.007225043978682675,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -0.09971506720588574,
+            "eta": 3.0205867357943172,
+            "residual": 3.720179105952653e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6712414968431816,
+          "f_window": 0.7089134410002416,
+          "zs_window_ratio": 0.9468595995247223,
+          "energy_zs_nJ": 4.0336450564145645
+        },
+        {
+          "index": 8439,
+          "t_peak": 2.412109375,
+          "peak_power_normalized": 0.43498061130307475,
+          "red_w": 2.5343795451668707,
+          "red_shift_THz": 8.067180645685939,
+          "lambda_nm": 1617.4632402793454,
+          "width_fs": 67.86504600490031,
+          "bounds": [
+            2.1875,
+            15.986328125
+          ],
+          "boundary_intensity_ratio": 0.5961472129451574,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 0.030537620252536878,
+            "eta": -0.5929160408651869,
+            "residual": 5.975872169001004e-17,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": -0.13175912019226377,
+          "f_window": 0.015933757757467165,
+          "zs_window_ratio": -8.269180578606225,
+          "energy_zs_nJ": -0.7917709591861267
+        }
+      ],
+      "leading": {
+        "index": 8366,
+        "t_peak": 1.69921875,
+        "peak_power_normalized": 35.89078210161825,
+        "red_w": 4.6396302330940005,
+        "red_shift_THz": 14.768401714310254,
+        "lambda_nm": 1678.1361545659845,
+        "width_fs": 8.864006008803305,
+        "bounds": [
+          0.05859375,
+          2.1875
+        ],
+        "boundary_intensity_ratio": 0.007225043978682675,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.09971506720588574,
+          "eta": 3.0205867357943172,
+          "residual": 3.720179105952653e-15,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6712414968431816,
+        "f_window": 0.7089134410002416,
+        "zs_window_ratio": 0.9468595995247223,
+        "energy_zs_nJ": 4.0336450564145645
+      }
+    },
+    {
+      "zN": 3,
+      "z_LD": 1.0,
+      "length_m": 0.1152073732718894,
+      "mass_drift": 9.255386657081033e-08,
+      "photon_drift": 9.255386723694414e-08,
+      "steps": 349,
+      "rejected": 0,
+      "max_spectral_edge_fraction": 1.2412890518079297e-32,
+      "max_time_edge_fraction": 8.650933365212915e-31,
+      "spectral_edge_fraction": 1.271150866961899e-32,
+      "time_edge_fraction": 9.578754055527774e-24,
+      "nonpositive_frequency_fraction": 1.1556814987222157e-15,
+      "runtime_s": 4.327367707999999,
+      "dt_fs": 0.48828125,
+      "energy_launch_nJ": 6.0092307692307685,
+      "peaks": [
+        {
+          "index": 7947,
+          "t_peak": -2.392578125,
+          "peak_power_normalized": 0.3909991455612742,
+          "red_w": -1.3206303032759024,
+          "red_shift_THz": -4.2036968152661744,
+          "lambda_nm": 1517.028692042088,
+          "width_fs": 22.71401539755847,
+          "bounds": [
+            -6.93359375,
+            -1.73828125
+          ],
+          "boundary_intensity_ratio": 0.058592232984556764,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 0.2141248212906275,
+            "eta": -0.6768070390009437,
+            "residual": 5.887846720064156e-17,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": -0.15040156422243195,
+          "f_window": 0.01897800662420087,
+          "zs_window_ratio": -7.92504540654122,
+          "energy_zs_nJ": -0.9037977074658756
+        },
+        {
+          "index": 8108,
+          "t_peak": -0.8203125,
+          "peak_power_normalized": 6.920091718182138,
+          "red_w": -0.20018702078395842,
+          "red_shift_THz": -0.6372150780121395,
+          "lambda_nm": 1544.9102051154491,
+          "width_fs": 17.72801201760661,
+          "bounds": [
+            -1.73828125,
+            0.009765625
+          ],
+          "boundary_intensity_ratio": 0.02447088961008598,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 0.006097676818009229,
+            "eta": 1.0272132366601212,
+            "residual": 1.22869895602425e-13,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.22826960814669361,
+          "f_window": 0.25305708684498884,
+          "zs_window_ratio": 0.9020478777838816,
+          "energy_zs_nJ": 1.3717247529553618
+        },
+        {
+          "index": 8300,
+          "t_peak": 1.0546875,
+          "peak_power_normalized": 0.5042050440698741,
+          "red_w": -0.08353547805449206,
+          "red_shift_THz": -0.2659016851183391,
+          "lambda_nm": 1547.8720219924853,
+          "width_fs": 37.39502534963894,
+          "bounds": [
+            0.009765625,
+            1.6796875
+          ],
+          "boundary_intensity_ratio": 0.33585701396481393,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 0.022703948336114547,
+            "eta": -0.66114013028291,
+            "residual": 1.82689691394671e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": -0.14692002895175776,
+          "f_window": 0.03449665690061118,
+          "zs_window_ratio": -4.258964263553167,
+          "energy_zs_nJ": -0.8828763585931781
+        },
+        {
+          "index": 8464,
+          "t_peak": 2.65625,
+          "peak_power_normalized": 30.37905279170996,
+          "red_w": 6.076940712507341,
+          "red_shift_THz": 19.343503065438554,
+          "lambda_nm": 1722.2425456769968,
+          "width_fs": 9.972006759903717,
+          "bounds": [
+            1.6796875,
+            4.658203125
+          ],
+          "boundary_intensity_ratio": 0.004241149246011446,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -0.07295868285606413,
+            "eta": 3.0077804040395346,
+            "residual": 1.5222927858840305e-14,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6683956453421188,
+          "f_window": 0.6933743224665018,
+          "zs_window_ratio": 0.9639751915883938,
+          "energy_zs_nJ": 4.016543678009716
+        }
+      ],
+      "leading": {
+        "index": 8464,
+        "t_peak": 2.65625,
+        "peak_power_normalized": 30.37905279170996,
+        "red_w": 6.076940712507341,
+        "red_shift_THz": 19.343503065438554,
+        "lambda_nm": 1722.2425456769968,
+        "width_fs": 9.972006759903717,
+        "bounds": [
+          1.6796875,
+          4.658203125
+        ],
+        "boundary_intensity_ratio": 0.004241149246011446,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": -0.07295868285606413,
+          "eta": 3.0077804040395346,
+          "residual": 1.5222927858840305e-14,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6683956453421188,
+        "f_window": 0.6933743224665018,
+        "zs_window_ratio": 0.9639751915883938,
+        "energy_zs_nJ": 4.016543678009716
+      }
+    },
+    {
+      "zN": 4,
+      "z_LD": 1.3333333333333333,
+      "length_m": 0.15360983102918585,
+      "mass_drift": 9.529476696634731e-08,
+      "photon_drift": 9.529476807657034e-08,
+      "steps": 478,
+      "rejected": 0,
+      "max_spectral_edge_fraction": 1.2990808290978422e-32,
+      "max_time_edge_fraction": 5.484020326640805e-24,
+      "spectral_edge_fraction": 1.362102603139942e-32,
+      "time_edge_fraction": 9.064903566551014e-22,
+      "nonpositive_frequency_fraction": 4.971472337444415e-15,
+      "runtime_s": 5.736374915999999,
+      "dt_fs": 0.48828125,
+      "energy_launch_nJ": 6.0092307692307685,
+      "peaks": [
+        {
+          "index": 7917,
+          "t_peak": -2.685546875,
+          "peak_power_normalized": 0.4231575206692188,
+          "red_w": -1.8223803660918823,
+          "red_shift_THz": -5.800816869142818,
+          "lambda_nm": 1504.8665896604277,
+          "width_fs": 143.7630974552786,
+          "bounds": [
+            -31.435546875,
+            -2.05078125
+          ],
+          "boundary_intensity_ratio": 0.6719589062610649,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -0.00026079523994761817,
+            "eta": -0.4201817691566713,
+            "residual": 9.708256621442604e-06,
+            "success": false,
+            "points": 2048
+          },
+          "f_zs": -0.09337372647926029,
+          "f_window": 0.028338189280439796,
+          "zs_window_ratio": -3.2949785730914973,
+          "energy_zs_nJ": -0.5611042701969086
+        },
+        {
+          "index": 8103,
+          "t_peak": -0.869140625,
+          "peak_power_normalized": 3.794011820714437,
+          "red_w": 0.12014617560963863,
+          "red_shift_THz": 0.382437154837218,
+          "lambda_nm": 1553.070876490367,
+          "width_fs": 28.53101934083564,
+          "bounds": [
+            -2.05078125,
+            3.583984375
+          ],
+          "boundary_intensity_ratio": 0.07494559273974226,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": -0.1480112790383766,
+            "eta": 1.0472060226406574,
+            "residual": 6.189555594204716e-15,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.23271244947570166,
+          "f_window": 0.29197508835899805,
+          "zs_window_ratio": 0.7970284409660663,
+          "energy_zs_nJ": 1.398422811772447
+        },
+        {
+          "index": 8717,
+          "t_peak": 5.126953125,
+          "peak_power_normalized": 30.75072523889079,
+          "red_w": 8.781443699583422,
+          "red_shift_THz": 27.952203445437647,
+          "lambda_nm": 1811.8476783804285,
+          "width_fs": 10.24900694767882,
+          "bounds": [
+            3.583984375,
+            7.177734375
+          ],
+          "boundary_intensity_ratio": 0.00023327431295514997,
+          "local_beta2_ratio": 1.0,
+          "local_gamma_ratio": 1.0,
+          "zs": {
+            "real": 0.00196701399049753,
+            "eta": 3.023278476088141,
+            "residual": 3.3034983689927844e-16,
+            "success": true,
+            "points": 2048
+          },
+          "f_zs": 0.6718396613529202,
+          "f_window": 0.6796704916169962,
+          "zs_window_ratio": 0.9884784901497697,
+          "energy_zs_nJ": 4.037239564991547
+        }
+      ],
+      "leading": {
+        "index": 8717,
+        "t_peak": 5.126953125,
+        "peak_power_normalized": 30.75072523889079,
+        "red_w": 8.781443699583422,
+        "red_shift_THz": 27.952203445437647,
+        "lambda_nm": 1811.8476783804285,
+        "width_fs": 10.24900694767882,
+        "bounds": [
+          3.583984375,
+          7.177734375
+        ],
+        "boundary_intensity_ratio": 0.00023327431295514997,
+        "local_beta2_ratio": 1.0,
+        "local_gamma_ratio": 1.0,
+        "zs": {
+          "real": 0.00196701399049753,
+          "eta": 3.023278476088141,
+          "residual": 3.3034983689927844e-16,
+          "success": true,
+          "points": 2048
+        },
+        "f_zs": 0.6718396613529202,
+        "f_window": 0.6796704916169962,
+        "zs_window_ratio": 0.9884784901497697,
+        "energy_zs_nJ": 4.037239564991547
+      }
+    }
+  ],
+  "physical_dispersion": {
+    "D1550_ps_nm_km": 17.013627059563838,
+    "S0_ps_nm2_km": 0.08964480041257102,
+    "beta3_ps3_km": 0.12797502770925123
+  },
+  "complete": true,
+  "wall_seconds": 5.759136249999999
+}

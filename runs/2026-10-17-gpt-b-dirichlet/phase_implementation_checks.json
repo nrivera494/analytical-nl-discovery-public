@@ -1,0 +1,8 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "original_phase_draws_checked": 200,
+  "max_single_vs_batched_final_field_difference": 0.0,
+  "pass_exact_retention": true
+}

@@ -1,0 +1,111 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-nextorder-detuning-prediction",
+  "task": "T-20261004-claude-interactive-07",
+  "nu3": 0.8228756555322954,
+  "lambda3": 0.3385621722338524,
+  "gap": 0.16143782776614762,
+  "ground_overlap_squared": 1.9862850457081291,
+  "continuum_source_norm_squared": 0.23839621919833798,
+  "ratios": [
+    0.0002,
+    0.0006,
+    0.002
+  ],
+  "output_planes": [
+    0.0,
+    5.0,
+    11.0,
+    17.0
+  ],
+  "rows": [
+    {
+      "mu": -0.7,
+      "zeta": 0.0,
+      "K_lower": 0.0,
+      "K_upper": 0.04138823249971146,
+      "continuum_upper": 0.04138823249971146
+    },
+    {
+      "mu": -0.7,
+      "zeta": 5.0,
+      "K_lower": 0.19451815253585752,
+      "K_upper": 0.235906385035569,
+      "continuum_upper": 0.04138823249971146
+    },
+    {
+      "mu": -0.7,
+      "zeta": 11.0,
+      "K_lower": 0.2788569314074489,
+      "K_upper": 0.32024516390716035,
+      "continuum_upper": 0.04138823249971146
+    },
+    {
+      "mu": -0.7,
+      "zeta": 17.0,
+      "K_lower": 0.20729753058116457,
+      "K_upper": 0.24868576308087603,
+      "continuum_upper": 0.04138823249971146
+    },
+    {
+      "mu": -7.0,
+      "zeta": 0.0,
+      "K_lower": 0.0,
+      "K_upper": 0.0010595387519926132,
+      "continuum_upper": 0.0010595387519926132
+    },
+    {
+      "mu": -7.0,
+      "zeta": 5.0,
+      "K_lower": 0.00265593431460211,
+      "K_upper": 0.003715473066594723,
+      "continuum_upper": 0.0010595387519926132
+    },
+    {
+      "mu": -7.0,
+      "zeta": 11.0,
+      "K_lower": 0.003981534955455436,
+      "K_upper": 0.00504107370744805,
+      "continuum_upper": 0.0010595387519926132
+    },
+    {
+      "mu": -7.0,
+      "zeta": 17.0,
+      "K_lower": 0.003457203753302442,
+      "K_upper": 0.004516742505295055,
+      "continuum_upper": 0.0010595387519926132
+    },
+    {
+      "mu": -47.0,
+      "zeta": 0.0,
+      "K_lower": 0.0,
+      "K_upper": 2.641509353998205e-05,
+      "continuum_upper": 2.641509353998205e-05
+    },
+    {
+      "mu": -47.0,
+      "zeta": 5.0,
+      "K_lower": 9.227958720502091e-05,
+      "K_upper": 0.00011869468074500296,
+      "continuum_upper": 2.641509353998205e-05
+    },
+    {
+      "mu": -47.0,
+      "zeta": 11.0,
+      "K_lower": 8.918321031511862e-05,
+      "K_upper": 0.00011559830385510067,
+      "continuum_upper": 2.641509353998205e-05
+    },
+    {
+      "mu": -47.0,
+      "zeta": 17.0,
+      "K_lower": 8.393206948040641e-05,
+      "K_upper": 0.00011034716302038845,
+      "continuum_upper": 2.641509353998205e-05
+    }
+  ],
+  "prediction": "The leading LP03 energy coefficient lies in every analytic interval. Full LP03 energy is r^2 K + O(r^3); error has epsilon exponent 6.",
+  "prior_evidence": "Designed after main and half-boundary runs; new carrier mismatches and output planes have not been evaluated."
+}

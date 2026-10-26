@@ -1,0 +1,6 @@
+{"laser": "gauss", "A": 6.0, "class": "phi", "start": 0, "scale": 0.0, "eta_TL": 5.488917, "eta_opt": 5.488917, "ratio_to_TL": 1.0, "q_inf_final": 6.0, "bound_2N_over_2N1": null, "nit": 0, "wall_s": 3.2}
+{"laser": "gauss", "A": 6.0, "class": "phi", "start": 1, "scale": 0.5, "eta_TL": 5.488917, "eta_opt": 5.488917, "ratio_to_TL": 1.0, "q_inf_final": 6.0, "bound_2N_over_2N1": null, "nit": 39, "wall_s": 153.3}
+{"laser": "gauss", "A": 6.0, "class": "phi", "start": 2, "scale": 1.0, "eta_TL": 5.488917, "eta_opt": 5.488917, "ratio_to_TL": 1.0, "q_inf_final": 6.0, "bound_2N_over_2N1": null, "nit": 54, "wall_s": 161.1}
+{"laser": "gauss", "A": 6.0, "class": "Aphi", "start": 0, "scale": 0.0, "eta_TL": 5.488917, "eta_opt": 5.488916, "ratio_to_TL": 1.0, "q_inf_final": 5.999999, "bound_2N_over_2N1": null, "nit": 17, "wall_s": 40.2}
+{"laser": "gauss", "A": 6.0, "class": "Aphi", "start": 1, "scale": 0.5, "eta_TL": 5.488917, "eta_opt": 5.488917, "ratio_to_TL": 1.0, "q_inf_final": 5.999997, "bound_2N_over_2N1": null, "nit": 41, "wall_s": 88.3}
+{"laser": "gauss", "A": 6.0, "class": "Aphi", "start": 2, "scale": 1.0, "eta_TL": 5.488917, "eta_opt": 5.488917, "ratio_to_TL": 1.0, "q_inf_final": 6.0, "bound_2N_over_2N1": null, "nit": 51, "wall_s": 116.0}

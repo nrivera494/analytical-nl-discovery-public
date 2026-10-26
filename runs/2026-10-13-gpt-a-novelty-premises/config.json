@@ -1,0 +1,14 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "seed": 20261013,
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-13-gpt-a-novelty-premises",
+  "gaussian": {"P0": 1.0, "T0": 1.0, "beta2": 1.0, "gamma": 4.0, "chirps": [0.0, 1.0, 3.0, 8.0], "half_window_T0": 12.0},
+  "recoil": {"b": 1.0, "c": 0.3, "redshifts": [0.0, 0.5, 2.0]},
+  "blue_budget": {"eta": 0.2, "blue_edge": 2.0, "blue_conditional_mean": 3.0, "red_conditional_mean_magnitude": 1.0},
+  "selective_loss": {"initial_red": 0.5, "initial_blue": 0.5, "red_transmission": 0.1, "blue_transmission": 1.0, "red_frequency": -1.0, "blue_frequency": 1.0},
+  "toy_covariance": {"target_shift": 1.0, "L": 1.0, "Nph": 10000.0, "c": 1.0, "k": [0.1, 1.0, 4.0, 8.0]},
+  "raman_generator": {"note": "Deterministic parameters and exact three-mode field are specified in check.py; hbar=1; periodic quadrature, not propagation", "grid_points": [256, 512], "period": "2*pi", "tau1": 0.2, "tau2": 0.4, "carrier": 300.0, "gamma": 1.0, "fR": 0.18},
+  "scope": "Dimensionless algebra and quadrature checks only. No NLSE propagation, no simulated conversion yields, no physical counterexample to a quantum Raman bound."
+}

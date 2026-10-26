@@ -1,0 +1,11 @@
+{
+  "run_id": "2026-10-16-gpt-d-c02-literature",
+  "agent": "gpt-d", "model": "gpt-6-astra", "family": "gpt",
+  "sources": [
+    {"doi": "10.1364/JOSAB.377891", "access": "full text", "url": "https://ri.itba.edu.ar/bitstreams/c884d094-31f2-47ae-baf2-27d64a618e54/download", "finding": "Photon-conserving equation and monotone energy examples. Numbered equations do not explicitly state the general spectral energy identity or the proposed E-squared bound."},
+    {"doi": "10.1364/OL.401096", "access": "full text", "url": "https://ri.itba.edu.ar/bitstreams/0d26bf6e-2c0a-4777-9a93-dcf273d9a402/download", "finding": "Self-steepening measurement using photon-conserving model, primarily without Raman. Proposed universal Raman bound not found."},
+    {"arxiv": "2607.05244", "access": "full text accessed; energy and bright-soliton sections read", "url": "https://arxiv.org/html/2607.05244v1", "finding": "Long-pulse sech energy-loss law contains inverse-cube width dependence. No universal E-squared coefficient or retention bound found in the read sections."},
+    {"doi": "10.1109/JQE.2020.3047691", "access": "full text", "url": "https://ri.itba.edu.ar/server/api/core/bitstreams/5cbed3fa-9deb-4843-aa1e-1c9c230773c3/content", "finding": "Raman/self-steepening and higher-order nonlinear dispersion analysis. General spectral energy identity, E-squared coefficient and retention bound not found explicitly. Read after independent audit report commit."}
+  ],
+  "scope": "Restricted primary-source search; no proof of novelty. The E-squared inequality follows by a short positivity and triangle-inequality argument."
+}

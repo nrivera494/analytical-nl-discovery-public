@@ -1,0 +1,5 @@
+[
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"conv_wide_measured_N3_T80_fixed130cm","N":3,"T0_fs":80,"n":32768,"width":320,"tol":1e-9,"zN":[4,8,12.248029652724857],"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"conv_fine_measured_N3_T80_fixed130cm","N":3,"T0_fs":80,"n":32768,"width":160,"tol":1e-9,"zN":[4,8,12.248029652724857],"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2},
+  {"agent":"gpt-c","model":"gpt-6-astra","family":"gpt","id":"conv_tight_measured_N3_T80_fixed130cm","N":3,"T0_fs":80,"n":32768,"width":320,"tol":1e-11,"zN":[4,8,12.248029652724857],"dispersion":"measured","raman":"hc","shock":true,"loss_db_km":0.2}
+]

@@ -1,0 +1,305 @@
+{
+  "provenance": {
+    "agent": "gpt-a",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "parity_rayleigh": {
+    "covariances": 500,
+    "binary_masks_per_covariance": 255,
+    "nonnegative_weights_per_covariance": 100,
+    "min_margin": 0.07671082947423524,
+    "violations": []
+  },
+  "physical_attenuator_counterexample": {
+    "A": [
+      [
+        2.0,
+        -2.0000000000000004,
+        1.0000000000000002
+      ],
+      [
+        -2.0000000000000004,
+        5.000000000000001,
+        -2.0000000000000004
+      ],
+      [
+        1.0000000000000002,
+        -2.0000000000000004,
+        2.0
+      ]
+    ],
+    "mean_photons": [
+      1000000,
+      1000000,
+      1000000
+    ],
+    "B": [
+      0,
+      2
+    ],
+    "T": [
+      0.25,
+      0.0
+    ],
+    "lambda_even": 3.0,
+    "lambda_odd": 1.0,
+    "F_par": 2.0,
+    "physical_F": 1.25,
+    "total_count_F": 0.9999999999999999,
+    "uncertainty_min_eig": -6.470635043190464e-17,
+    "corrected_bound": "min(1,F_par)"
+  },
+  "physical_attenuator_Kerr_counterexample": [
+    {
+      "nt": 256,
+      "window": 24.0,
+      "Phi": 5.0,
+      "bin_detunings": [
+        0.2617993877991494,
+        -0.2617993877991494
+      ],
+      "relative_bin_brightness": 0.10124860773002214,
+      "T": [
+        0.25,
+        0.0
+      ],
+      "V_amp": [
+        [
+          2.8363041166860836,
+          1.7447532818480902
+        ],
+        [
+          1.7447532818480902,
+          2.836304116686083
+        ]
+      ],
+      "lambda_even": 4.581057398534173,
+      "lambda_odd": 1.091550834837993,
+      "F_par": 2.836304116686083,
+      "physical_F": 1.4590760291715208
+    },
+    {
+      "nt": 512,
+      "window": 24.0,
+      "Phi": 5.0,
+      "bin_detunings": [
+        0.2617993877991494,
+        -0.2617993877991494
+      ],
+      "relative_bin_brightness": 0.10124860773002207,
+      "T": [
+        0.25,
+        0.0
+      ],
+      "V_amp": [
+        [
+          2.8363041166860814,
+          1.7447532818480918
+        ],
+        [
+          1.7447532818480918,
+          2.8363041166860854
+        ]
+      ],
+      "lambda_even": 4.581057398534175,
+      "lambda_odd": 1.0915508348379914,
+      "F_par": 2.836304116686083,
+      "physical_F": 1.4590760291715204
+    },
+    {
+      "nt": 1024,
+      "window": 24.0,
+      "Phi": 5.0,
+      "bin_detunings": [
+        0.2617993877991494,
+        -0.2617993877991494
+      ],
+      "relative_bin_brightness": 0.10124860773002203,
+      "T": [
+        0.25,
+        0.0
+      ],
+      "V_amp": [
+        [
+          2.8363041166860894,
+          1.744753281848093
+        ],
+        [
+          1.744753281848093,
+          2.8363041166860894
+        ]
+      ],
+      "lambda_even": 4.581057398534183,
+      "lambda_odd": 1.0915508348379963,
+      "F_par": 2.8363041166860894,
+      "physical_F": 1.4590760291715223
+    }
+  ],
+  "arbitrary_shear": [
+    {
+      "n": 2,
+      "actual": 0.22970035629331284,
+      "formula": 0.22970035629331317,
+      "relative_error": -1.4432899320127035e-15
+    },
+    {
+      "n": 7,
+      "actual": 0.06911079182058451,
+      "formula": 0.0691107918205857,
+      "relative_error": -1.7319479184152442e-14
+    },
+    {
+      "n": 19,
+      "actual": 0.01568256627140685,
+      "formula": 0.015682566271410375,
+      "relative_error": -2.248201624865942e-13
+    }
+  ],
+  "polarization": [
+    {
+      "regime": "isotropic",
+      "Phi": 1,
+      "angle": 0.0,
+      "effective_Phi": 1.0,
+      "lambda_min": 0.1715728752313036,
+      "relative_error": -1.3117629205083858e-10
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 1,
+      "angle": 0.39269908169872414,
+      "effective_Phi": 0.8603796100280633,
+      "lambda_min": 0.21050378020808125,
+      "relative_error": -6.352474102300221e-11
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 1,
+      "angle": 0.7853981633974483,
+      "effective_Phi": 0.6666666666666666,
+      "lambda_min": 0.2864216553341164,
+      "relative_error": -5.3144266765059456e-11
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 5,
+      "angle": 0.0,
+      "effective_Phi": 5.0,
+      "lambda_min": 0.009804864071552972,
+      "relative_error": -6.10643757781304e-11
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 5,
+      "angle": 0.39269908169872414,
+      "effective_Phi": 4.301898050140317,
+      "lambda_min": 0.013155791273650937,
+      "relative_error": -2.6929902752215185e-11
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 5,
+      "angle": 0.7853981633974483,
+      "effective_Phi": 3.3333333333333335,
+      "lambda_min": 0.021541091308645045,
+      "relative_error": -5.772404776394069e-11
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 20,
+      "angle": 0.0,
+      "effective_Phi": 20.0,
+      "lambda_min": 0.0006242199687396317,
+      "relative_error": 2.7032087679401684e-10
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 20,
+      "angle": 0.39269908169872414,
+      "effective_Phi": 17.20759220056127,
+      "lambda_min": 0.0008428831473098775,
+      "relative_error": 2.790663256035941e-10
+    },
+    {
+      "regime": "isotropic",
+      "Phi": 20,
+      "angle": 0.7853981633974483,
+      "effective_Phi": 13.333333333333334,
+      "lambda_min": 0.001402308772154155,
+      "relative_error": 1.618152278837215e-10
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 1,
+      "angle": 0.0,
+      "effective_Phi": 1.0,
+      "lambda_min": 0.17157287525428314,
+      "relative_error": 2.758238082378739e-12
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 1,
+      "angle": 0.39269908169872414,
+      "effective_Phi": 0.9249182927993986,
+      "lambda_min": 0.19117837902441956,
+      "relative_error": -5.442568618008181e-11
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 1,
+      "angle": 0.7853981633974483,
+      "effective_Phi": 0.8333333333333333,
+      "lambda_min": 0.2193750900054612,
+      "relative_error": -9.330236583338092e-11
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 5,
+      "angle": 0.0,
+      "effective_Phi": 5.0,
+      "lambda_min": 0.009804864072337556,
+      "relative_error": 1.8955503833240073e-11
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 5,
+      "angle": 0.39269908169872414,
+      "effective_Phi": 4.624591463996993,
+      "lambda_min": 0.011423876416700264,
+      "relative_error": 1.361621926321277e-11
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 5,
+      "angle": 0.7853981633974483,
+      "effective_Phi": 4.166666666666666,
+      "lambda_min": 0.013999632825483952,
+      "relative_error": -7.635503340708283e-11
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 20,
+      "angle": 0.0,
+      "effective_Phi": 20.0,
+      "lambda_min": 0.0006242199688949755,
+      "relative_error": 5.191815866112393e-10
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 20,
+      "angle": 0.39269908169872414,
+      "effective_Phi": 18.498365855987974,
+      "lambda_min": 0.0007295236779874828,
+      "relative_error": 3.8959790948922546e-10
+    },
+    {
+      "regime": "birefringent",
+      "Phi": 20,
+      "angle": 0.7853981633974483,
+      "effective_Phi": 16.666666666666664,
+      "lambda_min": 0.0008983836359378065,
+      "relative_error": 1.0961453966729096e-10
+    }
+  ]
+}

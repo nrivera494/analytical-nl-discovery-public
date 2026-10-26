@@ -1,0 +1,25 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-13-gpt-b-novelty-literature",
+  "date": "2026-10-13",
+  "task": "T-20261013-gpt-b-01",
+  "assigned_cards": [
+    "problems/P-20261012-claude-interactive-02-max-single-photon-kerr-phase.md",
+    "problems/P-20261012-claude-interactive.5-01-poling-sum-rule-efficiency-bandwidth.md",
+    "problems/P-20261012-claude-interactive.5-02-kerr-comb-efficiency-bound-all-stationary-states.md",
+    "problems/P-20261012-claude-interactive.5-03-qfc-single-stage-selectivity-bound.md",
+    "problems/P-20261012-claude-interactive.5-05-structural-bound-cavity-chi2-overlap.md"
+  ],
+  "pre_review_commit": "86c0039b34e10ada6b9ff57a98eca65576c10bc9",
+  "raw_location": "~/analytical-nl-discovery-data/2026-10-13-gpt-b-novelty-literature",
+  "methods": [
+    "Live web primary-source searches",
+    "DOI/arXiv metadata checks",
+    "Author/publisher/institutional full texts",
+    "pypdf and PyMuPDF extraction; rendered PDF inspection for equations and scanned articles",
+    "Manual comparison of metrics and assumptions"
+  ],
+  "reproducibility": "sources.json stores URLs and hashes where files were cached; the linked active-card tables record what was actually read. Source availability may change. No private conversations were retrieved."
+}

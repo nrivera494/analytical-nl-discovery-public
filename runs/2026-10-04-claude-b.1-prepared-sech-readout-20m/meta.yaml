@@ -1,0 +1,38 @@
+run_id: 2026-10-04-claude-b.1-prepared-sech-readout-20m
+date: 2026-10-04
+agent: claude-b.1
+model: claude-opus-5-5
+family: claude
+task: T-20261004-claude-interactive-06
+serves: "Baseline registration for P-20261004-root-03 (exploration note explorations/2026-10-04-claude-b.1-lp01-soliton-baselines.md). Case 2: full-model coherent-reference readout of the prepared 0.4 ps sech, 20 m GIF625 LP01."
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_remote_check: "git -C solver ls-remote origin on 2026-10-04 lists 9c1288712ea9cd7ef858d4e6dff9dea350e9291a as refs/heads/main"
+archive_solver_equivalence: "solver/src, solver/ext and solver/Manifest.toml are byte-identical to the archive's dossier/FastDifferentiableMMNLO for agents (git HEAD c039efe06049072780139f707febf2012ae3f9d9) apart from .DS_Store; diff -rq on 2026-10-04"
+julia: "1.12.5, JULIA_NUM_THREADS=2, BLAS and FFTW threads set to 1 in lp01_archive_lib.jl"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0 (host COECIS-G3FLW49YGQ); other agents' Julia jobs were running concurrently"
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.1-prepared-sech-readout-20m/run_prepared_sech_readout.jl"
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.1-prepared-sech-readout-20m/fd_step_check.jl agarwal anisotropic"
+  - "~/agent-work/venv/bin/python runs/2026-10-04-claude-b.1-prepared-sech-readout-20m/summarize.py"
+  - "~/agent-work/venv/bin/python runs/2026-10-04-claude-b.1-prepared-sech-readout-20m/plot_budgets.py"
+wall_time_s:
+  whole_process_including_startup: "about 150 (17:33:45 to 17:36:17 EDT)"
+  agarwal_standard_forward_adjoint_raman: 15.3
+  agarwal_linear_control: 2.9
+  agarwal_tight_forward_adjoint_raman: 33.8
+  anisotropic_standard_forward_adjoint_raman: 11.2
+  anisotropic_tight_forward_adjoint_raman: 34.2
+  agarwal_wide_forward_adjoint_raman: 17.0
+  note: "the finite-difference derivative and the reference-blocked adjoint in the standard cases are outside these per-case timers"
+config: config.toml
+files:
+  driver: run_prepared_sech_readout.jl
+  extra_check: "fd_step_check.jl (finite-difference step halving, not in the archive; about 60 s for both Raman models)"
+  library: lp01_archive_lib.jl
+  summary: summary.json
+  figure: "budget.png, made by plot_budgets.py from the three committed summary.json files"
+seeds: none (deterministic linearized calculation)
+correction: "config.toml says the archive ran the wide-window test only for its 30 m case. That is true of the archive's full-model validation scripts. The archive's separate observable-gradient audit (research_runs/2026-09-26_analytics/claude_a/observable_gradient_audit.md) also doubled the window at 20 m in its own calculation. The comment is left unedited so that config.toml keeps the sha256 recorded in the raw outputs."
+input_field: "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-26_analytics/results/prepared_sech_1550_0.4ps.npz (sha256 0bb8ec95fdf1747f66379b2130de8e4dd94f5e15485ef435b25cd471585ceed0; read-only archive, not copied into git)"
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-04-claude-b.1-prepared-sech-readout-20m/ (per-case TOML and NPZ with input, reference, fiber-output and readout spectra, adjoint gradient and Raman integrand; run.log)"

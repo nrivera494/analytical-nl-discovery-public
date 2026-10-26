@@ -1,0 +1,31 @@
+run_id: 2026-10-16-claude-b-dw-oracle
+date: 2026-10-16
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-03
+serves: "P-20261016-claude-interactive-01, hypotheses H1d (invariants), H2a (Roy et al. 2009 reproduction), H2b (complex-time singularity law for the fission-burst DW yield, with held-out launches) and H2c (card-regime TL yields); explorations/2026-10-16-claude-b-dw-yield-hypotheses.md"
+description: >-
+  numpy fixed-step split-step oracle (dw_lib.py) for model M0, Strang (order 2) or Yoshida triple-jump (order 4)
+  with exact nonlinear sub-step, and its exact discrete adjoint (plain and checkpointed). test_lib.py: order of
+  accuracy against the exact N=2 Satsuma-Yajima breather, invariant drift with TOD, adjoint vs central finite
+  differences. singularity.py / dstar.py / dstar2.py: analyticity-strip width d(xi) of the delta3 = 0 evolution from
+  the exponential decay of the spectral tail (fit window 1e-9.5..1e-2.5 of the peak, floor at least 2 decades
+  below), validated against the exact breather; d_* = min over xi on three grids. yield_sweep.py: TL launches with
+  TOD; band yield eta_B (w >= w_z = 1/(6 delta3)), gated DW yield eta_DW (field zeroed by a smooth tanh gate
+  |tau| < 15, width 1), Roy's NSR spectral-peak level, invariant drifts; each case at step h and h/2. lawfit.py: fit
+  ln eta_DW = c + p ln delta3 - d/delta3 to the k smallest delta3 points; local slopes; error exponent.
+solver_commit: none (independent numpy implementation; the Julia cross-check is run 2026-10-16-claude-b.7-solver-*)
+solver_dirty: false
+hardware: "Apple Silicon laptop (10 cores, 32 GB); up to 3 concurrent single-threaded processes"
+wall_time: "test_lib 10 s; d_* scans 1-10 min each; yield sweeps 1-25 min each (machine load average 60-170 from other agents)"
+raw_location: none (all outputs are the small JSON files in this folder)
+scripts: [dw_lib.py, test_lib.py, singularity.py, dstar.py, dstar2.py, dscan_full.py, dstar_card.py, dstar_fine.py, dscan_sech4.py,
+  dstar_chirp.py, dstar_poly.py, yield_sweep.py, lawfit.py, gdd_curve.py, poly_yield.py, m1_rk4ip.py, h4_raman.py, h4_law.py, h4_g3.py,
+  n1_flux.py, rk4ip_heldout.py, collapse.py, figure_law.py, summarize.py]
+figures: [fig_singularity_law.png, fig_collapse.png]
+notes: >-
+  M1 (model with Raman) uses m1_rk4ip.py: RK4 in the interaction picture with the single-damped-oscillator response
+  (fR = 0.18, tau1 = 12.2 fs, tau2 = 32 fs, T0 = 50 fs), kernel steps 0.33-2.9 fs as recorded per point. superseded/ holds
+  the N = 1 flux run with a too-narrow gate. dstar_poly_a_unfiltered.json holds the raw-minimum scan that produced the
+  fit outlier behind amendment A6 (see A7).

@@ -1,0 +1,15 @@
+run_id: 2026-10-08-gpt-a-similariton-checks
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261008-gpt-a-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: false
+hardware: macOS-27.0.1-arm64-arm-64bit
+hostname: COECIS-G3FLW49YGQ
+wall_seconds: 0.34298645899999997
+raw_location: ~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-checks
+purpose: Independent symbolic residuals, nonlinear width rates, transport Lyapunov
+  checks
+exploration: explorations/2026-10-08-gpt-a-similariton-attraction.md

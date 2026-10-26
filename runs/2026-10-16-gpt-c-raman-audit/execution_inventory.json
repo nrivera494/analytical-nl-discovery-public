@@ -1,0 +1,2079 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-c-raman-audit",
+  "case_count": 185,
+  "counts": {
+    "unfinished_without_stop_marker": 1,
+    "edge_stopped": 4,
+    "intentionally_interrupted": 1,
+    "measurement_failed": 1,
+    "complete": 178
+  },
+  "peak_recorded_python_rss_bytes": 178896896,
+  "not_executed": [
+    {
+      "case": "asym_fine_N4_T6400",
+      "configuration_files": [
+        "priority_controls.json",
+        "priority_short_controls.json",
+        "asym_resolution_cases.json"
+      ]
+    },
+    {
+      "case": "bw_N2_T57.5_long",
+      "configuration_files": [
+        "priority_controls.json",
+        "priority_short_controls.json",
+        "short_controls.json"
+      ]
+    },
+    {
+      "case": "bw_N4.5_T220",
+      "configuration_files": [
+        "priority_controls.json",
+        "priority_short_controls.json",
+        "short_controls.json",
+        "heldout_bracket_cases.json"
+      ]
+    },
+    {
+      "case": "bw_N4.5_T260",
+      "configuration_files": [
+        "priority_controls.json",
+        "priority_short_controls.json",
+        "short_controls.json",
+        "heldout_bracket_cases.json"
+      ]
+    },
+    {
+      "case": "conv_fine_N16_T1594",
+      "configuration_files": [
+        "heldout_bracket_cases.json"
+      ]
+    },
+    {
+      "case": "conv_fine_N16_T2156",
+      "configuration_files": [
+        "heldout_bracket_cases.json"
+      ]
+    },
+    {
+      "case": "conv_measured_wide_N3_T50_fixed130cm",
+      "configuration_files": [
+        "priority_controls.json",
+        "fixedlength_convergence_cases.json"
+      ]
+    },
+    {
+      "case": "edge_N2_T12800",
+      "configuration_files": [
+        "continuation_cases.json",
+        "edge_cases.json",
+        "phase3_cases.json"
+      ]
+    },
+    {
+      "case": "edge_N3_T12.5",
+      "configuration_files": [
+        "continuation_cases.json",
+        "edge_cases.json",
+        "phase3_cases.json"
+      ]
+    },
+    {
+      "case": "edge_N3_T25",
+      "configuration_files": [
+        "continuation_cases.json",
+        "edge_cases.json",
+        "phase3_cases.json"
+      ]
+    },
+    {
+      "case": "edge_N4_T12800",
+      "configuration_files": [
+        "continuation_cases.json",
+        "edge_cases.json",
+        "phase3_cases.json"
+      ]
+    },
+    {
+      "case": "edge_N4_T25600",
+      "configuration_files": [
+        "continuation_cases.json",
+        "edge_cases.json",
+        "phase3_cases.json"
+      ]
+    },
+    {
+      "case": "measured_hc_s1_N3_T80_fixed130cm",
+      "configuration_files": [
+        "physical_inband_cases.json",
+        "priority_controls.json",
+        "priority_short_controls.json"
+      ]
+    },
+    {
+      "case": "rescale_bw_N4_T400_scale2",
+      "configuration_files": [
+        "priority_controls.json",
+        "priority_short_controls.json",
+        "short_controls.json"
+      ]
+    },
+    {
+      "case": "solver_window_N6_T400",
+      "configuration_files": [
+        "solver_window_cases.json"
+      ]
+    },
+    {
+      "case": "solver_window_N8_T400_n16384",
+      "configuration_files": [
+        "solver_window_cases.json"
+      ]
+    }
+  ],
+  "cases": {
+    "bw_N10_T870": {
+      "file": "bw_N10_T870.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        1.5,
+        2,
+        2.5,
+        3
+      ]
+    },
+    "conv_smf_fine_N3_T25": {
+      "file": "conv_smf_fine_N3_T25.json",
+      "status": "measurement_failed",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N10_T780": {
+      "file": "measured_hc_s1_N10_T780.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_measured_fine_N3_T50": {
+      "file": "conv_measured_fine_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N2_T62.5_long": {
+      "file": "bw_N2_T62.5_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        6,
+        8,
+        16
+      ]
+    },
+    "conv_measured_tight_N4_T200": {
+      "file": "conv_measured_tight_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "conv_band_N6_T400": {
+      "file": "conv_band_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N6_T375": {
+      "file": "measured_hc_s1_N6_T375.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N3_T100": {
+      "file": "measured_hc_s1_N3_T100.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N8_T450": {
+      "file": "bw_N8_T450.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N6_T370": {
+      "file": "bw_N6_T370.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_smf_tight_N3_T25": {
+      "file": "conv_smf_tight_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N3_T100_fixed130cm": {
+      "file": "measured_hc_s1_N3_T100_fixed130cm.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        3,
+        4,
+        7.838738977743908
+      ]
+    },
+    "bw_N6_T350": {
+      "file": "bw_N6_T350.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_wide_N2_T1600": {
+      "file": "asym_wide_N2_T1600.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        32,
+        64
+      ]
+    },
+    "asym_N4_T800": {
+      "file": "asym_N4_T800.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        4,
+        6,
+        8,
+        16,
+        32
+      ]
+    },
+    "bw_N3_T125": {
+      "file": "bw_N3_T125.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "smf_hc_s1_N6_T350": {
+      "file": "smf_hc_s1_N6_T350.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N4_T170": {
+      "file": "measured_hc_s1_N4_T170.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "conv_step_N3_T25": {
+      "file": "conv_step_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "conv_band_N3_T25": {
+      "file": "conv_band_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N3_T120": {
+      "file": "measured_hc_s1_N3_T120.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "asym_wide_N2_T3200": {
+      "file": "asym_wide_N2_T3200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        64,
+        128
+      ]
+    },
+    "measured_hc_s1_N6_T400": {
+      "file": "measured_hc_s1_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "conv_halfstep_N4_T200": {
+      "file": "conv_halfstep_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N10_T870": {
+      "file": "measured_hc_s1_N10_T870.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "tablepoint_smf_N4": {
+      "file": "tablepoint_smf_N4.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T100_long": {
+      "file": "bw_N3_T100_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        4,
+        6,
+        8
+      ]
+    },
+    "smf_hc_s1_N4_T230": {
+      "file": "smf_hc_s1_N4_T230.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "asym_N4_T3200": {
+      "file": "asym_N4_T3200.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        4,
+        6,
+        8,
+        16,
+        32
+      ]
+    },
+    "conv_measured_tight_N3_T50": {
+      "file": "conv_measured_tight_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "tod_hc_s0_N3_T180": {
+      "file": "tod_hc_s0_N3_T180.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N4_T230": {
+      "file": "bw_N4_T230.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N2_T65_long": {
+      "file": "bw_N2_T65_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        6,
+        8,
+        16
+      ]
+    },
+    "bw_N6_T500": {
+      "file": "bw_N6_T500.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N3_T180": {
+      "file": "constant_hc_s0_N3_T180.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "asym_N4_T1600": {
+      "file": "asym_N4_T1600.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        4,
+        6,
+        8,
+        16,
+        32
+      ]
+    },
+    "measured_hc_s1_N3_T140_fixed130cm": {
+      "file": "measured_hc_s1_N3_T140_fixed130cm.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        3.9993566212979124
+      ]
+    },
+    "bw_N5_T200": {
+      "file": "bw_N5_T200.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N4_T200": {
+      "file": "constant_hc_s0_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N3_T160": {
+      "file": "measured_hc_s1_N3_T160.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N12_T1176": {
+      "file": "bw_N12_T1176.json",
+      "status": "intentionally_interrupted",
+      "checkpoints": 3,
+      "zN": [
+        1.5,
+        2,
+        2.5
+      ]
+    },
+    "smf_hc_s1_N3_T50": {
+      "file": "smf_hc_s1_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N3_T140": {
+      "file": "measured_hc_s1_N3_T140.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N8_T550": {
+      "file": "measured_hc_s1_N8_T550.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T80": {
+      "file": "bw_N3_T80.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N2_T80": {
+      "file": "bw_N2_T80.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "tablepoint_measured_N4": {
+      "file": "tablepoint_measured_N4.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_fine_N12_T1176": {
+      "file": "conv_fine_N12_T1176.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        1.25,
+        1.5,
+        1.75,
+        2,
+        2.5
+      ]
+    },
+    "tod_hc_s0_N3_T50": {
+      "file": "tod_hc_s0_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N4_T210": {
+      "file": "bw_N4_T210.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N8_T650": {
+      "file": "bw_N8_T650.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_wide_N2_T800": {
+      "file": "asym_wide_N2_T800.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        16,
+        32,
+        64
+      ]
+    },
+    "asym_N2_T800": {
+      "file": "asym_N2_T800.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        16,
+        32,
+        64,
+        128
+      ]
+    },
+    "bw_N2_T80_long": {
+      "file": "bw_N2_T80_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        6,
+        8,
+        16
+      ]
+    },
+    "measured_hc_s1_N3_T130": {
+      "file": "measured_hc_s1_N3_T130.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_measured_fine_N6_T400": {
+      "file": "conv_measured_fine_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N3_T135": {
+      "file": "bw_N3_T135.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "library_python_sampled_raw_N4_T200_zN3": {
+      "file": "library_python_sampled_raw_N4_T200_zN3.json",
+      "status": "complete",
+      "checkpoints": 1,
+      "zN": [
+        3
+      ]
+    },
+    "bw_N4_T260": {
+      "file": "bw_N4_T260.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T25": {
+      "file": "bw_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N3_T50": {
+      "file": "constant_hc_s0_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "alias_N8_T400_n65536": {
+      "file": "alias_N8_T400_n65536.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N4_T190": {
+      "file": "bw_N4_T190.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N6_T350": {
+      "file": "constant_hc_s0_N6_T350.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N8_T600": {
+      "file": "bw_N8_T600.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_fine_N3_T25": {
+      "file": "conv_fine_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "conv_wide_N6_T400": {
+      "file": "conv_wide_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N3_T115": {
+      "file": "bw_N3_T115.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_N2_T6400": {
+      "file": "asym_N2_T6400.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        16,
+        32,
+        64,
+        128
+      ]
+    },
+    "measured_hc_s1_N3_T110": {
+      "file": "measured_hc_s1_N3_T110.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "tablepoint_measured_N3": {
+      "file": "tablepoint_measured_N3.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_step_N4_T200": {
+      "file": "conv_step_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N7_T500": {
+      "file": "bw_N7_T500.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_wide_N4_T6400": {
+      "file": "asym_wide_N4_T6400.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        16,
+        32,
+        64
+      ]
+    },
+    "bw_N2_T70_long": {
+      "file": "bw_N2_T70_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        6,
+        8,
+        16
+      ]
+    },
+    "measured_hc_s1_N3_T50": {
+      "file": "measured_hc_s1_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N3_T150": {
+      "file": "measured_hc_s1_N3_T150.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N6_T325": {
+      "file": "measured_hc_s1_N6_T325.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N8_T800": {
+      "file": "bw_N8_T800.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N4_T230": {
+      "file": "constant_hc_s0_N4_T230.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "shock_bw_N4_T200": {
+      "file": "shock_bw_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T120_long": {
+      "file": "bw_N3_T120_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        4,
+        6,
+        8
+      ]
+    },
+    "measured_hc_s1_N3_T50_fixed130cm": {
+      "file": "measured_hc_s1_N3_T50_fixed130cm.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        3,
+        4,
+        8,
+        16,
+        31.354955910975633
+      ]
+    },
+    "smf_hc_s1_N4_T200": {
+      "file": "smf_hc_s1_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N3_T180": {
+      "file": "bw_N3_T180.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "library_python_N4_T200_zN3": {
+      "file": "library_python_N4_T200_zN3.json",
+      "status": "complete",
+      "checkpoints": 1,
+      "zN": [
+        3
+      ]
+    },
+    "conv_fine_N4_T200": {
+      "file": "conv_fine_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "conv_smf_fine_N3_T25_retry": {
+      "file": "conv_smf_fine_N3_T25_retry.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        3,
+        4,
+        6
+      ]
+    },
+    "smf_hc_s1_N3_T180": {
+      "file": "smf_hc_s1_N3_T180.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N4_T200": {
+      "file": "bw_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_measured_wide_N4_T200": {
+      "file": "conv_measured_wide_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "tablepoint_smf_N3": {
+      "file": "tablepoint_smf_N3.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N6_T450": {
+      "file": "measured_hc_s1_N6_T450.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N6_T300": {
+      "file": "bw_N6_T300.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "alias_N8_T400_n16384": {
+      "file": "alias_N8_T400_n16384.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_N4_T6400": {
+      "file": "asym_N4_T6400.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        4,
+        6,
+        8,
+        16,
+        32
+      ]
+    },
+    "measured_hc_s1_N4_T230": {
+      "file": "measured_hc_s1_N4_T230.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N5_T100": {
+      "file": "bw_N5_T100.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N2_T70": {
+      "file": "bw_N2_T70.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N2_T40_long": {
+      "file": "bw_N2_T40_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        6,
+        8,
+        16
+      ]
+    },
+    "bw_N3_T160": {
+      "file": "bw_N3_T160.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_wide_N4_T200": {
+      "file": "conv_wide_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N5_T340": {
+      "file": "bw_N5_T340.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_step_N6_T400": {
+      "file": "conv_step_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "alias_N8_T600_n65536": {
+      "file": "alias_N8_T600_n65536.json",
+      "status": "unfinished_without_stop_marker",
+      "checkpoints": 2,
+      "zN": [
+        2,
+        2.5
+      ]
+    },
+    "shock_bw_N3_T140": {
+      "file": "shock_bw_N3_T140.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N6_T450": {
+      "file": "constant_hc_s0_N6_T450.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "smf_hc_s1_N3_T140": {
+      "file": "smf_hc_s1_N3_T140.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N12_T1000": {
+      "file": "bw_N12_T1000.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        1.5,
+        2,
+        2.5,
+        3
+      ]
+    },
+    "conv_measured_fine_N4_T200": {
+      "file": "conv_measured_fine_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N3_T140": {
+      "file": "bw_N3_T140.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N8_T550": {
+      "file": "bw_N8_T550.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "alias_N8_T400_n32768": {
+      "file": "alias_N8_T400_n32768.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T50": {
+      "file": "bw_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N12_T1352": {
+      "file": "bw_N12_T1352.json",
+      "status": "edge_stopped",
+      "checkpoints": 4,
+      "zN": [
+        1.5,
+        2,
+        2.5,
+        3
+      ]
+    },
+    "measured_hc_s1_N8_T650": {
+      "file": "measured_hc_s1_N8_T650.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N3_T25": {
+      "file": "constant_hc_s0_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N4_T210": {
+      "file": "measured_hc_s1_N4_T210.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_measured_wide_N6_T400": {
+      "file": "conv_measured_wide_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "conv_fine_N16_T1875": {
+      "file": "conv_fine_N16_T1875.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        1.25,
+        1.5,
+        1.75,
+        2
+      ]
+    },
+    "measured_hc_s1_N4_T180": {
+      "file": "measured_hc_s1_N4_T180.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "alias_N8_T600_n16384": {
+      "file": "alias_N8_T600_n16384.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N6_T425": {
+      "file": "measured_hc_s1_N6_T425.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "smf_hc_s1_N3_T100": {
+      "file": "smf_hc_s1_N3_T100.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "shock_bw_N3_T100": {
+      "file": "shock_bw_N3_T100.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T100": {
+      "file": "bw_N3_T100.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N4.5_T240": {
+      "file": "bw_N4.5_T240.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T120": {
+      "file": "bw_N3_T120.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N3_T140_long": {
+      "file": "bw_N3_T140_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        4,
+        6,
+        8
+      ]
+    },
+    "bw_N4_T170": {
+      "file": "bw_N4_T170.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_wide_N8_T600": {
+      "file": "conv_wide_N8_T600.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "smf_hc_s1_N3_T120": {
+      "file": "smf_hc_s1_N3_T120.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N3_T25": {
+      "file": "measured_hc_s1_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "smf_hc_s1_N4_T170": {
+      "file": "smf_hc_s1_N4_T170.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N6_T350": {
+      "file": "measured_hc_s1_N6_T350.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "conv_wide_N3_T25": {
+      "file": "conv_wide_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "smf_hc_s1_N6_T400": {
+      "file": "smf_hc_s1_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "shock_bw_N6_T400": {
+      "file": "shock_bw_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_wide_N2_T6400": {
+      "file": "asym_wide_N2_T6400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        64,
+        128
+      ]
+    },
+    "library_python_sampled_normalized_N4_T200_zN3": {
+      "file": "library_python_sampled_normalized_N4_T200_zN3.json",
+      "status": "complete",
+      "checkpoints": 1,
+      "zN": [
+        3
+      ]
+    },
+    "bw_N6_T400": {
+      "file": "bw_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_fine_N6_T400": {
+      "file": "conv_fine_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N16_T1875": {
+      "file": "bw_N16_T1875.json",
+      "status": "edge_stopped",
+      "checkpoints": 1,
+      "zN": [
+        1.5
+      ]
+    },
+    "bw_N2_T60_long": {
+      "file": "bw_N2_T60_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        6,
+        8,
+        16
+      ]
+    },
+    "bw_N3_T50_long": {
+      "file": "bw_N3_T50_long.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        4,
+        6,
+        8
+      ]
+    },
+    "measured_hc_s1_N4_T200": {
+      "file": "measured_hc_s1_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "conv_halfstep_N6_T400": {
+      "file": "conv_halfstep_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N3_T180": {
+      "file": "measured_hc_s1_N3_T180.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N2_T40": {
+      "file": "bw_N2_T40.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N5_T560": {
+      "file": "bw_N5_T560.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N2_T60": {
+      "file": "bw_N2_T60.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N6_T450": {
+      "file": "bw_N6_T450.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "measured_hc_s1_N10_T960": {
+      "file": "measured_hc_s1_N10_T960.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_measured_tight_N6_T400": {
+      "file": "conv_measured_tight_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "tablepoint_smf_N6": {
+      "file": "tablepoint_smf_N6.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N3_T140": {
+      "file": "constant_hc_s0_N3_T140.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "smf_hc_s1_N6_T450": {
+      "file": "smf_hc_s1_N6_T450.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N4_T220": {
+      "file": "measured_hc_s1_N4_T220.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "tod_hc_s0_N3_T140": {
+      "file": "tod_hc_s0_N3_T140.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N6_T300": {
+      "file": "measured_hc_s1_N6_T300.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_band_N4_T200": {
+      "file": "conv_band_N4_T200.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "tod_hc_s0_N3_T100": {
+      "file": "tod_hc_s0_N3_T100.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "tod_hc_s0_N3_T25": {
+      "file": "tod_hc_s0_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "conv_halfstep_N3_T25": {
+      "file": "conv_halfstep_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N6_T410": {
+      "file": "bw_N6_T410.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N5_T280": {
+      "file": "bw_N5_T280.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "conv_measured_wide_N3_T50": {
+      "file": "conv_measured_wide_N3_T50.json",
+      "status": "complete",
+      "checkpoints": 2,
+      "zN": [
+        3,
+        4
+      ]
+    },
+    "bw_N6_T390": {
+      "file": "bw_N6_T390.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "constant_hc_s0_N3_T100": {
+      "file": "constant_hc_s0_N3_T100.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "conv_smf_wide_N3_T25": {
+      "file": "conv_smf_wide_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        3,
+        4,
+        6
+      ]
+    },
+    "measured_hc_s1_N8_T600": {
+      "file": "measured_hc_s1_N8_T600.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_N2_T1600": {
+      "file": "asym_N2_T1600.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        16,
+        32,
+        64,
+        128
+      ]
+    },
+    "constant_hc_s0_N4_T170": {
+      "file": "constant_hc_s0_N4_T170.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "constant_hc_s0_N3_T120": {
+      "file": "constant_hc_s0_N3_T120.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "bw_N16_T2156": {
+      "file": "bw_N16_T2156.json",
+      "status": "edge_stopped",
+      "checkpoints": 1,
+      "zN": [
+        1.5
+      ]
+    },
+    "measured_hc_s1_N4_T190": {
+      "file": "measured_hc_s1_N4_T190.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N6_T430": {
+      "file": "bw_N6_T430.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "asym_N2_T3200": {
+      "file": "asym_N2_T3200.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        16,
+        32,
+        64,
+        128
+      ]
+    },
+    "bw_N4_T140": {
+      "file": "bw_N4_T140.json",
+      "status": "complete",
+      "checkpoints": 3,
+      "zN": [
+        2.5,
+        3,
+        4
+      ]
+    },
+    "bw_N16_T1594": {
+      "file": "bw_N16_T1594.json",
+      "status": "edge_stopped",
+      "checkpoints": 1,
+      "zN": [
+        1.5
+      ]
+    },
+    "tablepoint_measured_N6": {
+      "file": "tablepoint_measured_N6.json",
+      "status": "complete",
+      "checkpoints": 4,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4
+      ]
+    },
+    "tod_hc_s0_N3_T120": {
+      "file": "tod_hc_s0_N3_T120.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "constant_hc_s0_N6_T400": {
+      "file": "constant_hc_s0_N6_T400.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    },
+    "smf_hc_s1_N3_T25": {
+      "file": "smf_hc_s1_N3_T25.json",
+      "status": "complete",
+      "checkpoints": 5,
+      "zN": [
+        2,
+        2.5,
+        3,
+        4,
+        6
+      ]
+    }
+  }
+}

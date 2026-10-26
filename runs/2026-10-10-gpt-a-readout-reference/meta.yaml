@@ -1,0 +1,26 @@
+run_id: 2026-10-10-gpt-a-readout-reference
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261010-claude-interactive-03
+problem: P-20261010-claude-interactive-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_repository: https://github.com/nrivera494/FastDifferentiableMMNLO-agents
+raw_location: ~/analytical-nl-discovery-data/2026-10-10-gpt-a-readout-reference
+machine: COECIS-G3FLW49YGQ
+hardware: shared 10-core Apple Silicon Mac; two Julia threads; one BLAS and FFTW thread
+os: macOS 27.0.1
+started: 2026-10-10T10:32:55-04:00
+status: running
+method: full spectral-quadrature covariance by discrete RK4IP adjoint rows
+raman_spectrum_source_commit: d79f150c4dabac6f461f0302eb06b1ec7900bd4e
+raman_spectrum_source_file: example_notebooks/raman_bath_spectrum.jl
+raman_spectrum_local_copy: raman_bath_spectrum.jl
+raman_temperature_K: 300
+python_environment: ~/analytical-nl-discovery-data/venv-gpt-a
+notes:
+  - The no-shock evaluator adapter uses the solver sampled Raman response unchanged and constant carrier photon energy.
+  - The public notebook gate preserves its shock and taper convention and uses the supplied binary filter at the new grid.
+  - Failed pilot outputs with shared Julia closure variables are retained under failed-thread-scope and failed-closure-scope prefixes; excluded from results.
+  - Proof and synthetic-check predictions were frozen before the main sweep; nearzero_R is held out from method construction.

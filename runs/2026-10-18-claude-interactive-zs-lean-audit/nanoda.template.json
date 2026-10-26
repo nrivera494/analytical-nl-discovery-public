@@ -1,0 +1,11 @@
+{
+  "export_file_path": "@RAW@/headline.ndjson",
+  "use_stdin": false,
+  "permitted_axioms": ["propext", "Classical.choice", "Quot.sound"],
+  "unpermitted_axiom_hard_error": false,
+  "nat_extension": true,
+  "string_extension": true,
+  "pp_declars": ["ZS.canonical_integer_sech_fraction_optimality", "ZS.IsEigenvalue", "ZS.SolvesZS"],
+  "pp_to_stdout": true,
+  "print_success_message": true
+}

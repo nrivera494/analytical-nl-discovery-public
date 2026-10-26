@@ -1,0 +1,22 @@
+{
+ "G1_parabolic_family_with_gain": {
+  "pass": true,
+  "detail": "continuity-with-gain residual 0; momentum residual 0 given Tp'' = (3/2) gam b2 E0 e^(gz)/Tp^2"
+ },
+ "G2_rescaled_width_and_Lyapunov": {
+  "pass": true,
+  "detail": "Tp''-RHS reduces to s''+(2/3)s'+s/9-1/(9s^2) (residual 0); dV/dtau = -(2/3)s'^2 (residual 0); V(s) has its only critical point at s = [1]"
+ },
+ "G3_legendre_separation_with_gain": {
+  "pass": true,
+  "detail": "for l=0..6 and any Tp(z): n_l' = l(l+1) psi_l/Tp^2, psi_l' = -gam b2 rho0 n_l (n = delta rho/rho0, psi = -b2 p); gain drops out of the blocks"
+ },
+ "G4_block_ode_and_asymptotic_rates": {
+  "pass": true,
+  "detail": "n_l'' + 2(Tp'/Tp) n_l' + l(l+1)(Tp''/(2Tp)) n_l = 0 (residual 0); on Tp \u221d e^{gz/3}: lambda = (g/3)[-1 \u00b1 sqrt(1 - l(l+1)/2)] (orchestrator sketch confirmed)"
+ },
+ "G5_ehrenfest_with_flat_gain": {
+  "pass": true,
+  "detail": "rho_zeta + d_x J = Gam rho with J = -eps Im(psi* psi_x); momentum density obeys K_zeta = Gam K + d_x(...) (Euler-Lagrange test of the remainder: 0); centroid: d/dzeta int x rho = Gam int x rho + eps int K. Hence E = E0 e^{Gam zeta}, Omega_c = const, T_c' = eps Omega_c without noise, for any pulse"
+ }
+}

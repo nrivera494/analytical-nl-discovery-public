@@ -1,0 +1,12 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "scope": "Additional frozen unequal-beta2 prediction; ideal outputs were already seen, physical-dispersion runs were not.",
+  "b": 1.0110723732212112,
+  "sigma": 1.000000000000099,
+  "nu": 0.9926814004659303,
+  "delta": 1.2185069588220925,
+  "predicted_bound_fraction": 0.33875120172449885,
+  "original_equal_beta2_prediction": 0.33308547696386004
+}

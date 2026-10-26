@@ -1,0 +1,92 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "hc_sech_N16_T2136.970_response_fine",
+    "N": 16,
+    "T0_fs": 2136.97,
+    "raman": "hc",
+    "shape": "sech",
+    "n": 65536,
+    "width": 41.40142351085884,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "base_case": "hc_sech_N16_T2136.970",
+    "convergence_justification": "Halved dt at the independently bracketed response/shape peak. Larger grid is used only for convergence."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "as2s3_sech_N16_T2048.160_response_fine",
+    "N": 16,
+    "T0_fs": 2048.16,
+    "raman": "as2s3",
+    "shape": "sech",
+    "n": 65536,
+    "width": 43.196625263651285,
+    "zN": [
+      1.1,
+      1.25,
+      1.4,
+      1.8199999999999998
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "base_case": "as2s3_sech_N16_T2048.160",
+    "convergence_justification": "Halved dt at the independently bracketed response/shape peak. Larger grid is used only for convergence."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "as2s3_sech_N16_T2048.160_response_wide",
+    "N": 16,
+    "T0_fs": 2048.16,
+    "raman": "as2s3",
+    "shape": "sech",
+    "n": 65536,
+    "width": 86.39325052730257,
+    "zN": [
+      1.1,
+      1.25,
+      1.4,
+      1.8199999999999998
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "base_case": "as2s3_sech_N16_T2048.160",
+    "convergence_justification": "Doubled time window at unchanged dt after an observed late As-like N=16 boundary encounter. Larger grid is solely an artefact control."
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_gaussian_N16_T1874.535_response_fine",
+    "N": 16,
+    "T0_fs": 1874.535,
+    "raman": "bw",
+    "shape": "gaussian",
+    "n": 65536,
+    "width": 47.19762501100273,
+    "zN": [
+      1.1,
+      1.25,
+      1.4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "control",
+    "base_case": "bw_gaussian_N16_T1874.535",
+    "convergence_justification": "Halved dt at the independently bracketed response/shape peak. Larger grid is used only for convergence."
+  }
+]

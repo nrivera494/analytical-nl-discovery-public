@@ -1,0 +1,2 @@
+{"Phi": 20.0, "pad": 16, "n_seeds": 30, "best_F": 0.3907969126739757, "best_seed_Phi": 3.0, "best_mirror": true, "best_selected": 840, "n_bins": 2273, "wall_s": 482.8}
+{"Phi": 30.0, "pad": 16, "n_seeds": 30, "best_F": 0.37520757005963323, "best_seed_Phi": 12.5, "best_mirror": true, "best_selected": 1026, "n_bins": 3021, "wall_s": 834.3}

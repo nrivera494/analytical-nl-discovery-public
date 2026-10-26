@@ -1,0 +1,98 @@
+{
+ "source": "runs/2026-10-16-claude-b-dw-oracle/summary.json (m1_gauss3_heldout, m1_gauss3_fit4)",
+ "convention": "reldiff = claude-b / solver - 1",
+ "by_delta3": {
+  "0.0055": {
+   "claude-b_eta_DW": 1.0138196696975775e-13,
+   "claude-b_kernel_dt_fs": 0.35372647372159094,
+   "solver_n32000_dt0.39fs": 1.0142402210311468e-13,
+   "reldiff_vs_solver_n32000": -0.0004146466732918297,
+   "solver_dt_to_0_estimate": 1.015001432739511e-13,
+   "reldiff_vs_solver_dt0": -0.001164296919999308,
+   "solver_k_per_fs2": 0.004914945822757233,
+   "solver_value_at_claude-b_kernel_dt": 1.0143772374030965e-13,
+   "reldiff_vs_solver_at_same_kernel_dt": -0.0005496650407361692,
+   "solver_w0T0_1e8_n8000": 1.0139769112586636e-13,
+   "relchange_w0T0_1e6_vs_1e8_n8000": 0.0004263660707137795
+  },
+  "0.0060": {
+   "claude-b_eta_DW": 2.7951614707348068e-12,
+   "claude-b_kernel_dt_fs": 0.33060709635416663,
+   "solver_n32000_dt0.39fs": 2.796012480758795e-12,
+   "reldiff_vs_solver_n32000": -0.00030436560274471613,
+   "solver_dt_to_0_estimate": 2.797932151593944e-12,
+   "reldiff_vs_solver_dt0": -0.0009902602025423368,
+   "solver_k_per_fs2": 0.00449644741316036,
+   "solver_value_at_claude-b_kernel_dt": 2.7965570618589543e-12,
+   "reldiff_vs_solver_at_same_kernel_dt": -0.0004990390302351821
+  },
+  "0.0066": {
+   "claude-b_eta_DW": 7.508975745130065e-11,
+   "claude-b_kernel_dt_fs": 0.6149754379734849,
+   "solver_n32000_dt0.39fs": 7.52141944296609e-11,
+   "reldiff_vs_solver_n32000": -0.0016544347686475724,
+   "solver_dt_to_0_estimate": 7.526101309823792e-11,
+   "reldiff_vs_solver_dt0": -0.0022754895248850993,
+   "solver_k_per_fs2": 0.004076889398045855,
+   "solver_value_at_claude-b_kernel_dt": 7.51449712784987e-11,
+   "reldiff_vs_solver_at_same_kernel_dt": -0.0007347641000942096
+  },
+  "0.0073": {
+   "claude-b_eta_DW": 1.716110648707248e-09,
+   "claude-b_kernel_dt_fs": 0.570636906035959,
+   "solver_n32000_dt0.39fs": 1.7182972219931911e-09,
+   "reldiff_vs_solver_n32000": -0.001272523320154595,
+   "solver_dt_to_0_estimate": 1.7192608596725957e-09,
+   "reldiff_vs_solver_dt0": -0.0018323054047467702,
+   "solver_k_per_fs2": 0.003673262181370289,
+   "solver_value_at_claude-b_kernel_dt": 1.7172044321091872e-09,
+   "reldiff_vs_solver_at_same_kernel_dt": -0.0006369558460758151,
+   "solver_w0T0_1e8_n8000": 1.7177954755180756e-09,
+   "relchange_w0T0_1e6_vs_1e8_n8000": 0.00031769981721141427
+  }
+ },
+ "fit": {
+  "claude-b": {
+   "c": -2.409456116370117,
+   "p": -2.953602552569921,
+   "d": 0.23582837853640454
+  },
+  "solver_n32000": {
+   "c": -2.47213314428702,
+   "p": -2.9702990847824005,
+   "d": 0.23596010532669706
+  },
+  "d_diff_claude-b_minus_solver": -0.00013172679029252454,
+  "d_diff_predicted_from_eta_diffs_linear": -0.00013150882650754872,
+  "claude-b_values_corrected_to_kernel_dt0_with_solver_k": {
+   "c": -2.461241283833692,
+   "p": -2.9673312862601446,
+   "d": 0.23593379829701186,
+   "rms_residual": 3.430494705352671e-05
+  },
+  "solver_dt0_s0_estimate": {
+   "c": -2.4722180840661423,
+   "p": -2.970318952245904,
+   "d": 0.23595842488038274,
+   "rms_residual": 3.446252837945979e-05
+  }
+ },
+ "solver_dt0_s0_eta": {
+  "0.0055": 1.0145688550033347e-13,
+  "0.0060": 2.7968423874041858e-12,
+  "0.0066": 7.523446167307241e-11,
+  "0.0073": 1.7187148242870812e-09
+ },
+ "selfsteepening_effect_interpolated": {
+  "0.0055": 0.0004263660707137795,
+  "0.0060": 0.00038964090170603565,
+  "0.0066": 0.00035291573269829194,
+  "0.0073": 0.00031769981721141427
+ },
+ "reldiff_claude-b_dt0_vs_solver_dt0_s0": {
+  "0.0055": -0.00012353332854608823,
+  "0.0060": -0.00010959257454679072,
+  "0.0066": -0.000382107677206589,
+  "0.0073": -0.0003194583896203307
+ }
+}

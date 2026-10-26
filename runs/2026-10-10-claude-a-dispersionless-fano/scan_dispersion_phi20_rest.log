@@ -1,0 +1,5 @@
+{"Phi": 20.0, "x_Phi2L_over_LD": 0.3, "sign_beta2": -1, "lam_min": -0.0, "lam_gen": 0.003015, "lam_P_beta2": 0.003179, "gen_over_P": 0.948464, "bound_holds": true, "binary_relax": 0.543564, "n_bins": 653, "wall_s": 6.6}
+{"Phi": 20.0, "x_Phi2L_over_LD": 1.0, "sign_beta2": 1, "lam_min": 0.000761, "lam_gen": 0.003233, "lam_P_beta2": 0.003425, "gen_over_P": 0.943817, "bound_holds": true, "binary_relax": 0.304437, "n_bins": 639, "wall_s": 5.7}
+{"Phi": 20.0, "x_Phi2L_over_LD": 1.0, "sign_beta2": -1, "lam_min": -0.003766, "lam_gen": 0.004206, "lam_P_beta2": 0.003041, "gen_over_P": 1.383108, "bound_holds": false, "binary_relax": 1.804123, "n_bins": 661, "wall_s": 8.1}
+{"Phi": 20.0, "x_Phi2L_over_LD": 3.0, "sign_beta2": 1, "lam_min": 0.000885, "lam_gen": 0.003635, "lam_P_beta2": 0.003782, "gen_over_P": 0.961071, "bound_holds": true, "binary_relax": 0.275291, "n_bins": 623, "wall_s": 4.8}
+{"Phi": 20.0, "x_Phi2L_over_LD": 3.0, "sign_beta2": -1, "lam_min": -184.808469, "lam_gen": 0.178962, "lam_P_beta2": 0.002613, "gen_over_P": 68.481244, "bound_holds": false, "binary_relax": 7584.033953, "n_bins": 689, "wall_s": 6.8}

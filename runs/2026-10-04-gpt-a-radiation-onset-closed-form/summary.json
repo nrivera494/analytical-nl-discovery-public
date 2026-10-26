@@ -1,0 +1,73 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-a-radiation-onset-closed-form",
+  "cases": [
+    {
+      "agent": "gpt-a",
+      "model": "gpt-6-astra",
+      "family": "gpt",
+      "run_id": "2026-10-04-gpt-a-radiation-onset-closed-form",
+      "rows": [
+        {
+          "delta": 0.75,
+          "Gamma_ODE": 0.024462132241539942,
+          "Gamma_closed": 0.02446213224162784,
+          "relative_difference": 3.5933478415017817e-12
+        },
+        {
+          "delta": 0.85,
+          "Gamma_ODE": 0.023493630558220485,
+          "Gamma_closed": 0.023493630558341836,
+          "relative_difference": 5.165201599766078e-12
+        },
+        {
+          "delta": 1.05,
+          "Gamma_ODE": 0.010031683774245582,
+          "Gamma_closed": 0.01003168377430403,
+          "relative_difference": 5.8264504332328215e-12
+        },
+        {
+          "delta": 1.35,
+          "Gamma_ODE": 0.0018027710847211451,
+          "Gamma_closed": 0.0018027710847363097,
+          "relative_difference": 8.411715768374961e-12
+        }
+      ],
+      "threshold_prefactor_excluding_B0_squared": 0.20523394977107137,
+      "threshold_checks": [
+        {
+          "k": 0.005,
+          "delta": 0.7071156199660703,
+          "Gamma": 0.00046519464673391343,
+          "Gamma_ODE": 0.00046519464673217903,
+          "ratio_to_threshold_law": 0.9999572696417329
+        },
+        {
+          "k": 0.01,
+          "delta": 0.7071421356417675,
+          "Gamma": 0.000930216881040904,
+          "Gamma_ODE": 0.0009302168810375203,
+          "ratio_to_threshold_law": 0.9998290961149203
+        },
+        {
+          "k": 0.02,
+          "delta": 0.7072481884034769,
+          "Gamma": 0.0018590552908979525,
+          "Gamma_ODE": 0.0018590552908916529,
+          "ratio_to_threshold_law": 0.9993166650096946
+        },
+        {
+          "k": 0.04,
+          "delta": 0.7076722405181654,
+          "Gamma": 0.0037071092568168886,
+          "Gamma_ODE": 0.0037071092568115764,
+          "ratio_to_threshold_law": 0.99727113963476
+        }
+      ],
+      "elapsed_seconds": 0.01981973648071289,
+      "provenance": "Derived after seeing the stationary and driven-response results; evaluates the same coefficient, without a fitted parameter."
+    }
+  ]
+}

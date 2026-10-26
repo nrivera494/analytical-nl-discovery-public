@@ -1,0 +1,12 @@
+run_id: 2026-10-18-claude-interactive-zs-moment-bound-check
+date: 2026-10-18
+agent: claude-interactive
+model: claude-opus-5-5
+family: claude
+task: T-20261018-claude-interactive-01
+serves: "Cheap check of claim C-20261018-pi-chatgpt-01 (PI's GPT 6 Pro passive-mask ZS bound): evaluates the bound's closed forms against the values quoted in the source, and freezes extra values for the Claude-family verifier."
+solver_commit: null
+solver_note: "No solver: closed-form evaluation of the bound (gamma functions) and a 1-D minimization over p for Gaussian sources. No ZS eigenvalue is computed here."
+software: "Python 3.9 venv ~/agent-work/venv: numpy, scipy"
+wall_time_s: "under 1"
+seeds: none

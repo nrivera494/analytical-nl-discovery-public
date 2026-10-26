@@ -1,0 +1,64 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance_limits.py
+inputs: 2026-10-08-gpt-b-covariance-material
+nt: 512
+window: 48.0
+T0_ps: 0.5
+temperature_K: 300.0
+seed: null
+ntraj: null
+scope: Stationary unequal-shape family and source quadratures; proposer calculation
+weak_minority_fractions:
+- 0.002
+- 0.004
+- 0.008
+- 0.016
+- 0.032
+- 0.064
+ideal_self_overlaps:
+- 0.5
+- 0.75
+walkoff_values:
+- 0.0
+- 1.0
+- 3.0
+quadrature_cases:
+- - 256
+  - 48
+- - 512
+  - 48
+- - 1024
+  - 48
+- - 1024
+  - 64
+- - 8192
+  - 48
+walkoff_temperature_cases_K:
+- 0.0
+- 77.0
+- 300.0
+gain_half_bandwidths:
+- 4.0
+- 6.0
+- 8.0
+- 12.0
+- 20.0
+- 32.0
+extensions_script: evaluator/mm_soliton_covariance_extensions.py
+conditional_gain_Gamma:
+- -0.1
+- 0.03
+- 0.1
+- 0.3
+conditional_gain_lengths:
+- 0.5
+- 2.0
+- 4.0
+unequal_GVD_probe_fractions:
+- 0.0001
+- 1.0e-05
+- 1.0e-06
+- 1.0e-07
+scaled_probe_sensitivities: true

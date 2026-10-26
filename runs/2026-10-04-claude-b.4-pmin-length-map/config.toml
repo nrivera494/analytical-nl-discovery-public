@@ -1,0 +1,31 @@
+# Run 2026-10-04-claude-b.4-pmin-length-map (task T-20261004-claude-interactive-03, step 3 "map").
+# Same model, input and readout as run 2026-10-04-claude-b.4-pmin-gate-1250 (see its config.toml), at new lengths.
+# Procedure pre-registered in explorations/2026-10-04-claude-b.4-pmin-length.md (commit 34b2917, pushed before
+# any new length was run). Driver: run_map.jl (adaptive power sweep per length). Library: pmin_lib.jl (copy of the
+# gate run's library). No random numbers are drawn; there is no seed.
+
+wavelength_nm = 1250.0
+lo_nm = 1226.0
+hi_nm = 1269.0
+gdd_ps2 = -0.015
+temperature_K = 300.0
+kind = "agarwal"
+# Order: range first (0.25, 0.6, 2, 5 m), then fill in.
+lengths_m = [0.25, 0.6, 2.0, 5.0, 0.4, 0.75, 1.0, 1.25, 1.6, 3.0]
+
+nt = 8192
+window_ps = 40.0
+dz_m = 0.0025
+raman_z_spacing_short_m = 0.0125   # L <= 1.25 m
+raman_z_spacing_long_m = 0.025     # L > 1.25 m
+
+# Adaptive sweep (see run_map.jl):
+P_guess_1m_mw = 142.0        # starting guess P_guess(L) = P_guess_1m * L^-0.8
+start_factor = 0.6
+coarse_ratio = 1.15
+rise_needed = 0.005          # stop the coarse scan when F is this far above the running minimum (two rising points)
+refine_factors = [0.92, 0.96, 1.04, 1.08]
+plateau_ratio = 1.25
+plateau_max_factor = 6.0     # stop the plateau (G = 0) search above this multiple of the coarse P_min
+max_temporal_edge_fraction = 1.0e-4
+max_spectral_edge_fraction = 1.0e-8

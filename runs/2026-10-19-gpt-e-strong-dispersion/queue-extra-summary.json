@@ -1,0 +1,178 @@
+[
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "hydro256",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-strong-dispersion/hydro.py",
+      "--n",
+      "256"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 10.230595111846924,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-hydro256.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "hydro512",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-strong-dispersion/hydro.py",
+      "--n",
+      "512"
+    ],
+    "free_percentage_before": 70,
+    "seconds": 60.44602608680725,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-hydro512.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "hydro512-window",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-strong-dispersion/hydro.py",
+      "--n",
+      "512",
+      "--window",
+      "24"
+    ],
+    "free_percentage_before": 67,
+    "seconds": 30.854258060455322,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-hydro512-window.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "weak-optimize",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-weak-dispersion/optimize.py"
+    ],
+    "free_percentage_before": 64,
+    "seconds": 19.925947904586792,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-weak-optimize.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "strong-optimize",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-strong-dispersion/optimize.py"
+    ],
+    "free_percentage_before": 64,
+    "seconds": 90.65201091766357,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-strong-optimize.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-optimize",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/optimize.py"
+    ],
+    "free_percentage_before": 59,
+    "seconds": 4.656398057937622,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-optimize.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-fullfield-main-discrete",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/fullfield.py",
+      "--suite",
+      "main"
+    ],
+    "free_percentage_before": 59,
+    "seconds": 11.058784008026123,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-fullfield-main-discrete.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-fullfield-checks-discrete",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/fullfield.py",
+      "--suite",
+      "checks"
+    ],
+    "free_percentage_before": 57,
+    "seconds": 22.040362119674683,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-fullfield-checks-discrete.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-edge-resolution",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/fullfield.py",
+      "--suite",
+      "edge-resolution"
+    ],
+    "free_percentage_before": 66,
+    "seconds": 19.145673990249634,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-edge-resolution.txt"
+  },
+  {
+    "agent": "gpt-e",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "label": "sim-short",
+    "command": [
+      "~/agent-work/venv/bin/python",
+      "-W",
+      "ignore",
+      "runs/2026-10-19-gpt-e-similariton/fullfield.py",
+      "--suite",
+      "short"
+    ],
+    "free_percentage_before": 67,
+    "seconds": 0.998408317565918,
+    "returncode": 0,
+    "output": "/private/tmp/gpt-e-sim-short.txt"
+  }
+]

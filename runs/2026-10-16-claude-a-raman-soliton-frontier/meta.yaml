@@ -1,0 +1,52 @@
+run_id: 2026-10-16-claude-a-raman-soliton-frontier
+agent: claude-a
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-02
+problem: P-20261016-claude-interactive-03
+claims: [C-20261016-claude-a-01, C-20261016-claude-a-02, C-20261016-claude-a-03 (refuted), C-20261016-claude-a-04]
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: "second-implementation check (solver_check.jl), H5 jitter (h5_jitter.jl, discrete adjoint), adjoint H4 optimization (h4_adjoint.jl); all other propagation is the numpy RK4IP in gnlse.py"
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-claude-a-raman-soliton-frontier
+machine: COECIS-G3FLW49YGQ
+hardware: arm64 (10 cores, shared with other agents; load average 80-160 during the run)
+os: macOS 27.0.1
+python_version: 3.9.6
+python_packages: {numpy: 2.0.2, scipy: 1.13.1, matplotlib: 3.9.4}
+julia_version: 1.12.5
+JULIA_NUM_THREADS: 2
+BLAS_threads: "1-2 (OPENBLAS/OMP/VECLIB_MAXIMUM_THREADS set per job)"
+started_local: "2026-10-16 11:35 EDT"
+finished_local: "2026-10-16, end of session (see log)"
+freezes: "HYPOTHESES.md; commits 3af8dfa, 94bd1ac, d11ec48, 5628392, fa39dd9, 4592262, 3b5c666, 3a4a64a, 73e23c6, e94b6d7, 99ab7d9, c2e18dc, a3e68a1"
+scope: >
+  H1 (ZS bounds and a refuted WKB sharpening), H2 (TL optimality of the leading ZS eigenvalue over phase-only and passive masks),
+  H3 (Raman-transfer excess of the leading fission soliton versus N and T0, with convergence, held-out, relaxed-assumption and
+  second-implementation checks), H4 (phase-shaping headroom in the Raman GNLSE, Powell, finite-difference and adjoint
+  gradients), H5 (first-pass exploration of the leading soliton's quantum-limited timing jitter).
+raw_files:
+  - solver_check/N3_T0100fs_raman1.csv, N4_T0200fs_raman1.csv, N3_T0100fs_raman0.csv (solver output fields, normalized)
+  - peaks_diag/*.npy (numpy output fields for the per-peak census)
+  - h4_adjoint/*.csv (adjoint-optimized launch fields and mask coefficients)
+  - solver_check2/N6_T0400fs_raman1.csv (solver output field, N = 6, T0 = 400 fs)
+retained_failed_attempts:
+  - "h1_tests_partial_oversubscribed.log: first H1 run, killed for BLAS oversubscription; rerun as h1_tests.*"
+  - "h3_scan_accidental_partial.json: partial H3 scan produced by an unguarded import (width 120, wrap-around at N = 4); superseded by h3_main.*"
+  - "h2b_*_BROKEN_kgrid_order.*: H2b launch built with the wrong FFT ordering (garbage TL pulse, eta_TL ~ 1e-3); fixed and rerun"
+  - "h3_n8fine_restarted_partial.log: N = 8 fine-grid run restarted with earlier measurement lengths"
+  - "h3_relaxed.log: photon_drift printed with the wrong sign convention for s != 0 rows (diagnostic only; fixed in gnlse.py)"
+  - "h5_jitter.log: first H5 run; N = 1 validation and N = 2, 3 valid; crashed at N = 4 on a z-sample mismatch, fixed and rerun as h5_jitter_N45.log"
+  - "h4_adjoint_N3_T100_crash_only_fg.stdout / h4_adjoint_N3_T0100_M16_crash_only_fg.log: gradient check passed, then Optim.only_fg! not found; fixed and rerun"
+  - "h4_adjoint_N3_T100_stopped.stdout / h4_adjoint_N3_T0100_M16_stopped.log: adjoint H4 at N = 3, T0 = 100 fs; gradient check passed (rel. err. 6e-9), then stopped by me at 13:02 after ~13 min without finishing its first L-BFGS start (about 40 s per forward+adjoint evaluation under load), to free a Julia slot; no optimization result"
+  - "h4_adjoint_N4_T0200_M16_warm1_B2.log: the first warm-start log was truncated when a second continuation reused its output tag; restored from git (commit 837009d) before the second run finished; the second run's outputs were renamed warm2_B3"
+  - "an accidental rerun of h3_beta3_measure.py (triggered by importing it without a main guard) wrote to h4_recheck_d005.json/h4_recheck.log; those two files were deleted at once (duplicate of h3_beta3.json, wrong file name) and the import was guarded"
+outcome: >
+  H1a, H1b proved and confirmed; H1c and H1c' refuted. H2 (and held-out H2b) confirmed: TL optimal in every optimization.
+  H3: Raman-transfer law (linear small-tau_R limit; maximum near T0* ~ 1.7 tau1 N^1.62; peak fraction f1* ~ 1.29/sqrt(N) for
+  N = 3-8, response-insensitive), with frozen predictions refuted along the way (H3b global, H3c, H3e(6,800), H3g(iii), H3i(ii),
+  H3k position, H3o N=4 value, H3p). H4: small-basis searches suggested <5 % headroom (C-03), refuted by 11-parameter gradient
+  (+6.2 % and +9.0 %, N=4, 100 fs) and 15-parameter adjoint (+7.0 %, N=4, 200 fs) searches; achievable headroom >= 7-9 % at N=4, ~2 % at N=3 (C-04), far below
+  the card's conjectured bound; TOD measurement artefact identified. H5: fission source 5-40x quieter than a direct soliton at
+  fixed shift (H5a, H5b qualitative, H5c confirmed; H5b quantitative refuted). Details: claims
+  C-20261016-claude-a-01/02/03/04, explorations/2026-10-16-claude-a-leading-soliton-jitter.md, summary.json.

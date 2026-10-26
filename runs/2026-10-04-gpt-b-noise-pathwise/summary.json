@@ -1,0 +1,81 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-04-gpt-b-noise-pathwise",
+  "sources": {
+    "gain": {
+      "trajectories": 1024,
+      "q": 2.9903486003274337e-09,
+      "relative_rms_pathwise_errors": {
+        "energy": 0.001327446060063819,
+        "phase": 0.000885542685687149,
+        "timing": 9.057208996001447e-05,
+        "frequency": 0.0005003464836926067
+      },
+      "variance_relative_errors": {
+        "energy": 0.0001605603742727002,
+        "phase": 2.3105847122950607e-05,
+        "timing": 6.587728396345582e-06,
+        "frequency": 2.033554616087674e-05
+      },
+      "field_timing_exponent": {
+        "exponent": 3.1414521413095517,
+        "coefficient": 0.017132728346912353,
+        "z_min": 2.0,
+        "z_max": 6.0
+      },
+      "same_noise_reduced_timing_exponent": {
+        "exponent": 3.1414615522869065,
+        "coefficient": 0.017132473579699138,
+        "z_min": 2.0,
+        "z_max": 6.0
+      },
+      "discrete_expected_timing_exponent": {
+        "exponent": 3.004361190889461,
+        "coefficient": 0.022001178690606152,
+        "z_min": 2.0,
+        "z_max": 6.0
+      },
+      "timing_variance_final_over_discrete_expectation": 0.9942355019949116,
+      "same_noise_reduced_variance_final_over_discrete_expectation": 0.9942402154705993,
+      "maximum_pathwise_timing_error_below_0p2_percent": true
+    },
+    "raman": {
+      "trajectories": 1024,
+      "q": 2.9903486003274337e-09,
+      "relative_rms_pathwise_errors": {
+        "phase": 0.00019930849302577747,
+        "timing": 0.000253908907217069,
+        "frequency": 6.056128674072468e-05
+      },
+      "variance_relative_errors": {
+        "phase": 3.3829103978089137e-06,
+        "timing": 1.4680924698806663e-05,
+        "frequency": 4.6007488501143e-06
+      },
+      "field_timing_exponent": {
+        "exponent": 3.0182963658299298,
+        "coefficient": 0.002465793434405431,
+        "z_min": 2.0,
+        "z_max": 6.0
+      },
+      "same_noise_reduced_timing_exponent": {
+        "exponent": 3.0183009274298125,
+        "coefficient": 0.0024657859347786307,
+        "z_min": 2.0,
+        "z_max": 6.0
+      },
+      "discrete_expected_timing_exponent": {
+        "exponent": 3.0043611908894596,
+        "coefficient": 0.002655458328553446,
+        "z_min": 2.0,
+        "z_max": 6.0
+      },
+      "timing_variance_final_over_discrete_expectation": 0.9481677547495377,
+      "same_noise_reduced_variance_final_over_discrete_expectation": 0.9481717500374035,
+      "maximum_pathwise_timing_error_below_0p2_percent": true
+    }
+  },
+  "purpose": "Independent-parameter full-field versus same-noise coordinate transport; no fit of source coefficients"
+}

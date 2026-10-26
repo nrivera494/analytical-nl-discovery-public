@@ -1,0 +1,69 @@
+{
+  "family": "gpt",
+  "nt": 512,
+  "model": "gpt-6-astra",
+  "solver_commit": "b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa",
+  "wall_s": 2.6298129558563232,
+  "agent": "gpt-d",
+  "dz_m": 0.0001,
+  "dt_ps": 0.003,
+  "records": [
+    {
+      "Omega_rad_ps": -940.8415499031933,
+      "relative_detuning": -0.9,
+      "absolute_omega_rad_ps": 274.41752577993793,
+      "imaginary_residual": 9.395187919888813e-08,
+      "measured_prefactor_ratio": 0.9999999998290842
+    },
+    {
+      "Omega_rad_ps": -732.220162750746,
+      "relative_detuning": -0.7,
+      "absolute_omega_rad_ps": 483.0389129323852,
+      "imaginary_residual": 1.6393391778586042e-07,
+      "measured_prefactor_ratio": 0.9999999999129949
+    },
+    {
+      "Omega_rad_ps": -417.2427743048944,
+      "relative_detuning": -0.4,
+      "absolute_omega_rad_ps": 798.0163013782368,
+      "imaginary_residual": 2.6982833483034764e-07,
+      "measured_prefactor_ratio": 0.9999999998899012
+    },
+    {
+      "Omega_rad_ps": 0.0,
+      "relative_detuning": 0.0,
+      "absolute_omega_rad_ps": 1215.2590756831312,
+      "imaginary_residual": 4.1006968814007707e-07,
+      "measured_prefactor_ratio": 0.9999999999647811
+    },
+    {
+      "Omega_rad_ps": 417.2427743048944,
+      "relative_detuning": 0.4,
+      "absolute_omega_rad_ps": 1632.5018499880257,
+      "imaginary_residual": 5.502961940660297e-07,
+      "measured_prefactor_ratio": 1.0000000000052505
+    },
+    {
+      "Omega_rad_ps": 732.220162750746,
+      "relative_detuning": 0.7,
+      "absolute_omega_rad_ps": 1947.479238433877,
+      "imaginary_residual": 6.561867395148003e-07,
+      "measured_prefactor_ratio": 0.9999973437247499
+    },
+    {
+      "Omega_rad_ps": 891.7541646908528,
+      "relative_detuning": 0.85,
+      "absolute_omega_rad_ps": 2107.013240373984,
+      "imaginary_residual": 6.990927431484824e-07,
+      "measured_prefactor_ratio": 0.9929711779861233
+    },
+    {
+      "Omega_rad_ps": 994.0195505498955,
+      "relative_detuning": 0.95,
+      "absolute_omega_rad_ps": 2209.2786262330264,
+      "imaginary_residual": 2.2890288775269453e-07,
+      "measured_prefactor_ratio": 0.581289729558638
+    }
+  ],
+  "run_id": "2026-10-16-gpt-d-window-probe"
+}

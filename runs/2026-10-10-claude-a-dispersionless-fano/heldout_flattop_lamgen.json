@@ -1,0 +1,28 @@
+{
+ "rows": [
+  {
+   "pulse": "flattop exp(-t^4)",
+   "Phi": 5.0,
+   "lam_gen": 0.0610344474460164,
+   "lam_P_frozen": 0.064008,
+   "ratio": 0.9535440483379641,
+   "in_window": true,
+   "lam_mom_grid": 0.06400832354630194,
+   "mom_over_P": 1.0000050547791206,
+   "n_bins": 1157,
+   "wall_s": 0.6
+  },
+  {
+   "pulse": "flattop exp(-t^4)",
+   "Phi": 15.0,
+   "lam_gen": 0.007358084697598405,
+   "lam_P_frozen": 0.007541,
+   "ratio": 0.9757438930643688,
+   "in_window": true,
+   "lam_mom_grid": 0.007541748030614384,
+   "mom_over_P": 1.0000991951484397,
+   "n_bins": 1973,
+   "wall_s": 1.8
+  }
+ ]
+}

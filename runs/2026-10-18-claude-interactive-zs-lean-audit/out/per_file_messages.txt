@@ -1,0 +1,13 @@
+ZSFormalization/BoundState.lean 0
+ZSFormalization/Corollaries.lean 0
+ZSFormalization/Endpoints.lean 0
+ZSFormalization/FourierMajorant.lean 0
+ZSFormalization/Gaussian.lean 0
+ZSFormalization/GaussianSource.lean 0
+ZSFormalization/Moment.lean 0
+ZSFormalization/RealSech.lean 0
+ZSFormalization/Scalar.lean 0
+ZSFormalization/Sech.lean 0
+ZSFormalization/SechSharpness.lean 0
+ZSFormalization/Sources.lean 0
+ZSFormalization/SpectralBound.lean 0

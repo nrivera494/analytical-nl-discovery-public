@@ -1,0 +1,459 @@
+{
+  "run_id": "2026-10-10-claude-a-solver-dispersion-check",
+  "agent": "claude-a.1",
+  "task": "T-20261010-claude-interactive-04",
+  "physics": "scalar NLSE (Agrawal sign convention), Kerr only, Gaussian A=sqrt(P0)exp(-T^2/2T0^2), T0=1 ps, Phi=gamma P0 L=5, L=1 m, x=Phi^2 L |beta2|/T0^2, coherent input; self-steepening suppressed by omega0=2pi*193.4e3 rad/ps (except b0_selfsteep, physical omega0)",
+  "Phi": 5.0,
+  "exact_dispersionless_lambda_min_(sqrt(1+Phi^2)-Phi)^2": 0.009804864072151632,
+  "definitions": {
+    "lambda_min_full_V": "smallest eigenvalue of V = S S^T over all 2N time-bin quadratures (shot noise 1)",
+    "lambda_min_band_<wB>": "smallest eigenvalue of V compressed to output quadratures with |omega| <= wB rad/ps (N-point DFT bins); input keeps all 2N vacuum modes",
+    "lambda_gen": "smallest eigenvalue of the spectral amplitude-quadrature covariance V_amp (4x zero padding, bins with |Abar_k|^2 >= 1e-6 max, padded samples vacuum)"
+  },
+  "window_artifact": "solve_mmgnlse multiplies the nonlinear term by damped_freq_window(nt) (src/backend/fft_utils.jl): 1 for negative detuning, rolling off above 0.34 nt domega on the positive side (68 rad/ps for nt=512, 53 rad/ps for nt=400; ~0.013 at the positive Nyquist). Single-time-bin quadratures have flat spectra, so the full-V lambda_min is corrupted: at beta2=0 the solver gives 0.0048058 against 0.0098049 for the exact time-local map on the same grid, the map is not symplectic (max|S J S^T - J| = 2.0). Output modes inside |omega| <= 60 rad/ps (nt=512) are unaffected: lambda_min_band agrees with the exact map to ~1e-8 relative. lambda_gen agrees with the exact map to 3e-9 and changes by 3e-11 if all output modes outside 60 rad/ps are replaced by vacuum.",
+  "minimizing_mode_note": "beta2 > 0: the most-squeezed mode of the full V sits near omega = 0 at T = 0 (rms width 0.17 ps at x=0.1, 0.35 ps at x=1). beta2 < 0: it is a modulation-instability sideband pair at +-49.5 rad/ps (x=0.1) and +-17.3 rad/ps (x=1), near sqrt(2 gamma P0/|beta2|) = sqrt(2 Phi^3/x)/T0, with lambda_min ~ 5e-5, close to exp(-2 Phi) = 4.5e-5. beta2 = 0: a band-edge mode (|omega| ~ 95 rad/ps) created by the anti-alias window.",
+  "dz_convergence_note": "Halving dz checked on m1 (largest |beta2|, MI-dominated): all quantities change by < 2e-7 relative. b0_dzhalf and m0.1_dzhalf were not run (time budget); for b0 the comparison with the exact time-local map (lambda_gen 3e-9, lambda_min_band_60 1e-8 relative) bounds the step error.",
+  "self_steepening_note": "b0_selfsteep (physical omega0 = 2 pi 193.4 rad/ps, s = 1/(omega0 T0) = 8.2e-4): lambda_gen changes by +5.7e-6 relative, lambda_min_band_60 by +0.18%, mean output field by 2.3% of peak, against the shock-free map.",
+  "not_run": [
+    "m0.1_nt400",
+    "b0_nt400",
+    "b0_dzhalf",
+    "m0.1_dzhalf"
+  ],
+  "main_cases": [
+    "b0",
+    "p0.1",
+    "m0.1",
+    "p1",
+    "m1"
+  ],
+  "cases": {
+    "b0": {
+      "beta2_ps2_per_m": 0.0,
+      "x": 0.0,
+      "nt": 512,
+      "dt_ps": 0.03125,
+      "dz_m": 0.002,
+      "nsteps": 500,
+      "omega0_rad_per_ps": 1215168.038408532,
+      "lambda_min": 0.004805786697095532,
+      "lambda_min_from_svd_of_S": 0.00480578669708947,
+      "lambda_gen": 0.044606166437218715,
+      "n_bins_kept": 289,
+      "lambda_max": 229.7452846468473,
+      "lambda_gen_max": 51.18504991462846,
+      "path": "discrete adjoint: one solve_adjoint(...; adjoint_mode=:discrete_rk4ip) per row of S (2N rows); both lambda_min and lambda_gen from this S",
+      "fd_check_max_rel_err": [
+        2.7103864344916864e-10,
+        1.364536404604611e-10
+      ],
+      "symplectic_defect_max_abs": 2.0415157025425468,
+      "nonlocal_fraction_of_S": 0.4154901485959548,
+      "energy_drift": 1.3100631690576847e-12,
+      "edge_energy_fraction_5pct": 2.898907024776212e-24,
+      "peak_phase_check_rad": -1.2831853131623552,
+      "wall_s": 363.36857986450195,
+      "role": "main",
+      "lambda_min_full_V": 0.004805786697095532,
+      "lambda_min_window_affected": true,
+      "lambda_min_note": "lambda_min = smallest eigenvalue of the full 2N x 2N V, as requested. NOT usable at beta2 = 0: the exact time-local map gives 0.0098049; the solver's smaller value comes from a mode at the edge of the frequency band created by the solver's nonlinear anti-alias window (see min_mode_of_full_V, ideal_time_local_map_same_grid); use lambda_min_band_<wB> inside the flat band.",
+      "lambda_min_band": {
+        "10": 0.012092565574043368,
+        "20": 0.010026942277743424,
+        "30": 0.009881586623418119,
+        "40": 0.009844266014919572,
+        "50": 0.009828377982946794,
+        "60": 0.009820696688918166,
+        "80": 0.009813352125186707,
+        "100": 0.006340757329128259
+      },
+      "lambda_min_band_40": 0.009844266014919572,
+      "lambda_min_band_60": 0.009820696688918166,
+      "lambda_gen_rel_change_if_output_outside_60_rad_per_ps_replaced_by_vacuum": 2.7696955839928705e-11,
+      "window_rolloff_start_rad_per_ps": 68.36105614211391,
+      "ideal_time_local_map_same_grid": {
+        "lambda_min_full_V": 0.009804864072153589,
+        "lambda_min_band": {
+          "10": 0.012092565500467306,
+          "20": 0.010026942170881922,
+          "30": 0.009881586511768866,
+          "40": 0.009844265898643546,
+          "50": 0.00982837786069949,
+          "60": 0.00982069655937049,
+          "80": 0.00981334939884152,
+          "100": 0.00980994629499978
+        },
+        "lambda_gen": 0.044606166308190476,
+        "rel_diff_lambda_gen_solver_vs_ideal": 2.892497574791264e-09,
+        "rel_diff_lambda_min_full_solver_vs_ideal": -0.5098568769825962,
+        "rel_fro_S_minus_ideal": 0.43432946024486496,
+        "max_abs_Abar_minus_ideal_over_peak": 2.2678233269259532e-05
+      },
+      "min_mode_of_full_V": {
+        "min_mode_peak_abs_omega_rad_per_ps": 94.64047868939252,
+        "min_mode_rms_abs_omega_rad_per_ps": 95.54761140128687,
+        "min_mode_time_centroid_ps": -0.1043383780542865,
+        "min_mode_rms_width_ps": 0.17585543953046065
+      }
+    },
+    "p0.1": {
+      "beta2_ps2_per_m": 0.004,
+      "x": 0.1,
+      "nt": 512,
+      "dt_ps": 0.03125,
+      "dz_m": 0.002,
+      "nsteps": 500,
+      "omega0_rad_per_ps": 1215168.038408532,
+      "lambda_min": 0.01106032013909325,
+      "lambda_min_from_svd_of_S": 0.0110603201390924,
+      "lambda_gen": 0.04548013796428126,
+      "n_bins_kept": 287,
+      "lambda_max": 90.41329612418181,
+      "lambda_gen_max": 41.22344890335817,
+      "path": "discrete adjoint: one solve_adjoint(...; adjoint_mode=:discrete_rk4ip) per row of S (2N rows); both lambda_min and lambda_gen from this S",
+      "fd_check_max_rel_err": [
+        2.0299662522206737e-10,
+        9.441368816229318e-10
+      ],
+      "symplectic_defect_max_abs": 0.057733664520735584,
+      "nonlocal_fraction_of_S": 0.9654299141854303,
+      "energy_drift": -4.112932217026355e-12,
+      "edge_energy_fraction_5pct": 2.9020022662606942e-24,
+      "peak_phase_check_rad": -1.3138834296977828,
+      "wall_s": 332.4973130226135,
+      "role": "main",
+      "lambda_min_full_V": 0.01106032013909325,
+      "lambda_min_window_affected": false,
+      "lambda_min_note": "lambda_min = smallest eigenvalue of the full 2N x 2N V, as requested. The minimizing mode lies inside the flat part of the window (see min_mode_of_full_V and lambda_min_band), so the window does not set it.",
+      "lambda_min_band": {
+        "10": 0.011975093843730016,
+        "20": 0.01106035390836519,
+        "30": 0.011060320139103259,
+        "40": 0.011060320139092118,
+        "50": 0.011060320139091325,
+        "60": 0.011060320139092406,
+        "80": 0.011060320139092595,
+        "100": 0.011060320139091336
+      },
+      "lambda_min_band_40": 0.011060320139092118,
+      "lambda_min_band_60": 0.011060320139092406,
+      "lambda_gen_rel_change_if_output_outside_60_rad_per_ps_replaced_by_vacuum": -2.554623179662485e-12,
+      "window_rolloff_start_rad_per_ps": 68.36105614211391,
+      "min_mode_of_full_V": {
+        "min_mode_peak_abs_omega_rad_per_ps": 0.0,
+        "min_mode_rms_abs_omega_rad_per_ps": 3.3042086455503026,
+        "min_mode_time_centroid_ps": 9.468993618061416e-06,
+        "min_mode_rms_width_ps": 0.17460413021499202
+      }
+    },
+    "m0.1": {
+      "beta2_ps2_per_m": -0.004,
+      "x": 0.1,
+      "nt": 512,
+      "dt_ps": 0.03125,
+      "dz_m": 0.002,
+      "nsteps": 500,
+      "omega0_rad_per_ps": 1215168.038408532,
+      "lambda_min": 5.476671016080605e-05,
+      "lambda_min_from_svd_of_S": 5.476671079880686e-05,
+      "lambda_gen": 0.043639004524822604,
+      "n_bins_kept": 291,
+      "lambda_max": 18259.267108182703,
+      "lambda_gen_max": 97.14480584751412,
+      "path": "discrete adjoint: one solve_adjoint(...; adjoint_mode=:discrete_rk4ip) per row of S (2N rows); both lambda_min and lambda_gen from this S",
+      "fd_check_max_rel_err": [
+        8.445499790219391e-09,
+        9.789832024356975e-09
+      ],
+      "symplectic_defect_max_abs": 0.1525840960246008,
+      "nonlocal_fraction_of_S": 0.777854268810034,
+      "energy_drift": 7.347678021574211e-12,
+      "edge_energy_fraction_5pct": 2.897126183388739e-24,
+      "peak_phase_check_rad": -1.2511793185196465,
+      "wall_s": 264.39518094062805,
+      "role": "main",
+      "lambda_min_full_V": 5.476671016080605e-05,
+      "lambda_min_window_affected": false,
+      "lambda_min_note": "lambda_min = smallest eigenvalue of the full 2N x 2N V, as requested. The minimizing mode lies inside the flat part of the window (see min_mode_of_full_V and lambda_min_band), so the window does not set it.",
+      "lambda_min_band": {
+        "10": 0.012414148342359953,
+        "20": 0.007273891021907223,
+        "30": 0.0023229114356009208,
+        "40": 0.0006354254108804121,
+        "50": 0.0001845063164100441,
+        "60": 7.842096699969187e-05,
+        "80": 5.476760001512795e-05,
+        "100": 5.47667099036929e-05
+      },
+      "lambda_min_band_40": 0.0006354254108804121,
+      "lambda_min_band_60": 7.842096699969187e-05,
+      "lambda_gen_rel_change_if_output_outside_60_rad_per_ps_replaced_by_vacuum": 1.4277447890620465e-08,
+      "window_rolloff_start_rad_per_ps": 68.36105614211391,
+      "min_mode_of_full_V": {
+        "min_mode_peak_abs_omega_rad_per_ps": 49.480084294039244,
+        "min_mode_rms_abs_omega_rad_per_ps": 49.9187251247347,
+        "min_mode_time_centroid_ps": 1.2380737981342038e-05,
+        "min_mode_rms_width_ps": 0.11285066432870745
+      }
+    },
+    "p1": {
+      "beta2_ps2_per_m": 0.04,
+      "x": 1.0,
+      "nt": 512,
+      "dt_ps": 0.03125,
+      "dz_m": 0.002,
+      "nsteps": 500,
+      "omega0_rad_per_ps": 1215168.038408532,
+      "lambda_min": 0.014567731215034022,
+      "lambda_min_from_svd_of_S": 0.014567731215033545,
+      "lambda_gen": 0.05066111966740346,
+      "n_bins_kept": 277,
+      "lambda_max": 68.64486889684244,
+      "lambda_gen_max": 18.154797059076937,
+      "path": "discrete adjoint: one solve_adjoint(...; adjoint_mode=:discrete_rk4ip) per row of S (2N rows); both lambda_min and lambda_gen from this S",
+      "fd_check_max_rel_err": [
+        2.944875882848723e-10,
+        4.848001889687561e-10
+      ],
+      "symplectic_defect_max_abs": 0.01766734043576723,
+      "nonlocal_fraction_of_S": 0.9957778322881233,
+      "energy_drift": -3.591504871280904e-11,
+      "edge_energy_fraction_5pct": 3.160625323408688e-24,
+      "peak_phase_check_rad": -1.5453492870796603,
+      "wall_s": 341.5510468482971,
+      "role": "main",
+      "lambda_min_full_V": 0.014567731215034022,
+      "lambda_min_window_affected": false,
+      "lambda_min_note": "lambda_min = smallest eigenvalue of the full 2N x 2N V, as requested. The minimizing mode lies inside the flat part of the window (see min_mode_of_full_V and lambda_min_band), so the window does not set it.",
+      "lambda_min_band": {
+        "10": 0.014879706951837608,
+        "20": 0.014567731788455392,
+        "30": 0.014567731215032652,
+        "40": 0.01456773121503438,
+        "50": 0.014567731215034112,
+        "60": 0.014567731215031974,
+        "80": 0.014567731215031573,
+        "100": 0.014567731215027841
+      },
+      "lambda_min_band_40": 0.01456773121503438,
+      "lambda_min_band_60": 0.014567731215031974,
+      "lambda_gen_rel_change_if_output_outside_60_rad_per_ps_replaced_by_vacuum": -5.466627150951808e-12,
+      "window_rolloff_start_rad_per_ps": 68.36105614211391,
+      "min_mode_of_full_V": {
+        "min_mode_peak_abs_omega_rad_per_ps": 0.0,
+        "min_mode_rms_abs_omega_rad_per_ps": 2.646973212104074,
+        "min_mode_time_centroid_ps": 8.301752783823613e-06,
+        "min_mode_rms_width_ps": 0.3516221038854626
+      }
+    },
+    "m1": {
+      "beta2_ps2_per_m": -0.04,
+      "x": 1.0,
+      "nt": 512,
+      "dt_ps": 0.03125,
+      "dz_m": 0.002,
+      "nsteps": 500,
+      "omega0_rad_per_ps": 1215168.038408532,
+      "lambda_min": 5.207981488990375e-05,
+      "lambda_min_from_svd_of_S": 5.207981446974597e-05,
+      "lambda_gen": 0.033700411684219,
+      "n_bins_kept": 377,
+      "lambda_max": 19201.297404048764,
+      "lambda_gen_max": 9041.88443149592,
+      "path": "discrete adjoint: one solve_adjoint(...; adjoint_mode=:discrete_rk4ip) per row of S (2N rows); both lambda_min and lambda_gen from this S",
+      "fd_check_max_rel_err": [
+        3.512868904027416e-10,
+        1.4114798588341255e-09
+      ],
+      "symplectic_defect_max_abs": 0.03519007431554496,
+      "nonlocal_fraction_of_S": 0.951686845464436,
+      "energy_drift": 1.213977807168476e-10,
+      "edge_energy_fraction_5pct": 3.140465345508254e-24,
+      "peak_phase_check_rad": -0.8771466313401034,
+      "wall_s": 405.18964099884033,
+      "role": "main",
+      "lambda_min_full_V": 5.207981488990375e-05,
+      "lambda_min_window_affected": false,
+      "lambda_min_note": "lambda_min = smallest eigenvalue of the full 2N x 2N V, as requested. The minimizing mode lies inside the flat part of the window (see min_mode_of_full_V and lambda_min_band), so the window does not set it.",
+      "lambda_min_band": {
+        "10": 0.023903276832729924,
+        "20": 0.001690287827407878,
+        "30": 0.00022278538254945726,
+        "40": 5.610727530944211e-05,
+        "50": 5.208525236624786e-05,
+        "60": 5.207982508347947e-05,
+        "80": 5.207981432186388e-05,
+        "100": 5.207981430423924e-05
+      },
+      "lambda_min_band_40": 5.610727530944211e-05,
+      "lambda_min_band_60": 5.207982508347947e-05,
+      "lambda_gen_rel_change_if_output_outside_60_rad_per_ps_replaced_by_vacuum": 1.2829670659186831e-10,
+      "window_rolloff_start_rad_per_ps": 68.36105614211391,
+      "min_mode_of_full_V": {
+        "min_mode_peak_abs_omega_rad_per_ps": 17.27875959474386,
+        "min_mode_rms_abs_omega_rad_per_ps": 17.572470447916594,
+        "min_mode_time_centroid_ps": 1.2128407389913609e-05,
+        "min_mode_rms_width_ps": 0.16834463787589843
+      },
+      "dz_convergence": {
+        "compared_with": "m1_dzhalf",
+        "rel_change_lambda_min_full_V": 1.3432011268561566e-07,
+        "rel_change_lambda_min_band_40": 4.087381044734702e-08,
+        "rel_change_lambda_min_band_60": 9.712472382649772e-08,
+        "rel_change_lambda_gen": 5.1913328831411635e-09,
+        "max_rel_change": 1.3432011268561566e-07,
+        "passes_1e-3": true
+      }
+    },
+    "m1_dzhalf": {
+      "beta2_ps2_per_m": -0.04,
+      "x": 1.0,
+      "nt": 512,
+      "dt_ps": 0.03125,
+      "dz_m": 0.001,
+      "nsteps": 1000,
+      "omega0_rad_per_ps": 1215168.038408532,
+      "lambda_min": 5.207980789453809e-05,
+      "lambda_min_from_svd_of_S": 5.20798090647578e-05,
+      "lambda_gen": 0.033700411509268946,
+      "n_bins_kept": 377,
+      "lambda_max": 19201.29928116426,
+      "lambda_gen_max": 9041.886362488829,
+      "path": "discrete adjoint: one solve_adjoint(...; adjoint_mode=:discrete_rk4ip) per row of S (2N rows); both lambda_min and lambda_gen from this S",
+      "fd_check_max_rel_err": [
+        7.669020496113595e-10,
+        1.3653350464241011e-09
+      ],
+      "symplectic_defect_max_abs": 0.035190101585285294,
+      "nonlocal_fraction_of_S": 0.9516868455123318,
+      "energy_drift": 7.503553334231583e-12,
+      "edge_energy_fraction_5pct": 3.139298963664306e-24,
+      "peak_phase_check_rad": -0.8771466188929752,
+      "wall_s": 1115.7627930641174,
+      "role": "dz-convergence check of m1",
+      "lambda_min_full_V": 5.207980789453809e-05,
+      "lambda_min_window_affected": false,
+      "lambda_min_note": "lambda_min = smallest eigenvalue of the full 2N x 2N V, as requested. The minimizing mode lies inside the flat part of the window (see min_mode_of_full_V and lambda_min_band), so the window does not set it.",
+      "lambda_min_band": {
+        "10": 0.023903277948916828,
+        "20": 0.001690287864108159,
+        "30": 0.00022278538972825247,
+        "40": 5.610727301612407e-05,
+        "50": 5.208524731834346e-05,
+        "60": 5.2079820025241335e-05,
+        "80": 5.2079809243782025e-05,
+        "100": 5.207980925222377e-05
+      },
+      "lambda_min_band_40": 5.610727301612407e-05,
+      "lambda_min_band_60": 5.2079820025241335e-05,
+      "lambda_gen_rel_change_if_output_outside_60_rad_per_ps_replaced_by_vacuum": 1.344573341555133e-10,
+      "window_rolloff_start_rad_per_ps": 68.36105614211391,
+      "min_mode_of_full_V": {
+        "min_mode_peak_abs_omega_rad_per_ps": 17.27875959474386,
+        "min_mode_rms_abs_omega_rad_per_ps": 17.5724706229713,
+        "min_mode_time_centroid_ps": 1.2131172631685283e-05,
+        "min_mode_rms_width_ps": 0.16834463503598146
+      }
+    },
+    "b0_selfsteep": {
+      "beta2_ps2_per_m": 0.0,
+      "x": 0.0,
+      "nt": 512,
+      "dt_ps": 0.03125,
+      "dz_m": 0.002,
+      "nsteps": 500,
+      "omega0_rad_per_ps": 1215.168038408532,
+      "lambda_min": 0.004398666036708778,
+      "lambda_min_from_svd_of_S": 0.004398666036709285,
+      "lambda_gen": 0.044606418858231044,
+      "n_bins_kept": 289,
+      "lambda_max": 252.90783581691994,
+      "lambda_gen_max": 51.176313551352095,
+      "path": "discrete adjoint: one solve_adjoint(...; adjoint_mode=:discrete_rk4ip) per row of S (2N rows); both lambda_min and lambda_gen from this S",
+      "fd_check_max_rel_err": [
+        1.0219750092304934e-10,
+        1.1147374382762578e-10
+      ],
+      "symplectic_defect_max_abs": 2.2985159049556008,
+      "nonlocal_fraction_of_S": 0.4617844801136004,
+      "energy_drift": 1.326050380612287e-12,
+      "edge_energy_fraction_5pct": 2.8984446906421976e-24,
+      "peak_phase_check_rad": -1.2835520456215144,
+      "wall_s": 502.6500678062439,
+      "role": "diagnostic: physical omega0 (1550 nm), solver's built-in self-steepening active",
+      "lambda_min_full_V": 0.004398666036708778,
+      "lambda_min_window_affected": true,
+      "lambda_min_note": "lambda_min = smallest eigenvalue of the full 2N x 2N V, as requested. NOT usable at beta2 = 0: the exact time-local map gives 0.0098049; the solver's smaller value comes from a mode at the edge of the frequency band created by the solver's nonlinear anti-alias window (see min_mode_of_full_V, ideal_time_local_map_same_grid); use lambda_min_band_<wB> inside the flat band.",
+      "lambda_min_band": {
+        "10": 0.012092416607889851,
+        "20": 0.010028311934537513,
+        "30": 0.00988579644277504,
+        "40": 0.00985238158488292,
+        "50": 0.009841260570606768,
+        "60": 0.009838047816925934,
+        "80": 0.009837126165655328,
+        "100": 0.005962930439398842
+      },
+      "lambda_min_band_40": 0.00985238158488292,
+      "lambda_min_band_60": 0.009838047816925934,
+      "lambda_gen_rel_change_if_output_outside_60_rad_per_ps_replaced_by_vacuum": -3.1159519409129643e-12,
+      "window_rolloff_start_rad_per_ps": 68.36105614211391,
+      "ideal_time_local_map_same_grid": {
+        "lambda_min_full_V": 0.009804864072153589,
+        "lambda_min_band": {
+          "10": 0.012092565500467306,
+          "20": 0.010026942170881922,
+          "30": 0.009881586511768866,
+          "40": 0.009844265898643546,
+          "50": 0.00982837786069949,
+          "60": 0.00982069655937049,
+          "80": 0.00981334939884152,
+          "100": 0.00980994629499978
+        },
+        "lambda_gen": 0.044606166308190476,
+        "rel_diff_lambda_gen_solver_vs_ideal": 5.661774139298359e-06,
+        "rel_diff_lambda_min_full_solver_vs_ideal": -0.5513791925789899,
+        "rel_fro_S_minus_ideal": 0.4867486992099724,
+        "max_abs_Abar_minus_ideal_over_peak": 0.022770053235497374
+      },
+      "min_mode_of_full_V": {
+        "min_mode_peak_abs_omega_rad_per_ps": 94.24777960769379,
+        "min_mode_rms_abs_omega_rad_per_ps": 95.66623540914232,
+        "min_mode_time_centroid_ps": -0.09144530775913222,
+        "min_mode_rms_width_ps": 0.1813276861358113
+      }
+    }
+  },
+  "dz_convergence_checks": [
+    {
+      "case": "m1",
+      "compared_with": "m1_dzhalf",
+      "dz_m": [
+        0.002,
+        0.001
+      ],
+      "lambda_min_full_V": [
+        5.207981488990375e-05,
+        5.207980789453809e-05
+      ],
+      "rel_change_lambda_min_full_V": 1.3432011268561566e-07,
+      "lambda_min_band_40": [
+        5.610727530944211e-05,
+        5.610727301612407e-05
+      ],
+      "rel_change_lambda_min_band_40": 4.087381044734702e-08,
+      "lambda_min_band_60": [
+        5.207982508347947e-05,
+        5.2079820025241335e-05
+      ],
+      "rel_change_lambda_min_band_60": 9.712472382649772e-08,
+      "lambda_gen": [
+        0.033700411684219,
+        0.033700411509268946
+      ],
+      "rel_change_lambda_gen": 5.1913328831411635e-09,
+      "max_rel_change": 1.3432011268561566e-07,
+      "passes_1e-3": true
+    }
+  ]
+}

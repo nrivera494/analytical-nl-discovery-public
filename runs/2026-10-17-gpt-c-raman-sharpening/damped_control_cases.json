@@ -1,0 +1,207 @@
+[
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N4_T138.885",
+    "N": 4,
+    "T0_fs": 138.88473698411278,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N4_T168.646",
+    "N": 4,
+    "T0_fs": 168.64575205213697,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N4_T198.407",
+    "N": 4,
+    "T0_fs": 198.40676712016113,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N4_T228.168",
+    "N": 4,
+    "T0_fs": 228.1677821881853,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 16384,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N4_T277.769",
+    "N": 4,
+    "T0_fs": 277.76947396822555,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 32768,
+    "width": 160,
+    "zN": [
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N8_T426.897",
+    "N": 8,
+    "T0_fs": 426.8970106611926,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 16384,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N8_T518.375",
+    "N": 8,
+    "T0_fs": 518.3749415171625,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N8_T609.853",
+    "N": 8,
+    "T0_fs": 609.8528723731323,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N8_T701.331",
+    "N": 8,
+    "T0_fs": 701.3308032291021,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  },
+  {
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "id": "bw_damped_sech_N8_T853.794",
+    "N": 8,
+    "T0_fs": 853.7940213223852,
+    "raman": "bw_damped",
+    "shape": "sech",
+    "n": 32768,
+    "width": 100,
+    "zN": [
+      1.5,
+      2,
+      2.5
+    ],
+    "tol": 2e-09,
+    "zs_points": 2048,
+    "split": "calibration"
+  }
+]

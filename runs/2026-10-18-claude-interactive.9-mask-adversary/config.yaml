@@ -1,0 +1,19 @@
+scripts: [masks.py, run_adversary.py, make_figure.py]
+library: ../2026-10-18-claude-interactive.9-zs-solver-validation/zs.py
+command: "OPENBLAS_NUM_THREADS=1 python run_adversary.py '<case>' ...  (run in chunks; outputs part_*.json); python make_figure.py"
+seed: 20261018   # numpy default_rng, consumed in case order within each chunk
+objective: "maximise eta_max = max Im zeta over passive masks |m(k)| <= 1, m = cos(psi) exp(i phi)"
+optimiser: {method: L-BFGS-B, maxiter: 300 (250 per-bin), maxcor: 30, gradient: exact discrete FC eigenvalue gradient, full-spectrum check: every 15 iterations and at the end}
+cases:
+  sech: {N: [2, 3, 4, 6, 2.5, 4.5, 7.5], grid: "n = 192 (N <= 4.5) or 256, T = 36, basis half-width K = 12"}
+  gauss: {N: [1.5, 4, 5, 8], grid: "n = 256, T = 40, K = 7"}
+  held_out: {sech: [4.5, 7.5], gauss: [1.5, 5, 8]}
+families_and_starts:
+  phase-cheb: "phi = sum_{j=2..24} c_j T_j(k/K), |c_j| <= 4; starts: near TL (sigma 0.05), random sigma 0.3, 0.8, 1.5"
+  passive-cheb: "phi as above, psi = sum_{j=0..24} d_j T_j(k/K); same starts (psi coefficients halved)"
+  passive-bins: "phi_l, psi_l free on every bin with |k_l| <= K (2 x 89 parameters for the Gaussians, 2 x 137 for sech); starts: near TL, random sigma 0.6"
+  sharp: "6 phase steps + 6 amplitude-angle steps, logistic width eps = 0.05, free heights and positions; 3 random starts"
+verification_of_each_family_best:
+  - "FC, time grid refined 2x with the same frequency bins (full eigensolver)"
+  - "BO line problem on the window, cells T/(4n), T/(8n), T/(16n), Romberg"
+  - "FC on a window doubled in T with the mask evaluated as a function of k (smooth families)"

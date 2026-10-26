@@ -1,0 +1,25 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_noise_cw.jl
+physical_model: Periodic CW, undepleted-pump limit
+responses:
+- agarwal
+- anisotropic
+r:
+- 1.0e-06
+- 1.0e-08
+zeta:
+- 0.01
+- 0.02
+temperature_K:
+- 0.0
+- 300.0
+temporal_frequency_sign:
+- -1
+- 1
+nt: 64
+window_tau: 40.0
+harmonic: 4
+dzeta: 0.0001
+reservoir_zspacing: 0.001

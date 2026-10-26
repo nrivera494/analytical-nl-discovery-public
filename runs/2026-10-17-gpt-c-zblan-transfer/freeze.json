@@ -1,0 +1,14 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "predictions_commit": "b042d48fd03e65791b577d869b585e36fd48b07f",
+  "artifact_and_additional_controls_commit": "df140a389839478060338cb42fdb0cdecabd275a",
+  "refinement1_commit": "5cfc27b5f428f7b0582fed1b57a3e736ce91c467",
+  "refinement2_commit": "3914052a441b79728f1b516662d1c038ebf9ff63",
+  "refinement3_and_library_design_commit": "e4bcdeae82e6079a117bc640c28eeb0ed522388c",
+  "verification_cases_commit": "532cf8e09ad5080e6f3f1022e92257d03fdf1a0d",
+  "refinement5_commit": "558d3d521f714e81607bbcfe6871830abac4661e",
+  "refinement6_commit": "7533746e6ad1348a81e9a4530c1d901ebd9a76dc",
+  "refinement7_commit": "59d591460bdbc2df40c8e58a900c01e24230a8b3"
+}

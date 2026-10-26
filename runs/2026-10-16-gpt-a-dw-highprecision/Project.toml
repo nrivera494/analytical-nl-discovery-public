@@ -1,0 +1,3 @@
+[deps]
+DoubleFloats = "497a8b3b-efae-58df-a0af-a86822472b78"
+GenericFFT = "a8297547-1b15-4a5a-a998-a2ac5f1cef28"

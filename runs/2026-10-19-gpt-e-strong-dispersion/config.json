@@ -1,0 +1,259 @@
+{
+  "agent": "gpt-e",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "date": "2026-10-19",
+  "seeds": [
+    191004,
+    191005,
+    191007
+  ],
+  "equation": "du/ds=-i*(Z/N)/2*u_tt+i*N*Z*abs(u)^2*u",
+  "readout": "unrestricted homodyne; exact compression orthogonal to i*mean for passive readout",
+  "numerical_method": "fourth-order Fourier symplectic tangent; independent epsilon=0 pseudospectral DOP853 hydro; pinned solver discrete RK4IP adjoint",
+  "threads": 1,
+  "actual_cases": [
+    {
+      "N": 10.0,
+      "Z": 0.45,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 689,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 0.45,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 345,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 40.0,
+      "Z": 0.45,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 173,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 10.0,
+      "Z": 0.9,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 1377,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 0.9,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 689,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 40.0,
+      "Z": 0.9,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 345,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 10.0,
+      "Z": 1.8,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 2754,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 1.8,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 1377,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 40.0,
+      "Z": 1.8,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 689,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 10.0,
+      "Z": 2.3,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 3519,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 2.3,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 1760,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 40.0,
+      "Z": 2.3,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 880,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 2.3,
+      "n": 2048,
+      "window": 24.0,
+      "steps": 7038,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 2.3,
+      "n": 2048,
+      "window": 48.0,
+      "steps": 1760,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 2.3,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 4000,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 2.3,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 4000,
+      "chirp": 0.0,
+      "order": 2
+    },
+    {
+      "N": 20.0,
+      "Z": 0.9,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 689,
+      "chirp": 0.5,
+      "order": 4
+    },
+    {
+      "N": 20.0,
+      "Z": 0.9,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 689,
+      "chirp": -0.5,
+      "order": 4
+    },
+    {
+      "N": 40.0,
+      "Z": 1.8,
+      "n": 2048,
+      "window": 24.0,
+      "steps": 2754,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 40.0,
+      "Z": 2.3,
+      "n": 2048,
+      "window": 24.0,
+      "steps": 3519,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 50.0,
+      "Z": 0.1,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 64,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 5.0,
+      "Z": 1.0,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 3060,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 10.0,
+      "Z": 3.2,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 4896,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 10.0,
+      "Z": 3.6,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 5508,
+      "chirp": 0.0,
+      "order": 4
+    },
+    {
+      "N": 5.0,
+      "Z": 0.45,
+      "n": 1024,
+      "window": 24.0,
+      "steps": 1377,
+      "chirp": 0.0,
+      "order": 4
+    }
+  ],
+  "hydro_cases": [
+    {
+      "n": 256,
+      "window": 12.0,
+      "rtol": 3e-10
+    },
+    {
+      "n": 512,
+      "window": 12.0,
+      "rtol": 3e-10
+    },
+    {
+      "n": 512,
+      "window": 24.0,
+      "rtol": 3e-10
+    }
+  ]
+}

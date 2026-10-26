@@ -1,0 +1,134 @@
+{
+  "records": [
+    {
+      "E_pJ": 100.00000000000001,
+      "N": 780288807.9810548,
+      "N_ratio": 1.0,
+      "omega": 1215.2579238977944,
+      "lambda_um": 1.5500014690439263,
+      "peak_W": 102.45901639344257,
+      "dN_dz": -3.9786100387573244e-09,
+      "dE_rhs": -4.520194579569026e-05,
+      "dE_identity": -4.520194579518489e-05,
+      "integral_identity": 0.0,
+      "integral_rhs": 0.0,
+      "rate_over_bound": 4.855040301174671e-06,
+      "identity_rate_over_bound": 4.855040301120391e-06,
+      "weighted_rate_over_bound": 4.855040301120391e-06,
+      "weighted_energy_over_energy": 1.0,
+      "identity_residual_over_bound": -5.4280339512425454e-17,
+      "time_edge_fraction": 1.1306046324206891e-32,
+      "spectral_outer_fraction": 3.894310534785695e-33,
+      "eta": {},
+      "z": 0.0,
+      "retention_bound": 1.0,
+      "retention_ratio": 1.0,
+      "retention_margin": 0.0
+    },
+    {
+      "E_pJ": 99.99999999547977,
+      "N": 780288807.9810544,
+      "N_ratio": 0.9999999999999996,
+      "omega": 1215.2579238428623,
+      "lambda_um": 1.5500014691139896,
+      "peak_W": 102.45901636567484,
+      "dN_dz": -4.850327968597412e-09,
+      "dE_rhs": -4.5201945767776584e-05,
+      "dE_identity": -4.520194576715746e-05,
+      "integral_identity": -4.520194577997106e-09,
+      "integral_rhs": -4.520194578059589e-09,
+      "rate_over_bound": 4.855040298615445e-06,
+      "identity_rate_over_bound": 4.855040298548946e-06,
+      "weighted_rate_over_bound": 4.855040298548945e-06,
+      "weighted_energy_over_energy": 1.0000000000000002,
+      "identity_residual_over_bound": -6.649903834430783e-17,
+      "time_edge_fraction": 7.855206862746422e-32,
+      "spectral_outer_fraction": 3.89432423242085e-33,
+      "eta": {},
+      "z": 0.0001,
+      "retention_bound": 0.9999906897734825,
+      "retention_ratio": 0.9999999999547975,
+      "retention_margin": 9.310181315003163e-06
+    }
+  ],
+  "wall_s": 0.025617708999999933,
+  "steps": 10,
+  "dz_m": 1e-05,
+  "N0": 780288807.9810548,
+  "properties": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt",
+    "material": "S28",
+    "A0_um2": 64.51341249318523,
+    "beta2_ps2_m": -0.02187309261288714,
+    "beta3_ps3_m": 0.00012806609756932464,
+    "gamma0_Winv_minv": 0.0016336969688922544,
+    "TR_fs": 1.4619528665461614,
+    "edge_w_rad_ps": 39.24274098560111,
+    "omega0": 1215.2590756831312
+  },
+  "kernel": {
+    "method": "analytic"
+  },
+  "alias_window": false,
+  "optima": {},
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-d-c02-rate40",
+  "config": {
+    "run_id": "2026-10-16-gpt-d-c02-rate40",
+    "identity": {
+      "agent": "gpt-d",
+      "model": "gpt-6-astra",
+      "family": "gpt"
+    },
+    "fibre": {
+      "material": "S28",
+      "loss_scale": 0.0,
+      "dispersion": "quadratic"
+    },
+    "grid": {
+      "n": 16384,
+      "dt": 0.003
+    },
+    "input": {
+      "shape": "sech",
+      "E_pJ": 100.0
+    },
+    "propagation": {
+      "T": 0.48800000000000004,
+      "L": 0.0001,
+      "h": 1e-05,
+      "save_every": 0.0001
+    },
+    "expected": {
+      "long_pulse_exponent": 3,
+      "card_exponent": 2,
+      "fit_domain_T_over_tau1": [
+        40,
+        160
+      ],
+      "source": "Independent derivation frozen in protocol.md before quadrature"
+    }
+  },
+  "statistics": {
+    "kappa_pJinv_minv": 0.0009310313198585331,
+    "E0_pJ": 100.00000000000001,
+    "E_L_over_E0": 0.9999999999547975,
+    "retention_bound_at_L": 0.9999906897734825,
+    "min_retention_margin": 0.0,
+    "max_rate_over_bound": 4.855040301174671e-06,
+    "z_at_max_m": 0.0,
+    "first_compression_m": null,
+    "max_abs_identity_residual_over_bound": 6.649903834430783e-17,
+    "identity_relative_integrated_mismatch": 1.1267802397410989e-05,
+    "rhs_relative_integrated_mismatch": 1.1267788574363334e-05,
+    "max_photon_drift": 4.440892098500626e-16,
+    "max_saved_energy_increase_pJ": -4.520245511230314e-09,
+    "max_time_edge_fraction": 7.855206862746422e-32,
+    "max_spectral_outer_fraction": 3.89432423242085e-33,
+    "max_weighted_rate_over_bound": 4.855040301120391e-06
+  }
+}

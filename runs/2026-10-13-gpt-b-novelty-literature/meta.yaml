@@ -1,0 +1,16 @@
+run_id: 2026-10-13-gpt-b-novelty-literature
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+created: 2026-10-13
+task: T-20261013-gpt-b-01
+run_type: literature-source-audit
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: false
+solver_note: "Solver commit recorded for provenance; no solver execution in this source audit."
+hardware: "macOS-27.0.1-arm64-arm-64bit / arm64"
+host: "COECIS-G3FLW49YGQ"
+wall_seconds: 3152.086083
+wall_seconds_scope: "Session start to evidence snapshot, including interleaved card edits and premise checks; not downloader CPU time."
+raw_location: ~/analytical-nl-discovery-data/2026-10-13-gpt-b-novelty-literature

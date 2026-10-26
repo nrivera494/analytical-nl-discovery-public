@@ -1,0 +1,67 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "cases": [
+    {
+      "T_fs": 300.0,
+      "cutoff": 2.01,
+      "edge_db": 0.0011851324416497868,
+      "Ncut_fraction": 0.7472589788727594,
+      "q": 0.0999999999484585,
+      "initial_tail": 0.011936233846629951,
+      "alpha_z0_at_closed_point": 0.0032440169498686713,
+      "remaining_N4_fraction": 0.02956205652255539
+    },
+    {
+      "T_fs": 300.0,
+      "cutoff": 2.02,
+      "edge_db": 0.0006587800058150707,
+      "Ncut_fraction": 0.6454864809858157,
+      "q": 0.10000000000215323,
+      "initial_tail": 0.00015243607825721206,
+      "alpha_z0_at_closed_point": 0.0026999063792735502,
+      "remaining_N4_fraction": 0.01712589738760284
+    },
+    {
+      "T_fs": 300.0,
+      "cutoff": 2.03,
+      "edge_db": 0.00043223037301511036,
+      "Ncut_fraction": 0.5889978495741865,
+      "q": 0.10000000007461085,
+      "initial_tail": 2.0087846671068554e-06,
+      "alpha_z0_at_closed_point": 0.0024028312633493066,
+      "remaining_N4_fraction": 0.012134675113783744
+    },
+    {
+      "T_fs": 500.0,
+      "cutoff": 2.01,
+      "edge_db": 0.00017975072273613294,
+      "Ncut_fraction": 0.6641830852205092,
+      "q": 0.10000000000024695,
+      "initial_tail": 0.0006356154475246623,
+      "alpha_z0_at_closed_point": 0.0015883590775667051,
+      "remaining_N4_fraction": 0.020864127052202974
+    },
+    {
+      "T_fs": 500.0,
+      "cutoff": 2.02,
+      "edge_db": 9.312271170456123e-05,
+      "Ncut_fraction": 0.5604122697854623,
+      "q": 0.10000000000010022,
+      "initial_tail": 4.3510068614693864e-07,
+      "alpha_z0_at_closed_point": 0.001307116915691293,
+      "remaining_N4_fraction": 0.010801107747095529
+    },
+    {
+      "T_fs": 500.0,
+      "cutoff": 2.03,
+      "edge_db": 5.94797886954916e-05,
+      "Ncut_fraction": 0.5068123289470703,
+      "q": 0.09999999965350188,
+      "initial_tail": 3.1980884607207827e-10,
+      "alpha_z0_at_closed_point": 0.0011613065970407816,
+      "remaining_N4_fraction": 0.0073046117221281515
+    }
+  ]
+}

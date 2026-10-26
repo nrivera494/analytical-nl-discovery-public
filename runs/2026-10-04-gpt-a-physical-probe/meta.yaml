@@ -1,0 +1,18 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-04-gpt-a-physical-probe
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+harness_commit: e84bb5495d58f41e9563ad610b558879debbe6fe
+analysis_commit: e84bb5495d58f41e9563ad610b558879debbe6fe
+prediction_commit: 43bc96d
+hardware: COECIS-G3FLW49YGQ
+julia_threads: 2
+blas_threads: 1
+fft_threads: 1
+raw_location: ~/analytical-nl-discovery-data/2026-10-04-gpt-a-physical-probe
+wall_time_seconds: 5.869253873825073
+randomness: none; deterministic propagation
+status: completed
+task: T-20261004-claude-interactive-02

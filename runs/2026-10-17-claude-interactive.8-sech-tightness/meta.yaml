@@ -1,0 +1,16 @@
+run_id: 2026-10-17-claude-interactive.8-sech-tightness
+date: 2026-10-17
+agent: claude-interactive.8
+model: claude-opus-5-5
+family: claude
+task: T-20261017-gpt-d-02
+serves: "C-20261017-gpt-d-01 (independent cross-family verification and audit): exact sech tightness ratio, asymptotes, general moment expansion; GNLSE launch-plane and sech-tracking checks"
+solver_commit: null
+solver_dirty: null
+solver_note: "Verifier's own code only (ramanlib.py: mpmath closed form and quadratures; gnlse_pc.py: photon-conserving scalar GNLSE, RK4IP, written from the model equation). No proposer code read. The agents' solver (b9fa957) is used for a second-solver cross-check in run 2026-10-17-claude-interactive.8-concentration."
+software: "Python 3.9 venv ~/agent-work/venv: numpy 2.0.2, scipy 1.13.1, mpmath 1.3.0 (40 digits), matplotlib 3.9.4"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0 (host COECIS-G3FLW49YGQ); every process below 0.3 GB"
+wall_time_s: "check_exact 18 s; solver_selftest 24 s; run_sech_snapshots 0.15 s; extra_checks about 60 s; make_figure about 20 s"
+seeds: "none (deterministic)"
+freeze_commit: f784fed
+raw_location: "~/analytical-nl-discovery-data/2026-10-17-claude-interactive.8-sech-tightness (empty: all outputs are small committed JSON); sech-tracking reads A1.npz and A2.npz of run 2026-10-17-claude-interactive.8-concentration"

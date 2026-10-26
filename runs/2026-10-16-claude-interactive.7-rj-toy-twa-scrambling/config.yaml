@@ -1,0 +1,24 @@
+# Run 2026-10-16-claude-interactive.7-rj-toy-twa-scrambling
+# Truncated-Wigner ensembles of the resonant toy model (build(K=4, J=400, seed=0): M=10, random fully symmetric
+# overlap tensor, GRIN-like degeneracy, eps'_k = k), with fixed intra-group disorder (Brownian U(k+1), sigma=0.3,
+# dis_seed=7) shared by all trajectories. Units: N=1 for the mean field, g=1, kappa=1; z in units of 1/(gN).
+# Launch: E'=0.3, equal power in groups 1 and 2 (condensate fraction at launch 0.8).
+# Wigner vacuum noise E|delta_p|^2 = 1/(2 n), n = photons per cell (all modes).
+common: {K: 4, Eprime: 0.3, sigma: 0.3, dz: 0.05, seed: 0, dis_seed: 7, phase_seed: 1, noise_seed: 12345}
+part1:
+  script: twa_scramble_v1.py      # identical physics; v1 lacks the relcoh metric and the outfile option
+  args: {B: 32, zmax: 5000, rec: 20, ncells: [1.0e4, 1.0e6, 1.0e8], launches: [coherent, dephased]}
+  output: twa_scramble.json (raw_location)
+part2:
+  script: twa_scramble.py
+  args: {B: 40, zmax: 6000, rec: 25, ncells: [1.0e5, 1.0e7, 1.0e9, 1.0e11], launches: [coherent], outfile: twa_scramble2.json}
+  predictions: twa2_predictions.txt   # written before part 2 finished (2026-10-16 15:27 EDT)
+commands:
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore twa_scramble_v1.py '{\"B\": 32, \"zmax\": 5000, \"rec\": 20}'"
+  - "VECLIB_MAXIMUM_THREADS=1 ~/agent-work/venv/bin/python -W ignore twa_scramble.py '{\"B\": 40, \"zmax\": 6000, \"rec\": 25, \"ncells\": [1e5, 1e7, 1e9, 1e11], \"launches\": [\"coherent\"], \"outfile\": \"twa_scramble2.json\"}'"
+  - "~/agent-work/venv/bin/python summarize_twa.py"
+metrics:
+  meanfield_frac: "|<A_p>|^2/<|A_p|^2> over the ensemble, averaged over the M modes; z_meanfield_half is where it first falls below 0.5"
+  relvar: "ensemble Var(|A_p|^2)/<|A_p|^2>^2 per mode; z_median_relvar_0p4 is where the median over excited modes first exceeds 0.4 (Dirichlet saturation value (D-1)/(D+1) = 0.8)"
+  relcoh: "|<A_0^* A_p>|^2/(<|A_0|^2><|A_p|^2>), global-phase-free; part 2 only"
+figure: "fig_scrambling.py -> fig_scrambling.png"

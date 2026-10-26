@@ -1,0 +1,4 @@
+Pre-registered (2026-10-16, before the run): exact GRIN tensor, K=5, E'=0.6, sigma=0.3, per-mode dephased input (random phases per
+trajectory, same mode powers), n in {1e6, 1e10}, 32 trajectories each. Prediction (claim C-02 (b)): the z at which the median over
+excited modes of the ensemble relative variance first exceeds 0.43 (half of the Dirichlet value 0.867) is independent of n within 20%,
+and is far below the coherent-input z_E (235 and 511 L_NL at n = 1e6 and 1e10 in run grin-twa-scrambling).

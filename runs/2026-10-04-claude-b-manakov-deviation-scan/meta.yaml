@@ -1,0 +1,18 @@
+run_id: 2026-10-04-claude-b-manakov-deviation-scan
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+date: 2026-10-04
+task: T-20261004-claude-b-06
+serves: "Exploration for P-20261004-root-03: deviation of the filtered Fano factor of a finite-fraction GRIN LP01/LP02 launch from the LP01 (Manakov-limit) value, with and without walk-off. Note: explorations/2026-10-04-claude-b-manakov-deviation.md"
+description: "Pure-Kerr two-mode NLS, C = [[1,1],[1,1/2]], launch at the gamma_eff energy, fixed hard bandpass |w| < 0.8 on both modes. Linearized vacuum noise via the coherent-input sensitivity formula (central differences of the discrete split-step map). zeta = 2: p2 in {0.05, 0.15, 0.3} by delta in {0, 0.471, 0.942}; zeta = 5: p2 in {0.15, 0.3} by delta in {0, 0.942}. Independent numpy code (twomode_lib.py, same as run 2026-10-04-claude-b-reduction-selfcheck); the solver was not used."
+grid: "N = 256 points over 40 T0, dz = 2e-3"
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_usage: "Not used; self-contained numpy code."
+software: "Python 3.9.6 with numpy, matplotlib for the figure"
+hardware: "Apple M5 (macOS), single process"
+wall_time_s: 408
+convergence: "Extreme case only (zeta = 5, p2 = 0.3, delta = 0.942); scripts and outputs in convergence/. (1) Halved step dz = 1e-3: F_tot changes by -8.8e-7 relative, F_s by -2.6e-6, the dB deviation by < 1e-5 dB. (2) Halved sample spacing (N = 512 over the same 40 T0; same frequency bins, same filter): F_tot changes by 3.7e-9 relative. (3) Tripled window (N = 768 over 120 T0, same sample spacing), with the hard filter set to |k| <= 16 bins so the effective edge (16.5 x 2pi/120 = 0.864) equals the nominal grid's (5.5 x 2pi/40 = 0.864): F_s -0.15%, F_tot +0.24%, deviation 1.392 -> 1.409 dB (+0.017 dB), rho -0.5723 -> -0.5709. (4) Filter-edge sensitivity, not a convergence test: doubling the window at fixed |w| < 0.8 moves the effective edge to 0.825; F_s drops to 0.2606 (-10%) and the deviation rises to 1.934 dB. The table holds for the one filter; its edge matters at the 0.5 dB level in the extreme case. The scripts import twomode_lib_{wide,fine,x3}, which are twomode_lib.py with only line 13 changed to N, TW = 512, 80.0 / 512, 40.0 / 768, 120.0 (session scratchpad copies, not committed)."
+raw_location: "none (summary.json holds all numbers; deviation.png is the figure)"
+caveats: "Pure Kerr; no Raman, no four-wave mixing (no LP03 or LP21), equal beta2 in both modes, ideal overlap matrix, hard filter (no partition vacuum), one filter width, coarse grid."

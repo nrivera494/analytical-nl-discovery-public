@@ -1,0 +1,6 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_nextorder.py
+mode: symbolic and prediction
+full_parameters: Retained per case in summary.json and in the frozen script.

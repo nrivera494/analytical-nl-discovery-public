@@ -1,0 +1,164 @@
+{
+  "agent": "gpt-a",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-08-gpt-a-similariton-checks",
+  "symbolic": {
+    "continuity": "0",
+    "momentum": "0",
+    "width_lyapunov": "0",
+    "legendre": {
+      "1": "0",
+      "2": "0",
+      "3": "0",
+      "4": "0",
+      "5": "0",
+      "6": "0",
+      "7": "0",
+      "8": "0"
+    },
+    "riemann_gradient_identity": "0"
+  },
+  "predicted": {
+    "decay_per_gain_length": 0.3333333333333333,
+    "breathing_frequency_per_gain_length": 0.47140452079103173,
+    "density_semiclassical_exponent": -0.6666666666666666,
+    "conditional_modulated_energy_exponent": -0.3333333333333333,
+    "conditional_transport_exponent": -0.16666666666666666
+  },
+  "width_ode": [
+    {
+      "label": "small_width",
+      "s0": 1.001,
+      "q0": 0.3333333333333333,
+      "min_width": 0.9998916549378115,
+      "final_width": 1.0000000009624912,
+      "final_width_derivative": -4.776428430162464e-10,
+      "initial_lyapunov": 0.16666683322233322,
+      "final_lyapunov": 0.16666666666666669,
+      "largest_sampled_lyapunov_increase": 5.551115123125783e-17,
+      "fits": {
+        "12-30": {
+          "decay": 0.3333327428820513,
+          "angular_frequency": 0.47140147173106217,
+          "relative_joint_rms": 3.4929988510053624e-07
+        },
+        "18-36": {
+          "decay": 0.33333338894129044,
+          "angular_frequency": 0.4714048507303481,
+          "relative_joint_rms": 4.318794600306949e-08
+        },
+        "24-42": {
+          "decay": 0.3333333329090177,
+          "angular_frequency": 0.4714044791316005,
+          "relative_joint_rms": 1.4152299632336674e-07
+        }
+      }
+    },
+    {
+      "label": "narrow_compressive",
+      "s0": 0.5,
+      "q0": -1.0,
+      "min_width": 0.286840535386575,
+      "final_width": 0.9999992604698698,
+      "final_width_derivative": 7.358061397216978e-07,
+      "initial_lyapunov": 0.4583333333333333,
+      "final_lyapunov": 0.1666666666670285,
+      "largest_sampled_lyapunov_increase": 0.0,
+      "fits": {
+        "12-30": {
+          "decay": 0.33331928785116116,
+          "angular_frequency": 0.4762619439250106,
+          "relative_joint_rms": 0.000569113966062285
+        },
+        "18-36": {
+          "decay": 0.3332518787720467,
+          "angular_frequency": 0.4707902714263419,
+          "relative_joint_rms": 7.06914942753385e-05
+        },
+        "24-42": {
+          "decay": 0.3333468293378993,
+          "angular_frequency": 0.4714740602280656,
+          "relative_joint_rms": 7.967476270884681e-06
+        }
+      }
+    },
+    {
+      "label": "broad_expanding",
+      "s0": 2.0,
+      "q0": 1.0,
+      "min_width": 0.9248284968101262,
+      "final_width": 0.9999969160897695,
+      "final_width_derivative": 2.7489057155201097e-06,
+      "initial_lyapunov": 1.1666666666666667,
+      "final_lyapunov": 0.16666666667203,
+      "largest_sampled_lyapunov_increase": 2.7755575615628914e-17,
+      "fits": {
+        "12-30": {
+          "decay": 0.3345403914679363,
+          "angular_frequency": 0.4900181810419482,
+          "relative_joint_rms": 0.002286046497582258
+        },
+        "18-36": {
+          "decay": 0.3329874578996389,
+          "angular_frequency": 0.4691892557891495,
+          "relative_joint_rms": 0.00025363777631475946
+        },
+        "24-42": {
+          "decay": 0.3333809028476986,
+          "angular_frequency": 0.47165068295289525,
+          "relative_joint_rms": 2.8203000468370298e-05
+        }
+      }
+    },
+    {
+      "label": "heldout_inward",
+      "s0": 1.6,
+      "q0": -0.6,
+      "min_width": 0.27225247882429987,
+      "final_width": 0.9999983594806009,
+      "final_width_derivative": 9.623025536101768e-07,
+      "initial_lyapunov": 1.326688888888889,
+      "final_lyapunov": 0.16666666666757823,
+      "largest_sampled_lyapunov_increase": 2.7755575615628914e-17,
+      "fits": {
+        "12-30": {
+          "decay": 0.334439739344577,
+          "angular_frequency": 0.47758470080271626,
+          "relative_joint_rms": 0.0007235040388234172
+        },
+        "18-36": {
+          "decay": 0.3332054955362248,
+          "angular_frequency": 0.47072680739754164,
+          "relative_joint_rms": 7.756271321374573e-05
+        },
+        "24-42": {
+          "decay": 0.33334314604946874,
+          "angular_frequency": 0.4714781122581536,
+          "relative_joint_rms": 8.70140950225287e-06
+        }
+      }
+    }
+  ],
+  "quantile_inequality": {
+    "cases": 80,
+    "largest_residual": -2.682104638293721e-05,
+    "smallest_jacobian": 0.284281684600845
+  },
+  "parity": {
+    "normalized_even_odd_overlap": 0.0,
+    "equal_mass_field_distance_squared": 2.0
+  },
+  "protected_shock_example": {
+    "c0": 1.0,
+    "gain": 1.0,
+    "ell": 0.025,
+    "R": 1.0,
+    "initial_negative_riemann_gradient": 20.0,
+    "chi": 0.025,
+    "upper_breaking_gain_length": 0.0750206994841893,
+    "required_protected_radius": 0.3822274236383978,
+    "radius_condition_satisfied": true
+  },
+  "caveat": "ODE checks and exact identities; no full-NLSE global convergence proof"
+}

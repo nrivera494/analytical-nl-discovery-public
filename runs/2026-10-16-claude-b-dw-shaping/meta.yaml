@@ -1,0 +1,23 @@
+run_id: 2026-10-16-claude-b-dw-shaping
+date: 2026-10-16
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+task: T-20261016-claude-interactive-03
+serves: "P-20261016-claude-interactive-01, hypothesis H3 (shaping headroom; claim C-20261016-claude-b-02); explorations/2026-10-16-claude-b-dw-yield-hypotheses.md"
+description: >-
+  Adjoint optimisation of input spectral masks for the dispersive-wave band yield of a TL Gaussian laser in model M0
+  (numpy Yoshida split-step with exact checkpointed discrete adjoint, ../2026-10-16-claude-b-dw-oracle/dw_lib.py).
+  optimize.py: GDD scan (C in [-2.5, 2.5], 51 points); phase-only mask (Legendre P2..P24 on the laser band
+  |uhat| > 1e-5 max) by L-BFGS-B on -ln eta from three starts (TL, best GDD, random); passive mask (phase + per-bin
+  amplitude in [0,1]) from the best phase mask. Objective 'band' = photons at w >= w_z per laser photon at xi_f = 2
+  (ungated); 'gated' = same after a smooth gate |tau| < 15. long_eval.py: persistence of the optimised masks to xi = 6;
+  where.py / where_gdd.py: location of band photons in tau and w (soliton proximity, [w_z, 2w_z] vs > 2w_z);
+  mask_transfer.py: d_* of optimised masks and transfer of the headroom to other delta3. Runs that were stopped to
+  free CPU are kept as *_killed.log (N=3 delta3=0.01 ungated, N=3 delta3=0.02 ungated and gated).
+solver_commit: none (numpy; solver cross-check of masks is run 2026-10-16-claude-b.7-solver-masks)
+solver_dirty: false
+hardware: "Apple Silicon laptop (10 cores, 32 GB), up to 6 concurrent single-threaded processes"
+wall_time: "7-90 min per optimisation (machine shared)"
+raw_location: "~/analytical-nl-discovery-data/2026-10-16-claude-b-dw-shaping/ on claude-b's machine (npz with mask coefficients)"
+scripts: [optimize.py, long_eval.py, where.py, where_gdd.py, mask_transfer.py, mask_dstar.py, overlap.py, window_check.py, h4c_transfer.py, h4c_gated.py, summarize.py]

@@ -1,0 +1,22 @@
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+script: evaluator/mm_soliton_covariance_material.jl
+command: JULIA_NUM_THREADS=2 julia --project=solver evaluator/mm_soliton_covariance_material.jl
+  <raw_location>
+wavelength_nm: 1550.0
+T0_ps: 0.5
+spatial_grids:
+- 129
+- 257
+beta_order: 5
+dispersion_stencil_halfwidth_rad_ps: 20.0
+dispersion_samples: 13
+grin:
+  core_radius_um: 31.25
+  NA: 0.275
+step:
+  V: 3.3
+  NA: 0.03
+scope: Analytic-profile silica material calibration; not measured commercial-fibre
+  data

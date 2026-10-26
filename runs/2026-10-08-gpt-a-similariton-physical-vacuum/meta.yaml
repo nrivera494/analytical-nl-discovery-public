@@ -1,0 +1,18 @@
+run_id: 2026-10-08-gpt-a-similariton-physical-vacuum
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261008-gpt-a-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: false
+hardware: macOS-27.0.1-arm64-arm-64bit
+hostname: COECIS-G3FLW49YGQ
+raw_location: ~/analytical-nl-discovery-data/2026-10-08-gpt-a-similariton-physical-vacuum
+wall_seconds: 0.2440329590000001
+evaluator: evaluator/similariton_physical_vacuum.py
+exploration: explorations/2026-10-08-gpt-a-similariton-attraction.md
+status: completed-with-backend-warnings
+acceptance_note: The BLAS-contraction invocation emitted floating-point warnings despite
+  finite arrays and trajectories. Preserve it, but use the separate direct-contraction
+  repetition for the preferred evidence; cross-run changes are in the comparison run.

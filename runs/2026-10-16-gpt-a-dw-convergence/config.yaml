@@ -1,0 +1,541 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+run_id: 2026-10-16-gpt-a-dw-convergence
+raw_location: ~/analytical-nl-discovery-data/2026-10-16-gpt-a-dw-convergence
+cases:
+- N: 2
+  shape: sech
+  delta3: 0.01
+  raman: roy
+  shock: 1
+  n: 16384
+  window: 384
+  zmax: 4
+  h: 0.000125
+  name: roy01_halfstep
+- N: 2
+  shape: sech
+  delta3: 0.01
+  raman: roy
+  shock: 1
+  n: 32768
+  window: 768
+  zmax: 4
+  h: 0.00025
+  name: roy01_window
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 2
+  shape: sech
+  delta3: 0.01
+  raman: roy
+  shock: 1
+  n: 32768
+  window: 384
+  zmax: 4
+  h: 0.00025
+  name: roy01_grid
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 2
+  shape: sech
+  delta3: 0.01
+  raman: roy
+  shock: 1
+  n: 16384
+  window: 384
+  zmax: 4
+  h: 0.00025
+  name: roy01_sampled
+  sampled_kernel: normalized
+- N: 2
+  shape: sech
+  delta3: 0.008
+  raman: none
+  shock: 0
+  n: 16384
+  window: 320
+  zmax: 4
+  h: 6.25e-05
+  name: core008_halfstep
+- N: 2
+  shape: sech
+  delta3: 0.008
+  raman: none
+  shock: 0
+  n: 32768
+  window: 640
+  zmax: 4
+  h: 0.000125
+  name: core008_window
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 2
+  shape: sech
+  delta3: 0.008
+  raman: none
+  shock: 0
+  n: 32768
+  window: 320
+  zmax: 4
+  h: 0.000125
+  name: core008_grid
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 2
+  shape: sech
+  delta3: 0.008
+  raman: none
+  shock: 0
+  n: 16384
+  window: 320
+  zmax: 4
+  h: 6.25e-05
+  name: core008_yoshida
+  method: yoshida
+- N: 3
+  shape: sech
+  delta3: 0.0043
+  raman: none
+  shock: 0
+  n: 16384
+  window: 320
+  zmax: 2
+  h: 6.25e-05
+  name: sech3_halfstep
+- N: 3
+  shape: sech
+  delta3: 0.0043
+  raman: none
+  shock: 0
+  n: 32768
+  window: 640
+  zmax: 2
+  h: 0.000125
+  name: sech3_window
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 3
+  shape: sech
+  delta3: 0.0043
+  raman: none
+  shock: 0
+  n: 32768
+  window: 320
+  zmax: 2
+  h: 0.000125
+  name: sech3_grid
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 3
+  shape: sech
+  delta3: 0.0043
+  raman: none
+  shock: 0
+  n: 16384
+  window: 320
+  zmax: 2
+  h: 6.25e-05
+  name: sech3_yoshida
+  method: yoshida
+- N: 4
+  shape: gauss
+  delta3: 0.0028
+  raman: none
+  shock: 0
+  n: 16384
+  window: 224
+  zmax: 1
+  h: 3.125e-05
+  name: gauss4_halfstep
+- N: 4
+  shape: gauss
+  delta3: 0.0028
+  raman: none
+  shock: 0
+  n: 32768
+  window: 448
+  zmax: 1
+  h: 6.25e-05
+  name: gauss4_window
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 4
+  shape: gauss
+  delta3: 0.0028
+  raman: none
+  shock: 0
+  n: 32768
+  window: 224
+  zmax: 1
+  h: 6.25e-05
+  name: gauss4_grid
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 4
+  shape: gauss
+  delta3: 0.0028
+  raman: none
+  shock: 0
+  n: 16384
+  window: 224
+  zmax: 1
+  h: 3.125e-05
+  name: gauss4_yoshida
+  method: yoshida
+- N: 3
+  shape: gauss
+  delta3: 0.0055
+  raman: M1
+  shock: 0
+  n: 16384
+  window: 288
+  zmax: 2
+  h: 6.25e-05
+  name: M1gauss3_halfstep
+- N: 3
+  shape: gauss
+  delta3: 0.0055
+  raman: M1
+  shock: 0
+  n: 32768
+  window: 576
+  zmax: 2
+  h: 0.000125
+  name: M1gauss3_window
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 3
+  shape: gauss
+  delta3: 0.0055
+  raman: M1
+  shock: 0
+  n: 32768
+  window: 288
+  zmax: 2
+  h: 0.000125
+  name: M1gauss3_grid
+  grid_exception_reason: 'Convergence test: preserve resolution when doubling window,
+    or halve time spacing to test spectral aliasing; no dense matrices or z history.'
+- N: 3
+  shape: gauss
+  delta3: 0.0055
+  raman: M1
+  shock: 0
+  n: 16384
+  window: 288
+  zmax: 2
+  h: 0.000125
+  name: M1gauss3_sampled
+  sampled_kernel: normalized
+- N: 3
+  shape: gauss
+  delta3: 0.0055
+  raman: M1
+  shock: 0
+  n: 16384
+  window: 288
+  zmax: 2
+  h: 6.25e-05
+  name: M1gauss3_yoshida
+  method: yoshida
+- name: symmetry_-1
+  N: 2
+  shape: sech
+  delta3: -0.02
+  raman: none
+  shock: 0
+  n: 8192
+  window: 256
+  zmax: 2
+  h: 0.00025
+- name: symmetry_+1
+  N: 2
+  shape: sech
+  delta3: 0.02
+  raman: none
+  shock: 0
+  n: 8192
+  window: 256
+  zmax: 2
+  h: 0.00025
+- N: 3.5
+  shape: gauss
+  delta3: 0.003636495298187728
+  raman: none
+  shock: 0
+  n: 16384
+  window: 256
+  zmax: 1.2
+  h: 3.125e-05
+  name: gauss35_halfstep
+- N: 3.5
+  shape: gauss
+  delta3: 0.003636495298187728
+  raman: none
+  shock: 0
+  n: 32768
+  window: 256
+  zmax: 1.2
+  h: 6.25e-05
+  name: gauss35_grid
+  grid_exception_reason: 'Independent held-out convergence: halve dt to test the high-frequency
+    DW band.'
+- name: roy_strip_halfstep
+  N: 2
+  shape: sech
+  delta3: 0
+  raman: roy
+  shock: 1
+  n: 8192
+  window: 160
+  zmax: 4
+  h: 0.000125
+  strip: true
+  scan_stride: 0.0025
+- name: roy_strip_grid
+  N: 2
+  shape: sech
+  delta3: 0
+  raman: roy
+  shock: 1
+  n: 16384
+  window: 160
+  zmax: 4
+  h: 0.00025
+  strip: true
+  scan_stride: 0.0025
+- name: gauss35_strip_halfstep
+  N: 3.5
+  shape: gauss
+  delta3: 0
+  raman: none
+  shock: 0
+  n: 8192
+  window: 96
+  zmax: 1.2
+  h: 6.25e-05
+  strip: true
+  scan_stride: 0.00125
+- name: gauss35_strip_grid
+  N: 3.5
+  shape: gauss
+  delta3: 0
+  raman: none
+  shock: 0
+  n: 16384
+  window: 96
+  zmax: 1.2
+  h: 0.000125
+  strip: true
+  scan_stride: 0.00125
+- N: 2
+  shape: sech
+  raman: roy
+  shock: 1
+  n: 16384
+  window: 384
+  zmax: 4
+  h: 0.00025
+  name: roy_s1_d0.008
+  delta3: 0.008
+- N: 2
+  shape: sech
+  raman: roy
+  shock: 1
+  n: 16384
+  window: 384
+  zmax: 4
+  h: 0.00025
+  name: roy_s1_d0.009
+  delta3: 0.009
+- N: 2
+  shape: sech
+  raman: roy
+  shock: 1
+  n: 16384
+  window: 384
+  zmax: 4
+  h: 0.000125
+  name: roy008_halfstep
+  delta3: 0.008
+- N: 2
+  shape: sech
+  raman: roy
+  shock: 1
+  n: 32768
+  window: 384
+  zmax: 4
+  h: 0.00025
+  name: roy008_grid
+  delta3: 0.008
+  grid_exception_reason: 'Convergence of newly frozen Roy small-TOD held-out point:
+    halve dt without changing the physical window.'
+- N: 5
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 96
+  zmax: 2
+  h: 6.25e-05
+  name: collapse_gauss5_strip
+  delta3: 0
+  strip: true
+  scan_stride: 0.00125
+- N: 5
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 288
+  zmax: 2
+  h: 6.25e-05
+  name: collapse_gauss5_x2
+  delta3: 0.04425
+  design_strip: 0.0885
+  design_x: 2
+  frozen_band_yield: 0.24
+  frozen_log_tolerance: 0.21
+- N: 5
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 288
+  zmax: 2
+  h: 6.25e-05
+  name: collapse_gauss5_x3.7
+  delta3: 0.023918918918918917
+  design_strip: 0.0885
+  design_x: 3.7
+  frozen_band_yield: 0.17
+  frozen_log_tolerance: 0.21
+- N: 5
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 288
+  zmax: 2
+  h: 6.25e-05
+  name: collapse_gauss5_x6
+  delta3: 0.01475
+  design_strip: 0.0885
+  design_x: 6
+  frozen_band_yield: 0.11
+  frozen_log_tolerance: 0.21
+- N: 3
+  shape: gauss
+  raman: none
+  shock: 0
+  n: 16384
+  window: 288
+  zmax: 2
+  h: 6.25e-05
+  name: collapse_gauss3_x6
+  delta3: 0.03205
+  design_strip: 0.1923
+  design_x: 6
+  frozen_band_yield: 0.11
+  frozen_log_tolerance: 0.21
+- N: 4
+  shape: sech
+  raman: none
+  shock: 0
+  n: 32768
+  window: 256
+  center: 72
+  zmax: 2
+  h: 6.25e-05
+  grid_exception_reason: Excluded sech N=4 edge test has its shortest-TOD resonance
+    near the coarse-grid edge; double the grid to diagnose that failure.
+  name: sech4_d0.0029_grid
+  delta3: 0.0029
+- N: 4
+  shape: sech
+  raman: none
+  shock: 0
+  n: 32768
+  window: 256
+  center: 72
+  zmax: 2
+  h: 6.25e-05
+  grid_exception_reason: Excluded sech N=4 edge test has its shortest-TOD resonance
+    near the coarse-grid edge; double the grid to diagnose that failure.
+  name: sech4_d0.0039_grid
+  delta3: 0.0039
+roy_heldout_frozen:
+  calibration_run: 2026-10-16-gpt-a-dw-roy
+  delta3:
+  - 0.008
+  - 0.009
+  log_tolerance: 0.1
+  dstar: 0.46546999074793993
+  fits:
+    peak_ratio:
+      c: -5.404903244897681
+      p: -4.079825228019271
+      d: 0.46546999074793993
+      delta3:
+      - 0.01
+      - 0.012
+      - 0.014
+      log_residual:
+      - 0.003276634531381717
+      - -0.007152070627270746
+      - 0.0038754360958783707
+      log_rms: 0.005063182564453213
+      fitted_parameters:
+      - c
+      - p
+    eta_gate20:
+      c: -3.6243458419323553
+      p: -3.6662317873937957
+      d: 0.46546999074793993
+      delta3:
+      - 0.01
+      - 0.012
+      - 0.014
+      log_residual:
+      - 0.0028235611320539533
+      - -0.006163125134460046
+      - 0.003339564002409645
+      log_rms: 0.0043630760026862276
+      fitted_parameters:
+      - c
+      - p
+    eta_photon_gate20:
+      c: -2.7429091432617314
+      p: -3.3940677049428567
+      d: 0.46546999074793993
+      delta3:
+      - 0.01
+      - 0.012
+      - 0.014
+      log_residual:
+      - 0.0019786369653900238
+      - -0.004318867785407576
+      - 0.002340230820024658
+      log_rms: 0.003057466460957093
+      fitted_parameters:
+      - c
+      - p
+  note: Frozen after calibration but before these TOD propagations; d is not fitted
+    to any TOD output. Gate 20 is the primary yield, with 15 and 25 as contamination
+    diagnostics.
+collapse_frozen:
+  observable: ungated envelope-norm fraction w >= 1/(6*delta3), at xi=2
+  test: New N=5 yield cases, designed using the card strip .0885; independently recompute
+    that strip before these outputs are interpreted.
+  predictions:
+    2: 0.24
+    3.7: 0.17
+    6: 0.11
+  log_tolerance: 0.21
+  card_delta3_bounds:
+  - 0.01
+  - 0.05
+  note: Finite-yield descriptive corollary, not the exponentially small law. The design
+    strip is not inferred from any new TOD yield.

@@ -1,0 +1,70 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-d-literature",
+  "Rosenberg_2020": {
+    "DOI": "10.1364/OE.383014",
+    "access": "full text via indexed author upload",
+    "input_FWHM_fs": 7.5,
+    "input_lambda_nm": 800,
+    "chirp_C_optimal": -0.75,
+    "chirp_definition": "GDD/tau^2, Gaussian temporal width tau",
+    "order_threshold_approx": 2.5,
+    "OH_band_nm": [
+      1380,
+      1410
+    ],
+    "absorption_fibre_A_db_m_lower": 5,
+    "absorption_fibre_B_db_m_up_to": 30,
+    "primary_paper_statement": "Few-cycle higher-order solitons benefit from negative prechirp; fundamental solitons prefer approximately zero chirp."
+  },
+  "primary_loss_fit_run": "2026-10-16-gpt-d-loss-edge-audit",
+  "n2_full_text_calibration": "not established for Z75",
+  "extra_novelty_2024": {
+    "DOI": "10.1364/JOSAB.521085",
+    "access": "abstract only plus first-page preview"
+  },
+  "Adair_1987": {
+    "DOI": "10.1364/JOSAB.4.000875",
+    "access": "abstract and publisher tables only",
+    "sample": "9028 fluorozirconate",
+    "measured_n2_esu": 1.21e-13,
+    "composition_mol_percent": {
+      "ZrF4": 53,
+      "BaF2": 22,
+      "ThF4": 7.7,
+      "LiF": 6.9,
+      "NaF": 3.4,
+      "PbF2": 1.8,
+      "AlF3": 0.6,
+      "CaF2": 0.4,
+      "NdF3": 4.2
+    },
+    "transfer_to_Z75": "not established; do not substitute as a Z75 measurement"
+  },
+  "proposer_shaping_post_audit": {
+    "source_run": "2026-10-16-claude-interactive.6-h4-shaping",
+    "read_after_independent_report_commit": "08a7320",
+    "read_files": [
+      "meta.yaml",
+      "summary.json"
+    ],
+    "sech_T0_fs": 56.7,
+    "sech_intensity_FWHM_fs": 99.9477647680162,
+    "launch_um": 1.55,
+    "orders": [
+      2,
+      3
+    ],
+    "L_m": 1,
+    "loss": "none",
+    "cutoffs_N3_um": [
+      1.75,
+      1.85
+    ],
+    "optimization": "local, limited iterations; not a global upper bound",
+    "latest_reported_H_1p85": 1.09348854544976,
+    "Rosenberg_comparison": "Different duration, absorption profile and objective; high soliton order alone does not match the few-cycle experiment."
+  }
+}

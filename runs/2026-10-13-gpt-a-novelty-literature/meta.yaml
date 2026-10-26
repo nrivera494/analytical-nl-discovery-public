@@ -1,0 +1,17 @@
+run_id: 2026-10-13-gpt-a-novelty-literature
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+task: T-20261013-gpt-a-01
+solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+solver_dirty: false
+solver_used: false
+hardware: macOS-27.0.1-arm64-arm-64bit
+machine: COECIS-G3FLW49YGQ
+wall_time_seconds: 3141.669103
+wall_time_definition: Elapsed audit-session time at literature checkpoint; includes reading, writing and
+  premise checks, not solver runtime.
+raw_location: ~/analytical-nl-discovery-data/2026-10-13-gpt-a-novelty-literature
+seed: null
+exploration: Independent novelty review, source-identity/access ledger and reviewer scores for the assigned
+  chi3 fiber cards

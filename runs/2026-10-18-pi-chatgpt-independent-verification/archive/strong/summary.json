@@ -1,0 +1,365 @@
+{
+  "cases": [
+    {
+      "N": 10.0,
+      "Z": 0.75,
+      "Phi": 7.5,
+      "n": 256,
+      "window": 16.0,
+      "steps": 300,
+      "lambda_min": 0.008494754919086559,
+      "lambda_2": 0.021032926217122525,
+      "N2_lambda_min": 0.8494754919086559,
+      "N2_lambda_2": 2.1032926217122525,
+      "Lambda_C": 0.8624717063415097,
+      "Pi_C": 2.155135632727308,
+      "delta_to_C": -0.015068569017738564,
+      "largest_amplitude_singular": 1.069602324983197,
+      "low_eigenvector_parities": [
+        0.9999999999999998,
+        -0.9999999999999997,
+        1.0000000000000009
+      ],
+      "global_phase_overlaps": [
+        0.08331542904301381,
+        2.2089427892596026e-15,
+        -0.08060337289254801
+      ],
+      "most_squeezed_mode_t_rms": 0.5221366186802179,
+      "c_input_t_rms": 0.37896466737103496,
+      "diagnostics": {
+        "adjoint_relative_error": 5.640627842915295e-15,
+        "symplectic_bilinear_error": 2.820754617685939e-15,
+        "number_gradient_error": 1.9907334440930608e-13,
+        "mean_norm_error": 7.638334409421077e-14,
+        "spectral_edge_energy_fraction": 4.856627702575954e-18
+      },
+      "direct_minimum_rayleigh": 0.008494754919088056,
+      "reciprocity_relative_error": 1.7630341631047486e-13,
+      "dense_lambda_min": 0.008494754919087464,
+      "dense_lambda_2": 0.02103292621712691,
+      "lambda_pass": 0.021032926217127105,
+      "lambda_pass_over_second": 1.0000000000000093,
+      "dense_symplectic_relative_error": 2.1032387007146573e-13,
+      "elapsed_seconds": 11.923758268356323
+    },
+    {
+      "N": 20.0,
+      "Z": 0.75,
+      "Phi": 15.0,
+      "n": 256,
+      "window": 16.0,
+      "steps": 300,
+      "lambda_min": 0.0021486159847939144,
+      "lambda_2": 0.005400035463581558,
+      "N2_lambda_min": 0.8594463939175657,
+      "N2_lambda_2": 2.160014185432623,
+      "Lambda_C": 0.8627526862260236,
+      "Pi_C": 2.1738640350899767,
+      "delta_to_C": -0.003832259651280534,
+      "largest_amplitude_singular": 1.0715734193046815,
+      "low_eigenvector_parities": [
+        1.0000000000000007,
+        -1.0,
+        1.0
+      ],
+      "global_phase_overlaps": [
+        -0.042020464914871325,
+        -1.0069473593947586e-14,
+        -0.04220158791513481
+      ],
+      "most_squeezed_mode_t_rms": 0.5178550767449511,
+      "c_input_t_rms": 0.37924720885543534,
+      "diagnostics": {
+        "adjoint_relative_error": 3.4032507073083333e-15,
+        "symplectic_bilinear_error": 6.37519036067908e-15,
+        "number_gradient_error": 2.0982570909816447e-13,
+        "mean_norm_error": 2.19824158875781e-14,
+        "spectral_edge_energy_fraction": 2.2018588980254278e-13
+      },
+      "direct_minimum_rayleigh": 0.002148615984794019,
+      "reciprocity_relative_error": 4.8627768478581856e-14,
+      "elapsed_seconds": 6.592644214630127
+    },
+    {
+      "N": 40.0,
+      "Z": 0.75,
+      "Phi": 30.0,
+      "n": 512,
+      "window": 16.0,
+      "steps": 600,
+      "lambda_min": 0.0005387433602851467,
+      "lambda_2": 0.0013593725909324763,
+      "N2_lambda_min": 0.8619893764562347,
+      "N2_lambda_2": 2.174996145491962,
+      "Lambda_C": 0.8628196378239499,
+      "Pi_C": 2.178521110598727,
+      "delta_to_C": -0.0009622652653213937,
+      "largest_amplitude_singular": 1.0731536209293775,
+      "low_eigenvector_parities": [
+        1.0000000000000002,
+        -0.9999999999999999,
+        0.9999999999999994
+      ],
+      "global_phase_overlaps": [
+        -0.021056616299940555,
+        -3.885335301631784e-15,
+        0.021382341550965817
+      ],
+      "most_squeezed_mode_t_rms": 0.5167638424537386,
+      "c_input_t_rms": 0.3793317927844981,
+      "diagnostics": {
+        "adjoint_relative_error": 9.080280275057723e-15,
+        "symplectic_bilinear_error": 4.3063520313726485e-14,
+        "number_gradient_error": 1.893240028603953e-12,
+        "mean_norm_error": 1.4015455462867976e-12,
+        "spectral_edge_energy_fraction": 2.6482277883968043e-21
+      },
+      "direct_minimum_rayleigh": 0.0005387433602866946,
+      "reciprocity_relative_error": 2.873257187729905e-12,
+      "elapsed_seconds": 19.039969205856323
+    },
+    {
+      "N": 10.0,
+      "Z": 1.5,
+      "Phi": 15.0,
+      "n": 256,
+      "window": 16.0,
+      "steps": 300,
+      "lambda_min": 0.003604157629940556,
+      "lambda_2": 0.013849721245328534,
+      "N2_lambda_min": 0.3604157629940556,
+      "N2_lambda_2": 1.3849721245328535,
+      "Lambda_C": 0.3647815321316328,
+      "Pi_C": 1.444918922797903,
+      "delta_to_C": -0.011968174792362563,
+      "largest_amplitude_singular": 1.6557856897863334,
+      "low_eigenvector_parities": [
+        1.0,
+        -0.9999999999999992,
+        0.9999999999999997
+      ],
+      "global_phase_overlaps": [
+        0.057894487529686026,
+        8.572960506894806e-15,
+        -0.05580954990871553
+      ],
+      "most_squeezed_mode_t_rms": 0.9965372503983421,
+      "c_input_t_rms": 0.48942054641337035,
+      "diagnostics": {
+        "adjoint_relative_error": 3.943430955891947e-15,
+        "symplectic_bilinear_error": 7.062571220796991e-15,
+        "number_gradient_error": 1.8913541093739682e-13,
+        "mean_norm_error": 4.796163466380676e-14,
+        "spectral_edge_energy_fraction": 2.0893560117412457e-11
+      },
+      "direct_minimum_rayleigh": 0.0036041576299408644,
+      "reciprocity_relative_error": 8.548717289613705e-14,
+      "dense_lambda_min": 0.0036041576299502523,
+      "dense_lambda_2": 0.013849721245331903,
+      "lambda_pass": 0.013849721245333381,
+      "lambda_pass_over_second": 1.0000000000001068,
+      "dense_symplectic_relative_error": 1.994596701236679e-13,
+      "elapsed_seconds": 10.245342016220093
+    },
+    {
+      "N": 20.0,
+      "Z": 1.5,
+      "Phi": 30.0,
+      "n": 1024,
+      "window": 16.0,
+      "steps": 1200,
+      "lambda_min": 0.0009047816212975458,
+      "lambda_2": 0.00354895554333452,
+      "N2_lambda_min": 0.3619126485190183,
+      "N2_lambda_2": 1.419582217333808,
+      "Lambda_C": 0.3632748777422705,
+      "Pi_C": 1.446211017028595,
+      "delta_to_C": -0.0037498580461121644,
+      "largest_amplitude_singular": 2.215364890445577,
+      "low_eigenvector_parities": [
+        0.9999999999999988,
+        -1.0,
+        0.9999999999999996
+      ],
+      "global_phase_overlaps": [
+        0.029053629260004127,
+        -3.043919263624857e-14,
+        -0.030431576013335543
+      ],
+      "most_squeezed_mode_t_rms": 0.9915387261296944,
+      "c_input_t_rms": 0.4891641142730026,
+      "diagnostics": {
+        "adjoint_relative_error": 9.144828902723053e-15,
+        "symplectic_bilinear_error": 2.4455975514932827e-14,
+        "number_gradient_error": 2.063860454301418e-12,
+        "mean_norm_error": 9.812151091637134e-13,
+        "spectral_edge_energy_fraction": 5.322195668715667e-24
+      },
+      "direct_minimum_rayleigh": 0.0009047816212993591,
+      "reciprocity_relative_error": 2.0041746040533326e-12,
+      "elapsed_seconds": 41.0765118598938
+    },
+    {
+      "N": 40.0,
+      "Z": 1.5,
+      "Phi": 60.0,
+      "n": 1024,
+      "window": 16.0,
+      "steps": 1200,
+      "lambda_min": 0.0002264167826414892,
+      "lambda_2": 0.0008939191529246063,
+      "N2_lambda_min": 0.3622668522263827,
+      "N2_lambda_2": 1.43027064467937,
+      "Lambda_C": 0.3627474456594126,
+      "Pi_C": 1.443870065555086,
+      "delta_to_C": -0.0013248706194366466,
+      "largest_amplitude_singular": 3.3410876224167065,
+      "low_eigenvector_parities": [
+        0.9999999999999999,
+        -0.9999999999999998,
+        0.9999999999999988
+      ],
+      "global_phase_overlaps": [
+        0.014539720744786011,
+        -2.163237249240996e-14,
+        0.015796776722932348
+      ],
+      "most_squeezed_mode_t_rms": 0.9903142136468676,
+      "c_input_t_rms": 0.48922154541568214,
+      "diagnostics": {
+        "adjoint_relative_error": 1.7404312714576695e-14,
+        "symplectic_bilinear_error": 2.765136945040829e-14,
+        "number_gradient_error": 2.309625312683816e-12,
+        "mean_norm_error": 9.536815781530095e-13,
+        "spectral_edge_energy_fraction": 1.0299171092909171e-11
+      },
+      "direct_minimum_rayleigh": 0.00022641678264193017,
+      "reciprocity_relative_error": 1.9475532297974496e-12,
+      "elapsed_seconds": 37.78940725326538
+    }
+  ],
+  "independent_hydro": {
+    "n": 441,
+    "window": 16.0,
+    "tolerance": 1e-10,
+    "nfev": 1589,
+    "elapsed": 17.139222621917725,
+    "rows": [
+      {
+        "Z": 0.1,
+        "Lambda": 27.233959925984564,
+        "Pi": 31.980033684098032,
+        "sigma1": 0.19162166214664111,
+        "sigma2": 0.17683187079516027,
+        "min_rho": -5.1675509307174914e-17
+      },
+      {
+        "Z": 0.2,
+        "Lambda": 7.455461485374272,
+        "Pi": 10.186148714701316,
+        "sigma1": 0.3662374356798027,
+        "sigma2": 0.31332496063095033,
+        "min_rho": -1.4786713752079146e-16
+      },
+      {
+        "Z": 0.3,
+        "Lambda": 3.6350908096404666,
+        "Pi": 5.70722581458327,
+        "sigma1": 0.5244962261308485,
+        "sigma2": 0.4185886726630036,
+        "min_rho": -2.309399160746729e-16
+      },
+      {
+        "Z": 0.5,
+        "Lambda": 1.5702439861790605,
+        "Pi": 3.1317072118050553,
+        "sigma1": 0.7980248782648168,
+        "sigma2": 0.5650793329063446,
+        "min_rho": -4.738619851810563e-16
+      },
+      {
+        "Z": 0.75,
+        "Lambda": 0.8628416613439595,
+        "Pi": 2.1800705315926567,
+        "sigma1": 1.0765505987215571,
+        "sigma2": 0.6772745053173231,
+        "min_rho": -7.579711569244502e-14
+      }
+    ]
+  },
+  "prebreaking_reference_Lambda": 0.8628416613439595,
+  "prebreaking_relative_deficits": [
+    0.015490871655970406,
+    0.0039349831823202175,
+    0.0009877651090667294
+  ],
+  "prebreaking_error_fitted_power": -1.9855532530299307,
+  "prebreaking_effective_c": [
+    0.8713615306483353,
+    0.8853712160220489,
+    0.8889885981600565
+  ],
+  "hermite_bias": {
+    "n": 441,
+    "window": 32.0,
+    "tolerance": 1e-10,
+    "nfev": 311,
+    "elapsed": 4.093006610870361,
+    "rows": [
+      {
+        "Z": 0.1,
+        "Lambda": 27.233959925984607,
+        "Pi": 31.980033684098046,
+        "sigma1": 0.19162166214664098,
+        "sigma2": 0.17683187079516025,
+        "min_rho": -4.682354842383936e-17,
+        "Hermite80_Lambda": 27.237268619794122,
+        "Hermite80_Pi": 32.032672660512716,
+        "Hermite80_Gram_error": 4.074375864594537e-15
+      },
+      {
+        "Z": 0.2,
+        "Lambda": 7.455461485374262,
+        "Pi": 10.186148714701337,
+        "sigma1": 0.36623743567980294,
+        "sigma2": 0.31332496063095,
+        "min_rho": -9.001365560264262e-17,
+        "Hermite80_Lambda": 7.455462334995708,
+        "Hermite80_Pi": 10.18617343755254,
+        "Hermite80_Gram_error": 4.074375864594537e-15
+      },
+      {
+        "Z": 0.3,
+        "Lambda": 3.635090809640468,
+        "Pi": 5.707225814583266,
+        "sigma1": 0.5244962261308483,
+        "sigma2": 0.41858867266300376,
+        "min_rho": -1.6499640436703768e-16,
+        "Hermite80_Lambda": 3.6350908511585343,
+        "Hermite80_Pi": 5.70722744986918,
+        "Hermite80_Gram_error": 4.074375864594537e-15
+      }
+    ]
+  },
+  "weak_crosscheck": {
+    "Phi": 3.0,
+    "y": 0.0001,
+    "N": 300,
+    "Z": 0.01,
+    "n": 2048,
+    "window": 12.0,
+    "steps": 100,
+    "lambda_min": 0.02654003090684555,
+    "direct_rayleigh": 0.02654003090685826,
+    "elapsed": 1.9680991172790527,
+    "diagnostics": {
+      "adjoint_relative_error": 1.476283066326081e-15,
+      "symplectic_bilinear_error": 4.706139763297898e-15,
+      "number_gradient_error": 2.6219166763387417e-13,
+      "mean_norm_error": 2.1471713296250527e-13,
+      "spectral_edge_energy_fraction": 5.063305345462936e-23
+    }
+  },
+  "interpretation": "Prebreaking leading coefficient independently computed from epsilon=0 tangent hydrodynamics. Postbreaking points give finite-N covariance evidence, not a proof of a global classical hydrodynamic map."
+}

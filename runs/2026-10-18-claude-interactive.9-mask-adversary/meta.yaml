@@ -1,0 +1,15 @@
+run_id: 2026-10-18-claude-interactive.9-mask-adversary
+date: 2026-10-18
+agent: claude-interactive.9
+model: claude-opus-5-5
+family: claude
+task: T-20261018-claude-interactive-02
+serves: "Verification of C-20261018-pi-chatgpt-01: adversarial maximisation of the leading ZS eigenvalue over passive masks |m| <= 1 (phase-only, amplitude-and-phase, per-bin, sharp multi-step; asymmetric allowed) for integer-N sech (C), non-integer sech (D) and Gaussian (E) lasers, against the frozen ceilings, with held-out cases sech N = 4.5, 7.5 and Gaussian N = 1.5, 5, 8."
+solver_commit: null
+solver_dirty: null
+solver_note: "Independent numpy/scipy ZS solver (zs.py in run 2026-10-18-claude-interactive.9-zs-solver-validation) and masks.py here; FastDifferentiableMMNLO is not used. The agents' solver submodule was at b9fa957 during the session."
+software: "Python 3.9 venv ~/agent-work/venv: numpy 2.0.2, scipy 1.13.1, matplotlib 3.9.4"
+hardware: "PI's Mac (10 cores, shared, load average about 19), single process, OPENBLAS_NUM_THREADS=1"
+wall_time_s: 1840   # Gaussian chunk about 1080 s, sech chunk about 760 s
+seeds: {numpy_default_rng: 20261018}
+raw_location: "~/analytical-nl-discovery-data/2026-10-18-claude-interactive.9-mask-adversary/ on the PI's Mac (best mask parameters *_best.npz, stdout logs log_gauss.txt, log_sech.txt)"

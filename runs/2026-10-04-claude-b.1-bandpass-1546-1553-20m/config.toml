@@ -1,0 +1,109 @@
+# Run 2026-10-04-claude-b.1-bandpass-1546-1553-20m (task T-20261004-claude-interactive-06, case 3).
+# Pre-registered in preregistration.md (commit 4c79445, pushed before any propagation of this case).
+# Full scalar model (beta_0..beta_5, Kerr, self-steepening, causal Raman mean and 300 K reservoir) for the archive's
+# "long-pulse" LP01 condition: measured 100 mW source spectrum, 3 nm FWHM Gaussian input prefilter, GDD -0.015 ps^2,
+# 180 mW coupled-equivalent before the prefilter (about 25.064 mW coupled), 20 m GIF625 at 1550 nm.
+# Readout: direct photon counting after a unity-peak output bandpass, 50 % points lo_nm..hi_nm, logistic power edges of
+# edge_nm 10-90 % width; partition vacuum included; no detector loss.
+# Driver: run_bandpass_point.jl (adapted from archive 2026-09-23_arbitrary_bandpass/filter_common.jl and
+# validate_selected.jl). No random numbers are drawn; there is no seed.
+
+[setting]
+condition = "long"
+pin_before_prefilter_mW = 180.0
+prefilter_width_nm = 3.0
+gdd_ps2 = -0.015
+length_m = 20.0
+lo_nm = 1546.5
+hi_nm = 1553.5
+peak_transmission = 1.0
+temperature_K = 300.0
+source_spectrum = "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-23_squeezing/inputs/source_100mw.csv"
+source_spectrum_sha256 = "de49a3f0bf925bfc008b60889d8b559139f61d3a076447e5fe8804824e6017d5"
+filter_csv = "~/Desktop/fall2026_research/ai driven lab work/research_runs/2026-09-23_squeezing/inputs/filter.csv"
+filter_csv_sha256 = "78c2beb0f221b1328d8da25f746ac1d36eee5a02f44ff50d49b1c1edcbfe0d9c"
+
+# Grids, run in this order. "nominal" is the archive's direct-validation grid; "coarse" is the archive's power-sweep
+# grid; "fine" halves the sample spacing, the propagation step and the reservoir spacing; "wide" doubles the window.
+# Each grid entry lists the readouts evaluated on its single propagation: edge widths, plus "total" (all wavelengths, T=1).
+[[grids]]
+tag = "nominal"
+kind = "agarwal"
+nt = 8192
+window_ps = 80.0
+dz_m = 0.005
+raman_z_spacing_m = 0.025
+edges_nm = [0.5, 0.0]
+total_photon_check = true
+
+[[grids]]
+tag = "coarse"
+kind = "agarwal"
+nt = 4096
+window_ps = 40.0
+dz_m = 0.01
+raman_z_spacing_m = 0.05
+edges_nm = [0.5]
+total_photon_check = false
+
+[[grids]]
+tag = "fine"
+kind = "agarwal"
+nt = 16384
+window_ps = 80.0
+dz_m = 0.0025
+raman_z_spacing_m = 0.0125
+edges_nm = [0.5]
+total_photon_check = false
+
+[[grids]]
+tag = "wide"
+kind = "agarwal"
+nt = 16384
+window_ps = 160.0
+dz_m = 0.005
+raman_z_spacing_m = 0.025
+edges_nm = [0.5]
+total_photon_check = false
+
+[[grids]]
+tag = "nominal"
+kind = "anisotropic"
+nt = 8192
+window_ps = 80.0
+dz_m = 0.005
+raman_z_spacing_m = 0.025
+edges_nm = [0.5]
+total_photon_check = true
+
+# Archive values (copied in preregistration.md before running).
+[archive.agarwal_nominal_edge05]
+file = "research_runs/2026-09-23_arbitrary_bandpass/results/final_long_agarwal_deepest_edge0.5.toml"
+pin_mw = 25.0640130455853
+F_filter = 0.369938248889808
+raman_F_increment = 0.05200907054764635
+F_without_reservoir = 0.3179291783421616
+mean_photons_after_filter = 2.0405493668111348e9
+spectral_transmission = 0.8347171161552088
+power_after_ideal_bandpass_mw = 20.92105095259975
+input_fwhm_measured_on_grid_ps = 1.23046875
+input_peak_W = 238.25163497653577
+
+[archive.agarwal_nominal_edge00]
+file = "research_runs/2026-09-23_arbitrary_bandpass/results/final_long_agarwal_deepest_edge0.0.toml"
+F_filter = 0.3709511900936711
+raman_F_increment = 0.051029716155780926
+power_after_ideal_bandpass_mw = 20.986954562784582
+
+[archive.agarwal_coarse_edge05]
+file = "research_runs/2026-09-23_arbitrary_bandpass/results/power_long_agarwal_deepest_scale1.0.toml"
+pin_mw = 25.064348120856213
+F_filter = 0.3699508168175295
+raman_F_increment = 0.05201353938842226
+mean_photons_after_filter = 2.0405680267366705e9
+
+[archive.anisotropic_nominal_edge05]
+file = "research_runs/2026-09-23_arbitrary_bandpass/results/final_long_anisotropic_deepest_edge0.5.toml"
+F_filter = 0.41491050276503666
+raman_F_increment = 0.09903311057795168
+power_after_ideal_bandpass_mw = 20.874621863978494

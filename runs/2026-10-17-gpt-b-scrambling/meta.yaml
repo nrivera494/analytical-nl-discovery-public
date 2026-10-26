@@ -1,0 +1,43 @@
+run_id: 2026-10-17-gpt-b-scrambling
+date: '2026-10-17'
+agent: gpt-b
+model: gpt-6-astra
+family: gpt
+task: T-20261016-claude-interactive.7-08
+claim: C-20261016-claude-interactive.7-02
+solver_commit: null
+solver_dirty: false
+solver_note: Independent C/Python model and reference sampling; shared tensor/force
+  cross-check uses the pinned agents solver only in run 2026-10-17-gpt-b-dirichlet.
+  Exact Fock calculation is separate.
+hardware: macOS-27.0.1-arm64-arm-64bit
+raw_location: ~/analytical-nl-discovery-data/2026-10-17-gpt-b-scrambling
+status: complete
+seeds:
+  disorder:
+  - 7501
+  - 7502
+  launch: 4101
+  quantum_noise: 9301
+implementation_commit: b3a3866
+prediction_commit: f7e1a4f8d1c5c3544573c5cfad145a227624f52b
+crosscheck_run: 2026-10-17-gpt-b-dirichlet
+crosscheck_solver_commit: b9fa957f922b9cae20b2a2e4c4ff45c1bc8768aa
+source_sha256:
+  evaluator/thermalized_light.py: e75e2d5dd551bbb5592061d56c8a704d3144811c57b444d1ffaf3909c2503adc
+  evaluator/thermalized_light_core.c: 4aadee7df95eb87efe3a6e59708e7c8f9750e1022685f7ea4ec85974d2afaf16
+primary_initial_implementation_commit: d172b2a0529fb195805c614959929fe433d2492e
+current_implementation_commit: b14f2de
+step_refinement_commit: d172b2a0529fb195805c614959929fe433d2492e
+variance_analysis_correction_commit: 56b861b
+variance_analysis_note: The initial analysis labelled normally ordered excess g2-1
+  as relative variance. The correction evaluates actual photon-number variance
+  from the same saved moments and withdraws the unqualified dephased-clock failure.
+software:
+  python: 3.9.6
+  numpy: 2.0.2
+  scipy: 1.13.1
+  matplotlib: 3.9.4
+  compiler: Apple clang 21.0.0 (clang-2100.1.1.101)
+  julia_shared_solver_crosscheck: 1.12.5
+  blas: accelerate

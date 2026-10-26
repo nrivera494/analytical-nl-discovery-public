@@ -1,0 +1,104 @@
+[
+  {
+    "id": "bw_N12_T1000",
+    "N": 12,
+    "T0_fs": 1000,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N12_T1176",
+    "N": 12,
+    "T0_fs": 1176,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N12_T1352",
+    "N": 12,
+    "T0_fs": 1352,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N16_T1594",
+    "N": 16,
+    "T0_fs": 1594,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N16_T1875",
+    "N": 16,
+    "T0_fs": 1875,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  {
+    "id": "bw_N16_T2156",
+    "N": 16,
+    "T0_fs": 2156,
+    "n": 65536,
+    "width": 160,
+    "zN": [
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "tol": 3e-08,
+    "agent": "gpt-c",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  }
+]

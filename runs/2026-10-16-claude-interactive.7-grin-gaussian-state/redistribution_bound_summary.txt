@@ -1,0 +1,2 @@
+E'=0.6 sigma=0.3: N,E' redistribution bound: z=10: -1.2 dB, z=50: -3.7 dB, z=100: -3.3 dB, z=200: -2.9 dB, z=400: -3.9 dB
+E'=0.6 sigma=0.0: N,E' redistribution bound: z=10: -2.0 dB, z=50: -2.2 dB, z=100: -3.3 dB, z=200: -2.1 dB, z=400: -2.4 dB

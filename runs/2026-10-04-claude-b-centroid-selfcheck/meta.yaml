@@ -1,0 +1,17 @@
+run_id: 2026-10-04-claude-b-centroid-selfcheck
+agent: claude-b
+model: claude-opus-5-5
+family: claude
+date: 2026-10-04
+task: T-20261004-root-02
+serves: "Same-family self-check of reduction 1 (centroid theorem) on P-20261004-claude-interactive-02. Not a verification; an independent check belongs with T-20261004-claude-interactive-09 or T-20261004-claude-b-01."
+description: "Two-mode cross-phase-only NLS with walk-off d = 0.8 and GRIN overlap matrix C = [[1,1],[1,1/2]], launch a = sech, b = 0.5 sech (p_b = 0.2). Checks that the energy-weighted centroid moves at the constant velocity (d N_b + J)/N, deterministically and for linearized launch (vacuum) noise. Also checks that the partition and momentum parts of the velocity variance equal d^2 p_a p_b / N and 1/(3N), whose ratio is 3 d^2 p_a p_b. Reuses the grid and integrator of run 2026-10-04-claude-b-reduction-selfcheck."
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_usage: "Not used; self-contained numpy script."
+software: "Python 3.9.6 with numpy"
+hardware: "Apple M5 (macOS)"
+wall_time_s: 27
+results_summary: "T_c(z) linear in z to 1e-13 with slope V0 = 0.16 = d p_b. Var[(T_c(z)-T_c(0))/z] = Var[V0] = 0.174293 at z = 1 and 2 (agreement 1e-9). Partition part 0.04096 = d^2 p_a p_b / N; momentum part 0.13333 = 1/(3N); ratio 0.3072 = 3 d^2 p_a p_b. Here N is the normalized mass; Var scales as 1/nbar."
+caveats: "Centroid of all light including any shed radiation; bound-pulse timing can differ under partial capture. Cross-phase-only model, equal beta2, no Raman or gain."
+raw_location: "none (summary.json holds all numbers)"

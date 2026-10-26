@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-10-16-gpt-d-cutoff-edge200-window",
+  "identity": {
+    "agent": "gpt-d",
+    "model": "gpt-6-astra",
+    "family": "gpt"
+  },
+  "fibre": {
+    "material": "S28",
+    "launch_um": 2.0,
+    "dispersion": "quadratic",
+    "edge_B": 48.0,
+    "edge_ref_um": 2.0,
+    "edge_db": 0.010064721975866612
+  },
+  "grid": {
+    "n": 16384,
+    "dt": 0.003
+  },
+  "propagation": {
+    "T": 0.2,
+    "L": 352.0,
+    "h": 0.08,
+    "cutoffs": [
+      2.001
+    ],
+    "save_every": 2.0
+  }
+}

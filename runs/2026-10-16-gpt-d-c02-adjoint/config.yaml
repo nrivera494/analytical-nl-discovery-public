@@ -1,0 +1,31 @@
+{
+  "agent": "gpt-d",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "run_id": "2026-10-16-gpt-d-c02-adjoint",
+  "claim": "C-20261016-claude-interactive.6-02",
+  "source_script": "../2026-10-16-gpt-d-raman-bound-audit/adjoint_bound.jl",
+  "n": 4096,
+  "dt_ps": 0.00025,
+  "T_ps": 0.002,
+  "carrier_um": 0.4,
+  "E0_pJ": 200.0,
+  "L_m": 0.0005,
+  "dz_m": 5e-06,
+  "adjoint_dz_m": 5e-06,
+  "adjoint_mode": "discrete_rk4ip",
+  "precision": "float64",
+  "method": "RK4IP",
+  "optimizer": "LBFGS",
+  "max_iterations": 12,
+  "seeds": [
+    101,
+    305,
+    707
+  ],
+  "mask": "exp(i B phi); five spectral phase coefficients, unit magnitude",
+  "objective": "(E0-Eout)/(kappa E0^2 L)",
+  "expected_ceiling": 0.9999069055354003,
+  "scope": "Formal zero-dispersion constant-area model. Positive frequency carrier chosen to suppress near-zero spectral mass; not a calibrated ultraviolet fibre prediction. Absorber below 0.1 carrier must be negligible in independent validation.",
+  "raw_input_sha256": "b92704e7216e70ec3a7e0678dd182ac8d45a46fa02cf74640ceb4c23dea2242d"
+}

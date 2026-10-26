@@ -1,0 +1,29 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "recorded_at": "2026-10-18T13:53:44.057759+00:00",
+  "base_commit": "6a7b762706c8d9d59e032d5ac0878cdc7c619bc4",
+  "note": "Hashes identify the exact source bytes, including changes committed after base_commit.",
+  "sha256": {
+    "evaluator/kerr_squeezing.py": "2b2bd5d1b6b3d2df769e0b3ba691093c79ef71399841cb0be999b44671f748df",
+    "evaluator/serial_numerical.py": "ea4ac2b48f0337ef3bb8d6d03e53995ea50a9bfef47675285e0960f1382f2382",
+    "evaluator/squeezing.py": "09f14c2d8b07ed1ddba372d2fdfc6779801124e2ab81518f64bb6ec89a1e1910",
+    "evaluator/squeezing_core.c": "6b9b8047de57944dc6ca13f1b6273dace60d0e06da53f991b2b1d45046ab4dd1",
+    "evaluator/thermalized_light.py": "e75e2d5dd551bbb5592061d56c8a704d3144811c57b444d1ffaf3909c2503adc",
+    "evaluator/thermalized_light_core.c": "4aadee7df95eb87efe3a6e59708e7c8f9750e1022685f7ea4ec85974d2afaf16",
+    "runs/2026-10-18-gpt-b-grin-squeezing/after_checks.sh": "b3ca15c737440132e1be65e8e45b970ebf2001274c3cf06d1b45124209672178",
+    "runs/2026-10-18-gpt-b-grin-squeezing/analyse.py": "cacdfa3090eb443abbd662907275fff4672d50a95efc3f3a7e4ca6d80e33b4e8",
+    "runs/2026-10-18-gpt-b-grin-squeezing/confirm_counts.py": "13b82b1e8be18716218aa2ade483c81052a76f28dc27e18c77f801b5810dc463",
+    "runs/2026-10-18-gpt-b-grin-squeezing/count_resolution.py": "29f3750dfe492a90feac6d6e547613d55941d5cb2d2a0d099e7986c7703e71d4",
+    "runs/2026-10-18-gpt-b-grin-squeezing/exact_three_mode.py": "e8cddc04d599964d07fccacec9293c34e3600376410d5899ff0fd4553f4a4fa7",
+    "runs/2026-10-18-gpt-b-grin-squeezing/final_checks.sh": "0b97036a544c2f38c448545941de129a00aa93d5d80e64ced254b87ceea2b42d",
+    "runs/2026-10-18-gpt-b-grin-squeezing/record_provenance.py": "7f8116eec299528756b0f11a7ff683b7017dbb97f91bf188487f272127fa506e",
+    "runs/2026-10-18-gpt-b-grin-squeezing/refresh.py": "3397a1833191e610ef1d5a5cb466a83fcd48f0219f03927612956a5b7d751edf",
+    "runs/2026-10-18-gpt-b-grin-squeezing/run.py": "0b48d061e912cd1ea839240b65b8beec61a41b3d9946122f0382191c1aafc846",
+    "runs/2026-10-18-gpt-b-grin-squeezing/serial_checks.sh": "6a6e9daf4e3bf96e664cb2ea530e86c92b14f9e50a607698c7a2150fa006a553",
+    "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.jl": "8fad42e913408802b54d9901a28802d398c29f6966cdfe0a06d4e53b620223b2",
+    "runs/2026-10-18-gpt-b-grin-squeezing/solver_check.py": "5df4cf106b43ed2b22bda002329fa4be9e9c62d63d7837b5800fac9cfaa6a115",
+    "runs/2026-10-18-gpt-b-grin-squeezing/solver_probe.jl": "618d3fd20764c1253d9697dc69d48c85c49aeaab1ad33840fd454583e18c8350"
+  }
+}

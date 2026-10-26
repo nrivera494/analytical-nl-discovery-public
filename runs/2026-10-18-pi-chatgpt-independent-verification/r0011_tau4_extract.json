@@ -1,0 +1,117 @@
+{
+  "purpose": "Committed extract of the tau=4 complete-noise full-NLSE values quoted in R-0011 section 5 (previously raw-only). Extracted by claude-interactive, 2026-10-19, task T-20261019-claude-interactive.20-02.",
+  "source_raw_location": "~/analytical-nl-discovery-data/gpt6pro-reports/archive/verification/similariton/",
+  "source_sha256": {
+    "results_nlse.json": "d900aefe20b3b5145cd9cfc2b434e642e09c1a97f04653f792eeae5bf994c781",
+    "results_nlse_extended.json": "f7789ef9ac68e09e1429997e2169152d71d16f7dc6bb5eb5d7374a5b0bbb2d78",
+    "results_nlse_certification.json": "10b7dbda3e61459c20395053980d072458709e7a09e3bda022486815b1829353",
+    "results_nlse_window.json": "2cac5a432bb33c4cef1b7ef60b649e42fb8850c5af044b5669c9ff7a7c5388c7",
+    "results_fv.json": "de9097af0f46c145ee9c7872ad73c05f75aaef5da8551cc488611d17bd6057f3"
+  },
+  "tau4_full_nlse": [
+    {
+      "eps": 0.1,
+      "ngrid": 1024,
+      "dt": 0.002,
+      "box": 2.0,
+      "spectral_ratio": 0.3317469861576233,
+      "phase_energy_deficit": 0.03153064673923445,
+      "file": "results_nlse.json"
+    },
+    {
+      "eps": 0.1,
+      "ngrid": 2048,
+      "dt": 0.001,
+      "box": 2.0,
+      "spectral_ratio": 0.33173942227531034,
+      "phase_energy_deficit": 0.03153063335685402,
+      "file": "results_nlse.json"
+    },
+    {
+      "eps": 0.05,
+      "ngrid": 2048,
+      "dt": 0.002,
+      "box": 2.0,
+      "spectral_ratio": 0.3133368093965124,
+      "phase_energy_deficit": 0.02920072411569974,
+      "file": "results_nlse.json"
+    },
+    {
+      "eps": 0.05,
+      "ngrid": 4096,
+      "dt": 0.001,
+      "box": 2.0,
+      "spectral_ratio": 0.31215883949369255,
+      "phase_energy_deficit": 0.029200710559985188,
+      "file": "results_nlse.json"
+    },
+    {
+      "eps": 0.025,
+      "ngrid": 4096,
+      "dt": 0.001,
+      "box": 2.0,
+      "spectral_ratio": 0.303217597732412,
+      "phase_energy_deficit": 0.028413852291141017,
+      "file": "results_nlse_extended.json"
+    },
+    {
+      "eps": 0.025,
+      "ngrid": 8192,
+      "dt": 0.0005,
+      "box": 2.0,
+      "spectral_ratio": 0.2954814456968729,
+      "phase_energy_deficit": 0.028413096527832526,
+      "file": "results_nlse_extended.json"
+    },
+    {
+      "eps": 0.05,
+      "ngrid": 8192,
+      "dt": 0.0005,
+      "box": 4.0,
+      "spectral_ratio": 0.3124872156586546,
+      "phase_energy_deficit": 0.029200707238717594,
+      "file": "results_nlse_certification.json"
+    },
+    {
+      "eps": 0.025,
+      "ngrid": 8192,
+      "dt": 0.00025,
+      "box": 2.0,
+      "spectral_ratio": 0.29547267853425235,
+      "phase_energy_deficit": 0.028413095412021416,
+      "file": "results_nlse_certification.json"
+    },
+    {
+      "eps": 0.05,
+      "ngrid": 4096,
+      "dt": 0.001,
+      "box": 4.0,
+      "spectral_ratio": 0.3125074363532574,
+      "phase_energy_deficit": 0.029200710627344972,
+      "file": "results_nlse_window.json"
+    },
+    {
+      "eps": 0.05,
+      "ngrid": 8192,
+      "dt": 0.001,
+      "box": 4.0,
+      "spectral_ratio": 0.31250010655054616,
+      "phase_energy_deficit": 0.029200710627336313,
+      "file": "results_nlse_window.json"
+    },
+    {
+      "eps": 0.05,
+      "ngrid": 8192,
+      "dt": 0.001,
+      "box": 8.0,
+      "spectral_ratio": 0.31268694978540956,
+      "phase_energy_deficit": 0.02920071062732732,
+      "file": "results_nlse_window.json"
+    }
+  ],
+  "leading_order_core": {
+    "spectral_ratio": 0.2779052512843708,
+    "phase_energy_deficit": 0.028043765040766777,
+    "path": "results_fv.json:/records[5]/rows[2]"
+  }
+}

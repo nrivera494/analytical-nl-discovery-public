@@ -1,0 +1,151 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "rows": [
+    {
+      "response": "bw",
+      "dt_fs": 3,
+      "n": 32768,
+      "raw_integral": 0.9942253329211814,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.010327571293024184,
+      "first_moment_fs": 1.4704146840787369
+    },
+    {
+      "response": "bw",
+      "dt_fs": 1.5,
+      "n": 32768,
+      "raw_integral": 0.9985569475648399,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.0025681792487291712,
+      "first_moment_fs": 1.4640637593421137
+    },
+    {
+      "response": "bw",
+      "dt_fs": 0.75,
+      "n": 32768,
+      "raw_integral": 0.9996392753193676,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.0006411911750645276,
+      "first_moment_fs": 1.4624803051264095
+    },
+    {
+      "response": "bw",
+      "dt_fs": 0.375,
+      "n": 32768,
+      "raw_integral": 0.9999098212321029,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.00016024410987415823,
+      "first_moment_fs": 1.4620847084100512
+    },
+    {
+      "response": "hc",
+      "dt_fs": 3,
+      "n": 32768,
+      "raw_integral": 3739.192575021654,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.00772077914404116,
+      "first_moment_fs": 2.4727792164272433
+    },
+    {
+      "response": "hc",
+      "dt_fs": 1.5,
+      "n": 32768,
+      "raw_integral": 3749.2426598476004,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.001920273969763047,
+      "first_moment_fs": 2.466153068016745
+    },
+    {
+      "response": "hc",
+      "dt_fs": 0.75,
+      "n": 32768,
+      "raw_integral": 3751.751004890298,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.0004793451040950935,
+      "first_moment_fs": 2.4645043902576425
+    },
+    {
+      "response": "hc",
+      "dt_fs": 0.375,
+      "n": 32768,
+      "raw_integral": 3752.3778314849937,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.00011979782206930838,
+      "first_moment_fs": 2.4640927090209366
+    },
+    {
+      "response": "as2s3",
+      "dt_fs": 3,
+      "n": 32768,
+      "raw_integral": 0.9968622025841749,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.02371946943568072,
+      "first_moment_fs": 0.2081734553041358
+    },
+    {
+      "response": "as2s3",
+      "dt_fs": 1.5,
+      "n": 32768,
+      "raw_integral": 0.9992159131589454,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.005913093533932092,
+      "first_moment_fs": 0.20768424312005848
+    },
+    {
+      "response": "as2s3",
+      "dt_fs": 0.75,
+      "n": 32768,
+      "raw_integral": 0.9998040009284517,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.0014772287586976415,
+      "first_moment_fs": 0.20756215442635945
+    },
+    {
+      "response": "as2s3",
+      "dt_fs": 0.375,
+      "n": 32768,
+      "raw_integral": 0.9999510016467463,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.00036924195883506844,
+      "first_moment_fs": 0.20753164563050885
+    },
+    {
+      "response": "bw_damped",
+      "dt_fs": 3,
+      "n": 32768,
+      "raw_integral": 0.9920373572541157,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.01083790353473486,
+      "first_moment_fs": 2.1345882867436843
+    },
+    {
+      "response": "bw_damped",
+      "dt_fs": 1.5,
+      "n": 32768,
+      "raw_integral": 0.9980082102247004,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.0026898684479469597,
+      "first_moment_fs": 2.121893487339884
+    },
+    {
+      "response": "bw_damped",
+      "dt_fs": 0.75,
+      "n": 32768,
+      "raw_integral": 0.9995019823851176,
+      "normalized_integral": 1.0,
+      "max_response_difference_below_0p3_rad_fs": 0.0006712576486441611,
+      "first_moment_fs": 2.118727014950401
+    },
+    {
+      "response": "bw_damped",
+      "dt_fs": 0.375,
+      "n": 32768,
+      "raw_integral": 0.9998754912167892,
+      "normalized_integral": 0.9999999999999999,
+      "max_response_difference_below_0p3_rad_fs": 0.00016773884849937792,
+      "first_moment_fs": 2.1179358486988504
+    }
+  ]
+}

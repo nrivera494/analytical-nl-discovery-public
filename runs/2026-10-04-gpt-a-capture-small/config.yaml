@@ -1,0 +1,13 @@
+agent: gpt-a
+model: gpt-6-astra
+family: gpt
+script: scripts/p002_capture.jl
+mode: small
+r:
+- 0.0001
+- 0.0003
+- 0.001
+nt: 4096
+window_tau: 320.0
+dzeta: 0.01
+zeta: 20.0

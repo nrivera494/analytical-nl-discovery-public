@@ -1,0 +1,13 @@
+"""Freeze independent propagation tests of claim 02; gpt-d/gpt-6-astra/gpt."""
+from propagate import *
+base=Path(__file__).parent;f=Fibre('S28',loss_scale=0.);k=f.g0*f.fR/f.w0*(1/f.t1**2+1/f.t2**2)/2;pred={**IDENTITY,'cases':[]}
+cases=[('c02-core',.0567,3,1.,.000125,{}),('c02-heldout4',.0567,4,.3,.00005,{}),('c02-heldout6',.0567,6,.3,.000025,{}),('c02-heldout6long',.1702,6,1.5,.00025,{}),('c02-area',.0567,3,1.,.000125,{'area':'variable'})]
+for slug,T,N,L,h,extra in cases:
+ rid='2026-10-16-gpt-d-'+slug;P,_=f.launch(T,N);E=2*P*T
+ cfg={'run_id':rid,'identity':IDENTITY,'fibre':{'material':'S28','loss_scale':0.,**extra},'grid':{'n':16384,'dt':.0015,'carrier_um':1.75},'propagation':{'T':T,'order':N,'L':L,'h':h,'save_every':L/400},'expected':{'identity_relative_integrated_mismatch_max':.001,'max_rate_over_bound':1. if extra else .5,'retention_bound':1/(1+k*E*L),'qualification':'Original unweighted E-squared bound is not asserted after variable-area relaxation' if extra else 'Lossless exact model'}}
+ rd=ROOT/'runs'/rid;rd.mkdir(exist_ok=True);dump(rd/'config.yaml',cfg);pred['cases'].append({'run_id':rid,'E0_pJ':E,'kappa_pJinv_minv':k,**cfg['expected']})
+# Arbitrary coherent, chirped two-pulse field: own held-out case within the model.
+rid='2026-10-16-gpt-d-c02-own';cfg={'run_id':rid,'identity':IDENTITY,'fibre':{'material':'S28','loss_scale':0.},'grid':{'n':8192,'dt':.0005},'input':{'shape':'pair','gap_ps':.020,'phase':1.1,'GDD_fs2':-20.,'E_pJ':400.},'propagation':{'T':.008,'L':.02,'h':.00001,'save_every':.0001},'expected':{'max_rate_over_bound':1.,'retention_bound':1/(1+k*400*.02),'identity_relative_integrated_mismatch_max':.001}};rd=ROOT/'runs'/rid;rd.mkdir(exist_ok=True);dump(rd/'config.yaml',cfg);pred['cases'].append({'run_id':rid,**cfg['expected']})
+for fs in [2.,1.,.5]:
+ rid='2026-10-16-gpt-d-c02-short'+str(fs).replace('.','p');cfg={'run_id':rid,'identity':IDENTITY,'fibre':{'material':'S28','loss_scale':0.,'dispersion':'quadratic'},'grid':{'n':8192 if fs==2 else 16384,'dt':.000125 if fs==2 else .0000625,'carrier_um':.8},'input':{'shape':'sech','E_pJ':200.},'positive_frequency_model':True,'omega_min_fraction':.1,'scope':'Formal constant-area, zero-dispersion model, not a calibrated few-cycle fibre prediction; finite positive-frequency support.','propagation':{'T':fs/1000,'L':.0005,'h':.0000025,'save_every':.00001},'expected':{'max_rate_over_bound':1.,'retention_bound':1/(1+k*200*.0005)}};rd=ROOT/'runs'/rid;rd.mkdir(exist_ok=True);dump(rd/'config.yaml',cfg);pred['cases'].append({'run_id':rid,**cfg['expected']})
+dump(base/'predictions.json',pred);print(json.dumps(pred,indent=2))

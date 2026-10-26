@@ -1,0 +1,44 @@
+run_id: 2026-10-04-claude-b.4-pmin-length-map
+date: 2026-10-04
+agent: claude-b.4
+model: claude-opus-5-5
+family: claude
+task: T-20261004-claude-interactive-03
+serves: "Step 3 (map P_min(L), F_min(L), decomposition and P_G0) of T-20261004-claude-interactive-03 for P-20261004-root-01; exploration note explorations/2026-10-04-claude-b.4-pmin-length.md (procedure and predictions frozen in commit 34b2917 before this run started)."
+solver_commit: 9c1288712ea9cd7ef858d4e6dff9dea350e9291a
+solver_dirty: false
+solver_remote_check: "git -C solver ls-remote origin on 2026-10-04 lists 9c1288712ea9cd7ef858d4e6dff9dea350e9291a as refs/heads/main"
+julia: "1.12.5, JULIA_NUM_THREADS=2, BLAS and FFTW threads 1 (set in pmin_lib.jl)"
+hardware: "Apple M5, 10 cores, 32 GB RAM, macOS 27.0 (host COECIS-G3FLW49YGQ); another agent's Julia job (gpt-a, p002) ran concurrently"
+passes:
+  pass1: "pre-registered adaptive sweep (explorations note, commit 34b2917), oscillator Raman, all ten lengths, 18:03-18:20 EDT. One rule added in the driver before the start: the coarse scan stops only after a dip below F = 0.99 has been passed (weak-power wiggles near F = 1)."
+  pass2: "dense pass, NOT pre-registered, added after pass 1 found a second dip at 5 m: ratio 1.05 from 0.9 x the first sampled dip up to the first sign change of c (G = 0), plus +-2.5 % points at every local minimum; 18:20-18:40 EDT"
+  pass3: "weak-power lists 10-150 mW at 0.25 and 0.4 m, NOT pre-registered"
+  anisotropic: "anisotropic Raman (PMIN_KIND=anisotropic): power lists near the dips at 5 m (45-57 and 95-135 mW) and 1 m (125-160 mW), then pass 1 at all ten lengths (19:02-19:19 EDT) and the dense pass at 5, 3 and 2 m (19:19-19:30 EDT); points anisotropic_*.toml"
+commands:
+  - "JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.4-pmin-length-map/run_map.jl   (pass 1)"
+  - "PMIN_DENSE=1 JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.4-pmin-length-map/run_map.jl 5.0 3.0 2.0 1.6 1.25 1.0 0.75 0.6 0.4 0.25   (pass 2)"
+  - "PMIN_POWERS=10,20,30,40,50,60,75,90,105,120,135,150 JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.4-pmin-length-map/run_map.jl 0.25 0.4   (pass 3)"
+  - "PMIN_KIND=anisotropic PMIN_POWERS=45,48,51,54,57,95,100,105,110,115,120,125,130,135 JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.4-pmin-length-map/run_map.jl 5.0"
+  - "PMIN_KIND=anisotropic PMIN_POWERS=125,130,135,140,145,150,155,160 JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.4-pmin-length-map/run_map.jl 1.0"
+  - "PMIN_KIND=anisotropic JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.4-pmin-length-map/run_map.jl"
+  - "PMIN_KIND=anisotropic PMIN_DENSE=1 JULIA_NUM_THREADS=2 julia --project=solver --startup-file=no runs/2026-10-04-claude-b.4-pmin-length-map/run_map.jl 5.0 3.0 2.0"
+  - "~/agent-work/venv/bin/python runs/2026-10-04-claude-b.4-pmin-length-map/compare_raman.py"
+  - "~/agent-work/venv/bin/python runs/2026-10-04-claude-b.4-pmin-length-map/summarize_map.py"
+  - "~/agent-work/venv/bin/python runs/2026-10-04-claude-b.4-pmin-length-map/summarize_map.py anisotropic"
+  - "~/agent-work/venv/bin/python runs/2026-10-04-claude-b.4-pmin-length-map/plot_map.py 1 5"
+  - "~/agent-work/venv/bin/python runs/2026-10-04-claude-b.4-pmin-length-map/table_md.py"
+wall_time_s: "pass 1: 1025 s summed over lengths; pass 2: 1179 s; pass 3: about 40 s; per point after compilation about 3.4 s per metre of fiber (forward plus adjoint and reservoir)"
+config: config.toml
+files:
+  driver: run_map.jl (sweep_length, used in pass 1, is unchanged since pass 1; the PMIN_DENSE and PMIN_POWERS modes were added afterwards)
+  library: pmin_lib.jl (identical copy of runs/2026-10-04-claude-b.4-pmin-gate-1250/pmin_lib.jl)
+  fitting: pminfit.py (identical copy of the gate run's)
+  summarizer: summarize_map.py
+  tables: table_md.py (prints the Markdown tables of the exploration note from summary.json), compare_raman.py (oscillator against anisotropic)
+  figures: plot_map.py, pmin_vs_length.png, power_noise_L1m.png, power_noise_L5m.png
+  summary: summary.json (oscillator), summary_anisotropic.json (anisotropic points)
+seeds: none (deterministic linearized calculation)
+archive_inputs: "research_runs/2026-09-23_squeezing/inputs/source_100mw.csv (sha256 de49a3f0bf925bfc008b60889d8b559139f61d3a076447e5fe8804824e6017d5), read from the read-only archive"
+raw_location: "COECIS-G3FLW49YGQ:~/analytical-nl-discovery-data/2026-10-04-claude-b.4-pmin-length-map/ (points/<kind>_L<L>_P<P>.toml, one per power point; run_pass1.log, run_pass2_dense.log, run_pass3_weakpower.log, run_aniso5.log, run_aniso1.log, run_aniso_pass1.log, run_aniso_pass2_dense.log). No field arrays saved."
+points: "431 oscillator-Raman points (agarwal_*) and 272 anisotropic-Raman points (anisotropic_*)"

@@ -1,0 +1,93 @@
+{
+ "grid": {
+  "n": 384,
+  "T": 64.0,
+  "K": 13.0,
+  "kc": 8.0
+ },
+ "seed": 7,
+ "eta_TL_grid": 0.21428004529631842,
+ "eta_TL_line": 0.21427886590789058,
+ "searches": [
+  {
+   "family": "passive-cheb",
+   "start": "nearTL",
+   "eta_grid": 0.21963609378843935,
+   "gain_grid": 0.024995554227712935,
+   "nfev": 198,
+   "throughput": 0.9677242054600432,
+   "wall_s": 14.048831224441528
+  },
+  {
+   "family": "passive-cheb",
+   "start": "rand0.3",
+   "eta_grid": 0.21963420288058977,
+   "gain_grid": 0.024986729757627835,
+   "nfev": 268,
+   "throughput": 0.9679200373857955,
+   "wall_s": 21.423002243041992
+  },
+  {
+   "family": "passive-cheb",
+   "start": "rand0.8",
+   "eta_grid": 0.21928063185483782,
+   "gain_grid": 0.023336687985128668,
+   "nfev": 373,
+   "throughput": 0.9968612443184435,
+   "wall_s": 29.85082697868347
+  },
+  {
+   "family": "passive-cheb",
+   "start": "rand1.5",
+   "eta_grid": 0.2199398900042177,
+   "gain_grid": 0.026413307408408304,
+   "nfev": 521,
+   "throughput": 0.9995470918996769,
+   "wall_s": 40.25454783439636
+  },
+  {
+   "family": "passive-bins",
+   "start": "nearTL",
+   "eta_grid": 0.2202272977593828,
+   "gain_grid": 0.027754579082901465,
+   "nfev": 413,
+   "throughput": 0.9997890040986028,
+   "wall_s": 29.63221025466919
+  },
+  {
+   "family": "passive-bins",
+   "start": "rand0.5",
+   "eta_grid": 0.2202264524564293,
+   "gain_grid": 0.0277506342314231,
+   "nfev": 415,
+   "throughput": 0.9998003186912533,
+   "wall_s": 32.00571918487549
+  }
+ ],
+ "verified": {
+  "passive-cheb": {
+   "eta_grid": 0.2199398900042177,
+   "eta_line_R_4096": 0.21994113634705828,
+   "eta_line_R_8192": 0.21994113653046612,
+   "zeta_line": [
+    -0.35305327092602834,
+    0.21994113653046612
+   ],
+   "gain_over_TL_line": 0.026424774083924518,
+   "throughput": 0.9995470918996769,
+   "T_line": 96.0
+  },
+  "passive-bins": {
+   "eta_grid": 0.2202272977593828,
+   "eta_line_R_4096": 0.22022822506645312,
+   "eta_line_R_8192": NaN,
+   "zeta_line": [
+    NaN,
+    NaN
+   ],
+   "gain_over_TL_line": NaN,
+   "throughput": 0.9997890040986028,
+   "T_line": 64.0
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "base_run": "2026-10-17-gpt-c-raman-sharpening",
+  "base_forward_sha256": "6c97a2b328bcfde2daa7a177f6927eef825f0b639ef5429c85664d36f34320d3",
+  "base_commit": "ad87df95c12e31a4d15b5c0daff2662407217f91",
+  "changes": [
+    "published measured eight-mode ZBLAN response",
+    "1940 nm carrier; Kormokar2021 fibre beta2 beta3 gamma and loss",
+    "spectral support bands for fluoride",
+    "sampled-kernel control for ZBLAN"
+  ]
+}

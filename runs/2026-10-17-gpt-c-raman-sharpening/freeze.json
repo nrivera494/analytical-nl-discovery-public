@@ -1,0 +1,9 @@
+{
+  "agent": "gpt-c",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "predictions_commit": "7390e2cbf694fe0e33d64b53bd708000f21230e8",
+  "holdout_fit_commit": "abe44ab382621ff706ca234ac7bac8fca06d6b02",
+  "fit_note": "Initial BW calibration only; all new heldouts and subsequent peak refinements remain excluded from coefficient fitting.",
+  "physical_resolution_prediction_commit": "73562db98b12aaf6402bc83a3a86a94df96570a2"
+}

@@ -1,0 +1,19 @@
+{
+  "agent": "gpt-b",
+  "model": "gpt-6-astra",
+  "family": "gpt",
+  "one_step_dt": 1e-05,
+  "errors": {
+    "conj_fourth": 3.783419748060797e-06,
+    "conj_second": 0.33249366485684334,
+    "conj_third": 0.33249366485684334
+  },
+  "selected": "conj_fourth",
+  "python_axes": [
+    0,
+    2,
+    3,
+    1
+  ],
+  "note": "Initial unpermuted resonant tensor failed; the full HG tensor is permutation-symmetric but the beat-averaged tensor is not. Black-box probe, no proposer or solver source read."
+}

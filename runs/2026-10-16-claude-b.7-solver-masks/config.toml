@@ -1,0 +1,24 @@
+# Run 2026-10-16-claude-b.7-solver-masks: configuration (deterministic; no seeds). masks.jl is authoritative.
+[model]
+equation = "i u_xi + (1/2) u_tautau + N^2 |u|^2 u = i delta3 u_tautautau (M0, NoRaman)"
+N = 3.0
+delta3 = 0.05
+xi_f = 2.0
+laser = "exp(-tau^2/2)"
+mapping = "L_D = 1 m; beta2 = -1 ps^2/m; beta3 = 0.3 ps^3/m; gamma = 1 /W/m; P0 = 9 W; length 2 m"
+omega0T0 = [1.0e6, 1.0e8]   # 1e8 only for the primary-grid self-steepening check (MASKS_W0T0=1e8)
+
+[masks]
+source = "runs/2026-10-16-claude-b-dw-shaping/opt_N3_d0.05_xi2.json (mask_phase, mask_passive)"
+bins = "w = k 2pi/70, |k| <= 53 (107 bins); applied as A_k(0) *= a exp(i phi)"
+
+[observables]
+eta_B = "sum_{w >= 10/3} |A_k(2)|^2 / sum_k |A_laser,k|^2"
+eta_G = "same after g = 1 - 0.5 [tanh(tau + 15) - tanh(tau - 15)]"
+
+[grids]
+primary = { TW = 70.0, Nt = 1024, nsteps = [2000, 4000, 8000] }
+Ftau = { TW = 70.0, Nt = 2048, nsteps = 8000 }
+W140 = { TW = 140.0, Nt = 2048, nsteps = 8000, input = "TW 70 masked field zero-padded in time" }
+W280 = { TW = 280.0, Nt = 4096, nsteps = 8000, input = "TW 70 masked field zero-padded in time" }
+W140interp = { TW = 140.0, Nt = 2048, nsteps = 8000, input = "mask interpolated linearly in w" }

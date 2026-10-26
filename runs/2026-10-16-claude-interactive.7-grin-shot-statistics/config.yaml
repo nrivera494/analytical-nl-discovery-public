@@ -1,0 +1,25 @@
+# Run 2026-10-16-claude-interactive.7-grin-shot-statistics: shot-to-shot statistics of the output mode powers at large photon
+# number. Exact GRIN Kerr tensor, K = 5 groups (15 Hermite-Gauss modes), resonant model, Brownian intra-group disorder
+# sigma = 0.3, launch E' = 0.6 (fundamental 0.6, groups 1 and 2 at 0.2 each, random fixed phases), z in L_NL, RK4 dz = 0.05.
+# 128 shots per ensemble; classical dynamics from noisy inputs (= truncated Wigner when the noise is vacuum noise).
+shot_stats.py:
+  usage: "no arguments: K = 5, all five ensembles (shot_stats.json); optional arguments K and a comma list of ensembles (shot_stats_K<K>.json). The arguments were added after the K = 5 run; the default path draws the same noise in the same order"
+  ensembles:
+    q1e10: "coherent launch, vacuum noise for n = 1e10 photons per cell"
+    q1e6: "same noise shape, n_eff = 1e6"
+    q1e4: "same noise shape, n_eff = 1e4"
+    rin1pc: "common-mode amplitude jitter of 1% RMS (2% in power) plus vacuum noise at n = 1e10"
+    deph: "random phase per mode per shot at the launch powers, plus vacuum noise at n = 1e10"
+  checkpoints: "z = 1, 2, 5, 10, 20, 30, 50, 75, 100, 150, 200, 250, 300"
+fig_shot_stats.py: "fig_shot_stats.png"
+summarize_K.py: "summary_K6.json, summary_K6.txt (compact summary for any K and ensemble subset)"
+summarize.py: "summary.json, summary.txt: median relative variances (launched vs initially empty excited modes), the fundamental's statistics, Gaussian-scaling ratios, Dirichlet reference"
+pulse_stats.py: "within-pulse statistics: 128 time slices across the FWHM of a Gaussian pulse (s = P/P_peak in [1/2, 1]), same fibre and launch, two pulses with independent vacuum noise at n = 1e10; z = 10, 30, 100, 300 L_NL at peak; outputs pulse_stats.json, pulse_stats_log.txt"
+shot_stats_K6: "K = 6 (21 modes), ensembles q1e10, q1e4, deph, same launch powers and disorder strength; mode-count check of the K = 5 results"
+commands:
+  - "~/agent-work/venv/bin/python -W ignore shot_stats.py"
+  - "~/agent-work/venv/bin/python summarize.py"
+  - "~/agent-work/venv/bin/python -W ignore fig_shot_stats.py"
+  - "~/agent-work/venv/bin/python -W ignore pulse_stats.py | tee pulse_stats_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore shot_stats.py 6 q1e10,q1e4,deph | tee shot_stats_K6_log.txt"
+  - "~/agent-work/venv/bin/python -W ignore summarize_K.py shot_stats_K6.json | tee summary_K6.txt"

@@ -1,0 +1,6 @@
+{"file": "h4_N3_T100_d005_phi.json", "N": 3.0, "T0_fs": 100.0, "d3": 0.05, "mask": "TL", "f1_ZS_nominal": 0.6477, "f1_ZS_local": 0.7495, "f1_window": 0.7512, "W_c": 5.00617, "D_local": 2.50185}
+{"file": "h4_N3_T100_d005_phi.json", "N": 3.0, "T0_fs": 100.0, "d3": 0.05, "mask": "best", "f1_ZS_nominal": 0.67858, "f1_ZS_local": 0.74649, "f1_window": 0.76335, "W_c": 4.32742, "D_local": 2.29823}
+{"file": "h4_N3_T100_d0_phi.json", "N": 3.0, "T0_fs": 100.0, "d3": 0.0, "mask": "TL", "f1_ZS_nominal": 0.72754, "f1_ZS_local": 0.72754, "f1_window": 0.73214, "W_c": 14.2897, "D_local": 1.0}
+{"file": "h4_N3_T100_d0_phi.json", "N": 3.0, "T0_fs": 100.0, "d3": 0.0, "mask": "best", "f1_ZS_nominal": 0.73507, "f1_ZS_local": 0.73507, "f1_window": 0.74005, "W_c": 14.39871, "D_local": 1.0}
+{"file": "h4_N4_T200_d0_phi.json", "N": 4.0, "T0_fs": 200.0, "d3": 0.0, "mask": "TL", "f1_ZS_nominal": 0.64416, "f1_ZS_local": 0.64416, "f1_window": 0.6467, "W_c": 40.46452, "D_local": 1.0}
+{"file": "h4_N4_T200_d0_phi.json", "N": 4.0, "T0_fs": 200.0, "d3": 0.0, "mask": "best", "f1_ZS_nominal": 0.66671, "f1_ZS_local": 0.66671, "f1_window": 0.6696, "W_c": 42.11297, "D_local": 1.0}
